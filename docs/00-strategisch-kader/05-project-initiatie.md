@@ -1,4 +1,4 @@
-﻿# Project Initiatie
+# Project Initiatie
 
 ## Doel
 Het formaliseren van de start van een AI-project door het vastleggen van heldere doelen, rollen, verantwoordelijkheden en kaders in een *Project Charter*.
@@ -20,8 +20,8 @@ Het formaliseren van de start van een AI-project door het vastleggen van heldere
 *   Plan de **Gate Reviews** en checkpoints in de agenda.
 
 ### 4. Risk Management Plan
-*   Voer een initiÃ«le risico-inventarisatie uit.
-*   Ontwikkel mitigatie strategieÃ«n voor de top-risico's.
+*   Voer een initiële risico-inventarisatie uit.
+*   Ontwikkel mitigatie strategieën voor de top-risico's.
 *   *Zie template: [Risk Assessment](../09-sjablonen/03-risicoanalyse/template.md)*
 
 ### 5. Communicatie Plan
@@ -32,7 +32,7 @@ Het formaliseren van de start van een AI-project door het vastleggen van heldere
 Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 
 *   **Project Charter:** Voor scope en mandaat.
-*   **Risk Assessment:** Voor initiÃ«le risicoanalyse.
+*   **Risk Assessment:** Voor initiële risicoanalyse.
 *   **Gate Review Checklist:** Voor voorbereiding op de eerste Gate.
 
 ## Gerelateerde Modules

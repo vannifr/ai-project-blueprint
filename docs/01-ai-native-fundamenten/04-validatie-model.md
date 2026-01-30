@@ -1,6 +1,6 @@
-﻿# Validatie Model
+# Validatie Model
 
-Elke wijziging die GenAI beÃ¯nvloedt, moet drie validatiecategorieÃ«n doorlopen:
+Elke wijziging die GenAI beïnvloedt, moet drie validatiecategorieën doorlopen:
 
 ### 1. Syntactische Geldigheid (*Syntactic Validity*)
 *   **Vraag:** Kan het draaien?
@@ -17,6 +17,6 @@ Elke wijziging die GenAI beÃ¯nvloedt, moet drie validatiecategorieÃ«n doorlo
 
 ---
 
-Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

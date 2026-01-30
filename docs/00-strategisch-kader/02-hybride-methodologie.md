@@ -1,4 +1,4 @@
-﻿# Hybride Methodologie
+# Hybride Methodologie
 
 ## Doel
 Dit document beschrijft de hybride aanpak van het AI Project Playbook, waarbij voorspelbare planning (Waterfall) wordt gecombineerd met iteratieve uitvoering (Agile) voor een optimale balans tussen structuur en flexibiliteit.
@@ -40,7 +40,7 @@ gantt
 *   **Structuur:** Duidelijke planning en governance voor management.
 *   **Flexibiliteit:** Snelle aanpassing aan nieuwe data-inzichten voor het team.
 *   **Risicobeheer:** Proactieve risico-identificatie en mitigatie.
-*   **Compliance:** GeÃ¯ntegreerde EU AI Act compliance reviews.
+*   **Compliance:** Geïntegreerde EU AI Act compliance reviews.
 
 
 ---

@@ -1,7 +1,7 @@
-﻿# HAS H Niveaus: De 5 Tiers van AI-Integratie
+# HAS H Niveaus: De 5 Tiers van AI-Integratie
 
 ## Doel
-Het *Human-AI System* (HAS) H-model definieert de mate waarin AI geÃ¯ntegreerd is in de operationele processen en besluitvorming. Dit model helpt organisaties om hun huidige status te bepalen en een groeipad uit te stippelen van traditionele werkwijzen naar een autonome, AI-gedreven onderneming.
+Het *Human-AI System* (HAS) H-model definieert de mate waarin AI geïntegreerd is in de operationele processen en besluitvorming. Dit model helpt organisaties om hun huidige status te bepalen en een groeipad uit te stippelen van traditionele werkwijzen naar een autonome, AI-gedreven onderneming.
 
 **Belangrijkste inzicht:** Elk niveau brengt specifieke vereisten met zich mee op het gebied van governance, validatie, teamstructuur en risicomanagement.
 
@@ -43,7 +43,7 @@ AI als het besturingssysteem. Processen worden herontworpen met AI als uitgangsp
 *   **Feedback Loops:** Machine-intern (telemetrie, logs). Mensen handelen alleen bij uitzonderingen.
 *   **Rol van AI:** AI agents voeren processen uit. Mensen zijn auditors.
 *   **Risico:** '*Silent failures*' als metrics niet kloppen. Hallucinaties op schaal.
-*   **Validatie:** Continue geautomatiseerde validatie. Mensen valideren alleen anomalieÃ«n.
+*   **Validatie:** Continue geautomatiseerde validatie. Mensen valideren alleen anomalieën.
 *   **Nieuwe Rol:** AI Operator, AI Risk Owner. De traditionele PM-rol verdwijnt.
 
 ### H5: Autonomous Agents (Fleet Management)
@@ -73,6 +73,6 @@ Naarmate het niveau stijgt (van H1 naar H5), wordt *Context Management* kritisch
 
 ---
 
-Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

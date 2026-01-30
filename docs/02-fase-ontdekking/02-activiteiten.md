@@ -1,7 +1,7 @@
-﻿# Kernactiviteiten (Discovery)
+# Kernactiviteiten (Discovery)
 
 ## Activiteit 3.1: Strategische Probleemdefinitie & Ideatie
-We definiÃ«ren het probleem vanuit de eindgebruiker, niet vanuit de technologie.
+We definiëren het probleem vanuit de eindgebruiker, niet vanuit de technologie.
 
 *   **Problem Framing:** Formuleer specifieke uitdagingen en businessdoelen.
 *   **AI-Onderscheid:** Beoordeel of het probleem daadwerkelijk een AI-oplossing vereist (patroonherkenning, generatie, voorspelling) of dat traditionele software volstaat.
@@ -17,9 +17,9 @@ Zonder data geen AI. We evalueren de grondstof van het project.
 ## Activiteit 3.3: Haalbaarheid & Prioritering
 Niet elk goed idee is haalbaar. We filteren de backlog.
 
-*   **Value vs. Feasibility Matrix:** Plot alle ideeÃ«n op een matrix (Business Value vs. Technische Haalbaarheid).
-*   **Focus:** Selecteer maximaal 2 tot 3 initiÃ«le use cases om versnippering te voorkomen.
-*   **ROI Potentieel:** Eerste inschatting van voordelen (omzet, besparing, efficiÃ«ntie).
+*   **Value vs. Feasibility Matrix:** Plot alle ideeën op een matrix (Business Value vs. Technische Haalbaarheid).
+*   **Focus:** Selecteer maximaal 2 tot 3 initiële use cases om versnippering te voorkomen.
+*   **ROI Potentieel:** Eerste inschatting van voordelen (omzet, besparing, efficiëntie).
 *   **HAS H Assessment:** Bepaal het beoogde integratieniveau (H1: Menselijke controle t/m H5: Autonoom).
 
 ## Activiteit 3.4: Governance Pre-scan (EU AI Act)
@@ -41,6 +41,6 @@ We identificeren juridische en ethische showstoppers vroegtijdig.
 
 ---
 
-Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

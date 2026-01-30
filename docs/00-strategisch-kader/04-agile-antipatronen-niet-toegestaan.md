@@ -1,4 +1,4 @@
-﻿# Agile Antipatronen (NOT DONE)
+# Agile Antipatronen (NOT DONE)
 
 ## Doel
 Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatronen die absoluut vermeden moeten worden om falen, onethisch gedrag of compliance-issues te voorkomen.
@@ -26,7 +26,7 @@ Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatron
 *   **Status:** Geen checkpoints = **NIET TOEGESTAAN**.
 
 ### âŒ Geen Stakeholder Engagement
-*   **Regel:** Stakeholders en eindgebruikers moeten vanaf dag Ã©Ã©n betrokken zijn.
+*   **Regel:** Stakeholders en eindgebruikers moeten vanaf dag één betrokken zijn.
 *   **Impact:** Oplossingen die niet gebruikt worden.
 *   **Status:** Geen engagement = **NIET TOEGESTAAN**.
 
@@ -41,7 +41,7 @@ Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatron
 *   **Status:** Geen checks = **NIET TOEGESTAAN**.
 
 ### âŒ Geen Risk Management
-*   **Regel:** Risico's moeten proactief geÃ¯dentificeerd en gemitigeerd worden.
+*   **Regel:** Risico's moeten proactief geïdentificeerd en gemitigeerd worden.
 *   **Impact:** Onverwachte incidenten.
 *   **Status:** Geen risk management = **NIET TOEGESTAAN**.
 
@@ -54,7 +54,7 @@ Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatron
 Gebruik deze lijst als:
 1.  **Checklist** tijdens project initiatie.
 2.  **Review criteria** tijdens Gate Reviews.
-3.  **Training materiaal** voor teams om bewustzijn te creÃ«ren.
+3.  **Training materiaal** voor teams om bewustzijn te creëren.
 4.  **Audit tool** voor compliance verificatie.
 
 

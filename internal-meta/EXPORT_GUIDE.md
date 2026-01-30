@@ -1,4 +1,4 @@
-﻿# Handleiding voor Exporteren van Documentatie
+# Handleiding voor Exporteren van Documentatie
 
 Dit document beschrijft de methoden om de Markdown (.md) bestanden van het AI Project Playbook te exporteren naar andere formaten zoals HTML, PDF en Word (DOCX).
 
@@ -6,7 +6,7 @@ Dit document beschrijft de methoden om de Markdown (.md) bestanden van het AI Pr
 Voor levende documentatie die makkelijk doorzoekbaar is, raden we aan om een statische website te genereren met **MkDocs**.
 
 ### Benodigdheden
-*   Python geÃ¯nstalleerd
+*   Python geïnstalleerd
 *   `pip` package manager
 
 ### Installatie
@@ -66,7 +66,7 @@ pandoc "docs/00-strategisch-kader/01-ai-levenscyclus.md" -o "AI_Levenscyclus.pdf
 ```
 
 #### Meerdere bestanden samenvoegen
-Je kunt een heel hoofdstuk naar Ã©Ã©n PDF exporteren:
+Je kunt een heel hoofdstuk naar één PDF exporteren:
 ```bash
 pandoc docs/00-strategisch-kader/*.md -o Strategisch_Kader_Compleet.pdf --pdf-engine=wkhtmltopdf
 ```
@@ -74,7 +74,7 @@ pandoc docs/00-strategisch-kader/*.md -o Strategisch_Kader_Compleet.pdf --pdf-en
 ---
 
 ## Optie 3: VS Code Extensies (Snel & Simpel)
-Als je snel Ã©Ã©n bestand wilt exporteren zonder command line tools.
+Als je snel één bestand wilt exporteren zonder command line tools.
 
 ### Aanbevolen Extensie
 *   **Markdown PDF** (yzane)
@@ -86,7 +86,7 @@ Als je snel Ã©Ã©n bestand wilt exporteren zonder command line tools.
 
 ---
 
-Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 
 

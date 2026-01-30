@@ -1,4 +1,4 @@
-﻿# Module Beschrijvingen - AI Project Playbook
+# Module Beschrijvingen - AI Project Playbook
 
 Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk bestand van het AI Project Playbook moet komen te staan.
 
@@ -64,7 +64,7 @@ Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk 
 *   **01-eu-ai-act/**: Specifieke vereisten en checklists voor EU compliance.
 *   **02-risicobeheer/**: Integrale risicomanagement frameworks.
 *   **03-ethische-richtlijnen.md**: Principes voor eerlijkheid, transparantie en menselijk toezicht.
-*   **04-validatie-eisen.md**: Definitie van de 3 validatie categorieÃ«n.
+*   **04-validatie-eisen.md**: Definitie van de 3 validatie categorieën.
 *   **05-incidentrespons.md**: Wat te doen bij onverwacht modelgedrag of datalekken.
 
 ## 08-Technische Standaarden

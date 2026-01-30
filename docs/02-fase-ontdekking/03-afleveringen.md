@@ -1,4 +1,4 @@
-﻿# Deliverables & Gate 1 (Discovery)
+# Deliverables & Gate 1 (Discovery)
 
 ## Deliverables (Afleveringen)
 In deze fase worden de volgende tastbare resultaten opgeleverd:
@@ -6,7 +6,7 @@ In deze fase worden de volgende tastbare resultaten opgeleverd:
 *   **Project Charter:** Inclusief scope, doelen (OKRs) en team.
 *   **Intent Record (v1):** Formele definitie van het beoogde AI-gedrag (zie *Sjablonen*).
 *   **Data Readiness Rapport:** Scorecard van de datakwaliteit en beschikbaarheid.
-*   **Prioriteiten Matrix:** Visueel overzicht van geÃ«valueerde use cases.
+*   **Prioriteiten Matrix:** Visueel overzicht van geëvalueerde use cases.
 *   **Risk Pre-scan:** Eerste classificatie volgens EU AI Act en interne ethische normen.
 
 ## Gate 1 Review Checklist (Exit Criteria)
@@ -32,6 +32,6 @@ Om door te gaan naar **Fase 3: Validatie**, moeten de volgende punten met "JA" w
 
 ---
 
-Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 
