@@ -2,7 +2,7 @@
 
 Deze styleguide zorgt voor consistente, professionele en toegankelijke documentatie voor het AI Project Playbook.
 
-## ðŸ“‹ Documentatie Styleguide
+## 📋 Documentatie Styleguide
 
 ### 1. Taal en Terminologie
 *   **Taalkeuze:** Volledig Nederlands. Engelse termen in *cursief* voor technische concepten.
@@ -27,7 +27,7 @@ Deze styleguide zorgt voor consistente, professionele en toegankelijke documenta
 | 90-Day Roadmap | 90-Dagen Roadmap | *90-Day* in cursief |
 
 **Afkortingen:**
-*   **AI** = ArtificiÃ«le Intelligentie
+*   **AI** = Artificiële Intelligentie
 *   **EU AI Act** = Europese AI Verordening
 *   **PoV** = Proof of Value
 *   **ROI** = Return on Investment
@@ -121,30 +121,34 @@ Deze styleguide zorgt voor consistente, professionele en toegankelijke documenta
 
 ---
 
-### 6. Versiebeheer & Review
+### 6. Inhoudelijke Integriteit & Plagiaat
+*   **Geen Plagiaat:** Het kopiëren van tekst uit andere bronnen zonder bronvermelding is strikt verboden.
+*   **Originele Content:** Alle content moet origineel zijn of substantieel herschreven om te passen binnen de context van dit playbook.
+*   **Plagiaat Check:** Elk nieuw document moet worden gecontroleerd op plagiaat voordat het wordt gepubliceerd.
+
+---
+
+### 7. Versiebeheer & Review
 *   **Versiebeheer:** Gebruik semantische versioning (MAJOR.MINOR.PATCH).
 *   **Changelog:** Documenteer wijzigingen per versie.
-*   **Review:** Ieder document wordt gecontroleerd op taal, terminologie, structuur en toegankelijkheid.
+*   **Review:** Ieder document wordt gecontroleerd op taal, terminologie, structuur, toegankelijkheid en **originaliteit (plagiaat check)**.
 
 ---
 
-### 7. Licentie & Copyright
+### 8. Licentie & Copyright
 *   **Licentie:** Alle documentatie valt onder de **Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal (CC BY-NC-SA 4.0)**.
-*   **Voettekst:** Voeg aan elk significant document toe: `Â© [Jaar] [Organisatie]. Gelicenseerd onder CC BY-NC-SA 4.0.`
+*   **Voettekst:** Voeg aan elk significant document toe: `© [Jaar] [Organisatie]. Gelicenseerd onder CC BY-NC-SA 4.0.`
 
 ---
 
-### ðŸ“ Quick Reference
-*   âœ… **Altijd Nederlands**, Engelse termen in *cursief*.
-*   âœ… Volg de vaste **Module/Fase structuur**.
-*   âœ… Gebruik **Mermaid** voor diagrammen.
-*   âœ… Houd **terminologie** consistent met de lijst.
-*   âŒ Vermijd het mengen van talen zonder cursivering.
-*   âŒ Geen inconsistente terminologie of ontbrekende structuur.
-
+### 📍 Quick Reference
+*   ✅ **Altijd Nederlands**, Engelse termen in *cursief*.
+*   ✅ Volg de vaste **Module/Fase structuur**.
+*   ✅ Gebruik **Mermaid** voor diagrammen.
+*   ✅ Houd **terminologie** consistent met de lijst.
+*   ✅ Voer altijd een **plagiaat check** uit.
+*   ❌ Vermijd het mengen van talen zonder cursivering.
+*   ❌ Geen inconsistente terminologie of ontbrekende structuur.
 
 ---
 © 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-
-
