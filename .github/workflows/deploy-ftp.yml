@@ -32,6 +32,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          # server-dir: public_html/      # Pas dit aan naar de map op je FTP server
+          server-dir: /public_html/ai-project-playbook/  # Upload naar deze map
           local-dir: ./site/            # Dit is de map waar MkDocs de site bouwt
           protocol: input                # Of 'ftp' of 'ftps' afhankelijk van je server
