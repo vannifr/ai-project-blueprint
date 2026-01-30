@@ -5,8 +5,8 @@ copyright: '© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.'
 
 # Blokkeer zoekmachines
 extra:
-  analytics:
-    provider: none
+  # analytics verwijderd om build error te voorkomen
+
 
 extra_css:
   - stylesheets/extra.css
@@ -95,8 +95,3 @@ nav:
     - Profielen: 13-organisatieprofielen/index.md
     - Drie Tracks: 14-drie-tracks/index.md
     - Accelerators: 15-accelerators/index.md
-  - Meta-Info:
-    - Backlog: 00-meta/BACKLOG.md
-    - Styleguide: 00-meta/STYLE_GUIDE.md
-    - Module Beschrijvingen: 00-meta/MODULE_BESCHRIJVINGEN.md
-    - Export Guide: 00-meta/EXPORT_GUIDE.md
