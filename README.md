@@ -36,6 +36,7 @@ Open vervolgens [http://localhost:8000](http://localhost:8000).
 Zie [docs/00-meta/STYLE_GUIDE.md](docs/00-meta/STYLE_GUIDE.md) voor richtlijnen over:
 *   Tone of voice (Nederlands, professioneel).
 *   Markdown standaarden.
+*   **Originaliteit:** Geen plagiaat toegestaan; verplichte plagiaat check.
 *   Branching strategie.
 
 ## 📄 Licentie
