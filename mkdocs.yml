@@ -1,0 +1,89 @@
+site_name: AI Project Playbook
+site_description: Modulaire documentatie voor AI-projectmanagement (PMI-CPMAI & Agile-AI).
+site_author: AI Project Playbook Team
+copyright: '© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.'
+
+theme:
+  name: material
+  language: nl
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: teal
+      accent: purple
+    - scheme: slate
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Strategisch Kader:
+    - Overzicht: 00-strategisch-kader/01-ai-levenscyclus.md
+    - Hybride Methodologie: 00-strategisch-kader/02-hybride-methodologie.md
+    - Governance: 00-strategisch-kader/03-governance-model.md
+    - Antipatronen: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
+    - Initiatie: 00-strategisch-kader/05-project-initiatie.md
+    - HAS H Niveaus: 00-strategisch-kader/06-has-h-niveaus.md
+    - Heruitvinding: 00-strategisch-kader/07-organisatorische-heruitvinding.md
+  - AI-Native Fundamenten:
+    - Definitie: 01-ai-native-fundamenten/01-definitie.md
+    - Criteria: 01-ai-native-fundamenten/02-normatieve-criteria.md
+    - Artefact Model: 01-ai-native-fundamenten/03-artefact-model.md
+    - Validatie: 01-ai-native-fundamenten/04-validatie-model.md
+    - Risico's: 01-ai-native-fundamenten/05-risicoclassificatie.md
+    - SDD Patroon: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
+    - Bewijs: 01-ai-native-fundamenten/07-bewijsstandaarden.md
+  - Fase Gidsen:
+    - 1. Ontdekking:
+      - Doel: 02-fase-ontdekking/01-doelstellingen.md
+      - Activiteiten: 02-fase-ontdekking/02-activiteiten.md
+      - Afleveringen: 02-fase-ontdekking/03-afleveringen.md
+      - Templates: 02-fase-ontdekking/04-sjablonen/
+      - Assessment: 02-fase-ontdekking/05-has-h-beoordeling.md
+    - 2. Validatie:
+      - Doel: 03-fase-validatie/01-doelstellingen.md
+      - Activiteiten: 03-fase-validatie/02-activiteiten.md
+      - ...
+  - Compliance Hub:
+    - EU AI Act: 07-compliance-hub/01-eu-ai-act/
+    - Risicobeheer: 07-compliance-hub/02-risicobeheer/
+    - Ethiek: 07-compliance-hub/03-ethische-richtlijnen.md
+    - Validatie Eisen: 07-compliance-hub/04-validatie-eisen.md
+    - Incident Respons: 07-compliance-hub/05-incidentrespons.md
+  - Toolkit & Templates:
+    - Sjablonen: 09-sjablonen/
+    - Technische Standaarden: 08-technische-standaarden/
+  - Organisatie:
+    - Roadmap 90-Dagen: 12-90-dagen-roadmap/
+    - Profielen: 13-organisatieprofielen/
+    - Drie Tracks: 14-drie-tracks/
+    - Accelerators: 15-accelerators/
+  - Meta-Info:
+    - Backlog: 00-meta/BACKLOG.md
+    - Styleguide: 00-meta/STYLE_GUIDE.md
+    - Module Beschrijvingen: 00-meta/MODULE_BESCHRIJVINGEN.md
+    - Export Guide: 00-meta/EXPORT_GUIDE.md
