@@ -20,7 +20,9 @@ Dit is de centrale documentatiehub voor AI-projectmanagement, gebaseerd op PMI-C
 4.  **Delivery:** Implementatie & Adoptie
 5.  **Monitoring:** Onderhoud & Optimalisatie
 
-### Ondersteuning
+### Ondersteuning & Organisatie
+*   **Drie Tracks:** Strategie, Engineering & Adoptie
+*   **[Roadmap 90-Dagen](12-90-dagen-roadmap/index.md):** Actieplan voor AI-transformatie.
 *   **Compliance Hub:** EU AI Act & Risico's
 *   **Technische Standaarden:** MLOps & Architectuur
 *   **Sjablonen:** Toolkit voor projectmanagers

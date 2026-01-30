@@ -89,7 +89,11 @@ nav:
     - Sjablonen: 09-sjablonen/index.md
     - Technische Standaarden: 08-technische-standaarden/index.md
   - Organisatie:
-    - Roadmap 90-Dagen: 12-90-dagen-roadmap/index.md
+    - Roadmap 90-Dagen:
+      - Overzicht: 12-90-dagen-roadmap/index.md
+      - Fase 1 (Dagen 1-30): 12-90-dagen-roadmap/01-fase-1-richt-focus-rationaliseer.md
+      - Fase 2 (Dagen 31-60): 12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.md
+      - Fase 3 (Dagen 61-90): 12-90-dagen-roadmap/03-fase-3-codificeer-schaal.md
     - Profielen: 13-organisatieprofielen/index.md
     - Drie Tracks: 14-drie-tracks/index.md
     - Accelerators: 15-accelerators/index.md
