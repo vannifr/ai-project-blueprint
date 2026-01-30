@@ -3,6 +3,19 @@ site_description: Modulaire documentatie voor AI-projectmanagement (PMI-CPMAI & 
 site_author: AI Project Playbook Team
 copyright: '© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.'
 
+# Blokkeer zoekmachines
+extra:
+  analytics:
+    provider: none
+
+extra_css:
+  - stylesheets/extra.css
+
+# Voeg noindex toe aan de head van elke pagina
+hooks:
+  - hooks/add_noindex.py
+
+
 theme:
   name: material
   language: nl
@@ -13,6 +26,7 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
+  custom_dir: overrides
   palette:
     - scheme: default
       primary: teal
