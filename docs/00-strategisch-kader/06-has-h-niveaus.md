@@ -73,5 +73,6 @@ Naarmate het niveau stijgt (van H1 naar H5), wordt *Context Management* kritisch
 
 ---
 
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+
 

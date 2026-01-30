@@ -7,5 +7,6 @@ Het primaire doel van de Discovery-fase is de verschuiving van "wat kunnen we bo
 
 ---
 
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+
 

@@ -98,6 +98,7 @@ Dit document bevat de geprioriteerde roadmap voor de ontwikkeling van het AI Pro
 
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+
 
 

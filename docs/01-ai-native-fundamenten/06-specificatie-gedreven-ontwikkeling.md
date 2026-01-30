@@ -16,5 +16,6 @@ In plaats van direct prompts te schrijven, volgen we deze cyclus:
 
 ---
 
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+
 

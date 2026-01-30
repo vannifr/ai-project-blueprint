@@ -13,5 +13,6 @@ Het verschuift de primaire focus van het schrijven van logica naar het sturen va
 
 ---
 
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+
 

@@ -86,6 +86,7 @@ Als je snel Ã©Ã©n bestand wilt exporteren zonder command line tools.
 
 ---
 
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+
 
 

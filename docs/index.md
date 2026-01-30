@@ -32,5 +32,6 @@ Dit is de centrale documentatiehub voor AI-projectmanagement, gebaseerd op PMI-C
 *   **[Export Handleiding](00-meta/EXPORT_GUIDE.md):** Hoe dit te exporteren naar PDF/Word.
 
 ---
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+
 

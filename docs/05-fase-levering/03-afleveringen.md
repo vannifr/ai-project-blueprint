@@ -19,4 +19,5 @@ Voldoe aan deze criteria om door te gaan naar **Fase 6: Monitoring**:
 
 ---
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+
