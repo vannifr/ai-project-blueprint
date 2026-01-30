@@ -1,23 +1,30 @@
 ﻿# Deliverables & Gate 5 (Monitoring)
 
-## Deliverables (Afleveringen)
-De resultaten van de Monitoringfase:
+## 6. Deliverables (Afleveringen)
+De resultaten van de Monitoringfase voor een duurzame operatie:
 
-*   **Operationeel Dashboard:** Real-time inzicht in technische en business prestaties.
-*   **Periodiek Validatie Rapport:** Bewijslast voor continue conformiteit (bijv. voor de EU AI Act).
-*   **Batenrealisatie Rapportage:** Overzicht van de werkelijk behaalde ROI versus de business case.
-*   **Optimalisatie Roadmap:** Plan voor doorlopende verbeteringen en nieuwe functies.
+*   **Performance Dashboards:** Live inzicht in techniek en business.
+*   **Drift Rapporten:** Analyse van data-veranderingen.
+*   **Retrained Modellen:** Nieuwe versies van het model.
+*   **Audit Logs:** Geschiedenis van beslissingen en wijzigingen.
+*   **Transparantie & Impact Rapportage:** Voor interne en externe stakeholders.
 
-!!! check "Gate 5 Review Checklist (Exit Criteria)"
-    Voldoe aan deze criteria voor een gezonde operatie:
+!!! check "Gate 5 Review / Periodic Review (Exit Criteria)"
+    In deze fase is er geen harde 'exit', maar periodieke reviews (bv. per kwartaal). Punten voor de review:
 
-    - [ ] Zijn de monitoring dashboards actief en toegankelijk voor de juiste mensen?
-    - [ ] Is het proces voor retraining en modelverversing gedefinieerd en getest?
-    - [ ] Worden ethische en kwaliteitsrisico's periodiek gerapporteerd?
-    - [ ] Is de batenrealisatie (ROI) inzichtelijk voor de stakeholders?
-    - [ ] Is er een duidelijke eigenaar voor het systeem op lange termijn?
+    - [ ] Draait het model stabiel binnen de SLA's?
+    - [ ] Is de nauwkeurigheid op peil (geen significante drift)?
+    - [ ] Blijft de Business Case (ROI) positief?
+    - [ ] Zijn er incidenten geweest en zijn die correct afgehandeld?
+    - [ ] Voldoet het systeem nog aan de (mogelijk gewijzigde) wetgeving?
+    - [ ] Is de backlog van verbeteringen onder controle?
+
+    *Indien "Nee" op kritieke punten: Overweeg decommissioning of herstart (terug naar Discovery).*
+
+## Gerelateerde Templates
+*   **10-03 Metrics-dashboards:** [Sjabloon](../../09-sjablonen/index.md)
+*   **08-01 MLOps-standaarden:** [Link](../../08-technische-standaarden/index.md)
+*   **06-05 Drift-detectie:** [Details](05-drift-detectie.md)
 
 ---
-
 © 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
-
