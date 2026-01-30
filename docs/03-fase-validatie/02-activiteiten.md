@@ -1,39 +1,43 @@
-﻿# Kernactiviteiten (Validatie)
+﻿# Kernactiviteiten & RACI (Validatie)
 
-## Activiteit 4.1: Ontwikkeling van de Proof of Concept (PoC)
-Het bouwen van een prototype om de kernhypothese te testen.
-*   **Model Selectie:** Kiezen van geschikte algoritmen of basismodellen (LLMs).
-*   **Prompt Engineering & Tuning:** Optimaliseren van de interactie met de AI.
-*   **Data Voorbereiding:** Selecteren van een representatieve dataset voor de test.
+## 3. Kernactiviteiten
 
-## Activiteit 4.2: Performance Evaluatie
-Meten is weten. We bepalen of de uitkomst voldoet aan de eisen.
-*   **Metrieken Bepalen:** Definiëren van technische KPI's (bijv. *accuracy*, *F1-score*, *latency*) en business KPI's.
-*   **Benchmark Testen:** Vergelijken van de AI-output met de huidige (menselijke) standaard of *baseline*.
-*   **Validatie van het Intent Record:** Controleren of de uitkomsten overeenkomen met de vooraf gedefinieerde intentie.
+### Activiteit 3.1: Technisch Bewijs: Proof of Value (PoV)
+We testen de kernhypothese met een kleinschalig experiment.
+*   **Hypothese Testen:** Valideer of de AI de beoogde taak daadwerkelijk kan uitvoeren.
+*   **Nauwkeurigheid Check:** Behaal een minimale nauwkeurigheid (bijv. >90%) op een representatieve testset.
+*   **Data Verificatie:** Bevestig dat de data de benodigde patronen bevat (o.a. via K-Fold cross-validation).
+*   **Technische Haalbaarheid:** Evalueer de complexiteit voor productie (infra, latency, schaalbaarheid).
 
-## Activiteit 4.3: Ethische & Juridische Deep-dive
-Voortbouwend op de pre-scan uit de Discovery-fase.
-*   **Bias Detectie:** Actief testen op ongewenste vooroordelen in de output.
-*   **Privacy Impact Assessment (PIA):** Gedetailleerde controle op verwerking van persoonsgegevens.
-*   **Conformiteitscheck:** Voorbereiding op de vereisten van de EU AI Act voor de specifieke risicocategorie.
+### Activiteit 3.2: Financiële Onderbouwing (ROI & TCO)
+We maken de kosten en baten transparant.
+*   **Total Cost of Ownership (TCO):** Raming van ontwikkelkosten (personeel) en operationele kosten (compute/GPU, API's, onderhoud).
+    *   *Vuistregel budget:* 50-70% Personeel, 20-40% Compute, 10-20% Data.
+*   **ROI Meting:** Kwantificeer baten: directe kostenbesparing, omzetgroei of efficiëntiewinst (tijd x uurtarief).
+*   **Terugverdientijd:** Bereken wanneer de investering break-even draait.
 
-## Activiteit 4.4: Business Case Verificatie
-Heeft de PoC de verwachte waarde aangetoond?
-*   **Kosten-Baten Analyse:** Verfijning van de ROI op basis van de PoC kosten en verwachte impact.
-*   **Stoppen of Doorgaan:** Eerlijke evaluatie of de case sterk genoeg is voor productie.
+### Activiteit 3.3: Strategische Prioritering
+Is dit project de investering waard ten opzichte van andere opties?
+*   **Value vs. Feasibility Matrix:** Plaats de gevalideerde resultaten op de matrix.
+*   **Decision Criteria:** Stel harde criteria vast voor de Go/No-Go beslissing.
+*   **Balanced Scorecard:** Evalueer impact op Financiën, Operatie, Klant en Strategie.
 
-## Team & Rollen (RACI)
+### Activiteit 3.4: Compliance & Risk Deep-Dive
+We kijken dieper naar de risico's dan in de Discovery fase.
+*   **Risicoanalyse:** Update het risico-register met specifieke bevindingen uit de PoV.
+*   **Ethische Toetsing:** Voer een Fairness Audit uit op de PoV-resultaten. Is er bias?
+*   **Leveranciersbeoordeling:** Als externe tools worden gebruikt: check compliance (EU AI Act, GDPR, Security).
+*   **Classificatie:** Bepaal het definitieve risiconiveau (Laag/Matig/Verhoogd/Kritiek) volgens de [AI-Native Risk Classification](../../01-ai-native-fundamenten/05-risicoclassificatie.md).
+
+## 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Validatie |
 | :--- | :--- |
-| **Data Scientist** | **R**esponsible: Ontwikkelt de PoC en voert technische testen uit. |
-| **AI Product Manager** | **R/A**ccountable: Bewaakt de business doelen en valideert tegen de *Intent*. |
-| **Data Engineer** | **C**onsulted: Zorgt voor de aanlevering van de testdata. |
-| **Legal & Compliance** | **C**onsulted: Toetst de PoC aan ethische en wettelijke kaders. |
-| **Business Stakeholder** | **C**onsulted: Evalueert de bruikbaarheid van het prototype. |
+| **Chief AI Officer (CAIO)** | **A**ccountable: Evalueert ROI en strategische fit. Keurt budget goed (Gate 2). |
+| **Business Analist** | **R**esponsible: Stelt de Business Case en TCO op. |
+| **AI Architect / Tech Lead** | **R**esponsible: Voert de PoV uit en valideert technische haalbaarheid. |
+| **Ethicist / Guardian** | **C**onsulted: Beoordeelt bias in PoV en risico's (accountability). |
+| **Security Officer** | **I**nformed: Wordt geïnformeerd over gebruikte tools en data. |
 
 ---
-
 © 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
-
