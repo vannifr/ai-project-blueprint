@@ -1,4 +1,4 @@
-# Normatieve Criteria (Entry Criteria)
+﻿# Normatieve Criteria (Entry Criteria)
 
 Een project kwalificeert alleen als *AI-Native* als aan de volgende drie criteria (C1-C3) wordt voldaan:
 
@@ -12,4 +12,5 @@ Een project kwalificeert alleen als *AI-Native* als aan de volgende drie criteri
 
 ---
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+

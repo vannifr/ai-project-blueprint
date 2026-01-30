@@ -1,4 +1,4 @@
-# Module 01: AI-Native Fundamenten (Definitie)
+﻿# Module 01: AI-Native Fundamenten (Definitie)
 
 ## 1. Definitie
 **AI-Natieve Softwareontwikkeling** (*AI-Native Software Development*) is een technische discipline waarbij Generatieve AI (GenAI) componenten worden behandeld als eersterangs elementen van de systeemlevenscyclus.
@@ -13,4 +13,5 @@ Het verschuift de primaire focus van het schrijven van logica naar het sturen va
 
 ---
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+

@@ -1,4 +1,4 @@
-# AI Levenscyclus
+﻿# AI Levenscyclus
 
 ## Doel
 Dit document definieert de volledige methodologie voor AI projecten en vormt de fundering van de AI levenscyclus. Het beschrijft de 5 fasen van AI projecten en fungeert als centrale routekaart voor het team.
@@ -18,7 +18,7 @@ graph TD
 ### Belangrijkste Kenmerken
 *   **Iteratief:** Elke fase leert van de vorige en voedt de volgende.
 *   **Hybride:** Combineert voorspelbare planning met agile uitvoering (zie [Hybride Methodologie](02-hybride-methodologie.md)).
-*   **Compliance-First:** EU AI Act compliance is geïntegreerd in elke fase.
+*   **Compliance-First:** EU AI Act compliance is geÃ¯ntegreerd in elke fase.
 *   **Evidence-Based:** Elke beslissing wordt ondersteund door bewijs (*Evidence-First*).
 *   **Human-Centric:** Mensen blijven verantwoordelijk voor AI-beslissingen.
 
@@ -28,7 +28,7 @@ graph TD
 **Doel:** Het identificeren van use cases met een hoge businesswaarde.
 
 #### Kernactiviteiten
-*   **Problem Framing:** Het probleem definiëren vanuit de gebruiker, niet vanuit de techniek.
+*   **Problem Framing:** Het probleem definiÃ«ren vanuit de gebruiker, niet vanuit de techniek.
     *   *Vraag:* "Welk probleem lossen we op voor wie?"
 *   **Data Readiness Check:** Beoordelen of er voldoende kwalitatieve data beschikbaar is.
     *   Identificeren van data silo's en aggregatie uitdagingen.
@@ -47,7 +47,7 @@ graph TD
 
 #### Kernactiviteiten
 *   **Proof of Value (PoV):** Kleinschalig experiment om de hypothese te testen en technische haalbaarheid te valideren.
-*   **ROI-Berekening:** Schatten van kosten (personeel, compute) versus baten (efficiëntie, omzet).
+*   **ROI-Berekening:** Schatten van kosten (personeel, compute) versus baten (efficiÃ«ntie, omzet).
 *   **Prioritering:** Matrix-analyse voor high-value, low-effort projecten.
 *   **Risk Assessment:** Diepgaande risicoanalyse (data-acquisitie, model-bias) en ethische toetsing.
 
@@ -93,10 +93,10 @@ graph TD
 **Doel:** Het voorkomen van *model drift* en het continu verbeteren van de prestaties.
 
 #### Kernactiviteiten
-*   **Real-time Dashboards:** Monitoren van accuraatheid, latency, kosten en anomalieën.
+*   **Real-time Dashboards:** Monitoren van accuraatheid, latency, kosten en anomalieÃ«n.
 *   **Drift Detection:** Signaleren van prestatieverlies; automatische triggers voor hertraining.
 *   **Feedback Loops:** Gebruikerservaringen terugkoppelen naar Fase 1.
-*   **Energie-efficiëntie:** Meten en minimaliseren van de ecologische voetafdruk.
+*   **Energie-efficiÃ«ntie:** Meten en minimaliseren van de ecologische voetafdruk.
 
 #### Checkpoint
 *   [ ] Is het systeem stabiel in productie?
@@ -111,4 +111,5 @@ graph TD
 
 
 ---
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+

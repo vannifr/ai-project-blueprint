@@ -1,7 +1,7 @@
-# Governance Model
+﻿# Governance Model
 
 ## Doel
-Het definiëren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
+Het definiÃ«ren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
 
 ## Structuur
 Het governance model bestaat uit drie lagen die samenwerken om strategie, operatie en techniek te verbinden:
@@ -46,4 +46,5 @@ Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checkli
 
 
 ---
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
