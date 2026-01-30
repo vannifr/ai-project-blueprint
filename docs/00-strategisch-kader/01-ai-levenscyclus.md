@@ -29,16 +29,14 @@ graph TD
 
 #### Kernactiviteiten
 *   **Problem Framing:** Het probleem definiëren vanuit de gebruiker, niet vanuit de techniek.
-    *   *Vraag:* "Welk probleem lossen we op voor wie?"
 *   **Data Readiness Check:** Beoordelen of er voldoende kwalitatieve data beschikbaar is.
-    *   Identificeren van data silo's en aggregatie uitdagingen.
 *   **EU AI Act Classificatie:** Bepalen of de toepassing valt onder de categorie 'hoog risico'.
 *   **Use Case Identificatie:** Brainstormen en prioriteren op business value en haalbaarheid.
 
-#### Checkpoint
-*   [ ] Is er een duidelijk *Project Charter*?
-*   [ ] Is het probleem met AI op te lossen?
-*   [ ] Is de data beschikbaar en van voldoende kwaliteit?
+!!! check "Checkpoint: Discovery"
+    - [ ] Is er een duidelijk *Project Charter*?
+    - [ ] Is het probleem met AI op te lossen?
+    - [ ] Is de data beschikbaar en van voldoende kwaliteit?
 
 ---
 
@@ -51,10 +49,10 @@ graph TD
 *   **Prioritering:** Matrix-analyse voor high-value, low-effort projecten.
 *   **Risk Assessment:** Diepgaande risicoanalyse (data-acquisitie, model-bias) en ethische toetsing.
 
-#### Checkpoint
-*   [ ] Is de *PoV* succesvol (accuracy criteria behaald)?
-*   [ ] Is de *ROI* positief binnen 12 maanden?
-*   [ ] Zijn de risico's acceptabel en beheersbaar?
+!!! check "Checkpoint: Validation"
+    - [ ] Is de *PoV* succesvol (accuracy criteria behaald)?
+    - [ ] Is de *ROI* positief binnen 12 maanden?
+    - [ ] Zijn de risico's acceptabel en beheersbaar?
 
 ---
 
@@ -67,10 +65,10 @@ graph TD
 *   **Compliance by Design:** Implementeren van bias-mitigatie en *Explainability*.
 *   **Quality Checks:** Automatische testen op code-kwaliteit en model-accuraatheid.
 
-#### Checkpoint
-*   [ ] Is het model getraind en gevalideerd?
-*   [ ] Zijn de tests geslaagd?
-*   [ ] Is de documentatie volledig?
+!!! check "Checkpoint: Development"
+    - [ ] Is het model getraind en gevalideerd?
+    - [ ] Zijn de tests geslaagd?
+    - [ ] Is de documentatie volledig?
 
 ---
 
@@ -82,10 +80,10 @@ graph TD
 *   **Change Management:** Training van medewerkers en stakeholder communicatie.
 *   **Certificering:** Afronden technische documentatie (o.a. voor CE-markering bij hoog-risico).
 
-#### Checkpoint
-*   [ ] Is het systeem veilig gedeployed?
-*   [ ] Zijn gebruikers getraind?
-*   [ ] Is de compliance gedocumenteerd?
+!!! check "Checkpoint: Delivery"
+    - [ ] Is het systeem veilig gedeployed?
+    - [ ] Zijn gebruikers getraind?
+    - [ ] Is de compliance gedocumenteerd?
 
 ---
 
@@ -98,10 +96,10 @@ graph TD
 *   **Feedback Loops:** Gebruikerservaringen terugkoppelen naar Fase 1.
 *   **Energie-efficiëntie:** Meten en minimaliseren van de ecologische voetafdruk.
 
-#### Checkpoint
-*   [ ] Is het systeem stabiel in productie?
-*   [ ] Wordt *drift* gedetecteerd en aangepakt?
-*   [ ] Wordt de business value gemeten?
+!!! check "Checkpoint: Monitoring"
+    - [ ] Is het systeem stabiel in productie?
+    - [ ] Wordt *drift* gedetecteerd en aangepakt?
+    - [ ] Wordt de business value gemeten?
 
 ## Gerelateerde Modules
 *   [Hybride Methodologie](02-hybride-methodologie.md)
@@ -109,8 +107,5 @@ graph TD
 *   [Agile Antipatronen](04-agile-antipatronen-niet-toegestaan.md)
 *   [Project Initiatie](05-project-initiatie.md)
 
-
 ---
 © 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-

@@ -1,0 +1,42 @@
+/* === Green Task List Icons === */
+/* Style for Material for MkDocs task lists */
+.md-typeset .task-list-indicator::before {
+    background-color: transparent;
+    border: 2px solid var(--md-typeset-color);
+}
+
+/* Checked state - Green background and white checkmark */
+.md-typeset [type="checkbox"]:checked+.task-list-indicator::before {
+    background-color: #22c55e !important;
+    /* Green */
+    border-color: #22c55e !important;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="white" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+/* Admonition customization for Checkpoints */
+.md-typeset .admonition.check,
+.md-typeset details.check {
+    border-color: #22c55e;
+}
+
+.md-typeset .check>.admonition-title,
+.md-typeset .check>summary {
+    background-color: rgba(34, 197, 94, 0.1);
+    border-color: #22c55e;
+}
+
+.md-typeset .check>.admonition-title::before,
+.md-typeset .check>summary::before {
+    background-color: #22c55e;
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>');
+}
+
+/* Specific styling for the actual checkboxes to make them green when checked */
+.md-typeset .task-list-item input:checked+.task-list-indicator {
+    background-color: #22c55e;
+    border-color: #22c55e;
+}

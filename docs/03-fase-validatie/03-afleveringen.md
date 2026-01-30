@@ -9,15 +9,15 @@ De resultaten van de Validatiefase die nodig zijn voor de besluitvorming:
 *   **Risk Assessment Update:** Gedetailleerde risico-inventarisatie en classificatie.
 *   **Project Plan voor Bouwfase:** Planning, resources en milestones voor de volgende fase.
 
-## 5. Gate 2 Review Checklist (Exit Criteria)
-Om door te gaan naar **Fase 4: Ontwikkeling**, moeten de volgende punten met "JA" worden beantwoord:
+!!! check "Gate 2 Review Checklist (Exit Criteria)"
+    Om door te gaan naar **Fase 4: Ontwikkeling**, moeten de volgende punten met "JA" worden beantwoord:
 
-- [ ] Is de PoV succesvol afgerond met acceptabele metrics (bv. accuratesse > 90%)?
-- [ ] Is de technische haalbaarheid voor productie bevestigd?
-- [ ] Is er een positieve ROI projectie met een acceptabele terugverdientijd?
-- [ ] Zijn de risico's (data, bias, compliance) in kaart gebracht en beheersbaar (Mitigatieplan)?
-- [ ] Hebben alle vereiste stakeholders de Business Case ondertekend?
-- [ ] Is het budget voor de Bouwfase vrijgegeven?
+    - [ ] Is de PoV succesvol afgerond met acceptabele metrics (bv. accuratesse > 90%)?
+    - [ ] Is de technische haalbaarheid voor productie bevestigd?
+    - [ ] Is er een positieve ROI projectie met een acceptabele terugverdientijd?
+    - [ ] Zijn de risico's (data, bias, compliance) in kaart gebracht en beheersbaar (Mitigatieplan)?
+    - [ ] Hebben alle vereiste stakeholders de Business Case ondertekend?
+    - [ ] Is het budget voor de Bouwfase vrijgegeven?
 
 ## Gerelateerde Templates
 *   **09-02 Business Case:** [Sjabloon](../09-sjablonen/index.md)
