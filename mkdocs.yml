@@ -62,26 +62,25 @@ nav:
       - Doel: 02-fase-ontdekking/01-doelstellingen.md
       - Activiteiten: 02-fase-ontdekking/02-activiteiten.md
       - Afleveringen: 02-fase-ontdekking/03-afleveringen.md
-      - Templates: 02-fase-ontdekking/04-sjablonen/
+      - Templates: 02-fase-ontdekking/04-sjablonen/index.md
       - Assessment: 02-fase-ontdekking/05-has-h-beoordeling.md
     - 2. Validatie:
       - Doel: 03-fase-validatie/01-doelstellingen.md
       - Activiteiten: 03-fase-validatie/02-activiteiten.md
-      - ...
   - Compliance Hub:
-    - EU AI Act: 07-compliance-hub/01-eu-ai-act/
-    - Risicobeheer: 07-compliance-hub/02-risicobeheer/
+    - EU AI Act: 07-compliance-hub/01-eu-ai-act/index.md
+    - Risicobeheer: 07-compliance-hub/02-risicobeheer/index.md
     - Ethiek: 07-compliance-hub/03-ethische-richtlijnen.md
     - Validatie Eisen: 07-compliance-hub/04-validatie-eisen.md
     - Incident Respons: 07-compliance-hub/05-incidentrespons.md
   - Toolkit & Templates:
-    - Sjablonen: 09-sjablonen/
-    - Technische Standaarden: 08-technische-standaarden/
+    - Sjablonen: 09-sjablonen/index.md
+    - Technische Standaarden: 08-technische-standaarden/index.md
   - Organisatie:
-    - Roadmap 90-Dagen: 12-90-dagen-roadmap/
-    - Profielen: 13-organisatieprofielen/
-    - Drie Tracks: 14-drie-tracks/
-    - Accelerators: 15-accelerators/
+    - Roadmap 90-Dagen: 12-90-dagen-roadmap/index.md
+    - Profielen: 13-organisatieprofielen/index.md
+    - Drie Tracks: 14-drie-tracks/index.md
+    - Accelerators: 15-accelerators/index.md
   - Meta-Info:
     - Backlog: 00-meta/BACKLOG.md
     - Styleguide: 00-meta/STYLE_GUIDE.md

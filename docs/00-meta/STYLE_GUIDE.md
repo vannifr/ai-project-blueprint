@@ -1,8 +1,8 @@
-# Styleguide voor AI Project Playbook
+﻿# Styleguide voor AI Project Playbook
 
 Deze styleguide zorgt voor consistente, professionele en toegankelijke documentatie voor het AI Project Playbook.
 
-## 📋 Documentatie Styleguide
+## ðŸ“‹ Documentatie Styleguide
 
 ### 1. Taal en Terminologie
 *   **Taalkeuze:** Volledig Nederlands. Engelse termen in *cursief* voor technische concepten.
@@ -27,7 +27,7 @@ Deze styleguide zorgt voor consistente, professionele en toegankelijke documenta
 | 90-Day Roadmap | 90-Dagen Roadmap | *90-Day* in cursief |
 
 **Afkortingen:**
-*   **AI** = Artificiële Intelligentie
+*   **AI** = ArtificiÃ«le Intelligentie
 *   **EU AI Act** = Europese AI Verordening
 *   **PoV** = Proof of Value
 *   **ROI** = Return on Investment
@@ -130,18 +130,19 @@ Deze styleguide zorgt voor consistente, professionele en toegankelijke documenta
 
 ### 7. Licentie & Copyright
 *   **Licentie:** Alle documentatie valt onder de **Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal (CC BY-NC-SA 4.0)**.
-*   **Voettekst:** Voeg aan elk significant document toe: `© [Jaar] [Organisatie]. Gelicenseerd onder CC BY-NC-SA 4.0.`
+*   **Voettekst:** Voeg aan elk significant document toe: `Â© [Jaar] [Organisatie]. Gelicenseerd onder CC BY-NC-SA 4.0.`
 
 ---
 
-### 📝 Quick Reference
-*   ✅ **Altijd Nederlands**, Engelse termen in *cursief*.
-*   ✅ Volg de vaste **Module/Fase structuur**.
-*   ✅ Gebruik **Mermaid** voor diagrammen.
-*   ✅ Houd **terminologie** consistent met de lijst.
-*   ❌ Vermijd het mengen van talen zonder cursivering.
-*   ❌ Geen inconsistente terminologie of ontbrekende structuur.
+### ðŸ“ Quick Reference
+*   âœ… **Altijd Nederlands**, Engelse termen in *cursief*.
+*   âœ… Volg de vaste **Module/Fase structuur**.
+*   âœ… Gebruik **Mermaid** voor diagrammen.
+*   âœ… Houd **terminologie** consistent met de lijst.
+*   âŒ Vermijd het mengen van talen zonder cursivering.
+*   âŒ Geen inconsistente terminologie of ontbrekende structuur.
 
 
 ---
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
