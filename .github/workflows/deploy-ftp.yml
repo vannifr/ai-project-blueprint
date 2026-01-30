@@ -35,3 +35,4 @@ jobs:
           server-dir: /public_html/ai-project-playbook/  # Upload naar deze map
           local-dir: ./site/            # Dit is de map waar MkDocs de site bouwt
           protocol: ftp                # Gebruik 'ftp' of 'ftps'
+          clean: true                  # Verwijder oude bestanden op de server die niet in de build zitten
