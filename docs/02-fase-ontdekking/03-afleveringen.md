@@ -9,15 +9,15 @@ In deze fase worden de volgende tastbare resultaten opgeleverd:
 *   **Prioriteiten Matrix:** Visueel overzicht van geëvalueerde use cases.
 *   **Risk Pre-scan:** Eerste classificatie volgens EU AI Act en interne ethische normen.
 
-## Gate 1 Review Checklist (Exit Criteria)
-Om door te gaan naar **Fase 3: Validatie**, moeten de volgende punten met "JA" worden beantwoord:
+!!! check "Gate 1 Review Checklist (Exit Criteria)"
+    Om door te gaan naar **Fase 3: Validatie**, moeten de volgende punten met "JA" worden beantwoord:
 
-- [ ] Is het probleem helder gedefinieerd in een *Project Charter* / *Intent Record*?
-- [ ] Is vastgesteld dat AI de juiste oplossing is (vs. traditionele IT)?
-- [ ] Is de data toegankelijk en van voldoende kwaliteit bevonden (Data Readiness check)?
-- [ ] Is de EU AI Act risicoclassificatie uitgevoerd?
-- [ ] Is er een positieve business case indicatie (High-level ROI)?
-- [ ] Zijn de stakeholders (IT, Business, Legal) aan boord?
+    - [ ] Is het probleem helder gedefinieerd in een *Project Charter* / *Intent Record*?
+    - [ ] Is vastgesteld dat AI de juiste oplossing is (vs. traditionele IT)?
+    - [ ] Is de data toegankelijk en van voldoende kwaliteit bevonden (Data Readiness check)?
+    - [ ] Is de EU AI Act risicoclassificatie uitgevoerd?
+    - [ ] Is er een positieve business case indicatie (High-level ROI)?
+    - [ ] Zijn de stakeholders (IT, Business, Legal) aan boord?
 
 ## Intrede Criteria (Definition of Ready)
 *Ter referentie voor aanvang van deze fase:*

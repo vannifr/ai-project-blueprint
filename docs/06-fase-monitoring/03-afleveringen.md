@@ -8,14 +8,14 @@ De resultaten van de Monitoringfase:
 *   **Batenrealisatie Rapportage:** Overzicht van de werkelijk behaalde ROI versus de business case.
 *   **Optimalisatie Roadmap:** Plan voor doorlopende verbeteringen en nieuwe functies.
 
-## Gate 5 Review Checklist (Exit Criteria)
-Voldoe aan deze criteria voor een gezonde operatie:
+!!! check "Gate 5 Review Checklist (Exit Criteria)"
+    Voldoe aan deze criteria voor een gezonde operatie:
 
-- [ ] Zijn de monitoring dashboards actief en toegankelijk voor de juiste mensen?
-- [ ] Is het proces voor retraining en modelverversing gedefinieerd en getest?
-- [ ] Worden ethische en kwaliteitsrisico's periodiek gerapporteerd?
-- [ ] Is de batenrealisatie (ROI) inzichtelijk voor de stakeholders?
-- [ ] Is er een duidelijke eigenaar voor het systeem op lange termijn?
+    - [ ] Zijn de monitoring dashboards actief en toegankelijk voor de juiste mensen?
+    - [ ] Is het proces voor retraining en modelverversing gedefinieerd en getest?
+    - [ ] Worden ethische en kwaliteitsrisico's periodiek gerapporteerd?
+    - [ ] Is de batenrealisatie (ROI) inzichtelijk voor de stakeholders?
+    - [ ] Is er een duidelijke eigenaar voor het systeem op lange termijn?
 
 ---
 
