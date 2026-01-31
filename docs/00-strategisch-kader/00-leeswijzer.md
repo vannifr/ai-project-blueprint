@@ -45,4 +45,11 @@ Focus op [Module 07: Risicobeheersing & Compliance](../07-compliance-hub/index.m
 **Eigenaar:** AI Competence Center
 
 ---
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â
+---
+**Versie:** 2.1
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -30,4 +30,10 @@ Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme e
 *   [Validatie](../03-fase-validatie/index.md)
 
 ---
+---
+**Versie:** 2.1
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

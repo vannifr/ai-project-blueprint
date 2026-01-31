@@ -69,4 +69,11 @@ Dit sjabloon is bedoeld voor ontwikkelaars en auditors. Het documenteert de tech
 **Status:** Definitief  
 
 ---
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â
+---
+**Versie:** 2.1
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

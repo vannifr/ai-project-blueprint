@@ -62,4 +62,11 @@ De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke i
 **Status:** Definitief  
 
 ---
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â
+---
+**Versie:** 2.1
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

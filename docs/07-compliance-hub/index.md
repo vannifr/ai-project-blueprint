@@ -66,4 +66,11 @@ Wanneer AI-systemen autonoom acties gaan uitvoeren (Modus 4 & 5), verschuift de 
 **Bron:** Gebaseerd op EU AI Act & Interne Beleidskaders
 
 ---
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â
+---
+**Versie:** 2.1
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

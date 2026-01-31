@@ -27,4 +27,10 @@ De resultaten van de Monitoringfase voor een duurzame operatie:
 *   **06-05 Drift-detectie:** [Details](05-drift-detectie.md)
 
 ---
+---
+**Versie:** 2.1
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

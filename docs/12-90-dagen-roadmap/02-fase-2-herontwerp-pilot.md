@@ -23,4 +23,10 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
     - [ ] Go/No-Go besluit voor opschaling.
 
 ---
+---
+**Versie:** 2.1
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

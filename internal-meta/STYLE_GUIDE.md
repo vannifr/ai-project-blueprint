@@ -1,36 +1,41 @@
-﻿# 🎨 Huisstijl & Schrijfwijzer (Styleguide v2.0)
+﻿# 🎨 Huisstijl & Schrijfwijzer (Styleguide v2.1)
 
-Deze gids borgt dat alle modules in het Playbook consistent, begrijpelijk en uniform blijven, ongeacht wie ze schrijft.
+Deze gids borgt dat alle modules in het Playbook consistent, begrijpelijk en uniform blijven. Versie 2.1 integreert de **Vlaamse taalgids-audit** voor een optimale aansluiting bij Belgisch Nederlandstalige professionals.
 
 ---
 
 ## 1. Toon & Stem (Tone of Voice)
-Wij schrijven voor professionals die actie willen ondernemen. Onze taal is direct, activerend en zelfverzekerd, maar nooit arrogant.
+Wij schrijven voor professionals die actie willen ondernemen. Onze taal is direct, activerend en zelfverzekerd.
 
+*   **Formele aanspreekvorm (Vlaamse standaard):** Gebruik consequent **"u"** en **"uw"**. Vermijd de informele "je/jou"-vorm voor een zakelijke uitstraling.
 *   **Actief boven Passief:**
     *   ❌ Fout: "Door het team zal worden beoordeeld of de data geschikt is."
     *   ✅ Goed: "Het team evalueert de data."
 *   **De "Wij"-vorm:** We schrijven vanuit het perspectief van het projectteam. "Wij bouwen", "Wij toetsen".
-*   **Geen Academisch Jargon:** Vermijd wollig taalgebruik. We schrijven geen scriptie, maar een handleiding.
+*   **Geen Academisch Jargon:** Vermijd onduidelijke of te theoretische taal. We schrijven een praktische handleiding.
 
 ---
 
 ## 2. Terminologie & Lexicon (De Vertaallijst)
-Wij slaan de brug tussen techniek en business. Gebruik daarom consequent de Nederlandse, zakelijke termen in plaats van Engels technisch jargon.
+Wij slaan de brug tussen techniek en business. Gebruik de onderstaande tabel voor een consistente woordkeuze die zowel technisch accuraat als grammaticaal correct is voor een Vlaams publiek.
 
-| ❌ Vermijd Jargon (Engels/Tech) | ✅ Gebruik (Playbook Standaard) | Toelichting |
+| ❌ Vermijd (NL-Nederlands / Jargon) | ✅ Gebruik (Vlaamse IT-Standaard) | Toelichting |
 | :--- | :--- | :--- |
-| Intent / Intent Record | **Doeldefinitie** | Het 'Waarom' |
+| Het Kostenplaatje | **Het Kostenoverzicht** | Zakelijker en formeler |
+| Inregelen | **Instellen / Configureren** | Standaard IT-taal |
+| U pakt | **U raadpleegt** | Correcter taalgebruik |
+| Gereedschapskist | **Toolkit** | Gangbare term in de sector |
+| Wollige taal | **Onduidelijke taal** | Directer |
+| De "loodgieter" | **Ruggengraat van de data** | Professionele metafoor |
+| Intent Record | **Doeldefinitie** | Het 'Waarom' |
 | Context Artifacts | **Sturingsinstructies** | Prompts/Configs |
-| Constraints / Guardrails | **Rode Lijnen** | De harde grenzen |
-| Data Readiness Check | **Data-Evaluatie** | Framework: Toegang, Kwaliteit, Relevantie |
+| Guardrails | **Rode Lijnen** | De harde grenzen |
 | Proof of Value (PoV) | **Praktijkproef** | Mag PoV blijven als afkorting |
 | Model Drift | **Prestatieverloop** | Verslechtering over tijd |
-| RAG (Retrieval Augmented Gen) | **Kenniskoppeling** | Verbinden aan eigen docs |
+| Retrieval Augmented Gen (RAG) | **Kenniskoppeling** | Verbinden aan eigen docs |
 | Hyperparameter Tuning | **Afstellen van het model** | Fijn-afstelling |
 | Shadow AI | **Wildgroei** | Ongecontroleerd gebruik |
-| Deploy / Deployment | **Ingebruikname / Livegang** | |
-| Total Cost of Ownership (TCO) | **Het Kostenplaatje** | |
+| Deployment | **Ingebruikname / Livegang** | |
 
 ---
 

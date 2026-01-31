@@ -38,4 +38,10 @@ Dit document bevat de criteria waaraan een project moet voldoen om de overstap n
 **Status:** Definitief  
 
 ---
+---
+**Versie:** 2.1
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

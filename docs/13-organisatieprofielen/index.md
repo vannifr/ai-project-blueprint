@@ -67,4 +67,10 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 **Status:** Definitief
 
 ---
+---
+**Versie:** 2.1
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
