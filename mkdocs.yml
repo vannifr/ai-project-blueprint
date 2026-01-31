@@ -54,6 +54,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Strategisch Kader:
+    - Leeswijzer: 00-strategisch-kader/00-leeswijzer.md
     - Overzicht: 00-strategisch-kader/01-ai-levenscyclus.md
     - Hybride Methodologie: 00-strategisch-kader/02-hybride-methodologie.md
     - Governance: 00-strategisch-kader/03-governance-model.md
@@ -61,6 +62,7 @@ nav:
     - Initiatie: 00-strategisch-kader/05-project-initiatie.md
     - AI-Samenwerkingsmodi: 00-strategisch-kader/06-has-h-niveaus.md
     - Heruitvinding: 00-strategisch-kader/07-organisatorische-heruitvinding.md
+    - Rollen & Verantwoordelijkheden: 08-rollen-en-verantwoordelijkheden/index.md
   - Kernprincipes:
     - Definitie: 01-ai-native-fundamenten/01-definitie.md
     - Criteria: 01-ai-native-fundamenten/02-normatieve-criteria.md
