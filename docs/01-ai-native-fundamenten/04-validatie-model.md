@@ -1,22 +1,24 @@
-﻿# Validatie Model
+﻿# 📂 Validatie Model
 
-Elke wijziging die GenAI beïnvloedt, moet drie validatiecategorieën doorlopen:
+## 🎯 Drie Dimensies van Validatie
+Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie validatiecategorieën doorlopen:
 
-### 1. Syntactische Geldigheid (*Syntactic Validity*)
-*   **Vraag:** Kan het draaien?
-*   **Methode:** Geautomatiseerde checks op structuur, schema's en linting.
+### 1. Syntactische Geldigheid
+*   **Vraag:** Werkt de code? Geen crashes of errors?
+*   **Methode:** Geautomatiseerde checks op structuur, JSON/YAML schema's en linting.
 
-### 2. Gedragsconformiteit (*Behavioral Compliance*)
-*   **Vraag:** Voldoet het aan de acceptatiecriteria in testcondities?
-*   **Methode:** Geautomatiseerde evaluatiesuites die reproduceerbaar zijn.
+### 2. Gedragsconformiteit
+*   **Vraag:** Doet het systeem wat we verwachten in gecontroleerde omstandigheden?
+*   **Methode:** Geautomatiseerde evaluatiesuites die reproduceerbaar zijn (testsets).
 
-### 3. Intent-Alignment
-*   **Vraag:** Voldoet het aan het doel in realistische condities?
-*   **Methode:** Scenario-gebaseerde evaluatie (menselijk of geavanceerde simulatie).
-*   **Vereiste scenario's:** Altijd een Succesval, Weigeringsval (*Refusal*) en Randgeval (*Boundary*) bevatten.
+### 3. Doelgerichtheid (Intent-Alignment)
+*   **Vraag:** Helpt het systeem de gebruiker echt in de praktijk?
+*   **Methode:** Scenario-gebaseerde evaluatie door experts of geavanceerde simulatie.
 
 ---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
+---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-

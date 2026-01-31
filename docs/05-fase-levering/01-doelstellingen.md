@@ -1,16 +1,21 @@
-﻿# Fase 05: Levering (Delivery & Deployment)
+﻿# 📂 Fase 05: Levering
 
-## 1. Doelstelling
-Het doel van de Levering-fase is een veilige, geschaalde technische lancering en het waarborgen van de adoptie door eindgebruikers en stakeholders. We verplaatsen het gevalideerde model van de ontwikkelomgeving naar de operationele productieomgeving en dragen het over aan de gebruikers.
+## 🎯 1. Doelstelling
+Het doel van de Levering-fase is een veilige **Ingebruikname** en acceptatie door de organisatie. We verplaatsen de oplossing van de realisatieomgeving naar de dagelijkse praktijk en zorgen dat iedereen er klaar voor is.
 
-**Belangrijkste resultaat:** Een operationeel AI-systeem dat technisch stabiel is, juridisch voldoet aan de EU AI Act, en breed wordt geaccepteerd door getrainde eindgebruikers.
+**Belangrijkste resultaat:** Een operationeel AI-systeem dat technisch geïntegreerd is, menselijk wordt beheerst en breed wordt geaccepteerd door gebruikers.
 
-## 2. Intrede Criteria (Definition of Ready)
+## ✅ 2. Intrede Criteria (Definition of Ready)
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
-*   Productie-ready model en code (Gate 3 goedgekeurd).
-*   Succesvolle acceptatietests (UAT) in staging omgeving.
-*   Infrastructuur voor productie gereed (cloud/on-premise).
-*   Risico-mitigatieplan afgetekend.
+*   De Realisatie-fase is afgerond (Gate 3 goedgekeurd).
+*   Alle geautomatiseerde tests zijn geslaagd.
+*   De infrastructuur voor **Ingebruikname** is gereed.
+*   Het implementatieteam is stand-by.
+
+---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

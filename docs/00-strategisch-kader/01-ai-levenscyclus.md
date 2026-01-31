@@ -1,17 +1,19 @@
-﻿# AI Levenscyclus
+﻿# 📂 AI Levenscyclus
 
-## Doel
+## 🎯 Doel
 Dit document definieert de volledige methodologie voor AI projecten en vormt de fundering van de AI levenscyclus. Het beschrijft de 5 fasen van AI projecten en fungeert als centrale routekaart voor het team.
 
-## Overzicht van de AI Levenscyclus
+---
+
+## 📂 Overzicht van de AI Levenscyclus
 Een succesvol AI-project is geen lineair proces, maar een iteratieve cyclus waarbij techniek, business en compliance constant op elkaar worden afgestemd. De AI levenscyclus bestaat uit 5 fasen die elkaar overlappen en versterken:
 
 ```mermaid
 graph TD
-    A[Discovery] --> B[Validation]
-    B --> C[Development]
-    C --> D[Delivery]
-    D --> E[Monitoring]
+    A[Verkenning & Strategie] --> B[Validatie]
+    B --> C[Realisatie]
+    C --> D[Levering]
+    D --> E[Beheer & Optimalisatie]
     E --> A
 ```
 
@@ -19,93 +21,73 @@ graph TD
 *   **Iteratief:** Elke fase leert van de vorige en voedt de volgende.
 *   **Hybride:** Combineert voorspelbare planning met agile uitvoering (zie [Hybride Methodologie](02-hybride-methodologie.md)).
 *   **Compliance-First:** EU AI Act compliance is geïntegreerd in elke fase.
-*   **Evidence-Based:** Elke beslissing wordt ondersteund door bewijs (*Evidence-First*).
-*   **Human-Centric:** Mensen blijven verantwoordelijk voor AI-beslissingen.
+*   **Traceerbaarheid:** Elke beslissing wordt ondersteund door bewijs.
+*   **Mensgerichte Regie:** Mensen blijven verantwoordelijk voor AI-beslissingen.
+
+---
 
 ## De 5 Fasen van AI Projecten
 
-### Fase 1: Discovery (Ontdekking & Strategie)
-**Doel:** Het identificeren van use cases met een hoge businesswaarde.
+### 📂 Fase 1: Verkenning & Strategie
+**🎯 Doel:** Het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten.
 
-#### Kernactiviteiten
-*   **Problem Framing:** Het probleem definiëren vanuit de gebruiker, niet vanuit de techniek.
-*   **Data Readiness Check:** Beoordelen of er voldoende kwalitatieve data beschikbaar is.
-*   **EU AI Act Classificatie:** Bepalen of de toepassing valt onder de categorie 'hoog risico'.
-*   **Use Case Identificatie:** Brainstormen en prioriteren op business value en haalbaarheid.
-
-!!! check "Checkpoint: Discovery"
-    - [ ] Is er een duidelijk *Project Charter*?
-    - [ ] Is het probleem met AI op te lossen?
-    - [ ] Is de data beschikbaar en van voldoende kwaliteit?
+#### ⚙️ Kernactiviteiten
+*   **Probleemverkenning:** Het probleem definiëren vanuit de gebruiker, niet vanuit de techniek.
+*   **Data-Evaluatie:** Beoordelen van Toegang, Kwaliteit en Relevantie van de data.
+*   **Risico-Inventarisatie:** Bepalen of de toepassing valt onder de EU AI Act (hoog risico).
 
 ---
 
-### Fase 2: Validation & Business Case (Haalbaarheid)
-**Doel:** Risico's minimaliseren en budget veiligstellen.
+### 📂 Fase 2: Validatie
+**🎯 Doel:** Bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
 
-#### Kernactiviteiten
-*   **Proof of Value (PoV):** Kleinschalig experiment om de hypothese te testen en technische haalbaarheid te valideren.
-*   **ROI-Berekening:** Schatten van kosten (personeel, compute) versus baten (efficiëntie, omzet).
-*   **Prioritering:** Matrix-analyse voor high-value, low-effort projecten.
-*   **Risk Assessment:** Diepgaande risicoanalyse (data-acquisitie, model-bias) en ethische toetsing.
-
-!!! check "Checkpoint: Validation"
-    - [ ] Is de *PoV* succesvol (accuracy criteria behaald)?
-    - [ ] Is de *ROI* positief binnen 12 maanden?
-    - [ ] Zijn de risico's acceptabel en beheersbaar?
+#### ⚙️ Kernactivities
+*   **Praktijkproef (PoV):** Kleinschalig experiment om de hypothese te testen.
+*   **Het Kostenplaatje:** Schatten van investering versus ROI.
+*   **Eerlijkheidstoets (Bias Detectie):** Eerste scan op ongewenste vooroordelen in het model.
 
 ---
 
-### Fase 3: Development & Engineering (De Bouwfase)
-**Doel:** Het bouwen van een robuust, veilig en ethisch model.
+### 📂 Fase 3: Realisatie
+**🎯 Doel:** Het bouwen van een robuuste, productiewaardige oplossing.
 
-#### Kernactiviteiten
-*   **Data Pipelines:** Inrichten van geautomatiseerde cleaning en governance (*Data Lineage*).
-*   **Model Training & Tuning:** Selecteren, trainen en optimaliseren van algoritmes (hyperparameter tuning).
-*   **Compliance by Design:** Implementeren van bias-mitigatie en *Explainability*.
-*   **Quality Checks:** Automatische testen op code-kwaliteit en model-accuraatheid.
-
-!!! check "Checkpoint: Development"
-    - [ ] Is het model getraind en gevalideerd?
-    - [ ] Zijn de tests geslaagd?
-    - [ ] Is de documentatie volledig?
+#### ⚙️ Kernactiviteiten
+*   **Specificatie-eerst Methode:** Eerst tests schrijven, dan pas de implementatie.
+*   **Kenniskoppeling (RAG):** De AI verbinden aan interne bedrijfsinformatie.
+*   **Afstellen van het model:** Optimaliseren van de parameters en **Sturingsinstructies**.
 
 ---
 
-### Fase 4: Delivery & Deployment (Implementatie)
-**Doel:** Een veilige overgang naar productie en adoptie door gebruikers.
+### 📂 Fase 4: Levering
+**🎯 Doel:** Een veilige **Ingebruikname** en acceptatie door de organisatie.
 
-#### Kernactiviteiten
-*   **Infrastructuur:** Opzetten van schaalbare omgevingen (cloud/on-premise) en security.
-*   **Change Management:** Training van medewerkers en stakeholder communicatie.
-*   **Certificering:** Afronden technische documentatie (o.a. voor CE-markering bij hoog-risico).
-
-!!! check "Checkpoint: Delivery"
-    - [ ] Is het systeem veilig gedeployed?
-    - [ ] Zijn gebruikers getraind?
-    - [ ] Is de compliance gedocumenteerd?
+#### ⚙️ Kernactiviteiten
+*   **Ingebruikname Plan:** Stapsgewijze uitrol naar productie.
+*   **Menselijke Regie:** Implementeren van toezichtsprotocollen.
+*   **Adoptie & Training:** Gebruikers opleiden in de nieuwe werkwijze.
 
 ---
 
-### Fase 5: Monitoring & Maintenance (Optimalisatie)
-**Doel:** Het voorkomen van *model drift* en het continu verbeteren van de prestaties.
+### 📂 Fase 5: Beheer & Optimalisatie
+**🎯 Doel:** Waarde behouden en de oplossing actueel houden.
 
-#### Kernactiviteiten
-*   **Real-time Dashboards:** Monitoren van accuraatheid, latency, kosten en anomalieën.
-*   **Drift Detection:** Signaleren van prestatieverlies; automatische triggers voor hertraining.
-*   **Feedback Loops:** Gebruikerservaringen terugkoppelen naar Fase 1.
-*   **Energie-efficiëntie:** Meten en minimaliseren van de ecologische voetafdruk.
+#### ⚙️ Kernactiviteiten
+*   **Prestatieverloop Meten:** Continu monitoren van accuraatheid en drift.
+*   **Kostenbeheersing:** Het verbruik en de middelen optimaliseren.
+*   **Feedbacklus:** Gebruikerservaringen terugkoppelen naar Fase 1.
 
-!!! check "Checkpoint: Monitoring"
-    - [ ] Is het systeem stabiel in productie?
-    - [ ] Wordt *drift* gedetecteerd en aangepakt?
-    - [ ] Wordt de business value gemeten?
+---
 
 ## Gerelateerde Modules
 *   [Hybride Methodologie](02-hybride-methodologie.md)
 *   [Governance Model](03-governance-model.md)
 *   [Agile Antipatronen](04-agile-antipatronen-niet-toegestaan.md)
 *   [Project Initiatie](05-project-initiatie.md)
+
+---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -1,17 +1,20 @@
-﻿# Normatieve Criteria (Entry Criteria)
+﻿# 📂 Normatieve Criteria
 
-Een project kwalificeert alleen als *AI-Native* als aan de volgende drie criteria (C1-C3) wordt voldaan:
+## 🎯 Wanneer Werken We Volgens de Kernprincipes?
+Een project kwalificeert voor deze aanpak als aan de volgende drie criteria wordt voldaan:
 
 | Criterium | Vereiste |
 | :--- | :--- |
-| **C1 Materiale Invloed** | Het systeem vertrouwt op GenAI voor productie-outputs of beslissingen. |
-| **C2 Expliciete Context** | Inputs die het gedrag sturen (prompts, RAG-kennis) worden beheerd als geversioneerde technische artefacten (zie *Context Artifacts*). |
-| **C3 Continue Validatie** | Wijzigingen ondergaan validatie die specifiek is ontworpen voor niet-deterministisch gedrag. |
+| **Materiale Invloed** | Het systeem vertrouwt op AI voor productie-outputs of beslissingen die de business raken. |
+| **Expliciete Context** | Inputs die het gedrag sturen (**Sturingsinstructies**, kenniskoppeling) worden beheerd als geversioneerde artefacten. |
+| **Continue Toetsing** | Wijzigingen ondergaan validatie die specifiek is ontworpen voor het niet-deterministische gedrag van AI. |
 
-> **Zodra gekwalificeerd**, gelden operationele controles (C4-C7) voor gecontroleerde wijzigingen, monitoring en traceerbaarheid om de ontwikkeling in goede banen te leiden.
+> **Zodra gekwalificeerd**, gelden de operationele controles voor beheer, monitoring en traceerbaarheid om de ontwikkeling in goede banen te leiden.
 
 ---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
+---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-

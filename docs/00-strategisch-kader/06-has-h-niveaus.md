@@ -1,13 +1,13 @@
-﻿# AI-Samenwerkingsmodi
+﻿# 📂 AI-Samenwerkingsmodi
 
-## 1. Doel van de Modi
+## 🎯 1. Doel van de Modi
 Om te bepalen welke processen, governance en risicobeheersing nodig zijn, classificeren we de relatie tussen mens en machine in vijf **Samenwerkingsmodi**.
 
 Dit model beschrijft de verschuiving van AI als gereedschap naar AI als zelfstandige actor. Het is cruciaal om vooraf te definiëren in welke modus een systeem opereert, omdat een 'Modus 4'-systeem (Gedelegeerd) veel strengere veiligheidsregels vereist dan een 'Modus 2'-systeem (Adviserend).
 
 ---
 
-## 2. De Vijf Modi
+## 📂 De Vijf Modi
 
 ### Modus 1: Instrumenteel (The Tool)
 **De mens werkt, AI wacht.**
@@ -61,7 +61,7 @@ Het systeem krijgt een breed mandaat (bijv. "Optimaliseer de inkoopvoorraad") en
 
 ---
 
-## 3. Risico & Validatie Matrix
+## ✅ Risico & Validatie Matrix
 Hoe hoger de modus, hoe zwaarder de validatie-eisen.
 
 | Modus | Primaire Validatie | Rol van de Mens | Focus van Eigenaarschap |
@@ -69,12 +69,12 @@ Hoe hoger de modus, hoe zwaarder de validatie-eisen.
 | **1. Instrumenteel** | Gebruikerstest (UAT) | Uitvoerder | Taakgericht |
 | **2. Adviserend** | Precisie-meting | Beslisser (Gatekeeper) | Besluitvorming |
 | **3. Collaboratief** | Ervaring & Bruikbaarheid | Partner | Resultaatgericht |
-| **4. Gedelegeerd** | Continue Monitoring & Drift | Toezichthouder (Auditor) | Procesgericht |
+| **4. Gedelegeerd** | Continue Monitoring & **Prestatieverloop** | Toezichthouder (Auditor) | Procesgericht |
 | **5. Autonoom** | Simulatie & Stress-testing | Beleidsbepaler | Systeemgericht |
 
 ---
 
-## 4. Toepassing in Projecten
+## ⚙️ Toepassing in Projecten
 Bij het starten van een project (Fase Discovery) moet de beoogde modus worden vastgelegd in het **Project Charter**.
 
 !!! tip "Begin laag, schaal op"
@@ -86,9 +86,14 @@ Bij het starten van een project (Fase Discovery) moet de beoogde modus worden va
 ---
 
 ## Gerelateerde Modules
-*   [AI-Native Fundamenten](../01-ai-native-fundamenten/01-definitie.md)
-*   [HAS H Assessment](../02-fase-ontdekking/05-has-h-beoordeling.md)
+*   [Kernprincipes](../01-ai-native-fundamenten/01-definitie.md)
+*   [Validatie Model](../01-ai-native-fundamenten/04-validatie-model.md)
 *   [Risicobeheer](../07-compliance-hub/02-risicobeheer/index.md)
+
+---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

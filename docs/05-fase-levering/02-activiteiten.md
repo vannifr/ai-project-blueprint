@@ -1,45 +1,49 @@
-﻿# Kernactiviteiten & RACI (Levering)
+﻿# ⚙️ Kernactiviteiten & RACI (Levering)
 
 ## 3. Kernactiviteiten
 
-### Activiteit 3.1: Technische Implementatie & Infrastructuur
-Schaalbaar en veilig uitrollen.
-*   **Schaalbaarheid:** Opzetten van productie-infrastructuur (autoscaling, load balancing) voor verwachte workloads.
-*   **API & Integratie:** Koppelen van het AI-model aan bestaande systemen (CRM, ERP, Web) en valideren van data-consistentie end-to-end.
-*   **Scoping Gates:** Gefaseerde uitrol (Canary deployment, Blue/Green) en monitoring van initiële prestaties (>90% nauwkeurigheid handhaven).
-*   **Access Controls:** Implementeren van strikte IAM (Identity & Access Management) en encryptie (at-rest & in-transit).
+### Activiteit 3.1: Technische Integratie
+Het koppelen van de AI aan de bestaande softwaresystemen en beveiliging (toegangsbeheer).
 
-### Activiteit 3.2: Change Management & Adoptie
-De menselijke kant van de implementatie.
-*   **Mensgerichte Aanpak:** Transparante communicatie over de rol van AI als ondersteuning (niet vervanging).
-*   **Adoptie Programma's:** Gebruik methodieken zoals ADKAR (Awareness, Desire, Knowledge, Ability, Reinforcement) om weerstand te verminderen.
-*   **Training & Mentorschap:** Oprichten van Centers of Excellence.
-    *   Koppelen van ervaren 'Champions' aan nieuwe gebruikers.
-    *   Aanbieden van hands-on training en handleidingen.
-*   **Feedback Kanalen:** Inrichten van laagdrempelige procedures voor het melden van fouten, bias of onverwacht gedrag.
+*   **Systeemkoppelingen:** Integreren van de AI-oplossing in de huidige IT-architectuur.
+*   **Toegangsbeheer:** Inregelen van wie welke functies en data mag gebruiken.
+*   **Stabiliteitstest:** Bevestigen dat de integratie geen storingen veroorzaakt in andere processen.
 
-### Activiteit 3.3: Juridische Afronding & Compliance
-De puntjes op de i voor de wetgever.
-*   **Registratie:** Registreren van hoog-risico systemen in EU-databases.
-*   **CE-Markering:** Toevoegen van vereiste markeringen (indien van toepassing).
-*   **Technisch Dossier Definitief:** Consolideren van alle documentatie (modelarchitectuur, risico-assessments, data-oorsprong).
-*   **Menselijk Toezicht:** Implementeren en testen van de 'Human-in-the-loop' mechanismen.
+### Activiteit 3.2: Menselijke Regie
+Implementeren van procedures voor menselijk toezicht (*Human-in-the-loop*) zoals vereist voor de gekozen Samenwerkingsmodus.
 
-### Activiteit 3.4: Voorbereiding op Beheer (Handover)
-Overdracht naar de beheerorganisatie.
-*   **Handoff Processen:** Formele overdracht van Development naar Operations/Support.
-*   **Incident Response:** Activeren van het calamiteitenplan (wat als het model faalt of discrimineert?).
-*   **Traceability:** Zorgen dat elke beslissing terug te leiden is naar een specifieke modelversie en dataset (Intent -> Change -> Evidence).
+*   **Toezichtsprotocollen:** Vastleggen hoe en wanneer een mens moet ingrijpen.
+*   **Escalatiepaden:** Wie wordt gewaarschuwd als het systeem buiten zijn kaders treedt?
+*   **Interventieniveaus:** Duidelijke afspraken over de mate van autonomie.
 
-## 4. Team & Rollen (RACI)
+### Activiteit 3.3: Adoptie & Training
+Gebruikers opleiden, niet alleen in de knoppen, maar in de nieuwe werkwijze.
+
+*   **Werkproces Training:** Hoe verandert het dagelijks werk met deze AI-assistent?
+*   **Kwaliteitsbewustzijn:** Gebruikers leren hoe ze de output van de AI kritisch kunnen beoordelen.
+*   **Feedbacklus:** Inrichten van een kanaal voor gebruikerservaringen en verbeterpunten.
+
+### Activiteit 3.4: Compliance Dossier
+Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indien nodig).
+
+*   **Juridisch Dossier:** Verzamelen van alle rapporten voor o.a. de EU AI Act.
+*   **Verantwoordingsbewijs:** Aantonen dat de **Rode Lijnen** zijn gehandhaafd tijdens de testfase.
+*   **Overdracht Logboeken:** Volledig overzicht van de systeemhistorie.
+
+## 👥 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Levering |
 | :--- | :--- |
-| **DevOps / Systems Architect** | **R**esponsible: Verantwoordelijk voor deployment, automatisering en monitoring setup. |
-| **AI Product Manager** | **A**ccountable: Leidt de lancering, coördineert stakeholders en borgt adoptie. |
-| **Data Scientist** | **R**esponsible: Ondersteunt technische integratie en monitort initiële performance (o.a. A/B tests). |
-| **Guardian (Ethicist)** | **C**onsulted: Flagt real-time risico's tijdens uitrol; bouwt vertrouwen. |
-| **Eindgebruikers** | **I**nformed/Consulted: Ontvangen training en geven feedback. |
+| **Implementatie Engineer** | **R**esponsible: Verantwoordelijk voor de technische koppelingen en beveiliging. |
+| **AI Product Manager** | **A**ccountable: Leidt de adoptie en coördineert het trainingsprogramma. |
+| **Guardian (Ethicist)** | **C**onsulted: Controleert of de Menselijke Regie protocollen voldoen aan de eisen. |
+| **Business Sponsor** | **C**onsulted: Tekent het Compliance Dossier af. |
+| **Eindgebruikers** | **I**nformed/Consulted: Worden getraind en leveren de eerste praktijkfeedback. |
+
+---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

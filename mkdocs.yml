@@ -70,15 +70,26 @@ nav:
     - SDD Patroon: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
     - Bewijs: 01-ai-native-fundamenten/07-bewijsstandaarden.md
   - Fase Gidsen:
-    - 1. Ontdekking:
+    - 1. Verkenning & Strategie:
       - Doel: 02-fase-ontdekking/01-doelstellingen.md
       - Activiteiten: 02-fase-ontdekking/02-activiteiten.md
       - Afleveringen: 02-fase-ontdekking/03-afleveringen.md
-      - Templates: 02-fase-ontdekking/04-sjablonen/index.md
-      - Assessment: 02-fase-ontdekking/05-has-h-beoordeling.md
     - 2. Validatie:
       - Doel: 03-fase-validatie/01-doelstellingen.md
       - Activiteiten: 03-fase-validatie/02-activiteiten.md
+      - Afleveringen: 03-fase-validatie/03-afleveringen.md
+    - 3. Realisatie:
+      - Doel: 04-fase-ontwikkeling/01-doelstellingen.md
+      - Activiteiten: 04-fase-ontwikkeling/02-activiteiten.md
+      - Afleveringen: 04-fase-ontwikkeling/03-afleveringen.md
+    - 4. Levering:
+      - Doel: 05-fase-levering/01-doelstellingen.md
+      - Activiteiten: 05-fase-levering/02-activiteiten.md
+      - Afleveringen: 05-fase-levering/03-afleveringen.md
+    - 5. Beheer & Optimalisatie:
+      - Doel: 06-fase-monitoring/01-doelstellingen.md
+      - Activiteiten: 06-fase-monitoring/02-activiteiten.md
+      - Afleveringen: 06-fase-monitoring/03-afleveringen.md
   - Compliance Hub:
     - EU AI Act: 07-compliance-hub/01-eu-ai-act/index.md
     - Risicobeheer: 07-compliance-hub/02-risicobeheer/index.md
@@ -89,12 +100,12 @@ nav:
     - Sjablonen: 09-sjablonen/index.md
     - Technische Standaarden: 08-technische-standaarden/index.md
   - Organisatie:
-    - Roadmap 90-Dagen:
+    - 90-Dagen Startplan:
       - Overzicht: 12-90-dagen-roadmap/index.md
-      - Fase 1 (Dagen 1-30): 12-90-dagen-roadmap/01-fase-1-richt-focus-rationaliseer.md
-      - Fase 2 (Dagen 31-60): 12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.md
-      - Fase 3 (Dagen 61-90): 12-90-dagen-roadmap/03-fase-3-codificeer-schaal.md
-    - Profielen: 13-organisatieprofielen/index.md
+      - Maand 1 (Focus): 12-90-dagen-roadmap/01-fase-1-richt-focus-rationaliseer.md
+      - Maand 2 (Pilot): 12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.md
+      - Maand 3 (Schaal): 12-90-dagen-roadmap/03-fase-3-codificeer-schaal.md
+    - Volwassenheidsniveaus: 13-organisatieprofielen/index.md
     - Drie Tracks: 14-drie-tracks/index.md
     - Accelerators: 15-accelerators/index.md
   - Termenlijst: termenlijst/index.md

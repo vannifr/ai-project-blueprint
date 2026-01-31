@@ -1,4 +1,4 @@
-﻿# Kernactiviteiten & RACI (Validatie)
+﻿# ⚙️ Kernactiviteiten & RACI (Validatie)
 
 ## 3. Kernactiviteiten
 
@@ -26,7 +26,7 @@ Een volledige raming van investering en operationele kosten.
 *   **Data:** Opschoning, labeling, verrijking
 
 #### Operationele Kosten (per maand/jaar)
-*   **Rekenkracht:** Cloud/API-kosten per taak of transactie
+*   **Gebruikskosten:** Cloud/API-kosten per taak of transactie
 *   **Onderhoud:** Monitoring, updates, support
 *   **Risico:** Mogelijke kosten van fouten of incidenten
 
@@ -35,15 +35,20 @@ Een volledige raming van investering en operationele kosten.
 *   **Kwaliteitsverbetering:** Minder fouten, hogere klanttevredenheid
 *   **Omzetgroei:** Nieuwe mogelijkheden, snellere doorlooptijd
 
-## 4. Team & Rollen (RACI)
+## 👥 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Validatie |
 | :--- | :--- |
 | **Data Scientist** | **R**esponsible: Uitvoeren van de Praktijkproef en betrouwbaarheidstesten. |
-| **AI Product Manager** | **A**ccountable: Eigenaar van de business case en ROI-berekening. |
+| **AI Product Manager** | **A**ccountable: Eigenaar van de business case en ROI-berekening (Het Kostenplaatje). |
 | **Business Sponsor** | **C**onsulted: Valideert de testset en succescriteria. |
 | **Finance** | **C**onsulted: Controleert de kostenraming en ROI-berekening. |
 | **Stakeholders** | **I**nformed: Ontvangen updates over de voortgang. |
+
+---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

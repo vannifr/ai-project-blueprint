@@ -1,28 +1,30 @@
-﻿# Deliverables & Gate 4 (Levering)
+﻿# 📂 Deliverables & Gate 4 (Levering)
 
 ## 6. Deliverables (Afleveringen)
-De resultaten van de Leveringsfase die nodig zijn voor een gezonde operatie:
+De resultaten van de Levering-fase die een veilige operatie garanderen:
 
-*   **Operationeel AI-Systeem:** Live in productie.
-*   **Gebruikershandleiding & Trainingsmateriaal:** Documentatie voor eindgebruikers.
-*   **Technisch Dossier (Final):** Volledige compliance documentatie.
-*   **Adoptie Rapport:** Status van gebruikerstraining en acceptatie.
-*   **Service Level Agreement (SLA):** Afspraken over beschikbaarheid en support.
+*   **Geïntegreerd Systeem:** De oplossing is live en gekoppeld aan bedrijfssystemen.
+*   **Regie-protocol:** Document waarin menselijk toezicht en interventies zijn vastgelegd.
+*   **Trainingspakket:** Behandelt zowel technische bediening als nieuwe werkwijze.
+*   **Compliance Dossier:** Volledige set documentatie voor juridische verantwoording.
 
-!!! check "Gate 4 Review Checklist (Exit Criteria)"
-    Om door te gaan naar **Fase 6: Monitoring**, moeten de volgende punten met "JA" worden beantwoord:
-
-    - [ ] Is het systeem succesvol gedeployed in productie zonder kritieke fouten?
-    - [ ] Zijn de eindgebruikers getraind en hebben ze toegang?
-    - [ ] Is de performance in productie stabiel en conform verwachting?
-    - [ ] Is het technische dossier en compliance documentatie compleet en audit-ready?
-    - [ ] Is het Incident Response plan operationeel?
-    - [ ] Is het beheerteam (Operations) formeel eigenaar?
+## ✅ Gate 4 Review Checklist
+- [ ] Is de technische koppeling stabiel en veilig?
+- [ ] Zijn de regie-protocollen voor menselijk toezicht getest en begrepen?
+- [ ] Hebben alle relevante gebruikers de adoptie-training afgerond?
+- [ ] Is het Compliance Dossier compleet en gearchiveerd?
+- [ ] Is er een duidelijke procedure voor incidenten?
+- [ ] Is de business sponsor tevreden met de acceptatie in de organisatie?
+- [ ] Is het beheerteam klaar voor de overdracht (**Beheer & Optimalisatie**)?
 
 ## Gerelateerde Templates
-*   **09-08 Traceerbaarheid-links:** [Sjabloon](../09-sjablonen/index.md)
-*   **07-05 Incidentrespons:** [Link](../../07-compliance-hub/index.md)
-*   **11-02 Overdracht-procedures**
+*   **11-02 Overdracht-procedures:** [Link](../../11-project-afsluiting/02-overdracht-procedures.md)
+*   **07-05 Incidentrespons:** [Link](../../07-compliance-hub/05-incidentrespons.md)
+
+---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

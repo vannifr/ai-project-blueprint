@@ -1,6 +1,6 @@
-﻿# De Kernprincipes
+﻿# 📂 De Kernprincipes
 
-## 1. Wat Zijn de Kernprincipes?
+## 🎯 1. Wat Zijn de Kernprincipes?
 Wij beschouwen AI-voorzieningen niet als statische software, maar als **gedragssturing**. Dit betekent dat we AI-systemen niet programmeren in de traditionele zin, maar sturen door middel van informatie en context.
 
 Een project valt onder dit regime als aan **drie voorwaarden** is voldaan:
@@ -16,9 +16,9 @@ Het systeem wordt niet één keer getest en dan "klaar" verklaard. We valideren 
 
 ---
 
-## 2. De Vier Beheer-Artefacten
+## ⚙️ 2. De Vier Beheer-Artefacten
 
-Om AI-systemen beheersbaar te maken, werken we met vier kerndo cumenten:
+Om AI-systemen beheersbaar te maken, werken we met vier kerndocumenten:
 
 ### 2.1 Doeldefinitie (Intent)
 **Wat proberen we te bereiken?**
@@ -35,7 +35,7 @@ Dit zijn de harde grenzen waar het systeem zich aan moet houden:
 - Veiligheid: Geen medische adviezen geven
 - Compliance: Voldoen aan AVG/GDPR
 
-### 2.3 Stuurinformatie (Context)
+### 2.3 Sturingsinstructies (Context)
 **Welke informatie stuurt het gedrag?**
 
 Dit omvat alle inputs die de AI gebruikt:
@@ -84,6 +84,11 @@ Deze aanpak zorgt voor:
 *   [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
 *   [Artefact Model](03-artefact-model.md)
 *   [Validatie Model](04-validatie-model.md)
+
+---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
