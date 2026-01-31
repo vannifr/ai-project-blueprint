@@ -91,6 +91,7 @@ nav:
       - Activiteiten: 06-fase-monitoring/02-activiteiten.md
       - Afleveringen: 06-fase-monitoring/03-afleveringen.md
   - Compliance Hub:
+    - Overzicht: 07-compliance-hub/index.md
     - EU AI Act: 07-compliance-hub/01-eu-ai-act/index.md
     - Risicobeheer: 07-compliance-hub/02-risicobeheer/index.md
     - Ethiek: 07-compliance-hub/03-ethische-richtlijnen.md

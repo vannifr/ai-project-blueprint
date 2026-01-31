@@ -1,43 +1,46 @@
-﻿# EU AI Act: Navigatie voor Projectteams
+﻿# 📂 EU AI Act
 
-## Overzicht
-De EU AI Act is de eerste uitgebreide wetgeving ter wereld voor artificiële intelligentie. Het hanteert een risico-gebaseerde benadering: hoe groter het potentiële risico voor de maatschappij, hoe strenger de regels.
-
-## Risicocategorieën
-
-### 1. Onaanvaardbaar Risico (*Unacceptable Risk*)
-Systemen die een duidelijke bedreiging vormen voor de veiligheid of rechten van mensen.
-*   **Voorbeelden:** Sociale scoring door overheden, manipulatieve gedragsbeïnvloeding.
-*   **Gevolg:** **Verboden** in de EU.
-
-### 2. Hoog Risico (*High Risk*)
-Systemen die een aanzienlijke impact hebben op menselijke levens of grondrechten.
-*   **Voorbeelden:** AI in kritieke infrastructuur, onderwijs, recruitment, wetshandhaving.
-*   **Gevolg:** Strenge conformiteitseisen (data governance, documentatie, menselijk toezicht).
-
-### 3. Beperkt Risico (*Limited Risk*)
-Systemen met een transparantieplicht.
-*   **Voorbeelden:** Chatbots, deepfakes, emotiedetectie.
-*   **Gevolg:** Gebruikers moeten weten dat ze met AI communiceren.
-
-### 4. Minimaal Risico (*Minimal Risk*)
-Geen specifieke verplichtingen onder de AI Act.
-*   **Voorbeelden:** Spamfilters, AI in games.
-*   **Gevolg:** Geen extra actie nodig (maar ethische standaarden gelden nog steeds).
-
-## Verplichtingen voor Hoog-Risico AI
-Als je project in de categorie *High Risk* valt, moet je voldoen aan:
-1.  **Risicobeheersysteem:** Continu proces over de gehele levenscyclus.
-2.  **Data Governance:** Gebruik van datasets van hoge kwaliteit zonder bias.
-3.  **Technische Documentatie:** Up-to-date bewijslast van conformiteit.
-4.  **Logging:** Automatische registratie van gebeurtenissen (traceerbaarheid).
-5.  **Menselijk Toezicht:** Ingebouwde mechanismen voor menselijke controle.
-6.  **Nauwkeurigheid & Veiligheid:** Robuustheid tegen fouten en aanvallen.
-
-## Strategie in dit Playbook
-Dit playbook gebruikt de **Gate Reviews** om te toetsen aan de AI Act. In de Discovery-fase (Fase 2) wordt de eerste classificatie gedaan, en in de Monitoring-fase (Fase 6) borgen we de blijvende conformiteit.
+## 🎯 Doel
+Dit document beschrijft de specifieke vereisten van de Europese AI Verordening (EU AI Act) en hoe deze worden toegepast binnen het project.
 
 ---
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+## 📂 Risicoclassificatie conform EU AI Act
 
+De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veiligheid en grondrechten.
+
+### 🔴 Onacceptabel Risico
+*   **Definitie:** Systemen die een duidelijke bedreiging vormen.
+*   **Actie:** Absoluut verboden.
+
+### 🟠 Hoog Risico
+*   **Definitie:** Systemen in kritieke domeinen (onderwijs, werkgelegenheid, overheid).
+*   **Vereisten:** Strenge regels voor data-governance, documentatie, transparantie en menselijk toezicht.
+*   **Documentatie:** Verplicht technisch dossier en CE-markering.
+
+### 🟡 Beperkt Risico
+*   **Definitie:** Systemen zoals chatbots of image-generators.
+*   **Vereisten:** Transparantieplicht (gebruikers moeten weten dat ze met AI communiceren).
+
+### 🟢 Minimaal Risico
+*   **Definitie:** De meeste AI-systemen (spamfilters, AI in games).
+*   **Vereisten:** Geen wettelijke verplichtingen, maar vrijwillige gedragscodes aanbevolen.
+
+---
+
+## ⚙️ Kernverplichtingen voor Hoog Risico AI
+
+1.  **Risicobeheersysteem:** Continu proces gedurende de volledige levenscyclus.
+2.  **Data Governance:** Gebruik van hoogwaardige datasets om bias te minimaliseren.
+3.  **Technische Documentatie:** Aantonen van compliance voor de autoriteiten.
+4.  **Logging:** Automatische registratie van gebeurtenissen voor traceerbaarheid.
+5.  **Menselijk Toezicht:** Maatregelen om menselijke controle te waarborgen.
+6.  **Nauwkeurigheid & Veiligheid:** Passende niveaus van robuustheid en cybersecurity.
+
+---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
+
+---
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
