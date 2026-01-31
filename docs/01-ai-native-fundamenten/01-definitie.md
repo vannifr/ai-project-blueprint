@@ -1,18 +1,89 @@
-﻿# Module 01: AI-Native Fundamenten (Definitie)
+﻿# De Kernprincipes
 
-## 1. Definitie
-**AI-Natieve Softwareontwikkeling** (*AI-Native Software Development*) is een technische discipline waarbij Generatieve AI (GenAI) componenten worden behandeld als eersterangs elementen van de systeemlevenscyclus.
+## 1. Wat Zijn de Kernprincipes?
+Wij beschouwen AI-voorzieningen niet als statische software, maar als **gedragssturing**. Dit betekent dat we AI-systemen niet programmeren in de traditionele zin, maar sturen door middel van informatie en context.
 
-Dit vereist:
-*   Expliciete, geversioneerde context-artefacten.
-*   Continue validatie.
-*   Operationele monitoring.
-*   End-to-end traceerbaarheid die de intentie koppelt aan het validatiebewijs.
+Een project valt onder dit regime als aan **drie voorwaarden** is voldaan:
 
-Het verschuift de primaire focus van het schrijven van logica naar het sturen van gedrag door middel van **Context Engineering**.
+### 1. Impact
+Het systeem raakt de business direct. Het neemt beslissingen, genereert content of beïnvloedt processen die waarde creëren of risico's met zich meebrengen.
+
+### 2. Traceerbaarheid  
+Alle instructies en configuraties zijn beheerd als code (version control). We kunnen altijd terugkijken: "Waarom deed het systeem dit op dat moment?"
+
+### 3. Continue Toetsing
+Het systeem wordt niet één keer getest en dan "klaar" verklaard. We valideren doorlopend of het gedrag nog aansluit bij de bedoeling.
 
 ---
 
+## 2. De Vier Beheer-Artefacten
+
+Om AI-systemen beheersbaar te maken, werken we met vier kerndo cumenten:
+
+### 2.1 Doeldefinitie (Intent)
+**Wat proberen we te bereiken?**
+
+Dit is de hypothese of het doel van het systeem. Bijvoorbeeld:
+- "Automatisch facturen categoriseren met 95% nauwkeurigheid"
+- "Klantvragen beantwoorden binnen 30 seconden"
+
+### 2.2 Rode Lijnen (Constraints)
+**Wat mag absoluut niet gebeuren?**
+
+Dit zijn de harde grenzen waar het systeem zich aan moet houden:
+- Privacy: Geen persoonsgegevens delen zonder toestemming
+- Veiligheid: Geen medische adviezen geven
+- Compliance: Voldoen aan AVG/GDPR
+
+### 2.3 Stuurinformatie (Context)
+**Welke informatie stuurt het gedrag?**
+
+Dit omvat alle inputs die de AI gebruikt:
+- Prompts en instructies
+- Gekoppelde documenten en kennisbanken
+- Configuraties en parameters
+- Voorbeelden (few-shot learning)
+
+### 2.4 Validatierapport (Evidence)
+**Hoe weten we dat het werkt?**
+
+Het rapport dat aantoont dat de AI zich aan de Rode Lijnen houdt en het Doel bereikt:
+- Testresultaten
+- Prestatiemetrics
+- Audit logs
+- Gebruikersfeedback
+
+---
+
+## 3. Van Code naar Gedrag
+
+Het verschil met traditionele software:
+
+| Traditionele Software | AI als Gedragssturing |
+|----------------------|----------------------|
+| We schrijven expliciete regels | We sturen met voorbeelden en context |
+| Logica is deterministisch | Gedrag is probabilistisch |
+| Eenmalige test = klaar | Continue validatie vereist |
+| Bug = code fout | "Bug" = context probleem |
+
+**Context Engineering** wordt de nieuwe kerndiscipline: het ontwerpen en beheren van de informatie die het AI-gedrag stuurt.
+
+---
+
+## 4. Waarom Dit Belangrijk Is
+
+Deze aanpak zorgt voor:
+- **Controleerbaarheid:** We weten altijd waarom het systeem iets deed
+- **Aanpasbaarheid:** Gedrag wijzigen = context aanpassen, niet herprogrammeren
+- **Verantwoording:** Duidelijke eigenaarschap van doelen en grenzen
+- **Compliance:** Aantoonbaar voldoen aan wet- en regelgeving
+
+---
+
+## Gerelateerde Modules
+*   [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
+*   [Artefact Model](03-artefact-model.md)
+*   [Validatie Model](04-validatie-model.md)
+
+---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-

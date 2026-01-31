@@ -1,15 +1,16 @@
-﻿# Fase 03: Validatie (Validation & Business Case)
+﻿# Fase 03: Validatie
 
-## 1. Doelstelling
-Het primaire doel van de Validatie-fase is het bewijzen van de technische haalbaarheid en de commerciële levensvatbaarheid van de geselecteerde AI-use case voordat er op grote schaal wordt geïnvesteerd. We verschuiven van "idee" naar "bewezen concept".
+## Doelstelling
+Het primaire doel van de Validatiefase is bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
 
-**Belangrijkste resultaat:** Een formeel goedgekeurde Business Case en een technisch gevalideerd concept (Proof of Value - PoV), inclusief budgettoewijzing voor de volledige bouwfase (Gate 2).
+**Belangrijkste resultaat:** Een werkende Praktijkproef (Proof of Value) die aantoont dat de AI de specifieke bedrijfscontext begrijpt en meetbare waarde levert.
 
-## 2. Intrede Criteria (Definition of Ready)
+## Intrede Criteria (Definition of Ready)
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
-*   Goedgekeurd Project Charter / Intent Record uit Fase Discovery.
-*   Beschikbare data-sample in een veilige omgeving.
-*   Toewijzing van een klein, cross-functioneel team voor de PoV.
+*   Gate 1 is goedgekeurd.
+*   De Data-Evaluatie is afgerond met positief resultaat.
+*   Er is een testset beschikbaar met representatieve voorbeelden.
+*   Het team heeft toegang tot de benodigde tools en data.
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

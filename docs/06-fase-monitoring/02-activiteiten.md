@@ -1,11 +1,11 @@
-﻿# Kernactiviteiten & RACI (Monitoring)
+﻿# Kernactiviteiten & RACI (Beheer & Optimalisatie)
 
 ## 3. Kernactiviteiten
 
 ### Activiteit 3.1: Operationele Monitoring & MLOps
 We houden de 'hartslag' van het systeem in de gaten.
 *   **Real-time Performance Tracking:** Dashboarding van kritieke metrics: Latency (snelheid), Foutpercentages, Uptime, Throughput.
-*   **Model Drift Detection:** Statistisch monitoren of de invoerdata in productie afwijkt van de trainingsdata (*Data Drift*) of als de relatie tussen data en uitkomst verandert (*Concept Drift*).
+*   **Prestatieverschuiving Meten:** Statistisch monitoren of de invoerdata in productie afwijkt van de trainingsdata (*Data Drift*) of als de relatie tussen data en uitkomst verandert (*Concept Drift*).
 *   **Data Loop Integratie:** Terugkoppelen van productie-data en uitkomsten naar de ontwikkelomgeving voor analyse (Feedback Loop).
 *   **Geautomatiseerde Triggers:** Alerts instellen voor dalingen onder drempelwaarden (bv. accuracy < 85%).
 
@@ -30,12 +30,12 @@ Blijvende wettelijke conformiteit.
 
 ## 4. Team & Rollen (RACI)
 
-| Rol | Verantwoordelijkheid in Monitoring |
+| Rol | Verantwoordelijkheid in Beheer & Optimalisatie |
 | :--- | :--- |
 | **MLOps Engineer** | **R**esponsible: Eigenaar monitoring-pipelines, infrastructuur en stabiliteit. |
 | **AI Product Manager** | **A**ccountable: Bewaakt Business KPI's, beheert backlog en user feedback. |
 | **Chief AI Officer (CAIO)** | **C**onsulted: Evalueert lange termijn ROI en strategische impact. |
-| **Data Scientist** | **R**esponsible: Analyseert drift, voert retraining uit en verbetert modellen. |
+| **Data Scientist** | **R**esponsible: Analyseert prestatieverschuiving, voert retraining uit en verbetert modellen. |
 | **Guardian (Ethicist)** | **C**onsulted: Voert ethische reviews en post-market surveillance uit. |
 
 ---

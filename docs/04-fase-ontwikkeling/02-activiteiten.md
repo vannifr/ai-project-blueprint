@@ -1,39 +1,53 @@
-﻿# Kernactiviteiten (Ontwikkeling)
+﻿# Kernactiviteiten & RACI (Realisatie)
 
-## Activiteit 5.1: Data Engineering & Ops
-Het bouwen van de fundering voor de AI-oplossing.
-*   **Pipeline Bouw:** Realiseren van schaalbare processen voor data-acquisitie, opschoning en transformatie.
-*   **Data Kwaliteitsbewaking:** Implementeren van geautomatiseerde checks op de inputdata (drift en afwijkingen).
-*   **Systeemintegratie:** Koppelen van de data-infrastructuur aan de AI-modellen en applicaties.
+## 3. Kernactiviteiten
 
-## Activiteit 5.2: AI-Engineering & Fine-tuning
-Het verfijnen van het model op basis van de PoC resultaten.
-*   **Model Training/Fine-tuning:** Trainen op de volledige dataset of fine-tunen van fundatiemodellen voor specifieke taken.
-*   **Prompt Management:** Centraliseren en versiebeheren van prompts als code (*Context Artifacts*).
-*   **Evaluatie-framework:** Bouwen van een robuuste testsuite voor continue validatie van de modeloutput.
+### Activiteit 3.1: Datastromen Automatiseren
+Het opzetten van pijplijnen die data automatisch opschonen en aanleveren (geen handwerk meer).
 
-## Activiteit 5.3: Architectuur & Beveiliging
-Zorgen dat de oplossing past binnen de enterprise standaarden.
-*   **API Ontwikkeling:** Ontsluiten van de AI-functionaliteit via veilige en gedocumenteerde interfaces.
-*   **Security Review:** Testen op kwetsbaarheden zoals *prompt injection* en data-lekken.
-*   **Schaalbaarheidscontrole:** Uitvoeren van *load tests* om te garanderen dat het systeem de productie-belasting aankan.
+*   **Data Pipelines:** Geautomatiseerde ETL-processen (Extract, Transform, Load)
+*   **Kwaliteitscontroles:** Automatische validatie van inkomende data
+*   **Versiebeheer:** Tracking van data-wijzigingen en lineage
 
-## Activiteit 5.4: User Experience (UX) & Interface
-De interface bouwen waarmee de mens samenwerkt met de AI.
-*   **Front-end Ontwikkeling:** Bouwen van de applicatie of dashboard.
-*   **Feedback Mechanismen:** Integreren van knoppen of velden waarmee gebruikers AI-output kunnen beoordelen (cruciaal voor *Human-in-the-Loop*).
+### Activiteit 3.2: Kenniskoppeling & Afstellen
+Het verbinden van de AI aan interne documenten en het fijn-afstellen van de parameters voor optimale prestaties.
 
-## Team & Rollen (RACI)
+*   **Knowledge Base Integratie:** Koppelen van interne documentatie, FAQ's, procedures
+*   **Retrieval-Augmented Generation (RAG):** Combineren van AI met bedrijfsspecifieke kennis
+*   **Fine-tuning:** Aanpassen van model-parameters voor specifieke use case
+*   **Prompt Engineering:** Optimaliseren van de Stuurinformatie
 
-| Rol | Verantwoordelijkheid in Ontwikkeling |
+### Activiteit 3.3: Specificatie-eerst Methode
+We schrijven eerst de verwachte uitkomst (de test), dan pas de implementatie. Zo borgen we kwaliteit.
+
+*   **Test-Driven Development:** Definieer eerst wat het systeem moet doen
+*   **Acceptatiecriteria:** Heldere, meetbare eisen per functionaliteit
+*   **Geautomatiseerde Tests:** Continue validatie bij elke wijziging
+
+### Activiteit 3.4: Validatie op Drie Niveaus
+Elke wijziging wordt getoetst op drie dimensies:
+
+#### 1. Syntactisch
+*   **Vraag:** Werkt de code? Geen crashes of errors?
+*   **Check:** Unit tests, integration tests
+
+#### 2. Gedrag
+*   **Vraag:** Doet het wat we verwachten?
+*   **Check:** Functionele tests, regressie tests
+
+#### 3. Doelgericht
+*   **Vraag:** Helpt het de gebruiker? Levert het waarde?
+*   **Check:** User acceptance testing, A/B testing
+
+## 4. Team & Rollen (RACI)
+
+| Rol | Verantwoordelijkheid in Realisatie |
 | :--- | :--- |
-| **Software Engineer** | **R**esponsible: Realiseert de applicatie en integraties. |
-| **Data Engineer** | **R**esponsible: Bouwt en beheert de datapijplijnen. |
-| **ML Engineer** | **R**esponsible: Verfijnt en optimaliseert het AI-model. |
-| **AI Product Manager** | **A**ccountable: Bewaakt de voortgang versus het *Intent Record*. |
-| **Security Officer** | **C**onsulted: Voert beveiligingsaudits uit. |
+| **Data Scientist** | **R**esponsible: Ontwikkeling van AI-modellen en kenniskoppeling. |
+| **ML Engineer** | **R**esponsible: Bouwen van data pipelines en infrastructuur. |
+| **AI Product Manager** | **A**ccountable: Eigenaar van de product backlog en prioritering. |
+| **QA Engineer** | **R**esponsible: Uitvoeren van geautomatiseerde tests en validatie. |
+| **DevOps** | **C**onsulted: Adviseert over deployment en infrastructuur. |
 
 ---
-
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-

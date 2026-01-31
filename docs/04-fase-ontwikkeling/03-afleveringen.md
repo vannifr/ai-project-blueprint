@@ -1,24 +1,25 @@
-﻿# Deliverables & Gate 3 (Ontwikkeling)
+﻿# Deliverables & Gate 3 (Realisatie)
 
-## Deliverables (Afleveringen)
-De resultaten van de Ontwikkelfase:
+## 6. Deliverables (Afleveringen)
+De resultaten van de Realisatiefase voor een veilige deployment:
 
-*   **Productie-klaar Model/Systeem:** De software en getrainde modellen in een staging-omgeving.
-*   **Technische Documentatie:** Architectuurdiagrammen, API-specificaties en datakaarten.
-*   **Test & Validatie Rapport:** Bewijs dat het systeem voldoet aan de eisen (Syntactisch, Gedrag, Intent).
-*   **Deployment Plan:** Gedetailleerd stappenplan voor de live-gang.
+*   **Productie-klaar AI-systeem:** Volledig functioneel met alle features
+*   **Geautomatiseerde Test Suite:** Unit, integration en acceptance tests
+*   **Technische Documentatie:** Architectuur, API's, configuratie
+*   **Deployment Plan:** Stapsgewijs plan voor go-live
 
-!!! check "Gate 3 Review Checklist (Exit Criteria)"
-    Voldoe aan deze criteria om door te gaan naar **Fase 5: Levering**:
+!!! check "Gate 3 Review Checklist"
+    - [ ] Voldoet het systeem aan alle functionele eisen?
+    - [ ] Slagen alle geautomatiseerde tests (>95% coverage)?
+    - [ ] Is de performance acceptabel (latency, throughput)?
+    - [ ] Is de technische documentatie compleet en actueel?
+    - [ ] Zijn alle beveiligingseisen geïmplementeerd?
+    - [ ] Is het deployment plan getest en goedgekeurd?
+    - [ ] Is het team klaar voor de overgang naar Levering?
 
-    - [ ] Is de oplossing technisch stabiel en getest in een realistische omgeving?
-    - [ ] Voldoet de output aan de gedefinieerde kwaliteitsnormen (KPI's)?
-    - [ ] Zijn alle beveiligingsrisico's geadresseerd en goedgekeurd?
-    - [ ] Is de broncode en de AI-context (prompts) correct geversioneerd?
-    - [ ] Is er een plan voor gebruikersadoptie en training?
-    - [ ] Is de operationele ondersteuning (wie helpt als het misgaat?) geregeld?
+## Gerelateerde Templates
+*   **08-01 MLOps Standaarden:** [Link](../../08-technische-standaarden/index.md)
+*   **04-01 Gate Review:** [Checklist](../../09-sjablonen/04-gate-reviews/checklist.md)
 
 ---
-
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-

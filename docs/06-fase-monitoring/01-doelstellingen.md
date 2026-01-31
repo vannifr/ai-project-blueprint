@@ -1,7 +1,7 @@
-﻿# Fase 06: Monitoring (Monitoring & Maintenance)
+﻿# Fase 06: Beheer & Optimalisatie
 
 ## 1. Doelstelling
-Het primaire doel van de Monitoring-fase is het waarborgen van de prestaties, ethische integriteit en kostenefficiëntie van het AI-systeem gedurende de gehele operationele levensduur. AI-systemen degraderen over tijd (*model drift*); deze fase voorkomt dit en zorgt voor continue verbetering.
+Het primaire doel van de Beheer & Optimalisatiefase is het waarborgen van de prestaties, ethische integriteit en kostenefficiëntie van het AI-systeem gedurende de gehele operationele levensduur.
 
 **Belangrijkste resultaat:** Een stabiel, zelf-corrigerend AI-ecosysteem dat aantoonbare business value blijft leveren, compliant is met wetgeving en geoptimaliseerd is voor kosten en milieu.
 

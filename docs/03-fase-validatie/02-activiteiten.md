@@ -2,42 +2,48 @@
 
 ## 3. Kernactiviteiten
 
-### Activiteit 3.1: Technisch Bewijs: Proof of Value (PoV)
-We testen de kernhypothese met een kleinschalig experiment.
-*   **Hypothese Testen:** Valideer of de AI de beoogde taak daadwerkelijk kan uitvoeren.
-*   **Nauwkeurigheid Check:** Behaal een minimale nauwkeurigheid (bijv. >90%) op een representatieve testset.
-*   **Data Verificatie:** Bevestig dat de data de benodigde patronen bevat (o.a. via K-Fold cross-validation).
-*   **Technische Haalbaarheid:** Evalueer de complexiteit voor productie (infra, latency, schaalbaarheid).
+### Activiteit 3.1: Praktijkproef (Proof of Value)
+Een kleinschalig experiment om te testen of de AI de specifieke bedrijfscontext begrijpt.
 
-### Activiteit 3.2: Financiële Onderbouwing (ROI & TCO)
-We maken de kosten en baten transparant.
-*   **Total Cost of Ownership (TCO):** Raming van ontwikkelkosten (personeel) en operationele kosten (compute/GPU, API's, onderhoud).
-    *   *Vuistregel budget:* 50-70% Personeel, 20-40% Compute, 10-20% Data.
-*   **ROI Meting:** Kwantificeer baten: directe kostenbesparing, omzetgroei of efficiëntiewinst (tijd x uurtarief).
-*   **Terugverdientijd:** Bereken wanneer de investering break-even draait.
+*   **Testset Samenstellen:** Verzamel 50-100 representatieve voorbeelden uit de praktijk
+*   **Baseline Meting:** Hoe presteren mensen of bestaande systemen nu?
+*   **AI Experiment:** Laat de AI dezelfde voorbeelden verwerken
+*   **Succescriterium:** Scoort de AI een voldoende (>90%) op de testset?
 
-### Activiteit 3.3: Strategische Prioritering
-Is dit project de investering waard ten opzichte van andere opties?
-*   **Value vs. Feasibility Matrix:** Plaats de gevalideerde resultaten op de matrix.
-*   **Decision Criteria:** Stel harde criteria vast voor de Go/No-Go beslissing.
-*   **Balanced Scorecard:** Evalueer impact op Financiën, Operatie, Klant en Strategie.
+### Activiteit 3.2: Betrouwbaarheidstesten
+Statistische check of de resultaten stabiel zijn en niet op toeval berusten.
 
-### Activiteit 3.4: Compliance & Risk Deep-Dive
-We kijken dieper naar de risico's dan in de Discovery fase.
-*   **Risicoanalyse:** Update het risico-register met specifieke bevindingen uit de PoV.
-*   **Ethische Toetsing:** Voer een Fairness Audit uit op de PoV-resultaten. Is er bias?
-*   **Leveranciersbeoordeling:** Als externe tools worden gebruikt: check compliance (EU AI Act, GDPR, Security).
-*   **Classificatie:** Bepaal het definitieve risiconiveau (Laag/Matig/Verhoogd/Kritiek) volgens de [AI-Native Risk Classification](../../01-ai-native-fundamenten/05-risicoclassificatie.md).
+*   **Reproduceerbaarheid:** Geeft de AI consistente antwoorden bij herhaling?
+*   **Edge Cases:** Hoe reageert het systeem op ongewone of extreme input?
+*   **Bias Detectie:** Zijn er systematische fouten in bepaalde categorieën?
+
+### Activiteit 3.3: Het Kostenplaatje
+Een volledige raming van investering en operationele kosten.
+
+#### Investeringskosten
+*   **Mensen:** Ontwikkeling, training, beheer (FTE's)
+*   **Technologie:** Licenties, cloud-infrastructuur, tools
+*   **Data:** Opschoning, labeling, verrijking
+
+#### Operationele Kosten (per maand/jaar)
+*   **Rekenkracht:** Cloud/API-kosten per taak of transactie
+*   **Onderhoud:** Monitoring, updates, support
+*   **Risico:** Mogelijke kosten van fouten of incidenten
+
+#### Return on Investment (ROI)
+*   **Tijdwinst:** Hoeveel uur besparen we per week/maand?
+*   **Kwaliteitsverbetering:** Minder fouten, hogere klanttevredenheid
+*   **Omzetgroei:** Nieuwe mogelijkheden, snellere doorlooptijd
 
 ## 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Validatie |
 | :--- | :--- |
-| **Chief AI Officer (CAIO)** | **A**ccountable: Evalueert ROI en strategische fit. Keurt budget goed (Gate 2). |
-| **Business Analist** | **R**esponsible: Stelt de Business Case en TCO op. |
-| **AI Architect / Tech Lead** | **R**esponsible: Voert de PoV uit en valideert technische haalbaarheid. |
-| **Ethicist / Guardian** | **C**onsulted: Beoordeelt bias in PoV en risico's (accountability). |
-| **Security Officer** | **I**nformed: Wordt geïnformeerd over gebruikte tools en data. |
+| **Data Scientist** | **R**esponsible: Uitvoeren van de Praktijkproef en betrouwbaarheidstesten. |
+| **AI Product Manager** | **A**ccountable: Eigenaar van de business case en ROI-berekening. |
+| **Business Sponsor** | **C**onsulted: Valideert de testset en succescriteria. |
+| **Finance** | **C**onsulted: Controleert de kostenraming en ROI-berekening. |
+| **Stakeholders** | **I**nformed: Ontvangen updates over de voortgang. |
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
