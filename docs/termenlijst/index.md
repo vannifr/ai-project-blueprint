@@ -1,4 +1,4 @@
-# Termenlijst (Glossary)
+﻿# Termenlijst (Glossary)
 
 Dit document bevat de definities van de belangrijkste termen en afkortingen die in dit AI Project Playbook worden gebruikt.
 
@@ -60,4 +60,4 @@ Dit document bevat de definities van de belangrijkste termen en afkortingen die 
 *   **TCO:** *Total Cost of Ownership*. De totale kosten van het bezit en gebruik van een systeem.
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

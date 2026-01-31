@@ -1,4 +1,4 @@
-# Agile Antipatronen (NOT DONE)
+﻿# Agile Antipatronen (NOT DONE)
 
 ## Doel
 Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatronen die absoluut vermeden moeten worden om falen, onethisch gedrag of compliance-issues te voorkomen.
@@ -59,6 +59,6 @@ Gebruik deze lijst als:
 
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

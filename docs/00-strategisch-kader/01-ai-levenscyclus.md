@@ -1,4 +1,4 @@
-# AI Levenscyclus
+﻿# AI Levenscyclus
 
 ## Doel
 Dit document definieert de volledige methodologie voor AI projecten en vormt de fundering van de AI levenscyclus. Het beschrijft de 5 fasen van AI projecten en fungeert als centrale routekaart voor het team.
@@ -108,4 +108,4 @@ graph TD
 *   [Project Initiatie](05-project-initiatie.md)
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

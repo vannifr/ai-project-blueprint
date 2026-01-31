@@ -1,4 +1,4 @@
-# Kernactiviteiten (Discovery)
+﻿# Kernactiviteiten (Discovery)
 
 ## Activiteit 3.1: Strategische Probleemdefinitie & Ideatie
 We definiëren het probleem vanuit de eindgebruiker, niet vanuit de technologie.
@@ -41,6 +41,6 @@ We identificeren juridische en ethische showstoppers vroegtijdig.
 
 ---
 
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

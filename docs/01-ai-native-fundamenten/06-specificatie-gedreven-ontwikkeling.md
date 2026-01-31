@@ -1,4 +1,4 @@
-# Specificatie-Gedreven Ontwikkeling (SDD)
+﻿# Specificatie-Gedreven Ontwikkeling (SDD)
 
 Het *Spec-Driven Development* (SDD) patroon zorgt voor "shift-left" validatie door eerst de verwachtingen vast te leggen.
 
@@ -16,6 +16,6 @@ In plaats van direct prompts te schrijven, volgen we deze cyclus:
 
 ---
 
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

@@ -1,4 +1,4 @@
-# Project Initiatie
+﻿# Project Initiatie
 
 ## Doel
 Het formaliseren van de start van een AI-project door het vastleggen van heldere doelen, rollen, verantwoordelijkheden en kaders in een *Project Charter*.
@@ -41,6 +41,6 @@ Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

@@ -25,4 +25,4 @@ De resultaten van de Validatiefase die nodig zijn voor de besluitvorming:
 *   **09-07 Validatie-bewijs:** (voor PoV resultaten)
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

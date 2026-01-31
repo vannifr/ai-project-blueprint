@@ -1,4 +1,4 @@
-# Deliverables & Gate 1 (Discovery)
+﻿# Deliverables & Gate 1 (Discovery)
 
 ## Deliverables (Afleveringen)
 In deze fase worden de volgende tastbare resultaten opgeleverd:
@@ -32,6 +32,6 @@ In deze fase worden de volgende tastbare resultaten opgeleverd:
 
 ---
 
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

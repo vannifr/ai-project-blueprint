@@ -13,4 +13,4 @@ Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-pro
 *   **[Traceerbaarheid](08-traceerbaarheid-links/template.md):** End-to-end tracking
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -12,4 +12,4 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 *   Toewijzing van een klein, cross-functioneel team voor de PoV.
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

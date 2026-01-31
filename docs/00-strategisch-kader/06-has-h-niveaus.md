@@ -1,4 +1,4 @@
-# HAS H Niveaus: De 5 Tiers van AI-Integratie
+﻿# HAS H Niveaus: De 5 Tiers van AI-Integratie
 
 ## Doel
 Het *Human-AI System* (HAS) H-model definieert de mate waarin AI geïntegreerd is in de operationele processen en besluitvorming. Dit model helpt organisaties om hun huidige status te bepalen en een groeipad uit te stippelen van traditionele werkwijzen naar een autonome, AI-gedreven onderneming.
@@ -73,6 +73,6 @@ Naarmate het niveau stijgt (van H1 naar H5), wordt *Context Management* kritisch
 
 ---
 
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

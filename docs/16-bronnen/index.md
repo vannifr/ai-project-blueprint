@@ -1,4 +1,4 @@
-# Bronnen & Inspiratie
+﻿# Bronnen & Inspiratie
 
 Dit project is tot stand gekomen door de synthese van industrie-standaarden, academisch onderzoek en praktische ervaringen in AI-projectmanagement. Hieronder volgt een overzicht van de belangrijkste bronnen die als inspiratie hebben gediend.
 
@@ -16,4 +16,4 @@ Dit project is tot stand gekomen door de synthese van industrie-standaarden, aca
 *   **EU AI Act:** De Europese verordening voor artificiële intelligentie.
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -1,4 +1,4 @@
-# Governance Model
+﻿# Governance Model
 
 ## Doel
 Het definiëren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
@@ -46,6 +46,6 @@ Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checkli
 
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

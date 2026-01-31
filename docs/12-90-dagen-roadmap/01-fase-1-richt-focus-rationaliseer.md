@@ -23,4 +23,4 @@ In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet wer
     - [ ] Projectteam samengesteld voor de pilot.
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

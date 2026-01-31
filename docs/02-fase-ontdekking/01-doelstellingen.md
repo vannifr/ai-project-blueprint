@@ -1,4 +1,4 @@
-# Fase 02: Ontdekking (Discovery)
+﻿# Fase 02: Ontdekking (Discovery)
 
 ## Doelstelling
 Het primaire doel van de Discovery-fase is de verschuiving van "wat kunnen we bouwen" naar "wat moeten we bouwen". In deze fase identificeren we kansrijke AI-use cases, stellen we de business-uitdaging scherp en beoordelen we de organisatorische gereedheid (data, techniek en compliance).
@@ -7,6 +7,6 @@ Het primaire doel van de Discovery-fase is de verschuiving van "wat kunnen we bo
 
 ---
 
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

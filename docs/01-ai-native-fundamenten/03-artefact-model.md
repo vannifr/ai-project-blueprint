@@ -1,4 +1,4 @@
-# Artefact Model
+﻿# Artefact Model
 
 In *AI-Native* projecten beheren we specifieke artefacten om grip te houden op het onvoorspelbare karakter van AI.
 
@@ -13,6 +13,6 @@ In *AI-Native* projecten beheren we specifieke artefacten om grip te houden op h
 
 ---
 
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

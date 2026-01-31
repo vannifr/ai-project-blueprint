@@ -25,4 +25,4 @@ De resultaten van de Leveringsfase die nodig zijn voor een gezonde operatie:
 *   **11-02 Overdracht-procedures**
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
