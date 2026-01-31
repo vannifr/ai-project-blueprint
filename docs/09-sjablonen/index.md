@@ -13,6 +13,7 @@ Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-pro
 
 ### ⚙️ Ontwerp & Sturing
 *   **[Module 09.02: De Doelkaart (Intent Map)](06-ai-native-artefacten/doelkaart.md):** Verbindt de menselijke intentie aan de technische **Sturingsinstructies**.
+*   **[Module 09.05: Prompt Template](10-prompt-engineering/template.md):** Sjabloon voor het opbouwen van effectieve AI-instructies.
 *   **[Module 09.04: Technische Modelkaart](02-business-case/modelkaart.md):** Technische verantwoording voor ontwikkelaars en auditors.
 *   **[Risicoanalyse](03-risicoanalyse/template.md):** Systematische risico-inventarisatie en toetsing op de **Rode Lijnen**.
 

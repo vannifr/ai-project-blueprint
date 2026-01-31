@@ -54,6 +54,11 @@ Voor Hoog Risico systemen is een 'Technisch Dossier' verplicht. Dit bevat:
 *   **Instructies voor Gebruik:** Handleiding voor de menselijke toezichthouder.
 *   **Logboeken:** Bewijs van de werking en beslissingen (**Validatierapport**).
 
+## 🤖 Toekomst: Agentic AI & Constitutional AI
+Wanneer AI-systemen autonoom acties gaan uitvoeren (Modus 4 & 5), verschuift de focus naar **Constitutional AI**:
+*   **Actieradius:** Technische inperking van wat een agent mag doen (bijv. maximale budgetlimieten).
+*   **Guardrails:** Real-time monitoring die acties blokkeert als deze de **Rode Lijnen** dreigen te overschrijden.
+
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026

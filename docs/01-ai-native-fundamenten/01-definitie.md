@@ -14,9 +14,14 @@ Alle instructies en configuraties zijn beheerd als code (version control). We ku
 ### 3. Continue Toetsing
 Het systeem wordt niet één keer getest en dan "klaar" verklaard. We valideren doorlopend of het gedrag nog aansluit bij de bedoeling.
 
+## ⚙️ Governance-as-Code (Automatisering)
+Documentatie alleen verandert gedrag niet; de implementatie doet dat wel. We hanteren het principe van **Verifieerbaarheid door Code**:
+*   **Technisch Dossier in Git:** Artefacten zoals de **Technische Modelkaart** worden bij voorkeur opgeslagen als code (YAML/JSON) in de repository.
+*   **Automated Gates:** De CI/CD-pipeline checkt automatisch op compliance-criteria (bijv. accuraatheid > 85%) voordat een model naar productie gaat.
+
 ---
 
-## ⚙️ 2. De Vier Beheer-Artefacten
+## 📂 De Drie Kernvoorwaarden
 
 Om AI-systemen beheersbaar te maken, werken we met vier kerndocumenten:
 

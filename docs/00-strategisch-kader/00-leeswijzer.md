@@ -7,6 +7,10 @@ Dit is geen document om van A tot Z te lezen. Het is een gereedschapskist. U pak
 
 ## 📂 Waar moet ik beginnen?
 
+### ⚡ Ik wil snel experimenteren (Fast Lane)
+Heeft uw idee een **Laag Risico** en valt het onder **Samenwerkingsmodus 1 of 2** (bijv. interne chatbot voor samenvattingen)?  
+Gebruik de **Fast Lane**: Sla de uitgebreide Business Case over. Vul enkel de [Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) in en registreer het project bij de Guardian.
+
 ### 🚩 Ik heb een idee voor een AI-project
 Ga naar [Module 02: Verkenning & Strategie](../02-fase-ontdekking/01-doelstellingen.md). Gebruik het [Project Charter](../09-sjablonen/01-project-charter/template.md) om uw idee op één A4 te krijgen.
 

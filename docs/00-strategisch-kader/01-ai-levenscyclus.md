@@ -26,7 +26,11 @@ graph TD
 
 ---
 
-## De 5 Fasen van AI Projecten
+## ⚙️ De Vijf Fasen van de Levenscyclus
+
+> [!TIP]
+> **De Fast Lane (De Innovatie-route)**
+> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
 
 ### 📂 Fase 1: Verkenning & Strategie
 **🎯 Doel:** Het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten.

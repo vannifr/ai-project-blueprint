@@ -30,11 +30,18 @@ Elke wijziging wordt getoetst op drie dimensies:
 *   **Vraag:** Werkt de code? Geen crashes of errors?
 *   **Check:** Unit tests, integration tests
 
-#### 2. Gedrag
+#### 2. Technische Realisatie & Pijplijnen
+*   **Data Pijplijnen:** Inrichten van robuuste stromen voor training en inferentie.
+*   **Automated Gates (Governance-as-Code):** Integreer de **Rode Lijnen** en succes-metrics direct in de CI/CD-pipeline.
+    *   *Voorbeeld:* De build faalt automatisch als de bias-score te hoog is of de accuraatheid onder de drempelwaarde zakt.
+*   **Continuous Testing (CT):** Geautomatiseerde evaluatie van model-outputs bij elke wijziging in de **Sturingsinstructies**.
+
+---
+#### 3. Gedrag
 *   **Vraag:** Doet het wat we verwachten?
 *   **Check:** Functionele tests, regressie tests
 
-#### 3. Doelgericht
+#### 4. Doelgericht
 *   **Vraag:** Helpt het de gebruiker? Levert het waarde?
 *   **Check:** User acceptance testing, A/B testing
 
