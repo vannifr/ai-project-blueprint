@@ -1,11 +1,11 @@
-﻿# 📂 Project Initiatie
+# ?? Project Initiatie
 
-## 🎯 Doel
+## ?? Doel
 Het formaliseren van de start van een AI-project door het vastleggen van heldere doelen, rollen, verantwoordelijkheden en kaders in een **AI Project Charter**.
 
 ---
 
-## ⚙️ Initiatie Stappen
+## ?? Initiatie Stappen
 
 ### 1. Project Charter Opstellen
 *   Definieer de **project scope**: Wat hoort er wel bij en wat niet?
@@ -14,7 +14,7 @@ Het formaliseren van de start van een AI-project door het vastleggen van heldere
 *   Identificeer **stakeholders** en breng hun verwachtingen in kaart.
 
 ### 2. Team Samenstellen
-*   Wijs duidelijke rollen toe (zie **👥 4. Team & Rollen**).
+*   Wijs duidelijke rollen toe (zie **?? 4. Team & Rollen**).
 *   Zorg voor multidisciplinaire samenwerking (Business, Data Science, IT/Guardians).
 
 ### 3. Governance Opzetten
@@ -22,19 +22,19 @@ Het formaliseren van de start van een AI-project door het vastleggen van heldere
 *   Plan de **Gate Reviews** en checkpoints in de agenda.
 
 ### 4. Risicobeheer Plan
-*   Voer een initiële **Risico-Inventarisatie** uit.
-*   Ontwikkel mitigatie strategieën voor de top-risico's.
+*   Voer een initi�le **Risico-Inventarisatie** uit.
+*   Ontwikkel mitigatie strategie�n voor de top-risico's.
 
-### 5. Het Kostenplaatje
+### 5. Het Kostenoverzicht
 *   Maak een eerste raming van de investering en verwachte opbrengsten.
 
 ---
 
-## 📂 Templates en Tools
+## ?? Templates en Tools
 Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 
 *   **Project Charter:** Voor scope en mandaat.
-*   **Risicoanalyse:** Voor initiële risico-inventarisatie.
+*   **Risicoanalyse:** Voor initi�le risico-inventarisatie.
 *   **Gate Review Checklist:** Voor voorbereiding op de eerste Gate.
 
 ---
@@ -49,4 +49,4 @@ Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

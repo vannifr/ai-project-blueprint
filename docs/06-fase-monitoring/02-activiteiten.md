@@ -1,4 +1,4 @@
-﻿# ⚙️ Kernactiviteiten & RACI (Beheer & Optimalisatie)
+# ?? Kernactiviteiten & RACI (Beheer & Optimalisatie)
 
 ## 3. Kernactiviteiten
 
@@ -15,9 +15,9 @@ Stilstand is achteruitgang.
 *   **Experiment Loops:** Gebruik productie-inzichten om nieuwe hypotheses te testen in korte sprints (A/B testing, Canary releases).
 *   **Backlog Management:** Beheer een levende lijst van bugs, verbeterpunten en feature requests vanuit gebruikers.
 
-### Activiteit 3.3: Kostenbeheersing & Energie-efficiëntie
+### Activiteit 3.3: Kostenbeheersing & Energie-effici�ntie
 Duurzaamheid in euro's en CO2.
-*   **Cloud & API Optimalisatie (Het Kostenplaatje):** Maandelijkse review van compute (GPU/CPU) en token-kosten. Optimaliseren door model-compressie (*quantization*) of caching.
+*   **Cloud & API Optimalisatie (Het Kostenoverzicht):** Maandelijkse review van compute (GPU/CPU) en token-kosten. Optimaliseren door model-compressie (*quantization*) of caching.
 *   **Duurzaamheidsmeting (ESG):** Monitoren van energieverbruik (*inference footprint*) en rapporteren voor ESG-doelen.
 *   **Resource Allocatie:** Autoscaling instellen om infrastructuur aan te passen aan de werkelijke vraag.
 
@@ -28,7 +28,7 @@ Blijvende wettelijke conformiteit.
 *   **Transparantie Rapporten:** Periodieke rapportage aan stakeholders en CAIO over veiligheid en performance.
 *   **Eerlijkheidstoets (Bias Audit):** Regelmatige steekproeven door de Ethicist op de 'toon' en kwaliteit van outputs.
 
-## 👥 4. Team & Rollen (RACI)
+## ?? 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Beheer & Optimalisatie |
 | :--- | :--- |
@@ -44,4 +44,4 @@ Blijvende wettelijke conformiteit.
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

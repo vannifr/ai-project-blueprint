@@ -1,8 +1,8 @@
-﻿# Fase 1: Richt Focus & Rationaliseer (Dagen 1-30)
+# Fase 1: Richt Focus & Rationaliseer (Dagen 1-30)
 
 **Thema:** Opruimen, Inzicht en Richting.
 
-In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet werkt en kiezen scherp waar we op inzetten.
+In deze eerste sprint cre�ren we ruimte en inzicht. We stoppen met wat niet werkt en kiezen scherp waar we op inzetten.
 
 ## Doelstellingen
 *   **Stop de waan van de dag:** Identificeer en stop projecten die geen waarde toevoegen ('Zombies').
@@ -23,4 +23,4 @@ In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet wer
     - [ ] Projectteam samengesteld voor de pilot.
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

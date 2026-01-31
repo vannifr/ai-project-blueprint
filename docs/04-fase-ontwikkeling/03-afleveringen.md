@@ -1,4 +1,4 @@
-﻿# 📂 Deliverables & Gate 3 (Realisatie)
+# ?? Deliverables & Gate 3 (Realisatie)
 
 ## 6. Deliverables (Afleveringen)
 De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
@@ -8,12 +8,12 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 *   **Technische Documentatie:** Architectuur, API's, configuratie
 *   **Ingebruikname Plan:** Stapsgewijs plan voor go-live
 
-## ✅ Gate 3 Review Checklist
+## ? Gate 3 Review Checklist
 - [ ] Voldoet het systeem aan alle functionele eisen?
 - [ ] Slagen alle geautomatiseerde tests (>95% coverage)?
 - [ ] Is de performance acceptabel (latency, throughput)?
 - [ ] Is de technische documentatie compleet en actueel?
-- [ ] Zijn alle beveiligingseisen geïmplementeerd?
+- [ ] Zijn alle beveiligingseisen ge�mplementeerd?
 - [ ] Is het **Ingebruikname Plan** getest en goedgekeurd?
 - [ ] Is het team klaar voor de overgang naar Levering?
 
@@ -27,4 +27,4 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

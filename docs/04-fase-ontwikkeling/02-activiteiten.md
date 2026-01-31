@@ -1,4 +1,4 @@
-﻿# ⚙️ Kernactiviteiten & RACI (Realisatie)
+# ?? Kernactiviteiten & RACI (Realisatie)
 
 ## 3. Kernactiviteiten
 
@@ -45,7 +45,7 @@ Elke wijziging wordt getoetst op drie dimensies:
 *   **Vraag:** Helpt het de gebruiker? Levert het waarde?
 *   **Check:** User acceptance testing, A/B testing
 
-## 👥 4. Team & Rollen (RACI)
+## ?? 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Realisatie |
 | :--- | :--- |
@@ -61,4 +61,4 @@ Elke wijziging wordt getoetst op drie dimensies:
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

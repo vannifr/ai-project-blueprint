@@ -1,14 +1,14 @@
-﻿# 📂 Deliverables & Gate 4 (Levering)
+# ?? Deliverables & Gate 4 (Levering)
 
 ## 6. Deliverables (Afleveringen)
 De resultaten van de Levering-fase die een veilige operatie garanderen:
 
-*   **Geïntegreerd Systeem:** De oplossing is live en gekoppeld aan bedrijfssystemen.
+*   **Ge�ntegreerd Systeem:** De oplossing is live en gekoppeld aan bedrijfssystemen.
 *   **Regie-protocol:** Document waarin menselijk toezicht en interventies zijn vastgelegd.
 *   **Trainingspakket:** Behandelt zowel technische bediening als nieuwe werkwijze.
 *   **Compliance Dossier:** Volledige set documentatie voor juridische verantwoording.
 
-## ✅ Gate 4 Review Checklist
+## ? Gate 4 Review Checklist
 - [ ] Is de technische koppeling stabiel en veilig?
 - [ ] Zijn de regie-protocollen voor menselijk toezicht getest en begrepen?
 - [ ] Hebben alle relevante gebruikers de adoptie-training afgerond?
@@ -27,4 +27,4 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

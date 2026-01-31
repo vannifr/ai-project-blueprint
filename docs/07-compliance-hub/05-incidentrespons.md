@@ -1,11 +1,11 @@
-﻿# 📂 Incident Respons
+# ?? Incident Respons
 
-## 🎯 Doel
+## ?? Doel
 Snel en effectief reageren op onvoorziene situaties waarbij een AI-systeem buiten zijn kaders treedt of schade veroorzaakt.
 
 ---
 
-## ⚙️ Incident Procedure
+## ?? Incident Procedure
 
 ### 1. Detectie & Melding
 *   Alerts vanuit monitoring (**Prestatieverloop**).
@@ -33,4 +33,4 @@ Snel en effectief reageren op onvoorziene situaties waarbij een AI-systeem buite
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

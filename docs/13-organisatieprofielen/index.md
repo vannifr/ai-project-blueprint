@@ -1,6 +1,6 @@
-﻿# 📂 Volwassenheidsniveaus
+# ?? Volwassenheidsniveaus
 
-## 🎯 Welke Aanpak Past Bij Jouw Team?
+## ?? Welke Aanpak Past Bij Jouw Team?
 
 Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welke aanpak en welke Samenwerkingsmodi passen bij jouw huidige situatie.
 
@@ -16,7 +16,7 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 *   **Focus:** Samenwerkingsmodus 1 & 2 (Instrumenteel en Adviserend).
 *   **Advies:** Bewijs eerst waarde, voer dan pas regels in. Start met Quick Wins.
 
-**⚙️ Belangrijkste acties:**
+**?? Belangrijkste acties:**
 - Kies 1-2 use cases met hoge impact
 - Voer Data-Evaluatie uit (Toegang, Kwaliteit, Relevantie)
 - Bouw eerste Praktijkproef
@@ -32,7 +32,7 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 *   **Focus:** Samenwerkingsmodus 3 (Collaboratief).
 *   **Advies:** Professionaliseer het beheer en de tests. Investeer in MLOps.
 
-**⚙️ Belangrijkste acties:**
+**?? Belangrijkste acties:**
 - Implementeer Specificatie-eerst Methode
 - Stel **Prestatieverloop** monitoring in
 - Formaliseer governance (**Rode Lijnen**)
@@ -43,15 +43,15 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 ### 3. De Visionair
 **Kenmerken:** AI is onderdeel van de strategie.
 
-*   **Situatie:** AI is geïntegreerd in meerdere processen. Het is geen experiment meer, maar business-as-usual.
+*   **Situatie:** AI is ge�ntegreerd in meerdere processen. Het is geen experiment meer, maar business-as-usual.
 *   **Uitdaging:** Schaalbaarheid, kosten, ethisch toezicht op grote schaal.
 *   **Focus:** Samenwerkingsmodus 4 (Gedelegeerd). Sommige processen zelfs Modus 5 (Autonoom).
 *   **Advies:** Schaalbaarheid en geautomatiseerd toezicht zijn cruciaal. Investeer in AI Governance.
 
-**⚙️ Belangrijkste acties:**
+**?? Belangrijkste acties:**
 - Implementeer geautomatiseerde compliance monitoring
 - Stel AI Board of Ethics Committee in
-- Optimaliseer kosten (**Het Kostenplaatje**)
+- Optimaliseer kosten (**Het Kostenoverzicht**)
 - Ontwikkel herbruikbare accelerators
 
 ---
@@ -67,4 +67,4 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

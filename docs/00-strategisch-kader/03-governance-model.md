@@ -1,20 +1,20 @@
-﻿# 📂 Governance Model
+# ?? Governance Model
 
-## 🎯 Doel
-Het definiëren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
+## ?? Doel
+Het defini�ren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
 
 ---
 
-## 📂 Structuur
+## ?? Structuur
 Het governance model bestaat uit drie lagen die samenwerken om strategie, operatie en techniek te verbinden:
 
-1.  **Strategisch Niveau:** Focus op visie en **Het Kostenplaatje**.
+1.  **Strategisch Niveau:** Focus op visie en **Het Kostenoverzicht**.
 2.  **Operationeel Niveau:** Focus op uitvoering en prioriteit.
 3.  **Technisch Niveau:** Focus op kwaliteit en **Ingebruikname**.
 
 ---
 
-## 👥 Verantwoordelijkheden (RACI)
+## ?? Verantwoordelijkheden (RACI)
 
 | Rol | Niveau | Kernverantwoordelijkheden |
 | :--- | :--- | :--- |
@@ -29,7 +29,7 @@ Het governance model bestaat uit drie lagen die samenwerken om strategie, operat
 
 ---
 
-## ✅ Besluitvormingsproces (Gate Model)
+## ? Besluitvormingsproces (Gate Model)
 
 ```mermaid
 flowchart TD
@@ -47,7 +47,7 @@ flowchart TD
     H -->|Nee| I[Afsluiting]
 ```
 
-## ✅ Gate Reviews
+## ? Gate Reviews
 Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md) voor specifieke criteria per fase.
 
 ---
@@ -56,4 +56,4 @@ Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checkli
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

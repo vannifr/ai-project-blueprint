@@ -1,4 +1,4 @@
-﻿# Deliverables & Gate 5 (Monitoring)
+# Deliverables & Gate 5 (Monitoring)
 
 ## 6. Deliverables (Afleveringen)
 De resultaten van de Monitoringfase voor een duurzame operatie:
@@ -27,4 +27,4 @@ De resultaten van de Monitoringfase voor een duurzame operatie:
 *   **06-05 Drift-detectie:** [Details](05-drift-detectie.md)
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

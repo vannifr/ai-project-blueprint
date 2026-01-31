@@ -1,11 +1,11 @@
-﻿# 📂 Technische Standaarden
+# ?? Technische Standaarden
 
-## 🎯 Doel
+## ?? Doel
 In dit onderdeel leggen we de technische blauwdrukken en kwaliteitskaders vast voor AI-engineering, van modelselectie tot MLOps.
 
 ---
 
-## 📂 Beschikbare Standaarden
+## ?? Beschikbare Standaarden
 *   [MLOps Standaarden](01-mloops-standaarden.md)
 *   [Data Pijplijnen](02-data-pipelines.md)
 *   [Model Governance](03-model-governance.md)
@@ -18,4 +18,4 @@ In dit onderdeel leggen we de technische blauwdrukken en kwaliteitskaders vast v
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

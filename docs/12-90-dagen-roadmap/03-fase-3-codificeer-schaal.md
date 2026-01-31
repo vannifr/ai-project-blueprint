@@ -1,4 +1,4 @@
-﻿# Fase 3: Codificeer & Schaal (Dagen 61-90)
+# Fase 3: Codificeer & Schaal (Dagen 61-90)
 
 **Thema:** Standaardiseren en Uitrollen.
 
@@ -23,4 +23,4 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
     - [ ] Roadmap voor de komende 12 maanden.
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

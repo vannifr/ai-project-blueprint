@@ -1,6 +1,6 @@
-﻿# 📂 Specificatie-eerst Methode
+# ?? Specificatie-eerst Methode
 
-## 🎯 Shift-Left Validatie
+## ?? Shift-Left Validatie
 De **Specificatie-eerst Methode** (ook wel *Spec-Driven Development*) zorgt ervoor dat we eerst de verwachtingen vastleggen voordat we bouwen.
 
 In plaats van direct prompts te schrijven, volgen we deze cyclus:
@@ -23,4 +23,4 @@ In plaats van direct prompts te schrijven, volgen we deze cyclus:
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -1,4 +1,4 @@
-﻿# Fase 2: Herontwerp & Pilot (Dagen 31-60)
+# Fase 2: Herontwerp & Pilot (Dagen 31-60)
 
 **Thema:** Doen, Testen en Leren.
 
@@ -23,4 +23,4 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
     - [ ] Go/No-Go besluit voor opschaling.
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

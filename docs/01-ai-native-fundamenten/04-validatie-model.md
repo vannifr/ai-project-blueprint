@@ -1,7 +1,7 @@
-﻿# 📂 Validatie Model
+# ?? Validatie Model
 
-## 🎯 Drie Dimensies van Validatie
-Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie validatiecategorieën doorlopen:
+## ?? Drie Dimensies van Validatie
+Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie validatiecategorie�n doorlopen:
 
 ### 1. Syntactische Geldigheid
 *   **Vraag:** Werkt de code? Geen crashes of errors?
@@ -21,4 +21,4 @@ Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie valida
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

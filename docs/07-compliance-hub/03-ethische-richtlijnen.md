@@ -1,11 +1,11 @@
-﻿# 📂 Ethische Richtlijnen
+# ?? Ethische Richtlijnen
 
-## 🎯 Doel
+## ?? Doel
 Waarborgen dat AI-systemen worden ontwikkeld en gebruikt op een manier die de menselijke waarden respecteert en geen onbedoelde schade toebrengt.
 
 ---
 
-## 📂 Ethische Grondbeginselen
+## ?? Ethische Grondbeginselen
 
 ### 1. Menselijke Regie en Toezicht
 AI mag de menselijke autonomie niet ondermijnen. Gebruikers moeten in staat zijn om de werking van het systeem te begrijpen en, indien nodig, in te grijpen (**Menselijke Regie**).
@@ -20,11 +20,11 @@ Het moet voor een gebruiker duidelijk zijn wanneer hij met een AI communiceert. 
 Strikte naleving van de AVG/GDPR. Gegevens worden alleen gebruikt voor het beoogde doel en conform de gestelde **Rode Lijnen**.
 
 ### 5. Maatschappelijk & Ecologisch Welzijn
-We streven naar een positieve impact op de samenleving en minimaliseren de ecologische voetafdruk van onze AI-systemen (energie-efficiëntie).
+We streven naar een positieve impact op de samenleving en minimaliseren de ecologische voetafdruk van onze AI-systemen (energie-effici�ntie).
 
 ---
 
-## 👥 De Rol van de Guardian
+## ?? De Rol van de Guardian
 De Guardian fungeert als het morele kompas van het project:
 *   Bewaakt de **Rode Lijnen**.
 *   Voert onafhankelijke ethische reviews uit.
@@ -36,4 +36,4 @@ De Guardian fungeert als het morele kompas van het project:
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

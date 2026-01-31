@@ -1,11 +1,11 @@
-﻿# 📂 Validatie Eisen (Compliance)
+# ?? Validatie Eisen (Compliance)
 
-## 🎯 Doel
+## ?? Doel
 Vaststellen waaraan een **Validatierapport** moet voldoen om formeel akkoord te krijgen voor ingebruikname, specifiek gericht op wettelijke en ethische kaders.
 
 ---
 
-## ⚙️ Vereisten voor het Validatierapport
+## ?? Vereisten voor het Validatierapport
 
 1.  **Objectiviteit:** Gebruik van meetbare metrics en onafhankelijke testsets.
 2.  **Dekking:** Bewijs van toetsing op alle gedefinieerde **Rode Lijnen**.
@@ -19,4 +19,4 @@ Vaststellen waaraan een **Validatierapport** moet voldoen om formeel akkoord te 
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

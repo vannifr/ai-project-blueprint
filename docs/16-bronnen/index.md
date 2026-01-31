@@ -1,12 +1,12 @@
-﻿# 📂 Bronnen & Inspiratie
+# ?? Bronnen & Inspiratie
 
-## 🎯 1. Overzicht
+## ?? 1. Overzicht
 Dit project is tot stand gekomen door de synthese van internationale industrie-standaarden, academisch onderzoek en praktische ervaringen in AI-projectmanagement. Hieronder volgt een overzicht van de belangrijkste bronnen die als fundament en inspiratie hebben gediend.
 
 ---
 
-## 📂 2. Externe Standaarden & Methodologieën
-De procesinrichting van dit Playbook is getoetst aan en geïnspireerd door de volgende internationale raamwerken:
+## ?? 2. Externe Standaarden & Methodologie�n
+De procesinrichting van dit Playbook is getoetst aan en ge�nspireerd door de volgende internationale raamwerken:
 
 ### Project Management Institute (PMI)
 *   **CPMAI (Certified Project Manager in Artificial Intelligence):** Voor de 7-stappen methodiek en de data-centric benadering van projecten.
@@ -18,11 +18,11 @@ De procesinrichting van dit Playbook is getoetst aan en geïnspireerd door de vo
 
 ### Risicomanagement
 *   **NIST AI Risk Management Framework (AI RMF 1.0):** Voor de classificatie en beheersing van AI-specifieke risico's.
-*   **ISO/IEC 42001:** De internationale norm voor Artificiële Intelligentie Management Systemen.
+*   **ISO/IEC 42001:** De internationale norm voor Artifici�le Intelligentie Management Systemen.
 
 ---
 
-## 📂 3. Wet- en Regelgeving
+## ?? 3. Wet- en Regelgeving
 De governance en compliance modules (zoals **Module 07: Risicobeheersing & Compliance**) zijn direct afgeleid van:
 
 ### Europese Unie
@@ -31,7 +31,7 @@ De governance en compliance modules (zoals **Module 07: Risicobeheersing & Compl
 
 ---
 
-## 📂 4. Academisch & Onderzoek
+## ?? 4. Academisch & Onderzoek
 *   **Stanford Digital Economy Lab - Future of Work:** Onderzoek naar de impact van AI op werk en de economie.
 *   **DORA 2025 Research Report:** State of DevOps en de impact van AI op softwarelevering.
 *   **MIT NANDA - The GenAI Divide (2025):** Rapport over de kloof in AI-executie binnen het bedrijfsleven.
@@ -42,4 +42,4 @@ De governance en compliance modules (zoals **Module 07: Risicobeheersing & Compl
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

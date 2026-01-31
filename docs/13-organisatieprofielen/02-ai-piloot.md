@@ -1,4 +1,4 @@
-ï»¿# De Bouwer
+# De Bouwer
 
 ## Profiel
 Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met de overgang naar stabiele productie.
@@ -13,7 +13,7 @@ Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met d
 *   **Technische schuld:** Snelle prototypes worden productiesystemen zonder refactoring.
 *   **Gebrek aan monitoring:** Geen zicht op Prestatieverschuiving (drift).
 *   **Schaalbaarheid:** Wat werkt voor 10 gebruikers, werkt niet voor 1000.
-*   **Governance vacuÃ¼m:** Onduidelijk wie beslist over ethiek en risico's.
+*   **Governance vacuüm:** Onduidelijk wie beslist over ethiek en risico's.
 
 ## Aanbevolen Samenwerkingsmodi
 *   **Modus 3 (Collaboratief):** Mens en AI werken samen als partners.
@@ -32,4 +32,4 @@ Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met d
 *   [Technische Standaarden](../08-technische-standaarden/index.md)
 
 ---
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

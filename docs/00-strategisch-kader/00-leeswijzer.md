@@ -1,7 +1,7 @@
 # 📂 Module 00: Leeswijzer & Navigatie
 
 ## 🎯 Welkom bij het AI Project Playbook
-Dit is geen document om van A tot Z te lezen. Het is een gereedschapskist. U pakt wat u nodig heeft, op het moment dat u het nodig heeft.
+Dit is geen document om van A tot Z te lezen. Het is een toolkit. U raadpleegt wat u nodig heeft, op het moment dat u het nodig heeft.
 
 ---
 
@@ -15,7 +15,7 @@ Gebruik de **Fast Lane**: Sla de uitgebreide Business Case over. Vul enkel de [D
 Ga naar [Module 02: Verkenning & Strategie](../02-fase-ontdekking/01-doelstellingen.md). Gebruik het [Project Charter](../09-sjablonen/01-project-charter/template.md) om uw idee op één A4 te krijgen.
 
 ### 💰 Ik wil geld of budget aanvragen
-Ga naar [Module 03: Validatie](../03-fase-validatie/01-doelstellingen.md). Hier leert u hoe u een **Praktijkproef** opzet en **Het Kostenplaatje** berekent.
+Ga naar [Module 03: Validatie](../03-fase-validatie/01-doelstellingen.md). Hier leert u hoe u een **Praktijkproef** opzet en **Het Kostenoverzicht** berekent.
 
 ### 🏗️ Ik ga bouwen of ontwikkelen
 Ga naar [Module 04: Realisatie](../04-fase-ontwikkeling/01-doelstellingen.md) en [Module 07: Risicobeheersing](../07-compliance-hub/index.md). Zorg dat u de **Technische Modelkaart** invult.
@@ -27,7 +27,7 @@ Focus op [Module 07: Risicobeheersing & Compliance](../07-compliance-hub/index.m
 
 ## ⚙️ Hoe werkt dit Playbook?
 *   **Modulair:** Elke module staat op zichzelf. U hoeft Module 01 niet te lezen om Module 04 te begrijpen.
-*   **Actiegericht:** We gebruiken geen wollige taal, maar checklists en templates voor direct resultaat.
+*   **Actiegericht:** We gebruiken geen onduidelijke taal, maar checklists en templates voor direct resultaat.
 *   **Traceerbaar:** Elk project levert standaard documenten op (**Validatierapport**). Dit vormt uw dossier voor de EU AI Act.
 
 ---

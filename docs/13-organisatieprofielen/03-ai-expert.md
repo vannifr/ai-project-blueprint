@@ -1,13 +1,13 @@
-ï»¿# De Visionair
+# De Visionair
 
 ## Profiel
-Organisaties in de Visionair-fase hebben AI volledig geÃ¯ntegreerd in hun strategie en operaties. AI is business-as-usual.
+Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strategie en operaties. AI is business-as-usual.
 
 ## Kenmerken
 *   **AI op schaal:** Meerdere productiesystemen draaien stabiel.
 *   **Strategische integratie:** AI is onderdeel van de lange termijn visie.
 *   **Volwassen governance:** Duidelijke rollen, verantwoordelijkheden en beleid.
-*   **Continue optimalisatie:** Focus op efficiÃ«ntie, kosten en impact.
+*   **Continue optimalisatie:** Focus op efficiëntie, kosten en impact.
 
 ## Uitdagingen
 *   **Complexiteit:** Beheer van een vloot van AI-systemen.
@@ -24,7 +24,7 @@ Organisaties in de Visionair-fase hebben AI volledig geÃ¯ntegreerd in hun strate
 2.  Stel AI Board of Ethics Committee in
 3.  Optimaliseer kosten: review cloud spending, model-compressie
 4.  Ontwikkel herbruikbare accelerators en templates
-5.  Investeer in energie-efficiÃ«ntie (ESG doelen)
+5.  Investeer in energie-efficiëntie (ESG doelen)
 6.  Bouw een AI Center of Excellence
 
 ## Gerelateerde Modules
@@ -34,4 +34,4 @@ Organisaties in de Visionair-fase hebben AI volledig geÃ¯ntegreerd in hun strate
 *   [Governance Model](../00-strategisch-kader/03-governance-model.md)
 
 ---
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

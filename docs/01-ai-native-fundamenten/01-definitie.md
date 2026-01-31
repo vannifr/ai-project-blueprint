@@ -1,27 +1,27 @@
-﻿# 📂 De Kernprincipes
+# ?? De Kernprincipes
 
-## 🎯 1. Wat Zijn de Kernprincipes?
+## ?? 1. Wat Zijn de Kernprincipes?
 Wij beschouwen AI-voorzieningen niet als statische software, maar als **gedragssturing**. Dit betekent dat we AI-systemen niet programmeren in de traditionele zin, maar sturen door middel van informatie en context.
 
 Een project valt onder dit regime als aan **drie voorwaarden** is voldaan:
 
 ### 1. Impact
-Het systeem raakt de business direct. Het neemt beslissingen, genereert content of beïnvloedt processen die waarde creëren of risico's met zich meebrengen.
+Het systeem raakt de business direct. Het neemt beslissingen, genereert content of be�nvloedt processen die waarde cre�ren of risico's met zich meebrengen.
 
 ### 2. Traceerbaarheid  
 Alle instructies en configuraties zijn beheerd als code (version control). We kunnen altijd terugkijken: "Waarom deed het systeem dit op dat moment?"
 
 ### 3. Continue Toetsing
-Het systeem wordt niet één keer getest en dan "klaar" verklaard. We valideren doorlopend of het gedrag nog aansluit bij de bedoeling.
+Het systeem wordt niet ��n keer getest en dan "klaar" verklaard. We valideren doorlopend of het gedrag nog aansluit bij de bedoeling.
 
-## ⚙️ Governance-as-Code (Automatisering)
+## ?? Governance-as-Code (Automatisering)
 Documentatie alleen verandert gedrag niet; de implementatie doet dat wel. We hanteren het principe van **Verifieerbaarheid door Code**:
 *   **Technisch Dossier in Git:** Artefacten zoals de **Technische Modelkaart** worden bij voorkeur opgeslagen als code (YAML/JSON) in de repository.
 *   **Automated Gates:** De CI/CD-pipeline checkt automatisch op compliance-criteria (bijv. accuraatheid > 85%) voordat een model naar productie gaat.
 
 ---
 
-## 📂 De Drie Kernvoorwaarden
+## ?? De Drie Kernvoorwaarden
 
 Om AI-systemen beheersbaar te maken, werken we met vier kerndocumenten:
 
@@ -96,4 +96,4 @@ Deze aanpak zorgt voor:
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

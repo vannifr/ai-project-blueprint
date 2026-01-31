@@ -1,3 +1,3 @@
-﻿# Checklist: Operationele Overdracht
+# Checklist: Operationele Overdracht
 
 Inhoud volgt.

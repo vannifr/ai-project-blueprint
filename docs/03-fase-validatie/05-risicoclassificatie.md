@@ -1,6 +1,6 @@
-ï»¿# Risicoclassificatie in Validatie
+# Risicoclassificatie in Validatie
 
-Tijdens de Validatiefase wordt de initiÃ«le risicoclassificatie uit Discovery getoetst aan de werkelijkheid van het prototype.
+Tijdens de Validatiefase wordt de initiële risicoclassificatie uit Discovery getoetst aan de werkelijkheid van het prototype.
 
 ## Verfijning van het Risicoprofiel
 Op basis van de PoC resultaten moet het project worden ingedeeld volgens de kaders in [Module 01.05: Risicoclassificatie](../../01-ai-native-fundamenten/05-risicoclassificatie.md).
@@ -18,5 +18,5 @@ Controleer of de *use case* na de PoC nog steeds in dezelfde categorie valt:
 
 ---
 
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 

@@ -1,15 +1,15 @@
-﻿# 📂 Hybride Methodologie
+# ?? Hybride Methodologie
 
-## 🎯 Doel
+## ?? Doel
 Dit document beschrijft de hybride aanpak van het AI Project Playbook, waarbij voorspelbare planning (Waterfall) wordt gecombineerd met iteratieve uitvoering (Agile) voor een optimale balans tussen structuur en flexibiliteit.
 
 ---
 
-## 📂 Concept
+## ?? Concept
 De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vereisen voor budgettering en compliance, en anderzijds extreme flexibiliteit nodig hebben tijdens de modelontwikkeling.
 
 ### Voorspelbare Elementen (Waterfall)
-*   Strategische planning en **Het Kostenplaatje**.
+*   Strategische planning en **Het Kostenoverzicht**.
 *   Compliance en governance checkpoints.
 *   Risico-inventarisatie.
 *   Mijlpaal planning (**Gates**).
@@ -22,7 +22,7 @@ De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vere
 
 ---
 
-## ⚙️ Praktische Implementatie
+## ?? Praktische Implementatie
 
 ```mermaid
 gantt
@@ -30,7 +30,7 @@ gantt
     dateFormat  YYYY-MM-DD
     section Voorspelbaar
     Verkenning & Strategie     :p1, 2024-01-01, 2w
-    Het Kostenplaatje          :p2, after p1, 1w
+    Het Kostenoverzicht          :p2, after p1, 1w
     section Iteratief
     Realisatie Sprints 1-4     :s1, after p2, 4w
     section Voorspelbaar
@@ -41,11 +41,11 @@ gantt
 
 ---
 
-## ✅ Voordelen
+## ? Voordelen
 *   **Structuur:** Duidelijke planning en governance voor management.
 *   **Flexibiliteit:** Snelle aanpassing aan nieuwe data-inzichten voor het team.
 *   **Risicobeheer:** Proactieve risico-identificatie en mitigatie.
-*   **Compliance:** Geïntegreerde EU AI Act compliance reviews.
+*   **Compliance:** Ge�ntegreerde EU AI Act compliance reviews.
 
 ---
 **Versie:** 2.0
@@ -53,4 +53,4 @@ gantt
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

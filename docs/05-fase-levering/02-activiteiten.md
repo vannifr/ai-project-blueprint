@@ -1,4 +1,4 @@
-﻿# ⚙️ Kernactiviteiten & RACI (Levering)
+# ?? Kernactiviteiten & RACI (Levering)
 
 ## 3. Kernactiviteiten
 
@@ -6,7 +6,7 @@
 Het koppelen van de AI aan de bestaande softwaresystemen en beveiliging (toegangsbeheer).
 
 *   **Systeemkoppelingen:** Integreren van de AI-oplossing in de huidige IT-architectuur.
-*   **Toegangsbeheer:** Inregelen van wie welke functies en data mag gebruiken.
+*   **Toegangsbeheer:** Instellen van wie welke functies en data mag gebruiken.
 *   **Stabiliteitstest:** Bevestigen dat de integratie geen storingen veroorzaakt in andere processen.
 
 ### Activiteit 3.2: Menselijke Regie
@@ -30,12 +30,12 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 *   **Verantwoordingsbewijs:** Aantonen dat de **Rode Lijnen** zijn gehandhaafd tijdens de testfase.
 *   **Overdracht Logboeken:** Volledig overzicht van de systeemhistorie.
 
-## 👥 4. Team & Rollen (RACI)
+## ?? 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Levering |
 | :--- | :--- |
 | **Implementatie Engineer** | **R**esponsible: Verantwoordelijk voor de technische koppelingen en beveiliging. |
-| **AI Product Manager** | **A**ccountable: Leidt de adoptie en coördineert het trainingsprogramma. |
+| **AI Product Manager** | **A**ccountable: Leidt de adoptie en co�rdineert het trainingsprogramma. |
 | **Guardian (Ethicist)** | **C**onsulted: Controleert of de Menselijke Regie protocollen voldoen aan de eisen. |
 | **Business Sponsor** | **C**onsulted: Tekent het Compliance Dossier af. |
 | **Eindgebruikers** | **I**nformed/Consulted: Worden getraind en leveren de eerste praktijkfeedback. |
@@ -46,4 +46,4 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

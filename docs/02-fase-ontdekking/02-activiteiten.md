@@ -1,9 +1,9 @@
-﻿# ⚙️ Kernactiviteiten & RACI (Verkenning & Strategie)
+# ?? Kernactiviteiten & RACI (Verkenning & Strategie)
 
 ## 3. Kernactiviteiten
 
 ### Activiteit 3.1: Probleemverkenning
-We definiëren de uitdaging vanuit de eindgebruiker, niet vanuit de technologie.
+We defini�ren de uitdaging vanuit de eindgebruiker, niet vanuit de technologie.
 
 *   **Vraagarticulatie:** Wat is het echte probleem? Wat zijn de pijnpunten?
 *   **AI-Geschiktheid:** Is AI hier echt de oplossing? Of kan het eenvoudiger?
@@ -32,7 +32,7 @@ Een eerste scan op juridische en ethische obstakels.
 *   **Ethische Vraagstukken:** Kan het systeem discrimineren of schade veroorzaken?
 *   **Organisatorische Risico's:** Hebben we de juiste mensen en middelen?
 
-## 👥 4. Team & Rollen (RACI)
+## ?? 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Verkenning |
 | :--- | :--- |
@@ -48,4 +48,4 @@ Een eerste scan op juridische en ethische obstakels.
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -1,4 +1,4 @@
-﻿# 📂 Deliverables & Gate 1 (Verkenning & Strategie)
+# ?? Deliverables & Gate 1 (Verkenning & Strategie)
 
 ## 6. Deliverables (Afleveringen)
 De resultaten van de Verkenningsfase voor een gefundeerde start:
@@ -8,12 +8,12 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 *   **Risico-Inventarisatie:** Eerste scan op juridische, ethische en organisatorische risico's
 *   **AI Project Charter:** Startdocument met scope, doelen en team
 
-## ✅ Gate 1 Review Checklist
+## ? Gate 1 Review Checklist
 - [ ] Is het probleem helder gearticuleerd vanuit gebruikersperspectief?
 - [ ] Is AI de juiste oplossing (niet te complex, niet te simpel)?
 - [ ] Hebben we toegang tot de benodigde data?
 - [ ] Is de datakwaliteit voldoende voor een eerste experiment?
-- [ ] Zijn de belangrijkste risico's geïdentificeerd?
+- [ ] Zijn de belangrijkste risico's ge�dentificeerd?
 - [ ] Is er commitment van de business sponsor?
 - [ ] Is het team compleet en beschikbaar?
 
@@ -28,4 +28,4 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -33,7 +33,7 @@ Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
 
 | Rol | Focus | Taak |
 | :--- | :--- | :--- |
-| 💾 **Data Engineer** | Datakwaliteit | De "loodgieter". Zorgt dat data schoon aankomt bij het model. |
+| 💾 **Data Engineer** | Datakwaliteit | De ruggengraat van de data. Zorgt dat data schoon aankomt bij het model. |
 | 🧪 **AI Tester (QA)** | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*. |
 | 📢 **Adoptie Manager** | Verandering | Zorgt dat mensen de tool echt gebruiken (ADKAR-model). |
 

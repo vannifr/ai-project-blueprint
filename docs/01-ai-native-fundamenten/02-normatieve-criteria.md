@@ -1,6 +1,6 @@
-﻿# 📂 Normatieve Criteria
+# ?? Normatieve Criteria
 
-## 🎯 Wanneer Werken We Volgens de Kernprincipes?
+## ?? Wanneer Werken We Volgens de Kernprincipes?
 Een project kwalificeert voor deze aanpak als aan de volgende drie criteria wordt voldaan:
 
 | Criterium | Vereiste |
@@ -17,4 +17,4 @@ Een project kwalificeert voor deze aanpak als aan de volgende drie criteria word
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

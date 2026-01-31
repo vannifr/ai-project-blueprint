@@ -1,4 +1,4 @@
-﻿# De Verkenner
+# De Verkenner
 
 ## Profiel
 Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme en experimenteerdrang, maar weinig structuur.
@@ -30,4 +30,4 @@ Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme e
 *   [Validatie](../03-fase-validatie/index.md)
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -1,6 +1,6 @@
-﻿# 📂 Bewijsstandaarden
+# ?? Bewijsstandaarden
 
-## 🎯 Waaraan Voldoet een Validatierapport?
+## ?? Waaraan Voldoet een Validatierapport?
 Om te kunnen vertrouwen op een AI-oplossing, moet het **Validatierapport** voldoen aan strikte standaarden voor traceerbaarheid en objectiviteit.
 
 ---
@@ -9,4 +9,4 @@ Om te kunnen vertrouwen op een AI-oplossing, moet het **Validatierapport** voldo
 **Status:** Definitief
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

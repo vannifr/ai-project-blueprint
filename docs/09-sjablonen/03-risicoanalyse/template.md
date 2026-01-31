@@ -1,11 +1,11 @@
-﻿# 📂 Sjabloon: Risico-Inventarisatie
+# ?? Sjabloon: Risico-Inventarisatie
 
-## 🎯 Doel
+## ?? Doel
 Het identificeren en beoordelen van risico's op het gebied van techniek, organisatie en compliance (EU AI Act).
 
 ---
 
-### 📂 1. Risicoclassificatie
+### ?? 1. Risicoclassificatie
 *Kies de categorie conform de EU AI Act:*
 *   [ ] **Onacceptabel:** (VERBODEN)
 *   [ ] **Hoog Risico:** (Vereist technisch dossier & menselijk toezicht)
@@ -14,7 +14,7 @@ Het identificeren en beoordelen van risico's op het gebied van techniek, organis
 
 ---
 
-### 📂 2. Toetsing op Rode Lijnen
+### ?? 2. Toetsing op Rode Lijnen
 *Welke harde grenzen mogen niet worden overschreden?*
 1.  **Privacy:** [Risico op lekken van PII].
 2.  **Veiligheid:** [Risico op schadelijke outputs].
@@ -22,7 +22,7 @@ Het identificeren en beoordelen van risico's op het gebied van techniek, organis
 
 ---
 
-### 📂 3. Mitigatieplan
+### ?? 3. Mitigatieplan
 *Hoe verlagen we de risico's naar een acceptabel niveau?*
 *   **Technisch:** [Bijv. Filters op output, anonimiseren van input].
 *   **Procedureel:** [Bijv. De Guardian voert steekproeven uit].
@@ -33,4 +33,4 @@ Het identificeren en beoordelen van risico's op het gebied van techniek, organis
 **Status:** Definitief  
 
 ---
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
