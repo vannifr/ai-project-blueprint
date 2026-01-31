@@ -1,19 +1,45 @@
-﻿# Bronnen & Inspiratie
+﻿# 📂 Bronnen & Inspiratie
 
-Dit project is tot stand gekomen door de synthese van industrie-standaarden, academisch onderzoek en praktische ervaringen in AI-projectmanagement. Hieronder volgt een overzicht van de belangrijkste bronnen die als inspiratie hebben gediend.
+## 🎯 1. Overzicht
+Dit project is tot stand gekomen door de synthese van internationale industrie-standaarden, academisch onderzoek en praktische ervaringen in AI-projectmanagement. Hieronder volgt een overzicht van de belangrijkste bronnen die als fundament en inspiratie hebben gediend.
 
-## Academisch & Onderzoek
+---
+
+## 📂 2. Externe Standaarden & Methodologieën
+De procesinrichting van dit Playbook is getoetst aan en geïnspireerd door de volgende internationale raamwerken:
+
+### Project Management Institute (PMI)
+*   **CPMAI (Certified Project Manager in Artificial Intelligence):** Voor de 7-stappen methodiek en de data-centric benadering van projecten.
+*   **PMBOK Guide:** Voor de algemene projectmanagement standaarden en procesgroepen.
+
+### Agile & Software Development
+*   **Agile Manifesto & Scrum Guide:** Voor de iteratieve werkwijze in de fasen **Realisatie** en **Levering**.
+*   **DevOps & MLOps Principles:** Voor de inrichting van geautomatiseerde pijplijnen (CI/CD/CT) en technische robuustheid.
+
+### Risicomanagement
+*   **NIST AI Risk Management Framework (AI RMF 1.0):** Voor de classificatie en beheersing van AI-specifieke risico's.
+*   **ISO/IEC 42001:** De internationale norm voor Artificiële Intelligentie Management Systemen.
+
+---
+
+## 📂 3. Wet- en Regelgeving
+De governance en compliance modules (zoals **Module 07: Risicobeheersing & Compliance**) zijn direct afgeleid van:
+
+### Europese Unie
+*   **De EU AI Act (2024):** Voor de risicoclassificatie (Onacceptabel, Hoog, Beperkt, Minimaal) en de verplichtingen rondom transparantie en het technisch dossier.
+*   **Algemene Verordening Gegevensbescherming (AVG/GDPR):** Voor privacywaarborging en dataminimalisatie.
+
+---
+
+## 📂 4. Academisch & Onderzoek
 *   **Stanford Digital Economy Lab - Future of Work:** Onderzoek naar de impact van AI op werk en de economie.
-    *   Website: [https://futureofwork.saltlab.stanford.edu/](https://futureofwork.saltlab.stanford.edu/)
-*   **DORA 2025 Research Report:** State of DevOps en AI-impact op softwarelevering.
-    *   Website: [https://dora.dev/research/2025/dora-report/](https://dora.dev/research/2025/dora-report/)
-*   **The GenAI Divide: State of AI in Business 2025 (by MIT NANDA):** Rapport over de huidige staat van AI-adoptie in het bedrijfsleven en de groeiende kloof in executie.
-    *   Website: [State of AI Report (PDF)](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf)
+*   **DORA 2025 Research Report:** State of DevOps en de impact van AI op softwarelevering.
+*   **MIT NANDA - The GenAI Divide (2025):** Rapport over de kloof in AI-executie binnen het bedrijfsleven.
 
-## Methodologieën & Raamwerken
-*   **PMI-CPMAI:** Certified Professional in AI Project Management.
-*   **NIST AI RMF:** Artificial Intelligence Risk Management Framework.
-*   **EU AI Act:** De Europese verordening voor artificiële intelligentie.
+---
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Definitief
 
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
