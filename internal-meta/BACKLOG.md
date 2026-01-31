@@ -5,65 +5,66 @@ Dit document bevat de geprioriteerde roadmap voor de ontwikkeling van het AI Pro
 ## P0 - Fundamentele Structuur (Kritiek)
 *Focus: De absolute basis en de eerste cruciale fase.*
 
-### Module 00: Strategisch Kader
-- **Waarom:** Definieert de volledige methodologie; zonder dit is er geen context voor de rest van het playbook.
-- **Output:**
-    - 00.01 AI-Levenscyclus
-    - 00.02 Hybride Methodologie
-    - 00.03 Governance Model
-    - 00.04 Agile Antipatronen (NOT DONE lijst)
-- **Fundering:** AI Projectlevenscyclus document.
+### [x] Module 00: Strategisch Kader
+- [x] **Waarom:** Definieert de volledige methodologie; zonder dit is er geen context voor de rest van het playbook.
+- [x] **Output:**
+    - [x] 00.01 AI-Levenscyclus
+    - [x] 00.02 Hybride Methodologie
+    - [x] 00.03 Governance Model
+    - [x] 00.04 Agile Antipatronen (NOT DONE lijst)
+    - [x] 00.00 Leeswijzer & Navigatie
+- [x] **Fundering:** AI Projectlevenscyclus document.
 
-### Module 02: Fase Ontdekking (Discovery)
-- **Waarom:** Startpunt van elk AI-project; definieert use cases en data readiness.
-- **Output:**
-    - 02.01 Doelstellingen
-    - 02.02 Activiteiten
-    - 02.03 RACI Matrix
-    - 02.04 Gate Review Checklist
-- **Fundering:** 1-AI-DiscoveryFaseExploratieStrategie.docx.
+### [x] Module 02: Fase Verkenning & Strategie (Discovery)
+- [x] **Waarom:** Startpunt van elk AI-project; definieert use cases en data readiness.
+- [x] **Output:**
+    - [x] 02.01 Doelstellingen
+    - [x] 02.02 Activiteiten
+    - [x] 02.03 RACI Matrix (geïntegreerd)
+    - [x] 02.04 Gate Review Checklist (geïntegreerd in Module 09)
+- [x] **Fundering:** 1-AI-DiscoveryFaseExploratieStrategie.docx.
 
 ---
 
 ## P0.5 - Fundamenten (Hoge Prioriteit)
 *Focus: AI-Native discipline en volwassenheidsniveaus.*
 
-### Module 00.06: HAS H Niveaus
-- **Waarom:** Biedt context voor project maturity en AI-integratie niveaus.
-- **Output:** Module 00.06 (HAS H1-H5 beschrijvingen, maturity assessment).
-- **Fundering:** AIGENEERS Blueprint.
+### [x] Module 00.06: Samenwerkingsmodi (HAS H Niveaus)
+- [x] **Waarom:** Biedt context voor project maturity en AI-integratie niveaus.
+- [x] **Output:** Module 00.06 (Samenwerkingsmodi 1-5).
+- [x] **Fundering:** AIGENEERS Blueprint.
 
-### Module 01: AI-Native Fundamenten
-- **Waarom:** Definieert de basisdiscipline met normatieve criteria, artefact model en validatie model.
-- **Output:**
-    - 01.01 Definitie
-    - 01.02 Normatieve Criteria (C1-C7)
-    - 01.03 Artefact Model (Intent, Constraints, etc.)
-    - 01.04 Validatie Model
-    - 01.05 Risicoclassificatie
-    - 01.06 SDD Patroon
-- **Fundering:** AI-Native Software Development document.
+### [x] Module 01: Kernprincipes (AI-Native Fundamenten)
+- [x] **Waarom:** Definieert de basisdiscipline met normatieve criteria, artefact model en validatie model.
+- [x] **Output:**
+    - [x] 01.01 Definitie (Gedragssturing)
+    - [x] 01.02 Normatieve Criteria (C1-C7)
+    - [x] 01.03 Artefact Model (Doeldefinitie, Rode Lijnen, etc.)
+    - [x] 01.04 Validatie Model
+    - [x] 01.05 Risicoclassificatie
+    - [x] 01.06 Specificatie-eerst Methode (SDD)
+- [x] **Fundering:** AI-Native Software Development document.
 
 ---
 
-## P1 - Fase-Specifieke Documentatie
+## [x] P1 - Fase-Specifieke Documentatie
 *Focus: Uitvoering van de resterende levenscyclus fasen.*
 
-### Module 03 t/m 06: Uitvoeringsfasen
-- **03 Validatie:** ROI validatie en Risk Classification (Fundering: 2-ValidationBusinessCaseFase.docx).
-- **04 Ontwikkeling:** Data Pipelines en SDD Patroon (Fundering: 3-DevelopmentEngineeringFase.docx).
-- **05 Levering:** Adoptie en Traceerbaarheid (Fundering: 4-DeDeliveryDeploymentFase.docx).
-- **06 Monitoring:** MLOps en Drift Detectie (Fundering: 5-MonitoringMaintenanceFase.docx).
+### [x] Module 03 t/m 06: Uitvoeringsfasen
+- [x] **03 Validatie:** ROI validatie en Praktijkproef (Fundering: 2-ValidationBusinessCaseFase.docx).
+- [x] **04 Realisatie:** Data Pipelines en Specificatie-eerst (Fundering: 3-DevelopmentEngineeringFase.docx).
+- [x] **05 Levering:** Adoptie en Menselijke Regie (Fundering: 4-DeDeliveryDeploymentFase.docx).
+- [x] **06 Beheer & Optimalisatie:** Prestatieverloop en Kostenplaatje (Fundering: 5-MonitoringMaintenanceFase.docx).
 
 ---
 
 ## P1.5 - Organisatie en Tracks (Strategische Prioriteit)
 *Focus: Organisatie-brede adoptie en transformatie.*
 
-### Module 13: Organisatieprofielen
-- **Waarom:** Biedt context voor organisatie maturity en adoptiepaden.
-- **Output:** 13.01 AI Verkenner, 13.02 AI Piloot, 13.03 AI Expert, 13.04 Profiel Assessment.
-- **Fundering:** AI Playbook (ortcsk).
+### [x] Module 13: Volwassenheidsniveaus (Organisatieprofielen)
+- [x] **Waarom:** Biedt context voor organisatie maturity en adoptiepaden.
+- [x] **Output:** 13.01 Verkenner, 13.02 Bouwer, 13.03 Visionair.
+- [x] **Fundering:** AI Playbook (ortcsk).
 
 ### Module 14: Drie Tracks
 - **Waarom:** Structuur voor heruitvinding op strategisch, operationeel en bedrijfsmodel niveau.
@@ -75,18 +76,19 @@ Dit document bevat de geprioriteerde roadmap voor de ontwikkeling van het AI Pro
 ## P2 - Ondersteunende Documentatie
 *Focus: Compliance, techniek en tools.*
 
-- **Module 07 Compliance Hub:** EU AI Act en Risicobeheer.
-- **Module 08 Technische Standaarden:** MLOps, Data Pipelines en Architectuur.
-- **Module 09 Sjablonen:** De praktische toolkit (Project Charter, AI-Native Artefacten, etc.).
+- [x] **Module 07 Compliance Hub:** EU AI Act, Risicobeheer, Eerlijkheidstoets en de Guardian.
+- [x] **Module 08 Rollen & Verantwoordelijkheden:** (AI PM, Tech Lead, Guardian, etc.)
+- [x] **Module 09 Sjablonen:** De praktische toolkit (Charter, Doelkaart, Pre-scan, Modelkaart, etc.).
 
 ---
 
 ## P2.5 - Roadmap en Accelerators
 *Focus: Versnelling van de implementatie.*
 
-- **Module 12: 90-Dagen Roadmap:** (Focus, Pilot, Scale).
-- **Module 15: Accelerators:** Praktische tools per track.
-- **Module 16: Styleguide:** Zorgt voor consistente documentatie (Taal, Structuur, Formattering).
+- [x] **Module 12: 90-Dagen Startplan:** (Focus, Pilot, Schaal).
+- [ ] **Module 15: Accelerators:** Praktische tools per track.
+- [x] **Module 16: Styleguide v2.0:** Zorgt voor consistente documentatie (Taal, Icons, Footers).
+- [x] **Bronnen & Inspiratie:** Fundering in internationale raamwerken.
 
 ---
 
@@ -98,7 +100,6 @@ Dit document bevat de geprioriteerde roadmap voor de ontwikkeling van het AI Pro
 
 
 ---
-© 2026 AI Project Playbook. Door **Frederik Vannieuwenhuyse** & **Hadrien-Joseph van Durme**. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 
 
