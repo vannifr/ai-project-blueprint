@@ -8,10 +8,12 @@ Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-pro
 
 ### 📂 Strategie & Planning
 *   **[Module 09.01: Het Project Charter](01-project-charter/template.md):** Sjabloon voor de formele start van een initiatief.
+*   **[Module 09.03: Risico Pre-Scan](03-risicoanalyse/pre-scan.md):** Sjabloon voor initiële risico-inventarisatie (Gate 1).
 *   **[Business Case](02-business-case/template.md):** Financiële onderbouwing en raming van **Het Kostenplaatje**.
 
 ### ⚙️ Ontwerp & Sturing
 *   **[Module 09.02: De Doelkaart (Intent Map)](06-ai-native-artefacten/doelkaart.md):** Verbindt de menselijke intentie aan de technische **Sturingsinstructies**.
+*   **[Module 09.04: Technische Modelkaart](02-business-case/modelkaart.md):** Technische verantwoording voor ontwikkelaars en auditors.
 *   **[Risicoanalyse](03-risicoanalyse/template.md):** Systematische risico-inventarisatie en toetsing op de **Rode Lijnen**.
 
 ### ✅ Validatie & Beheer
