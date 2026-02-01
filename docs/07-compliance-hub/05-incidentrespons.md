@@ -1,7 +1,7 @@
-﻿# ?? Incident Respons
+# 🚀 Incident Respons
 ## Documentbeheer
 - **Document-ID:** MOD-05
-- **Titel:** ?? Incident Respons
+- **Titel:** 📍 Incident Respons
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Snel en effectief reageren op onvoorziene situaties waarbij een AI-systeem buiten zijn kaders treedt of schade veroorzaakt.
 
 ---
 
-## ?? Incident Procedure
+## 📖 Incident Procedure
 
 ### 1. Detectie & Melding
 *   Alerts vanuit monitoring (**Prestatieverloop**).
@@ -40,7 +40,7 @@ Snel en effectief reageren op onvoorziene situaties waarbij een AI-systeem buite
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

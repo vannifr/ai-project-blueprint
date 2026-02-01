@@ -1,7 +1,7 @@
-﻿# ?? Validatie Model
+# 🚀 Validatie Model
 ## Documentbeheer
 - **Document-ID:** MOD-04
-- **Titel:** ?? Validatie Model
+- **Titel:** 📍 Validatie Model
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? Drie Dimensies van Validatie
+## 📖 Drie Dimensies van Validatie
 Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie validatiecategorieën doorlopen:
 
 ### 1. Syntactische Geldigheid
@@ -28,7 +28,7 @@ Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie valida
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

@@ -1,7 +1,7 @@
-﻿# ?? Sjabloon: Business Case & Het Kostenoverzicht
+# 🚀 Sjabloon: Business Case & Het Kostenoverzicht
 ## Documentbeheer
 - **Document-ID:** MOD
-- **Titel:** ?? Sjabloon: Business Case & Het Kostenoverzicht
+- **Titel:** 📍 Sjabloon: Business Case & Het Kostenoverzicht
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Dit sjabloon helpt bij het kwantificeren van de businesswaarde en het in kaart brengen van de totale exploitatiekosten van een AI-oplossing.
 
 ---
 
-### ?? 1. Waarde-Hypothese
+### 🎯 1. Waarde-Hypothese
 *Wat is de verwachte winst?*
 *   **Efficiëntiewinst:** [Bijv. Aantal uur besparing per maand.]
 *   **Kwaliteitsverbetering:** [Bijv. Reductie in foutpercentage.]
@@ -23,7 +23,7 @@ Dit sjabloon helpt bij het kwantificeren van de businesswaarde en het in kaart b
 
 ---
 
-### ?? 2. Het Kostenoverzicht (TCO)
+### 🎯 2. Het Kostenoverzicht (TCO)
 *Wat zijn de totale kosten voor ontwikkeling en beheer?*
 
 *   **Investering (Capex):**
@@ -36,14 +36,14 @@ Dit sjabloon helpt bij het kwantificeren van de businesswaarde en het in kaart b
 
 ---
 
-### ?? 3. ROI & Terugverdientijd
+### 🎯 3. ROI & Terugverdientijd
 *   **Netto opbrengst:** [Waarde - Kosten].
 *   **Terugverdientijd:** [Maanden tot break-even].
 
 ---
 **Versie:** 2.0  
 **Datum:** 31 januari 2026  
-**Status:** Definitief  
+**Status:** Draft  
 
 ---
 ---

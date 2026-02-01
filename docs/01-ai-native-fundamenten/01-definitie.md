@@ -1,7 +1,7 @@
-﻿# ?? De Kernprincipes
+# 🚀 De Kernprincipes
 ## Documentbeheer
 - **Document-ID:** MOD-01
-- **Titel:** ?? De Kernprincipes
+- **Titel:** 📍 De Kernprincipes
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? 1. Wat Zijn de Kernprincipes?
+## 📖 1. Wat Zijn de Kernprincipes?
 Wij beschouwen AI-voorzieningen niet als statische software, maar als **gedragssturing**. Dit betekent dat we AI-systemen niet programmeren in de traditionele zin, maar sturen door middel van informatie en context.
 
 Een project valt onder dit regime als aan **drie voorwaarden** is voldaan:
@@ -24,14 +24,14 @@ Alle instructies en configuraties zijn beheerd als code (version control). We ku
 ### 3. Continue Toetsing
 Het systeem wordt niet één keer getest en dan "klaar" verklaard. We valideren doorlopend of het gedrag nog aansluit bij de bedoeling.
 
-## ?? Governance-as-Code (Automatisering)
+## 📖 Governance-as-Code (Automatisering)
 Documentatie alleen verandert gedrag niet; de implementatie doet dat wel. We hanteren het principe van **Verifieerbaarheid door Code**:
 *   **Technisch Dossier in Git:** Artefacten zoals de **Technische Modelkaart** worden bij voorkeur opgeslagen als code (YAML/JSON) in de repository.
 *   **Automated Gates:** De CI/CD-pipeline checkt automatisch op compliance-criteria (bijv. accuraatheid > 85%) voordat een model naar productie gaat.
 
 ---
 
-## ?? De Drie Kernvoorwaarden
+## 📖 De Drie Kernvoorwaarden
 
 Om AI-systemen beheersbaar te maken, werken we met vier kerndocumenten:
 
@@ -103,7 +103,7 @@ Deze aanpak zorgt voor:
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

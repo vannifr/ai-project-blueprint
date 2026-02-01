@@ -1,7 +1,7 @@
-﻿# ?? Ethische Richtlijnen
+# 🚀 Ethische Richtlijnen
 ## Documentbeheer
 - **Document-ID:** MOD-03
-- **Titel:** ?? Ethische Richtlijnen
+- **Titel:** 📍 Ethische Richtlijnen
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Waarborgen dat AI-systemen worden ontwikkeld en gebruikt op een manier die de menselijke waarden respecteert en geen onbedoelde schade toebrengt.
 
 ---
 
-## ?? Ethische Grondbeginselen
+## 📖 Ethische Grondbeginselen
 
 ### 1. Menselijke Regie en Toezicht
 AI mag de menselijke autonomie niet ondermijnen. Gebruikers moeten in staat zijn om de werking van het systeem te begrijpen en, indien nodig, in te grijpen (**Menselijke Regie**).
@@ -34,7 +34,7 @@ We streven naar een positieve impact op de samenleving en minimaliseren de ecolo
 
 ---
 
-## ?? De Rol van de Guardian
+## 📖 De Rol van de Guardian
 De Guardian fungeert als het morele kompas van het project:
 *   Bewaakt de **Rode Lijnen**.
 *   Voert onafhankelijke ethische reviews uit.
@@ -43,7 +43,7 @@ De Guardian fungeert als het morele kompas van het project:
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

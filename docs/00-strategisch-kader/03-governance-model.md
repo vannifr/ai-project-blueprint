@@ -1,7 +1,7 @@
-﻿# ?? Governance Model
+# 🚀 Governance Model
 ## Documentbeheer
 - **Document-ID:** MOD-03
-- **Titel:** ?? Governance Model
+- **Titel:** 📍 Governance Model
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Het definiëren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
 
 ---
 
-## ?? Structuur
+## 📖 Structuur
 Het governance model bestaat uit drie lagen die samenwerken om strategie, operatie en techniek te verbinden:
 
 1.  **Strategisch Niveau:** Focus op visie en **Het Kostenoverzicht**.
@@ -24,7 +24,7 @@ Het governance model bestaat uit drie lagen die samenwerken om strategie, operat
 
 ---
 
-## ?? Verantwoordelijkheden (RACI)
+## 📖 Verantwoordelijkheden (RACI)
 
 | Rol | Niveau | Kernverantwoordelijkheden |
 | :--- | :--- | :--- |
@@ -63,7 +63,7 @@ Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checkli
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

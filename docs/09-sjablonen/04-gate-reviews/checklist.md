@@ -1,7 +1,7 @@
-﻿# ?? Checklist: Gate Reviews
+# 🚀 Checklist: Gate Reviews
 ## Documentbeheer
 - **Document-ID:** MOD
-- **Titel:** ?? Checklist: Gate Reviews
+- **Titel:** 📍 Checklist: Gate Reviews
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Dit document bevat de criteria waaraan een project moet voldoen om de overstap naar de volgende fase te mogen maken.
 
 ---
@@ -45,7 +45,7 @@ Dit document bevat de criteria waaraan een project moet voldoen om de overstap n
 ---
 **Versie:** 2.0  
 **Datum:** 31 januari 2026  
-**Status:** Definitief  
+**Status:** Draft  
 
 ---
 ---

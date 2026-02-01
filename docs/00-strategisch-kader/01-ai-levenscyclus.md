@@ -1,7 +1,7 @@
-﻿# ?? AI Levenscyclus
+# 🚀 AI Levenscyclus
 ## Documentbeheer
 - **Document-ID:** MOD-01
-- **Titel:** ?? AI Levenscyclus
+- **Titel:** 📍 AI Levenscyclus
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Dit document definieert de volledige methodologie voor AI projecten en vormt de fundering van de AI levenscyclus. Het beschrijft de 5 fasen van AI projecten en fungeert als centrale routekaart voor het team.
 
 ---
 
-## ?? Overzicht van de AI Levenscyclus
+## 📖 Overzicht van de AI Levenscyclus
 Een succesvol AI-project is geen lineair proces, maar een iteratieve cyclus waarbij techniek, business en compliance constant op elkaar worden afgestemd. De AI levenscyclus bestaat uit 5 fasen die elkaar overlappen en versterken:
 
 ```mermaid
@@ -36,56 +36,56 @@ graph TD
 
 ---
 
-## ?? De Vijf Fasen van de Levenscyclus
+## 📖 De Vijf Fasen van de Levenscyclus
 
 > [!TIP]
 > **De Fast Lane (De Innovatie-route)**
 > Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
 
-### ?? Fase 1: Verkenning & Strategie
-**?? Doel:** Het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten.
+### 🎯 Fase 1: Verkenning & Strategie
+**📍 Doel:** Het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten.
 
-#### ?? Kernactiviteiten
+#### 📍 Kernactiviteiten
 *   **Probleemverkenning:** Het probleem definiëren vanuit de gebruiker, niet vanuit de techniek.
 *   **Data-Evaluatie:** Beoordelen van Toegang, Kwaliteit en Relevantie van de data.
 *   **Risico-Inventarisatie:** Bepalen of de toepassing valt onder de EU AI Act (hoog risico).
 
 ---
 
-### ?? Fase 2: Validatie
-**?? Doel:** Bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
+### 🎯 Fase 2: Validatie
+**📍 Doel:** Bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
 
-#### ?? Kernactivities
+#### 📍 Kernactivities
 *   **Praktijkproef (PoV):** Kleinschalig experiment om de hypothese te testen.
 *   **Het Kostenoverzicht:** Schatten van investering versus ROI.
 *   **Eerlijkheidstoets (Bias Detectie):** Eerste scan op ongewenste vooroordelen in het model.
 
 ---
 
-### ?? Fase 3: Realisatie
-**?? Doel:** Het bouwen van een robuuste, productiewaardige oplossing.
+### 🎯 Fase 3: Realisatie
+**📍 Doel:** Het bouwen van een robuuste, productiewaardige oplossing.
 
-#### ?? Kernactiviteiten
+#### 📍 Kernactiviteiten
 *   **Specificatie-eerst Methode:** Eerst tests schrijven, dan pas de implementatie.
 *   **Kenniskoppeling (RAG):** De AI verbinden aan interne bedrijfsinformatie.
 *   **Afstellen van het model:** Optimaliseren van de parameters en **Sturingsinstructies**.
 
 ---
 
-### ?? Fase 4: Levering
-**?? Doel:** Een veilige **Ingebruikname** en acceptatie door de organisatie.
+### 🎯 Fase 4: Levering
+**📍 Doel:** Een veilige **Ingebruikname** en acceptatie door de organisatie.
 
-#### ?? Kernactiviteiten
+#### 📍 Kernactiviteiten
 *   **Ingebruikname Plan:** Stapsgewijze uitrol naar productie.
 *   **Menselijke Regie:** Implementeren van toezichtsprotocollen.
 *   **Adoptie & Training:** Gebruikers opleiden in de nieuwe werkwijze.
 
 ---
 
-### ?? Fase 5: Beheer & Optimalisatie
-**?? Doel:** Waarde behouden en de oplossing actueel houden.
+### 🎯 Fase 5: Beheer & Optimalisatie
+**📍 Doel:** Waarde behouden en de oplossing actueel houden.
 
-#### ?? Kernactiviteiten
+#### 📍 Kernactiviteiten
 *   **Prestatieverloop Meten:** Continu monitoren van accuraatheid en drift.
 *   **Kostenbeheersing:** Het verbruik en de middelen optimaliseren.
 *   **Feedbacklus:** Gebruikerservaringen terugkoppelen naar Fase 1.
@@ -101,7 +101,7 @@ graph TD
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

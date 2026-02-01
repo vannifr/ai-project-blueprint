@@ -1,7 +1,7 @@
-﻿# ?? Project Initiatie
+# 🚀 Project Initiatie
 ## Documentbeheer
 - **Document-ID:** MOD-05
-- **Titel:** ?? Project Initiatie
+- **Titel:** 📍 Project Initiatie
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Het formaliseren van de start van een AI-project door het vastleggen van heldere doelen, rollen, verantwoordelijkheden en kaders in een **AI Project Charter**.
 
 ---
 
-## ?? Initiatie Stappen
+## 📖 Initiatie Stappen
 
 ### 1. Project Charter Opstellen
 *   Definieer de **project scope**: Wat hoort er wel bij en wat niet?
@@ -24,7 +24,7 @@ Het formaliseren van de start van een AI-project door het vastleggen van heldere
 *   Identificeer **stakeholders** en breng hun verwachtingen in kaart.
 
 ### 2. Team Samenstellen
-*   Wijs duidelijke rollen toe (zie **?? 4. Team & Rollen**).
+*   Wijs duidelijke rollen toe (zie **📍 4. Team & Rollen**).
 *   Zorg voor multidisciplinaire samenwerking (Business, Data Science, IT/Guardians).
 
 ### 3. Governance Opzetten
@@ -40,7 +40,7 @@ Het formaliseren van de start van een AI-project door het vastleggen van heldere
 
 ---
 
-## ?? Templates en Tools
+## 📖 Templates en Tools
 Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 
 *   **Project Charter:** Voor scope en mandaat.
@@ -56,7 +56,7 @@ Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

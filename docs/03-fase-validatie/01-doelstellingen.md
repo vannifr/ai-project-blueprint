@@ -1,7 +1,7 @@
-﻿# ?? Fase 03: Validatie
+# 🚀 Fase 03: Validatie
 ## Documentbeheer
 - **Document-ID:** MOD-01
-- **Titel:** ?? Fase 03: Validatie
+- **Titel:** 📍 Fase 03: Validatie
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? Doelstelling
+## 📖 Doelstelling
 Het primaire doel van de Validatiefase is bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
 
 **Belangrijkste resultaat:** Een werkende Praktijkproef (Proof of Value) die aantoont dat de AI de specifieke bedrijfscontext begrijpt en meetbare waarde levert.
@@ -25,7 +25,7 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

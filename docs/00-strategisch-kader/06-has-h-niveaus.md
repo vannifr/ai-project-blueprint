@@ -1,7 +1,7 @@
-﻿# ?? AI-Samenwerkingsmodi
+# 🚀 AI-Samenwerkingsmodi
 ## Documentbeheer
 - **Document-ID:** MOD-06
-- **Titel:** ?? AI-Samenwerkingsmodi
+- **Titel:** 📍 AI-Samenwerkingsmodi
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,14 +10,14 @@
 
 ---
 
-## ?? 1. Doel van de Modi
+## 📖 1. Doel van de Modi
 Om te bepalen welke processen, governance en risicobeheersing nodig zijn, classificeren we de relatie tussen mens en machine in vijf **Samenwerkingsmodi**.
 
 Dit model beschrijft de verschuiving van AI als gereedschap naar AI als zelfstandige actor. Het is cruciaal om vooraf te definiëren in welke modus een systeem opereert, omdat een 'Modus 4'-systeem (Gedelegeerd) veel strengere veiligheidsregels vereist dan een 'Modus 2'-systeem (Adviserend).
 
 ---
 
-## ?? De Vijf Modi
+## 📖 De Vijf Modi
 
 ### Modus 1: Instrumenteel (The Tool)
 **De mens werkt, AI wacht.**
@@ -84,7 +84,7 @@ Hoe hoger de modus, hoe zwaarder de validatie-eisen.
 
 ---
 
-## ?? Toepassing in Projecten
+## 📖 Toepassing in Projecten
 Bij het starten van een project (Fase Discovery) moet de beoogde modus worden vastgelegd in het **Project Charter**.
 
 !!! tip "Begin laag, schaal op"
@@ -103,7 +103,7 @@ Bij het starten van een project (Fase Discovery) moet de beoogde modus worden va
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

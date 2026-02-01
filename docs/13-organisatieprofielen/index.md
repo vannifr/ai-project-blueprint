@@ -1,7 +1,7 @@
-﻿# ?? Volwassenheidsniveaus
+# 🚀 Volwassenheidsniveaus
 ## Documentbeheer
 - **Document-ID:** MOD
-- **Titel:** ?? Volwassenheidsniveaus
+- **Titel:** 📍 Volwassenheidsniveaus
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? Welke Aanpak Past Bij Jouw Team?
+## 📖 Welke Aanpak Past Bij Jouw Team?
 
 Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welke aanpak en welke Samenwerkingsmodi passen bij jouw huidige situatie.
 
@@ -26,7 +26,7 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 *   **Focus:** Samenwerkingsmodus 1 & 2 (Instrumenteel en Adviserend).
 *   **Advies:** Bewijs eerst waarde, voer dan pas regels in. Start met Quick Wins.
 
-**?? Belangrijkste acties:**
+**📍 Belangrijkste acties:**
 - Kies 1-2 use cases met hoge impact
 - Voer Data-Evaluatie uit (Toegang, Kwaliteit, Relevantie)
 - Bouw eerste Praktijkproef
@@ -42,7 +42,7 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 *   **Focus:** Samenwerkingsmodus 3 (Collaboratief).
 *   **Advies:** Professionaliseer het beheer en de tests. Investeer in MLOps.
 
-**?? Belangrijkste acties:**
+**📍 Belangrijkste acties:**
 - Implementeer Specificatie-eerst Methode
 - Stel **Prestatieverloop** monitoring in
 - Formaliseer governance (**Rode Lijnen**)
@@ -58,7 +58,7 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 *   **Focus:** Samenwerkingsmodus 4 (Gedelegeerd). Sommige processen zelfs Modus 5 (Autonoom).
 *   **Advies:** Schaalbaarheid en geautomatiseerd toezicht zijn cruciaal. Investeer in AI Governance.
 
-**?? Belangrijkste acties:**
+**📍 Belangrijkste acties:**
 - Implementeer geautomatiseerde compliance monitoring
 - Stel AI Board of Ethics Committee in
 - Optimaliseer kosten (**Het Kostenoverzicht**)
@@ -74,7 +74,7 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

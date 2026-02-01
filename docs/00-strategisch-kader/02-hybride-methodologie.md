@@ -1,7 +1,7 @@
-﻿# ?? Hybride Methodologie
+# 🚀 Hybride Methodologie
 ## Documentbeheer
 - **Document-ID:** MOD-02
-- **Titel:** ?? Hybride Methodologie
+- **Titel:** 📍 Hybride Methodologie
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Dit document beschrijft de hybride aanpak van het AI Project Playbook, waarbij voorspelbare planning (Waterfall) wordt gecombineerd met iteratieve uitvoering (Agile) voor een optimale balans tussen structuur en flexibiliteit.
 
 ---
 
-## ?? Concept
+## 📖 Concept
 De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vereisen voor budgettering en compliance, en anderzijds extreme flexibiliteit nodig hebben tijdens de modelontwikkeling.
 
 ### Voorspelbare Elementen (Waterfall)
@@ -32,7 +32,7 @@ De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vere
 
 ---
 
-## ?? Praktische Implementatie
+## 📖 Praktische Implementatie
 
 ```mermaid
 gantt
@@ -60,7 +60,7 @@ gantt
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

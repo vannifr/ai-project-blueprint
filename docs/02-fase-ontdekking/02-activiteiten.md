@@ -1,7 +1,7 @@
-﻿# ?? Kernactiviteiten & RACI (Verkenning & Strategie)
+# 🚀 Kernactiviteiten & RACI (Verkenning & Strategie)
 ## Documentbeheer
 - **Document-ID:** MOD-02
-- **Titel:** ?? Kernactiviteiten & RACI (Verkenning & Strategie)
+- **Titel:** 📍 Kernactiviteiten & RACI (Verkenning & Strategie)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -42,7 +42,7 @@ Een eerste scan op juridische en ethische obstakels.
 *   **Ethische Vraagstukken:** Kan het systeem discrimineren of schade veroorzaken?
 *   **Organisatorische Risico's:** Hebben we de juiste mensen en middelen?
 
-## ?? 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Verkenning |
 | :--- | :--- |
@@ -55,7 +55,7 @@ Een eerste scan op juridische en ethische obstakels.
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

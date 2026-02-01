@@ -1,7 +1,7 @@
-﻿# ?? Fase 06: Beheer & Optimalisatie
+# 🚀 Fase 06: Beheer & Optimalisatie
 ## Documentbeheer
 - **Document-ID:** MOD-01
-- **Titel:** ?? Fase 06: Beheer & Optimalisatie
+- **Titel:** 📍 Fase 06: Beheer & Optimalisatie
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? 1. Doelstelling
+## 📖 1. Doelstelling
 Het primaire doel van de Beheer & Optimalisatiefase is het waarborgen van de prestaties, ethische integriteit en kostenefficiëntie van het AI-systeem gedurende de gehele operationele levensduur.
 
 **Belangrijkste resultaat:** Een stabiel, zelf-corrigerend AI-ecosysteem dat aantoonbare business value blijft leveren, compliant is met wetgeving en geoptimaliseerd is voor kosten en milieu.
@@ -25,7 +25,7 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

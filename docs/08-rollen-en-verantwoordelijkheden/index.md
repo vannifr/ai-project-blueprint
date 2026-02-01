@@ -59,7 +59,7 @@ Sponsor van het programma. Bepaalt de overkoepelende strategie en wijst budget t
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 Â

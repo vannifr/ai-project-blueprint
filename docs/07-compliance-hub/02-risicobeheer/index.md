@@ -1,7 +1,7 @@
-﻿# ?? Risicobeheer
+# 🚀 Risicobeheer
 ## Documentbeheer
 - **Document-ID:** MOD
-- **Titel:** ?? Risicobeheer
+- **Titel:** 📍 Risicobeheer
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Systematisch identificeren, beoordelen en mitigeren van risico's gedurende de gehele AI-levenscyclus.
 
 ---
 
-## ?? Risicobeheer Proces
+## 📖 Risicobeheer Proces
 
 ### 1. Risico-identificatie
 *   Systeemanalyse op basis van de **Doeldefinitie**.
@@ -33,7 +33,7 @@ Systematisch identificeren, beoordelen en mitigeren van risico's gedurende de ge
 
 ---
 
-## ?? Rollen in Risicobeheer
+## 📖 Rollen in Risicobeheer
 *   **AI Product Manager:** Eindverantwoordelijk voor de business risico's.
 *   **Guardian:** Onafhankelijk toezichthouder op ethiek en **Rode Lijnen**.
 *   **Risk Officer:** Toezicht op wettelijke compliance.
@@ -41,7 +41,7 @@ Systematisch identificeren, beoordelen en mitigeren van risico's gedurende de ge
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

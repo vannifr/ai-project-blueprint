@@ -1,7 +1,7 @@
-﻿# ?? Sjablonen & Templates
+# 🚀 Sjablonen & Templates
 ## Documentbeheer
 - **Document-ID:** MOD-09
-- **Titel:** ?? Module 09 — Sjablonen & Templates
+- **Titel:** 📍 Module 09 — Sjablonen & Templates
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -14,14 +14,14 @@ Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-pro
 
 ---
 
-## ?? Beschikbare Sjablonen
+## 📖 Beschikbare Sjablonen
 
-### ?? Strategie & Planning
+### 🎯 Strategie & Planning
 *   **[Module 09.01: Het Project Charter](01-project-charter/template.md):** Sjabloon voor de formele start van een initiatief.
 *   **[Module 09.03: Risico Pre-Scan](03-risicoanalyse/pre-scan.md):** Sjabloon voor initiële risico-inventarisatie (Gate 1).
 *   **[Business Case](02-business-case/template.md):** Financiële onderbouwing en raming van **Het Kostenoverzicht**.
 
-### ?? Ontwerp & Sturing
+### 🎯 Ontwerp & Sturing
 *   **[Module 09.02: De Doelkaart (Intent Map)](06-ai-native-artefacten/doelkaart.md):** Verbindt de menselijke intentie aan de technische **Sturingsinstructies**.
 *   **[Module 09.05: Prompt Template](10-prompt-engineering/template.md):** Sjabloon voor het opbouwen van effectieve AI-instructies.
 *   **[Module 09.04: Technische Modelkaart](02-business-case/modelkaart.md):** Technische verantwoording voor ontwikkelaars en auditors.
@@ -33,7 +33,7 @@ Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-pro
 *   **[Validatie Bewijs](07-validatie-bewijs/template.md):** Oude template voor validatiebewijs (ter referentie).
 *   **[Traceerbaarheid](08-traceerbaarheid-links/template.md):** Verbinding tussen Doel ? Instructie ? Bewijs.
 
-### ?? Compliance & Privacy
+### 🎯 Compliance & Privacy
 *   **[Module 09.07: Data & Privacyblad](11-privacy-data/privacyblad.md):** Sjabloon voor het vastleggen van privacy-by-design maatregelen (AVG).
 
 ---

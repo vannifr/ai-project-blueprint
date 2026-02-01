@@ -1,7 +1,7 @@
-﻿# ?? Organisatorische Heruitvinding
+# 🚀 Organisatorische Heruitvinding
 ## Documentbeheer
 - **Document-ID:** MOD-07
-- **Titel:** ?? Organisatorische Heruitvinding
+- **Titel:** 📍 Organisatorische Heruitvinding
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 AI is niet alleen een technische upgrade, maar een fundament voor een nieuwe manier van werken. Dit document beschrijft hoe de organisatie moet transformeren om de vruchten van AI te plukken.
 
 ---
 
-## ?? Van Project naar Platform
+## 📖 Van Project naar Platform
 Traditionele organisaties zien AI als een serie losse projecten. Voor maximale impact moeten we verschuiven naar een platformvisie.
 
 *   **Data als Brandstof:** Data is niet langer een bijproduct, maar de kern van de bedrijfsvoering.
@@ -24,7 +24,7 @@ Traditionele organisaties zien AI als een serie losse projecten. Voor maximale i
 
 ---
 
-## ?? Kernonderdelen van de Heruitvinding
+## 📖 Kernonderdelen van de Heruitvinding
 
 ### 1. Cultuur & Mindset
 *   Van "AI vervangt ons" naar "AI versterkt ons".
@@ -47,7 +47,7 @@ Traditionele organisaties zien AI als een serie losse projecten. Voor maximale i
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

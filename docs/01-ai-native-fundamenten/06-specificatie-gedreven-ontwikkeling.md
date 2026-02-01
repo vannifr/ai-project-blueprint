@@ -1,7 +1,7 @@
-﻿# ?? Specificatie-eerst Methode
+# 🚀 Specificatie-eerst Methode
 ## Documentbeheer
 - **Document-ID:** MOD-01-06
-- **Titel:** ?? Specificatie-eerst Methode
+- **Titel:** 📍 Specificatie-eerst Methode
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? Shift-Left Validatie
+## 📖 Shift-Left Validatie
 De **Specificatie-eerst Methode** (ook wel *Spec-Driven Development*) zorgt ervoor dat we eerst de verwachtingen vastleggen voordat we bouwen.
 
 In plaats van direct prompts te schrijven, volgen we deze cyclus:

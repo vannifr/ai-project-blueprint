@@ -45,7 +45,7 @@ Dit sjabloon helpt bij het opbouwen van hoogwaardige **Sturingsinstructies** (Sy
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 Â

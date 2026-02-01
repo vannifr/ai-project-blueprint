@@ -1,7 +1,7 @@
-﻿# ?? Fase 05: Levering
+# 🚀 Fase 05: Levering
 ## Documentbeheer
 - **Document-ID:** MOD-01
-- **Titel:** ?? Fase 05: Levering
+- **Titel:** 📍 Fase 05: Levering
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? Doelstellingen van de Levering
+## 📖 Doelstellingen van de Levering
 *   **Veilige Ingebruikname:** Gecontroleerde overgang naar productie.
 *   **Menselijke Regie:** Waarborgen dat gebruikers het systeem begrijpen en kunnen bijsturen.
 *   **Human-in-the-Loop Cultuur:**
@@ -29,7 +29,7 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

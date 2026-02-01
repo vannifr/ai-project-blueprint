@@ -1,7 +1,7 @@
-﻿# ?? EU AI Act
+# 🚀 EU AI Act
 ## Documentbeheer
 - **Document-ID:** MOD
-- **Titel:** ?? EU AI Act
+- **Titel:** 📍 EU AI Act
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,35 +10,35 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Dit document beschrijft de specifieke vereisten van de Europese AI Verordening (EU AI Act) en hoe deze worden toegepast binnen het project.
 
 ---
 
-## ?? Risicoclassificatie conform EU AI Act
+## 📖 Risicoclassificatie conform EU AI Act
 
 De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veiligheid en grondrechten.
 
-### ?? Onacceptabel Risico
+### 🎯 Onacceptabel Risico
 *   **Definitie:** Systemen die een duidelijke bedreiging vormen.
 *   **Actie:** Absoluut verboden.
 
-### ?? Hoog Risico
+### 🎯 Hoog Risico
 *   **Definitie:** Systemen in kritieke domeinen (onderwijs, werkgelegenheid, overheid).
 *   **Vereisten:** Strenge regels voor data-governance, documentatie, transparantie en menselijk toezicht.
 *   **Documentatie:** Verplicht technisch dossier en CE-markering.
 
-### ?? Beperkt Risico
+### 🎯 Beperkt Risico
 *   **Definitie:** Systemen zoals chatbots of image-generators.
 *   **Vereisten:** Transparantieplicht (gebruikers moeten weten dat ze met AI communiceren).
 
-### ?? Minimaal Risico
+### 🎯 Minimaal Risico
 *   **Definitie:** De meeste AI-systemen (spamfilters, AI in games).
 *   **Vereisten:** Geen wettelijke verplichtingen, maar vrijwillige gedragscodes aanbevolen.
 
 ---
 
-## ?? Kernverplichtingen voor Hoog Risico AI
+## 📖 Kernverplichtingen voor Hoog Risico AI
 
 1.  **Risicobeheersysteem:** Continu proces gedurende de volledige levenscyclus.
 2.  **Data Governance:** Gebruik van hoogwaardige datasets om bias te minimaliseren.
@@ -50,7 +50,7 @@ De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veilig
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

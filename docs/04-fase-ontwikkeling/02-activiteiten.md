@@ -1,7 +1,7 @@
-﻿# ?? Kernactiviteiten & RACI (Realisatie)
+# 🚀 Kernactiviteiten & RACI (Realisatie)
 ## Documentbeheer
 - **Document-ID:** MOD-02
-- **Titel:** ?? Kernactiviteiten & RACI (Realisatie)
+- **Titel:** 📍 Kernactiviteiten & RACI (Realisatie)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -55,7 +55,7 @@ Elke wijziging wordt getoetst op drie dimensies:
 *   **Vraag:** Helpt het de gebruiker? Levert het waarde?
 *   **Check:** User acceptance testing, A/B testing
 
-## ?? 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Realisatie |
 | :--- | :--- |
@@ -68,7 +68,7 @@ Elke wijziging wordt getoetst op drie dimensies:
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

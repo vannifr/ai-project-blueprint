@@ -23,7 +23,7 @@ Het formeel afronden van een AI-project, met de focus op het borgen van de opged
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 Â

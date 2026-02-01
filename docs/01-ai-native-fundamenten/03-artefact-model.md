@@ -1,7 +1,7 @@
-﻿# ?? Artefact Model
+# 🚀 Artefact Model
 ## Documentbeheer
 - **Document-ID:** MOD-03
-- **Titel:** ?? Artefact Model
+- **Titel:** 📍 Artefact Model
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? Beheer-Artefacten
+## 📖 Beheer-Artefacten
 Om AI-systemen beheersbaar te maken, beheren we specifieke artefacten die grip geven op het gedrag.
 
 | Artefact | Doel | Eigenaar | Formaat |
@@ -24,7 +24,7 @@ Om AI-systemen beheersbaar te maken, beheren we specifieke artefacten die grip g
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

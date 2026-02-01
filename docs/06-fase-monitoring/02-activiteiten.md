@@ -1,7 +1,7 @@
-﻿# ?? Kernactiviteiten & RACI (Beheer & Optimalisatie)
+# 🚀 Kernactiviteiten & RACI (Beheer & Optimalisatie)
 ## Documentbeheer
 - **Document-ID:** MOD-02
-- **Titel:** ?? Kernactiviteiten & RACI (Beheer & Optimalisatie)
+- **Titel:** 📍 Kernactiviteiten & RACI (Beheer & Optimalisatie)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -38,7 +38,7 @@ Blijvende wettelijke conformiteit.
 *   **Transparantie Rapporten:** Periodieke rapportage aan stakeholders en CAIO over veiligheid en performance.
 *   **Eerlijkheidstoets (Bias Audit):** Regelmatige steekproeven door de Ethicist op de 'toon' en kwaliteit van outputs.
 
-## ?? 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Beheer & Optimalisatie |
 | :--- | :--- |
@@ -51,7 +51,7 @@ Blijvende wettelijke conformiteit.
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

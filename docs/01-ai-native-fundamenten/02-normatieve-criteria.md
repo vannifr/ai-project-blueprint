@@ -1,7 +1,7 @@
-﻿# ?? Normatieve Criteria
+# 🚀 Normatieve Criteria
 ## Documentbeheer
 - **Document-ID:** MOD-02
-- **Titel:** ?? Normatieve Criteria
+- **Titel:** 📍 Normatieve Criteria
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? Wanneer Werken We Volgens de Kernprincipes?
+## 📖 Wanneer Werken We Volgens de Kernprincipes?
 Een project kwalificeert voor deze aanpak als aan de volgende drie criteria wordt voldaan:
 
 | Criterium | Vereiste |
@@ -24,7 +24,7 @@ Een project kwalificeert voor deze aanpak als aan de volgende drie criteria word
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

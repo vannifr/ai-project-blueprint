@@ -1,7 +1,7 @@
-﻿# ?? Module 07: Risicobeheersing & Compliance
+# 🚀 Module 07: Risicobeheersing & Compliance
 ## Documentbeheer
 - **Document-ID:** MOD-07
-- **Titel:** ?? Module 07: Risicobeheersing & Compliance
+- **Titel:** 📍 Module 07: Risicobeheersing & Compliance
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,24 +10,24 @@
 
 ---
 
-## ?? 1. Doel van deze Module
+## 📖 1. Doel van deze Module
 Compliance is geen rem, maar de remmen op een auto zorgen ervoor dat je veilig hard kunt rijden. Deze module definieert de **Rode Lijnen**: de ethische en wettelijke grenzen waarbinnen we innoveren. Het centraliseert de vereisten vanuit de EU AI Act en interne waarden.
 
 ---
 
-## ?? 2. Risico-Classificatie (De Piramide)
+## 📖 2. Risico-Classificatie (De Piramide)
 Voordat een project start (in **Verkenning & Strategie**), moet het worden ingedeeld in een risicocategorie. Dit bepaalt de zwaarte van het toezicht.
 
-| Risico Niveau | Omschrijving | Voorbeeld | ?? Vereiste Actie |
+| Risico Niveau | Omschrijving | Voorbeeld | 📍 Vereiste Actie |
 | :--- | :--- | :--- | :--- |
-| ?? **Onacceptabel** | Systemen die mensen manipuleren of social scoring doen. | Real-time gezichtsherkenning in openbare ruimte. | **VERBODEN**. Project wordt direct gestopt. |
-| ?? **Hoog Risico** | AI met impact op kritieke infrastructuur of grondrechten. | CV-scanner voor sollicitanten, kredietwaardigheidstoets. | Volledige EU AI Act Compliance (**Validatierapport**, Menselijk toezicht, CE-markering). |
-| ?? **Beperkt Risico** | Systemen met interactie of die content genereren. | Klantenservice Chatbot, Marketing tekstgenerator. | Transparantieplicht. De gebruiker moet weten dat hij met AI praat. |
-| ?? **Minimaal Risico** | Interne optimalisaties zonder persoonsgegevens. | Spamfilter, voorraadvoorspelling, code-assistent. | Geen specifieke eisen (Gedragscode aanbevolen). |
+| 📍 **Onacceptabel** | Systemen die mensen manipuleren of social scoring doen. | Real-time gezichtsherkenning in openbare ruimte. | **VERBODEN**. Project wordt direct gestopt. |
+| 📍 **Hoog Risico** | AI met impact op kritieke infrastructuur of grondrechten. | CV-scanner voor sollicitanten, kredietwaardigheidstoets. | Volledige EU AI Act Compliance (**Validatierapport**, Menselijk toezicht, CE-markering). |
+| 📍 **Beperkt Risico** | Systemen met interactie of die content genereren. | Klantenservice Chatbot, Marketing tekstgenerator. | Transparantieplicht. De gebruiker moet weten dat hij met AI praat. |
+| 📍 **Minimaal Risico** | Interne optimalisaties zonder persoonsgegevens. | Spamfilter, voorraadvoorspelling, code-assistent. | Geen specifieke eisen (Gedragscode aanbevolen). |
 
 ---
 
-## ?? 3. De Rol van de 'Guardian' (Ethicus)
+## 📖 3. De Rol van de 'Guardian' (Ethicus)
 De Guardian is de "Beschermheer" van de waarden van de organisatie. Deze rol is onafhankelijk van het ontwikkelteam.
 
 *   **Mandaat:** De Guardian heeft veto-recht (via een 'Stop-knop') in elke fase van het project als de **Rode Lijnen** worden overschreden.
@@ -38,7 +38,7 @@ De Guardian is de "Beschermheer" van de waarden van de organisatie. Deze rol is 
 
 ---
 
-## ?? 4. De Eerlijkheidstoets (Bias Audit)
+## 📖 4. De Eerlijkheidstoets (Bias Audit)
 AI leert van data uit het verleden en kan daardoor vooroordelen overnemen. We toetsen elk Hoog en Beperkt risico systeem op drie niveaus:
 
 1.  **Representativiteit:** Is de data een goede afspiegeling van de werkelijkheid?
@@ -47,7 +47,7 @@ AI leert van data uit het verleden en kan daardoor vooroordelen overnemen. We to
 
 ---
 
-## ?? 5. Beheer van Incidenten
+## 📖 5. Beheer van Incidenten
 Wat als het misgaat?
 
 *   **De Noodstop (Circuit Breaker):** Voor autonome systemen (**Samenwerkingsmodus** 4 & 5) moet er een technische of procedurele manier zijn om de AI direct 'offline' te halen.
@@ -55,7 +55,7 @@ Wat als het misgaat?
 
 ---
 
-## ?? 6. Documentatievereisten (Het Dossier)
+## 📖 6. Documentatievereisten (Het Dossier)
 Voor Hoog Risico systemen is een 'Technisch Dossier' verplicht. Dit bevat:
 
 *   **Systeembeschrijving:** Wat doet het en voor wie?
@@ -103,7 +103,7 @@ Geen livegang zonder:
 
 ---
 
-## ?? Toekomst: Agentic AI & Constitutional AI
+## 📖 Toekomst: Agentic AI & Constitutional AI
 Wanneer AI-systemen autonoom acties gaan uitvoeren (Modus 4 & 5), verschuift de focus naar **Constitutional AI**:
 *   **Actieradius:** Technische inperking van wat een agent mag doen (bijv. maximale budgetlimieten).
 *   **Guardrails:** Real-time monitoring die acties blokkeert als deze de **Rode Lijnen** dreigen te overschrijden.

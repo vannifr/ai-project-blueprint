@@ -1,7 +1,7 @@
-﻿# ?? Kernactiviteiten & RACI (Levering)
+# 🚀 Kernactiviteiten & RACI (Levering)
 ## Documentbeheer
 - **Document-ID:** MOD-02
-- **Titel:** ?? Kernactiviteiten & RACI (Levering)
+- **Titel:** 📍 Kernactiviteiten & RACI (Levering)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -40,7 +40,7 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 *   **Verantwoordingsbewijs:** Aantonen dat de **Rode Lijnen** zijn gehandhaafd tijdens de testfase.
 *   **Overdracht Logboeken:** Volledig overzicht van de systeemhistorie.
 
-## ?? 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Levering |
 | :--- | :--- |
@@ -53,7 +53,7 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

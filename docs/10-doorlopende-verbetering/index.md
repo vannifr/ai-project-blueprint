@@ -24,7 +24,7 @@ AI-systemen zijn niet statisch. In deze module beschrijven we hoe we de feedback
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 Â

@@ -1,7 +1,7 @@
-﻿# ?? Deliverables & Gate 1 (Verkenning & Strategie)
+# 🚀 Deliverables & Gate 1 (Verkenning & Strategie)
 ## Documentbeheer
 - **Document-ID:** MOD-02-03
-- **Titel:** ?? Deliverables & Gate 1 (Verkenning & Strategie)
+- **Titel:** 📍 Deliverables & Gate 1 (Verkenning & Strategie)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center

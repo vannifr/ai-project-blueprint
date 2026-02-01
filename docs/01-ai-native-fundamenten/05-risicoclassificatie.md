@@ -1,7 +1,7 @@
-﻿# ?? Risicoclassificatie
+# 🚀 Risicoclassificatie
 ## Documentbeheer
 - **Document-ID:** MOD-05
-- **Titel:** ?? Risicoclassificatie
+- **Titel:** 📍 Risicoclassificatie
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,7 +10,7 @@
 
 ---
 
-## ?? Validatie Diepgang
+## 📖 Validatie Diepgang
 Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wijzigingen op basis van de impact op de **Rode Lijnen**.
 
 | Niveau | Trigger (Voorbeeld) | Validatie Diepgang | EU AI Act Mapping |
@@ -23,7 +23,7 @@ Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wi
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

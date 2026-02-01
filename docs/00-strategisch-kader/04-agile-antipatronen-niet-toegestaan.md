@@ -1,7 +1,7 @@
-﻿# ?? Agile Antipatronen (NOT DONE)
+# 🚀 Agile Antipatronen (NOT DONE)
 ## Documentbeheer
 - **Document-ID:** MOD-04
-- **Titel:** ?? Agile Antipatronen (NOT DONE)
+- **Titel:** 📍 Agile Antipatronen (NOT DONE)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatronen die absoluut vermeden moeten worden om falen, onethisch gedrag of compliance-issues te voorkomen.
 
 ---
 
-## ?? De "NOT DONE" Lijst
+## 📖 De "NOT DONE" Lijst
 
 ### ? Geen Eerlijkheidstoets (Bias Audit)
 *   **Regel:** AI systemen moeten regelmatig worden gecontroleerd op bias.
@@ -64,7 +64,7 @@ Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatron
 
 ---
 
-## ?? Implementatie
+## 📖 Implementatie
 Gebruik deze lijst als:
 1.  **Checklist** tijdens project initiatie.
 2.  **Review criteria** tijdens Gate Reviews.
@@ -74,7 +74,7 @@ Gebruik deze lijst als:
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

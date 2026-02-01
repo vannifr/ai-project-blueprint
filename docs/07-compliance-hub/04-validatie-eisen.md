@@ -1,7 +1,7 @@
-﻿# ?? Validatie Eisen (Compliance)
+# 🚀 Validatie Eisen (Compliance)
 ## Documentbeheer
 - **Document-ID:** MOD-04
-- **Titel:** ?? Validatie Eisen (Compliance)
+- **Titel:** 📍 Validatie Eisen (Compliance)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -10,12 +10,12 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Vaststellen waaraan een **Validatierapport** moet voldoen om formeel akkoord te krijgen voor ingebruikname, specifiek gericht op wettelijke en ethische kaders.
 
 ---
 
-## ?? Vereisten voor het Validatierapport
+## 📖 Vereisten voor het Validatierapport
 
 1.  **Objectiviteit:** Gebruik van meetbare metrics en onafhankelijke testsets.
 2.  **Dekking:** Bewijs van toetsing op alle gedefinieerde **Rode Lijnen**.
@@ -26,7 +26,7 @@ Vaststellen waaraan een **Validatierapport** moet voldoen om formeel akkoord te 
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

@@ -1,7 +1,7 @@
-﻿# ?? Deliverables & Gate 4 (Levering)
+# 🚀 Deliverables & Gate 4 (Levering)
 ## Documentbeheer
 - **Document-ID:** MOD-05-03
-- **Titel:** ?? Module 05.03 — Deliverables & Gate 4 (Levering)
+- **Titel:** 📍 Module 05.03 — Deliverables & Gate 4 (Levering)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center

@@ -1,7 +1,7 @@
-﻿# ?? Module 09.01: Het Project Charter
+# 🚀 Module 09.01: Het Project Charter
 ## Documentbeheer
 - **Document-ID:** TMP-09-01
-- **Titel:** ?? Module 09.01: Het Project Charter
+- **Titel:** 📍 Module 09.01: Het Project Charter
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -17,7 +17,7 @@
 
 ---
 
-## ?? Doel
+## 📖 Doel
 Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de scope, doelen en kaders vast te leggen voordat er middelen worden gealloceerd aan de Bewijsvoering (Fase 2).
 
 ---
@@ -28,7 +28,7 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 ---
 
-### ?? 1. De Probleemstelling (Het Waarom)
+### 🎯 1. De Probleemstelling (Het Waarom)
 *Beschrijf het probleem vanuit de gebruiker of de organisatie. Focus op het knelpunt, niet op de technologie.*
 
 *   **Het knelpunt:** [Bijv. Klantenservice doet 3 dagen over een email-antwoord.]
@@ -37,7 +37,7 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 ---
 
-### ?? 2. De Oplossing (Het Wat)
+### 🎯 2. De Oplossing (Het Wat)
 *Beschrijf op hoofdlijnen wat we gaan bouwen en hoe mens en AI samenwerken.*
 
 *   **Concept:** [Bijv. Een AI-assistent die inkomende mails samenvat en een concept-antwoord klaarzet.]
@@ -46,7 +46,7 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 ---
 
-### ?? 3. Strategische Fit & Data
+### 🎯 3. Strategische Fit & Data
 *Waarom nu en is het haalbaar?*
 
 *   **Strategische Pijler:** [Aan welk bedrijfsdoel draagt dit bij?]
@@ -56,7 +56,7 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 ---
 
-### ?? 4. Risico & Compliance (Pre-scan)
+### 🎯 4. Risico & Compliance (Pre-scan)
 *Zie Module 07 voor definities.*
 
 *   **Risico Categorie (EU AI Act):** [Minimaal / Beperkt / Hoog]
@@ -65,7 +65,7 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 ---
 
-### ?? 5. De Business Case (Schatting)
+### 🎯 5. De Business Case (Schatting)
 *De hypothese van waarde.*
 
 *   **Verwachte Winst:** [Bijv. 30% tijdsbesparing per mail = 40 uur p/w.]
@@ -74,7 +74,7 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 ---
 
-### ?? 6. Het Kernteam
+### 🎯 6. Het Kernteam
 *   **AI Product Manager (Business):** [Naam]
 *   **Tech Lead (IT):** [Naam]
 *   **Guardian (Ethiek/Compliance):** [Naam]

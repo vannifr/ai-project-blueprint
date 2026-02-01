@@ -1,7 +1,7 @@
-﻿# ?? Kernactiviteiten & RACI (Validatie)
+# 🚀 Kernactiviteiten & RACI (Validatie)
 ## Documentbeheer
 - **Document-ID:** MOD-02
-- **Titel:** ?? Kernactiviteiten & RACI (Validatie)
+- **Titel:** 📍 Kernactiviteiten & RACI (Validatie)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -45,7 +45,7 @@ Een volledige raming van investering en operationele kosten.
 *   **Kwaliteitsverbetering:** Minder fouten, hogere klanttevredenheid
 *   **Omzetgroei:** Nieuwe mogelijkheden, snellere doorlooptijd
 
-## ?? 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen (RACI)
 
 | Rol | Verantwoordelijkheid in Validatie |
 | :--- | :--- |
@@ -58,7 +58,7 @@ Een volledige raming van investering en operationele kosten.
 ---
 **Versie:** 2.0
 **Datum:** 31 januari 2026
-**Status:** Definitief
+**Status:** Draft
 
 ---
 ---

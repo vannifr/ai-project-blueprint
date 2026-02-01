@@ -69,7 +69,7 @@ De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke i
 ---
 **Versie:** 2.0  
 **Datum:** 31 januari 2026  
-**Status:** Definitief  
+**Status:** Draft  
 
 ---
 Â
