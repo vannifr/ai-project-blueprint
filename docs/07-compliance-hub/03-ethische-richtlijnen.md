@@ -1,4 +1,14 @@
-# ?? Ethische Richtlijnen
+ï»¿# ?? Ethische Richtlijnen
+## Documentbeheer
+- **Document-ID:** MOD-03
+- **Titel:** ?? Ethische Richtlijnen
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Doel
 Waarborgen dat AI-systemen worden ontwikkeld en gebruikt op een manier die de menselijke waarden respecteert en geen onbedoelde schade toebrengt.
@@ -20,7 +30,7 @@ Het moet voor een gebruiker duidelijk zijn wanneer hij met een AI communiceert. 
 Strikte naleving van de AVG/GDPR. Gegevens worden alleen gebruikt voor het beoogde doel en conform de gestelde **Rode Lijnen**.
 
 ### 5. Maatschappelijk & Ecologisch Welzijn
-We streven naar een positieve impact op de samenleving en minimaliseren de ecologische voetafdruk van onze AI-systemen (energie-efficiëntie).
+We streven naar een positieve impact op de samenleving en minimaliseren de ecologische voetafdruk van onze AI-systemen (energie-efficiÃ«ntie).
 
 ---
 
@@ -37,9 +47,7 @@ De Guardian fungeert als het morele kompas van het project:
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

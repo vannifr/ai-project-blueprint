@@ -1,4 +1,14 @@
-# ?? Specificatie-eerst Methode
+﻿# ?? Specificatie-eerst Methode
+## Documentbeheer
+- **Document-ID:** MOD-01-06
+- **Titel:** ?? Specificatie-eerst Methode
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
+
+---
 
 ## ?? Shift-Left Validatie
 De **Specificatie-eerst Methode** (ook wel *Spec-Driven Development*) zorgt ervoor dat we eerst de verwachtingen vastleggen voordat we bouwen.
@@ -14,19 +24,7 @@ In plaats van direct prompts te schrijven, volgen we deze cyclus:
 ---
 
 ## Gerelateerde Templates
-*   [Doeldefinitie Template](../09-sjablonen/06-ai-native-artefacten/intent_record.md)
-*   [Rode Lijnen Template](../09-sjablonen/06-ai-native-artefacten/constraints_record.md)
+*   [Doelkaart Template](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 
 ---
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
----
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

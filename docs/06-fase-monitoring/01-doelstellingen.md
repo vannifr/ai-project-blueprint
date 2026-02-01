@@ -1,7 +1,17 @@
-# ?? Fase 06: Beheer & Optimalisatie
+ï»¿# ?? Fase 06: Beheer & Optimalisatie
+## Documentbeheer
+- **Document-ID:** MOD-01
+- **Titel:** ?? Fase 06: Beheer & Optimalisatie
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? 1. Doelstelling
-Het primaire doel van de Beheer & Optimalisatiefase is het waarborgen van de prestaties, ethische integriteit en kostenefficiëntie van het AI-systeem gedurende de gehele operationele levensduur.
+Het primaire doel van de Beheer & Optimalisatiefase is het waarborgen van de prestaties, ethische integriteit en kostenefficiÃ«ntie van het AI-systeem gedurende de gehele operationele levensduur.
 
 **Belangrijkste resultaat:** Een stabiel, zelf-corrigerend AI-ecosysteem dat aantoonbare business value blijft leveren, compliant is met wetgeving en geoptimaliseerd is voor kosten en milieu.
 
@@ -9,7 +19,7 @@ Het primaire doel van de Beheer & Optimalisatiefase is het waarborgen van de pre
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 *   Systeem is live (Gate 4 goedgekeurd).
 *   Monitoring dashboards en alerts zijn actief.
-*   Beheerteam (Operations/MLOps) is geïnstrueerd en stand-by.
+*   Beheerteam (Operations/MLOps) is geÃ¯nstrueerd en stand-by.
 *   Incident Response Plan is getest.
 
 ---
@@ -19,9 +29,7 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

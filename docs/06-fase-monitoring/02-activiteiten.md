@@ -1,4 +1,14 @@
-# ?? Kernactiviteiten & RACI (Beheer & Optimalisatie)
+ï»¿# ?? Kernactiviteiten & RACI (Beheer & Optimalisatie)
+## Documentbeheer
+- **Document-ID:** MOD-02
+- **Titel:** ?? Kernactiviteiten & RACI (Beheer & Optimalisatie)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## 3. Kernactiviteiten
 
@@ -15,7 +25,7 @@ Stilstand is achteruitgang.
 *   **Experiment Loops:** Gebruik productie-inzichten om nieuwe hypotheses te testen in korte sprints (A/B testing, Canary releases).
 *   **Backlog Management:** Beheer een levende lijst van bugs, verbeterpunten en feature requests vanuit gebruikers.
 
-### Activiteit 3.3: Kostenbeheersing & Energie-efficiëntie
+### Activiteit 3.3: Kostenbeheersing & Energie-efficiÃ«ntie
 Duurzaamheid in euro's en CO2.
 *   **Cloud & API Optimalisatie (Het Kostenoverzicht):** Maandelijkse review van compute (GPU/CPU) en token-kosten. Optimaliseren door model-compressie (*quantization*) of caching.
 *   **Duurzaamheidsmeting (ESG):** Monitoren van energieverbruik (*inference footprint*) en rapporteren voor ESG-doelen.
@@ -45,9 +55,7 @@ Blijvende wettelijke conformiteit.
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

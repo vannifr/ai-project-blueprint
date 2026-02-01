@@ -1,7 +1,17 @@
-# ?? Validatie Model
+ï»¿# ?? Validatie Model
+## Documentbeheer
+- **Document-ID:** MOD-04
+- **Titel:** ?? Validatie Model
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Drie Dimensies van Validatie
-Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie validatiecategorieën doorlopen:
+Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie validatiecategorieÃ«n doorlopen:
 
 ### 1. Syntactische Geldigheid
 *   **Vraag:** Werkt de code? Geen crashes of errors?
@@ -22,9 +32,7 @@ Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie valida
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

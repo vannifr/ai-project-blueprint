@@ -1,4 +1,14 @@
-# ?? Agile Antipatronen (NOT DONE)
+ï»¿# ?? Agile Antipatronen (NOT DONE)
+## Documentbeheer
+- **Document-ID:** MOD-04
+- **Titel:** ?? Agile Antipatronen (NOT DONE)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Doel
 Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatronen die absoluut vermeden moeten worden om falen, onethisch gedrag of compliance-issues te voorkomen.
@@ -28,7 +38,7 @@ Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatron
 *   **Status:** Geen checkpoints = **NIET TOEGESTAAN**.
 
 ### ? Geen Stakeholder Engagement
-*   **Regel:** Stakeholders en eindgebruikers moeten vanaf dag één betrokken zijn.
+*   **Regel:** Stakeholders en eindgebruikers moeten vanaf dag Ã©Ã©n betrokken zijn.
 *   **Impact:** Oplossingen die niet gebruikt worden.
 *   **Status:** Geen engagement = **NIET TOEGESTAAN**.
 
@@ -43,7 +53,7 @@ Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatron
 *   **Status:** Geen **Data-Evaluatie** = **NIET TOEGESTAAN**.
 
 ### ? Geen Risicobeheer
-*   **Regel:** Risico's moeten proactief geïdentificeerd en gemitigeerd worden.
+*   **Regel:** Risico's moeten proactief geÃ¯dentificeerd en gemitigeerd worden.
 *   **Impact:** Onverwachte incidenten.
 *   **Status:** Geen risicobeheer = **NIET TOEGESTAAN**.
 
@@ -58,7 +68,7 @@ Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatron
 Gebruik deze lijst als:
 1.  **Checklist** tijdens project initiatie.
 2.  **Review criteria** tijdens Gate Reviews.
-3.  **Training materiaal** voor teams om bewustzijn te creëren.
+3.  **Training materiaal** voor teams om bewustzijn te creÃ«ren.
 4.  **Audit tool** voor compliance verificatie.
 
 ---
@@ -68,9 +78,7 @@ Gebruik deze lijst als:
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

@@ -1,4 +1,14 @@
-# ?? Normatieve Criteria
+﻿# ?? Normatieve Criteria
+## Documentbeheer
+- **Document-ID:** MOD-02
+- **Titel:** ?? Normatieve Criteria
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Wanneer Werken We Volgens de Kernprincipes?
 Een project kwalificeert voor deze aanpak als aan de volgende drie criteria wordt voldaan:
@@ -18,9 +28,7 @@ Een project kwalificeert voor deze aanpak als aan de volgende drie criteria word
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

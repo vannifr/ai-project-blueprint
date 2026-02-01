@@ -1,4 +1,14 @@
-# ?? Checklist: Gate Reviews
+ï»¿# ?? Checklist: Gate Reviews
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ?? Checklist: Gate Reviews
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Doel
 Dit document bevat de criteria waaraan een project moet voldoen om de overstap naar de volgende fase te mogen maken.
@@ -9,7 +19,7 @@ Dit document bevat de criteria waaraan een project moet voldoen om de overstap n
 *   [ ] **Doeldefinitie** is vastgelegd.
 *   [ ] **Data-Evaluatie** is positief (Score Groen/Oranje).
 *   [ ] **Samenwerkingsmodus** is gekozen.
-*   [ ] Initiële risico-scan uitgevoerd.
+*   [ ] InitiÃ«le risico-scan uitgevoerd.
 
 ---
 
@@ -39,9 +49,7 @@ Dit document bevat de criteria waaraan een project moet voldoen om de overstap n
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

@@ -1,4 +1,21 @@
-# ?? Module 09.01: Het Project Charter
+ï»¿# ?? Module 09.01: Het Project Charter
+## Documentbeheer
+- **Document-ID:** TMP-09-01
+- **Titel:** ?? Module 09.01: Het Project Charter
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Routekeuze (Fast Lane) en Gate 1 beslisopties toegevoegd.
+
+---
+
+## 0. Routekeuze
+- **Route:** [ ] Fast Lane (MOD-02-FL)  [ ] Standaard lifecycle (MOD-02 t/m MOD-06)
+- **Motivatie:** [1 zin]
+- **Fast Lane toelatingscriteria bevestigd via TMP-09-03:** [Ja/Nee]
+
+---
 
 ## ?? Doel
 Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de scope, doelen en kaders vast te leggen voordat er middelen worden gealloceerd aan de Bewijsvoering (Fase 2).
@@ -25,7 +42,7 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 *   **Concept:** [Bijv. Een AI-assistent die inkomende mails samenvat en een concept-antwoord klaarzet.]
 *   **Samenwerkingsmodus:** [Kies: 1. Instrumenteel / 2. Adviserend / 3. Collaboratief / 4. Gedelegeerd]  
-    > *Let op: Begin bij twijfel één niveau lager om vertrouwen en data op te bouwen.*
+    > *Let op: Begin bij twijfel Ã©Ã©n niveau lager om vertrouwen en data op te bouwen.*
 
 ---
 
@@ -43,7 +60,7 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 *Zie Module 07 voor definities.*
 
 *   **Risico Categorie (EU AI Act):** [Minimaal / Beperkt / Hoog]
-*   **Persoonsgegevens:** [Ja/Nee] - *Indien Ja: is de DPO/Privacy Officer geïnformeerd?*
+*   **Persoonsgegevens:** [Ja/Nee] - *Indien Ja: is de DPO/Privacy Officer geÃ¯nformeerd?*
 *   **Ethisch Risico:** [Zijn er groepen die benadeeld kunnen worden door bias?]
 
 ---
@@ -65,19 +82,9 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 ---
 
 ### ? Besluit Gate 1
-*   [ ] **Goedgekeurd** voor Fase 2 (Validatie/Bewijsvoering)
-*   [ ] **Afgewezen / Gepauzeerd**
+*   [ ] **Go: Fast Lane FL-1**
+*   [ ] **Go: Standaard lifecycle Gate 1**
+*   [ ] **No-Go / Pauze**
 
 ---
-**Versie:** 2.0  
-**Datum:** 31 januari 2026  
-**Status:** Definitief  
-
----
----
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

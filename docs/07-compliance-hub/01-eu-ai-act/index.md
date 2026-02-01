@@ -1,4 +1,14 @@
-# ?? EU AI Act
+﻿# ?? EU AI Act
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ?? EU AI Act
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Doel
 Dit document beschrijft de specifieke vereisten van de Europese AI Verordening (EU AI Act) en hoe deze worden toegepast binnen het project.
@@ -44,9 +54,7 @@ De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veilig
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

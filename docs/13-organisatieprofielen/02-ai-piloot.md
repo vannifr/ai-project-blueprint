@@ -1,4 +1,14 @@
-# De Bouwer
+ï»¿# De Bouwer
+## Documentbeheer
+- **Document-ID:** MOD-02
+- **Titel:** De Bouwer
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
+
+---
 
 ## Profiel
 Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met de overgang naar stabiele productie.
@@ -13,7 +23,7 @@ Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met d
 *   **Technische schuld:** Snelle prototypes worden productiesystemen zonder refactoring.
 *   **Gebrek aan monitoring:** Geen zicht op Prestatieverschuiving (drift).
 *   **Schaalbaarheid:** Wat werkt voor 10 gebruikers, werkt niet voor 1000.
-*   **Governance vacuüm:** Onduidelijk wie beslist over ethiek en risico's.
+*   **Governance vacuÃ¼m:** Onduidelijk wie beslist over ethiek en risico's.
 
 ## Aanbevolen Samenwerkingsmodi
 *   **Modus 3 (Collaboratief):** Mens en AI werken samen als partners.
@@ -27,15 +37,9 @@ Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met d
 5.  Documenteer Stuurinformatie (prompts, context) in version control
 
 ## Gerelateerde Modules
-*   [Realisatie](../04-fase-ontwikkeling/index.md)
-*   [Beheer & Optimalisatie](../06-fase-monitoring/index.md)
-*   [Technische Standaarden](../08-technische-standaarden/index.md)
+*   [Realisatie](../04-fase-ontwikkeling/01-doelstellingen.md)
+*   [Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md)
+*   [Technische Standaarden](../08-technische-standaarden/01-mloops-standaarden.md)
 
 ---
----
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

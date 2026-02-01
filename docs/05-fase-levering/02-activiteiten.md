@@ -1,4 +1,14 @@
-# ?? Kernactiviteiten & RACI (Levering)
+ï»¿# ?? Kernactiviteiten & RACI (Levering)
+## Documentbeheer
+- **Document-ID:** MOD-02
+- **Titel:** ?? Kernactiviteiten & RACI (Levering)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## 3. Kernactiviteiten
 
@@ -35,7 +45,7 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 | Rol | Verantwoordelijkheid in Levering |
 | :--- | :--- |
 | **Implementatie Engineer** | **R**esponsible: Verantwoordelijk voor de technische koppelingen en beveiliging. |
-| **AI Product Manager** | **A**ccountable: Leidt de adoptie en coördineert het trainingsprogramma. |
+| **AI Product Manager** | **A**ccountable: Leidt de adoptie en coÃ¶rdineert het trainingsprogramma. |
 | **Guardian (Ethicist)** | **C**onsulted: Controleert of de Menselijke Regie protocollen voldoen aan de eisen. |
 | **Business Sponsor** | **C**onsulted: Tekent het Compliance Dossier af. |
 | **Eindgebruikers** | **I**nformed/Consulted: Worden getraind en leveren de eerste praktijkfeedback. |
@@ -47,9 +57,7 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

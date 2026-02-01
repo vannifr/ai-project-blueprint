@@ -1,4 +1,14 @@
-# ?? De Kernprincipes
+ï»¿# ?? De Kernprincipes
+## Documentbeheer
+- **Document-ID:** MOD-01
+- **Titel:** ?? De Kernprincipes
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? 1. Wat Zijn de Kernprincipes?
 Wij beschouwen AI-voorzieningen niet als statische software, maar als **gedragssturing**. Dit betekent dat we AI-systemen niet programmeren in de traditionele zin, maar sturen door middel van informatie en context.
@@ -6,13 +16,13 @@ Wij beschouwen AI-voorzieningen niet als statische software, maar als **gedragss
 Een project valt onder dit regime als aan **drie voorwaarden** is voldaan:
 
 ### 1. Impact
-Het systeem raakt de business direct. Het neemt beslissingen, genereert content of beïnvloedt processen die waarde creëren of risico's met zich meebrengen.
+Het systeem raakt de business direct. Het neemt beslissingen, genereert content of beÃ¯nvloedt processen die waarde creÃ«ren of risico's met zich meebrengen.
 
 ### 2. Traceerbaarheid  
 Alle instructies en configuraties zijn beheerd als code (version control). We kunnen altijd terugkijken: "Waarom deed het systeem dit op dat moment?"
 
 ### 3. Continue Toetsing
-Het systeem wordt niet één keer getest en dan "klaar" verklaard. We valideren doorlopend of het gedrag nog aansluit bij de bedoeling.
+Het systeem wordt niet Ã©Ã©n keer getest en dan "klaar" verklaard. We valideren doorlopend of het gedrag nog aansluit bij de bedoeling.
 
 ## ?? Governance-as-Code (Automatisering)
 Documentatie alleen verandert gedrag niet; de implementatie doet dat wel. We hanteren het principe van **Verifieerbaarheid door Code**:
@@ -97,9 +107,7 @@ Deze aanpak zorgt voor:
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

@@ -1,4 +1,14 @@
-# ?? Kernactiviteiten & RACI (Validatie)
+ï»¿# ?? Kernactiviteiten & RACI (Validatie)
+## Documentbeheer
+- **Document-ID:** MOD-02
+- **Titel:** ?? Kernactiviteiten & RACI (Validatie)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## 3. Kernactiviteiten
 
@@ -15,7 +25,7 @@ Statistische check of de resultaten stabiel zijn en niet op toeval berusten.
 
 *   **Reproduceerbaarheid:** Geeft de AI consistente antwoorden bij herhaling?
 *   **Edge Cases:** Hoe reageert het systeem op ongewone of extreme input?
-*   **Bias Detectie:** Zijn er systematische fouten in bepaalde categorieën?
+*   **Bias Detectie:** Zijn er systematische fouten in bepaalde categorieÃ«n?
 
 ### Activiteit 3.3: Het Kostenoverzicht
 Een volledige raming van investering en operationele kosten.
@@ -52,9 +62,7 @@ Een volledige raming van investering en operationele kosten.
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

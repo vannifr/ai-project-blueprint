@@ -1,4 +1,14 @@
-# Deliverables & Gate 5 (Monitoring)
+﻿# Deliverables & Gate 5 (Monitoring)
+## Documentbeheer
+- **Document-ID:** MOD-06-03
+- **Titel:** Deliverables & Gate 5 (Monitoring)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## 6. Deliverables (Afleveringen)
 De resultaten van de Monitoringfase voor een duurzame operatie:
@@ -22,15 +32,13 @@ De resultaten van de Monitoringfase voor een duurzame operatie:
     *Indien "Nee" op kritieke punten: Overweeg decommissioning of herstart (terug naar Discovery).*
 
 ## Gerelateerde Templates
-*   **10-03 Metrics-dashboards:** [Sjabloon](../../09-sjablonen/index.md)
-*   **08-01 MLOps-standaarden:** [Link](../../08-technische-standaarden/index.md)
+*   **10-03 Metrics-dashboards:** [Sjabloon](../09-sjablonen/index.md)
+*   **08-01 MLOps-standaarden:** [Link](../08-technische-standaarden/01-mloops-standaarden.md)
 *   **06-05 Drift-detectie:** [Details](05-drift-detectie.md)
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

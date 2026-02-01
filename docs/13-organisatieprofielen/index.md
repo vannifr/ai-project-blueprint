@@ -1,4 +1,14 @@
-# ?? Volwassenheidsniveaus
+ï»¿# ?? Volwassenheidsniveaus
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ?? Volwassenheidsniveaus
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Welke Aanpak Past Bij Jouw Team?
 
@@ -43,7 +53,7 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 ### 3. De Visionair
 **Kenmerken:** AI is onderdeel van de strategie.
 
-*   **Situatie:** AI is geïntegreerd in meerdere processen. Het is geen experiment meer, maar business-as-usual.
+*   **Situatie:** AI is geÃ¯ntegreerd in meerdere processen. Het is geen experiment meer, maar business-as-usual.
 *   **Uitdaging:** Schaalbaarheid, kosten, ethisch toezicht op grote schaal.
 *   **Focus:** Samenwerkingsmodus 4 (Gedelegeerd). Sommige processen zelfs Modus 5 (Autonoom).
 *   **Advies:** Schaalbaarheid en geautomatiseerd toezicht zijn cruciaal. Investeer in AI Governance.
@@ -68,9 +78,7 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

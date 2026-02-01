@@ -1,26 +1,29 @@
-# ?? Fase 02: Verkenning & Strategie
+﻿# ?? Fase 02: Verkenning & Strategie
+## Documentbeheer
+- **Document-ID:** MOD-02
+- **Titel:** ?? Fase 02: Verkenning & Strategie
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Verwijzing naar Fast Lane toegevoegd.
+
+---
 
 ## ?? Doelstelling
 Het primaire doel van de Verkenningsfase is het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten met een AI-project.
 
 **Belangrijkste resultaat:** Een helder gedefinieerd probleem met een onderbouwde hypothese dat AI de juiste oplossing is, inclusief een eerste risico-inventarisatie.
 
-## ? Intrede Criteria (Definition of Ready)
+> [!TIP]
+> **De Snelle Route (Fast Lane)**
+> Voor projecten met een **Laag Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Praktijkproef**. Zie voor details de **[Module 02.F: Fast Lane](06-fast-lane.md)**.
+
+## ?? Intrede Criteria (Definition of Ready)
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 *   Er is een business sponsor die het probleem erkent en budget beschikbaar stelt.
 *   Het probleem is niet triviaal oplosbaar met bestaande tools of processen.
 *   Er is bereidheid om data en processen te delen voor analyse.
 
 ---
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
----
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

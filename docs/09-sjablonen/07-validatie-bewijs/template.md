@@ -1,4 +1,14 @@
-# ?? Sjabloon: Validatierapport
+﻿# ?? Sjabloon: Validatierapport
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ?? Sjabloon: Validatierapport
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Doel
 Dit sjabloon dient voor het vastleggen van de testresultaten van de **Praktijkproef**. Het vormt het objectieve bewijs dat de AI-oplossing voldoet aan de gestelde criteria en veiligheidsgrenzen.
@@ -32,9 +42,7 @@ Dit sjabloon dient voor het vastleggen van de testresultaten van de **Praktijkpr
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

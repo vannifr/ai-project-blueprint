@@ -1,9 +1,19 @@
-# ?? AI-Samenwerkingsmodi
+ï»¿# ?? AI-Samenwerkingsmodi
+## Documentbeheer
+- **Document-ID:** MOD-06
+- **Titel:** ?? AI-Samenwerkingsmodi
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? 1. Doel van de Modi
 Om te bepalen welke processen, governance en risicobeheersing nodig zijn, classificeren we de relatie tussen mens en machine in vijf **Samenwerkingsmodi**.
 
-Dit model beschrijft de verschuiving van AI als gereedschap naar AI als zelfstandige actor. Het is cruciaal om vooraf te definiëren in welke modus een systeem opereert, omdat een 'Modus 4'-systeem (Gedelegeerd) veel strengere veiligheidsregels vereist dan een 'Modus 2'-systeem (Adviserend).
+Dit model beschrijft de verschuiving van AI als gereedschap naar AI als zelfstandige actor. Het is cruciaal om vooraf te definiÃ«ren in welke modus een systeem opereert, omdat een 'Modus 4'-systeem (Gedelegeerd) veel strengere veiligheidsregels vereist dan een 'Modus 2'-systeem (Adviserend).
 
 ---
 
@@ -32,7 +42,7 @@ De AI analyseert de situatie en biedt opties of aanbevelingen. De mens fungeert 
 ### Modus 3: Collaboratief (The Partner)
 **De dialoog staat centraal.**
 
-Mens en AI werken iteratief samen aan een complex probleem. Het is een ping-pong spel van ideeën waarbij het eindresultaat een mix is van beide intelligenties. Dit wordt ook wel 'Co-Intelligentie' of het 'Centaur-model' genoemd.
+Mens en AI werken iteratief samen aan een complex probleem. Het is een ping-pong spel van ideeÃ«n waarbij het eindresultaat een mix is van beide intelligenties. Dit wordt ook wel 'Co-Intelligentie' of het 'Centaur-model' genoemd.
 
 *   **Dynamiek:** Mens ? AI (Continue lus van input en feedback).
 *   **Voorbeeld:** Samen met ChatGPT een strategisch plan brainstormen en verfijnen.
@@ -97,9 +107,7 @@ Bij het starten van een project (Fase Discovery) moet de beoogde modus worden va
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

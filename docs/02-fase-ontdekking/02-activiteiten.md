@@ -1,9 +1,19 @@
-# ?? Kernactiviteiten & RACI (Verkenning & Strategie)
+ï»¿# ?? Kernactiviteiten & RACI (Verkenning & Strategie)
+## Documentbeheer
+- **Document-ID:** MOD-02
+- **Titel:** ?? Kernactiviteiten & RACI (Verkenning & Strategie)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## 3. Kernactiviteiten
 
 ### Activiteit 3.1: Probleemverkenning
-We definiëren de uitdaging vanuit de eindgebruiker, niet vanuit de technologie.
+We definiÃ«ren de uitdaging vanuit de eindgebruiker, niet vanuit de technologie.
 
 *   **Vraagarticulatie:** Wat is het echte probleem? Wat zijn de pijnpunten?
 *   **AI-Geschiktheid:** Is AI hier echt de oplossing? Of kan het eenvoudiger?
@@ -49,9 +59,7 @@ Een eerste scan op juridische en ethische obstakels.
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

@@ -1,37 +1,36 @@
-# ?? Deliverables & Gate 2 (Validatie)
+ï»¿# ?? Deliverables & Gate 2 (Validatie)
+## Documentbeheer
+- **Document-ID:** MOD-03-03
+- **Titel:** ?? Module 03.03 â€” Deliverables & Gate 2 (Validatie)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** TMP-09-07 Data & Privacyblad toegevoegd aan deliverables en links hersteld.
+
+---
 
 ## 6. Deliverables (Afleveringen)
 De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 
-*   **Praktijkproef Rapport:** Resultaten van het experiment met testset en scores
-*   **Betrouwbaarheidsanalyse:** Statistische onderbouwing van de resultaten
-*   **Het Kostenoverzicht:** Volledige business case met investering en ROI
-*   **Risico-update:** Verfijnde risico-inventarisatie op basis van bevindingen
+*   **[TMP-09-06 Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md):** Bevat resultaten van de proef t.o.v. de normen uit [MOD-01-07](../01-ai-native-fundamenten/07-bewijsstandaarden.md).
+*   **[TMP-09-07 Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md):** Verplicht indien persoonsgegevens in scope zijn.
+*   **Praktijkproef Rapport:** Gedetailleerde analyse van het experiment.
+*   **Het Kostenoverzicht:** Volledige business case met investering en ROI.
+*   **Risico-update:** Verfijnde risico-inventarisatie op basis van bevindingen.
 
 ## ? Gate 2 Review Checklist
-- [ ] Haalt de AI de vereiste score (>90%) op de testset?
+- [ ] Voldoet het bewijs aan de normen uit **MOD-01-07** (Feitelijkheid, Relevantie, etc.)?
+- [ ] Is het **TMP-09-06 Validatierapport** volledig ingevuld en ondertekend?
 - [ ] Zijn de resultaten reproduceerbaar en stabiel?
 - [ ] Is de ROI positief binnen acceptabele termijn?
 - [ ] Zijn de operationele kosten beheersbaar?
-- [ ] Zijn de belangrijkste risico's geïdentificeerd en acceptabel?
 - [ ] Is er commitment voor de volgende fase (Realisatie)?
-- [ ] Zijn de technische en organisatorische afhankelijkheden helder?
 
 ## Gerelateerde Templates
-*   **07-01 Validatierapport:** [Sjabloon](../../09-sjablonen/07-validatie-bewijs/template.md)
-*   **02-01 Business Case:** [Update](../../09-sjablonen/02-business-case/template.md)
-*   **03-01 Risicoanalyse:** [Update](../../09-sjablonen/03-risicoanalyse/template.md)
+*   **09.06 Validatierapport:** [Sjabloon](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
+*   **01.07 Bewijsstandaarden:** [Module](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+*   **09.02 Business Case:** [Update](../09-sjablonen/02-business-case/template.md)
 
 ---
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
----
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

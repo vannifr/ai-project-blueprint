@@ -1,4 +1,14 @@
-# ?? Termenlijst (Glossary)
+﻿# ?? Termenlijst (Glossary)
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ?? Termenlijst (Glossary)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 Dit document bevat de definities van de belangrijkste termen en afkortingen die in dit AI Project Playbook worden gebruikt. Wij slaan de brug tussen techniek en business door consequent heldere Nederlandse termen te gebruiken.
 
@@ -60,9 +70,7 @@ Dit document bevat de definities van de belangrijkste termen en afkortingen die 
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

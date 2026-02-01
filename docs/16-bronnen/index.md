@@ -1,12 +1,22 @@
-# ?? Bronnen & Inspiratie
+ï»¿# ?? Bronnen & Inspiratie
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ?? Bronnen & Inspiratie
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? 1. Overzicht
 Dit project is tot stand gekomen door de synthese van internationale industrie-standaarden, academisch onderzoek en praktische ervaringen in AI-projectmanagement. Hieronder volgt een overzicht van de belangrijkste bronnen die als fundament en inspiratie hebben gediend.
 
 ---
 
-## ?? 2. Externe Standaarden & Methodologieën
-De procesinrichting van dit Playbook is getoetst aan en geïnspireerd door de volgende internationale raamwerken:
+## ?? 2. Externe Standaarden & MethodologieÃ«n
+De procesinrichting van dit Playbook is getoetst aan en geÃ¯nspireerd door de volgende internationale raamwerken:
 
 ### Project Management Institute (PMI)
 *   **CPMAI (Certified Project Manager in Artificial Intelligence):** Voor de 7-stappen methodiek en de data-centric benadering van projecten.
@@ -18,7 +28,7 @@ De procesinrichting van dit Playbook is getoetst aan en geïnspireerd door de vol
 
 ### Risicomanagement
 *   **NIST AI Risk Management Framework (AI RMF 1.0):** Voor de classificatie en beheersing van AI-specifieke risico's.
-*   **ISO/IEC 42001:** De internationale norm voor Artificiële Intelligentie Management Systemen.
+*   **ISO/IEC 42001:** De internationale norm voor ArtificiÃ«le Intelligentie Management Systemen.
 
 ---
 
@@ -43,9 +53,7 @@ De governance en compliance modules (zoals **Module 07: Risicobeheersing & Compl
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

@@ -1,4 +1,14 @@
-# ?? Fase 05: Levering
+ï»¿# ?? Fase 05: Levering
+## Documentbeheer
+- **Document-ID:** MOD-01
+- **Titel:** ?? Fase 05: Levering
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Doelstellingen van de Levering
 *   **Veilige Ingebruikname:** Gecontroleerde overgang naar productie.
@@ -7,7 +17,7 @@
     *   **Rode Knop Cultuur:** Medewerkers worden beloond voor het melden van fouten; psychologische veiligheid staat centraal.
     *   **Expert Oversight:** De AI assisteert, maar de mens behoudt de finale verantwoordelijkheid.
 
-**Belangrijkste resultaat:** Een operationeel AI-systeem dat technisch geïntegreerd is, menselijk wordt beheerst en breed wordt geaccepteerd door gebruikers.
+**Belangrijkste resultaat:** Een operationeel AI-systeem dat technisch geÃ¯ntegreerd is, menselijk wordt beheerst en breed wordt geaccepteerd door gebruikers.
 
 ## ? 2. Intrede Criteria (Definition of Ready)
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
@@ -23,9 +33,7 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

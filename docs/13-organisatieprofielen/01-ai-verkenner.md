@@ -1,4 +1,14 @@
-# De Verkenner
+﻿# De Verkenner
+## Documentbeheer
+- **Document-ID:** MOD-01
+- **Titel:** De Verkenner
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
+
+---
 
 ## Profiel
 Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme en experimenteerdrang, maar weinig structuur.
@@ -26,14 +36,8 @@ Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme e
 
 ## Gerelateerde Modules
 *   [90-Dagen Startplan](../12-90-dagen-roadmap/index.md)
-*   [Verkenning & Strategie](../02-fase-ontdekking/index.md)
-*   [Validatie](../03-fase-validatie/index.md)
+*   [Verkenning & Strategie](../02-fase-ontdekking/01-doelstellingen.md)
+*   [Validatie](../03-fase-validatie/01-doelstellingen.md)
 
 ---
----
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

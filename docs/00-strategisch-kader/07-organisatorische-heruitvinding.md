@@ -1,4 +1,14 @@
-# ?? Organisatorische Heruitvinding
+﻿# ?? Organisatorische Heruitvinding
+## Documentbeheer
+- **Document-ID:** MOD-07
+- **Titel:** ?? Organisatorische Heruitvinding
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Doel
 AI is niet alleen een technische upgrade, maar een fundament voor een nieuwe manier van werken. Dit document beschrijft hoe de organisatie moet transformeren om de vruchten van AI te plukken.
@@ -41,9 +51,7 @@ Traditionele organisaties zien AI als een serie losse projecten. Voor maximale i
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

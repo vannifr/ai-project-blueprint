@@ -1,4 +1,14 @@
-# ?? Sjabloon: Traceerbaarheid (Traceability)
+﻿# ?? Sjabloon: Traceerbaarheid (Traceability)
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ?? Sjabloon: Traceerbaarheid (Traceability)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Doel
 Het waarborgen van de verbinding tussen de menselijke intentie, de technische implementatie en het uiteindelijke bewijs. Dit is essentieel voor auditing en compliance (EU AI Act).
@@ -26,9 +36,7 @@ Het waarborgen van de verbinding tussen de menselijke intentie, de technische im
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

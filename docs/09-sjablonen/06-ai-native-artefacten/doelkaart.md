@@ -1,6 +1,16 @@
-# 📂 Module 09.02: De Doelkaart (Intent Map)
+﻿# ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
 
-## 🎯 Doel
+---
+
+## ðŸŽ¯ Doel
 De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke intentie aan de technische **Sturingsinstructies** en fungeert als de bron waaruit de AI-oplossing wordt gegenereerd.
 
 ---
@@ -11,7 +21,7 @@ De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke i
 
 ---
 
-### 📂 A. De Intentie (Human Intent)
+### ðŸ“‚ A. De Intentie (Human Intent)
 *Wat probeert de gebruiker te bereiken en hoe moet de AI zich gedragen?*
 
 *   **De Gebruiker (Persona):** Wie is het? [Bijv. Een junior juridisch medewerker.]
@@ -19,11 +29,11 @@ De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke i
 *   **De AI (Systeem Persona):** 
     *   **Rol:** [Bijv. Een ervaren senior jurist en mentor.]
     *   **Toon:** [Zakelijk, scherp, maar behulpzaam. Geen jargon zonder uitleg.]
-*   **De Taak:** [Beschrijf exact wat de AI moet doen. Bijv: "Scan het geüploade PDF-document op clausules over aansprakelijkheid en vat deze samen."]
+*   **De Taak:** [Beschrijf exact wat de AI moet doen. Bijv: "Scan het geÃ¼ploade PDF-document op clausules over aansprakelijkheid en vat deze samen."]
 
 ---
 
-### 📂 B. Sturingsinstructies (Context)
+### ðŸ“‚ B. Sturingsinstructies (Context)
 *Welke kennis heeft de AI nodig om dit te doen?*
 
 *   **Primaire Bronnen:** [Bedrijfsinformatie/Handboeken voor de **Kenniskoppeling**.]
@@ -34,7 +44,7 @@ De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke i
 
 ---
 
-### 📂 C. Rode Lijnen (Constraints)
+### ðŸ“‚ C. Rode Lijnen (Constraints)
 *Wat mag de AI absoluut niet doen? Dit zijn de harde veiligheidsregels.*
 
 *   **Veiligheid:** [Bijv. Geef nooit juridisch advies over strafrecht.]
@@ -43,7 +53,7 @@ De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke i
 
 ---
 
-### 📂 D. Toetsing (Evidence)
+### ðŸ“‚ D. Toetsing (Evidence)
 *Hoe bewijzen we dat de Doelkaart werkt? Dit is de input voor het **Validatierapport**.*
 
 *   **Testprompt 1 (Succesval):** [Vraag die de AI correct moet beantwoorden.]
@@ -52,7 +62,7 @@ De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke i
 
 ---
 
-### ✅ Goedkeuring door Guardian
+### âœ… Goedkeuring door Guardian
 **Naam:** [_______________]  
 **Datum:** [DD-MM-JJJJ]
 
@@ -62,11 +72,9 @@ De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke i
 **Status:** Definitief  
 
 ---
-�
+Â
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

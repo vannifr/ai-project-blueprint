@@ -1,4 +1,14 @@
-# ?? Project Initiatie
+ï»¿# ?? Project Initiatie
+## Documentbeheer
+- **Document-ID:** MOD-05
+- **Titel:** ?? Project Initiatie
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Doel
 Het formaliseren van de start van een AI-project door het vastleggen van heldere doelen, rollen, verantwoordelijkheden en kaders in een **AI Project Charter**.
@@ -22,8 +32,8 @@ Het formaliseren van de start van een AI-project door het vastleggen van heldere
 *   Plan de **Gate Reviews** en checkpoints in de agenda.
 
 ### 4. Risicobeheer Plan
-*   Voer een initiële **Risico-Inventarisatie** uit.
-*   Ontwikkel mitigatie strategieën voor de top-risico's.
+*   Voer een initiÃ«le **Risico-Inventarisatie** uit.
+*   Ontwikkel mitigatie strategieÃ«n voor de top-risico's.
 
 ### 5. Het Kostenoverzicht
 *   Maak een eerste raming van de investering en verwachte opbrengsten.
@@ -34,7 +44,7 @@ Het formaliseren van de start van een AI-project door het vastleggen van heldere
 Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 
 *   **Project Charter:** Voor scope en mandaat.
-*   **Risicoanalyse:** Voor initiële risico-inventarisatie.
+*   **Risicoanalyse:** Voor initiÃ«le risico-inventarisatie.
 *   **Gate Review Checklist:** Voor voorbereiding op de eerste Gate.
 
 ---
@@ -50,9 +60,7 @@ Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

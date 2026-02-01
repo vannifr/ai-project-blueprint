@@ -1,36 +1,37 @@
-# ?? Deliverables & Gate 3 (Realisatie)
+﻿# ?? Deliverables & Gate 3 (Realisatie)
+## Documentbeheer
+- **Document-ID:** MOD-04-03
+- **Titel:** ?? Module 04.03 — Deliverables & Gate 3 (Realisatie)
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** TMP-09-07 Data & Privacyblad toegevoegd aan deliverables en links hersteld.
+
+---
 
 ## 6. Deliverables (Afleveringen)
 De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 
-*   **Productie-klaar AI-systeem:** Volledig functioneel met alle features
-*   **Geautomatiseerde Test Suite:** Unit, integration en acceptance tests
-*   **Technische Documentatie:** Architectuur, API's, configuratie
-*   **Ingebruikname Plan:** Stapsgewijs plan voor go-live
+*   **Productie-klaar AI-systeem:** Volledig functioneel met alle features.
+*   **[TMP-09-06 Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md):** Bevat resultaten van de Release Candidate t.o.v. de normen uit [MOD-01-07](../01-ai-native-fundamenten/07-bewijsstandaarden.md).
+*   **[TMP-09-07 Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md):** Geactualiseerde versie voor audit-trail.
+*   **Geautomatiseerde Test Suite:** Unit, integration en acceptance tests.
+*   **Technische Documentatie:** Architectuur, API's, configuratie.
+*   **Ingebruikname Plan:** Stapsgewijs plan voor go-live.
 
 ## ? Gate 3 Review Checklist
-- [ ] Voldoet het systeem aan alle functionele eisen?
-- [ ] Slagen alle geautomatiseerde tests (>95% coverage)?
+- [ ] Voldoet de Release Candidate aan de normen uit **MOD-01-07**?
+- [ ] Is het systeem technisch stabiel en zijn alle tests geslaagd?
 - [ ] Is de performance acceptabel (latency, throughput)?
 - [ ] Is de technische documentatie compleet en actueel?
-- [ ] Zijn alle beveiligingseisen ge�mplementeerd?
+- [ ] Zijn alle beveiligingseisen geïmplemented?
 - [ ] Is het **Ingebruikname Plan** getest en goedgekeurd?
-- [ ] Is het team klaar voor de overgang naar Levering?
 
 ## Gerelateerde Templates
-*   **08-01 MLOps Standaarden:** [Link](../../08-technische-standaarden/index.md)
-*   **04-01 Gate Review:** [Checklist](../../09-sjablonen/04-gate-reviews/checklist.md)
+*   **01.07 Bewijsstandaarden:** [Module](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+*   **09.06 Validatierapport:** [Sjabloon](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
+*   **04-01 Gate Review:** [Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 
 ---
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
----
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

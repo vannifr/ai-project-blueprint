@@ -1,13 +1,23 @@
-# De Visionair
+ï»¿# De Visionair
+## Documentbeheer
+- **Document-ID:** MOD-03
+- **Titel:** De Visionair
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
+
+---
 
 ## Profiel
-Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strategie en operaties. AI is business-as-usual.
+Organisaties in de Visionair-fase hebben AI volledig geÃ¯ntegreerd in hun strategie en operaties. AI is business-as-usual.
 
 ## Kenmerken
 *   **AI op schaal:** Meerdere productiesystemen draaien stabiel.
 *   **Strategische integratie:** AI is onderdeel van de lange termijn visie.
 *   **Volwassen governance:** Duidelijke rollen, verantwoordelijkheden en beleid.
-*   **Continue optimalisatie:** Focus op efficiëntie, kosten en impact.
+*   **Continue optimalisatie:** Focus op efficiÃ«ntie, kosten en impact.
 
 ## Uitdagingen
 *   **Complexiteit:** Beheer van een vloot van AI-systemen.
@@ -24,20 +34,14 @@ Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strateg
 2.  Stel AI Board of Ethics Committee in
 3.  Optimaliseer kosten: review cloud spending, model-compressie
 4.  Ontwikkel herbruikbare accelerators en templates
-5.  Investeer in energie-efficiëntie (ESG doelen)
+5.  Investeer in energie-efficiÃ«ntie (ESG doelen)
 6.  Bouw een AI Center of Excellence
 
 ## Gerelateerde Modules
-*   [Compliance Hub](../07-compliance-hub/index.md)
-*   [Beheer & Optimalisatie](../06-fase-monitoring/index.md)
+*   [Compliance Hub](../07-compliance-hub/01-eu-ai-act/index.md)
+*   [Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md)
 *   [Accelerators](../15-accelerators/index.md)
 *   [Governance Model](../00-strategisch-kader/03-governance-model.md)
 
 ---
----
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
-
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

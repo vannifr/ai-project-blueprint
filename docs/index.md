@@ -1,4 +1,14 @@
-# ?? Welkom bij het AI Project Playbook
+ï»¿# ?? Welkom bij het AI Project Playbook
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ?? Welkom bij het AI Project Playbook
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
+
+---
 
 ## ?? Uw Gids voor AI-Projectmanagement
 Dit is de centrale documentatiehub voor het succesvol managen van AI-projecten, gebaseerd op de **Kernprincipes** van gedragssturing, traceerbaarheid en menselijke regie.
@@ -9,7 +19,7 @@ Dit is de centrale documentatiehub voor het succesvol managen van AI-projecten, 
 *   ?? **[Leeswijzer & Navigatie](00-strategisch-kader/00-leeswijzer.md):** Hoe u dit playbook het meest effectief gebruikt.
 *   ????? **[Rollen & Verantwoordelijkheden](08-rollen-en-verantwoordelijkheden/index.md):** Wie doet wat in een AI-team?
 *   ??? **[90-Dagen Startplan](12-90-dagen-roadmap/index.md):** Ga direct van strategie naar actie.
-*   ??? **[De toolkit](09-sjablonen/index.md):** Alle templates en sjablonen op één plek.
+*   ??? **[De toolkit](09-sjablonen/index.md):** Alle templates en sjablonen op Ã©Ã©n plek.
 
 ---
 
@@ -35,9 +45,7 @@ Dit is de centrale documentatiehub voor het succesvol managen van AI-projecten, 
 
 ---
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+

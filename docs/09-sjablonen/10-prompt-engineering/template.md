@@ -1,11 +1,21 @@
-# 📂 Module 09.05: Prompt Engineering Template
+﻿# ðŸ“‚ Module 09.05: Prompt Engineering Template
+## Documentbeheer
+- **Document-ID:** MOD
+- **Titel:** ðŸ“‚ Module 09.05: Prompt Engineering Template
+- **Versie:** 1.0
+- **Status:** Definitief
+- **Eigenaar:** AI Competence Center
+- **Laatst herzien:** 2026-02-01
+- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
 
-## 🎯 Doel
+---
+
+## ðŸŽ¯ Doel
 Dit sjabloon helpt bij het opbouwen van hoogwaardige **Sturingsinstructies** (System Prompts). Een goed opgebouwde prompt vermindert hallucinaties en verhoogt de betrouwbaarheid.
 
 ---
 
-## ⚙️ Structuur van een Top-Prompt
+## âš™ï¸ Structuur van een Top-Prompt
 
 ### 1. Context (De achtergrond)
 *   **Wie ben je?** [Bijv. "Je bent een senior data-analist bij een telecombedrijf."]
@@ -29,8 +39,8 @@ Dit sjabloon helpt bij het opbouwen van hoogwaardige **Sturingsinstructies** (Sy
 
 ---
 
-## 🧪 Voorbeelden (Few-Shot)
-*Voeg hier 2-3 voorbeelden toe van Input ↔ Gewenste Output om de AI te sturen.*
+## ðŸ§ª Voorbeelden (Few-Shot)
+*Voeg hier 2-3 voorbeelden toe van Input â†” Gewenste Output om de AI te sturen.*
 
 ---
 **Versie:** 2.0
@@ -38,11 +48,9 @@ Dit sjabloon helpt bij het opbouwen van hoogwaardige **Sturingsinstructies** (Sy
 **Status:** Definitief
 
 ---
-�
+Â
 ---
-**Versie:** 2.1
-**Datum:** 31 januari 2026
-**Status:** Definitief
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
----
-� 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+
