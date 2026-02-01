@@ -3,11 +3,9 @@ site_description: Modulaire documentatie voor AI-projectmanagement (PMI-CPMAI & 
 site_author: AI Project Playbook Team
 copyright: '&copy; 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.'
 
-# Blokkeer zoekmachines
 extra_css:
   - stylesheets/extra.css
 
-# Voeg noindex toe aan de head van elke pagina
 hooks:
   - hooks/add_noindex.py
 
@@ -18,6 +16,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.top
     - toc.integrate
     - search.suggest
     - search.highlight
@@ -58,123 +57,128 @@ plugins:
         - "^http://localhost"
 
 nav:
-  - Home: index.md
-  - Strategisch Kader:
-    - Executive Summary: 00-strategisch-kader/00-executive-summary.md
-    - Leeswijzer: 00-strategisch-kader/00-leeswijzer.md
-    - Overzicht: 00-strategisch-kader/01-ai-levenscyclus.md
-    - Hybride Methodologie: 00-strategisch-kader/02-hybride-methodologie.md
-    - Governance: 00-strategisch-kader/03-governance-model.md
-    - Antipatronen: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
-    - Initiatie: 00-strategisch-kader/05-project-initiatie.md
-    - AI-Samenwerkingsmodi: 00-strategisch-kader/06-has-h-niveaus.md
-    - Heruitvinding: 00-strategisch-kader/07-organisatorische-heruitvinding.md
-    - Methodologie & Index (Blueprint): 00-strategisch-kader/08-blueprint-methodologie.md
-    - Rollen & Verantwoordelijkheden: 08-rollen-en-verantwoordelijkheden/index.md
-  - Kernprincipes:
-    - Definitie: 01-ai-native-fundamenten/01-definitie.md
-    - Criteria: 01-ai-native-fundamenten/02-normatieve-criteria.md
-    - Artefact Model: 01-ai-native-fundamenten/03-artefact-model.md
-    - Validatie: 01-ai-native-fundamenten/04-validatie-model.md
-    - Risico's: 01-ai-native-fundamenten/05-risicoclassificatie.md
-    - SDD Patroon: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
-    - Bewijsstandaarden: 01-ai-native-fundamenten/07-bewijsstandaarden.md
-  - Fase Gidsen:
+  - Startpagina: index.md
+  - 🚀 Aan de Slag:
+    - Management Samenvatting: 00-strategisch-kader/00-executive-summary.md
+    - Leeswijzer & Navigatie: 00-strategisch-kader/00-leeswijzer.md
+    - Methode Index (Blueprint): 00-strategisch-kader/08-blueprint-methodologie.md
+  - 🧠 Strategische Fundering:
+    - AI-Native Principes:
+      - Definitie & Kern: 01-ai-native-fundamenten/01-definitie.md
+      - Normatieve Criteria: 01-ai-native-fundamenten/02-normatieve-criteria.md
+      - Artefact Model: 01-ai-native-fundamenten/03-artefact-model.md
+      - Validatie Model: 01-ai-native-fundamenten/04-validatie-model.md
+      - Bewijsstandaarden: 01-ai-native-fundamenten/07-bewijsstandaarden.md
+    - Governance & Organisatie:
+      - Governance Model: 00-strategisch-kader/03-governance-model.md
+      - Rollen & Verantwoordelijkheden: 08-rollen-en-verantwoordelijkheden/index.md
+      - Risicoclassificatie: 01-ai-native-fundamenten/05-risicoclassificatie.md
+      - AI-Samenwerkingsmodi: 00-strategisch-kader/06-has-h-niveaus.md
+      - Organisatorische Heruitvinding: 00-strategisch-kader/07-organisatorische-heruitvinding.md
+    - Methodologie:
+      - De AI Levenscyclus: 00-strategisch-kader/01-ai-levenscyclus.md
+      - Hybride (Agile-AI): 00-strategisch-kader/02-hybride-methodologie.md
+      - Agile Antipatronen: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
+      - Project Initiatie: 00-strategisch-kader/05-project-initiatie.md
+      - Spec-Driven Development: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
+  - ⚙️ Operationele Fasen:
     - 1. Verkenning & Strategie:
-      - Doel: 02-fase-ontdekking/01-doelstellingen.md
+      - Overzicht: 02-fase-ontdekking/01-doelstellingen.md
       - Activiteiten: 02-fase-ontdekking/02-activiteiten.md
       - Afleveringen: 02-fase-ontdekking/03-afleveringen.md
-      - Snelle Route (Fast Lane): 02-fase-ontdekking/06-fast-lane.md
-      - Beoordeling: 02-fase-ontdekking/05-has-h-beoordeling.md
-      - Sjablonen: 02-fase-ontdekking/04-sjablonen/index.md
-    - 2. Validatie:
-      - Doel: 03-fase-validatie/01-doelstellingen.md
+      - Fast Lane (Snelle Route): 02-fase-ontdekking/06-fast-lane.md
+      - HAS-H Beoordeling: 02-fase-ontdekking/05-has-h-beoordeling.md
+    - 2. Validatie (PoV):
+      - Overzicht: 03-fase-validatie/01-doelstellingen.md
       - Activiteiten: 03-fase-validatie/02-activiteiten.md
       - Afleveringen: 03-fase-validatie/03-afleveringen.md
-      - Risicoclassificatie: 03-fase-validatie/05-risicoclassificatie.md
+      - Risicotoets: 03-fase-validatie/05-risicoclassificatie.md
     - 3. Realisatie:
-      - Doel: 04-fase-ontwikkeling/01-doelstellingen.md
+      - Overzicht: 04-fase-ontwikkeling/01-doelstellingen.md
       - Activiteiten: 04-fase-ontwikkeling/02-activiteiten.md
       - Afleveringen: 04-fase-ontwikkeling/03-afleveringen.md
       - SDD Patroon: 04-fase-ontwikkeling/05-sdd-patroon.md
     - 4. Levering:
-      - Doel: 05-fase-levering/01-doelstellingen.md
+      - Overzicht: 05-fase-levering/01-doelstellingen.md
       - Activiteiten: 05-fase-levering/02-activiteiten.md
       - Afleveringen: 05-fase-levering/03-afleveringen.md
       - Traceerbaarheid: 05-fase-levering/05-traceerbaarheid.md
-      - Overdracht Checklist: 05-fase-levering/04-sjablonen/overdracht-checklist.md
     - 5. Beheer & Optimalisatie:
-      - Doel: 06-fase-monitoring/01-doelstellingen.md
+      - Overzicht: 06-fase-monitoring/01-doelstellingen.md
       - Activiteiten: 06-fase-monitoring/02-activiteiten.md
       - Afleveringen: 06-fase-monitoring/03-afleveringen.md
       - Drift Detectie: 06-fase-monitoring/05-drift-detectie.md
-  - Compliance Hub:
-    - Overzicht: 07-compliance-hub/index.md
-    - EU AI Act: 07-compliance-hub/01-eu-ai-act/index.md
-    - Risicobeheer: 07-compliance-hub/02-risicobeheer/index.md
-    - Ethiek: 07-compliance-hub/03-ethische-richtlijnen.md
-    - Validatie Eisen: 07-compliance-hub/04-validatie-eisen.md
-    - Incident Respons: 07-compliance-hub/05-incidentrespons.md
-  - Toolkit & Templates:
-    - Sjablonen: 09-sjablonen/index.md
-    - Project Charter: 09-sjablonen/01-project-charter/template.md
-    - Business Case:
-      - Template: 09-sjablonen/02-business-case/template.md
-      - Modelkaart: 09-sjablonen/02-business-case/modelkaart.md
-    - Risicoanalyse:
-      - Template: 09-sjablonen/03-risicoanalyse/template.md
-      - Pre-scan: 09-sjablonen/03-risicoanalyse/pre-scan.md
-    - Gate Reviews: 09-sjablonen/04-gate-reviews/checklist.md
-    - AI Artefacten:
-      - Doelkaart: 09-sjablonen/06-ai-native-artefacten/doelkaart.md
-    - Validatie Bewijs:
-      - Template: 09-sjablonen/07-validatie-bewijs/template.md
-      - Validatierapport: 09-sjablonen/07-validatie-bewijs/validatierapport.md
-    - Traceerbaarheid: 09-sjablonen/08-traceerbaarheid-links/template.md
-    - Prompt Engineering: 09-sjablonen/10-prompt-engineering/template.md
-    - Privacy: 09-sjablonen/11-privacy-data/privacyblad.md
+  - 🛡️ Compliance & Techniek:
+    - Compliance Hub:
+      - Overzicht: 07-compliance-hub/index.md
+      - EU AI Act: 07-compliance-hub/01-eu-ai-act/index.md
+      - Risicobeheer: 07-compliance-hub/02-risicobeheer/index.md
+      - Ethische Richtlijnen: 07-compliance-hub/03-ethische-richtlijnen.md
+      - Validatie Eisen: 07-compliance-hub/04-validatie-eisen.md
+      - Incident Respons: 07-compliance-hub/05-incidentrespons.md
     - Technische Standaarden:
       - Overzicht: 08-technische-standaarden/index.md
-      - MLOps: 08-technische-standaarden/01-mloops-standaarden.md
+      - MLOps Standaarden: 08-technische-standaarden/01-mloops-standaarden.md
       - Data Pipelines: 08-technische-standaarden/02-data-pipelines.md
       - Model Governance: 08-technische-standaarden/03-model-governance.md
       - Test Frameworks: 08-technische-standaarden/04-test-frameworks.md
       - AI Architectuur: 08-technische-standaarden/05-ai-architectuur.md
-  - Organisatie:
+  - 🧰 Toolkit & Sjablonen:
+    - Alle Sjablonen (Overzicht): 09-sjablonen/index.md
+    - Fase 1 Sjablonen: 02-fase-ontdekking/04-sjablonen/index.md
+    - Project Charter: 09-sjablonen/01-project-charter/template.md
+    - Business Case & Modelkaart:
+      - Business Case: 09-sjablonen/02-business-case/template.md
+      - Modelkaart: 09-sjablonen/02-business-case/modelkaart.md
+    - Risicoanalyse & Pre-scan:
+      - Risicoanalyse: 09-sjablonen/03-risicoanalyse/template.md
+      - Pre-scan: 09-sjablonen/03-risicoanalyse/pre-scan.md
+    - Gate Reviews: 09-sjablonen/04-gate-reviews/checklist.md
+    - AI Artefacten (Doelkaart): 09-sjablonen/06-ai-native-artefacten/doelkaart.md
+    - Validatie & Bewijs:
+      - Validatie Template: 09-sjablonen/07-validatie-bewijs/template.md
+      - Validatierapport: 09-sjablonen/07-validatie-bewijs/validatierapport.md
+    - Traceerbaarheid & Links: 09-sjablonen/08-traceerbaarheid-links/template.md
+    - Prompt Engineering: 09-sjablonen/10-prompt-engineering/template.md
+    - Privacy & Data: 09-sjablonen/11-privacy-data/privacyblad.md
+    - Overdracht Checklist: 05-fase-levering/04-sjablonen/overdracht-checklist.md
+  - 📈 Transformatie & Groei:
     - 90-Dagen Startplan:
       - Overzicht: 12-90-dagen-roadmap/index.md
-      - Fase 1: 12-90-dagen-roadmap/01-fase-1-richt-focus-rationaliseer.md
-      - Fase 2: 12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.md
-      - Fase 3: 12-90-dagen-roadmap/03-fase-3-codificeer-schaal.md
-      - Capaciteits Uitkomsten: 12-90-dagen-roadmap/04-capaciteits-uitkomsten.md
-    - Volwassenheidsniveaus:
+      - Fase 1 (Focus): 12-90-dagen-roadmap/01-fase-1-richt-focus-rationaliseer.md
+      - Fase 2 (Pilot): 12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.md
+      - Fase 3 (Schaal): 12-90-dagen-roadmap/03-fase-3-codificeer-schaal.md
+      - Uitkomsten: 12-90-dagen-roadmap/04-capaciteits-uitkomsten.md
+    - Organisatieprofielen:
       - Overzicht: 13-organisatieprofielen/index.md
       - Verkenner: 13-organisatieprofielen/01-ai-verkenner.md
       - Piloot: 13-organisatieprofielen/02-ai-piloot.md
       - Expert: 13-organisatieprofielen/03-ai-expert.md
       - Beoordeling: 13-organisatieprofielen/04-profiel-beoordeling.md
-    - Drie Tracks:
+    - De Drie Tracks:
       - Overzicht: 14-drie-tracks/index.md
       - Strategisch: 14-drie-tracks/01-strategische-heruitvinding.md
       - Operationeel: 14-drie-tracks/02-operationele-herontwerp.md
       - Bedrijfsmodel: 14-drie-tracks/03-ai-first-bedrijfsmodel.md
-      - Sequentie: 14-drie-tracks/04-track-sequentie.md
+      - Volgorde: 14-drie-tracks/04-track-sequentie.md
     - Accelerators:
       - Overzicht: 15-accelerators/index.md
       - Strategisch: 15-accelerators/01-strategische-heruitving-accelerators.md
       - Operationeel: 15-accelerators/02-operationele-herontwerp-accelerators.md
       - Bedrijfsmodel: 15-accelerators/03-bedrijfsmodel-accelerators.md
+  - 🔄 Verbetering & Afsluiting:
     - Doorlopende Verbetering:
       - Overzicht: 10-doorlopende-verbetering/index.md
       - Retrospectives: 10-doorlopende-verbetering/01-retrospectives.md
-      - Kaizen: 10-doorlopende-verbetering/02-kaizen-logs.md
+      - Kaizen Logs: 10-doorlopende-verbetering/02-kaizen-logs.md
       - Metrics: 10-doorlopende-verbetering/03-metrics-dashboards.md
-      - Baten: 10-doorlopende-verbetering/04-batenrealisatie.md
+      - Batenrealisatie: 10-doorlopende-verbetering/04-batenrealisatie.md
     - Project Afsluiting:
       - Overzicht: 11-project-afsluiting/index.md
       - Lessons Learned: 11-project-afsluiting/01-lessons-learned.md
       - Overdracht: 11-project-afsluiting/02-overdracht-procedures.md
       - Batenrealisatie: 11-project-afsluiting/03-batenrealisatie.md
-  - Termenlijst: termenlijst/index.md
-  - Bronnen: 16-bronnen/index.md
-  - Release Notes: release-notes.md
+  - 📚 Naslag:
+    - Termenlijst: termenlijst/index.md
+    - Bronnen & Inspiratie: 16-bronnen/index.md
+    - Release Notes: release-notes.md
