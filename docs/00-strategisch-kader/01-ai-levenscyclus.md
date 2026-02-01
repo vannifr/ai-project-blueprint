@@ -38,7 +38,7 @@ ______________________________________________________________________
 
 > \[!TIP\]
 > **De Fast Lane (De Innovatie-route)**
-> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
+> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1 (Go/No-Go Ontdekking)) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
 
 ### 🎯 Fase 1: Verkenning & Strategie
 

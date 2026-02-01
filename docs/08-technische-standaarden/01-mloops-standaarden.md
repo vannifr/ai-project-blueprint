@@ -45,7 +45,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 
 - [ ] Gouden Set bestaat en wordt gebruikt
 - [ ] Doelkaart Validatierapport beschikbaar voor pilot/RC
-- [ ] Voldoet aan MOD-01-07 normen voor risiconiveau
+- [ ] Voldoet aan Bewijsstandaarden normen voor risiconiveau
 
 ## 4. Basisroute (zonder zware MLOps)
 
@@ -67,7 +67,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 
 Een oplossing mag live als:
 
-- [ ] Gate 3 akkoord (Doelkaart RC voldoet aan MOD-01-07)
+- [ ] Gate 3 (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
 - [ ] Logging/retentie ingericht (incl. privacymaatregelen)
 - [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
 - [ ] Owner voor beheer benoemd + monitoring actief

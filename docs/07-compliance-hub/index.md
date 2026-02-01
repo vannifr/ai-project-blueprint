@@ -110,7 +110,7 @@ ______________________________________________________________________
 Geen livegang zonder:
 
 - Validatierapport ingevuld en akkoord (Privacy/DPO indien nodig)
-- Logging- en retentieafspraken vastgelegd (MOD-01-07)
+- Logging- en retentieafspraken vastgelegd (Bewijsstandaarden)
 
 ______________________________________________________________________
 

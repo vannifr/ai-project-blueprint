@@ -13,7 +13,7 @@ De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑ris
 
 Een use case mag alleen Fast Lane als aan **alle** punten is voldaan:
 
-1. **EU AI Act risiconiveau = Minimaal** (zie MOD‑07)
+1. **EU AI Act risiconiveau = Minimaal** (zie Compliance Hub)
 1. **Samenwerkingsmodus = 1 of 2** (Instrumenteel of Adviserend; zie MOD‑00‑06)
 1. De AI **neemt geen beslissingen over mensen** (geen selectie/toekenning/afwijzing)
 1. Geen verwerking van **bijzondere persoonsgegevens** (gezondheid, religie, biometrie, etc.)
@@ -21,15 +21,15 @@ Een use case mag alleen Fast Lane als aan **alle** punten is voldaan:
 1. Alleen intern gebruik óf (indien extern) **100% transparantie** (“Je spreekt met AI”)
 
 **Als één criterium niet gehaald wordt:**
-→ *geen Fast Lane*, volg de standaard lifecycle (MOD‑02 t/m MOD‑06).
+→ *geen Fast Lane*, volg de standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie).
 
 ## 3. Minimumpakket deliverables (Fast Lane)
 
-- **TMP‑09‑01 Project Charter** (Fast Lane variant: kort)
-- **TMP‑09‑03 Risico Pre‑Scan** (moet “Minimaal” bevestigen)
-- **TMP‑09‑02 Doelkaart** (incl. Rode Lijnen)
-- **TMP‑09‑05 Test & Acceptatie Protocol** (light: minimaal 20 cases)
-- **TMP‑09‑06 Validatierapport** (bewijs van testresultaten)
+- **Project Charter Project Charter** (Fast Lane variant: kort)
+- **Risico Pre-Scan Risico Pre‑Scan** (moet “Minimaal” bevestigen)
+- **Business Case Doelkaart** (incl. Rode Lijnen)
+- **Gouden Set Test Test & Acceptatie Protocol** (light: minimaal 20 cases)
+- **Doelkaart Validatierapport** (bewijs van testresultaten)
 
 **Wat mag je overslaan in Fast Lane:**
 
@@ -50,7 +50,7 @@ Een use case mag alleen Fast Lane als aan **alle** punten is voldaan:
 
 **Go** als:
 
-- Validatierapport (TMP‑09‑06) voldoet aan **MOD‑01‑07** normen voor Minimaal risico
+- Validatierapport (Doelkaart) voldoet aan **Bewijsstandaarden** normen voor Minimaal risico
 - Logging/traceerbaarheid is ingericht op basismeta‑niveau
 - Incidentprocedure bekend bij team
 

@@ -1,9 +1,10 @@
 import os
 import re
 
-# Mapping of codes to human-readable names
+# Comprehensive Mapping including variations and sub-codes
 MAPPING = {
     'MOD-00': 'Strategisch Kader',
+    'MOD-01-07': 'Bewijsstandaarden',
     'MOD-01': 'AI-Native Fundamenten',
     'MOD-02': 'Verkenning & Strategie',
     'MOD-03': 'Validatie',
@@ -11,11 +12,15 @@ MAPPING = {
     'MOD-05': 'Levering',
     'MOD-06': 'Beheer & Optimalisatie',
     'MOD-07': 'Compliance Hub',
+    'MOD-08.01': 'Technische Standaarden',
+    'MOD-08': 'Technische Standaarden',
     'MOD-09': 'Toolkit & Templates',
+    'MOD-12': '90-Dagen Startplan',
     'TMP-09-01': 'Project Charter',
     'TMP-09-02': 'Business Case',
     'TMP-09-03': 'Risico Pre-Scan',
     'TMP-09-04': 'Gate Review Checklist',
+    'TMP-09-05': 'Gouden Set Test',
     'TMP-09-06': 'Doelkaart',
     'TMP-09-07': 'Validatierapport',
     'TMP-09-08': 'Traceerbaarheid Matrix',
@@ -31,14 +36,22 @@ def humanize_content(content, file_path):
     if '08-blueprint-methodologie.md' in file_path:
         return content
 
-    for code, title in MAPPING.items():
-        # Replace [CODE] with [Title]
-        content = content.replace(f'[{code}]', f'[{title}]')
+    sorted_codes = sorted(MAPPING.keys(), key=len, reverse=True)
 
-        # Replace occurrences in text that are not part of a markdown link
-        # Use a simpler regex for standalone
-        pattern = r'(?<![#\-\w\[])' + re.escape(code) + r'(?![#\-\w\]])'
-        content = re.sub(pattern, title, content)
+    for code in sorted_codes:
+        title = MAPPING[code]
+        code_esc = re.escape(code).replace(r'\-', r'[-‑]')
+
+        # 1. Handle Markdown Links: [CODE](path) -> [Title](path)
+        # We use a lambda to avoid backreference issues with re.sub
+        link_pattern = re.compile(r'\[(' + code_esc + r')\]\((.*?)\)', re.IGNORECASE)
+        def link_repl(match):
+            return f'[{title}]({match.group(2)})'
+        content = link_pattern.sub(link_repl, content)
+
+        # 2. Handle Standalone occurrences
+        standalone_pattern = re.compile(r'(?<![#\-\w‑\[])' + code_esc + r'(?![#\-\w‑\]])', re.IGNORECASE)
+        content = standalone_pattern.sub(title, content)
 
     return content
 

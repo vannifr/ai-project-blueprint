@@ -33,7 +33,7 @@ ______________________________________________________________________
 **Rode Lijnen versie:** \[link/ID\]
 **Sturingsinstructies versie:** \[link/ID\]
 **Modelkaart versie:** \[link/ID\]
-**Testprotocol versie (TMP-09-05):** \[link/ID\]
+**Testprotocol versie (Gouden Set Test):** \[link/ID\]
 **Risico Pre-Scan (Risico Pre-Scan):** \[link/ID\]
 
 ______________________________________________________________________
@@ -51,7 +51,7 @@ ______________________________________________________________________
 
 ### 3.1 Gouden Set
 
-- **Aantal cases:** \[minimaal volgens MOD-01-07\]
+- **Aantal cases:** \[minimaal volgens Bewijsstandaarden\]
 - **Herkomst:** \[tickets, e-mails, calls, formulieren”¦\]
 - **Dekking:** \[80/15/5 of 70/20/10 afhankelijk risiconiveau\]
 
@@ -67,7 +67,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4. Resultaten t.o.v. Bewijsstandaarden (MOD-01-07)
+## 4. Resultaten t.o.v. Bewijsstandaarden (Bewijsstandaarden)
 
 | Criterium                             |         Norm | Gemeten | Pass/Fail             | Opmerking |
 | ------------------------------------- | -----------: | ------: | --------------------- | --------- |
@@ -103,7 +103,7 @@ ______________________________________________________________________
 
 ## 6. Logging & audit trail (bewijs dat we kunnen terugzoeken)
 
-- **Wat loggen we:** \[conform MOD-01-07 Â§7\]
+- **Wat loggen we:** \[conform Bewijsstandaarden Â§7\]
 - **Waar staat het:** \[tool + locatie\]
 - **Retentie:** \[90 dagen / 12 maanden / anders\]
 - **Privacymaatregelen:** \[hashing/pseudonimisering/redactie\]

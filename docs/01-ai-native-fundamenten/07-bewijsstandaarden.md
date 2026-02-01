@@ -55,7 +55,7 @@ ______________________________________________________________________
 
 Elke Gate Review baseert zich minimaal op deze documenten:
 
-1. **TMP-09-05 Test & Acceptatie Protocol** (de aanpak)
+1. **Gouden Set Test Test & Acceptatie Protocol** (de aanpak)
 1. **Doelkaart Validatierapport** (de resultaten + conclusie)
 1. **Gate Review Checklist Technische Modelkaart** (wat draait er precies)
 1. **Business Case Doelkaart** (wat moest het doen + Rode Lijnen)
@@ -129,7 +129,7 @@ ______________________________________________________________________
 
 ## 8. Bewijs per Gate (praktisch)
 
-- **Gate 1 (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
-- **Gate 2 (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
-- **Gate 3 (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit Â§6 + logging-plan + incidentprocedure.
-- **Gate 4 (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.
+- **Gate 1 (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
+- **Gate 2 (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
+- **Gate 3 (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit Â§6 + logging-plan + incidentprocedure.
+- **Gate 4 (Livegang) (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.

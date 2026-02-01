@@ -3,22 +3,22 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Deliverables & Gate 3 (Realisatie)
+# 🚀 Deliverables & Gate 3 (Productie-klaar) (Realisatie)
 
 ## 6. Deliverables (Afleveringen)
 
 De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 
 - **Productie-klaar AI-systeem:** Volledig functioneel met alle features.
-- **[TMP-09-06 Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md):** Bevat resultaten van de Release Candidate t.o.v. de normen uit [MOD-01-07](../01-ai-native-fundamenten/07-bewijsstandaarden.md).
+- **[TMP-09-06 Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md):** Bevat resultaten van de Release Candidate t.o.v. de normen uit [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md).
 - **[TMP-09-07 Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md):** Geactualiseerde versie voor audit-trail.
 - **Geautomatiseerde Test Suite:** Unit, integration en acceptance tests.
 - **Technische Documentatie:** Architectuur, API's, configuratie.
 - **Ingebruikname Plan:** Stapsgewijs plan voor go-live.
 
-## ? Gate 3 Review Checklist
+## ? Gate 3 (Productie-klaar) Review Checklist
 
-- [ ] Voldoet de Release Candidate aan de normen uit **MOD-01-07**?
+- [ ] Voldoet de Release Candidate aan de normen uit **Bewijsstandaarden**?
 - [ ] Is het systeem technisch stabiel en zijn alle tests geslaagd?
 - [ ] Is de performance acceptabel (latency, throughput)?
 - [ ] Is de technische documentatie compleet en actueel?

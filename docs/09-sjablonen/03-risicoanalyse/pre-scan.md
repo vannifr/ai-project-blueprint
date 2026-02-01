@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Module 09.03: Risico Pre-Scan (Gate 1 Checklist)
+# 🚀 Module 09.03: Risico Pre-Scan (Gate 1 (Go/No-Go Ontdekking) Checklist)
 
 ## 📖 Doel
 

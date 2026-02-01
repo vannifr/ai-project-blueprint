@@ -27,23 +27,23 @@ Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot be
 
 **Als je vandaag start met 1 use case:**
 
-1. Vul **TMP‑09‑01 Project Charter** in (1 A4).
-1. Doe **TMP‑09‑03 Risico Pre‑Scan** en bepaal risiconiveau.
-1. Maak **TMP‑09‑02 Doelkaart** (incl. Rode Lijnen).
-1. Stel een **Gouden Set** op en test met **TMP‑09‑05**.
-1. Leg resultaten vast in **TMP‑09‑06 Validatierapport**.
+1. Vul **Project Charter Project Charter** in (1 A4).
+1. Doe **Risico Pre-Scan Risico Pre‑Scan** en bepaal risiconiveau.
+1. Maak **Business Case Doelkaart** (incl. Rode Lijnen).
+1. Stel een **Gouden Set** op en test met **Gouden Set Test**.
+1. Leg resultaten vast in **Doelkaart Validatierapport**.
 1. Beslis bij Gate of je doorgaat naar Realisatie/Livegang.
 
 ## 5. Implementatie (organisatiebreed) – aanbevolen aanpak
 
 - **Week 1–2:** kies 1 pilot use case + stel kernrollen aan (AI PM, Tech Lead, Guardian).
-- **Week 3–6:** voer lifecycle uit (Modules 02–04), inclusief bewijsstandaarden (MOD‑01‑07).
+- **Week 3–6:** voer lifecycle uit (Modules 02–04), inclusief bewijsstandaarden (Bewijsstandaarden).
 - **Week 7–8:** livegang + beheer (Modules 05–06).
 - **Week 9:** evaluatie + update Playbook naar v1.1 op basis van leerpunten.
 
 ## 6. Navigatie (wat moet je lezen?)
 
 - **Start:** MOD‑00‑00 Leeswijzer & MOD‑00‑01 Executive Summary
-- **Proces:** MOD‑02 t/m MOD‑06
-- **Governance:** MOD‑07 + MOD‑01‑07 (Bewijsstandaarden)
-- **Templates:** MOD‑09 (TMP‑09‑01 t/m TMP‑09‑07)
+- **Proces:** Verkenning & Strategie t/m Beheer & Optimalisatie
+- **Governance:** Compliance Hub + Bewijsstandaarden (Bewijsstandaarden)
+- **Templates:** Toolkit & Templates (Project Charter t/m Validatierapport)
