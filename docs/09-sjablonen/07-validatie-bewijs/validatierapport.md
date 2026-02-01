@@ -34,7 +34,7 @@ ______________________________________________________________________
 **Sturingsinstructies versie:** \[link/ID\]
 **Modelkaart versie:** \[link/ID\]
 **Testprotocol versie (TMP-09-05):** \[link/ID\]
-**Risico Pre-Scan (TMP-09-03):** \[link/ID\]
+**Risico Pre-Scan (Risico Pre-Scan):** \[link/ID\]
 
 ______________________________________________________________________
 

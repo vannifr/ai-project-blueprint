@@ -80,27 +80,27 @@ ______________________________________________________________________
 
 ### 7.2 Privacy acties per fase
 
-**Fase 1 (MOD-02 Verkenning):**
+**Fase 1 (Verkenning & Strategie Verkenning):**
 
-- Vul **TMP-09-07** op hoofdlijnen in.
-- Bepaal of een DPIA nodig is (zie TMP-09-03 triggers).
+- Vul **Validatierapport** op hoofdlijnen in.
+- Bepaal of een DPIA nodig is (zie Risico Pre-Scan triggers).
 
-**Fase 2 (MOD-03 Bewijsvoering):**
+**Fase 2 (Validatie Bewijsvoering):**
 
 - Test met zo min mogelijk persoonsgegevens (pseudonimiseer waar mogelijk).
 - Leg vast welke logs je nodig hebt en hoe je privacy borgt.
 
-**Fase 3 (MOD-04 Realisatie):**
+**Fase 3 (Realisatie Realisatie):**
 
 - Implementeer redactie/pseudonimisering in pipelines waar mogelijk.
 - Zorg dat toegang tot prompts/config beperkt is (change control).
 
-**Fase 4 (MOD-05 Levering):**
+**Fase 4 (Levering Levering):**
 
 - Transparantie en gebruiksinstructies publiceren (indien extern/klantgericht).
 - Verwerkersafspraken en datalocatie bevestigd.
 
-**Fase 5 (MOD-06 Beheer):**
+**Fase 5 (Beheer & Optimalisatie Beheer):**
 
 - Monitor op datalekken/ongewenste data in logs.
 - Periodieke review van retentie en toegangsrechten.
@@ -109,7 +109,7 @@ ______________________________________________________________________
 
 Geen livegang zonder:
 
-- TMP-09-07 ingevuld en akkoord (Privacy/DPO indien nodig)
+- Validatierapport ingevuld en akkoord (Privacy/DPO indien nodig)
 - Logging- en retentieafspraken vastgelegd (MOD-01-07)
 
 ______________________________________________________________________

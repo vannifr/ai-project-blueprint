@@ -7,9 +7,9 @@ laatst_herzien: '2026-02-01'
 
 ## 0. Routekeuze
 
-- **Route:** \[ \] Fast Lane (MOD-02-FL)  \[ \] Standaard lifecycle (MOD-02 t/m MOD-06)
+- **Route:** \[ \] Fast Lane (MOD-02-FL)  \[ \] Standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie)
 - **Motivatie:** \[1 zin\]
-- **Fast Lane toelatingscriteria bevestigd via TMP-09-03:** \[Ja/Nee\]
+- **Fast Lane toelatingscriteria bevestigd via Risico Pre-Scan:** \[Ja/Nee\]
 
 ______________________________________________________________________
 

@@ -18,7 +18,7 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 ## ? Gate 2 Review Checklist
 
 - [ ] Voldoet het bewijs aan de normen uit **MOD-01-07** (Feitelijkheid, Relevantie, etc.)?
-- [ ] Is het **TMP-09-06 Validatierapport** volledig ingevuld en ondertekend?
+- [ ] Is het **Doelkaart Validatierapport** volledig ingevuld en ondertekend?
 - [ ] Zijn de resultaten reproduceerbaar en stabiel?
 - [ ] Is de ROI positief binnen acceptabele termijn?
 - [ ] Zijn de operationele kosten beheersbaar?

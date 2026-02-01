@@ -17,7 +17,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 | Niveau                        | Omschrijving                            | Voor wie          | Voorbeeld controles                  |
 | ----------------------------- | --------------------------------------- | ----------------- | ------------------------------------ |
 | **L0 Handmatig**              | Checklists + handmatige gates           | startende teams   | templates ingevuld, handtekeningen   |
-| **L1 Semi**                   | vaste testset + vaste rapportage        | meeste teams      | TMP-09-06 elke release               |
+| **L1 Semi**                   | vaste testset + vaste rapportage        | meeste teams      | Doelkaart elke release               |
 | **L2 Geautomatiseerd testen** | tests draaien automatisch bij wijziging | engineering teams | regressietest op Gouden Set          |
 | **L3 Governance-as-Code**     | policy checks blokkeren release         | mature MLOps      | release faalt zonder bewijs/metadata |
 
@@ -44,7 +44,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 ### 3.4 Kwaliteit & bewijs
 
 - [ ] Gouden Set bestaat en wordt gebruikt
-- [ ] TMP-09-06 Validatierapport beschikbaar voor pilot/RC
+- [ ] Doelkaart Validatierapport beschikbaar voor pilot/RC
 - [ ] Voldoet aan MOD-01-07 normen voor risiconiveau
 
 ## 4. Basisroute (zonder zware MLOps)
@@ -60,14 +60,14 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 **Doel:** schaalbaar beheer bij meerdere use cases.
 
 - Automatische regressietests op Gouden Set bij elke wijziging
-- Automatisch genereren van TMP-09-06 uit testruns (waar mogelijk)
+- Automatisch genereren van Doelkaart uit testruns (waar mogelijk)
 - Integratie van policy checks: “geen Validatierapport = geen release”
 
 ## 6. Definition of Done voor Livegang (checklist)
 
 Een oplossing mag live als:
 
-- [ ] Gate 3 akkoord (TMP-09-06 RC voldoet aan MOD-01-07)
+- [ ] Gate 3 akkoord (Doelkaart RC voldoet aan MOD-01-07)
 - [ ] Logging/retentie ingericht (incl. privacymaatregelen)
 - [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
 - [ ] Owner voor beheer benoemd + monitoring actief

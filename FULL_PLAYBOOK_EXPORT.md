@@ -1,6 +1,6 @@
 # AI Project Playbook - Full Export
 
-Generated on: 2026-02-01 20:40:26.160886
+Generated on: 2026-02-01 20:56:09.989511
 
 ______________________________________________________________________
 
@@ -720,6 +720,73 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
+# Document: 08 Blueprint Methodologie
+
+Source: 00-strategisch-kader/08-blueprint-methodologie.md
+---# 🗺️ Blueprint & Methodologie Index
+
+Deze pagina fungeert als de "Rosetta-steen" van het AI Project Playbook. Hier vindt u de koppeling tussen de technische codes (gebruikt voor auditing en automatisering) en de inhoudelijke documenten.
+
+## 🛠️ De Codestructuur
+
+| Code     | Betekenis        | Gebruik                                              |
+| :------- | :--------------- | :--------------------------------------------------- |
+| **MOD**  | **Module**       | Een procesfase of kennisgebied in het playbook.      |
+| **TMP**  | **Template**     | Een invulbaar document of sjabloon (sjabloon).       |
+| **SDD**  | **Spec-Driven**  | Richtlijnen voor specificatie-gedreven ontwikkeling. |
+| **GATE** | **Beslismoment** | Een formeel reviewmoment tussen fasen.               |
+
+______________________________________________________________________
+
+## 📂 Overzicht van Modules (MOD)
+
+De modules vormen de navigatiestructuur van de AI-levenscyclus.
+
+| Code       | Fase / Domein                                                        | Beschrijving                                     |
+| :--------- | :------------------------------------------------------------------- | :----------------------------------------------- |
+| **MOD-00** | [Strategisch Kader](index.md)                                        | Fundering, leeswijzer en samenvatting.           |
+| **MOD-01** | [AI-Native Fundamenten](../01-ai-native-fundamenten/01-definitie.md) | De 7 normatieve criteria voor AI-projecten.      |
+| **MOD-02** | [Fase 1: Verkenning](../02-fase-ontdekking/01-doelstellingen.md)     | Probleemdefinitie en data-evaluatie.             |
+| **MOD-03** | [Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)       | Praktijkproef (PoV) en Business Case.            |
+| **MOD-04** | [Fase 3: Realisatie](../04-fase-ontwikkeling/01-doelstellingen.md)   | Ontwikkeling via de SDD-methode.                 |
+| **MOD-05** | [Fase 4: Levering](../05-fase-levering/01-doelstellingen.md)         | Ingebruikname en menselijk toezicht.             |
+| **MOD-06** | [Fase 5: Monitoring](../06-fase-monitoring/01-doelstellingen.md)     | Beheer, drift-detectie en optimalisatie.         |
+| **MOD-07** | [Compliance Hub](../07-compliance-hub/index.md)                      | EU AI Act, Risicobeheer en Ethiek.               |
+| **MOD-09** | [Toolkit & Templates](../09-sjablonen/index.md)                      | Centrale opslag van alle herbruikbare sjablonen. |
+
+______________________________________________________________________
+
+## 📝 Overzicht van Templates (TMP)
+
+Dit zijn de artefacten die gedurende een project worden geproduceerd. Deze vormen samen het **Wettelijk Dossier**.
+
+| Code          | Naam Document                                                                   | Fase       | Verplicht? |
+| :------------ | :------------------------------------------------------------------------------ | :--------- | :--------- |
+| **TMP-09-01** | [Project Charter](../09-sjablonen/01-project-charter/template.md)               | Initiatie  | ✅         |
+| **TMP-09-02** | [Business Case](../09-sjablonen/02-business-case/template.md)                   | Validatie  | ✅\*       |
+| **TMP-09-03** | [Risico Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)                 | Initiatie  | ✅         |
+| **TMP-09-04** | [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md)           | Alle       | ✅         |
+| **TMP-09-06** | [Doelkaart (AI Artefact)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) | Realisatie | ✅         |
+| **TMP-09-07** | [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)     | Validatie  | ✅         |
+| **TMP-09-08** | [Traceerbaarheid Matrix](../09-sjablonen/08-traceerbaarheid-links/template.md)  | Levering   | ⚠️         |
+| **TMP-09-10** | [Prompt Template](../09-sjablonen/10-prompt-engineering/template.md)            | Realisatie | 💡         |
+| **TMP-09-11** | [Privacy & Data Blad](../09-sjablonen/11-privacy-data/privacyblad.md)           | Verkenning | ✅         |
+
+*\*Optioneel bij Fast Lane projecten.*
+
+______________________________________________________________________
+
+## 🚦 Beslismomenten (GATES)
+
+| Gate       | Naam                | Voorwaarde voor doorgang                          |
+| :--------- | :------------------ | :------------------------------------------------ |
+| **GATE 1** | Go/No-Go Ontdekking | Risico Pre-Scan (TMP-03) voltooid.                |
+| **GATE 2** | Investering PoV     | Business Case (TMP-02) goedgekeurd.               |
+| **GATE 3** | Productie-klaar     | Validatierapport (TMP-07) getekend door Guardian. |
+| **GATE 4** | Livegang            | Ingebruikname-audit voltooid.                     |
+
+______________________________________________________________________
+
 # Document: Index
 
 Source: 08-rollen-en-verantwoordelijkheden/index.md
@@ -1102,10 +1169,10 @@ ______________________________________________________________________
 Elke Gate Review baseert zich minimaal op deze documenten:
 
 1. **TMP-09-05 Test & Acceptatie Protocol** (de aanpak)
-1. **TMP-09-06 Validatierapport** (de resultaten + conclusie)
-1. **TMP-09-04 Technische Modelkaart** (wat draait er precies)
-1. **TMP-09-02 Doelkaart** (wat moest het doen + Rode Lijnen)
-1. **TMP-09-03 Risico Pre-Scan** (risicoklasse)
+1. **Doelkaart Validatierapport** (de resultaten + conclusie)
+1. **Gate Review Checklist Technische Modelkaart** (wat draait er precies)
+1. **Business Case Doelkaart** (wat moest het doen + Rode Lijnen)
+1. **Risico Pre-Scan Risico Pre-Scan** (risicoklasse)
 
 ______________________________________________________________________
 
@@ -1495,7 +1562,7 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 ## ? Gate 2 Review Checklist
 
 - [ ] Voldoet het bewijs aan de normen uit **MOD-01-07** (Feitelijkheid, Relevantie, etc.)?
-- [ ] Is het **TMP-09-06 Validatierapport** volledig ingevuld en ondertekend?
+- [ ] Is het **Doelkaart Validatierapport** volledig ingevuld en ondertekend?
 - [ ] Zijn de resultaten reproduceerbaar en stabiel?
 - [ ] Is de ROI positief binnen acceptabele termijn?
 - [ ] Zijn de operationele kosten beheersbaar?
@@ -2033,27 +2100,27 @@ ______________________________________________________________________
 
 ### 7.2 Privacy acties per fase
 
-**Fase 1 (MOD-02 Verkenning):**
+**Fase 1 (Verkenning & Strategie Verkenning):**
 
-- Vul **TMP-09-07** op hoofdlijnen in.
-- Bepaal of een DPIA nodig is (zie TMP-09-03 triggers).
+- Vul **Validatierapport** op hoofdlijnen in.
+- Bepaal of een DPIA nodig is (zie Risico Pre-Scan triggers).
 
-**Fase 2 (MOD-03 Bewijsvoering):**
+**Fase 2 (Validatie Bewijsvoering):**
 
 - Test met zo min mogelijk persoonsgegevens (pseudonimiseer waar mogelijk).
 - Leg vast welke logs je nodig hebt en hoe je privacy borgt.
 
-**Fase 3 (MOD-04 Realisatie):**
+**Fase 3 (Realisatie Realisatie):**
 
 - Implementeer redactie/pseudonimisering in pipelines waar mogelijk.
 - Zorg dat toegang tot prompts/config beperkt is (change control).
 
-**Fase 4 (MOD-05 Levering):**
+**Fase 4 (Levering Levering):**
 
 - Transparantie en gebruiksinstructies publiceren (indien extern/klantgericht).
 - Verwerkersafspraken en datalocatie bevestigd.
 
-**Fase 5 (MOD-06 Beheer):**
+**Fase 5 (Beheer & Optimalisatie Beheer):**
 
 - Monitor op datalekken/ongewenste data in logs.
 - Periodieke review van retentie en toegangsrechten.
@@ -2062,7 +2129,7 @@ ______________________________________________________________________
 
 Geen livegang zonder:
 
-- TMP-09-07 ingevuld en akkoord (Privacy/DPO indien nodig)
+- Validatierapport ingevuld en akkoord (Privacy/DPO indien nodig)
 - Logging- en retentieafspraken vastgelegd (MOD-01-07)
 
 ______________________________________________________________________
@@ -2344,9 +2411,9 @@ Source: 09-sjablonen/01-project-charter/template.md
 
 ## 0. Routekeuze
 
-- **Route:** \[ \] Fast Lane (MOD-02-FL)  \[ \] Standaard lifecycle (MOD-02 t/m MOD-06)
+- **Route:** \[ \] Fast Lane (MOD-02-FL)  \[ \] Standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie)
 - **Motivatie:** \[1 zin\]
-- **Fast Lane toelatingscriteria bevestigd via TMP-09-03:** \[Ja/Nee\]
+- **Fast Lane toelatingscriteria bevestigd via Risico Pre-Scan:** \[Ja/Nee\]
 
 ______________________________________________________________________
 
@@ -2896,7 +2963,7 @@ ______________________________________________________________________
 **Sturingsinstructies versie:** \[link/ID\]
 **Modelkaart versie:** \[link/ID\]
 **Testprotocol versie (TMP-09-05):** \[link/ID\]
-**Risico Pre-Scan (TMP-09-03):** \[link/ID\]
+**Risico Pre-Scan (Risico Pre-Scan):** \[link/ID\]
 
 ______________________________________________________________________
 
@@ -3183,7 +3250,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 | Niveau                        | Omschrijving                            | Voor wie          | Voorbeeld controles                  |
 | ----------------------------- | --------------------------------------- | ----------------- | ------------------------------------ |
 | **L0 Handmatig**              | Checklists + handmatige gates           | startende teams   | templates ingevuld, handtekeningen   |
-| **L1 Semi**                   | vaste testset + vaste rapportage        | meeste teams      | TMP-09-06 elke release               |
+| **L1 Semi**                   | vaste testset + vaste rapportage        | meeste teams      | Doelkaart elke release               |
 | **L2 Geautomatiseerd testen** | tests draaien automatisch bij wijziging | engineering teams | regressietest op Gouden Set          |
 | **L3 Governance-as-Code**     | policy checks blokkeren release         | mature MLOps      | release faalt zonder bewijs/metadata |
 
@@ -3210,7 +3277,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 ### 3.4 Kwaliteit & bewijs
 
 - [ ] Gouden Set bestaat en wordt gebruikt
-- [ ] TMP-09-06 Validatierapport beschikbaar voor pilot/RC
+- [ ] Doelkaart Validatierapport beschikbaar voor pilot/RC
 - [ ] Voldoet aan MOD-01-07 normen voor risiconiveau
 
 ## 4. Basisroute (zonder zware MLOps)
@@ -3226,14 +3293,14 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 **Doel:** schaalbaar beheer bij meerdere use cases.
 
 - Automatische regressietests op Gouden Set bij elke wijziging
-- Automatisch genereren van TMP-09-06 uit testruns (waar mogelijk)
+- Automatisch genereren van Doelkaart uit testruns (waar mogelijk)
 - Integratie van policy checks: “geen Validatierapport = geen release”
 
 ## 6. Definition of Done voor Livegang (checklist)
 
 Een oplossing mag live als:
 
-- [ ] Gate 3 akkoord (TMP-09-06 RC voldoet aan MOD-01-07)
+- [ ] Gate 3 akkoord (Doelkaart RC voldoet aan MOD-01-07)
 - [ ] Logging/retentie ingericht (incl. privacymaatregelen)
 - [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
 - [ ] Owner voor beheer benoemd + monitoring actief
@@ -3293,28 +3360,28 @@ ______________________________________________________________________
 
 ## 1. Planning (week-voor-week)
 
-| Week | Doel                            | Deliverables (verplicht)               | Primaire eigenaar    | Gate/Output                   |
-| ---: | ------------------------------- | -------------------------------------- | -------------------- | ----------------------------- |
-|    1 | Use case scherp + scope         | TMP-09-01 (concept)                    | AI PM                | Go/no-go op probleemdefinitie |
-|    2 | Risico + data haalbaarheid      | TMP-09-03, Data-Evaluatie samenvatting | Guardian + Tech Lead | Gate 1: doorgaan?             |
-|    3 | Doel + Rode Lijnen              | TMP-09-02 (v1)                         | AI PM + Guardian     | Rode Lijnen akkoord           |
-|    4 | Testbasis opzetten              | TMP-09-05 + Gouden Set v1              | AI PM + QA/Tech      | Testplan gereed               |
-|    5 | Prototype (pilot)               | Prototype + TMP-09-04 (concept)        | Tech Lead            | Interne demo                  |
-|    6 | Pilot meten                     | TMP-09-06 (pilot)                      | Tech Lead + AI PM    | Gate 2: naar Realisatie?      |
-|    7 | Realisatie: integratiepad       | Integratieplan + loggingplan           | Tech Lead            | Ready for RC                  |
-|    8 | Privacy & security checks       | TMP-09-07 (Data&Privacyblad)           | Guardian + Privacy   | “OK to proceed”               |
-|    9 | Release Candidate bouwen        | RC build + TMP-09-04 (v1)              | Tech Lead            | RC gereed                     |
-|   10 | RC testen & bewijs              | TMP-09-06 (RC)                         | QA + Guardian        | Gate 3: Live?                 |
-|   11 | Live pilot + monitoring         | Monitoring + incidentproces actief     | Tech Lead            | 1e productie-evaluatie        |
-|   12 | Optimaliseren + overdracht      | Beheerplan + nulmeting drift           | Tech Lead + AI PM    | Overdracht MOD-06             |
-|   13 | Retrospective + standaardiseren | Lessons learned + playbook updates     | AI CC                | v2.3 backlog                  |
+| Week | Doel                            | Deliverables (verplicht)                     | Primaire eigenaar    | Gate/Output                       |
+| ---: | ------------------------------- | -------------------------------------------- | -------------------- | --------------------------------- |
+|    1 | Use case scherp + scope         | Project Charter (concept)                    | AI PM                | Go/no-go op probleemdefinitie     |
+|    2 | Risico + data haalbaarheid      | Risico Pre-Scan, Data-Evaluatie samenvatting | Guardian + Tech Lead | Gate 1: doorgaan?                 |
+|    3 | Doel + Rode Lijnen              | Business Case (v1)                           | AI PM + Guardian     | Rode Lijnen akkoord               |
+|    4 | Testbasis opzetten              | TMP-09-05 + Gouden Set v1                    | AI PM + QA/Tech      | Testplan gereed                   |
+|    5 | Prototype (pilot)               | Prototype + Gate Review Checklist (concept)  | Tech Lead            | Interne demo                      |
+|    6 | Pilot meten                     | Doelkaart (pilot)                            | Tech Lead + AI PM    | Gate 2: naar Realisatie?          |
+|    7 | Realisatie: integratiepad       | Integratieplan + loggingplan                 | Tech Lead            | Ready for RC                      |
+|    8 | Privacy & security checks       | Validatierapport (Data&Privacyblad)          | Guardian + Privacy   | “OK to proceed”                   |
+|    9 | Release Candidate bouwen        | RC build + Gate Review Checklist (v1)        | Tech Lead            | RC gereed                         |
+|   10 | RC testen & bewijs              | Doelkaart (RC)                               | QA + Guardian        | Gate 3: Live?                     |
+|   11 | Live pilot + monitoring         | Monitoring + incidentproces actief           | Tech Lead            | 1e productie-evaluatie            |
+|   12 | Optimaliseren + overdracht      | Beheerplan + nulmeting drift                 | Tech Lead + AI PM    | Overdracht Beheer & Optimalisatie |
+|   13 | Retrospective + standaardiseren | Lessons learned + playbook updates           | AI CC                | v2.3 backlog                      |
 
 ______________________________________________________________________
 
 ## 2. Minimale beslismomenten (Gates)
 
 - **Gate 1 (einde week 2):** risico + data haalbaarheid bevestigd
-- **Gate 2 (einde week 6):** pilotresultaat (TMP-09-06) voldoet aan MOD-01-07
+- **Gate 2 (einde week 6):** pilotresultaat (Doelkaart) voldoet aan MOD-01-07
 - **Gate 3 (einde week 10):** RC voldoet aan MOD-01-07 + logging/privacy geregeld
 - **Gate 4 (week 12):** overdracht naar beheer incl. nulmeting prestatieverloop
 
@@ -4041,16 +4108,16 @@ Source: release-notes.md
 
 ### Belangrijkste wijzigingen
 
-- **Executive Summary (MOD-00.01)**: Nieuwe managementsamenvatting en implementatie-roadmap.
-- **Snelle Route (Fast Lane, MOD-02.FL)**: Versnelde procedure voor AI-experimenten met een minimaal risico.
+- **Executive Summary (Strategisch Kader.01)**: Nieuwe managementsamenvatting en implementatie-roadmap.
+- **Snelle Route (Fast Lane, Verkenning & Strategie.FL)**: Versnelde procedure voor AI-experimenten met een minimaal risico.
 - **Technische Standaarden (MOD-08.01)**: Concrete criteria voor "productiewaardig" en de introductie van een automation ladder.
 - **90-Dagen Startplan (MOD-12)**: Volledig uitgewerkt 13-weken plan voor teams.
 - **Privacy-by-Design**: Nieuwe template (**TMP-09.07 Data & Privacyblad**) en DPIA-triggers in de Risico Pre-Scan (**TMP-09.03**).
-- **Bewijsstandaarden (MOD-01.07)**: Strikte normen voor validatie en rapportage (**TMP-09.06**).
+- **Bewijsstandaarden (AI-Native Fundamenten.07)**: Strikte normen voor validatie en rapportage (**TMP-09.06**).
 
 ### Breaking changes
 
-- Teams moeten vanaf v1.0 het nieuwe **TMP-09-06 Validatierapport** aanleveren voor Gate 2 en Gate 3.
+- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 en Gate 3.
 - Bewijs moet voldoen aan de specifieke normen (feitelijkheid, relevantie, etc.) zoals vastgelegd in **MOD-01-07**.
 
 ### Navigatie & Structuur

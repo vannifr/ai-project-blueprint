@@ -56,10 +56,10 @@ ______________________________________________________________________
 Elke Gate Review baseert zich minimaal op deze documenten:
 
 1. **TMP-09-05 Test & Acceptatie Protocol** (de aanpak)
-1. **TMP-09-06 Validatierapport** (de resultaten + conclusie)
-1. **TMP-09-04 Technische Modelkaart** (wat draait er precies)
-1. **TMP-09-02 Doelkaart** (wat moest het doen + Rode Lijnen)
-1. **TMP-09-03 Risico Pre-Scan** (risicoklasse)
+1. **Doelkaart Validatierapport** (de resultaten + conclusie)
+1. **Gate Review Checklist Technische Modelkaart** (wat draait er precies)
+1. **Business Case Doelkaart** (wat moest het doen + Rode Lijnen)
+1. **Risico Pre-Scan Risico Pre-Scan** (risicoklasse)
 
 ______________________________________________________________________
 
