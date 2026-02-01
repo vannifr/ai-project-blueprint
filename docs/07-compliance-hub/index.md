@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Module 07: Risicobeheersing & Compliance
-
-## Documentbeheer
-
-- **Document-ID:** MOD-07
-- **Titel:** 📍 Module 07: Risicobeheersing & Compliance
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Privacy-by-Design praktische richtlijnen toegevoegd.
-
-______________________________________________________________________
 
 ## 📖 1. Doel van deze Module
 
@@ -127,7 +120,3 @@ Wanneer AI-systemen autonoom acties gaan uitvoeren (Modus 4 & 5), verschuift de 
 
 - **Actieradius:** Technische inperking van wat een agent mag doen (bijv. maximale budgetlimieten).
 - **Guardrails:** Real-time monitoring die acties blokkeert als deze de **Rode Lijnen** dreigen te overschrijden.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

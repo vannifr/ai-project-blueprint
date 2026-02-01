@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Fase 02: Verkenning & Strategie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Fase 02: Verkenning & Strategie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Verwijzing naar Fast Lane toegevoegd.
-
-______________________________________________________________________
 
 ## 📖 Doelstelling
 
@@ -29,7 +22,3 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Er is een business sponsor die het probleem erkent en budget beschikbaar stelt.
 - Het probleem is niet triviaal oplosbaar met bestaande tools of processen.
 - Er is bereidheid om data en processen te delen voor analyse.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

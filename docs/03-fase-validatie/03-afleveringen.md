@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Deliverables & Gate 2 (Validatie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03-03
-- **Titel:** 📍 Module 03.03 — Deliverables & Gate 2 (Validatie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** TMP-09-07 Data & Privacyblad toegevoegd aan deliverables en links hersteld.
-
-______________________________________________________________________
 
 ## 6. Deliverables (Afleveringen)
 
@@ -36,7 +29,3 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 - **09.06 Validatierapport:** [Sjabloon](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 - **01.07 Bewijsstandaarden:** [Module](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - **09.02 Business Case:** [Update](../09-sjablonen/02-business-case/template.md)
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

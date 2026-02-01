@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # ðŸ“‚ Module 09.05: Prompt Engineering Template
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** ðŸ“‚ Module 09.05: Prompt Engineering Template
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## ðŸŽ¯ Doel
 

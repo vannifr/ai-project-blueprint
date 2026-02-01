@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Module 00: Leeswijzer & Navigatie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-00
-- **Titel:** 📍 Module 00: Leeswijzer & Navigatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Verwijzing naar Executive Summary en Fast Lane toegevoegd.
-
-______________________________________________________________________
 
 ## 📖 Welkom bij het AI Project Playbook
 
@@ -62,7 +55,3 @@ ______________________________________________________________________
 - 📍 **Checklist:** Zijn we klaar?
 - 📍ï¸  **Risico:** Let op!
 - 📍 **Rollen:** Wie is betrokken?
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

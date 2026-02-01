@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # ðŸ“‚ Module 09.04: Technische Modelkaart (Model Card)
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** ðŸ“‚ Module 09.04: Technische Modelkaart (Model Card)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## ðŸŽ¯ Doel
 

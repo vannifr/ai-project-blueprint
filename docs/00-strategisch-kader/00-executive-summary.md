@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # Module 00.01: Executive Summary
-
-## Documentbeheer
-
-- **Document-ID:** MOD-00-01
-- **Titel:** Module 00.01 — Executive Summary
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw; biedt managementsamenvatting en implementatiepad.
-
-______________________________________________________________________
 
 ## 1. Wat is dit Playbook?
 
@@ -54,7 +47,3 @@ Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot be
 - **Proces:** MOD‑02 t/m MOD‑06
 - **Governance:** MOD‑07 + MOD‑01‑07 (Bewijsstandaarden)
 - **Templates:** MOD‑09 (TMP‑09‑01 t/m TMP‑09‑07)
-
-______________________________________________________________________
-
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

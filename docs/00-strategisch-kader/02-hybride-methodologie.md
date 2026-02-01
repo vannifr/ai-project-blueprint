@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Hybride Methodologie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Hybride Methodologie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -69,7 +62,3 @@ ______________________________________________________________________
 **Versie:** 2.0
 **Datum:** 31 januari 2026
 **Status:** Draft
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

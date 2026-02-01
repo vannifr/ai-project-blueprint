@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Welkom bij het AI Project Playbook
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 🚀 Welkom bij het AI Project Playbook
-- **Versie:** 1.0
-- **Status:** Draft
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Uw Gids voor AI-Projectmanagement
 

@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # Fase 3: Codificeer & Schaal (Dagen 61-90)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** Fase 3: Codificeer & Schaal (Dagen 61-90)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 **Thema:** Standaardiseren en Uitrollen.
 
@@ -36,7 +29,3 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
     - [ ] Operationeel en getraind team/afdeling.
     - [ ] Schaalbare technische architectuur.
     - [ ] Roadmap voor de komende 12 maanden.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # Template 09.06: Validatierapport (Bewijs‑pakket)
-
-## Documentbeheer
-
-- **Document-ID:** TMP-09-06
-- **Titel:** Template 09.06 — Validatierapport (Bewijs‑pakket)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw template toegevoegd; standaardiseert bewijs voor Gate Reviews.
-
-______________________________________________________________________
 
 ## 0. Samenvatting (1 pagina)
 

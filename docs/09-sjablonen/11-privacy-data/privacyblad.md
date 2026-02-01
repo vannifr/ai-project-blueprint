@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # Template 09.07: Data & Privacyblad (AVG/GDPR)
-
-## Documentbeheer
-
-- **Document-ID:** TMP-09-07
-- **Titel:** Template 09.07 — Data & Privacyblad (AVG/GDPR)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** Privacy Officer / DPO + AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw; maakt datagebruik, grondslag en retentie toetsbaar per use case.
-
-______________________________________________________________________
 
 ## 1. Use case & doelbinding
 
@@ -63,7 +56,3 @@ Kruis aan + beschrijf:
 
 | Risico | Impact | Mitigatie | Eigenaar |
 | ------ | ------ | --------- | -------- |
-
-______________________________________________________________________
-
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

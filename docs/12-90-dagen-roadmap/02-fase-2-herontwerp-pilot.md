@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # Fase 2: Herontwerp & Pilot (Dagen 31-60)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** Fase 2: Herontwerp & Pilot (Dagen 31-60)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 **Thema:** Doen, Testen en Leren.
 
@@ -36,7 +29,3 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
     - [ ] Aangepaste procesbeschrijving (SOPs).
     - [ ] Eerste resultatenrapportage (bijv. "30% tijdwinst op taak X").
     - [ ] Go/No-Go besluit voor opschaling.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

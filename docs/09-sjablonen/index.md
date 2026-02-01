@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Sjablonen & Templates
-
-## Documentbeheer
-
-- **Document-ID:** MOD-09
-- **Titel:** 📍 Module 09 — Sjablonen & Templates
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Template 09.07 Data & Privacyblad toegevoegd.
-
-______________________________________________________________________
 
 Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-project. Deze documenten zijn ontworpen om direct gekopieerd te worden naar een Wiki (Confluence/SharePoint) of Word-document.
 
@@ -41,7 +34,3 @@ ______________________________________________________________________
 ### 🎯 Compliance & Privacy
 
 - **[Module 09.07: Data & Privacyblad](11-privacy-data/privacyblad.md):** Sjabloon voor het vastleggen van privacy-by-design maatregelen (AVG).
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

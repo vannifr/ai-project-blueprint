@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # Module 01.07: Bewijsstandaarden
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01-07
-- **Titel:** Module 01.07 — Bewijsstandaarden
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw document toegevoegd om Gate Reviews toetsbaar te maken.
-
-______________________________________________________________________
 
 ## 1. Doel
 

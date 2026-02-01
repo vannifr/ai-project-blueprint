@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 ﻿# Fase 1: Richt Focus & Rationaliseer (Dagen 1-30)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** Fase 1: Richt Focus & Rationaliseer (Dagen 1-30)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 **Thema:** Opruimen, Inzicht en Richting.
 
@@ -36,7 +29,3 @@ In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet wer
     - [ ] Kostenoverzicht huidige AI-stack.
     - [ ] Selectie van top 2 Use Cases voor Fase 2.
     - [ ] Projectteam samengesteld voor de pilot.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # Module 02.F: Snelle Route (Fast Lane)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02-FL
-- **Titel:** Module 02.F — Snelle Route (Fast Lane)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw; definieert criteria en minimumpakket voor laag risico experimenten.
-
-______________________________________________________________________
 
 ## 1. Doel
 
@@ -69,7 +62,3 @@ Fast Lane stopt direct en je stapt over op standaard lifecycle als:
 - De tool extern gebruikt gaat worden met impact op klanten
 - Het datagebruik uitbreidt naar (bijzondere) persoonsgegevens
 - Er 1 Kritieke fout optreedt (Rode Lijnen geraakt)
-
-______________________________________________________________________
-
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

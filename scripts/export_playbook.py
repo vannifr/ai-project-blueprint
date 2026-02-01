@@ -59,7 +59,10 @@ def main():
                 outfile.write("---")
 
                 with open(absolute_path, 'r', encoding='utf-8') as infile:
-                    outfile.write(infile.read())
+                    content = infile.read()
+                    # Strip frontmatter
+                    content = re.sub(r'^---.*?---\n\n?', '', content, flags=re.DOTALL)
+                    outfile.write(content)
 
                 outfile.write("\n\n---\n")
             else:

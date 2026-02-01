@@ -1,19 +1,8 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # Operationele Herontwerp
 
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** Operationele Herontwerp
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

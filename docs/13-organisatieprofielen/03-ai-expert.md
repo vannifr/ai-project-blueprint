@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 ﻿# De Visionair
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** De Visionair
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 ## Profiel
 
@@ -50,7 +43,3 @@ Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strate
 - [Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md)
 - [Accelerators](../15-accelerators/index.md)
 - [Governance Model](../00-strategisch-kader/03-governance-model.md)
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

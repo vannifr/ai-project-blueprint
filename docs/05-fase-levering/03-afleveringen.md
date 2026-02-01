@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Deliverables & Gate 4 (Levering)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-05-03
-- **Titel:** 📍 Module 05.03 — Deliverables & Gate 4 (Levering)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** TMP-09-07 Data & Privacyblad toegevoegd aan compliance dossier.
-
-______________________________________________________________________
 
 ## 6. Deliverables (Afleveringen)
 
@@ -34,7 +27,3 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 
 - **11-02 Overdracht-procedures:** [Link](../11-project-afsluiting/02-overdracht-procedures.md)
 - **07-05 Incidentrespons:** [Link](../07-compliance-hub/05-incidentrespons.md)
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

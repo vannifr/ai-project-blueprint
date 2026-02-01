@@ -1,6 +1,6 @@
 # AI Project Playbook - Full Export
 
-Generated on: 2026-02-01 19:54:01.247934
+Generated on: 2026-02-01 20:40:26.160886
 
 ______________________________________________________________________
 
@@ -8,18 +8,6 @@ ______________________________________________________________________
 
 Source: index.md
 ---# 🚀 Welkom bij het AI Project Playbook
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 🚀 Welkom bij het AI Project Playbook
-- **Versie:** 1.0
-- **Status:** Draft
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Uw Gids voor AI-Projectmanagement
 
@@ -68,18 +56,6 @@ ______________________________________________________________________
 Source: 00-strategisch-kader/00-executive-summary.md
 ---# Module 00.01: Executive Summary
 
-## Documentbeheer
-
-- **Document-ID:** MOD-00-01
-- **Titel:** Module 00.01 — Executive Summary
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw; biedt managementsamenvatting en implementatiepad.
-
-______________________________________________________________________
-
 ## 1. Wat is dit Playbook?
 
 Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
@@ -125,26 +101,10 @@ Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot be
 
 ______________________________________________________________________
 
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 00 Leeswijzer
 
 Source: 00-strategisch-kader/00-leeswijzer.md
 ---# 🚀 Module 00: Leeswijzer & Navigatie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-00
-- **Titel:** 📍 Module 00: Leeswijzer & Navigatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Verwijzing naar Executive Summary en Fast Lane toegevoegd.
-
-______________________________________________________________________
 
 ## 📖 Welkom bij het AI Project Playbook
 
@@ -199,26 +159,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 01 Ai Levenscyclus
 
 Source: 00-strategisch-kader/01-ai-levenscyclus.md
 ---# 🚀 AI Levenscyclus
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** 📍 AI Levenscyclus
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -330,26 +274,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Hybride Methodologie
 
 Source: 00-strategisch-kader/02-hybride-methodologie.md
 ---# 🚀 Hybride Methodologie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Hybride Methodologie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -411,26 +339,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Governance Model
 
 Source: 00-strategisch-kader/03-governance-model.md
 ---# 🚀 Governance Model
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** 📍 Governance Model
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -493,26 +405,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 04 Agile Antipatronen Niet Toegestaan
 
 Source: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
 ---# 🚀 Agile Antipatronen (NOT DONE)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-04
-- **Titel:** 📍 Agile Antipatronen (NOT DONE)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -595,26 +491,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 05 Project Initiatie
 
 Source: 00-strategisch-kader/05-project-initiatie.md
 ---# 🚀 Project Initiatie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-05
-- **Titel:** 📍 Project Initiatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -675,26 +555,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 06 Has H Niveaus
 
 Source: 00-strategisch-kader/06-has-h-niveaus.md
 ---# 🚀 AI-Samenwerkingsmodi
-
-## Documentbeheer
-
-- **Document-ID:** MOD-06
-- **Titel:** 📍 AI-Samenwerkingsmodi
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 1. Doel van de Modi
 
@@ -803,26 +667,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 07 Organisatorische Heruitvinding
 
 Source: 00-strategisch-kader/07-organisatorische-heruitvinding.md
 ---# 🚀 Organisatorische Heruitvinding
-
-## Documentbeheer
-
-- **Document-ID:** MOD-07
-- **Titel:** 📍 Organisatorische Heruitvinding
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -872,26 +720,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Index
 
 Source: 08-rollen-en-verantwoordelijkheden/index.md
 ---# ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## ðŸŽ¯ Wie doet wat in een AI-project?
 
@@ -968,18 +800,6 @@ ______________________________________________________________________
 
 Source: 01-ai-native-fundamenten/01-definitie.md
 ---# 🚀 De Kernprincipes
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** 📍 De Kernprincipes
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 1. Wat Zijn de Kernprincipes?
 
@@ -1095,26 +915,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Normatieve Criteria
 
 Source: 01-ai-native-fundamenten/02-normatieve-criteria.md
 ---# 🚀 Normatieve Criteria
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Normatieve Criteria
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Wanneer Werken We Volgens de Kernprincipes?
 
@@ -1136,26 +940,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Artefact Model
 
 Source: 01-ai-native-fundamenten/03-artefact-model.md
 ---# 🚀 Artefact Model
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** 📍 Artefact Model
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Beheer-Artefacten
 
@@ -1177,26 +965,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 04 Validatie Model
 
 Source: 01-ai-native-fundamenten/04-validatie-model.md
 ---# 🚀 Validatie Model
-
-## Documentbeheer
-
-- **Document-ID:** MOD-04
-- **Titel:** 📍 Validatie Model
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Drie Dimensies van Validatie
 
@@ -1225,26 +997,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 05 Risicoclassificatie
 
 Source: 01-ai-native-fundamenten/05-risicoclassificatie.md
 ---# 🚀 Risicoclassificatie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-05
-- **Titel:** 📍 Risicoclassificatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Validatie Diepgang
 
@@ -1265,26 +1021,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 06 Specificatie Gedreven Ontwikkeling
 
 Source: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
 ---# 🚀 Specificatie-eerst Methode
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01-06
-- **Titel:** 📍 Specificatie-eerst Methode
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 ## 📖 Shift-Left Validatie
 
@@ -1306,26 +1046,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 07 Bewijsstandaarden
 
 Source: 01-ai-native-fundamenten/07-bewijsstandaarden.md
 ---# Module 01.07: Bewijsstandaarden
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01-07
-- **Titel:** Module 01.07 — Bewijsstandaarden
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw document toegevoegd om Gate Reviews toetsbaar te maken.
-
-______________________________________________________________________
 
 ## 1. Doel
 
@@ -1463,18 +1187,6 @@ ______________________________________________________________________
 Source: 02-fase-ontdekking/01-doelstellingen.md
 ---# 🚀 Fase 02: Verkenning & Strategie
 
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Fase 02: Verkenning & Strategie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Verwijzing naar Fast Lane toegevoegd.
-
-______________________________________________________________________
-
 ## 📖 Doelstelling
 
 Het primaire doel van de Verkenningsfase is het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten met een AI-project.
@@ -1495,26 +1207,10 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Activiteiten
 
 Source: 02-fase-ontdekking/02-activiteiten.md
 ---# 🚀 Kernactiviteiten & RACI (Verkenning & Strategie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Kernactiviteiten & RACI (Verkenning & Strategie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 3. Kernactiviteiten
 
@@ -1572,26 +1268,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Afleveringen
 
 Source: 02-fase-ontdekking/03-afleveringen.md
 ---# 🚀 Deliverables & Gate 1 (Verkenning & Strategie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02-03
-- **Titel:** 📍 Deliverables & Gate 1 (Verkenning & Strategie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 ## 6. Deliverables (Afleveringen)
 
@@ -1620,26 +1300,10 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 06 Fast Lane
 
 Source: 02-fase-ontdekking/06-fast-lane.md
 ---# Module 02.F: Snelle Route (Fast Lane)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02-FL
-- **Titel:** Module 02.F — Snelle Route (Fast Lane)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw; definieert criteria en minimumpakket voor laag risico experimenten.
-
-______________________________________________________________________
 
 ## 1. Doel
 
@@ -1701,32 +1365,12 @@ Fast Lane stopt direct en je stapt over op standaard lifecycle als:
 
 ______________________________________________________________________
 
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 05 Has H Beoordeling
 
 Source: 02-fase-ontdekking/05-has-h-beoordeling.md
 ---# HAS H-Beoordeling
 
-## Documentbeheer
-
-- **Document-ID:** MOD-05
-- **Titel:** HAS H-Beoordeling
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -1734,18 +1378,6 @@ ______________________________________________________________________
 
 Source: 02-fase-ontdekking/04-sjablonen/index.md
 ---﻿# 02-fase-ontdekking/04-sjablonen
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 02-fase-ontdekking/04-sjablonen
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## Inhoud volgt nog.
 
@@ -1757,18 +1389,6 @@ ______________________________________________________________________
 
 Source: 03-fase-validatie/01-doelstellingen.md
 ---# 🚀 Fase 03: Validatie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** 📍 Fase 03: Validatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doelstelling
 
@@ -1793,26 +1413,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Activiteiten
 
 Source: 03-fase-validatie/02-activiteiten.md
 ---# 🚀 Kernactiviteiten & RACI (Validatie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Kernactiviteiten & RACI (Validatie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 3. Kernactiviteiten
 
@@ -1873,26 +1477,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Afleveringen
 
 Source: 03-fase-validatie/03-afleveringen.md
 ---# 🚀 Deliverables & Gate 2 (Validatie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03-03
-- **Titel:** 📍 Module 03.03 — Deliverables & Gate 2 (Validatie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** TMP-09-07 Data & Privacyblad toegevoegd aan deliverables en links hersteld.
-
-______________________________________________________________________
 
 ## 6. Deliverables (Afleveringen)
 
@@ -1921,26 +1509,10 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 05 Risicoclassificatie
 
 Source: 03-fase-validatie/05-risicoclassificatie.md
 ---﻿# Risicoclassificatie in Validatie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03-05
-- **Titel:** Risicoclassificatie in Validatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 Tijdens de Validatiefase wordt de initiële risicoclassificatie uit Discovery getoetst aan de werkelijkheid van het prototype.
 
@@ -1964,26 +1536,10 @@ Controleer of de *use case* na de PoC nog steeds in dezelfde categorie valt:
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 01 Doelstellingen
 
 Source: 04-fase-ontwikkeling/01-doelstellingen.md
 ---# 🚀 Fase 04: Realisatie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** 📍 Fase 04: Realisatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doelstelling
 
@@ -2008,26 +1564,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Activiteiten
 
 Source: 04-fase-ontwikkeling/02-activiteiten.md
 ---# 🚀 Kernactiviteiten & RACI (Realisatie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Kernactiviteiten & RACI (Realisatie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 3. Kernactiviteiten
 
@@ -2101,26 +1641,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Afleveringen
 
 Source: 04-fase-ontwikkeling/03-afleveringen.md
 ---# 🚀 Deliverables & Gate 3 (Realisatie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-04-03
-- **Titel:** 📍 Module 04.03 — Deliverables & Gate 3 (Realisatie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** TMP-09-07 Data & Privacyblad toegevoegd aan deliverables en links hersteld.
-
-______________________________________________________________________
 
 ## 6. Deliverables (Afleveringen)
 
@@ -2150,32 +1674,12 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 05 Sdd Patroon
 
 Source: 04-fase-ontwikkeling/05-sdd-patroon.md
 ---# SDD Patroon
 
-## Documentbeheer
-
-- **Document-ID:** MOD-05
-- **Titel:** SDD Patroon
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -2183,18 +1687,6 @@ ______________________________________________________________________
 
 Source: 05-fase-levering/01-doelstellingen.md
 ---# 🚀 Fase 05: Levering
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** 📍 Fase 05: Levering
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doelstellingen van de Levering
 
@@ -2223,26 +1715,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Activiteiten
 
 Source: 05-fase-levering/02-activiteiten.md
 ---# 🚀 Kernactiviteiten & RACI (Levering)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Kernactiviteiten & RACI (Levering)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 3. Kernactiviteiten
 
@@ -2296,26 +1772,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Afleveringen
 
 Source: 05-fase-levering/03-afleveringen.md
 ---# 🚀 Deliverables & Gate 4 (Levering)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-05-03
-- **Titel:** 📍 Module 05.03 — Deliverables & Gate 4 (Levering)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** TMP-09-07 Data & Privacyblad toegevoegd aan compliance dossier.
-
-______________________________________________________________________
 
 ## 6. Deliverables (Afleveringen)
 
@@ -2342,32 +1802,12 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 05 Traceerbaarheid
 
 Source: 05-fase-levering/05-traceerbaarheid.md
 ---# Traceerbaarheid
 
-## Documentbeheer
-
-- **Document-ID:** MOD-05
-- **Titel:** Traceerbaarheid
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -2375,18 +1815,6 @@ ______________________________________________________________________
 
 Source: 05-fase-levering/04-sjablonen/overdracht-checklist.md
 ---﻿# Checklist: Operationele Overdracht
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** Checklist: Operationele Overdracht
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## Inhoud volgt.
 
@@ -2398,18 +1826,6 @@ ______________________________________________________________________
 
 Source: 06-fase-monitoring/01-doelstellingen.md
 ---# 🚀 Fase 06: Beheer & Optimalisatie
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** 📍 Fase 06: Beheer & Optimalisatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 1. Doelstelling
 
@@ -2434,26 +1850,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Activiteiten
 
 Source: 06-fase-monitoring/02-activiteiten.md
 ---# 🚀 Kernactiviteiten & RACI (Beheer & Optimalisatie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** 📍 Kernactiviteiten & RACI (Beheer & Optimalisatie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 3. Kernactiviteiten
 
@@ -2509,26 +1909,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Afleveringen
 
 Source: 06-fase-monitoring/03-afleveringen.md
 ---# Deliverables & Gate 5 (Monitoring)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-06-03
-- **Titel:** Deliverables & Gate 5 (Monitoring)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 6. Deliverables (Afleveringen)
 
@@ -2560,32 +1944,12 @@ De resultaten van de Monitoringfase voor een duurzame operatie:
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 05 Drift Detectie
 
 Source: 06-fase-monitoring/05-drift-detectie.md
 ---# Drift Detectie
 
-## Documentbeheer
-
-- **Document-ID:** MOD-05
-- **Titel:** Drift Detectie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -2593,18 +1957,6 @@ ______________________________________________________________________
 
 Source: 07-compliance-hub/index.md
 ---# 🚀 Module 07: Risicobeheersing & Compliance
-
-## Documentbeheer
-
-- **Document-ID:** MOD-07
-- **Titel:** 📍 Module 07: Risicobeheersing & Compliance
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Privacy-by-Design praktische richtlijnen toegevoegd.
-
-______________________________________________________________________
 
 ## 📖 1. Doel van deze Module
 
@@ -2724,26 +2076,10 @@ Wanneer AI-systemen autonoom acties gaan uitvoeren (Modus 4 & 5), verschuift de 
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Index
 
 Source: 07-compliance-hub/01-eu-ai-act/index.md
 ---# 🚀 EU AI Act
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 EU AI Act
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -2795,26 +2131,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Index
 
 Source: 07-compliance-hub/02-risicobeheer/index.md
 ---# 🚀 Risicobeheer
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Risicobeheer
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -2857,26 +2177,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Ethische Richtlijnen
 
 Source: 07-compliance-hub/03-ethische-richtlijnen.md
 ---# 🚀 Ethische Richtlijnen
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** 📍 Ethische Richtlijnen
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -2924,26 +2228,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 04 Validatie Eisen
 
 Source: 07-compliance-hub/04-validatie-eisen.md
 ---# 🚀 Validatie Eisen (Compliance)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-04
-- **Titel:** 📍 Validatie Eisen (Compliance)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -2967,26 +2255,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 05 Incidentrespons
 
 Source: 07-compliance-hub/05-incidentrespons.md
 ---# 🚀 Incident Respons
-
-## Documentbeheer
-
-- **Document-ID:** MOD-05
-- **Titel:** 📍 Incident Respons
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -3028,26 +2300,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Index
 
 Source: 09-sjablonen/index.md
 ---# 🚀 Sjablonen & Templates
-
-## Documentbeheer
-
-- **Document-ID:** MOD-09
-- **Titel:** 📍 Module 09 — Sjablonen & Templates
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Template 09.07 Data & Privacyblad toegevoegd.
-
-______________________________________________________________________
 
 Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-project. Deze documenten zijn ontworpen om direct gekopieerd te worden naar een Wiki (Confluence/SharePoint) of Word-document.
 
@@ -3081,26 +2337,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Template
 
 Source: 09-sjablonen/01-project-charter/template.md
 ---# 🚀 Module 09.01: Het Project Charter
-
-## Documentbeheer
-
-- **Document-ID:** TMP-09-01
-- **Titel:** 📍 Module 09.01: Het Project Charter
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Routekeuze (Fast Lane) en Gate 1 beslisopties toegevoegd.
-
-______________________________________________________________________
 
 ## 0. Routekeuze
 
@@ -3189,26 +2429,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Template
 
 Source: 09-sjablonen/02-business-case/template.md
 ---# 🚀 Sjabloon: Business Case & Het Kostenoverzicht
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Sjabloon: Business Case & Het Kostenoverzicht
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -3253,26 +2477,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Modelkaart
 
 Source: 09-sjablonen/02-business-case/modelkaart.md
 ---# ðŸ“‚ Module 09.04: Technische Modelkaart (Model Card)
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** ðŸ“‚ Module 09.04: Technische Modelkaart (Model Card)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## ðŸŽ¯ Doel
 
@@ -3364,18 +2572,6 @@ ______________________________________________________________________
 Source: 09-sjablonen/03-risicoanalyse/template.md
 ---# 🚀 Sjabloon: Risico-Inventarisatie
 
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Sjabloon: Risico-Inventarisatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 ## 📖 Doel
 
 Het identificeren en beoordelen van risico's op het gebied van techniek, organisatie en compliance (EU AI Act).
@@ -3418,26 +2614,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Pre Scan
 
 Source: 09-sjablonen/03-risicoanalyse/pre-scan.md
 ---# 🚀 Module 09.03: Risico Pre-Scan (Gate 1 Checklist)
-
-## Documentbeheer
-
-- **Document-ID:** TMP-09-03
-- **Titel:** 📍 Module 09.03: Risico Pre-Scan (Gate 1 Checklist)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** DPIA-triggers toegevoegd aan sectie Privacy & Data.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -3509,26 +2689,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Checklist
 
 Source: 09-sjablonen/04-gate-reviews/checklist.md
 ---# 🚀 Checklist: Gate Reviews
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Checklist: Gate Reviews
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -3575,26 +2739,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Doelkaart
 
 Source: 09-sjablonen/06-ai-native-artefacten/doelkaart.md
 ---# ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## ðŸŽ¯ Doel
 
@@ -3677,18 +2825,6 @@ ______________________________________________________________________
 Source: 09-sjablonen/07-validatie-bewijs/template.md
 ---# 🚀 Sjabloon: Validatierapport
 
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Sjabloon: Validatierapport
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 ## 📖 Doel
 
 Dit sjabloon dient voor het vastleggen van de testresultaten van de **Praktijkproef**. Het vormt het objectieve bewijs dat de AI-oplossing voldoet aan de gestelde criteria en veiligheidsgrenzen.
@@ -3726,26 +2862,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Validatierapport
 
 Source: 09-sjablonen/07-validatie-bewijs/validatierapport.md
 ---# Template 09.06: Validatierapport (Bewijs‑pakket)
-
-## Documentbeheer
-
-- **Document-ID:** TMP-09-06
-- **Titel:** Template 09.06 — Validatierapport (Bewijs‑pakket)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw template toegevoegd; standaardiseert bewijs voor Gate Reviews.
-
-______________________________________________________________________
 
 ## 0. Samenvatting (1 pagina)
 
@@ -3873,18 +2993,6 @@ ______________________________________________________________________
 Source: 09-sjablonen/08-traceerbaarheid-links/template.md
 ---# 🚀 Sjabloon: Traceerbaarheid (Traceability)
 
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Sjabloon: Traceerbaarheid (Traceability)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 ## 📖 Doel
 
 Het waarborgen van de verbinding tussen de menselijke intentie, de technische implementatie en het uiteindelijke bewijs. Dit is essentieel voor auditing en compliance (EU AI Act).
@@ -3914,26 +3022,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Template
 
 Source: 09-sjablonen/10-prompt-engineering/template.md
 ---# ðŸ“‚ Module 09.05: Prompt Engineering Template
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** ðŸ“‚ Module 09.05: Prompt Engineering Template
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## ðŸŽ¯ Doel
 
@@ -3993,18 +3085,6 @@ ______________________________________________________________________
 Source: 09-sjablonen/11-privacy-data/privacyblad.md
 ---# Template 09.07: Data & Privacyblad (AVG/GDPR)
 
-## Documentbeheer
-
-- **Document-ID:** TMP-09-07
-- **Titel:** Template 09.07 — Data & Privacyblad (AVG/GDPR)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** Privacy Officer / DPO + AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw; maakt datagebruik, grondslag en retentie toetsbaar per use case.
-
-______________________________________________________________________
-
 ## 1. Use case & doelbinding
 
 - **Project:** \[naam\]
@@ -4059,26 +3139,10 @@ Kruis aan + beschrijf:
 
 ______________________________________________________________________
 
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Index
 
 Source: 08-technische-standaarden/index.md
 ---# 🚀 Technische Standaarden
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Technische Standaarden
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -4102,26 +3166,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 01 Mloops Standaarden
 
 Source: 08-technische-standaarden/01-mloops-standaarden.md
 ---﻿# Module 08.1: Technische Standaarden & Leveringscriteria
-
-## Documentbeheer
-
-- **Document-ID:** MOD-08-01
-- **Titel:** Module 08.1 — Technische Standaarden & Leveringscriteria
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** IT/Platform Team + AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw; maakt “productiewaardig” toetsbaar en biedt basis/gevorderd route.
-
-______________________________________________________________________
 
 ## 1. Doel
 
@@ -4193,32 +3241,12 @@ Een oplossing mag live als:
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Data Pipelines
 
 Source: 08-technische-standaarden/02-data-pipelines.md
 ---# Data Pipelines
 
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** Data Pipelines
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4227,23 +3255,7 @@ ______________________________________________________________________
 Source: 08-technische-standaarden/03-model-governance.md
 ---# Model Governance
 
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** Model Governance
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4252,23 +3264,7 @@ ______________________________________________________________________
 Source: 08-technische-standaarden/04-test-frameworks.md
 ---# Test Frameworks
 
-## Documentbeheer
-
-- **Document-ID:** MOD-04
-- **Titel:** Test Frameworks
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4277,23 +3273,7 @@ ______________________________________________________________________
 Source: 08-technische-standaarden/05-ai-architectuur.md
 ---# AI Architectuur
 
-## Documentbeheer
-
-- **Document-ID:** MOD-05
-- **Titel:** AI Architectuur
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4301,18 +3281,6 @@ ______________________________________________________________________
 
 Source: 12-90-dagen-roadmap/index.md
 ---﻿# Module 12: 90-Dagen Startplan (13 weken)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-12
-- **Titel:** Module 12 — 90-Dagen Startplan (13 weken)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Uitgebreid naar uitvoerbaar 13-weken plan met deliverables en gates.
-
-______________________________________________________________________
 
 ## 0. Vooraf (Definition of Ready)
 
@@ -4352,26 +3320,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 01 Fase 1 Richt Focus Rationaliseer
 
 Source: 12-90-dagen-roadmap/01-fase-1-richt-focus-rationaliseer.md
 ---﻿# Fase 1: Richt Focus & Rationaliseer (Dagen 1-30)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** Fase 1: Richt Focus & Rationaliseer (Dagen 1-30)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 **Thema:** Opruimen, Inzicht en Richting.
 
@@ -4400,26 +3352,10 @@ In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet wer
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Fase 2 Herontwerp Pilot
 
 Source: 12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.md
 ---# Fase 2: Herontwerp & Pilot (Dagen 31-60)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** Fase 2: Herontwerp & Pilot (Dagen 31-60)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 **Thema:** Doen, Testen en Leren.
 
@@ -4448,26 +3384,10 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Fase 3 Codificeer Schaal
 
 Source: 12-90-dagen-roadmap/03-fase-3-codificeer-schaal.md
 ---# Fase 3: Codificeer & Schaal (Dagen 61-90)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** Fase 3: Codificeer & Schaal (Dagen 61-90)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 **Thema:** Standaardiseren en Uitrollen.
 
@@ -4496,32 +3416,12 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 04 Capaciteits Uitkomsten
 
 Source: 12-90-dagen-roadmap/04-capaciteits-uitkomsten.md
 ---# Capaciteits Uitkomsten
 
-## Documentbeheer
-
-- **Document-ID:** MOD-04
-- **Titel:** Capaciteits Uitkomsten
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4529,18 +3429,6 @@ ______________________________________________________________________
 
 Source: 13-organisatieprofielen/index.md
 ---# 🚀 Volwassenheidsniveaus
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Volwassenheidsniveaus
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Welke Aanpak Past Bij Jouw Team?
 
@@ -4618,26 +3506,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 01 Ai Verkenner
 
 Source: 13-organisatieprofielen/01-ai-verkenner.md
 ---﻿# De Verkenner
-
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** De Verkenner
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 ## Profiel
 
@@ -4676,26 +3548,10 @@ Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme e
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 02 Ai Piloot
 
 Source: 13-organisatieprofielen/02-ai-piloot.md
 ---﻿# De Bouwer
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** De Bouwer
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 ## Profiel
 
@@ -4736,26 +3592,10 @@ Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met d
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 03 Ai Expert
 
 Source: 13-organisatieprofielen/03-ai-expert.md
 ---﻿# De Visionair
-
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** De Visionair
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 ## Profiel
 
@@ -4798,32 +3638,12 @@ Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strate
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 04 Profiel Beoordeling
 
 Source: 13-organisatieprofielen/04-profiel-beoordeling.md
 ---# Profiel Beoordeling
 
-## Documentbeheer
-
-- **Document-ID:** MOD-04
-- **Titel:** Profiel Beoordeling
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4831,18 +3651,6 @@ ______________________________________________________________________
 
 Source: 14-drie-tracks/index.md
 ---# 🚀 Drie Tracks
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Drie Tracks
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -4870,32 +3678,12 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 01 Strategische Heruitvinding
 
 Source: 14-drie-tracks/01-strategische-heruitvinding.md
 ---# Strategische Heruitvinding
 
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** Strategische Heruitvinding
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4904,23 +3692,7 @@ ______________________________________________________________________
 Source: 14-drie-tracks/02-operationele-herontwerp.md
 ---# Operationele Herontwerp
 
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** Operationele Herontwerp
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4929,23 +3701,7 @@ ______________________________________________________________________
 Source: 14-drie-tracks/03-ai-first-bedrijfsmodel.md
 ---# AI-First Bedrijfsmodel
 
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** AI-First Bedrijfsmodel
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4954,23 +3710,7 @@ ______________________________________________________________________
 Source: 14-drie-tracks/04-track-sequentie.md
 ---# Track Sequentie
 
-## Documentbeheer
-
-- **Document-ID:** MOD-04
-- **Titel:** Track Sequentie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4978,18 +3718,6 @@ ______________________________________________________________________
 
 Source: 15-accelerators/index.md
 ---# 🚀 Accelerators
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Accelerators
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 Doel
 
@@ -5011,32 +3739,12 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 01 Strategische Heruitving Accelerators
 
 Source: 15-accelerators/01-strategische-heruitving-accelerators.md
 ---# Strategische Heruitvinding Accelerators
 
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** Strategische Heruitvinding Accelerators
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5045,23 +3753,7 @@ ______________________________________________________________________
 Source: 15-accelerators/02-operationele-herontwerp-accelerators.md
 ---# Operationele Herontwerp Accelerators
 
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** Operationele Herontwerp Accelerators
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5070,23 +3762,7 @@ ______________________________________________________________________
 Source: 15-accelerators/03-bedrijfsmodel-accelerators.md
 ---# Bedrijfsmodel Accelerators
 
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** Bedrijfsmodel Accelerators
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5094,18 +3770,6 @@ ______________________________________________________________________
 
 Source: 10-doorlopende-verbetering/index.md
 ---﻿# ðŸ“‚ Doorlopende Verbetering
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** ðŸ“‚ Doorlopende Verbetering
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## ðŸŽ¯ Doel
 
@@ -5139,23 +3803,7 @@ ______________________________________________________________________
 Source: 10-doorlopende-verbetering/01-retrospectives.md
 ---# Retrospectives
 
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** Retrospectives
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5164,23 +3812,7 @@ ______________________________________________________________________
 Source: 10-doorlopende-verbetering/02-kaizen-logs.md
 ---# Kaizen Logs
 
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** Kaizen Logs
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5189,23 +3821,7 @@ ______________________________________________________________________
 Source: 10-doorlopende-verbetering/03-metrics-dashboards.md
 ---# Metrics Dashboards
 
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** Metrics Dashboards
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5214,23 +3830,7 @@ ______________________________________________________________________
 Source: 10-doorlopende-verbetering/04-batenrealisatie.md
 ---# Batenrealisatie
 
-## Documentbeheer
-
-- **Document-ID:** MOD-04
-- **Titel:** Batenrealisatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5238,18 +3838,6 @@ ______________________________________________________________________
 
 Source: 11-project-afsluiting/index.md
 ---﻿# ðŸ“‚ Project Afsluiting
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** ðŸ“‚ Project Afsluiting
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## ðŸŽ¯ Doel
 
@@ -5282,23 +3870,7 @@ ______________________________________________________________________
 Source: 11-project-afsluiting/01-lessons-learned.md
 ---# Lessons Learned
 
-## Documentbeheer
-
-- **Document-ID:** MOD-01
-- **Titel:** Lessons Learned
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5307,23 +3879,7 @@ ______________________________________________________________________
 Source: 11-project-afsluiting/02-overdracht-procedures.md
 ---# Overdracht Procedures
 
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** Overdracht Procedures
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5332,23 +3888,7 @@ ______________________________________________________________________
 Source: 11-project-afsluiting/03-batenrealisatie.md
 ---# Batenrealisatie
 
-## Documentbeheer
-
-- **Document-ID:** MOD-03
-- **Titel:** Batenrealisatie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
-
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -5356,18 +3896,6 @@ ______________________________________________________________________
 
 Source: termenlijst/index.md
 ---# 🚀 Termenlijst (Glossary)
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Termenlijst (Glossary)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 Dit document bevat de definities van de belangrijkste termen en afkortingen die in dit AI Project Playbook worden gebruikt. Wij slaan de brug tussen techniek en business door consequent heldere Nederlandse termen te gebruiken.
 
@@ -5443,26 +3971,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Index
 
 Source: 16-bronnen/index.md
 ---# 🚀 Bronnen & Inspiratie
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** 📍 Bronnen & Inspiratie
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 2.2 gezet.
-
-______________________________________________________________________
 
 ## 📖 1. Overzicht
 
@@ -5516,27 +4028,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: Release Notes
 
-## Source: release-notes.md
-
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** Release Notes — AI Project Playbook
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Eerste gestandaardiseerde versie (v1.0).
-
-______________________________________________________________________
-
-## Release 1.0 (2026-02-01) - Pre-Live Baseline
+Source: release-notes.md
+---## Release 1.0 (2026-02-01) - Pre-Live Baseline
 
 ### Samenvatting
 
@@ -5562,9 +4057,5 @@ ______________________________________________________________________
 
 - Structuur in `mkdocs.yml` volledig herzien voor betere vindbaarheid.
 - Alle interne links gecontroleerd op integriteit.
-
-______________________________________________________________________
-
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________

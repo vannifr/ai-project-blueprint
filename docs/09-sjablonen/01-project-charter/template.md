@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Module 09.01: Het Project Charter
-
-## Documentbeheer
-
-- **Document-ID:** TMP-09-01
-- **Titel:** 📍 Module 09.01: Het Project Charter
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Routekeuze (Fast Lane) en Gate 1 beslisopties toegevoegd.
-
-______________________________________________________________________
 
 ## 0. Routekeuze
 
@@ -96,7 +89,3 @@ ______________________________________________________________________
 - [ ] **Go: Fast Lane FL-1**
 - [ ] **Go: Standaard lifecycle Gate 1**
 - [ ] **No-Go / Pauze**
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

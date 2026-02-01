@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Deliverables & Gate 1 (Verkenning & Strategie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02-03
-- **Titel:** 📍 Deliverables & Gate 1 (Verkenning & Strategie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 ## 6. Deliverables (Afleveringen)
 
@@ -36,7 +29,3 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 - **09-01 Project Charter:** [Sjabloon](../09-sjablonen/01-project-charter/template.md)
 - **09-02 Business Case:** [Sjabloon](../09-sjablonen/02-business-case/template.md)
 - **09-03 Risicoanalyse:** [Sjabloon](../09-sjablonen/03-risicoanalyse/template.md)
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

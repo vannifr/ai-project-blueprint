@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 ﻿# Module 12: 90-Dagen Startplan (13 weken)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-12
-- **Titel:** Module 12 — 90-Dagen Startplan (13 weken)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Uitgebreid naar uitvoerbaar 13-weken plan met deliverables en gates.
-
-______________________________________________________________________
 
 ## 0. Vooraf (Definition of Ready)
 
@@ -47,7 +40,3 @@ ______________________________________________________________________
 - **Gate 2 (einde week 6):** pilotresultaat (TMP-09-06) voldoet aan MOD-01-07
 - **Gate 3 (einde week 10):** RC voldoet aan MOD-01-07 + logging/privacy geregeld
 - **Gate 4 (week 12):** overdracht naar beheer incl. nulmeting prestatieverloop
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

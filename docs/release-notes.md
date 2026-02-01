@@ -1,14 +1,7 @@
-## Documentbeheer
-
-- **Document-ID:** MOD
-- **Titel:** Release Notes — AI Project Playbook
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Eerste gestandaardiseerde versie (v1.0).
-
-______________________________________________________________________
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
 
 ## Release 1.0 (2026-02-01) - Pre-Live Baseline
 
@@ -36,7 +29,3 @@ ______________________________________________________________________
 
 - Structuur in `mkdocs.yml` volledig herzien voor betere vindbaarheid.
 - Alle interne links gecontroleerd op integriteit.
-
-______________________________________________________________________
-
-Â© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

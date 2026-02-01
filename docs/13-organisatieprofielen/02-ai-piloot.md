@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 ﻿# De Bouwer
-
-## Documentbeheer
-
-- **Document-ID:** MOD-02
-- **Titel:** De Bouwer
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Header gestandaardiseerd en versie naar 1.0 gezet.
-
-______________________________________________________________________
 
 ## Profiel
 
@@ -48,7 +41,3 @@ Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met d
 - [Realisatie](../04-fase-ontwikkeling/01-doelstellingen.md)
 - [Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md)
 - [Technische Standaarden](../08-technische-standaarden/01-mloops-standaarden.md)
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

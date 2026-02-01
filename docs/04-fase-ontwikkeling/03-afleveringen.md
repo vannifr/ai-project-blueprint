@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 # 🚀 Deliverables & Gate 3 (Realisatie)
-
-## Documentbeheer
-
-- **Document-ID:** MOD-04-03
-- **Titel:** 📍 Module 04.03 — Deliverables & Gate 3 (Realisatie)
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** TMP-09-07 Data & Privacyblad toegevoegd aan deliverables en links hersteld.
-
-______________________________________________________________________
 
 ## 6. Deliverables (Afleveringen)
 
@@ -37,7 +30,3 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 - **01.07 Bewijsstandaarden:** [Module](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - **09.06 Validatierapport:** [Sjabloon](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 - **04-01 Gate Review:** [Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

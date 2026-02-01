@@ -1,16 +1,9 @@
+---
+versie: '1.0'
+laatst_herzien: '2026-02-01'
+---
+
 ﻿# Module 08.1: Technische Standaarden & Leveringscriteria
-
-## Documentbeheer
-
-- **Document-ID:** MOD-08-01
-- **Titel:** Module 08.1 — Technische Standaarden & Leveringscriteria
-- **Versie:** 1.0
-- **Status:** Definitief
-- **Eigenaar:** IT/Platform Team + AI Competence Center
-- **Laatst herzien:** 2026-02-01
-- **Wijziging t.o.v. vorige versie:** Nieuw; maakt “productiewaardig” toetsbaar en biedt basis/gevorderd route.
-
-______________________________________________________________________
 
 ## 1. Doel
 
@@ -79,7 +72,3 @@ Een oplossing mag live als:
 - [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
 - [ ] Owner voor beheer benoemd + monitoring actief
 - [ ] Gebruikersinstructies + transparantie (indien relevant) gepubliceerd
-
-______________________________________________________________________
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
