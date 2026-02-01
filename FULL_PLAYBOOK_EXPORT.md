@@ -1,6 +1,6 @@
 # AI Project Playbook - Full Export
 
-Generated on: 2026-02-01 21:11:47.097744
+Generated on: 2026-02-01 21:14:42.729017
 
 ______________________________________________________________________
 
@@ -42,10 +42,6 @@ ______________________________________________________________________
 1. **[Beheer & Optimalisatie](06-fase-monitoring/01-doelstellingen.md):** Waarde behouden (**Prestatieverloop**).
 
 ______________________________________________________________________
-
-**Versie:** 1.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -339,10 +335,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 02 Normatieve Criteria
@@ -364,10 +356,6 @@ Een project kwalificeert voor deze aanpak als aan de volgende drie criteria word
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 03 Artefact Model
@@ -388,10 +376,6 @@ Om AI-systemen beheersbaar te maken, beheren we specifieke artefacten die grip g
 | **Traceerbaarheid**     | **Verbinding:** Koppeling tussen Doel ? Instructie ? Bewijs.         | ML Engineer         | Referenties (ID's / Git SHAs)                         |
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -420,10 +404,6 @@ Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie valida
 - **Methode:** Scenario-gebaseerde evaluatie door experts of geavanceerde simulatie.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -556,10 +536,10 @@ ______________________________________________________________________
 
 ## 8. Bewijs per Gate (praktisch)
 
-- **Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
-- **Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
-- **Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit Â§6 + logging-plan + incidentprocedure.
-- **Gate 4 (Livegang) (Livegang) (Livegang) (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.
+- **Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
+- **Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
+- **Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit Â§6 + logging-plan + incidentprocedure.
+- **Gate 4 (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.
 
 ______________________________________________________________________
 
@@ -603,16 +583,16 @@ ______________________________________________________________________
 
 ```mermaid
 flowchart TD
-    A[Initiatief] --> B{Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): Verkenning}
+    A[Initiatief] --> B{Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): Verkenning}
     B -->|Go| C[Validatie]
     B -->|No Go| X[Stop]
-    C --> D{Gate 2 (Investering PoV) (Investering PoV) (Investering PoV): Kostenplaatje}
+    C --> D{Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV): Kostenplaatje}
     D -->|Go| E[Realisatie]
     D -->|No Go| X
-    E --> F{Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar): Ingebruikname}
+    E --> F{Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar): Ingebruikname}
     F -->|Go| G[Beheer & Optimalisatie]
     F -->|No Go| X
-    G --> H{Gate 4 (Livegang) (Livegang) (Livegang): Continue?}
+    G --> H{Gate 4 (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Livegang): Continue?}
     H -->|Ja| A
     H -->|Nee| I[Afsluiting]
 ```
@@ -623,28 +603,24 @@ Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checkli
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: Index
 
 Source: 08-rollen-en-verantwoordelijkheden/index.md
----# ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
+---# 📂 Module 08: Rollen & Verantwoordelijkheden
 
-## ðŸŽ¯ Wie doet wat in een AI-project?
+## 🎯 Wie doet wat in een AI-project?
 
 In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
 
 ______________________________________________________________________
 
-## ðŸ“‚ 1. Het Kernteam (The Squad)
+## 📂 1. Het Kernteam (The Squad)
 
 Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie.
 
-### ðŸ§™”â™‚ï¸ De AI Product Manager (Business Lead)
+### 🧠™”â™‚ï¸ De AI Product Manager (Business Lead)
 
 Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
 
@@ -670,21 +646,21 @@ Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de
 
 ______________________________________________________________________
 
-## ðŸ“‚ 2. De Ondersteunende Rollen
+## 📂 2. De Ondersteunende Rollen
 
 Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
 
 | Rol                      | Focus           | Taak                                                                     |
 | :----------------------- | :-------------- | :----------------------------------------------------------------------- |
 | ðŸ’¾ **Data Engineer**   | Datakwaliteit   | De ruggengraat van de data. Zorgt dat data schoon aankomt bij het model. |
-| ðŸ§ª **AI Tester (QA)**  | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.        |
+| 🧠ª **AI Tester (QA)**   | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.        |
 | ðŸ“¢ **Adoptie Manager** | Verandering     | Zorgt dat mensen de tool echt gebruiken (ADKAR-model).                   |
 
 ______________________________________________________________________
 
-## ðŸ“‚ 3. Strategisch Niveau (Steering Com)
+## 📂 3. Strategisch Niveau (Steering Com)
 
-### ðŸš€ Chief AI Officer (CAIO)
+### 🚀 Chief AI Officer (CAIO)
 
 Sponsor van het programma. Bepaalt de overkoepelende strategie en wijst budget toe.
 
@@ -692,16 +668,6 @@ Sponsor van het programma. Bepaalt de overkoepelende strategie en wijst budget t
 - **Eigenaarschap:** Bewaakt het gehele portfolio en de AI-volwassenheid van de organisatie.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -722,10 +688,6 @@ Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wi
 | **Laag**     | Geen **Rode Lijnen** geraakt                           | Syntactische + Minimale Gedragscheck            | **Minimaal Risico** |
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -835,10 +797,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 07 Organisatorische Heruitvinding
@@ -888,10 +846,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 01 Ai Levenscyclus
@@ -932,7 +886,7 @@ ______________________________________________________________________
 
 > \[!TIP\]
 > **De Fast Lane (De Innovatie-route)**
-> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
+> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
 
 ### 🎯 Fase 1: Verkenning & Strategie
 
@@ -1003,10 +957,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 02 Hybride Methodologie
@@ -1052,7 +1002,7 @@ gantt
     section Iteratief
     Realisatie Sprints 1-4     :s1, after p2, 4w
     section Voorspelbaar
-    Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) Review              :m1, after s1, 1w
+    Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) Review              :m1, after s1, 1w
     section Iteratief
     Realisatie Sprints 5-8     :s2, after m1, 4w
 ```
@@ -1067,10 +1017,6 @@ ______________________________________________________________________
 - **Compliance:** Geïntegreerde EU AI Act compliance reviews.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -1091,55 +1037,55 @@ ______________________________________________________________________
 
 - **Regel:** AI systemen moeten regelmatig worden gecontroleerd op bias.
 - **Impact:** Discriminatie en reputatieschade.
-- **Status:** Geen **Eerlijkheidstoetsen** = **NIET TOEGESTAAN**.
+-
 
 ### ? Geen Menselijke Regie
 
 - **Regel:** AI beslissingen (zeker bij hoog risico) moeten menselijke goedkeuring of 'in-the-loop' toezicht hebben conform de gekozen **Samenwerkingsmodus**.
 - **Impact:** Ongecontroleerde fouten.
-- **Status:** Geen menselijke regie = **NIET TOEGESTAAN**.
+-
 
 ### ? Geen Continue Monitoring
 
 - **Regel:** Modellen degraderen na verloop van tijd (**Prestatieverloop**). Continue monitoring is vereist.
 - **Impact:** Performance verlies en onbetrouwbare output.
-- **Status:** Geen monitoring = **NIET TOEGESTAAN**.
+-
 
 ### ? Geen Governance Checkpoints
 
 - **Regel:** Elke fase moet formele checkpoints hebben (**Gates**).
 - **Impact:** Onbeheersbare risico's en budgetoverschrijding.
-- **Status:** Geen checkpoints = **NIET TOEGESTAAN**.
+-
 
 ### ? Geen Stakeholder Engagement
 
 - **Regel:** Stakeholders en eindgebruikers moeten vanaf dag één betrokken zijn.
 - **Impact:** Oplossingen die niet gebruikt worden.
-- **Status:** Geen engagement = **NIET TOEGESTAAN**.
+-
 
 ### ? Geen Explainability
 
 - **Regel:** AI beslissingen moeten verklaarbaar zijn voor de gebruiker.
 - **Impact:** "Black box" wantrouwen en niet-naleving van regelgeving.
-- **Status:** Geen uitlegbaarheid = **NIET TOEGESTAAN**.
+-
 
 ### ? Geen Data-Evaluatie
 
 - **Regel:** Input data moet valide, schoon en representatief zijn.
 - **Impact:** "Garbage in, garbage out".
-- **Status:** Geen **Data-Evaluatie** = **NIET TOEGESTAAN**.
+-
 
 ### ? Geen Risicobeheer
 
 - **Regel:** Risico's moeten proactief geïdentificeerd en gemitigeerd worden.
 - **Impact:** Onverwachte incidenten.
-- **Status:** Geen risicobeheer = **NIET TOEGESTAAN**.
+-
 
 ### ? Geen Traceerbaarheid
 
 - **Regel:** Van elke modelversie moet te herleiden zijn op welke data en met welke **Sturingsinstructies** deze is getraind.
 - **Impact:** Onmogelijkheid om fouten te auditen.
-- **Status:** Geen traceerbaarheid = **NIET TOEGESTAAN**.
+-
 
 ______________________________________________________________________
 
@@ -1153,10 +1099,6 @@ Gebruik deze lijst als:
 1. **Audit tool** voor compliance verificatie.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -1218,10 +1160,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 06 Specificatie Gedreven Ontwikkeling
@@ -1262,7 +1200,7 @@ Het primaire doel van de Verkenningsfase is het identificeren van het juiste pro
 
 > \[!TIP\]
 > **De Snelle Route (Fast Lane)**
-> Voor projecten met een **Laag Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)) direct worden gestart met een beperkte **Praktijkproef**. Zie voor details de **[Module 02.F: Fast Lane](06-fast-lane.md)**.
+> Voor projecten met een **Laag Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)) direct worden gestart met een beperkte **Praktijkproef**. Zie voor details de **[Module 02.F: Fast Lane](06-fast-lane.md)**.
 
 ## 📖 Intrede Criteria (Definition of Ready)
 
@@ -1329,16 +1267,12 @@ Een eerste scan op juridische en ethische obstakels.
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 03 Afleveringen
 
 Source: 02-fase-ontdekking/03-afleveringen.md
----# 🚀 Opleveringen & Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Verkenning & Strategie)
+---# 🚀 Opleveringen & Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Verkenning & Strategie)
 
 ## 6. Opleveringen (Afleveringen)
 
@@ -1349,7 +1283,7 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 - **Risico-Inventarisatie:** Eerste scan op juridische, ethische en organisatorische risico's
 - **AI Project Charter:** Startdocument met scope, doelen en team
 
-## ? Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) Review Checklist
+## ? Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) Review Checklist
 
 - [ ] Is het probleem helder gearticuleerd vanuit gebruikersperspectief?
 - [ ] Is AI de juiste oplossing (niet te complex, niet te simpel)?
@@ -1456,16 +1390,12 @@ Het primaire doel van de Validatiefase is bewijzen dat het idee werkt en financi
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) is goedgekeurd.
+- Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) is goedgekeurd.
 - De Data-Evaluatie is afgerond met positief resultaat.
 - Er is een testset beschikbaar met representatieve voorbeelden.
 - Het team heeft toegang tot de benodigde tools en data.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -1527,16 +1457,12 @@ Een volledige raming van investering en operationele kosten.
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 03 Afleveringen
 
 Source: 03-fase-validatie/03-afleveringen.md
----# 🚀 Opleveringen & Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Validatie)
+---# 🚀 Opleveringen & Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Validatie)
 
 ## 6. Opleveringen (Afleveringen)
 
@@ -1548,7 +1474,7 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 - **Het Kostenoverzicht:** Volledige business case met investering en ROI.
 - **Risico-update:** Verfijnde risico-inventarisatie op basis van bevindingen.
 
-## ? Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) Review Checklist
+## ? Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) Review Checklist
 
 - [ ] Voldoet het bewijs aan de normen uit **Bewijsstandaarden** (Feitelijkheid, Relevantie, etc.)?
 - [ ] Is het **Doelkaart Validatierapport** volledig ingevuld en ondertekend?
@@ -1607,16 +1533,12 @@ Het primaire doel van de Realisatiefase is het bouwen van een robuuste, producti
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) is goedgekeurd.
+- Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) is goedgekeurd.
 - De Praktijkproef heeft aangetoond dat de oplossing werkt (>90% score).
 - **Het Kostenoverzicht** is positief en goedgekeurd.
 - Het ontwikkelteam is compleet en heeft toegang tot alle benodigde resources.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -1691,16 +1613,12 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 03 Afleveringen
 
 Source: 04-fase-ontwikkeling/03-afleveringen.md
----# 🚀 Opleveringen & Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Realisatie)
+---# 🚀 Opleveringen & Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Realisatie)
 
 ## 6. Opleveringen (Afleveringen)
 
@@ -1713,7 +1631,7 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 - **Technische Documentatie:** Architectuur, API's, configuratie.
 - **Ingebruikname Plan:** Stapsgewijs plan voor go-live.
 
-## ? Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) Review Checklist
+## ? Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) Review Checklist
 
 - [ ] Voldoet de Release Candidate aan de normen uit **Bewijsstandaarden**?
 - [ ] Is het systeem technisch stabiel en zijn alle tests geslaagd?
@@ -1758,16 +1676,12 @@ Source: 05-fase-levering/01-doelstellingen.md
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- De Realisatie-fase is afgerond (Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) goedgekeurd).
+- De Realisatie-fase is afgerond (Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) goedgekeurd).
 - Alle geautomatiseerde tests zijn geslaagd.
 - De infrastructuur voor **Ingebruikname** is gereed.
 - Het implementatieteam is stand-by.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -1822,16 +1736,12 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 03 Afleveringen
 
 Source: 05-fase-levering/03-afleveringen.md
----# 🚀 Opleveringen & Gate 4 (Livegang) (Livegang) (Livegang) (Levering)
+---# 🚀 Opleveringen & Gate 4 (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Levering)
 
 ## 6. Opleveringen (Afleveringen)
 
@@ -1842,7 +1752,7 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 - **Trainingspakket:** Behandelt zowel technische bediening als nieuwe werkwijze.
 - **Compliance Dossier:** Volledige set documentatie (waaronder het Validatierapport en het Data & Privacyblad) voor juridische verantwoording.
 
-## ? Gate 4 (Livegang) (Livegang) (Livegang) Review Checklist
+## ? Gate 4 (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) Review Checklist
 
 - [ ] Is de technische koppeling stabiel en veilig?
 - [ ] Zijn de regie-protocollen voor menselijk toezicht getest en begrepen?
@@ -1882,16 +1792,12 @@ Het primaire doel van de Beheer & Optimalisatiefase is het waarborgen van de pre
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- Systeem is live (Gate 4 (Livegang) (Livegang) (Livegang) goedgekeurd).
+- Systeem is live (Gate 4 (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) goedgekeurd).
 - Monitoring dashboards en alerts zijn actief.
 - Beheerteam (Operations/MLOps) is geïnstrueerd en stand-by.
 - Incident Response Plan is getest.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -1947,10 +1853,6 @@ Blijvende wettelijke conformiteit.
 | **Guardian (Ethicist)**     | **C**onsulted: Voert ethische reviews en post-market surveillance uit.                        |
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -2170,10 +2072,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: Index
@@ -2215,10 +2113,6 @@ ______________________________________________________________________
 - **Risk Officer:** Toezicht op wettelijke compliance.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -2267,10 +2161,6 @@ De Guardian fungeert als het morele kompas van het project:
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 04 Validatie Eisen
@@ -2293,10 +2183,6 @@ ______________________________________________________________________
 1. **Stabiliteit:** Bewijs van robuustheid tegen afwijkende invoer of pogingen tot manipulatie.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -2339,10 +2225,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: Index
@@ -2365,10 +2247,6 @@ ______________________________________________________________________
 - [AI Architectuur](05-ai-architectuur.md)
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -2439,7 +2317,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 
 Een oplossing mag live als:
 
-- [ ] Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
+- [ ] Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
 - [ ] Logging/retentie ingericht (incl. privacymaatregelen)
 - [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
 - [ ] Owner voor beheer benoemd + monitoring actief
@@ -2497,7 +2375,7 @@ ______________________________________________________________________
 ### 🎯 Strategie & Planning
 
 - **[Module 09.01: Het Project Charter](01-project-charter/template.md):** Sjabloon voor de formele start van een initiatief.
-- **[Module 09.03: Risico Pre-Scan](03-risicoanalyse/pre-scan.md):** Sjabloon voor initiële risico-inventarisatie (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)).
+- **[Module 09.03: Risico Pre-Scan](03-risicoanalyse/pre-scan.md):** Sjabloon voor initiële risico-inventarisatie (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)).
 - **[Business Case](02-business-case/template.md):** Financiële onderbouwing en raming van **Het Kostenoverzicht**.
 
 ### 🎯 Ontwerp & Sturing
@@ -2550,8 +2428,6 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 ______________________________________________________________________
 
-**Status:** \[Concept / Goedgekeurd\]
-**Datum:** \[DD-MM-JJJJ\]
 **Sponsor:** \[Naam Opdrachtgever\]
 
 ______________________________________________________________________
@@ -2615,10 +2491,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Besluit Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)
+### ? Besluit Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)
 
 - [ ] **Go: Fast Lane FL-1**
-- [ ] **Go: Standaard lifecycle Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)**
+- [ ] **Go: Standaard lifecycle Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)**
 - [ ] **No-Go / Pauze**
 
 ______________________________________________________________________
@@ -2665,31 +2541,25 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: Modelkaart
 
 Source: 09-sjablonen/02-business-case/modelkaart.md
----# ðŸ“‚ Module 09.04: Technische Modelkaart (Model Card)
+---# 📂 Module 09.04: Technische Modelkaart (Model Card)
 
-## ðŸŽ¯ Doel
+## 🎯 Doel
 
 Dit sjabloon is bedoeld voor ontwikkelaars en auditors. Het documenteert de technische specificaties, trainingsdata en prestaties van het model en reist mee van **Realisatie** naar **Beheer & Optimalisatie**.
 
 ______________________________________________________________________
 
 **Model Naam:** \[Bijv. Klantenservice-Bot-v2\]
-**Versie:** \[X.X.X\]
 **Type:** \[Bijv. LLM (GPT-4o) met RAG\]
-**Datum:** \[DD-MM-JJJJ\]
 
 ______________________________________________________________________
 
-### ðŸ“‚ 1. Doel & Beperkingen
+### 📂 1. Doel & Beperkingen
 
 - **Primair Gebruik:** \[Waar is dit model voor bedoeld?\]
 - **Buiten Scope:** \[Waar mag dit model NIET voor gebruikt worden?\]
@@ -2697,7 +2567,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ 2. Technische Specificaties
+### 📂 2. Technische Specificaties
 
 - **Basismodel (Foundation):** \[Bijv. Azure OpenAI GPT-4\]
 - **Parameters:** \[Bijv. Temperature: 0.7, TopP: 0.9\]
@@ -2707,7 +2577,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ 3. Training & Data
+### 📂 3. Training & Data
 
 - *Alleen invullen indien er sprake is van fine-tuning of eigen training.*
 - **Trainingsdata:** \[Beschrijving dataset\]
@@ -2716,7 +2586,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ 4. Prestaties & Validatie
+### 📂 4. Prestaties & Validatie
 
 *Resultaten geëxtraheerd uit het **Validatierapport** (Fase 3).*
 
@@ -2727,7 +2597,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ 5. Ethische Overwegingen
+### 📂 5. Ethische Overwegingen
 
 - **Bekende Beperkingen:** \[Bijv. "Model heeft moeite met jargon in taal X".\]
 - **Bias Mitigatie:** \[Welke stappen zijn genomen om vooroordelen te verminderen?\]
@@ -2748,16 +2618,6 @@ ______________________________________________________________________
 - **v1.1:** Prompt update na feedback (Naam Developer)
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -2802,16 +2662,12 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: Pre Scan
 
 Source: 09-sjablonen/03-risicoanalyse/pre-scan.md
----# 🚀 Module 09.03: Risico Pre-Scan (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) Checklist)
+---# 🚀 Module 09.03: Risico Pre-Scan (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) Checklist)
 
 ## 📖 Doel
 
@@ -2820,7 +2676,6 @@ Dit sjabloon dient voor de initiële risico-inventarisatie in **Verkenning & Str
 ______________________________________________________________________
 
 **Project:** \[Naam Project\]
-**Datum:** \[DD-MM-JJJJ\]
 **Ingevuld door:** \[Naam\]
 
 ______________________________________________________________________
@@ -2894,7 +2749,7 @@ Dit document bevat de criteria waaraan een project moet voldoen om de overstap n
 
 ______________________________________________________________________
 
-### ? Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): Van Verkenning naar Validatie
+### ? Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): Van Verkenning naar Validatie
 
 - [ ] **Doeldefinitie** is vastgelegd.
 - [ ] **Data-Evaluatie** is positief (Score Groen/Oranje).
@@ -2903,7 +2758,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Gate 2 (Investering PoV) (Investering PoV) (Investering PoV): Van Validatie naar Realisatie
+### ? Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV): Van Validatie naar Realisatie
 
 - [ ] **Praktijkproef** is succesvol afgerond (>90% score).
 - [ ] **Het Kostenoverzicht** is goedgekeurd.
@@ -2911,7 +2766,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar): Van Realisatie naar Levering
+### ? Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar): Van Realisatie naar Levering
 
 - [ ] **Validatierapport** is beschikbaar en goedgekeurd.
 - [ ] **Sturingsinstructies** zijn geversioneerd en gedocumenteerd.
@@ -2919,7 +2774,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Gate 4 (Livegang) (Livegang) (Livegang): Ingebruikname & Beheer
+### ? Gate 4 (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Livegang): Ingebruikname & Beheer
 
 - [ ] Monitoring op **Prestatieverloop** is actief.
 - [ ] Incident procedure is bekend.
@@ -2927,30 +2782,24 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: Doelkaart
 
 Source: 09-sjablonen/06-ai-native-artefacten/doelkaart.md
----# ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
+---# 📂 Module 09.02: De Doelkaart (Intent Map)
 
-## ðŸŽ¯ Doel
+## 🎯 Doel
 
 De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke intentie aan de technische **Sturingsinstructies** en fungeert als de bron waaruit de AI-oplossing wordt gegenereerd.
 
 ______________________________________________________________________
 
 **Project:** \[Naam Project\]
-**Versie:** \[X.X\]
-**Datum:** \[DD-MM-JJJJ\]
 
 ______________________________________________________________________
 
-### ðŸ“‚ A. De Intentie (Human Intent)
+### 📂 A. De Intentie (Human Intent)
 
 *Wat probeert de gebruiker te bereiken en hoe moet de AI zich gedragen?*
 
@@ -2963,7 +2812,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ B. Sturingsinstructies (Context)
+### 📂 B. Sturingsinstructies (Context)
 
 *Welke kennis heeft de AI nodig om dit te doen?*
 
@@ -2975,7 +2824,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ C. Rode Lijnen (Constraints)
+### 📂 C. Rode Lijnen (Constraints)
 
 *Wat mag de AI absoluut niet doen? Dit zijn de harde veiligheidsregels.*
 
@@ -2985,7 +2834,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ D. Toetsing (Evidence)
+### 📂 D. Toetsing (Evidence)
 
 *Hoe bewijzen we dat de Doelkaart werkt? Dit is de input voor het **Validatierapport**.*
 
@@ -2998,19 +2847,8 @@ ______________________________________________________________________
 ### ✅ Goedkeuring door Guardian
 
 **Naam:** \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
-**Datum:** \[DD-MM-JJJJ\]
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -3049,10 +2887,6 @@ ______________________________________________________________________
 - [ ] **Voldoet niet**. Aanpassing van **Sturingsinstructies** vereist.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -3176,9 +3010,7 @@ ______________________________________________________________________
 
 ## 8. Go/No-Go ondertekening
 
-**Tech Lead:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  **Datum:** \_\_\_\_\_\_\_\_
-**AI Product Manager:** \_\_\_\_\_\_\_\_\_\_\_  **Datum:** \_\_\_\_\_\_\_\_
-**Guardian:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  **Datum:** \_\_\_\_\_\_\_\_
+**Tech Lead:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  **AI Product Manager:** \_\_\_\_\_\_\_\_\_\_\_  **Guardian:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ______________________________________________________________________
 
@@ -3210,18 +3042,14 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: Template
 
 Source: 09-sjablonen/10-prompt-engineering/template.md
----# ðŸ“‚ Module 09.05: Prompt Engineering Sjabloon
+---# 📂 Module 09.05: Prompt Engineering Sjabloon
 
-## ðŸŽ¯ Doel
+## 🎯 Doel
 
 Dit sjabloon helpt bij het opbouwen van hoogwaardige **Sturingsinstructies** (System Prompts). Een goed opgebouwde prompt vermindert hallucinaties en verhoogt de betrouwbaarheid.
 
@@ -3256,21 +3084,11 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## ðŸ§ª Voorbeelden (Few-Shot)
+## 🧠ª Voorbeelden (Few-Shot)
 
 *Voeg hier 2-3 voorbeelden toe van Input ↔ Gewenste Output om de AI te sturen.*
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -3360,30 +3178,30 @@ ______________________________________________________________________
 
 ## 1. Planning (week-voor-week)
 
-| Week | Doel                            | Opleveringen (verplicht)                     | Primaire eigenaar    | Gate/Output                                                                         |
-| ---: | ------------------------------- | -------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------- |
-|    1 | Gebruikscasus scherp + scope    | Project Charter (concept)                    | AI PM                | Go/no-go op probleemdefinitie                                                       |
-|    2 | Risico + data haalbaarheid      | Risico Pre-Scan, Data-Evaluatie samenvatting | Guardian + Tech Lead | Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): doorgaan? |
-|    3 | Doel + Rode Lijnen              | Business Case (v1)                           | AI PM + Guardian     | Rode Lijnen akkoord                                                                 |
-|    4 | Testbasis opzetten              | Gouden Set Test + Gouden Set v1              | AI PM + QA/Tech      | Testplan gereed                                                                     |
-|    5 | Prototype (pilot)               | Prototype + Gate Review Checklist (concept)  | Tech Lead            | Interne demo                                                                        |
-|    6 | Pilot meten                     | Doelkaart (pilot)                            | Tech Lead + AI PM    | Gate 2 (Investering PoV) (Investering PoV) (Investering PoV): naar Realisatie?      |
-|    7 | Realisatie: integratiepad       | Integratieplan + loggingplan                 | Tech Lead            | Ready for RC                                                                        |
-|    8 | Privacy & security checks       | Validatierapport (Data&Privacyblad)          | Guardian + Privacy   | “OK to proceed”                                                                     |
-|    9 | Release Candidate bouwen        | RC build + Gate Review Checklist (v1)        | Tech Lead            | RC gereed                                                                           |
-|   10 | RC testen & bewijs              | Doelkaart (RC)                               | QA + Guardian        | Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar): Live?                 |
-|   11 | Live pilot + monitoring         | Monitoring + incidentproces actief           | Tech Lead            | 1e productie-evaluatie                                                              |
-|   12 | Optimaliseren + overdracht      | Beheerplan + nulmeting drift                 | Tech Lead + AI PM    | Overdracht Beheer & Optimalisatie                                                   |
-|   13 | Retrospective + standaardiseren | Lessons learned + playbook updates           | AI CC                | v2.3 backlog                                                                        |
+| Week | Doel                            | Opleveringen (verplicht)                     | Primaire eigenaar    | Gate/Output                                                                                                                                           |
+| ---: | ------------------------------- | -------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    1 | Gebruikscasus scherp + scope    | Project Charter (concept)                    | AI PM                | Go/no-go op probleemdefinitie                                                                                                                         |
+|    2 | Risico + data haalbaarheid      | Risico Pre-Scan, Data-Evaluatie samenvatting | Guardian + Tech Lead | Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): doorgaan? |
+|    3 | Doel + Rode Lijnen              | Business Case (v1)                           | AI PM + Guardian     | Rode Lijnen akkoord                                                                                                                                   |
+|    4 | Testbasis opzetten              | Gouden Set Test + Gouden Set v1              | AI PM + QA/Tech      | Testplan gereed                                                                                                                                       |
+|    5 | Prototype (pilot)               | Prototype + Gate Review Checklist (concept)  | Tech Lead            | Interne demo                                                                                                                                          |
+|    6 | Pilot meten                     | Doelkaart (pilot)                            | Tech Lead + AI PM    | Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV): naar Realisatie?                  |
+|    7 | Realisatie: integratiepad       | Integratieplan + loggingplan                 | Tech Lead            | Ready for RC                                                                                                                                          |
+|    8 | Privacy & security checks       | Validatierapport (Data&Privacyblad)          | Guardian + Privacy   | “OK to proceed”                                                                                                                                       |
+|    9 | Release Candidate bouwen        | RC build + Gate Review Checklist (v1)        | Tech Lead            | RC gereed                                                                                                                                             |
+|   10 | RC testen & bewijs              | Doelkaart (RC)                               | QA + Guardian        | Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar): Live?                             |
+|   11 | Live pilot + monitoring         | Monitoring + incidentproces actief           | Tech Lead            | 1e productie-evaluatie                                                                                                                                |
+|   12 | Optimaliseren + overdracht      | Beheerplan + nulmeting drift                 | Tech Lead + AI PM    | Overdracht Beheer & Optimalisatie                                                                                                                     |
+|   13 | Retrospective + standaardiseren | Lessons learned + playbook updates           | AI CC                | v2.3 backlog                                                                                                                                          |
 
 ______________________________________________________________________
 
 ## 2. Minimale beslismomenten (Gates)
 
-- **Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (einde week 2):** risico + data haalbaarheid bevestigd
-- **Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (einde week 6):** pilotresultaat (Doelkaart) voldoet aan Bewijsstandaarden
-- **Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (einde week 10):** RC voldoet aan Bewijsstandaarden + logging/privacy geregeld
-- **Gate 4 (Livegang) (Livegang) (Livegang) (week 12):** overdracht naar beheer incl. nulmeting prestatieverloop
+- **Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (einde week 2):** risico + data haalbaarheid bevestigd
+- **Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (einde week 6):** pilotresultaat (Doelkaart) voldoet aan Bewijsstandaarden
+- **Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (einde week 10):** RC voldoet aan Bewijsstandaarden + logging/privacy geregeld
+- **Gate 4 (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (week 12):** overdracht naar beheer incl. nulmeting prestatieverloop
 
 ______________________________________________________________________
 
@@ -3567,10 +3385,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 01 Ai Verkenner
@@ -3739,10 +3553,6 @@ De **[Track Sequentie](04-track-sequentie.md)** pagina beschrijft hoe organisati
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 01 Strategische Heruitvinding
@@ -3800,10 +3610,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: 01 Strategische Heruitving Accelerators
@@ -3836,15 +3642,15 @@ ______________________________________________________________________
 # Document: Index
 
 Source: 10-doorlopende-verbetering/index.md
----﻿# ðŸ“‚ Doorlopende Verbetering
+---﻿# 📂 Doorlopende Verbetering
 
-## ðŸŽ¯ Doel
+## 🎯 Doel
 
 AI-systemen zijn niet statisch. In deze module beschrijven we hoe we de feedback-loop inrichten om het systeem continu te verbeteren op basis van data en gebruikerservaringen.
 
 ______________________________________________________________________
 
-## ðŸ“‚ Onderdelen
+## 📂 Onderdelen
 
 - [Retrospectives](01-retrospectives.md)
 - [Kaizen Logs](02-kaizen-logs.md)
@@ -3852,16 +3658,6 @@ ______________________________________________________________________
 - [Batenrealisatie](04-batenrealisatie.md)
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -3904,31 +3700,21 @@ ______________________________________________________________________
 # Document: Index
 
 Source: 11-project-afsluiting/index.md
----﻿# ðŸ“‚ Project Afsluiting
+---﻿# 📂 Project Afsluiting
 
-## ðŸŽ¯ Doel
+## 🎯 Doel
 
 Het formeel afronden van een AI-project, met de focus op het borgen van de opgedane kennis en het overdragen van verantwoordelijkheden naar de beheerorganisatie.
 
 ______________________________________________________________________
 
-## ðŸ“‚ Onderdelen
+## 📂 Onderdelen
 
 - [Lessons Learned](01-lessons-learned.md)
 - [Overdracht Procedures](02-overdracht-procedures.md)
 - [Batenrealisatie](03-batenrealisatie.md)
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -4032,10 +3818,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: Index
@@ -4089,10 +3871,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
 ______________________________________________________________________
 
 # Document: Release Notes
@@ -4117,7 +3895,7 @@ Source: release-notes.md
 
 ### Breaking changes
 
-- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) en Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar).
+- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) en Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar).
 - Bewijs moet voldoen aan de specifieke normen (feitelijkheid, relevantie, etc.) zoals vastgelegd in **Bewijsstandaarden**.
 
 ### Navigatie & Structuur

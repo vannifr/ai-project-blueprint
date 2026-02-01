@@ -19,13 +19,9 @@ laatst_herzien: '2026-02-01'
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- De Realisatie-fase is afgerond (Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) goedgekeurd).
+- De Realisatie-fase is afgerond (Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) goedgekeurd).
 - Alle geautomatiseerde tests zijn geslaagd.
 - De infrastructuur voor **Ingebruikname** is gereed.
 - Het implementatieteam is stand-by.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

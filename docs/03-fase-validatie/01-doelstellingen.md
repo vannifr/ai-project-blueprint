@@ -15,13 +15,9 @@ Het primaire doel van de Validatiefase is bewijzen dat het idee werkt en financi
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) is goedgekeurd.
+- Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) is goedgekeurd.
 - De Data-Evaluatie is afgerond met positief resultaat.
 - Er is een testset beschikbaar met representatieve voorbeelden.
 - Het team heeft toegang tot de benodigde tools en data.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

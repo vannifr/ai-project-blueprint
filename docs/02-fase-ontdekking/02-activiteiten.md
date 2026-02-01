@@ -54,7 +54,3 @@ Een eerste scan op juridische en ethische obstakels.
 | **Stakeholders**        | **I**nformed: Worden op de hoogte gehouden van bevindingen.            |
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

@@ -19,8 +19,6 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 ______________________________________________________________________
 
-**Status:** \[Concept / Goedgekeurd\]
-**Datum:** \[DD-MM-JJJJ\]
 **Sponsor:** \[Naam Opdrachtgever\]
 
 ______________________________________________________________________
@@ -84,8 +82,8 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Besluit Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)
+### ? Besluit Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)
 
 - [ ] **Go: Fast Lane FL-1**
-- [ ] **Go: Standaard lifecycle Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)**
+- [ ] **Go: Standaard lifecycle Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)**
 - [ ] **No-Go / Pauze**

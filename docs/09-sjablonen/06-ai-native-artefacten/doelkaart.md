@@ -3,21 +3,19 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
+# 📂 Module 09.02: De Doelkaart (Intent Map)
 
-## ðŸŽ¯ Doel
+## 🎯 Doel
 
 De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke intentie aan de technische **Sturingsinstructies** en fungeert als de bron waaruit de AI-oplossing wordt gegenereerd.
 
 ______________________________________________________________________
 
 **Project:** \[Naam Project\]
-**Versie:** \[X.X\]
-**Datum:** \[DD-MM-JJJJ\]
 
 ______________________________________________________________________
 
-### ðŸ“‚ A. De Intentie (Human Intent)
+### 📂 A. De Intentie (Human Intent)
 
 *Wat probeert de gebruiker te bereiken en hoe moet de AI zich gedragen?*
 
@@ -30,7 +28,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ B. Sturingsinstructies (Context)
+### 📂 B. Sturingsinstructies (Context)
 
 *Welke kennis heeft de AI nodig om dit te doen?*
 
@@ -42,7 +40,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ C. Rode Lijnen (Constraints)
+### 📂 C. Rode Lijnen (Constraints)
 
 *Wat mag de AI absoluut niet doen? Dit zijn de harde veiligheidsregels.*
 
@@ -52,7 +50,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ“‚ D. Toetsing (Evidence)
+### 📂 D. Toetsing (Evidence)
 
 *Hoe bewijzen we dat de Doelkaart werkt? Dit is de input voor het **Validatierapport**.*
 
@@ -65,16 +63,5 @@ ______________________________________________________________________
 ### ✅ Goedkeuring door Guardian
 
 **Naam:** \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
-**Datum:** \[DD-MM-JJJJ\]
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

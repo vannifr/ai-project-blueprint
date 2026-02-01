@@ -17,7 +17,3 @@ Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wi
 | **Laag**     | Geen **Rode Lijnen** geraakt                           | Syntactische + Minimale Gedragscheck            | **Minimaal Risico** |
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

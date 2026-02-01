@@ -8,7 +8,7 @@ REPLACEMENTS = {
     'â€™': '’',   # smart quote / apostrophe
     'â€‘': '‑',   # non-breaking hyphen
     'â€œ': '“',   # left double quote
-    'â€': '”',    # right double quote (often seen as â€ followed by space or punctuation)
+    'â€': '”',    # right double quote
     'Ã«': 'ë',
     'Ã©': 'é',
     'Ã¯': 'ï',
@@ -16,17 +16,27 @@ REPLACEMENTS = {
     'Ã³': 'ó',
     'Ã¡': 'á',
     'Ãº': 'ú',
-    'Ã': 'à',     # Often used in "Ã " -> "à "
-    'â‰¥': '≥',   # greater than or equal
-    'â‰¤': '≤',   # less than or equal
-    'â†’': '→',   # arrow
-    'â‰': '≠',    # not equal
+    'Ã': 'à',
+    'â‰¥': '≥',
+    'â‰¤': '≤',
+    'â†’': '→',
+    'â‰': '≠',
     'âš–ï¸': '⚖️',
     'âš™ï¸': '⚙️',
     'âœ…': '✅',
     'ðŸ§™”â™‚ï¸': '🧙‍♂️',
     'â†”': '↔',
     'Â©': '©',
+    '## Â': '',
+    'ðŸ“‚': '📂',
+    'ðŸŽ¯': '🎯',
+    'ðŸš€': '🚀',
+    'ðŸ“–': '📖',
+    'ðŸ“📍': '📍',
+    'ðŸ’¼': '💼',
+    'ðŸ›': '🛠️',
+    'ðŸ“‹': '📋',
+    'ðŸ§': '🧠',
 }
 
 def fix_file(file_path):
@@ -40,12 +50,22 @@ def fix_file(file_path):
     try:
         text = content.decode('utf-8')
     except UnicodeDecodeError:
-        # Fallback if it's actually latin-1
         text = content.decode('latin-1')
 
     original_text = text
     for mojibake, correct in REPLACEMENTS.items():
         text = text.replace(mojibake, correct)
+
+    # Remove redundant version/date/status blocks
+    text = re.sub(r'\*\*Versie:\*\*.*\n', '', text)
+    text = re.sub(r'\*\*Datum:\*\*.*\n', '', text)
+    text = re.sub(r'\*\*Status:\*\*.*\n', '', text)
+
+    # Remove redundant manual footers
+    text = re.sub(r'______________________________________________________________________\s+© 2026 AI Project Playbook.*', '', text, flags=re.DOTALL)
+
+    # Clean up trailing whitespace and multiple newlines at the end
+    text = text.strip() + '\n'
 
     if text != original_text or content.startswith(b'\xef\xbb\xbf'):
         print(f"Fixing {file_path}")
@@ -64,7 +84,6 @@ def main():
                 if fix_file(file_path):
                     fixed_count += 1
 
-    # Also fix the export file if it exists
     if os.path.exists('FULL_PLAYBOOK_EXPORT.md'):
         fix_file('FULL_PLAYBOOK_EXPORT.md')
         fixed_count += 1

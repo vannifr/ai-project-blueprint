@@ -57,7 +57,3 @@ Een volledige raming van investering en operationele kosten.
 | **Stakeholders**       | **I**nformed: Ontvangen updates over de voortgang.                                      |
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

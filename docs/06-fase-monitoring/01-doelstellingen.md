@@ -15,13 +15,9 @@ Het primaire doel van de Beheer & Optimalisatiefase is het waarborgen van de pre
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- Systeem is live (Gate 4 (Livegang) (Livegang) (Livegang) goedgekeurd).
+- Systeem is live (Gate 4 (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) goedgekeurd).
 - Monitoring dashboards en alerts zijn actief.
 - Beheerteam (Operations/MLOps) is geïnstrueerd en stand-by.
 - Incident Response Plan is getest.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

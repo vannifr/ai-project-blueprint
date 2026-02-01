@@ -48,7 +48,3 @@ ______________________________________________________________________
 1. **Nauwkeurigheid & Veiligheid:** Passende niveaus van robuustheid en cybersecurity.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

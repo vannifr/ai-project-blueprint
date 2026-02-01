@@ -22,7 +22,7 @@ laatst_herzien: '2026-02-01'
 
 ### Breaking changes
 
-- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) en Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar).
+- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) en Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar).
 - Bewijs moet voldoen aan de specifieke normen (feitelijkheid, relevantie, etc.) zoals vastgelegd in **Bewijsstandaarden**.
 
 ### Navigatie & Structuur

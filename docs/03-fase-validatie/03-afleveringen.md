@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Opleveringen & Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Validatie)
+# 🚀 Opleveringen & Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Validatie)
 
 ## 6. Opleveringen (Afleveringen)
 
@@ -15,7 +15,7 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 - **Het Kostenoverzicht:** Volledige business case met investering en ROI.
 - **Risico-update:** Verfijnde risico-inventarisatie op basis van bevindingen.
 
-## ? Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) Review Checklist
+## ? Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) Review Checklist
 
 - [ ] Voldoet het bewijs aan de normen uit **Bewijsstandaarden** (Feitelijkheid, Relevantie, etc.)?
 - [ ] Is het **Doelkaart Validatierapport** volledig ingevuld en ondertekend?

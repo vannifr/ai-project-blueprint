@@ -70,7 +70,3 @@ ______________________________________________________________________
 | **DevOps**             | **C**onsulted: Adviseert over **Ingebruikname** en infrastructuur.    |
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

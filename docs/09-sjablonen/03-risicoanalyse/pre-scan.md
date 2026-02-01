@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Module 09.03: Risico Pre-Scan (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) Checklist)
+# 🚀 Module 09.03: Risico Pre-Scan (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) Checklist)
 
 ## 📖 Doel
 
@@ -12,7 +12,6 @@ Dit sjabloon dient voor de initiële risico-inventarisatie in **Verkenning & Str
 ______________________________________________________________________
 
 **Project:** \[Naam Project\]
-**Datum:** \[DD-MM-JJJJ\]
 **Ingevuld door:** \[Naam\]
 
 ______________________________________________________________________

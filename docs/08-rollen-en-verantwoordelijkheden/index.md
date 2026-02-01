@@ -3,19 +3,19 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
+# 📂 Module 08: Rollen & Verantwoordelijkheden
 
-## ðŸŽ¯ Wie doet wat in een AI-project?
+## 🎯 Wie doet wat in een AI-project?
 
 In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
 
 ______________________________________________________________________
 
-## ðŸ“‚ 1. Het Kernteam (The Squad)
+## 📂 1. Het Kernteam (The Squad)
 
 Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie.
 
-### ðŸ§™”â™‚ï¸ De AI Product Manager (Business Lead)
+### 🧠™”â™‚ï¸ De AI Product Manager (Business Lead)
 
 Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
 
@@ -41,21 +41,21 @@ Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de
 
 ______________________________________________________________________
 
-## ðŸ“‚ 2. De Ondersteunende Rollen
+## 📂 2. De Ondersteunende Rollen
 
 Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
 
 | Rol                      | Focus           | Taak                                                                     |
 | :----------------------- | :-------------- | :----------------------------------------------------------------------- |
 | ðŸ’¾ **Data Engineer**   | Datakwaliteit   | De ruggengraat van de data. Zorgt dat data schoon aankomt bij het model. |
-| ðŸ§ª **AI Tester (QA)**  | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.        |
+| 🧠ª **AI Tester (QA)**   | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.        |
 | ðŸ“¢ **Adoptie Manager** | Verandering     | Zorgt dat mensen de tool echt gebruiken (ADKAR-model).                   |
 
 ______________________________________________________________________
 
-## ðŸ“‚ 3. Strategisch Niveau (Steering Com)
+## 📂 3. Strategisch Niveau (Steering Com)
 
-### ðŸš€ Chief AI Officer (CAIO)
+### 🚀 Chief AI Officer (CAIO)
 
 Sponsor van het programma. Bepaalt de overkoepelende strategie en wijst budget toe.
 
@@ -63,13 +63,3 @@ Sponsor van het programma. Bepaalt de overkoepelende strategie en wijst budget t
 - **Eigenaarschap:** Bewaakt het gehele portfolio en de AI-volwassenheid van de organisatie.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

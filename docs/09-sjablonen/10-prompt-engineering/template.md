@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# ðŸ“‚ Module 09.05: Prompt Engineering Sjabloon
+# 📂 Module 09.05: Prompt Engineering Sjabloon
 
-## ðŸŽ¯ Doel
+## 🎯 Doel
 
 Dit sjabloon helpt bij het opbouwen van hoogwaardige **Sturingsinstructies** (System Prompts). Een goed opgebouwde prompt vermindert hallucinaties en verhoogt de betrouwbaarheid.
 
@@ -40,18 +40,8 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## ðŸ§ª Voorbeelden (Few-Shot)
+## 🧠ª Voorbeelden (Few-Shot)
 
 *Voeg hier 2-3 voorbeelden toe van Input ↔ Gewenste Output om de AI te sturen.*
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.

@@ -50,7 +50,3 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 | **Eindgebruikers**         | **I**nformed/Consulted: Worden getraind en leveren de eerste praktijkfeedback.      |
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

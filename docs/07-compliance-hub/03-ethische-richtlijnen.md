@@ -44,7 +44,3 @@ De Guardian fungeert als het morele kompas van het project:
 - Heeft veto-mandaat bij ethische overschrijdingen.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft

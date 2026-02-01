@@ -25,7 +25,3 @@ Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie valida
 - **Methode:** Scenario-gebaseerde evaluatie door experts of geavanceerde simulatie.
 
 ______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
