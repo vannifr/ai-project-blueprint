@@ -13,16 +13,16 @@ laatst_herzien: '2026-02-01'
 
 ### Belangrijkste wijzigingen
 
-- **Executive Summary (Strategisch Kader.01)**: Nieuwe managementsamenvatting en implementatie-roadmap.
+- **Managementsamenvatting (Strategisch Kader.01)**: Nieuwe managementsamenvatting en implementatie-stappenplan.
 - **Snelle Route (Fast Lane, Verkenning & Strategie.FL)**: Versnelde procedure voor AI-experimenten met een minimaal risico.
 - **Technische Standaarden (Technische Standaarden)**: Concrete criteria voor "productiewaardig" en de introductie van een automation ladder.
 - **90-Dagen Startplan (90-Dagen Startplan)**: Volledig uitgewerkt 13-weken plan voor teams.
-- **Privacy-by-Design**: Nieuwe template (**TMP-09.07 Data & Privacyblad**) en DPIA-triggers in de Risico Pre-Scan (**TMP-09.03**).
+- **Privacy-by-Design**: Nieuwe sjabloon (**TMP-09.07 Data & Privacyblad**) en DPIA-triggers in de Risico Pre-Scan (**TMP-09.03**).
 - **Bewijsstandaarden (AI-Native Fundamenten.07)**: Strikte normen voor validatie en rapportage (**TMP-09.06**).
 
 ### Breaking changes
 
-- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 (Investering PoV) en Gate 3 (Productie-klaar).
+- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) en Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar).
 - Bewijs moet voldoen aan de specifieke normen (feitelijkheid, relevantie, etc.) zoals vastgelegd in **Bewijsstandaarden**.
 
 ### Navigatie & Structuur

@@ -33,7 +33,7 @@ Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strate
 1. Implementeer geautomatiseerde compliance monitoring (EU AI Act)
 1. Stel AI Board of Ethics Committee in
 1. Optimaliseer kosten: review cloud spending, model-compressie
-1. Ontwikkel herbruikbare accelerators en templates
+1. Ontwikkel herbruikbare accelerators en sjablonen
 1. Investeer in energie-efficiëntie (ESG doelen)
 1. Bouw een AI Center of Excellence
 

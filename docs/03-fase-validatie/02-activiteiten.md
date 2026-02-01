@@ -37,7 +37,7 @@ Een volledige raming van investering en operationele kosten.
 #### Operationele Kosten (per maand/jaar)
 
 - **Gebruikskosten:** Cloud/API-kosten per taak of transactie
-- **Onderhoud:** Monitoring, updates, support
+- **Onderhoud:** Monitoring, updates, ondersteuning
 - **Risico:** Mogelijke kosten van fouten of incidenten
 
 #### Return on Investment (ROI)

@@ -1,6 +1,6 @@
 # AI Project Playbook - Full Export
 
-Generated on: 2026-02-01 21:05:38.365784
+Generated on: 2026-02-01 21:11:47.097744
 
 ______________________________________________________________________
 
@@ -20,7 +20,7 @@ ______________________________________________________________________
 - 📖 **[Leeswijzer & Navigatie](00-strategisch-kader/00-leeswijzer.md):** Hoe u dit playbook het meest effectief gebruikt.
 - 👥 **[Rollen & Verantwoordelijkheden](08-rollen-en-verantwoordelijkheden/index.md):** Wie doet wat in een AI-team?
 - 📅 **[90-Dagen Startplan](12-90-dagen-roadmap/index.md):** Ga direct van strategie naar actie.
-- 🧰 **[De toolkit](09-sjablonen/index.md):** Alle templates en sjablonen op één plek.
+- 🧰 **[De toolkit](09-sjablonen/index.md):** Alle sjablonen en sjablonen op één plek.
 
 ______________________________________________________________________
 
@@ -54,7 +54,7 @@ ______________________________________________________________________
 # Document: 00 Executive Summary
 
 Source: 00-strategisch-kader/00-executive-summary.md
----# Module 00.01: Executive Summary
+---# Module 00.01: Managementsamenvatting
 
 ## 1. Wat is dit Playbook?
 
@@ -69,14 +69,14 @@ Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot be
 
 ## 3. Wat levert dit concreet op?
 
-1. **Snellere time‑to‑value** via standaard templates en gates
+1. **Snellere time‑to‑value** via standaard sjablonen en gates
 1. **Minder incidenten** via Rode Lijnen + veiligheidstesten + incidentproces
 1. **Audit‑klaar dossier** (bewijs‑pakket) voor interne/externe toetsing
-1. **Herhaalbaarheid**: elke use case volgt dezelfde lifecycle en standaard deliverables
+1. **Herhaalbaarheid**: elke gebruikscasus volgt dezelfde lifecycle en standaard opleveringen
 
 ## 4. Hoe gebruik je het Playbook (snelle start)?
 
-**Als je vandaag start met 1 use case:**
+**Als je vandaag start met 1 gebruikscasus:**
 
 1. Vul **Project Charter Project Charter** in (1 A4).
 1. Doe **Risico Pre-Scan Risico Pre‑Scan** en bepaal risiconiveau.
@@ -87,17 +87,17 @@ Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot be
 
 ## 5. Implementatie (organisatiebreed) – aanbevolen aanpak
 
-- **Week 1–2:** kies 1 pilot use case + stel kernrollen aan (AI PM, Tech Lead, Guardian).
+- **Week 1–2:** kies 1 pilot gebruikscasus + stel kernrollen aan (AI PM, Tech Lead, Guardian).
 - **Week 3–6:** voer lifecycle uit (Modules 02–04), inclusief bewijsstandaarden (Bewijsstandaarden).
 - **Week 7–8:** livegang + beheer (Modules 05–06).
 - **Week 9:** evaluatie + update Playbook naar v1.1 op basis van leerpunten.
 
 ## 6. Navigatie (wat moet je lezen?)
 
-- **Start:** MOD‑00‑00 Leeswijzer & MOD‑00‑01 Executive Summary
+- **Start:** MOD‑00‑00 Leeswijzer & MOD‑00‑01 Managementsamenvatting
 - **Proces:** Verkenning & Strategie t/m Beheer & Optimalisatie
 - **Governance:** Compliance Hub + Bewijsstandaarden (Bewijsstandaarden)
-- **Templates:** Toolkit & Templates (Project Charter t/m Validatierapport)
+- **Sjablonen:** Toolkit & Sjablonen (Project Charter t/m Validatierapport)
 
 ______________________________________________________________________
 
@@ -116,7 +116,7 @@ ______________________________________________________________________
 
 ### 🎯 Ik wil een overzicht voor het management
 
-Ga naar **[Module 00.01: Executive Summary](00-executive-summary.md)** voor een samenvatting van de kernwaarden en het implementatietraject.
+Ga naar **[Module 00.01: Managementsamenvatting](00-executive-summary.md)** voor een samenvatting van de kernwaarden en het implementatietraject.
 
 ### 🎯 Ik wil snel experimenteren (Fast Lane)
 
@@ -144,7 +144,7 @@ ______________________________________________________________________
 ## 📍ï¸  Hoe werkt dit Playbook?
 
 - **Modulair:** Elke module staat op zichzelf. U hoeft Module 01 niet te lezen om Module 04 te begrijpen.
-- **Actiegericht:** We gebruiken geen onduidelijke taal, maar checklists en templates voor direct resultaat.
+- **Actiegericht:** We gebruiken geen onduidelijke taal, maar checklists en sjablonen voor direct resultaat.
 - **Traceerbaar:** Elk project levert standaard documenten op (**Validatierapport**). Dit vormt uw dossier voor de EU AI Act.
 
 ______________________________________________________________________
@@ -156,567 +156,6 @@ ______________________________________________________________________
 - 📍 **Checklist:** Zijn we klaar?
 - 📍ï¸  **Risico:** Let op!
 - 📍 **Rollen:** Wie is betrokken?
-
-______________________________________________________________________
-
-# Document: 01 Ai Levenscyclus
-
-Source: 00-strategisch-kader/01-ai-levenscyclus.md
----# 🚀 AI Levenscyclus
-
-## 📖 Doel
-
-Dit document definieert de volledige methodologie voor AI projecten en vormt de fundering van de AI levenscyclus. Het beschrijft de 5 fasen van AI projecten en fungeert als centrale routekaart voor het team.
-
-______________________________________________________________________
-
-## 📖 Overzicht van de AI Levenscyclus
-
-Een succesvol AI-project is geen lineair proces, maar een iteratieve cyclus waarbij techniek, business en compliance constant op elkaar worden afgestemd. De AI levenscyclus bestaat uit 5 fasen die elkaar overlappen en versterken:
-
-```mermaid
-graph TD
-    A[Verkenning & Strategie] --> B[Validatie]
-    B --> C[Realisatie]
-    C --> D[Levering]
-    D --> E[Beheer & Optimalisatie]
-    E --> A
-```
-
-### Belangrijkste Kenmerken
-
-- **Iteratief:** Elke fase leert van de vorige en voedt de volgende.
-- **Hybride:** Combineert voorspelbare planning met agile uitvoering (zie [Hybride Methodologie](02-hybride-methodologie.md)).
-- **Compliance-First:** EU AI Act compliance is geïntegreerd in elke fase.
-- **Traceerbaarheid:** Elke beslissing wordt ondersteund door bewijs.
-- **Mensgerichte Regie:** Mensen blijven verantwoordelijk voor AI-beslissingen.
-
-______________________________________________________________________
-
-## 📖 De Vijf Fasen van de Levenscyclus
-
-> \[!TIP\]
-> **De Fast Lane (De Innovatie-route)**
-> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1 (Go/No-Go Ontdekking)) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
-
-### 🎯 Fase 1: Verkenning & Strategie
-
-**📍 Doel:** Het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten.
-
-#### 📍 Kernactiviteiten
-
-- **Probleemverkenning:** Het probleem definiëren vanuit de gebruiker, niet vanuit de techniek.
-- **Data-Evaluatie:** Beoordelen van Toegang, Kwaliteit en Relevantie van de data.
-- **Risico-Inventarisatie:** Bepalen of de toepassing valt onder de EU AI Act (hoog risico).
-
-______________________________________________________________________
-
-### 🎯 Fase 2: Validatie
-
-**📍 Doel:** Bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
-
-#### 📍 Kernactivities
-
-- **Praktijkproef (PoV):** Kleinschalig experiment om de hypothese te testen.
-- **Het Kostenoverzicht:** Schatten van investering versus ROI.
-- **Eerlijkheidstoets (Bias Detectie):** Eerste scan op ongewenste vooroordelen in het model.
-
-______________________________________________________________________
-
-### 🎯 Fase 3: Realisatie
-
-**📍 Doel:** Het bouwen van een robuuste, productiewaardige oplossing.
-
-#### 📍 Kernactiviteiten
-
-- **Specificatie-eerst Methode:** Eerst tests schrijven, dan pas de implementatie.
-- **Kenniskoppeling (RAG):** De AI verbinden aan interne bedrijfsinformatie.
-- **Afstellen van het model:** Optimaliseren van de parameters en **Sturingsinstructies**.
-
-______________________________________________________________________
-
-### 🎯 Fase 4: Levering
-
-**📍 Doel:** Een veilige **Ingebruikname** en acceptatie door de organisatie.
-
-#### 📍 Kernactiviteiten
-
-- **Ingebruikname Plan:** Stapsgewijze uitrol naar productie.
-- **Menselijke Regie:** Implementeren van toezichtsprotocollen.
-- **Adoptie & Training:** Gebruikers opleiden in de nieuwe werkwijze.
-
-______________________________________________________________________
-
-### 🎯 Fase 5: Beheer & Optimalisatie
-
-**📍 Doel:** Waarde behouden en de oplossing actueel houden.
-
-#### 📍 Kernactiviteiten
-
-- **Prestatieverloop Meten:** Continu monitoren van accuraatheid en drift.
-- **Kostenbeheersing:** Het verbruik en de middelen optimaliseren.
-- **Feedbacklus:** Gebruikerservaringen terugkoppelen naar Fase 1.
-
-______________________________________________________________________
-
-## Gerelateerde Modules
-
-- [Hybride Methodologie](02-hybride-methodologie.md)
-- [Governance Model](03-governance-model.md)
-- [Agile Antipatronen](04-agile-antipatronen-niet-toegestaan.md)
-- [Project Initiatie](05-project-initiatie.md)
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-# Document: 02 Hybride Methodologie
-
-Source: 00-strategisch-kader/02-hybride-methodologie.md
----# 🚀 Hybride Methodologie
-
-## 📖 Doel
-
-Dit document beschrijft de hybride aanpak van het AI Project Playbook, waarbij voorspelbare planning (Waterfall) wordt gecombineerd met iteratieve uitvoering (Agile) voor een optimale balans tussen structuur en flexibiliteit.
-
-______________________________________________________________________
-
-## 📖 Concept
-
-De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vereisen voor budgettering en compliance, en anderzijds extreme flexibiliteit nodig hebben tijdens de modelontwikkeling.
-
-### Voorspelbare Elementen (Waterfall)
-
-- Strategische planning en **Het Kostenoverzicht**.
-- Compliance en governance checkpoints.
-- Risico-inventarisatie.
-- Mijlpaal planning (**Gates**).
-
-### Iteratieve Elementen (Agile)
-
-- **Afstellen van het model** en tuning.
-- User feedback loops.
-- *Experiment-driven development*.
-- Continue verbetering (*Kaizen*).
-
-______________________________________________________________________
-
-## 📖 Praktische Implementatie
-
-```mermaid
-gantt
-    title Hybride Methodologie
-    dateFormat  YYYY-MM-DD
-    section Voorspelbaar
-    Verkenning & Strategie     :p1, 2024-01-01, 2w
-    Het Kostenoverzicht          :p2, after p1, 1w
-    section Iteratief
-    Realisatie Sprints 1-4     :s1, after p2, 4w
-    section Voorspelbaar
-    Gate 3 (Productie-klaar) Review              :m1, after s1, 1w
-    section Iteratief
-    Realisatie Sprints 5-8     :s2, after m1, 4w
-```
-
-______________________________________________________________________
-
-## ? Voordelen
-
-- **Structuur:** Duidelijke planning en governance voor management.
-- **Flexibiliteit:** Snelle aanpassing aan nieuwe data-inzichten voor het team.
-- **Risicobeheer:** Proactieve risico-identificatie en mitigatie.
-- **Compliance:** Geïntegreerde EU AI Act compliance reviews.
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-# Document: 03 Governance Model
-
-Source: 00-strategisch-kader/03-governance-model.md
----# 🚀 Governance Model
-
-## 📖 Doel
-
-Het definiëren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
-
-______________________________________________________________________
-
-## 📖 Structuur
-
-Het governance model bestaat uit drie lagen die samenwerken om strategie, operatie en techniek te verbinden:
-
-1. **Strategisch Niveau:** Focus op visie en **Het Kostenoverzicht**.
-1. **Operationeel Niveau:** Focus op uitvoering en prioriteit.
-1. **Technisch Niveau:** Focus op kwaliteit en **Ingebruikname**.
-
-______________________________________________________________________
-
-## 📖 Verantwoordelijkheden (RACI)
-
-| Rol                          | Niveau        | Kernverantwoordelijkheden                                      |
-| :--------------------------- | :------------ | :------------------------------------------------------------- |
-| **CAIO** (Chief AI Officer)  | Strategisch   | Strategie, ROI oversight, Governance eindverantwoordelijkheid. |
-| **Executive Committee**      | Strategisch   | Budgetgoedkeuring, strategische alignment.                     |
-| **AI Product Manager**       | Operationeel  | Use case prioriteit, Stakeholder management, Backlog eigenaar. |
-| **AI Transformation Office** | Operationeel  | Procesbewaking, standaardisatie, training.                     |
-| **Data Scientist**           | Technisch     | Model development, validatie, experimentatie.                  |
-| **ML Engineering**           | Technisch     | **Ingebruikname** pipelines, monitoring, infrastructuur.       |
-| **Guardian (Ethicist)**      | Ondersteunend | Eerlijkheidstoetsen, Bias audits, Compliance checks.           |
-| **Security Officer**         | Ondersteunend | Security maatregelen, Privacy waarborging.                     |
-
-______________________________________________________________________
-
-## ? Besluitvormingsproces (Gate Model)
-
-```mermaid
-flowchart TD
-    A[Initiatief] --> B{Gate 1 (Go/No-Go Ontdekking): Verkenning}
-    B -->|Go| C[Validatie]
-    B -->|No Go| X[Stop]
-    C --> D{Gate 2 (Investering PoV): Kostenplaatje}
-    D -->|Go| E[Realisatie]
-    D -->|No Go| X
-    E --> F{Gate 3 (Productie-klaar): Ingebruikname}
-    F -->|Go| G[Beheer & Optimalisatie]
-    F -->|No Go| X
-    G --> H{Gate 4 (Livegang): Continue?}
-    H -->|Ja| A
-    H -->|Nee| I[Afsluiting]
-```
-
-## ? Gate Reviews
-
-Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md) voor specifieke criteria per fase.
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-# Document: 04 Agile Antipatronen Niet Toegestaan
-
-Source: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
----# 🚀 Agile Antipatronen (NOT DONE)
-
-## 📖 Doel
-
-Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatronen die absoluut vermeden moeten worden om falen, onethisch gedrag of compliance-issues te voorkomen.
-
-______________________________________________________________________
-
-## 📖 De "NOT DONE" Lijst
-
-### ? Geen Eerlijkheidstoets (Bias Audit)
-
-- **Regel:** AI systemen moeten regelmatig worden gecontroleerd op bias.
-- **Impact:** Discriminatie en reputatieschade.
-- **Status:** Geen **Eerlijkheidstoetsen** = **NIET TOEGESTAAN**.
-
-### ? Geen Menselijke Regie
-
-- **Regel:** AI beslissingen (zeker bij hoog risico) moeten menselijke goedkeuring of 'in-the-loop' toezicht hebben conform de gekozen **Samenwerkingsmodus**.
-- **Impact:** Ongecontroleerde fouten.
-- **Status:** Geen menselijke regie = **NIET TOEGESTAAN**.
-
-### ? Geen Continue Monitoring
-
-- **Regel:** Modellen degraderen na verloop van tijd (**Prestatieverloop**). Continue monitoring is vereist.
-- **Impact:** Performance verlies en onbetrouwbare output.
-- **Status:** Geen monitoring = **NIET TOEGESTAAN**.
-
-### ? Geen Governance Checkpoints
-
-- **Regel:** Elke fase moet formele checkpoints hebben (**Gates**).
-- **Impact:** Onbeheersbare risico's en budgetoverschrijding.
-- **Status:** Geen checkpoints = **NIET TOEGESTAAN**.
-
-### ? Geen Stakeholder Engagement
-
-- **Regel:** Stakeholders en eindgebruikers moeten vanaf dag één betrokken zijn.
-- **Impact:** Oplossingen die niet gebruikt worden.
-- **Status:** Geen engagement = **NIET TOEGESTAAN**.
-
-### ? Geen Explainability
-
-- **Regel:** AI beslissingen moeten verklaarbaar zijn voor de gebruiker.
-- **Impact:** "Black box" wantrouwen en niet-naleving van regelgeving.
-- **Status:** Geen uitlegbaarheid = **NIET TOEGESTAAN**.
-
-### ? Geen Data-Evaluatie
-
-- **Regel:** Input data moet valide, schoon en representatief zijn.
-- **Impact:** "Garbage in, garbage out".
-- **Status:** Geen **Data-Evaluatie** = **NIET TOEGESTAAN**.
-
-### ? Geen Risicobeheer
-
-- **Regel:** Risico's moeten proactief geïdentificeerd en gemitigeerd worden.
-- **Impact:** Onverwachte incidenten.
-- **Status:** Geen risicobeheer = **NIET TOEGESTAAN**.
-
-### ? Geen Traceerbaarheid
-
-- **Regel:** Van elke modelversie moet te herleiden zijn op welke data en met welke **Sturingsinstructies** deze is getraind.
-- **Impact:** Onmogelijkheid om fouten te auditen.
-- **Status:** Geen traceerbaarheid = **NIET TOEGESTAAN**.
-
-______________________________________________________________________
-
-## 📖 Implementatie
-
-Gebruik deze lijst als:
-
-1. **Checklist** tijdens project initiatie.
-1. **Review criteria** tijdens Gate Reviews.
-1. **Training materiaal** voor teams om bewustzijn te creëren.
-1. **Audit tool** voor compliance verificatie.
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-# Document: 05 Project Initiatie
-
-Source: 00-strategisch-kader/05-project-initiatie.md
----# 🚀 Project Initiatie
-
-## 📖 Doel
-
-Het formaliseren van de start van een AI-project door het vastleggen van heldere doelen, rollen, verantwoordelijkheden en kaders in een **AI Project Charter**.
-
-______________________________________________________________________
-
-## 📖 Initiatie Stappen
-
-### 1. Project Charter Opstellen
-
-- Definieer de **project scope**: Wat hoort er wel bij en wat niet?
-- Formuleer duidelijke **doelen** en de verwachte **Doeldefinitie**.
-- Leg de beoogde **Samenwerkingsmodus** vast.
-- Identificeer **stakeholders** en breng hun verwachtingen in kaart.
-
-### 2. Team Samenstellen
-
-- Wijs duidelijke rollen toe (zie **📍 4. Team & Rollen**).
-- Zorg voor multidisciplinaire samenwerking (Business, Data Science, IT/Guardians).
-
-### 3. Governance Opzetten
-
-- Definieer de besluitvormingsstructuur voor dit specifieke project.
-- Plan de **Gate Reviews** en checkpoints in de agenda.
-
-### 4. Risicobeheer Plan
-
-- Voer een initiële **Risico-Inventarisatie** uit.
-- Ontwikkel mitigatie strategieën voor de top-risico's.
-
-### 5. Het Kostenoverzicht
-
-- Maak een eerste raming van de investering en verwachte opbrengsten.
-
-______________________________________________________________________
-
-## 📖 Templates en Tools
-
-Gebruik de volgende sjablonen om de initiatie te ondersteunen:
-
-- **Project Charter:** Voor scope en mandaat.
-- **Risicoanalyse:** Voor initiële risico-inventarisatie.
-- **Gate Review Checklist:** Voor voorbereiding op de eerste Gate.
-
-______________________________________________________________________
-
-## Gerelateerde Modules
-
-- [Hybride Methodologie](02-hybride-methodologie.md)
-- [Governance Model](03-governance-model.md)
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-# Document: 06 Has H Niveaus
-
-Source: 00-strategisch-kader/06-has-h-niveaus.md
----# 🚀 AI-Samenwerkingsmodi
-
-## 📖 1. Doel van de Modi
-
-Om te bepalen welke processen, governance en risicobeheersing nodig zijn, classificeren we de relatie tussen mens en machine in vijf **Samenwerkingsmodi**.
-
-Dit model beschrijft de verschuiving van AI als gereedschap naar AI als zelfstandige actor. Het is cruciaal om vooraf te definiëren in welke modus een systeem opereert, omdat een 'Modus 4'-systeem (Gedelegeerd) veel strengere veiligheidsregels vereist dan een 'Modus 2'-systeem (Adviserend).
-
-______________________________________________________________________
-
-## 📖 De Vijf Modi
-
-### Modus 1: Instrumenteel (The Tool)
-
-**De mens werkt, AI wacht.**
-
-Dit is de klassieke situatie. De AI is passief en doet niets tenzij de mens op een knop drukt. De mens is volledig verantwoordelijk voor de start, de uitvoering en het resultaat.
-
-- **Dynamiek:** Mens ? Actie ? AI ? Resultaat.
-- **Voorbeeld:** Een tekst vertalen met Google Translate of een formule genereren in Excel.
-- **Risico:** Laag (fouten worden direct door de gebruiker gezien).
-- **Governance:** Standaard IT-beheer.
-
-### Modus 2: Adviserend (The Advisor)
-
-**De AI stelt voor, de mens beslist.**
-
-De AI analyseert de situatie en biedt opties of aanbevelingen. De mens fungeert als 'Gatekeeper'; er gebeurt niets zonder expliciete goedkeuring. Dit is vaak de instapfase voor professionele toepassingen.
-
-- **Dynamiek:** AI ? Suggestie ? Mens ? Goedkeuring/Actie.
-- **Voorbeeld:** Een copiloot die code-suggesties doet, of een systeem dat fraude markeert voor inspectie door een analist.
-- **Risico:** "Rubber stamping" (de mens keurt blind goed uit gemakzucht).
-- **Governance:** Focus op het trainen van de menselijke beoordelaar.
-
-### Modus 3: Collaboratief (The Partner)
-
-**De dialoog staat centraal.**
-
-Mens en AI werken iteratief samen aan een complex probleem. Het is een ping-pong spel van ideeën waarbij het eindresultaat een mix is van beide intelligenties. Dit wordt ook wel 'Co-Intelligentie' of het 'Centaur-model' genoemd.
-
-- **Dynamiek:** Mens ? AI (Continue lus van input en feedback).
-- **Voorbeeld:** Samen met ChatGPT een strategisch plan brainstormen en verfijnen.
-- **Risico:** Vertroebeling van eigenaarschap (wie bedacht wat?) en verlies van eigen kritisch denkvermogen.
-- **Governance:** Richtlijnen voor bronvermelding en fact-checking.
-
-### Modus 4: Gedelegeerd (The Agent)
-
-**AI voert uit, de mens beheert uitzonderingen.**
-
-Hier draaien we het proces om: we ontwerpen de workflow zo dat AI het 'zware werk' doet. De mens stapt uit de dagelijkse loop en grijpt alleen in als de AI aangeeft het niet te weten (laag betrouwbaarheidsscore) of als er een foutmelding is. Dit heet vaak *Human-on-the-loop*.
-
-- **Dynamiek:** AI ? Uitvoering ? (Alleen bij Fout) ? Mens.
-- **Voorbeeld:** Een chatbot die zelfstandig klantvragen afhandelt en alleen doorverbindt bij boze klanten.
-- **Risico:** 'Silent failures' (fouten die niet als fout worden herkend) en degradatie van menselijke expertise omdat ze het werk nooit meer zelf doen.
-- **Governance:** Strenge geautomatiseerde monitoring en steekproeven (Audits).
-
-### Modus 5: Autonoom (The Entity)
-
-**AI stelt doelen en handelt zelfstandig.**
-
-Het systeem krijgt een breed mandaat (bijv. "Optimaliseer de inkoopvoorraad") en bepaalt zelf de sub-taken, timing en methode. De menselijke rol beperkt zich tot het stellen van de kaders (het beleid) en de 'Kill Switch'.
-
-- **Dynamiek:** Mens (Beleid) ? AI (Autonome Uitvoering).
-- **Voorbeeld:** High-frequency trading algoritmes of volledig autonome supply chain planners.
-- **Risico:** Onvoorspelbaar emergent gedrag en kettingreacties (Flash Crashes).
-- **Governance:** 'Circuit Breakers' (noodstoppen) en beleidsmatige constraints (wat mag de AI absoluut niet).
-
-______________________________________________________________________
-
-## ? Risico & Validatie Matrix
-
-Hoe hoger de modus, hoe zwaarder de validatie-eisen.
-
-| Modus                | Primaire Validatie                         | Rol van de Mens          | Focus van Eigenaarschap |
-| :------------------- | :----------------------------------------- | :----------------------- | :---------------------- |
-| **1. Instrumenteel** | Gebruikerstest (UAT)                       | Uitvoerder               | Taakgericht             |
-| **2. Adviserend**    | Precisie-meting                            | Beslisser (Gatekeeper)   | Besluitvorming          |
-| **3. Collaboratief** | Ervaring & Bruikbaarheid                   | Partner                  | Resultaatgericht        |
-| **4. Gedelegeerd**   | Continue Monitoring & **Prestatieverloop** | Toezichthouder (Auditor) | Procesgericht           |
-| **5. Autonoom**      | Simulatie & Stress-testing                 | Beleidsbepaler           | Systeemgericht          |
-
-______________________________________________________________________
-
-## 📖 Toepassing in Projecten
-
-Bij het starten van een project (Fase Discovery) moet de beoogde modus worden vastgelegd in het **Project Charter**.
-
-!!! tip "Begin laag, schaal op"
-    Start een use case in **Modus 2 (Adviseur)** om data te verzamelen en vertrouwen te bouwen. Pas als de kwaliteit bewezen is (>90%), kan worden overgestapt naar **Modus 4 (Gedelegeerd)**.
-
-!!! warning "Waarschuwing"
-    Probeer niet direct naar Modus 4 of 5 te springen zonder de tussenliggende leerfases.
-
-______________________________________________________________________
-
-## Gerelateerde Modules
-
-- [Kernprincipes](../01-ai-native-fundamenten/01-definitie.md)
-- [Validatie Model](../01-ai-native-fundamenten/04-validatie-model.md)
-- [Risicobeheer](../07-compliance-hub/02-risicobeheer/index.md)
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-# Document: 07 Organisatorische Heruitvinding
-
-Source: 00-strategisch-kader/07-organisatorische-heruitvinding.md
----# 🚀 Organisatorische Heruitvinding
-
-## 📖 Doel
-
-AI is niet alleen een technische upgrade, maar een fundament voor een nieuwe manier van werken. Dit document beschrijft hoe de organisatie moet transformeren om de vruchten van AI te plukken.
-
-______________________________________________________________________
-
-## 📖 Van Project naar Platform
-
-Traditionele organisaties zien AI als een serie losse projecten. Voor maximale impact moeten we verschuiven naar een platformvisie.
-
-- **Data als Brandstof:** Data is niet langer een bijproduct, maar de kern van de bedrijfsvoering.
-- **Accelerators:** Bouw herbruikbare componenten (zoals **Kenniskoppeling**) die over de hele organisatie ingezet kunnen worden.
-- **Centrale Regie:** Voorkom **Wildgroei** door duidelijke kaders en een gedeeld **Playbook**.
-
-______________________________________________________________________
-
-## 📖 Kernonderdelen van de Heruitvinding
-
-### 1. Cultuur & Mindset
-
-- Van "AI vervangt ons" naar "AI versterkt ons".
-- Cultuur van experimenteren, falen en snel leren.
-
-### 2. Talent & Rollen
-
-- Ontwikkeling van nieuwe rollen zoals de AI Product Manager en de Guardian (Ethicist).
-- Upskilling van de gehele organisatie in AI-geletterdheid.
-
-### 3. Schaalbare Architectuur
-
-- Investeren in MLOps om **Ingebruikname** te versnellen.
-- Standaardiseren van **Sturingsinstructies** en bewaarmethoden.
-
-______________________________________________________________________
-
-## Gerelateerde Modules
-
-- [Volwassenheidsniveaus](../13-organisatieprofielen/index.md)
-- [Governance Model](03-governance-model.md)
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
 
 ______________________________________________________________________
 
@@ -732,7 +171,7 @@ Deze pagina fungeert als de "Rosetta-steen" van het AI Project Playbook. Hier vi
 | Code     | Betekenis        | Gebruik                                              |
 | :------- | :--------------- | :--------------------------------------------------- |
 | **MOD**  | **Module**       | Een procesfase of kennisgebied in het playbook.      |
-| **TMP**  | **Template**     | Een invulbaar document of sjabloon (sjabloon).       |
+| **TMP**  | **Sjabloon**     | Een invulbaar document of sjabloon (sjabloon).       |
 | **SDD**  | **Spec-Driven**  | Richtlijnen voor specificatie-gedreven ontwikkeling. |
 | **GATE** | **Beslismoment** | Een formeel reviewmoment tussen fasen.               |
 
@@ -752,11 +191,11 @@ De modules vormen de navigatiestructuur van de AI-levenscyclus.
 | **MOD-05** | [Fase 4: Levering](../05-fase-levering/01-doelstellingen.md)         | Ingebruikname en menselijk toezicht.             |
 | **MOD-06** | [Fase 5: Monitoring](../06-fase-monitoring/01-doelstellingen.md)     | Beheer, drift-detectie en optimalisatie.         |
 | **MOD-07** | [Compliance Hub](../07-compliance-hub/index.md)                      | EU AI Act, Risicobeheer en Ethiek.               |
-| **MOD-09** | [Toolkit & Templates](../09-sjablonen/index.md)                      | Centrale opslag van alle herbruikbare sjablonen. |
+| **MOD-09** | [Toolkit & Sjablonen](../09-sjablonen/index.md)                      | Centrale opslag van alle herbruikbare sjablonen. |
 
 ______________________________________________________________________
 
-## 📝 Overzicht van Templates (TMP)
+## 📝 Overzicht van Sjablonen (TMP)
 
 Dit zijn de artefacten die gedurende een project worden geproduceerd. Deze vormen samen het **Wettelijk Dossier**.
 
@@ -769,7 +208,7 @@ Dit zijn de artefacten die gedurende een project worden geproduceerd. Deze vorme
 | **TMP-09-06** | [Doelkaart (AI Artefact)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) | Realisatie | ✅         |
 | **TMP-09-07** | [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)     | Validatie  | ✅         |
 | **TMP-09-08** | [Traceerbaarheid Matrix](../09-sjablonen/08-traceerbaarheid-links/template.md)  | Levering   | ⚠️         |
-| **TMP-09-10** | [Prompt Template](../09-sjablonen/10-prompt-engineering/template.md)            | Realisatie | 💡         |
+| **TMP-09-10** | [Prompt Sjabloon](../09-sjablonen/10-prompt-engineering/template.md)            | Realisatie | 💡         |
 | **TMP-09-11** | [Privacy & Data Blad](../09-sjablonen/11-privacy-data/privacyblad.md)           | Verkenning | ✅         |
 
 *\*Optioneel bij Fast Lane projecten.*
@@ -784,82 +223,6 @@ ______________________________________________________________________
 | **GATE 2** | Investering PoV     | Business Case (TMP-02) goedgekeurd.               |
 | **GATE 3** | Productie-klaar     | Validatierapport (TMP-07) getekend door Guardian. |
 | **GATE 4** | Livegang            | Ingebruikname-audit voltooid.                     |
-
-______________________________________________________________________
-
-# Document: Index
-
-Source: 08-rollen-en-verantwoordelijkheden/index.md
----# ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
-
-## ðŸŽ¯ Wie doet wat in een AI-project?
-
-In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
-
-______________________________________________________________________
-
-## ðŸ“‚ 1. Het Kernteam (The Squad)
-
-Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie.
-
-### ðŸ§™”â™‚ï¸ De AI Product Manager (Business Lead)
-
-Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
-
-- **Verantwoordelijkheid:** De **Doelkaart** (Module 09.02).
-- **Taak:** Vertaalt vage business-wensen naar scherpe AI-instructies. Beheert de backlog en prioriteert op waarde.
-- **Focus:** "Lossen we het juiste probleem op?"
-
-### ðŸ¤– De Tech Lead (Technical Lead)
-
-De architect van de oplossing. Zorgt dat de losse componenten (data, model, interface) naadloos samenwerken.
-
-- **Verantwoordelijkheid:** De **Technische Modelkaart** (Module 09.04).
-- **Taak:** Selecteert het juiste model, bouwt de pijplijnen en borgt de technische stabiliteit.
-- **Focus:** "Is het robuust en schaalbaar?"
-
-### ⚖️ De Guardian (Ethicus / Compliance)
-
-Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de wettelijke en ethische kaders.
-
-- **Verantwoordelijkheid:** De **Risico Pre-scan** (Module 09.03).
-- **Taak:** Toetst plannen aan de EU AI Act en interne waarden. Heeft veto-recht bij overschrijding van de **Rode Lijnen**. Voert **Eerlijkheidstoetsen** (bias-audits) uit.
-- **Focus:** "Is het veilig en eerlijk?"
-
-______________________________________________________________________
-
-## ðŸ“‚ 2. De Ondersteunende Rollen
-
-Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
-
-| Rol                      | Focus           | Taak                                                                     |
-| :----------------------- | :-------------- | :----------------------------------------------------------------------- |
-| ðŸ’¾ **Data Engineer**   | Datakwaliteit   | De ruggengraat van de data. Zorgt dat data schoon aankomt bij het model. |
-| ðŸ§ª **AI Tester (QA)**  | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.        |
-| ðŸ“¢ **Adoptie Manager** | Verandering     | Zorgt dat mensen de tool echt gebruiken (ADKAR-model).                   |
-
-______________________________________________________________________
-
-## ðŸ“‚ 3. Strategisch Niveau (Steering Com)
-
-### ðŸš€ Chief AI Officer (CAIO)
-
-Sponsor van het programma. Bepaalt de overkoepelende strategie en wijst budget toe.
-
-- **Taak:** Beslist bij de **Gates** of een project doorgaat of stopt.
-- **Eigenaarschap:** Bewaakt het gehele portfolio en de AI-volwassenheid van de organisatie.
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-## Â
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -1064,55 +427,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-# Document: 05 Risicoclassificatie
-
-Source: 01-ai-native-fundamenten/05-risicoclassificatie.md
----# 🚀 Risicoclassificatie
-
-## 📖 Validatie Diepgang
-
-Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wijzigingen op basis van de impact op de **Rode Lijnen**.
-
-| Niveau       | Trigger (Voorbeeld)                                    | Validatie Diepgang                              | EU AI Act Mapping   |
-| :----------- | :----------------------------------------------------- | :---------------------------------------------- | :------------------ |
-| **Kritiek**  | Beveiliging, Financiële transacties, Gezondheidsadvies | Volledige Validatie + **Rode Lijn** Verificatie | **Hoog Risico**     |
-| **Verhoogd** | Persoonsgegevens (PII), Externe API-koppelingen        | Uitgebreide Gedrags- + Doelgerichtheidtoets     | **Beperkt Risico**  |
-| **Matig**    | Schrijfstijl (Tone of Voice), UX-wijzigingen           | Minimale Gedrags- + Doelgerichtheidtoets        | **Beperkt Risico**  |
-| **Laag**     | Geen **Rode Lijnen** geraakt                           | Syntactische + Minimale Gedragscheck            | **Minimaal Risico** |
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-# Document: 06 Specificatie Gedreven Ontwikkeling
-
-Source: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
----# 🚀 Specificatie-eerst Methode
-
-## 📖 Shift-Left Validatie
-
-De **Specificatie-eerst Methode** (ook wel *Spec-Driven Development*) zorgt ervoor dat we eerst de verwachtingen vastleggen voordat we bouwen.
-
-In plaats van direct prompts te schrijven, volgen we deze cyclus:
-
-1. **AI Product Manager** definieert de **Doeldefinitie**.
-1. **ML Engineer** stelt de eerste **Sturingsinstructies** op.
-1. Het systeem genereert een gedetailleerde **specificatie** van het verwachte gedrag.
-1. **Menselijke Review** van de specificatie: We valideren de bedoeling voordat we middelen besteden aan training of testruns.
-1. De goedgekeurde specificatie stuurt de verdere ontwikkeling en de automatische validatie aan.
-
-______________________________________________________________________
-
-## Gerelateerde Templates
-
-- [Doelkaart Template](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
-
-______________________________________________________________________
-
 # Document: 07 Bewijsstandaarden
 
 Source: 01-ai-native-fundamenten/07-bewijsstandaarden.md
@@ -1194,7 +508,7 @@ ______________________________________________________________________
 
 ## 6. Meetcriteria en minimale normen (per risiconiveau)
 
-> *Als jouw use case geen “accuracy” heeft (bijv. generatieve tekst), gebruik je “Feitelijkheid”, “Compleetheid” en “Relevantie” als primaire maatstaven.*
+> *Als jouw gebruikscasus geen “accuracy” heeft (bijv. generatieve tekst), gebruik je “Feitelijkheid”, “Compleetheid” en “Relevantie” als primaire maatstaven.*
 
 ### 6.1 Normtabel
 
@@ -1224,7 +538,7 @@ ______________________________________________________________________
 ### 7.1 Wat loggen we minimaal?
 
 - **Datum/tijd**, gebruiker/rol (gehashte ID waar nodig)
-- **Use case / endpoint**
+- **Gebruikscasus / endpoint**
 - **Modelnaam + versie**
 - **Prompt-/Sturingsinstructies versie**
 - **Bronnen gebruikt** (bij Kenniskoppeling: document-ID’s/URLs)
@@ -1242,10 +556,696 @@ ______________________________________________________________________
 
 ## 8. Bewijs per Gate (praktisch)
 
-- **Gate 1 (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
-- **Gate 2 (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
-- **Gate 3 (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit Â§6 + logging-plan + incidentprocedure.
-- **Gate 4 (Livegang) (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.
+- **Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
+- **Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
+- **Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit Â§6 + logging-plan + incidentprocedure.
+- **Gate 4 (Livegang) (Livegang) (Livegang) (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.
+
+______________________________________________________________________
+
+# Document: 03 Governance Model
+
+Source: 00-strategisch-kader/03-governance-model.md
+---# 🚀 Governance Model
+
+## 📖 Doel
+
+Het definiëren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
+
+______________________________________________________________________
+
+## 📖 Structuur
+
+Het governance model bestaat uit drie lagen die samenwerken om strategie, operatie en techniek te verbinden:
+
+1. **Strategisch Niveau:** Focus op visie en **Het Kostenoverzicht**.
+1. **Operationeel Niveau:** Focus op uitvoering en prioriteit.
+1. **Technisch Niveau:** Focus op kwaliteit en **Ingebruikname**.
+
+______________________________________________________________________
+
+## 📖 Verantwoordelijkheden (RACI)
+
+| Rol                          | Niveau        | Kernverantwoordelijkheden                                           |
+| :--------------------------- | :------------ | :------------------------------------------------------------------ |
+| **CAIO** (Chief AI Officer)  | Strategisch   | Strategie, ROI oversight, Governance eindverantwoordelijkheid.      |
+| **Executive Committee**      | Strategisch   | Budgetgoedkeuring, strategische alignment.                          |
+| **AI Product Manager**       | Operationeel  | Gebruikscasus prioriteit, Stakeholder management, Backlog eigenaar. |
+| **AI Transformation Office** | Operationeel  | Procesbewaking, standaardisatie, training.                          |
+| **Data Scientist**           | Technisch     | Model development, validatie, experimentatie.                       |
+| **ML Engineering**           | Technisch     | **Ingebruikname** pipelines, monitoring, infrastructuur.            |
+| **Guardian (Ethicist)**      | Ondersteunend | Eerlijkheidstoetsen, Bias audits, Compliance checks.                |
+| **Security Officer**         | Ondersteunend | Security maatregelen, Privacy waarborging.                          |
+
+______________________________________________________________________
+
+## ? Besluitvormingsproces (Gate Model)
+
+```mermaid
+flowchart TD
+    A[Initiatief] --> B{Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): Verkenning}
+    B -->|Go| C[Validatie]
+    B -->|No Go| X[Stop]
+    C --> D{Gate 2 (Investering PoV) (Investering PoV) (Investering PoV): Kostenplaatje}
+    D -->|Go| E[Realisatie]
+    D -->|No Go| X
+    E --> F{Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar): Ingebruikname}
+    F -->|Go| G[Beheer & Optimalisatie]
+    F -->|No Go| X
+    G --> H{Gate 4 (Livegang) (Livegang) (Livegang): Continue?}
+    H -->|Ja| A
+    H -->|Nee| I[Afsluiting]
+```
+
+## ? Gate Reviews
+
+Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md) voor specifieke criteria per fase.
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+# Document: Index
+
+Source: 08-rollen-en-verantwoordelijkheden/index.md
+---# ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
+
+## ðŸŽ¯ Wie doet wat in een AI-project?
+
+In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
+
+______________________________________________________________________
+
+## ðŸ“‚ 1. Het Kernteam (The Squad)
+
+Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie.
+
+### ðŸ§™”â™‚ï¸ De AI Product Manager (Business Lead)
+
+Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
+
+- **Verantwoordelijkheid:** De **Doelkaart** (Module 09.02).
+- **Taak:** Vertaalt vage business-wensen naar scherpe AI-instructies. Beheert de backlog en prioriteert op waarde.
+- **Focus:** "Lossen we het juiste probleem op?"
+
+### ðŸ¤– De Tech Lead (Technical Lead)
+
+De architect van de oplossing. Zorgt dat de losse componenten (data, model, interface) naadloos samenwerken.
+
+- **Verantwoordelijkheid:** De **Technische Modelkaart** (Module 09.04).
+- **Taak:** Selecteert het juiste model, bouwt de pijplijnen en borgt de technische stabiliteit.
+- **Focus:** "Is het robuust en schaalbaar?"
+
+### ⚖️ De Guardian (Ethicus / Compliance)
+
+Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de wettelijke en ethische kaders.
+
+- **Verantwoordelijkheid:** De **Risico Pre-scan** (Module 09.03).
+- **Taak:** Toetst plannen aan de EU AI Act en interne waarden. Heeft veto-recht bij overschrijding van de **Rode Lijnen**. Voert **Eerlijkheidstoetsen** (bias-audits) uit.
+- **Focus:** "Is het veilig en eerlijk?"
+
+______________________________________________________________________
+
+## ðŸ“‚ 2. De Ondersteunende Rollen
+
+Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
+
+| Rol                      | Focus           | Taak                                                                     |
+| :----------------------- | :-------------- | :----------------------------------------------------------------------- |
+| ðŸ’¾ **Data Engineer**   | Datakwaliteit   | De ruggengraat van de data. Zorgt dat data schoon aankomt bij het model. |
+| ðŸ§ª **AI Tester (QA)**  | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.        |
+| ðŸ“¢ **Adoptie Manager** | Verandering     | Zorgt dat mensen de tool echt gebruiken (ADKAR-model).                   |
+
+______________________________________________________________________
+
+## ðŸ“‚ 3. Strategisch Niveau (Steering Com)
+
+### ðŸš€ Chief AI Officer (CAIO)
+
+Sponsor van het programma. Bepaalt de overkoepelende strategie en wijst budget toe.
+
+- **Taak:** Beslist bij de **Gates** of een project doorgaat of stopt.
+- **Eigenaarschap:** Bewaakt het gehele portfolio en de AI-volwassenheid van de organisatie.
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+## Â
+
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
+
+______________________________________________________________________
+
+# Document: 05 Risicoclassificatie
+
+Source: 01-ai-native-fundamenten/05-risicoclassificatie.md
+---# 🚀 Risicoclassificatie
+
+## 📖 Validatie Diepgang
+
+Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wijzigingen op basis van de impact op de **Rode Lijnen**.
+
+| Niveau       | Trigger (Voorbeeld)                                    | Validatie Diepgang                              | EU AI Act Mapping   |
+| :----------- | :----------------------------------------------------- | :---------------------------------------------- | :------------------ |
+| **Kritiek**  | Beveiliging, Financiële transacties, Gezondheidsadvies | Volledige Validatie + **Rode Lijn** Verificatie | **Hoog Risico**     |
+| **Verhoogd** | Persoonsgegevens (PII), Externe API-koppelingen        | Uitgebreide Gedrags- + Doelgerichtheidtoets     | **Beperkt Risico**  |
+| **Matig**    | Schrijfstijl (Tone of Voice), UX-wijzigingen           | Minimale Gedrags- + Doelgerichtheidtoets        | **Beperkt Risico**  |
+| **Laag**     | Geen **Rode Lijnen** geraakt                           | Syntactische + Minimale Gedragscheck            | **Minimaal Risico** |
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+# Document: 06 Has H Niveaus
+
+Source: 00-strategisch-kader/06-has-h-niveaus.md
+---# 🚀 AI-Samenwerkingsmodi
+
+## 📖 1. Doel van de Modi
+
+Om te bepalen welke processen, governance en risicobeheersing nodig zijn, classificeren we de relatie tussen mens en machine in vijf **Samenwerkingsmodi**.
+
+Dit model beschrijft de verschuiving van AI als gereedschap naar AI als zelfstandige actor. Het is cruciaal om vooraf te definiëren in welke modus een systeem opereert, omdat een 'Modus 4'-systeem (Gedelegeerd) veel strengere veiligheidsregels vereist dan een 'Modus 2'-systeem (Adviserend).
+
+______________________________________________________________________
+
+## 📖 De Vijf Modi
+
+### Modus 1: Instrumenteel (The Tool)
+
+**De mens werkt, AI wacht.**
+
+Dit is de klassieke situatie. De AI is passief en doet niets tenzij de mens op een knop drukt. De mens is volledig verantwoordelijk voor de start, de uitvoering en het resultaat.
+
+- **Dynamiek:** Mens ? Actie ? AI ? Resultaat.
+- **Voorbeeld:** Een tekst vertalen met Google Translate of een formule genereren in Excel.
+- **Risico:** Laag (fouten worden direct door de gebruiker gezien).
+- **Governance:** Standaard IT-beheer.
+
+### Modus 2: Adviserend (The Advisor)
+
+**De AI stelt voor, de mens beslist.**
+
+De AI analyseert de situatie en biedt opties of aanbevelingen. De mens fungeert als 'Gatekeeper'; er gebeurt niets zonder expliciete goedkeuring. Dit is vaak de instapfase voor professionele toepassingen.
+
+- **Dynamiek:** AI ? Suggestie ? Mens ? Goedkeuring/Actie.
+- **Voorbeeld:** Een copiloot die code-suggesties doet, of een systeem dat fraude markeert voor inspectie door een analist.
+- **Risico:** "Rubber stamping" (de mens keurt blind goed uit gemakzucht).
+- **Governance:** Focus op het trainen van de menselijke beoordelaar.
+
+### Modus 3: Collaboratief (The Partner)
+
+**De dialoog staat centraal.**
+
+Mens en AI werken iteratief samen aan een complex probleem. Het is een ping-pong spel van ideeën waarbij het eindresultaat een mix is van beide intelligenties. Dit wordt ook wel 'Co-Intelligentie' of het 'Centaur-model' genoemd.
+
+- **Dynamiek:** Mens ? AI (Continue lus van input en feedback).
+- **Voorbeeld:** Samen met ChatGPT een strategisch plan brainstormen en verfijnen.
+- **Risico:** Vertroebeling van eigenaarschap (wie bedacht wat?) en verlies van eigen kritisch denkvermogen.
+- **Governance:** Richtlijnen voor bronvermelding en fact-checking.
+
+### Modus 4: Gedelegeerd (The Agent)
+
+**AI voert uit, de mens beheert uitzonderingen.**
+
+Hier draaien we het proces om: we ontwerpen de workflow zo dat AI het 'zware werk' doet. De mens stapt uit de dagelijkse loop en grijpt alleen in als de AI aangeeft het niet te weten (laag betrouwbaarheidsscore) of als er een foutmelding is. Dit heet vaak *Human-on-the-loop*.
+
+- **Dynamiek:** AI ? Uitvoering ? (Alleen bij Fout) ? Mens.
+- **Voorbeeld:** Een chatbot die zelfstandig klantvragen afhandelt en alleen doorverbindt bij boze klanten.
+- **Risico:** 'Silent failures' (fouten die niet als fout worden herkend) en degradatie van menselijke expertise omdat ze het werk nooit meer zelf doen.
+- **Governance:** Strenge geautomatiseerde monitoring en steekproeven (Audits).
+
+### Modus 5: Autonoom (The Entity)
+
+**AI stelt doelen en handelt zelfstandig.**
+
+Het systeem krijgt een breed mandaat (bijv. "Optimaliseer de inkoopvoorraad") en bepaalt zelf de sub-taken, timing en methode. De menselijke rol beperkt zich tot het stellen van de kaders (het beleid) en de 'Kill Switch'.
+
+- **Dynamiek:** Mens (Beleid) ? AI (Autonome Uitvoering).
+- **Voorbeeld:** High-frequency trading algoritmes of volledig autonome supply chain planners.
+- **Risico:** Onvoorspelbaar emergent gedrag en kettingreacties (Flash Crashes).
+- **Governance:** 'Circuit Breakers' (noodstoppen) en beleidsmatige constraints (wat mag de AI absoluut niet).
+
+______________________________________________________________________
+
+## ? Risico & Validatie Matrix
+
+Hoe hoger de modus, hoe zwaarder de validatie-eisen.
+
+| Modus                | Primaire Validatie                         | Rol van de Mens          | Focus van Eigenaarschap |
+| :------------------- | :----------------------------------------- | :----------------------- | :---------------------- |
+| **1. Instrumenteel** | Gebruikerstest (UAT)                       | Uitvoerder               | Taakgericht             |
+| **2. Adviserend**    | Precisie-meting                            | Beslisser (Gatekeeper)   | Besluitvorming          |
+| **3. Collaboratief** | Ervaring & Bruikbaarheid                   | Partner                  | Resultaatgericht        |
+| **4. Gedelegeerd**   | Continue Monitoring & **Prestatieverloop** | Toezichthouder (Auditor) | Procesgericht           |
+| **5. Autonoom**      | Simulatie & Stress-testing                 | Beleidsbepaler           | Systeemgericht          |
+
+______________________________________________________________________
+
+## 📖 Toepassing in Projecten
+
+Bij het starten van een project (Fase Discovery) moet de beoogde modus worden vastgelegd in het **Project Charter**.
+
+!!! tip "Begin laag, schaal op"
+    Start een gebruikscasus in **Modus 2 (Adviseur)** om data te verzamelen en vertrouwen te bouwen. Pas als de kwaliteit bewezen is (>90%), kan worden overgestapt naar **Modus 4 (Gedelegeerd)**.
+
+!!! warning "Waarschuwing"
+    Probeer niet direct naar Modus 4 of 5 te springen zonder de tussenliggende leerfases.
+
+______________________________________________________________________
+
+## Gerelateerde Modules
+
+- [Kernprincipes](../01-ai-native-fundamenten/01-definitie.md)
+- [Validatie Model](../01-ai-native-fundamenten/04-validatie-model.md)
+- [Risicobeheer](../07-compliance-hub/02-risicobeheer/index.md)
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+# Document: 07 Organisatorische Heruitvinding
+
+Source: 00-strategisch-kader/07-organisatorische-heruitvinding.md
+---# 🚀 Organisatorische Heruitvinding
+
+## 📖 Doel
+
+AI is niet alleen een technische upgrade, maar een fundament voor een nieuwe manier van werken. Dit document beschrijft hoe de organisatie moet transformeren om de vruchten van AI te plukken.
+
+______________________________________________________________________
+
+## 📖 Van Project naar Platform
+
+Traditionele organisaties zien AI als een serie losse projecten. Voor maximale impact moeten we verschuiven naar een platformvisie.
+
+- **Data als Brandstof:** Data is niet langer een bijproduct, maar de kern van de bedrijfsvoering.
+- **Accelerators:** Bouw herbruikbare componenten (zoals **Kenniskoppeling**) die over de hele organisatie ingezet kunnen worden.
+- **Centrale Regie:** Voorkom **Wildgroei** door duidelijke kaders en een gedeeld **Playbook**.
+
+______________________________________________________________________
+
+## 📖 Kernonderdelen van de Heruitvinding
+
+### 1. Cultuur & Mindset
+
+- Van "AI vervangt ons" naar "AI versterkt ons".
+- Cultuur van experimenteren, falen en snel leren.
+
+### 2. Talent & Rollen
+
+- Ontwikkeling van nieuwe rollen zoals de AI Product Manager en de Guardian (Ethicist).
+- Upskilling van de gehele organisatie in AI-geletterdheid.
+
+### 3. Schaalbare Architectuur
+
+- Investeren in MLOps om **Ingebruikname** te versnellen.
+- Standaardiseren van **Sturingsinstructies** en bewaarmethoden.
+
+______________________________________________________________________
+
+## Gerelateerde Modules
+
+- [Volwassenheidsniveaus](../13-organisatieprofielen/index.md)
+- [Governance Model](03-governance-model.md)
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+# Document: 01 Ai Levenscyclus
+
+Source: 00-strategisch-kader/01-ai-levenscyclus.md
+---# 🚀 AI Levenscyclus
+
+## 📖 Doel
+
+Dit document definieert de volledige methodologie voor AI projecten en vormt de fundering van de AI levenscyclus. Het beschrijft de 5 fasen van AI projecten en fungeert als centrale routekaart voor het team.
+
+______________________________________________________________________
+
+## 📖 Overzicht van de AI Levenscyclus
+
+Een succesvol AI-project is geen lineair proces, maar een iteratieve cyclus waarbij techniek, business en compliance constant op elkaar worden afgestemd. De AI levenscyclus bestaat uit 5 fasen die elkaar overlappen en versterken:
+
+```mermaid
+graph TD
+    A[Verkenning & Strategie] --> B[Validatie]
+    B --> C[Realisatie]
+    C --> D[Levering]
+    D --> E[Beheer & Optimalisatie]
+    E --> A
+```
+
+### Belangrijkste Kenmerken
+
+- **Iteratief:** Elke fase leert van de vorige en voedt de volgende.
+- **Hybride:** Combineert voorspelbare planning met agile uitvoering (zie [Hybride Methodologie](02-hybride-methodologie.md)).
+- **Compliance-First:** EU AI Act compliance is geïntegreerd in elke fase.
+- **Traceerbaarheid:** Elke beslissing wordt ondersteund door bewijs.
+- **Mensgerichte Regie:** Mensen blijven verantwoordelijk voor AI-beslissingen.
+
+______________________________________________________________________
+
+## 📖 De Vijf Fasen van de Levenscyclus
+
+> \[!TIP\]
+> **De Fast Lane (De Innovatie-route)**
+> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
+
+### 🎯 Fase 1: Verkenning & Strategie
+
+**📍 Doel:** Het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten.
+
+#### 📍 Kernactiviteiten
+
+- **Probleemverkenning:** Het probleem definiëren vanuit de gebruiker, niet vanuit de techniek.
+- **Data-Evaluatie:** Beoordelen van Toegang, Kwaliteit en Relevantie van de data.
+- **Risico-Inventarisatie:** Bepalen of de toepassing valt onder de EU AI Act (hoog risico).
+
+______________________________________________________________________
+
+### 🎯 Fase 2: Validatie
+
+**📍 Doel:** Bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
+
+#### 📍 Kernactivities
+
+- **Praktijkproef (PoV):** Kleinschalig experiment om de hypothese te testen.
+- **Het Kostenoverzicht:** Schatten van investering versus ROI.
+- **Eerlijkheidstoets (Bias Detectie):** Eerste scan op ongewenste vooroordelen in het model.
+
+______________________________________________________________________
+
+### 🎯 Fase 3: Realisatie
+
+**📍 Doel:** Het bouwen van een robuuste, productiewaardige oplossing.
+
+#### 📍 Kernactiviteiten
+
+- **Specificatie-eerst Methode:** Eerst tests schrijven, dan pas de implementatie.
+- **Kenniskoppeling (RAG):** De AI verbinden aan interne bedrijfsinformatie.
+- **Afstellen van het model:** Optimaliseren van de parameters en **Sturingsinstructies**.
+
+______________________________________________________________________
+
+### 🎯 Fase 4: Levering
+
+**📍 Doel:** Een veilige **Ingebruikname** en acceptatie door de organisatie.
+
+#### 📍 Kernactiviteiten
+
+- **Ingebruikname Plan:** Stapsgewijze uitrol naar productie.
+- **Menselijke Regie:** Implementeren van toezichtsprotocollen.
+- **Adoptie & Training:** Gebruikers opleiden in de nieuwe werkwijze.
+
+______________________________________________________________________
+
+### 🎯 Fase 5: Beheer & Optimalisatie
+
+**📍 Doel:** Waarde behouden en de oplossing actueel houden.
+
+#### 📍 Kernactiviteiten
+
+- **Prestatieverloop Meten:** Continu monitoren van accuraatheid en drift.
+- **Kostenbeheersing:** Het verbruik en de middelen optimaliseren.
+- **Feedbacklus:** Gebruikerservaringen terugkoppelen naar Fase 1.
+
+______________________________________________________________________
+
+## Gerelateerde Modules
+
+- [Hybride Methodologie](02-hybride-methodologie.md)
+- [Governance Model](03-governance-model.md)
+- [Agile Antipatronen](04-agile-antipatronen-niet-toegestaan.md)
+- [Project Initiatie](05-project-initiatie.md)
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+# Document: 02 Hybride Methodologie
+
+Source: 00-strategisch-kader/02-hybride-methodologie.md
+---# 🚀 Hybride Methodologie
+
+## 📖 Doel
+
+Dit document beschrijft de hybride aanpak van het AI Project Playbook, waarbij voorspelbare planning (Waterfall) wordt gecombineerd met iteratieve uitvoering (Agile) voor een optimale balans tussen structuur en flexibiliteit.
+
+______________________________________________________________________
+
+## 📖 Concept
+
+De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vereisen voor budgettering en compliance, en anderzijds extreme flexibiliteit nodig hebben tijdens de modelontwikkeling.
+
+### Voorspelbare Elementen (Waterfall)
+
+- Strategische planning en **Het Kostenoverzicht**.
+- Compliance en governance checkpoints.
+- Risico-inventarisatie.
+- Mijlpaal planning (**Gates**).
+
+### Iteratieve Elementen (Agile)
+
+- **Afstellen van het model** en tuning.
+- User feedback loops.
+- *Experiment-driven development*.
+- Continue verbetering (*Kaizen*).
+
+______________________________________________________________________
+
+## 📖 Praktische Implementatie
+
+```mermaid
+gantt
+    title Hybride Methodologie
+    dateFormat  YYYY-MM-DD
+    section Voorspelbaar
+    Verkenning & Strategie     :p1, 2024-01-01, 2w
+    Het Kostenoverzicht          :p2, after p1, 1w
+    section Iteratief
+    Realisatie Sprints 1-4     :s1, after p2, 4w
+    section Voorspelbaar
+    Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) Review              :m1, after s1, 1w
+    section Iteratief
+    Realisatie Sprints 5-8     :s2, after m1, 4w
+```
+
+______________________________________________________________________
+
+## ? Voordelen
+
+- **Structuur:** Duidelijke planning en governance voor management.
+- **Flexibiliteit:** Snelle aanpassing aan nieuwe data-inzichten voor het team.
+- **Risicobeheer:** Proactieve risico-identificatie en mitigatie.
+- **Compliance:** Geïntegreerde EU AI Act compliance reviews.
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+# Document: 04 Agile Antipatronen Niet Toegestaan
+
+Source: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
+---# 🚀 Agile Antipatronen (NOT DONE)
+
+## 📖 Doel
+
+Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatronen die absoluut vermeden moeten worden om falen, onethisch gedrag of compliance-issues te voorkomen.
+
+______________________________________________________________________
+
+## 📖 De "NOT DONE" Lijst
+
+### ? Geen Eerlijkheidstoets (Bias Audit)
+
+- **Regel:** AI systemen moeten regelmatig worden gecontroleerd op bias.
+- **Impact:** Discriminatie en reputatieschade.
+- **Status:** Geen **Eerlijkheidstoetsen** = **NIET TOEGESTAAN**.
+
+### ? Geen Menselijke Regie
+
+- **Regel:** AI beslissingen (zeker bij hoog risico) moeten menselijke goedkeuring of 'in-the-loop' toezicht hebben conform de gekozen **Samenwerkingsmodus**.
+- **Impact:** Ongecontroleerde fouten.
+- **Status:** Geen menselijke regie = **NIET TOEGESTAAN**.
+
+### ? Geen Continue Monitoring
+
+- **Regel:** Modellen degraderen na verloop van tijd (**Prestatieverloop**). Continue monitoring is vereist.
+- **Impact:** Performance verlies en onbetrouwbare output.
+- **Status:** Geen monitoring = **NIET TOEGESTAAN**.
+
+### ? Geen Governance Checkpoints
+
+- **Regel:** Elke fase moet formele checkpoints hebben (**Gates**).
+- **Impact:** Onbeheersbare risico's en budgetoverschrijding.
+- **Status:** Geen checkpoints = **NIET TOEGESTAAN**.
+
+### ? Geen Stakeholder Engagement
+
+- **Regel:** Stakeholders en eindgebruikers moeten vanaf dag één betrokken zijn.
+- **Impact:** Oplossingen die niet gebruikt worden.
+- **Status:** Geen engagement = **NIET TOEGESTAAN**.
+
+### ? Geen Explainability
+
+- **Regel:** AI beslissingen moeten verklaarbaar zijn voor de gebruiker.
+- **Impact:** "Black box" wantrouwen en niet-naleving van regelgeving.
+- **Status:** Geen uitlegbaarheid = **NIET TOEGESTAAN**.
+
+### ? Geen Data-Evaluatie
+
+- **Regel:** Input data moet valide, schoon en representatief zijn.
+- **Impact:** "Garbage in, garbage out".
+- **Status:** Geen **Data-Evaluatie** = **NIET TOEGESTAAN**.
+
+### ? Geen Risicobeheer
+
+- **Regel:** Risico's moeten proactief geïdentificeerd en gemitigeerd worden.
+- **Impact:** Onverwachte incidenten.
+- **Status:** Geen risicobeheer = **NIET TOEGESTAAN**.
+
+### ? Geen Traceerbaarheid
+
+- **Regel:** Van elke modelversie moet te herleiden zijn op welke data en met welke **Sturingsinstructies** deze is getraind.
+- **Impact:** Onmogelijkheid om fouten te auditen.
+- **Status:** Geen traceerbaarheid = **NIET TOEGESTAAN**.
+
+______________________________________________________________________
+
+## 📖 Implementatie
+
+Gebruik deze lijst als:
+
+1. **Checklist** tijdens project initiatie.
+1. **Review criteria** tijdens Gate Reviews.
+1. **Training materiaal** voor teams om bewustzijn te creëren.
+1. **Audit tool** voor compliance verificatie.
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+# Document: 05 Project Initiatie
+
+Source: 00-strategisch-kader/05-project-initiatie.md
+---# 🚀 Project Initiatie
+
+## 📖 Doel
+
+Het formaliseren van de start van een AI-project door het vastleggen van heldere doelen, rollen, verantwoordelijkheden en kaders in een **AI Project Charter**.
+
+______________________________________________________________________
+
+## 📖 Initiatie Stappen
+
+### 1. Project Charter Opstellen
+
+- Definieer de **project scope**: Wat hoort er wel bij en wat niet?
+- Formuleer duidelijke **doelen** en de verwachte **Doeldefinitie**.
+- Leg de beoogde **Samenwerkingsmodus** vast.
+- Identificeer **stakeholders** en breng hun verwachtingen in kaart.
+
+### 2. Team Samenstellen
+
+- Wijs duidelijke rollen toe (zie **📍 4. Team & Rollen**).
+- Zorg voor multidisciplinaire samenwerking (Business, Data Science, IT/Guardians).
+
+### 3. Governance Opzetten
+
+- Definieer de besluitvormingsstructuur voor dit specifieke project.
+- Plan de **Gate Reviews** en checkpoints in de agenda.
+
+### 4. Risicobeheer Plan
+
+- Voer een initiële **Risico-Inventarisatie** uit.
+- Ontwikkel mitigatie strategieën voor de top-risico's.
+
+### 5. Het Kostenoverzicht
+
+- Maak een eerste raming van de investering en verwachte opbrengsten.
+
+______________________________________________________________________
+
+## 📖 Sjablonen en Tools
+
+Gebruik de volgende sjablonen om de initiatie te ondersteunen:
+
+- **Project Charter:** Voor scope en mandaat.
+- **Risicoanalyse:** Voor initiële risico-inventarisatie.
+- **Gate Review Checklist:** Voor voorbereiding op de eerste Gate.
+
+______________________________________________________________________
+
+## Gerelateerde Modules
+
+- [Hybride Methodologie](02-hybride-methodologie.md)
+- [Governance Model](03-governance-model.md)
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+# Document: 06 Specificatie Gedreven Ontwikkeling
+
+Source: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
+---# 🚀 Specificatie-eerst Methode
+
+## 📖 Shift-Left Validatie
+
+De **Specificatie-eerst Methode** (ook wel *Spec-Driven Development*) zorgt ervoor dat we eerst de verwachtingen vastleggen voordat we bouwen.
+
+In plaats van direct prompts te schrijven, volgen we deze cyclus:
+
+1. **AI Product Manager** definieert de **Doeldefinitie**.
+1. **ML Engineer** stelt de eerste **Sturingsinstructies** op.
+1. Het systeem genereert een gedetailleerde **specificatie** van het verwachte gedrag.
+1. **Menselijke Review** van de specificatie: We valideren de bedoeling voordat we middelen besteden aan training of testruns.
+1. De goedgekeurde specificatie stuurt de verdere ontwikkeling en de automatische validatie aan.
+
+______________________________________________________________________
+
+## Gerelateerde Sjablonen
+
+- [Doelkaart Sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 
 ______________________________________________________________________
 
@@ -1262,7 +1262,7 @@ Het primaire doel van de Verkenningsfase is het identificeren van het juiste pro
 
 > \[!TIP\]
 > **De Snelle Route (Fast Lane)**
-> Voor projecten met een **Laag Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1 (Go/No-Go Ontdekking)) direct worden gestart met een beperkte **Praktijkproef**. Zie voor details de **[Module 02.F: Fast Lane](06-fast-lane.md)**.
+> Voor projecten met een **Laag Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)) direct worden gestart met een beperkte **Praktijkproef**. Zie voor details de **[Module 02.F: Fast Lane](06-fast-lane.md)**.
 
 ## 📖 Intrede Criteria (Definition of Ready)
 
@@ -1338,9 +1338,9 @@ ______________________________________________________________________
 # Document: 03 Afleveringen
 
 Source: 02-fase-ontdekking/03-afleveringen.md
----# 🚀 Deliverables & Gate 1 (Go/No-Go Ontdekking) (Verkenning & Strategie)
+---# 🚀 Opleveringen & Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Verkenning & Strategie)
 
-## 6. Deliverables (Afleveringen)
+## 6. Opleveringen (Afleveringen)
 
 De resultaten van de Verkenningsfase voor een gefundeerde start:
 
@@ -1349,7 +1349,7 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 - **Risico-Inventarisatie:** Eerste scan op juridische, ethische en organisatorische risico's
 - **AI Project Charter:** Startdocument met scope, doelen en team
 
-## ? Gate 1 (Go/No-Go Ontdekking) Review Checklist
+## ? Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) Review Checklist
 
 - [ ] Is het probleem helder gearticuleerd vanuit gebruikersperspectief?
 - [ ] Is AI de juiste oplossing (niet te complex, niet te simpel)?
@@ -1359,7 +1359,7 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 - [ ] Is er commitment van de business sponsor?
 - [ ] Is het team compleet en beschikbaar?
 
-## Gerelateerde Templates
+## Gerelateerde Sjablonen
 
 - **09-01 Project Charter:** [Sjabloon](../09-sjablonen/01-project-charter/template.md)
 - **09-02 Business Case:** [Sjabloon](../09-sjablonen/02-business-case/template.md)
@@ -1378,7 +1378,7 @@ De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑ris
 
 ## 2. Toelatingscriteria (allemaal verplicht)
 
-Een use case mag alleen Fast Lane als aan **alle** punten is voldaan:
+Een gebruikscasus mag alleen Fast Lane als aan **alle** punten is voldaan:
 
 1. **EU AI Act risiconiveau = Minimaal** (zie Compliance Hub)
 1. **Samenwerkingsmodus = 1 of 2** (Instrumenteel of Adviserend; zie MOD‑00‑06)
@@ -1390,7 +1390,7 @@ Een use case mag alleen Fast Lane als aan **alle** punten is voldaan:
 **Als één criterium niet gehaald wordt:**
 → *geen Fast Lane*, volg de standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie).
 
-## 3. Minimumpakket deliverables (Fast Lane)
+## 3. Minimumpakket opleveringen (Fast Lane)
 
 - **Project Charter Project Charter** (Fast Lane variant: kort)
 - **Risico Pre-Scan Risico Pre‑Scan** (moet “Minimaal” bevestigen)
@@ -1441,17 +1441,6 @@ Inhoud volgt nog.
 
 ______________________________________________________________________
 
-# Document: Index
-
-Source: 02-fase-ontdekking/04-sjablonen/index.md
----﻿# 02-fase-ontdekking/04-sjablonen
-
-## Inhoud volgt nog.
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
-
-______________________________________________________________________
-
 # Document: 01 Doelstellingen
 
 Source: 03-fase-validatie/01-doelstellingen.md
@@ -1467,7 +1456,7 @@ Het primaire doel van de Validatiefase is bewijzen dat het idee werkt en financi
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- Gate 1 (Go/No-Go Ontdekking) is goedgekeurd.
+- Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) is goedgekeurd.
 - De Data-Evaluatie is afgerond met positief resultaat.
 - Er is een testset beschikbaar met representatieve voorbeelden.
 - Het team heeft toegang tot de benodigde tools en data.
@@ -1517,7 +1506,7 @@ Een volledige raming van investering en operationele kosten.
 #### Operationele Kosten (per maand/jaar)
 
 - **Gebruikskosten:** Cloud/API-kosten per taak of transactie
-- **Onderhoud:** Monitoring, updates, support
+- **Onderhoud:** Monitoring, updates, ondersteuning
 - **Risico:** Mogelijke kosten van fouten of incidenten
 
 #### Return on Investment (ROI)
@@ -1547,9 +1536,9 @@ ______________________________________________________________________
 # Document: 03 Afleveringen
 
 Source: 03-fase-validatie/03-afleveringen.md
----# 🚀 Deliverables & Gate 2 (Investering PoV) (Validatie)
+---# 🚀 Opleveringen & Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Validatie)
 
-## 6. Deliverables (Afleveringen)
+## 6. Opleveringen (Afleveringen)
 
 De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 
@@ -1559,7 +1548,7 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 - **Het Kostenoverzicht:** Volledige business case met investering en ROI.
 - **Risico-update:** Verfijnde risico-inventarisatie op basis van bevindingen.
 
-## ? Gate 2 (Investering PoV) Review Checklist
+## ? Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) Review Checklist
 
 - [ ] Voldoet het bewijs aan de normen uit **Bewijsstandaarden** (Feitelijkheid, Relevantie, etc.)?
 - [ ] Is het **Doelkaart Validatierapport** volledig ingevuld en ondertekend?
@@ -1568,7 +1557,7 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 - [ ] Zijn de operationele kosten beheersbaar?
 - [ ] Is er commitment voor de volgende fase (Realisatie)?
 
-## Gerelateerde Templates
+## Gerelateerde Sjablonen
 
 - **09.06 Validatierapport:** [Sjabloon](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 - **01.07 Bewijsstandaarden:** [Module](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
@@ -1595,7 +1584,7 @@ Op basis van de PoC resultaten moet het project worden ingedeeld volgens de kade
 
 ## Mapping op EU AI Act
 
-Controleer of de *use case* na de PoC nog steeds in dezelfde categorie valt:
+Controleer of de *gebruikscasus* na de PoC nog steeds in dezelfde categorie valt:
 
 - **Unacceptable Risk:** Stop het project onmiddellijk.
 - **High Risk:** Start het volledige conformiteitstraject (zie Compliance Hub).
@@ -1618,7 +1607,7 @@ Het primaire doel van de Realisatiefase is het bouwen van een robuuste, producti
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- Gate 2 (Investering PoV) is goedgekeurd.
+- Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) is goedgekeurd.
 - De Praktijkproef heeft aangetoond dat de oplossing werkt (>90% score).
 - **Het Kostenoverzicht** is positief en goedgekeurd.
 - Het ontwikkelteam is compleet en heeft toegang tot alle benodigde resources.
@@ -1652,7 +1641,7 @@ Het verbinden van de AI aan interne documenten en het **Afstellen van het model*
 
 - **Kenniskoppeling (RAG):** Verbinden van de AI aan interne documenten, FAQ's, procedures.
 - **Prompt Engineering:** Optimaliseren van de **Sturingsinstructies**.
-- **Model-Afstelling:** Aanpassen van parameters voor specifieke use case.
+- **Model-Afstelling:** Aanpassen van parameters voor specifieke gebruikscasus.
 
 ### Activiteit 3.3: Specificatie-eerst Methode
 
@@ -1711,9 +1700,9 @@ ______________________________________________________________________
 # Document: 03 Afleveringen
 
 Source: 04-fase-ontwikkeling/03-afleveringen.md
----# 🚀 Deliverables & Gate 3 (Productie-klaar) (Realisatie)
+---# 🚀 Opleveringen & Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Realisatie)
 
-## 6. Deliverables (Afleveringen)
+## 6. Opleveringen (Afleveringen)
 
 De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 
@@ -1724,7 +1713,7 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 - **Technische Documentatie:** Architectuur, API's, configuratie.
 - **Ingebruikname Plan:** Stapsgewijs plan voor go-live.
 
-## ? Gate 3 (Productie-klaar) Review Checklist
+## ? Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) Review Checklist
 
 - [ ] Voldoet de Release Candidate aan de normen uit **Bewijsstandaarden**?
 - [ ] Is het systeem technisch stabiel en zijn alle tests geslaagd?
@@ -1733,7 +1722,7 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 - [ ] Zijn alle beveiligingseisen geïmplemented?
 - [ ] Is het **Ingebruikname Plan** getest en goedgekeurd?
 
-## Gerelateerde Templates
+## Gerelateerde Sjablonen
 
 - **01.07 Bewijsstandaarden:** [Module](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - **09.06 Validatierapport:** [Sjabloon](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
@@ -1769,7 +1758,7 @@ Source: 05-fase-levering/01-doelstellingen.md
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- De Realisatie-fase is afgerond (Gate 3 (Productie-klaar) goedgekeurd).
+- De Realisatie-fase is afgerond (Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) goedgekeurd).
 - Alle geautomatiseerde tests zijn geslaagd.
 - De infrastructuur voor **Ingebruikname** is gereed.
 - Het implementatieteam is stand-by.
@@ -1842,9 +1831,9 @@ ______________________________________________________________________
 # Document: 03 Afleveringen
 
 Source: 05-fase-levering/03-afleveringen.md
----# 🚀 Deliverables & Gate 4 (Livegang) (Levering)
+---# 🚀 Opleveringen & Gate 4 (Livegang) (Livegang) (Livegang) (Levering)
 
-## 6. Deliverables (Afleveringen)
+## 6. Opleveringen (Afleveringen)
 
 De resultaten van de Levering-fase die een veilige operatie garanderen:
 
@@ -1853,7 +1842,7 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 - **Trainingspakket:** Behandelt zowel technische bediening als nieuwe werkwijze.
 - **Compliance Dossier:** Volledige set documentatie (waaronder het Validatierapport en het Data & Privacyblad) voor juridische verantwoording.
 
-## ? Gate 4 (Livegang) Review Checklist
+## ? Gate 4 (Livegang) (Livegang) (Livegang) Review Checklist
 
 - [ ] Is de technische koppeling stabiel en veilig?
 - [ ] Zijn de regie-protocollen voor menselijk toezicht getest en begrepen?
@@ -1862,7 +1851,7 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 - [ ] Is er een duidelijke procedure voor incidenten?
 - [ ] Is de business sponsor tevreden met de acceptatie in de organisatie?
 
-## Gerelateerde Templates
+## Gerelateerde Sjablonen
 
 - **11-02 Overdracht-procedures:** [Link](../11-project-afsluiting/02-overdracht-procedures.md)
 - **07-05 Incidentrespons:** [Link](../07-compliance-hub/05-incidentrespons.md)
@@ -1875,17 +1864,6 @@ Source: 05-fase-levering/05-traceerbaarheid.md
 ---# Traceerbaarheid
 
 Inhoud volgt nog.
-
-______________________________________________________________________
-
-# Document: Overdracht Checklist
-
-Source: 05-fase-levering/04-sjablonen/overdracht-checklist.md
----﻿# Checklist: Operationele Overdracht
-
-## Inhoud volgt.
-
-© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -1904,7 +1882,7 @@ Het primaire doel van de Beheer & Optimalisatiefase is het waarborgen van de pre
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- Systeem is live (Gate 4 (Livegang) goedgekeurd).
+- Systeem is live (Gate 4 (Livegang) (Livegang) (Livegang) goedgekeurd).
 - Monitoring dashboards en alerts zijn actief.
 - Beheerteam (Operations/MLOps) is geïnstrueerd en stand-by.
 - Incident Response Plan is getest.
@@ -1979,9 +1957,9 @@ ______________________________________________________________________
 # Document: 03 Afleveringen
 
 Source: 06-fase-monitoring/03-afleveringen.md
----# Deliverables & Gate 5 (Monitoring)
+---# Opleveringen & Gate 5 (Monitoring)
 
-## 6. Deliverables (Afleveringen)
+## 6. Opleveringen (Afleveringen)
 
 De resultaten van de Monitoringfase voor een duurzame operatie:
 
@@ -2003,7 +1981,7 @@ De resultaten van de Monitoringfase voor een duurzame operatie:
 
     *Indien "Nee" op kritieke punten: Overweeg decommissioning of herstart (terug naar Discovery).*
 
-## Gerelateerde Templates
+## Gerelateerde Sjablonen
 
 - **10-03 Metrics-dashboards:** [Sjabloon](../09-sjablonen/index.md)
 - **08-01 MLOps-standaarden:** [Link](../08-technische-standaarden/01-mloops-standaarden.md)
@@ -2369,8 +2347,146 @@ ______________________________________________________________________
 
 # Document: Index
 
+Source: 08-technische-standaarden/index.md
+---# 🚀 Technische Standaarden
+
+## 📖 Doel
+
+In dit onderdeel leggen we de technische blauwdrukken en kwaliteitskaders vast voor AI-engineering, van modelselectie tot MLOps.
+
+______________________________________________________________________
+
+## 📖 Beschikbare Standaarden
+
+- [MLOps Standaarden](01-mloops-standaarden.md)
+- [Data Pijplijnen](02-data-pipelines.md)
+- [Model Governance](03-model-governance.md)
+- [Test Frameworks](04-test-frameworks.md)
+- [AI Architectuur](05-ai-architectuur.md)
+
+______________________________________________________________________
+
+**Versie:** 2.0
+**Datum:** 31 januari 2026
+**Status:** Draft
+
+______________________________________________________________________
+
+# Document: 01 Mloops Standaarden
+
+Source: 08-technische-standaarden/01-mloops-standaarden.md
+---﻿# Module 08.1: Technische Standaarden & Leveringscriteria
+
+## 1. Doel
+
+Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, inclusief een realistische route:
+
+- **Basis** (handmatige governance, minimale automatisering)
+- **Gevorderd** (meer automatisering, CI/CD/kwaliteitspoorten)
+
+## 2. Automation Ladder (realistisch groeipad)
+
+| Niveau                        | Omschrijving                            | Voor wie          | Voorbeeld controles                  |
+| ----------------------------- | --------------------------------------- | ----------------- | ------------------------------------ |
+| **L0 Handmatig**              | Checklists + handmatige gates           | startende teams   | sjablonen ingevuld, handtekeningen   |
+| **L1 Semi**                   | vaste testset + vaste rapportage        | meeste teams      | Doelkaart elke release               |
+| **L2 Geautomatiseerd testen** | tests draaien automatisch bij wijziging | engineering teams | regressietest op Gouden Set          |
+| **L3 Governance-as-Code**     | policy checks blokkeren release         | mature MLOps      | release faalt zonder bewijs/metadata |
+
+## 3. Minimum Technical Baseline (moet elk team halen)
+
+### 3.1 Reproduceerbaarheid & wijzigingsbeheer
+
+- [ ] Code/instructies staan in versiebeheer (repo)
+- [ ] Config (modelversie, instellingen) is traceerbaar
+- [ ] Release is tagbaar (RC-1, v1.0) + rollback plan bestaat
+
+### 3.2 Security & toegang
+
+- [ ] Secrets niet hardcoded; toegang via veilige opslag
+- [ ] Role-based access (wie mag prompts/config wijzigen?)
+- [ ] Least privilege op data-bronnen
+
+### 3.3 Observability (minimaal)
+
+- [ ] Logging aanwezig (modelversie, promptversie, bron-IDs, output-status)
+- [ ] Basis metrics: foutpercentage, latency, volume
+- [ ] Incidentproces is bekend (wie belt wie)
+
+### 3.4 Kwaliteit & bewijs
+
+- [ ] Gouden Set bestaat en wordt gebruikt
+- [ ] Doelkaart Validatierapport beschikbaar voor pilot/RC
+- [ ] Voldoet aan Bewijsstandaarden normen voor risiconiveau
+
+## 4. Basisroute (zonder zware MLOps)
+
+**Doel:** veilig live met minimale tooling.
+
+- Gebruik sjablonen als “single source of truth”
+- Plan vaste evaluatiemomenten (bijv. wekelijks in pilot, maandelijks in beheer)
+- Logging minimaal: metadata + sampling output (waar privacy toelaat)
+
+## 5. Gevorderde route (met meer automatisering)
+
+**Doel:** schaalbaar beheer bij meerdere use cases.
+
+- Automatische regressietests op Gouden Set bij elke wijziging
+- Automatisch genereren van Doelkaart uit testruns (waar mogelijk)
+- Integratie van policy checks: “geen Validatierapport = geen release”
+
+## 6. Definition of Done voor Livegang (checklist)
+
+Een oplossing mag live als:
+
+- [ ] Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
+- [ ] Logging/retentie ingericht (incl. privacymaatregelen)
+- [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
+- [ ] Owner voor beheer benoemd + monitoring actief
+- [ ] Gebruikersinstructies + transparantie (indien relevant) gepubliceerd
+
+______________________________________________________________________
+
+# Document: 02 Data Pipelines
+
+Source: 08-technische-standaarden/02-data-pipelines.md
+---# Data Pipelines
+
+Inhoud volgt nog.
+
+______________________________________________________________________
+
+# Document: 03 Model Governance
+
+Source: 08-technische-standaarden/03-model-governance.md
+---# Model Governance
+
+Inhoud volgt nog.
+
+______________________________________________________________________
+
+# Document: 04 Test Frameworks
+
+Source: 08-technische-standaarden/04-test-frameworks.md
+---# Test Frameworks
+
+Inhoud volgt nog.
+
+______________________________________________________________________
+
+# Document: 05 Ai Architectuur
+
+Source: 08-technische-standaarden/05-ai-architectuur.md
+---# AI Architectuur
+
+Inhoud volgt nog.
+
+______________________________________________________________________
+
+# Document: Index
+
 Source: 09-sjablonen/index.md
----# 🚀 Sjablonen & Templates
+---# 🚀 Sjablonen & Sjablonen
 
 Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-project. Deze documenten zijn ontworpen om direct gekopieerd te worden naar een Wiki (Confluence/SharePoint) of Word-document.
 
@@ -2381,13 +2497,13 @@ ______________________________________________________________________
 ### 🎯 Strategie & Planning
 
 - **[Module 09.01: Het Project Charter](01-project-charter/template.md):** Sjabloon voor de formele start van een initiatief.
-- **[Module 09.03: Risico Pre-Scan](03-risicoanalyse/pre-scan.md):** Sjabloon voor initiële risico-inventarisatie (Gate 1 (Go/No-Go Ontdekking)).
+- **[Module 09.03: Risico Pre-Scan](03-risicoanalyse/pre-scan.md):** Sjabloon voor initiële risico-inventarisatie (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)).
 - **[Business Case](02-business-case/template.md):** Financiële onderbouwing en raming van **Het Kostenoverzicht**.
 
 ### 🎯 Ontwerp & Sturing
 
 - **[Module 09.02: De Doelkaart (Intent Map)](06-ai-native-artefacten/doelkaart.md):** Verbindt de menselijke intentie aan de technische **Sturingsinstructies**.
-- **[Module 09.05: Prompt Template](10-prompt-engineering/template.md):** Sjabloon voor het opbouwen van effectieve AI-instructies.
+- **[Module 09.05: Prompt Sjabloon](10-prompt-engineering/template.md):** Sjabloon voor het opbouwen van effectieve AI-instructies.
 - **[Module 09.04: Technische Modelkaart](02-business-case/modelkaart.md):** Technische verantwoording voor ontwikkelaars en auditors.
 - **[Risicoanalyse](03-risicoanalyse/template.md):** Systematische risico-inventarisatie en toetsing op de **Rode Lijnen**.
 
@@ -2395,12 +2511,23 @@ ______________________________________________________________________
 
 - **[Gate Reviews](04-gate-reviews/checklist.md):** Checklists voor de harde stop/go beslismomenten.
 - **[Module 09.06: Validatierapport](07-validatie-bewijs/validatierapport.md):** Documentatie van de resultaten van de **Praktijkproef**.
-- **[Validatie Bewijs](07-validatie-bewijs/template.md):** Oude template voor validatiebewijs (ter referentie).
+- **[Validatie Bewijs](07-validatie-bewijs/template.md):** Oude sjabloon voor validatiebewijs (ter referentie).
 - **[Traceerbaarheid](08-traceerbaarheid-links/template.md):** Verbinding tussen Doel ? Instructie ? Bewijs.
 
 ### 🎯 Compliance & Privacy
 
 - **[Module 09.07: Data & Privacyblad](11-privacy-data/privacyblad.md):** Sjabloon voor het vastleggen van privacy-by-design maatregelen (AVG).
+
+______________________________________________________________________
+
+# Document: Index
+
+Source: 02-fase-ontdekking/04-sjablonen/index.md
+---﻿# 02-fase-ontdekking/04-sjablonen
+
+## Inhoud volgt nog.
+
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -2488,10 +2615,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Besluit Gate 1 (Go/No-Go Ontdekking)
+### ? Besluit Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)
 
 - [ ] **Go: Fast Lane FL-1**
-- [ ] **Go: Standaard lifecycle Gate 1 (Go/No-Go Ontdekking)**
+- [ ] **Go: Standaard lifecycle Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)**
 - [ ] **No-Go / Pauze**
 
 ______________________________________________________________________
@@ -2684,7 +2811,7 @@ ______________________________________________________________________
 # Document: Pre Scan
 
 Source: 09-sjablonen/03-risicoanalyse/pre-scan.md
----# 🚀 Module 09.03: Risico Pre-Scan (Gate 1 (Go/No-Go Ontdekking) Checklist)
+---# 🚀 Module 09.03: Risico Pre-Scan (Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) Checklist)
 
 ## 📖 Doel
 
@@ -2767,7 +2894,7 @@ Dit document bevat de criteria waaraan een project moet voldoen om de overstap n
 
 ______________________________________________________________________
 
-### ? Gate 1 (Go/No-Go Ontdekking): Van Verkenning naar Validatie
+### ? Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): Van Verkenning naar Validatie
 
 - [ ] **Doeldefinitie** is vastgelegd.
 - [ ] **Data-Evaluatie** is positief (Score Groen/Oranje).
@@ -2776,7 +2903,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Gate 2 (Investering PoV): Van Validatie naar Realisatie
+### ? Gate 2 (Investering PoV) (Investering PoV) (Investering PoV): Van Validatie naar Realisatie
 
 - [ ] **Praktijkproef** is succesvol afgerond (>90% score).
 - [ ] **Het Kostenoverzicht** is goedgekeurd.
@@ -2784,7 +2911,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Gate 3 (Productie-klaar): Van Realisatie naar Levering
+### ? Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar): Van Realisatie naar Levering
 
 - [ ] **Validatierapport** is beschikbaar en goedgekeurd.
 - [ ] **Sturingsinstructies** zijn geversioneerd en gedocumenteerd.
@@ -2792,7 +2919,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Gate 4 (Livegang): Ingebruikname & Beheer
+### ? Gate 4 (Livegang) (Livegang) (Livegang): Ingebruikname & Beheer
 
 - [ ] Monitoring op **Prestatieverloop** is actief.
 - [ ] Incident procedure is bekend.
@@ -2932,7 +3059,7 @@ ______________________________________________________________________
 # Document: Validatierapport
 
 Source: 09-sjablonen/07-validatie-bewijs/validatierapport.md
----# Template 09.06: Validatierapport (Bewijs‑pakket)
+---# Sjabloon 09.06: Validatierapport (Bewijs‑pakket)
 
 ## 0. Samenvatting (1 pagina)
 
@@ -3092,7 +3219,7 @@ ______________________________________________________________________
 # Document: Template
 
 Source: 09-sjablonen/10-prompt-engineering/template.md
----# ðŸ“‚ Module 09.05: Prompt Engineering Template
+---# ðŸ“‚ Module 09.05: Prompt Engineering Sjabloon
 
 ## ðŸŽ¯ Doel
 
@@ -3150,9 +3277,9 @@ ______________________________________________________________________
 # Document: Privacyblad
 
 Source: 09-sjablonen/11-privacy-data/privacyblad.md
----# Template 09.07: Data & Privacyblad (AVG/GDPR)
+---# Sjabloon 09.07: Data & Privacyblad (AVG/GDPR)
 
-## 1. Use case & doelbinding
+## 1. Gebruikscasus & doelbinding
 
 - **Project:** \[naam\]
 - **Doel van verwerking:** \[1–3 zinnen, concreet\]
@@ -3206,141 +3333,14 @@ Kruis aan + beschrijf:
 
 ______________________________________________________________________
 
-# Document: Index
+# Document: Overdracht Checklist
 
-Source: 08-technische-standaarden/index.md
----# 🚀 Technische Standaarden
+Source: 05-fase-levering/04-sjablonen/overdracht-checklist.md
+---﻿# Checklist: Operationele Overdracht
 
-## 📖 Doel
+## Inhoud volgt.
 
-In dit onderdeel leggen we de technische blauwdrukken en kwaliteitskaders vast voor AI-engineering, van modelselectie tot MLOps.
-
-______________________________________________________________________
-
-## 📖 Beschikbare Standaarden
-
-- [MLOps Standaarden](01-mloops-standaarden.md)
-- [Data Pijplijnen](02-data-pipelines.md)
-- [Model Governance](03-model-governance.md)
-- [Test Frameworks](04-test-frameworks.md)
-- [AI Architectuur](05-ai-architectuur.md)
-
-______________________________________________________________________
-
-**Versie:** 2.0
-**Datum:** 31 januari 2026
-**Status:** Draft
-
-______________________________________________________________________
-
-# Document: 01 Mloops Standaarden
-
-Source: 08-technische-standaarden/01-mloops-standaarden.md
----﻿# Module 08.1: Technische Standaarden & Leveringscriteria
-
-## 1. Doel
-
-Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, inclusief een realistische route:
-
-- **Basis** (handmatige governance, minimale automatisering)
-- **Gevorderd** (meer automatisering, CI/CD/kwaliteitspoorten)
-
-## 2. Automation Ladder (realistisch groeipad)
-
-| Niveau                        | Omschrijving                            | Voor wie          | Voorbeeld controles                  |
-| ----------------------------- | --------------------------------------- | ----------------- | ------------------------------------ |
-| **L0 Handmatig**              | Checklists + handmatige gates           | startende teams   | templates ingevuld, handtekeningen   |
-| **L1 Semi**                   | vaste testset + vaste rapportage        | meeste teams      | Doelkaart elke release               |
-| **L2 Geautomatiseerd testen** | tests draaien automatisch bij wijziging | engineering teams | regressietest op Gouden Set          |
-| **L3 Governance-as-Code**     | policy checks blokkeren release         | mature MLOps      | release faalt zonder bewijs/metadata |
-
-## 3. Minimum Technical Baseline (moet elk team halen)
-
-### 3.1 Reproduceerbaarheid & wijzigingsbeheer
-
-- [ ] Code/instructies staan in versiebeheer (repo)
-- [ ] Config (modelversie, instellingen) is traceerbaar
-- [ ] Release is tagbaar (RC-1, v1.0) + rollback plan bestaat
-
-### 3.2 Security & toegang
-
-- [ ] Secrets niet hardcoded; toegang via veilige opslag
-- [ ] Role-based access (wie mag prompts/config wijzigen?)
-- [ ] Least privilege op data-bronnen
-
-### 3.3 Observability (minimaal)
-
-- [ ] Logging aanwezig (modelversie, promptversie, bron-IDs, output-status)
-- [ ] Basis metrics: foutpercentage, latency, volume
-- [ ] Incidentproces is bekend (wie belt wie)
-
-### 3.4 Kwaliteit & bewijs
-
-- [ ] Gouden Set bestaat en wordt gebruikt
-- [ ] Doelkaart Validatierapport beschikbaar voor pilot/RC
-- [ ] Voldoet aan Bewijsstandaarden normen voor risiconiveau
-
-## 4. Basisroute (zonder zware MLOps)
-
-**Doel:** veilig live met minimale tooling.
-
-- Gebruik templates als “single source of truth”
-- Plan vaste evaluatiemomenten (bijv. wekelijks in pilot, maandelijks in beheer)
-- Logging minimaal: metadata + sampling output (waar privacy toelaat)
-
-## 5. Gevorderde route (met meer automatisering)
-
-**Doel:** schaalbaar beheer bij meerdere use cases.
-
-- Automatische regressietests op Gouden Set bij elke wijziging
-- Automatisch genereren van Doelkaart uit testruns (waar mogelijk)
-- Integratie van policy checks: “geen Validatierapport = geen release”
-
-## 6. Definition of Done voor Livegang (checklist)
-
-Een oplossing mag live als:
-
-- [ ] Gate 3 (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
-- [ ] Logging/retentie ingericht (incl. privacymaatregelen)
-- [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
-- [ ] Owner voor beheer benoemd + monitoring actief
-- [ ] Gebruikersinstructies + transparantie (indien relevant) gepubliceerd
-
-______________________________________________________________________
-
-# Document: 02 Data Pipelines
-
-Source: 08-technische-standaarden/02-data-pipelines.md
----# Data Pipelines
-
-Inhoud volgt nog.
-
-______________________________________________________________________
-
-# Document: 03 Model Governance
-
-Source: 08-technische-standaarden/03-model-governance.md
----# Model Governance
-
-Inhoud volgt nog.
-
-______________________________________________________________________
-
-# Document: 04 Test Frameworks
-
-Source: 08-technische-standaarden/04-test-frameworks.md
----# Test Frameworks
-
-Inhoud volgt nog.
-
-______________________________________________________________________
-
-# Document: 05 Ai Architectuur
-
-Source: 08-technische-standaarden/05-ai-architectuur.md
----# AI Architectuur
-
-Inhoud volgt nog.
+© 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 ______________________________________________________________________
 
@@ -3353,37 +3353,37 @@ Source: 12-90-dagen-roadmap/index.md
 
 - Kernteam benoemd: **AI Product Manager**, **Tech Lead**, **Guardian**
 - Toegang tot relevante data geregeld (minimaal leesrechten)
-- Werkruimte klaar: repo/wiki + plek voor templates + beslislogboek
-- Eén use case geselecteerd (max 1) met duidelijke eigenaar
+- Werkruimte klaar: repo/wiki + plek voor sjablonen + beslislogboek
+- Eén gebruikscasus geselecteerd (max 1) met duidelijke eigenaar
 
 ______________________________________________________________________
 
 ## 1. Planning (week-voor-week)
 
-| Week | Doel                            | Deliverables (verplicht)                     | Primaire eigenaar    | Gate/Output                                |
-| ---: | ------------------------------- | -------------------------------------------- | -------------------- | ------------------------------------------ |
-|    1 | Use case scherp + scope         | Project Charter (concept)                    | AI PM                | Go/no-go op probleemdefinitie              |
-|    2 | Risico + data haalbaarheid      | Risico Pre-Scan, Data-Evaluatie samenvatting | Guardian + Tech Lead | Gate 1 (Go/No-Go Ontdekking): doorgaan?    |
-|    3 | Doel + Rode Lijnen              | Business Case (v1)                           | AI PM + Guardian     | Rode Lijnen akkoord                        |
-|    4 | Testbasis opzetten              | Gouden Set Test + Gouden Set v1              | AI PM + QA/Tech      | Testplan gereed                            |
-|    5 | Prototype (pilot)               | Prototype + Gate Review Checklist (concept)  | Tech Lead            | Interne demo                               |
-|    6 | Pilot meten                     | Doelkaart (pilot)                            | Tech Lead + AI PM    | Gate 2 (Investering PoV): naar Realisatie? |
-|    7 | Realisatie: integratiepad       | Integratieplan + loggingplan                 | Tech Lead            | Ready for RC                               |
-|    8 | Privacy & security checks       | Validatierapport (Data&Privacyblad)          | Guardian + Privacy   | “OK to proceed”                            |
-|    9 | Release Candidate bouwen        | RC build + Gate Review Checklist (v1)        | Tech Lead            | RC gereed                                  |
-|   10 | RC testen & bewijs              | Doelkaart (RC)                               | QA + Guardian        | Gate 3 (Productie-klaar): Live?            |
-|   11 | Live pilot + monitoring         | Monitoring + incidentproces actief           | Tech Lead            | 1e productie-evaluatie                     |
-|   12 | Optimaliseren + overdracht      | Beheerplan + nulmeting drift                 | Tech Lead + AI PM    | Overdracht Beheer & Optimalisatie          |
-|   13 | Retrospective + standaardiseren | Lessons learned + playbook updates           | AI CC                | v2.3 backlog                               |
+| Week | Doel                            | Opleveringen (verplicht)                     | Primaire eigenaar    | Gate/Output                                                                         |
+| ---: | ------------------------------- | -------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------- |
+|    1 | Gebruikscasus scherp + scope    | Project Charter (concept)                    | AI PM                | Go/no-go op probleemdefinitie                                                       |
+|    2 | Risico + data haalbaarheid      | Risico Pre-Scan, Data-Evaluatie samenvatting | Guardian + Tech Lead | Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): doorgaan? |
+|    3 | Doel + Rode Lijnen              | Business Case (v1)                           | AI PM + Guardian     | Rode Lijnen akkoord                                                                 |
+|    4 | Testbasis opzetten              | Gouden Set Test + Gouden Set v1              | AI PM + QA/Tech      | Testplan gereed                                                                     |
+|    5 | Prototype (pilot)               | Prototype + Gate Review Checklist (concept)  | Tech Lead            | Interne demo                                                                        |
+|    6 | Pilot meten                     | Doelkaart (pilot)                            | Tech Lead + AI PM    | Gate 2 (Investering PoV) (Investering PoV) (Investering PoV): naar Realisatie?      |
+|    7 | Realisatie: integratiepad       | Integratieplan + loggingplan                 | Tech Lead            | Ready for RC                                                                        |
+|    8 | Privacy & security checks       | Validatierapport (Data&Privacyblad)          | Guardian + Privacy   | “OK to proceed”                                                                     |
+|    9 | Release Candidate bouwen        | RC build + Gate Review Checklist (v1)        | Tech Lead            | RC gereed                                                                           |
+|   10 | RC testen & bewijs              | Doelkaart (RC)                               | QA + Guardian        | Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar): Live?                 |
+|   11 | Live pilot + monitoring         | Monitoring + incidentproces actief           | Tech Lead            | 1e productie-evaluatie                                                              |
+|   12 | Optimaliseren + overdracht      | Beheerplan + nulmeting drift                 | Tech Lead + AI PM    | Overdracht Beheer & Optimalisatie                                                   |
+|   13 | Retrospective + standaardiseren | Lessons learned + playbook updates           | AI CC                | v2.3 backlog                                                                        |
 
 ______________________________________________________________________
 
 ## 2. Minimale beslismomenten (Gates)
 
-- **Gate 1 (Go/No-Go Ontdekking) (einde week 2):** risico + data haalbaarheid bevestigd
-- **Gate 2 (Investering PoV) (einde week 6):** pilotresultaat (Doelkaart) voldoet aan Bewijsstandaarden
-- **Gate 3 (Productie-klaar) (einde week 10):** RC voldoet aan Bewijsstandaarden + logging/privacy geregeld
-- **Gate 4 (Livegang) (week 12):** overdracht naar beheer incl. nulmeting prestatieverloop
+- **Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (einde week 2):** risico + data haalbaarheid bevestigd
+- **Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (einde week 6):** pilotresultaat (Doelkaart) voldoet aan Bewijsstandaarden
+- **Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (einde week 10):** RC voldoet aan Bewijsstandaarden + logging/privacy geregeld
+- **Gate 4 (Livegang) (Livegang) (Livegang) (week 12):** overdracht naar beheer incl. nulmeting prestatieverloop
 
 ______________________________________________________________________
 
@@ -3409,9 +3409,9 @@ In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet wer
 1. **Quick Win Workshop:** Identificeer processen die met standaard tools (Copilot, ChatGPT) direct verbeterd kunnen worden (geen development nodig).
 1. **Capability Scan:** Hebben we de mensen en data voor onze ambities? ([HAS H Assessment](../00-strategisch-kader/06-has-h-niveaus.md)).
 
-## Deliverables (Dag 30)
+## Opleveringen (Dag 30)
 
-!!! check "Deliverables Fase 1"
+!!! check "Opleveringen Fase 1"
     - [ ] Lijst met gestopte/gepauzeerde projecten (besparing).
     - [ ] Kostenoverzicht huidige AI-stack.
     - [ ] Selectie van top 2 Use Cases voor Fase 2.
@@ -3430,7 +3430,7 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
 
 ## Doelstellingen
 
-- **Proof of Value:** Bewijs dat de gekozen use case werkt in de praktijk.
+- **Proof of Value:** Bewijs dat de gekozen gebruikscasus werkt in de praktijk.
 - **Proces Redesign:** Pas het werkproces aan. AI toevoegen aan een slecht proces maakt het alleen maar sneller slecht.
 - **Eerste winst:** Realiseer meetbare besparing of omzetgroei.
 
@@ -3441,9 +3441,9 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
 1. **User Training:** Train de pilotgroep niet alleen in de knoppen, maar in de nieuwe werkwijze.
 1. **Meting:** Start nulmeting en effectmeting.
 
-## Deliverables (Dag 60)
+## Opleveringen (Dag 60)
 
-!!! check "Deliverables Fase 2"
+!!! check "Opleveringen Fase 2"
     - [ ] Werkend prototype / PoV in handen van gebruikers.
     - [ ] Aangepaste procesbeschrijving (SOPs).
     - [ ] Eerste resultatenrapportage (bijv. "30% tijdwinst op taak X").
@@ -3464,7 +3464,7 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
 
 - **Standaardisatie:** Leg de 'winnende' werkwijze vast in beleid en techniek.
 - **Governance:** Formaliseer de regels (Compliance, Security) voor bredere uitrol.
-- **Roadmap 2.0:** Plan de volgende kwartalen.
+- **Stappenplan 2.0:** Plan de volgende kwartalen.
 
 ## Activiteiten
 
@@ -3473,13 +3473,13 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
 1. **Organisatie uitrol:** Start communicatie en training voor de rest van de organisatie.
 1. **Governance Setup:** Installeer de AI Board / Ethische commissie structureel.
 
-## Deliverables (Dag 90)
+## Opleveringen (Dag 90)
 
-!!! check "Deliverables Fase 3"
+!!! check "Opleveringen Fase 3"
     - [ ] Geformaliseerd AI Beleid & Playbook v1.0.
     - [ ] Operationeel en getraind team/afdeling.
     - [ ] Schaalbare technische architectuur.
-    - [ ] Roadmap voor de komende 12 maanden.
+    - [ ] Stappenplan voor de komende 12 maanden.
 
 ______________________________________________________________________
 
@@ -3692,7 +3692,7 @@ Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strate
 1. Implementeer geautomatiseerde compliance monitoring (EU AI Act)
 1. Stel AI Board of Ethics Committee in
 1. Optimaliseer kosten: review cloud spending, model-compressie
-1. Ontwikkel herbruikbare accelerators en templates
+1. Ontwikkel herbruikbare accelerators en sjablonen
 1. Investeer in energie-efficiëntie (ESG doelen)
 1. Bouw een AI Center of Excellence
 
@@ -3788,7 +3788,7 @@ Source: 15-accelerators/index.md
 
 ## 📖 Doel
 
-Accelerators zijn tools, frameworks en templates die de uitvoering van AI-projecten versnellen binnen de verschillende tracks.
+Accelerators zijn tools, frameworks en sjablonen die de uitvoering van AI-projecten versnellen binnen de verschillende tracks.
 
 ______________________________________________________________________
 
@@ -4108,16 +4108,16 @@ Source: release-notes.md
 
 ### Belangrijkste wijzigingen
 
-- **Executive Summary (Strategisch Kader.01)**: Nieuwe managementsamenvatting en implementatie-roadmap.
+- **Managementsamenvatting (Strategisch Kader.01)**: Nieuwe managementsamenvatting en implementatie-stappenplan.
 - **Snelle Route (Fast Lane, Verkenning & Strategie.FL)**: Versnelde procedure voor AI-experimenten met een minimaal risico.
 - **Technische Standaarden (Technische Standaarden)**: Concrete criteria voor "productiewaardig" en de introductie van een automation ladder.
 - **90-Dagen Startplan (90-Dagen Startplan)**: Volledig uitgewerkt 13-weken plan voor teams.
-- **Privacy-by-Design**: Nieuwe template (**TMP-09.07 Data & Privacyblad**) en DPIA-triggers in de Risico Pre-Scan (**TMP-09.03**).
+- **Privacy-by-Design**: Nieuwe sjabloon (**TMP-09.07 Data & Privacyblad**) en DPIA-triggers in de Risico Pre-Scan (**TMP-09.03**).
 - **Bewijsstandaarden (AI-Native Fundamenten.07)**: Strikte normen voor validatie en rapportage (**TMP-09.06**).
 
 ### Breaking changes
 
-- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 (Investering PoV) en Gate 3 (Productie-klaar).
+- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) en Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar).
 - Bewijs moet voldoen aan de specifieke normen (feitelijkheid, relevantie, etc.) zoals vastgelegd in **Bewijsstandaarden**.
 
 ### Navigatie & Structuur

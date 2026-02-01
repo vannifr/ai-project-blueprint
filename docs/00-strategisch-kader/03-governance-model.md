@@ -23,16 +23,16 @@ ______________________________________________________________________
 
 ## 📖 Verantwoordelijkheden (RACI)
 
-| Rol                          | Niveau        | Kernverantwoordelijkheden                                      |
-| :--------------------------- | :------------ | :------------------------------------------------------------- |
-| **CAIO** (Chief AI Officer)  | Strategisch   | Strategie, ROI oversight, Governance eindverantwoordelijkheid. |
-| **Executive Committee**      | Strategisch   | Budgetgoedkeuring, strategische alignment.                     |
-| **AI Product Manager**       | Operationeel  | Use case prioriteit, Stakeholder management, Backlog eigenaar. |
-| **AI Transformation Office** | Operationeel  | Procesbewaking, standaardisatie, training.                     |
-| **Data Scientist**           | Technisch     | Model development, validatie, experimentatie.                  |
-| **ML Engineering**           | Technisch     | **Ingebruikname** pipelines, monitoring, infrastructuur.       |
-| **Guardian (Ethicist)**      | Ondersteunend | Eerlijkheidstoetsen, Bias audits, Compliance checks.           |
-| **Security Officer**         | Ondersteunend | Security maatregelen, Privacy waarborging.                     |
+| Rol                          | Niveau        | Kernverantwoordelijkheden                                           |
+| :--------------------------- | :------------ | :------------------------------------------------------------------ |
+| **CAIO** (Chief AI Officer)  | Strategisch   | Strategie, ROI oversight, Governance eindverantwoordelijkheid.      |
+| **Executive Committee**      | Strategisch   | Budgetgoedkeuring, strategische alignment.                          |
+| **AI Product Manager**       | Operationeel  | Gebruikscasus prioriteit, Stakeholder management, Backlog eigenaar. |
+| **AI Transformation Office** | Operationeel  | Procesbewaking, standaardisatie, training.                          |
+| **Data Scientist**           | Technisch     | Model development, validatie, experimentatie.                       |
+| **ML Engineering**           | Technisch     | **Ingebruikname** pipelines, monitoring, infrastructuur.            |
+| **Guardian (Ethicist)**      | Ondersteunend | Eerlijkheidstoetsen, Bias audits, Compliance checks.                |
+| **Security Officer**         | Ondersteunend | Security maatregelen, Privacy waarborging.                          |
 
 ______________________________________________________________________
 
@@ -40,16 +40,16 @@ ______________________________________________________________________
 
 ```mermaid
 flowchart TD
-    A[Initiatief] --> B{Gate 1 (Go/No-Go Ontdekking): Verkenning}
+    A[Initiatief] --> B{Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): Verkenning}
     B -->|Go| C[Validatie]
     B -->|No Go| X[Stop]
-    C --> D{Gate 2 (Investering PoV): Kostenplaatje}
+    C --> D{Gate 2 (Investering PoV) (Investering PoV) (Investering PoV): Kostenplaatje}
     D -->|Go| E[Realisatie]
     D -->|No Go| X
-    E --> F{Gate 3 (Productie-klaar): Ingebruikname}
+    E --> F{Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar): Ingebruikname}
     F -->|Go| G[Beheer & Optimalisatie]
     F -->|No Go| X
-    G --> H{Gate 4 (Livegang): Continue?}
+    G --> H{Gate 4 (Livegang) (Livegang) (Livegang): Continue?}
     H -->|Ja| A
     H -->|Nee| I[Afsluiting]
 ```

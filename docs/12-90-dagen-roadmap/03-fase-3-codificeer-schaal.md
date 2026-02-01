@@ -13,7 +13,7 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
 
 - **Standaardisatie:** Leg de 'winnende' werkwijze vast in beleid en techniek.
 - **Governance:** Formaliseer de regels (Compliance, Security) voor bredere uitrol.
-- **Roadmap 2.0:** Plan de volgende kwartalen.
+- **Stappenplan 2.0:** Plan de volgende kwartalen.
 
 ## Activiteiten
 
@@ -22,10 +22,10 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
 1. **Organisatie uitrol:** Start communicatie en training voor de rest van de organisatie.
 1. **Governance Setup:** Installeer de AI Board / Ethische commissie structureel.
 
-## Deliverables (Dag 90)
+## Opleveringen (Dag 90)
 
-!!! check "Deliverables Fase 3"
+!!! check "Opleveringen Fase 3"
     - [ ] Geformaliseerd AI Beleid & Playbook v1.0.
     - [ ] Operationeel en getraind team/afdeling.
     - [ ] Schaalbare technische architectuur.
-    - [ ] Roadmap voor de komende 12 maanden.
+    - [ ] Stappenplan voor de komende 12 maanden.

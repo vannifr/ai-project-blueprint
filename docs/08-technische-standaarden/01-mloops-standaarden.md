@@ -16,7 +16,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 
 | Niveau                        | Omschrijving                            | Voor wie          | Voorbeeld controles                  |
 | ----------------------------- | --------------------------------------- | ----------------- | ------------------------------------ |
-| **L0 Handmatig**              | Checklists + handmatige gates           | startende teams   | templates ingevuld, handtekeningen   |
+| **L0 Handmatig**              | Checklists + handmatige gates           | startende teams   | sjablonen ingevuld, handtekeningen   |
 | **L1 Semi**                   | vaste testset + vaste rapportage        | meeste teams      | Doelkaart elke release               |
 | **L2 Geautomatiseerd testen** | tests draaien automatisch bij wijziging | engineering teams | regressietest op Gouden Set          |
 | **L3 Governance-as-Code**     | policy checks blokkeren release         | mature MLOps      | release faalt zonder bewijs/metadata |
@@ -51,7 +51,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 
 **Doel:** veilig live met minimale tooling.
 
-- Gebruik templates als “single source of truth”
+- Gebruik sjablonen als “single source of truth”
 - Plan vaste evaluatiemomenten (bijv. wekelijks in pilot, maandelijks in beheer)
 - Logging minimaal: metadata + sampling output (waar privacy toelaat)
 
@@ -67,7 +67,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 
 Een oplossing mag live als:
 
-- [ ] Gate 3 (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
+- [ ] Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
 - [ ] Logging/retentie ingericht (incl. privacymaatregelen)
 - [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
 - [ ] Owner voor beheer benoemd + monitoring actief

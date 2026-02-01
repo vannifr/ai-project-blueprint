@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# ðŸ“‚ Module 09.05: Prompt Engineering Template
+# ðŸ“‚ Module 09.05: Prompt Engineering Sjabloon
 
 ## ðŸŽ¯ Doel
 

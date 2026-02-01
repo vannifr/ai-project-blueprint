@@ -11,7 +11,7 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
 
 ## Doelstellingen
 
-- **Proof of Value:** Bewijs dat de gekozen use case werkt in de praktijk.
+- **Proof of Value:** Bewijs dat de gekozen gebruikscasus werkt in de praktijk.
 - **Proces Redesign:** Pas het werkproces aan. AI toevoegen aan een slecht proces maakt het alleen maar sneller slecht.
 - **Eerste winst:** Realiseer meetbare besparing of omzetgroei.
 
@@ -22,9 +22,9 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
 1. **User Training:** Train de pilotgroep niet alleen in de knoppen, maar in de nieuwe werkwijze.
 1. **Meting:** Start nulmeting en effectmeting.
 
-## Deliverables (Dag 60)
+## Opleveringen (Dag 60)
 
-!!! check "Deliverables Fase 2"
+!!! check "Opleveringen Fase 2"
     - [ ] Werkend prototype / PoV in handen van gebruikers.
     - [ ] Aangepaste procesbeschrijving (SOPs).
     - [ ] Eerste resultatenrapportage (bijv. "30% tijdwinst op taak X").

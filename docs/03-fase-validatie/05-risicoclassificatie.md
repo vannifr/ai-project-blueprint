@@ -19,7 +19,7 @@ Op basis van de PoC resultaten moet het project worden ingedeeld volgens de kade
 
 ## Mapping op EU AI Act
 
-Controleer of de *use case* na de PoC nog steeds in dezelfde categorie valt:
+Controleer of de *gebruikscasus* na de PoC nog steeds in dezelfde categorie valt:
 
 - **Unacceptable Risk:** Stop het project onmiddellijk.
 - **High Risk:** Start het volledige conformiteitstraject (zie Compliance Hub).

@@ -84,8 +84,8 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Besluit Gate 1 (Go/No-Go Ontdekking)
+### ? Besluit Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)
 
 - [ ] **Go: Fast Lane FL-1**
-- [ ] **Go: Standaard lifecycle Gate 1 (Go/No-Go Ontdekking)**
+- [ ] **Go: Standaard lifecycle Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking)**
 - [ ] **No-Go / Pauze**

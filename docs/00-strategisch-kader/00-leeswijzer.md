@@ -15,7 +15,7 @@ ______________________________________________________________________
 
 ### 🎯 Ik wil een overzicht voor het management
 
-Ga naar **[Module 00.01: Executive Summary](00-executive-summary.md)** voor een samenvatting van de kernwaarden en het implementatietraject.
+Ga naar **[Module 00.01: Managementsamenvatting](00-executive-summary.md)** voor een samenvatting van de kernwaarden en het implementatietraject.
 
 ### 🎯 Ik wil snel experimenteren (Fast Lane)
 
@@ -43,7 +43,7 @@ ______________________________________________________________________
 ## 📍ï¸  Hoe werkt dit Playbook?
 
 - **Modulair:** Elke module staat op zichzelf. U hoeft Module 01 niet te lezen om Module 04 te begrijpen.
-- **Actiegericht:** We gebruiken geen onduidelijke taal, maar checklists en templates voor direct resultaat.
+- **Actiegericht:** We gebruiken geen onduidelijke taal, maar checklists en sjablonen voor direct resultaat.
 - **Traceerbaar:** Elk project levert standaard documenten op (**Validatierapport**). Dit vormt uw dossier voor de EU AI Act.
 
 ______________________________________________________________________

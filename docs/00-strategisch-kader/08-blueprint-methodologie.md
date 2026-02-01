@@ -12,7 +12,7 @@ Deze pagina fungeert als de "Rosetta-steen" van het AI Project Playbook. Hier vi
 | Code     | Betekenis        | Gebruik                                              |
 | :------- | :--------------- | :--------------------------------------------------- |
 | **MOD**  | **Module**       | Een procesfase of kennisgebied in het playbook.      |
-| **TMP**  | **Template**     | Een invulbaar document of sjabloon (sjabloon).       |
+| **TMP**  | **Sjabloon**     | Een invulbaar document of sjabloon (sjabloon).       |
 | **SDD**  | **Spec-Driven**  | Richtlijnen voor specificatie-gedreven ontwikkeling. |
 | **GATE** | **Beslismoment** | Een formeel reviewmoment tussen fasen.               |
 
@@ -32,11 +32,11 @@ De modules vormen de navigatiestructuur van de AI-levenscyclus.
 | **MOD-05** | [Fase 4: Levering](../05-fase-levering/01-doelstellingen.md)         | Ingebruikname en menselijk toezicht.             |
 | **MOD-06** | [Fase 5: Monitoring](../06-fase-monitoring/01-doelstellingen.md)     | Beheer, drift-detectie en optimalisatie.         |
 | **MOD-07** | [Compliance Hub](../07-compliance-hub/index.md)                      | EU AI Act, Risicobeheer en Ethiek.               |
-| **MOD-09** | [Toolkit & Templates](../09-sjablonen/index.md)                      | Centrale opslag van alle herbruikbare sjablonen. |
+| **MOD-09** | [Toolkit & Sjablonen](../09-sjablonen/index.md)                      | Centrale opslag van alle herbruikbare sjablonen. |
 
 ______________________________________________________________________
 
-## 📝 Overzicht van Templates (TMP)
+## 📝 Overzicht van Sjablonen (TMP)
 
 Dit zijn de artefacten die gedurende een project worden geproduceerd. Deze vormen samen het **Wettelijk Dossier**.
 
@@ -49,7 +49,7 @@ Dit zijn de artefacten die gedurende een project worden geproduceerd. Deze vorme
 | **TMP-09-06** | [Doelkaart (AI Artefact)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) | Realisatie | ✅         |
 | **TMP-09-07** | [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)     | Validatie  | ✅         |
 | **TMP-09-08** | [Traceerbaarheid Matrix](../09-sjablonen/08-traceerbaarheid-links/template.md)  | Levering   | ⚠️         |
-| **TMP-09-10** | [Prompt Template](../09-sjablonen/10-prompt-engineering/template.md)            | Realisatie | 💡         |
+| **TMP-09-10** | [Prompt Sjabloon](../09-sjablonen/10-prompt-engineering/template.md)            | Realisatie | 💡         |
 | **TMP-09-11** | [Privacy & Data Blad](../09-sjablonen/11-privacy-data/privacyblad.md)           | Verkenning | ✅         |
 
 *\*Optioneel bij Fast Lane projecten.*

@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Template 09.07: Data & Privacyblad (AVG/GDPR)
+# Sjabloon 09.07: Data & Privacyblad (AVG/GDPR)
 
-## 1. Use case & doelbinding
+## 1. Gebruikscasus & doelbinding
 
 - **Project:** \[naam\]
 - **Doel van verwerking:** \[1–3 zinnen, concreet\]

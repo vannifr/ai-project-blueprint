@@ -11,7 +11,7 @@ De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑ris
 
 ## 2. Toelatingscriteria (allemaal verplicht)
 
-Een use case mag alleen Fast Lane als aan **alle** punten is voldaan:
+Een gebruikscasus mag alleen Fast Lane als aan **alle** punten is voldaan:
 
 1. **EU AI Act risiconiveau = Minimaal** (zie Compliance Hub)
 1. **Samenwerkingsmodus = 1 of 2** (Instrumenteel of Adviserend; zie MOD‑00‑06)
@@ -23,7 +23,7 @@ Een use case mag alleen Fast Lane als aan **alle** punten is voldaan:
 **Als één criterium niet gehaald wordt:**
 → *geen Fast Lane*, volg de standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie).
 
-## 3. Minimumpakket deliverables (Fast Lane)
+## 3. Minimumpakket opleveringen (Fast Lane)
 
 - **Project Charter Project Charter** (Fast Lane variant: kort)
 - **Risico Pre-Scan Risico Pre‑Scan** (moet “Minimaal” bevestigen)

@@ -41,7 +41,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 📖 Templates en Tools
+## 📖 Sjablonen en Tools
 
 Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 

@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Deliverables & Gate 5 (Monitoring)
+# Opleveringen & Gate 5 (Monitoring)
 
-## 6. Deliverables (Afleveringen)
+## 6. Opleveringen (Afleveringen)
 
 De resultaten van de Monitoringfase voor een duurzame operatie:
 
@@ -27,7 +27,7 @@ De resultaten van de Monitoringfase voor een duurzame operatie:
 
     *Indien "Nee" op kritieke punten: Overweeg decommissioning of herstart (terug naar Discovery).*
 
-## Gerelateerde Templates
+## Gerelateerde Sjablonen
 
 - **10-03 Metrics-dashboards:** [Sjabloon](../09-sjablonen/index.md)
 - **08-01 MLOps-standaarden:** [Link](../08-technische-standaarden/01-mloops-standaarden.md)

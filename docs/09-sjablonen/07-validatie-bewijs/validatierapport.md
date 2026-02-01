@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Template 09.06: Validatierapport (Bewijs‑pakket)
+# Sjabloon 09.06: Validatierapport (Bewijs‑pakket)
 
 ## 0. Samenvatting (1 pagina)
 

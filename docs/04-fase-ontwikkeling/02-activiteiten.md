@@ -21,7 +21,7 @@ Het verbinden van de AI aan interne documenten en het **Afstellen van het model*
 
 - **Kenniskoppeling (RAG):** Verbinden van de AI aan interne documenten, FAQ's, procedures.
 - **Prompt Engineering:** Optimaliseren van de **Sturingsinstructies**.
-- **Model-Afstelling:** Aanpassen van parameters voor specifieke use case.
+- **Model-Afstelling:** Aanpassen van parameters voor specifieke gebruikscasus.
 
 ### Activiteit 3.3: Specificatie-eerst Methode
 

@@ -81,7 +81,7 @@ ______________________________________________________________________
 
 ## 6. Meetcriteria en minimale normen (per risiconiveau)
 
-> *Als jouw use case geen “accuracy” heeft (bijv. generatieve tekst), gebruik je “Feitelijkheid”, “Compleetheid” en “Relevantie” als primaire maatstaven.*
+> *Als jouw gebruikscasus geen “accuracy” heeft (bijv. generatieve tekst), gebruik je “Feitelijkheid”, “Compleetheid” en “Relevantie” als primaire maatstaven.*
 
 ### 6.1 Normtabel
 
@@ -111,7 +111,7 @@ ______________________________________________________________________
 ### 7.1 Wat loggen we minimaal?
 
 - **Datum/tijd**, gebruiker/rol (gehashte ID waar nodig)
-- **Use case / endpoint**
+- **Gebruikscasus / endpoint**
 - **Modelnaam + versie**
 - **Prompt-/Sturingsinstructies versie**
 - **Bronnen gebruikt** (bij Kenniskoppeling: document-ID’s/URLs)
@@ -129,7 +129,7 @@ ______________________________________________________________________
 
 ## 8. Bewijs per Gate (praktisch)
 
-- **Gate 1 (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
-- **Gate 2 (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
-- **Gate 3 (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit Â§6 + logging-plan + incidentprocedure.
-- **Gate 4 (Livegang) (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.
+- **Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
+- **Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
+- **Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit Â§6 + logging-plan + incidentprocedure.
+- **Gate 4 (Livegang) (Livegang) (Livegang) (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.

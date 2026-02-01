@@ -19,6 +19,6 @@ In plaats van direct prompts te schrijven, volgen we deze cyclus:
 
 ______________________________________________________________________
 
-## Gerelateerde Templates
+## Gerelateerde Sjablonen
 
-- [Doelkaart Template](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- [Doelkaart Sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)

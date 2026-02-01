@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Deliverables & Gate 1 (Go/No-Go Ontdekking) (Verkenning & Strategie)
+# 🚀 Opleveringen & Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Verkenning & Strategie)
 
-## 6. Deliverables (Afleveringen)
+## 6. Opleveringen (Afleveringen)
 
 De resultaten van de Verkenningsfase voor een gefundeerde start:
 
@@ -14,7 +14,7 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 - **Risico-Inventarisatie:** Eerste scan op juridische, ethische en organisatorische risico's
 - **AI Project Charter:** Startdocument met scope, doelen en team
 
-## ? Gate 1 (Go/No-Go Ontdekking) Review Checklist
+## ? Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) Review Checklist
 
 - [ ] Is het probleem helder gearticuleerd vanuit gebruikersperspectief?
 - [ ] Is AI de juiste oplossing (niet te complex, niet te simpel)?
@@ -24,7 +24,7 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 - [ ] Is er commitment van de business sponsor?
 - [ ] Is het team compleet en beschikbaar?
 
-## Gerelateerde Templates
+## Gerelateerde Sjablonen
 
 - **09-01 Project Charter:** [Sjabloon](../09-sjablonen/01-project-charter/template.md)
 - **09-02 Business Case:** [Sjabloon](../09-sjablonen/02-business-case/template.md)

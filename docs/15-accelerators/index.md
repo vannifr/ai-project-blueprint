@@ -7,7 +7,7 @@ laatst_herzien: '2026-02-01'
 
 ## 📖 Doel
 
-Accelerators zijn tools, frameworks en templates die de uitvoering van AI-projecten versnellen binnen de verschillende tracks.
+Accelerators zijn tools, frameworks en sjablonen die de uitvoering van AI-projecten versnellen binnen de verschillende tracks.
 
 ______________________________________________________________________
 

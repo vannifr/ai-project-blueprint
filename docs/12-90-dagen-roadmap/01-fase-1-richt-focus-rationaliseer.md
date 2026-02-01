@@ -22,9 +22,9 @@ In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet wer
 1. **Quick Win Workshop:** Identificeer processen die met standaard tools (Copilot, ChatGPT) direct verbeterd kunnen worden (geen development nodig).
 1. **Capability Scan:** Hebben we de mensen en data voor onze ambities? ([HAS H Assessment](../00-strategisch-kader/06-has-h-niveaus.md)).
 
-## Deliverables (Dag 30)
+## Opleveringen (Dag 30)
 
-!!! check "Deliverables Fase 1"
+!!! check "Opleveringen Fase 1"
     - [ ] Lijst met gestopte/gepauzeerde projecten (besparing).
     - [ ] Kostenoverzicht huidige AI-stack.
     - [ ] Selectie van top 2 Use Cases voor Fase 2.

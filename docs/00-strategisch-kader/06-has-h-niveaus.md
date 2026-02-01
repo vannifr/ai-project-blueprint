@@ -91,7 +91,7 @@ ______________________________________________________________________
 Bij het starten van een project (Fase Discovery) moet de beoogde modus worden vastgelegd in het **Project Charter**.
 
 !!! tip "Begin laag, schaal op"
-    Start een use case in **Modus 2 (Adviseur)** om data te verzamelen en vertrouwen te bouwen. Pas als de kwaliteit bewezen is (>90%), kan worden overgestapt naar **Modus 4 (Gedelegeerd)**.
+    Start een gebruikscasus in **Modus 2 (Adviseur)** om data te verzamelen en vertrouwen te bouwen. Pas als de kwaliteit bewezen is (>90%), kan worden overgestapt naar **Modus 4 (Gedelegeerd)**.
 
 !!! warning "Waarschuwing"
     Probeer niet direct naar Modus 4 of 5 te springen zonder de tussenliggende leerfases.
