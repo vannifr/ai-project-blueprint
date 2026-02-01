@@ -55,7 +55,7 @@ plugins:
       raise_error: true
       raise_error_after_finish: true
       ignore_urls:
-        - !regex "^http://localhost"
+        - "^http://localhost"
 
 nav:
   - Home: index.md
