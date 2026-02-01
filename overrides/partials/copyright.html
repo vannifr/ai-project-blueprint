@@ -1,7 +1,7 @@
 <div class="md-copyright">
   {% if config.copyright %}
     <div class="md-copyright__highlight">
-      {% if page.meta.versie %}
+      {% if page and page.meta and page.meta.versie %}
         Versie {{ page.meta.versie }} | Laatst herzien: {{ page.meta.laatst_herzien }} |
       {% endif %}
       {{ config.copyright }}
