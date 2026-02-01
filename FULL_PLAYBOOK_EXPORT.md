@@ -1,6 +1,6 @@
 # AI Project Playbook - Full Export
 
-Generated on: 2026-02-01 18:10:05.998588
+Generated on: 2026-02-01 19:54:01.247934
 
 ______________________________________________________________________
 
@@ -66,12 +66,12 @@ ______________________________________________________________________
 # Document: 00 Executive Summary
 
 Source: 00-strategisch-kader/00-executive-summary.md
----﻿# Module 00.01: Executive Summary
+---# Module 00.01: Executive Summary
 
 ## Documentbeheer
 
 - **Document-ID:** MOD-00-01
-- **Titel:** Module 00.01 â€” Executive Summary
+- **Titel:** Module 00.01 — Executive Summary
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -82,46 +82,46 @@ ______________________________________________________________________
 
 ## 1. Wat is dit Playbook?
 
-Dit Playbook is een **modulaire werkwijze** voor AIâ€‘projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
+Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
 
 ## 2. Voor wie is dit bedoeld?
 
-- **Bestuur & MT:** keuzes maken, risicoâ€™s beheersen, investering onderbouwen
+- **Bestuur & MT:** keuzes maken, risico’s beheersen, investering onderbouwen
 - **Product & Business owners:** use cases selecteren, waarde leveren, adoptie borgen
 - **IT/Engineering:** bouwen, testen, integreren, operationeel beheer inrichten
-- **Compliance/Legal/Privacy:** EU AI Act + AVG toetsbaar maken, auditâ€‘klaar werken
+- **Compliance/Legal/Privacy:** EU AI Act + AVG toetsbaar maken, audit‑klaar werken
 
 ## 3. Wat levert dit concreet op?
 
-1. **Snellere timeâ€‘toâ€‘value** via standaard templates en gates
+1. **Snellere time‑to‑value** via standaard templates en gates
 1. **Minder incidenten** via Rode Lijnen + veiligheidstesten + incidentproces
-1. **Auditâ€‘klaar dossier** (bewijsâ€‘pakket) voor interne/externe toetsing
+1. **Audit‑klaar dossier** (bewijs‑pakket) voor interne/externe toetsing
 1. **Herhaalbaarheid**: elke use case volgt dezelfde lifecycle en standaard deliverables
 
 ## 4. Hoe gebruik je het Playbook (snelle start)?
 
 **Als je vandaag start met 1 use case:**
 
-1. Vul **TMPâ€‘09â€‘01 Project Charter** in (1 A4).
-1. Doe **TMPâ€‘09â€‘03 Risico Preâ€‘Scan** en bepaal risiconiveau.
-1. Maak **TMPâ€‘09â€‘02 Doelkaart** (incl. Rode Lijnen).
-1. Stel een **Gouden Set** op en test met **TMPâ€‘09â€‘05**.
-1. Leg resultaten vast in **TMPâ€‘09â€‘06 Validatierapport**.
+1. Vul **TMP‑09‑01 Project Charter** in (1 A4).
+1. Doe **TMP‑09‑03 Risico Pre‑Scan** en bepaal risiconiveau.
+1. Maak **TMP‑09‑02 Doelkaart** (incl. Rode Lijnen).
+1. Stel een **Gouden Set** op en test met **TMP‑09‑05**.
+1. Leg resultaten vast in **TMP‑09‑06 Validatierapport**.
 1. Beslis bij Gate of je doorgaat naar Realisatie/Livegang.
 
-## 5. Implementatie (organisatiebreed) â€“ aanbevolen aanpak
+## 5. Implementatie (organisatiebreed) – aanbevolen aanpak
 
-- **Week 1â€“2:** kies 1 pilot use case + stel kernrollen aan (AI PM, Tech Lead, Guardian).
-- **Week 3â€“6:** voer lifecycle uit (Modules 02â€“04), inclusief bewijsstandaarden (MODâ€‘01â€‘07).
-- **Week 7â€“8:** livegang + beheer (Modules 05â€“06).
+- **Week 1–2:** kies 1 pilot use case + stel kernrollen aan (AI PM, Tech Lead, Guardian).
+- **Week 3–6:** voer lifecycle uit (Modules 02–04), inclusief bewijsstandaarden (MOD‑01‑07).
+- **Week 7–8:** livegang + beheer (Modules 05–06).
 - **Week 9:** evaluatie + update Playbook naar v1.1 op basis van leerpunten.
 
 ## 6. Navigatie (wat moet je lezen?)
 
-- **Start:** MODâ€‘00â€‘00 Leeswijzer & MODâ€‘00â€‘01 Executive Summary
-- **Proces:** MODâ€‘02 t/m MODâ€‘06
-- **Governance:** MODâ€‘07 + MODâ€‘01â€‘07 (Bewijsstandaarden)
-- **Templates:** MODâ€‘09 (TMPâ€‘09â€‘01 t/m TMPâ€‘09â€‘07)
+- **Start:** MOD‑00‑00 Leeswijzer & MOD‑00‑01 Executive Summary
+- **Proces:** MOD‑02 t/m MOD‑06
+- **Governance:** MOD‑07 + MOD‑01‑07 (Bewijsstandaarden)
+- **Templates:** MOD‑09 (TMP‑09‑01 t/m TMP‑09‑07)
 
 ______________________________________________________________________
 
@@ -879,7 +879,7 @@ ______________________________________________________________________
 # Document: Index
 
 Source: 08-rollen-en-verantwoordelijkheden/index.md
----﻿# ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
+---# ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
 
 ## Documentbeheer
 
@@ -895,7 +895,7 @@ ______________________________________________________________________
 
 ## ðŸŽ¯ Wie doet wat in een AI-project?
 
-In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiÃ«ren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
+In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
 
 ______________________________________________________________________
 
@@ -903,7 +903,7 @@ ______________________________________________________________________
 
 Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie.
 
-### ðŸ§™â€â™‚ï¸ De AI Product Manager (Business Lead)
+### ðŸ§™”â™‚ï¸ De AI Product Manager (Business Lead)
 
 Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
 
@@ -919,7 +919,7 @@ De architect van de oplossing. Zorgt dat de losse componenten (data, model, inte
 - **Taak:** Selecteert het juiste model, bouwt de pijplijnen en borgt de technische stabiliteit.
 - **Focus:** "Is het robuust en schaalbaar?"
 
-### âš–ï¸ De Guardian (Ethicus / Compliance)
+### ⚖️ De Guardian (Ethicus / Compliance)
 
 Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de wettelijke en ethische kaders.
 
@@ -1313,12 +1313,12 @@ ______________________________________________________________________
 # Document: 07 Bewijsstandaarden
 
 Source: 01-ai-native-fundamenten/07-bewijsstandaarden.md
----﻿# Module 01.07: Bewijsstandaarden
+---# Module 01.07: Bewijsstandaarden
 
 ## Documentbeheer
 
 - **Document-ID:** MOD-01-07
-- **Titel:** Module 01.07 â€” Bewijsstandaarden
+- **Titel:** Module 01.07 — Bewijsstandaarden
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -1357,17 +1357,17 @@ ______________________________________________________________________
 
 - **Kritiek:** overtreding Rode Lijnen (privacy-lek, verboden advies, discriminatoire output, gevaarlijke instructies, misleidende transparantie).
     **Norm:** 0 toegestaan.
-- **Major:** inhoudelijk fout met reÃ«le kans op schade of verkeerde beslissing.
+- **Major:** inhoudelijk fout met reële kans op schade of verkeerde beslissing.
     **Norm:** zeer beperkt (zie tabel).
 - **Minor:** stijl/format/kleine onvolledigheid zonder besluit-impact.
 
-### 3.2 â€œSignificant prestatieverloopâ€
+### 3.2 “Significant prestatieverloop”
 
-Prestatieverloop is **significant** als Ã©Ã©n van onderstaande optreedt t.o.v. de nulmeting:
+Prestatieverloop is **significant** als één van onderstaande optreedt t.o.v. de nulmeting:
 
-- **Feitelijkheid daalt â‰¥ 2 procentpunten** (bijv. van 99% naar 97%)
-- **Relevantie-score daalt â‰¥ 0,3** op een 1â€“5 schaal
-- **Aantal Major fouten stijgt â‰¥ 50%** over twee opeenvolgende meetperioden
+- **Feitelijkheid daalt ≥ 2 procentpunten** (bijv. van 99% naar 97%)
+- **Relevantie-score daalt ≥ 0,3** op een 1–5 schaal
+- **Aantal Major fouten stijgt ≥ 50%** over twee opeenvolgende meetperioden
 
 *(Let op: precieze drempels mogen per use-case strenger, maar niet soepeler zonder expliciet akkoord van Guardian.)*
 
@@ -1385,7 +1385,7 @@ Elke Gate Review baseert zich minimaal op deze documenten:
 
 ______________________________________________________________________
 
-## 5. Minimale eisen aan testsets (â€œGouden Setâ€)
+## 5. Minimale eisen aan testsets (“Gouden Set”)
 
 | Risiconiveau | Minimale grootte Gouden Set | Verplichte onderdelen                                        |
 | ------------ | --------------------------: | ------------------------------------------------------------ |
@@ -1395,34 +1395,34 @@ ______________________________________________________________________
 
 **Extra regels (alle niveaus):**
 
-- Testcases zijn **realistische praktijkvoorbeelden** (geen synthetische â€œhappy flow onlyâ€).
+- Testcases zijn **realistische praktijkvoorbeelden** (geen synthetische “happy flow only”).
 - Elke testcase heeft: **verwachte uitkomst** of **beoordelingscriteria**.
-- Adversarial set bevat expliciet: jailbreaks, prompt-injectie, policy-omzeiling, â€œverzin bronâ€-trucs.
+- Adversarial set bevat expliciet: jailbreaks, prompt-injectie, policy-omzeiling, “verzin bron”-trucs.
 
 ______________________________________________________________________
 
 ## 6. Meetcriteria en minimale normen (per risiconiveau)
 
-> *Als jouw use case geen â€œaccuracyâ€ heeft (bijv. generatieve tekst), gebruik je â€œFeitelijkheidâ€, â€œCompleetheidâ€ en â€œRelevantieâ€ als primaire maatstaven.*
+> *Als jouw use case geen “accuracy” heeft (bijv. generatieve tekst), gebruik je “Feitelijkheid”, “Compleetheid” en “Relevantie” als primaire maatstaven.*
 
 ### 6.1 Normtabel
 
 | Criterium                                          |           Minimaal risico |                  Beperkt risico |                                     Hoog risico |
 | -------------------------------------------------- | ------------------------: | ------------------------------: | ----------------------------------------------: |
 | **Kritieke fouten**                                |                         0 |                               0 |                                               0 |
-| **Major fouten (max)**                             |          â‰¤ 2 in testset |                â‰¤ 1 in testset |       â‰¤ 0â€“1 in testset *(Guardian beslist)* |
-| **Feitelijkheid** *(geen feitelijke onjuistheden)* |                   â‰¥ 98% |                         â‰¥ 99% |                                       â‰¥ 99,5% |
-| **Relevantie (1â€“5)**                             |                   â‰¥ 4,0 |                         â‰¥ 4,2 |                                         â‰¥ 4,5 |
-| **Veiligheid: â€œmoet weigerenâ€ prompts**                                                    |            100% weigering |                  100% weigering |                                  100% weigering |
+| **Major fouten (max)**                             |            ≤ 2 in testset |                  ≤ 1 in testset |           ≤ 0–1 in testset *(Guardian beslist)* |
+| **Feitelijkheid** *(geen feitelijke onjuistheden)* |                     ≥ 98% |                           ≥ 99% |                                         ≥ 99,5% |
+| **Relevantie (1–5)**                               |                     ≥ 4,0 |                           ≥ 4,2 |                                           ≥ 4,5 |
+| **Veiligheid: “moet weigeren” prompts**                                                    |            100% weigering |                  100% weigering |                                  100% weigering |
 | **Transparantie (AI-disclaimer waar vereist)**     | n.v.t./100% indien extern |      100% indien van toepassing |                      100% indien van toepassing |
 | **Eerlijkheidstoets** *(bias)*                     |    kwalitatief (Guardian) |     kwali + kwant waar mogelijk |                 verplicht kwant + mitigatieplan |
 | **Audit trail (logging compleetheid)**             |         minimaal metadata | 100% metadata + sampling output |         100% input/output + herleidbare context |
 | **Stabiliteit** *(variatie over runs)*             |                 monitoren |    beperkte variatie toegestaan | strikt: variatie moet verklaard/acceptabel zijn |
 
-### 6.2 Eerlijkheid (bias) â€” minimale norm (kort en toetsbaar)
+### 6.2 Eerlijkheid (bias) — minimale norm (kort en toetsbaar)
 
-- **Beperkt:** als er relevante groepen te onderscheiden zijn, dan geldt: verschil in **Major-foutpercentage** tussen groepen â‰¤ **10%**.
-- **Hoog:** verschil in **Major-foutpercentage** tussen groepen â‰¤ **5%**, plus beschreven mitigatie als er afwijkingen zijn.
+- **Beperkt:** als er relevante groepen te onderscheiden zijn, dan geldt: verschil in **Major-foutpercentage** tussen groepen ≤ **10%**.
+- **Hoog:** verschil in **Major-foutpercentage** tussen groepen ≤ **5%**, plus beschreven mitigatie als er afwijkingen zijn.
 
 *(Als groepslabels ontbreken of privacygevoelig zijn: Guardian bepaalt een kwalitatieve toets + mitigatie.)*
 
@@ -1436,7 +1436,7 @@ ______________________________________________________________________
 - **Use case / endpoint**
 - **Modelnaam + versie**
 - **Prompt-/Sturingsinstructies versie**
-- **Bronnen gebruikt** (bij Kenniskoppeling: document-IDâ€™s/URLs)
+- **Bronnen gebruikt** (bij Kenniskoppeling: document-ID’s/URLs)
 - **Output**
 - **Human override** (ja/nee + reden)
 
@@ -1627,12 +1627,12 @@ ______________________________________________________________________
 # Document: 06 Fast Lane
 
 Source: 02-fase-ontdekking/06-fast-lane.md
----﻿# Module 02.F: Snelle Route (Fast Lane)
+---# Module 02.F: Snelle Route (Fast Lane)
 
 ## Documentbeheer
 
 - **Document-ID:** MOD-02-FL
-- **Titel:** Module 02.F â€” Snelle Route (Fast Lane)
+- **Titel:** Module 02.F — Snelle Route (Fast Lane)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -1643,51 +1643,51 @@ ______________________________________________________________________
 
 ## 1. Doel
 
-De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laagâ€‘risico** AIâ€‘toepassingen, zonder onnodige bureaucratieâ€”maar **met minimale governance**.
+De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑risico** AI‑toepassingen, zonder onnodige bureaucratie—maar **met minimale governance**.
 
 ## 2. Toelatingscriteria (allemaal verplicht)
 
 Een use case mag alleen Fast Lane als aan **alle** punten is voldaan:
 
-1. **EU AI Act risiconiveau = Minimaal** (zie MODâ€‘07)
-1. **Samenwerkingsmodus = 1 of 2** (Instrumenteel of Adviserend; zie MODâ€‘00â€‘06)
+1. **EU AI Act risiconiveau = Minimaal** (zie MOD‑07)
+1. **Samenwerkingsmodus = 1 of 2** (Instrumenteel of Adviserend; zie MOD‑00‑06)
 1. De AI **neemt geen beslissingen over mensen** (geen selectie/toekenning/afwijzing)
 1. Geen verwerking van **bijzondere persoonsgegevens** (gezondheid, religie, biometrie, etc.)
-1. Output wordt **altijd** door een mens bekeken vÃ³Ã³r gebruik (geen autonoom versturen/uitvoeren)
-1. Alleen intern gebruik Ã³f (indien extern) **100% transparantie** (â€œJe spreekt met AIâ€)
+1. Output wordt **altijd** door een mens bekeken vóór gebruik (geen autonoom versturen/uitvoeren)
+1. Alleen intern gebruik óf (indien extern) **100% transparantie** (“Je spreekt met AI”)
 
-**Als Ã©Ã©n criterium niet gehaald wordt:**
-â†’ *geen Fast Lane*, volg de standaard lifecycle (MODâ€‘02 t/m MODâ€‘06).
+**Als één criterium niet gehaald wordt:**
+→ *geen Fast Lane*, volg de standaard lifecycle (MOD‑02 t/m MOD‑06).
 
 ## 3. Minimumpakket deliverables (Fast Lane)
 
-- **TMPâ€‘09â€‘01 Project Charter** (Fast Lane variant: kort)
-- **TMPâ€‘09â€‘03 Risico Preâ€‘Scan** (moet â€œMinimaalâ€ bevestigen)
-- **TMPâ€‘09â€‘02 Doelkaart** (incl. Rode Lijnen)
-- **TMPâ€‘09â€‘05 Test & Acceptatie Protocol** (light: minimaal 20 cases)
-- **TMPâ€‘09â€‘06 Validatierapport** (bewijs van testresultaten)
+- **TMP‑09‑01 Project Charter** (Fast Lane variant: kort)
+- **TMP‑09‑03 Risico Pre‑Scan** (moet “Minimaal” bevestigen)
+- **TMP‑09‑02 Doelkaart** (incl. Rode Lijnen)
+- **TMP‑09‑05 Test & Acceptatie Protocol** (light: minimaal 20 cases)
+- **TMP‑09‑06 Validatierapport** (bewijs van testresultaten)
 
 **Wat mag je overslaan in Fast Lane:**
 
-- Uitgebreide business case (ROI) *mag later*, maar je noteert wÃ©l een â€œwaardeâ€‘hypotheseâ€ in het Charter.
+- Uitgebreide business case (ROI) *mag later*, maar je noteert wél een “waarde‑hypothese” in het Charter.
 - Uitgebreid technisch dossier (alleen relevant bij hoog risico).
 
 ## 4. Fast Lane Gates (simpel en toetsbaar)
 
-### Gate FLâ€‘1 â€” Start experiment (max. 2 weken)
+### Gate FL‑1 — Start experiment (max. 2 weken)
 
 **Go** als:
 
-- Risico Preâ€‘Scan = Minimaal
+- Risico Pre‑Scan = Minimaal
 - Doelkaart bevat Rode Lijnen
-- Minimaal testplan staat klaar (Gouden Set â‰¥ 20)
+- Minimaal testplan staat klaar (Gouden Set ≥ 20)
 
-### Gate FLâ€‘2 â€” Interne live pilot (max. 4 weken)
+### Gate FL‑2 — Interne live pilot (max. 4 weken)
 
 **Go** als:
 
-- Validatierapport (TMPâ€‘09â€‘06) voldoet aan **MODâ€‘01â€‘07** normen voor Minimaal risico
-- Logging/traceerbaarheid is ingericht op basismetaâ€‘niveau
+- Validatierapport (TMP‑09‑06) voldoet aan **MOD‑01‑07** normen voor Minimaal risico
+- Logging/traceerbaarheid is ingericht op basismeta‑niveau
 - Incidentprocedure bekend bij team
 
 ## 5. Wanneer Fast Lane stopt (escalatie)
@@ -3260,7 +3260,7 @@ ______________________________________________________________________
 # Document: Modelkaart
 
 Source: 09-sjablonen/02-business-case/modelkaart.md
----﻿# ðŸ“‚ Module 09.04: Technische Modelkaart (Model Card)
+---# ðŸ“‚ Module 09.04: Technische Modelkaart (Model Card)
 
 ## Documentbeheer
 
@@ -3316,7 +3316,7 @@ ______________________________________________________________________
 
 ### ðŸ“‚ 4. Prestaties & Validatie
 
-*Resultaten geÃ«xtraheerd uit het **Validatierapport** (Fase 3).*
+*Resultaten geëxtraheerd uit het **Validatierapport** (Fase 3).*
 
 - **Metrieken:**
     - **Nauwkeurigheid (Accuracy):** \[X%\]
@@ -3340,7 +3340,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### âš™ï¸ Versiebeheer
+### ⚙️ Versiebeheer
 
 - **v1.0:** Initial Release (Naam Developer)
 - **v1.1:** Prompt update na feedback (Naam Developer)
@@ -3582,7 +3582,7 @@ ______________________________________________________________________
 # Document: Doelkaart
 
 Source: 09-sjablonen/06-ai-native-artefacten/doelkaart.md
----﻿# ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
+---# ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
 
 ## Documentbeheer
 
@@ -3617,7 +3617,7 @@ ______________________________________________________________________
 - **De AI (Systeem Persona):**
     - **Rol:** \[Bijv. Een ervaren senior jurist en mentor.\]
     - **Toon:** \[Zakelijk, scherp, maar behulpzaam. Geen jargon zonder uitleg.\]
-- **De Taak:** \[Beschrijf exact wat de AI moet doen. Bijv: "Scan het geÃ¼ploade PDF-document op clausules over aansprakelijkheid en vat deze samen."\]
+- **De Taak:** \[Beschrijf exact wat de AI moet doen. Bijv: "Scan het geüploade PDF-document op clausules over aansprakelijkheid en vat deze samen."\]
 
 ______________________________________________________________________
 
@@ -3653,7 +3653,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### âœ… Goedkeuring door Guardian
+### ✅ Goedkeuring door Guardian
 
 **Naam:** \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
 **Datum:** \[DD-MM-JJJJ\]
@@ -3733,12 +3733,12 @@ ______________________________________________________________________
 # Document: Validatierapport
 
 Source: 09-sjablonen/07-validatie-bewijs/validatierapport.md
----﻿# Template 09.06: Validatierapport (Bewijsâ€‘pakket)
+---# Template 09.06: Validatierapport (Bewijs‑pakket)
 
 ## Documentbeheer
 
 - **Document-ID:** TMP-09-06
-- **Titel:** Template 09.06 â€” Validatierapport (Bewijsâ€‘pakket)
+- **Titel:** Template 09.06 — Validatierapport (Bewijs‑pakket)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -3751,21 +3751,21 @@ ______________________________________________________________________
 
 **Project:** \[Naam\]
 **Risiconiveau:** \[Minimaal / Beperkt / Hoog\]
-**Samenwerkingsmodus:** \[1â€“5\]
+**Samenwerkingsmodus:** \[1–5\]
 **Release/Build:** \[bijv. RC-1\]
 **Testperiode:** \[YYYY-MM-DD t/m YYYY-MM-DD\]
 
-### Conclusie (kies Ã©Ã©n)
+### Conclusie (kies één)
 
-- [ ] **Go** â€” voldoet aan Module 01.07 normen voor dit risiconiveau
-- [ ] **Go met acties** â€” alleen na uitvoeren van acties onder Â§7
-- [ ] **No-Go** â€” voldoet niet; herontwerp/hertrain/herformuleer vereist
+- [ ] **Go** — voldoet aan Module 01.07 normen voor dit risiconiveau
+- [ ] **Go met acties** — alleen na uitvoeren van acties onder Â§7
+- [ ] **No-Go** — voldoet niet; herontwerp/hertrain/herformuleer vereist
 
 **Top 3 bevindingen:**
 
-1. â€¦
-1. â€¦
-1. â€¦
+1. ”¦
+1. ”¦
+1. ”¦
 
 ______________________________________________________________________
 
@@ -3784,7 +3784,7 @@ ______________________________________________________________________
 
 - **Omgeving:** \[Dev/Test/Prod-simulatie\]
 - **Modelinstellingen:** \[bijv. temperature, max tokens\]
-- **Kenniskoppeling:** \[Ja/Nee\] â€” zo ja: welke bronset + updatefrequentie
+- **Kenniskoppeling:** \[Ja/Nee\] — zo ja: welke bronset + updatefrequentie
 - **Randvoorwaarden:** \[bijv. rate limits, timeouts, tooling\]
 
 ______________________________________________________________________
@@ -3794,7 +3794,7 @@ ______________________________________________________________________
 ### 3.1 Gouden Set
 
 - **Aantal cases:** \[minimaal volgens MOD-01-07\]
-- **Herkomst:** \[tickets, e-mails, calls, formulierenâ€¦\]
+- **Herkomst:** \[tickets, e-mails, calls, formulieren”¦\]
 - **Dekking:** \[80/15/5 of 70/20/10 afhankelijk risiconiveau\]
 
 ### 3.2 Adversarial set (verplicht bij Beperkt/Hoog)
@@ -3815,11 +3815,11 @@ ______________________________________________________________________
 | ------------------------------------- | -----------: | ------: | --------------------- | --------- |
 | Kritieke fouten                       |            0 |   \[#\] | \[ \] Pass \[ \] Fail |           |
 | Major fouten (max)                    |        \[#\] |   \[#\] | \[ \] Pass \[ \] Fail |           |
-| Feitelijkheid                         |   \[â‰¥..%\] | \[..%\] | \[ \] Pass \[ \] Fail |           |
-| Relevantie (1â€“5)                    |    \[â‰¥..\] |  \[..\] | \[ \] Pass \[ \] Fail |           |
+| Feitelijkheid                         |     \[≥..%\] | \[..%\] | \[ \] Pass \[ \] Fail |           |
+| Relevantie (1–5)                      |      \[≥..\] |  \[..\] | \[ \] Pass \[ \] Fail |           |
 | Veiligheid (weigeren)                 |         100% | \[..%\] | \[ \] Pass \[ \] Fail |           |
 | Transparantie (indien van toepassing) |         100% | \[..%\] | \[ \] Pass \[ \] Fail |           |
-| Eerlijkheid (bias)                    |   \[â‰¤..%\] | \[..%\] | \[ \] Pass \[ \] Fail |           |
+| Eerlijkheid (bias)                    |     \[≤..%\] | \[..%\] | \[ \] Pass \[ \] Fail |           |
 | Audit trail                           | volgens norm |  \[..\] | \[ \] Pass \[ \] Fail |           |
 
 ______________________________________________________________________
@@ -3852,7 +3852,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 7. Actieplan (alleen invullen als â€œGo met actiesâ€ of â€œNo-Goâ€)
+## 7. Actieplan (alleen invullen als “Go met acties” of “No-Go”)
 
 | Actie | Eigenaar | Deadline | Verwacht effect | Verificatie (test) |
 | ----- | -------- | -------- | --------------- | ------------------ |
@@ -3921,7 +3921,7 @@ ______________________________________________________________________
 # Document: Template
 
 Source: 09-sjablonen/10-prompt-engineering/template.md
----﻿# ðŸ“‚ Module 09.05: Prompt Engineering Template
+---# ðŸ“‚ Module 09.05: Prompt Engineering Template
 
 ## Documentbeheer
 
@@ -3941,7 +3941,7 @@ Dit sjabloon helpt bij het opbouwen van hoogwaardige **Sturingsinstructies** (Sy
 
 ______________________________________________________________________
 
-## âš™ï¸ Structuur van een Top-Prompt
+## ⚙️ Structuur van een Top-Prompt
 
 ### 1. Context (De achtergrond)
 
@@ -3972,7 +3972,7 @@ ______________________________________________________________________
 
 ## ðŸ§ª Voorbeelden (Few-Shot)
 
-*Voeg hier 2-3 voorbeelden toe van Input â†” Gewenste Output om de AI te sturen.*
+*Voeg hier 2-3 voorbeelden toe van Input ↔ Gewenste Output om de AI te sturen.*
 
 ______________________________________________________________________
 
@@ -3991,12 +3991,12 @@ ______________________________________________________________________
 # Document: Privacyblad
 
 Source: 09-sjablonen/11-privacy-data/privacyblad.md
----﻿# Template 09.07: Data & Privacyblad (AVG/GDPR)
+---# Template 09.07: Data & Privacyblad (AVG/GDPR)
 
 ## Documentbeheer
 
 - **Document-ID:** TMP-09-07
-- **Titel:** Template 09.07 â€” Data & Privacyblad (AVG/GDPR)
+- **Titel:** Template 09.07 — Data & Privacyblad (AVG/GDPR)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** Privacy Officer / DPO + AI Competence Center
@@ -4008,10 +4008,10 @@ ______________________________________________________________________
 ## 1. Use case & doelbinding
 
 - **Project:** \[naam\]
-- **Doel van verwerking:** \[1â€“3 zinnen, concreet\]
-- **Waarom is data nodig:** \[koppel aan doel, geen â€œvoor de zekerheidâ€\]
+- **Doel van verwerking:** \[1–3 zinnen, concreet\]
+- **Waarom is data nodig:** \[koppel aan doel, geen “voor de zekerheid”\]
 
-## 2. DatacategorieÃ«n
+## 2. Datacategorieën
 
 Kruis aan + beschrijf:
 
@@ -4019,7 +4019,7 @@ Kruis aan + beschrijf:
 - [ ] Contact/communicatie (tickets, e-mails, chat)
 - [ ] Financieel (facturen, betalingen)
 - [ ] Gedrag/gebruik (clicks, sessies)
-- [ ] Bijzondere persoonsgegevens (gezondheid, biometrie, etc.) â†’ **alleen met expliciete onderbouwing**
+- [ ] Bijzondere persoonsgegevens (gezondheid, biometrie, etc.) → **alleen met expliciete onderbouwing**
 
 ## 3. Grondslag & transparantie
 
@@ -4052,7 +4052,7 @@ Kruis aan + beschrijf:
 - **Wie mag prompts/instellingen wijzigen:** \[rollen\]
 - **Audit trail aanwezig:** \[Ja/Nee\]
 
-## 8. Risicoâ€™s & mitigaties (kort)
+## 8. Risico’s & mitigaties (kort)
 
 | Risico | Impact | Mitigatie | Eigenaar |
 | ------ | ------ | --------- | -------- |
@@ -5522,13 +5522,12 @@ ______________________________________________________________________
 
 # Document: Release Notes
 
-Source: release-notes.md
----﻿
+## Source: release-notes.md
 
 ## Documentbeheer
 
 - **Document-ID:** MOD
-- **Titel:** Release Notes â€” AI Project Playbook
+- **Titel:** Release Notes — AI Project Playbook
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -5542,8 +5541,8 @@ ______________________________________________________________________
 ### Samenvatting
 
 - Eerste release van het gestandaardiseerde AI Project Playbook.
-- Eenduidig versiebeheer geÃ¯ntroduceerd via een nieuw "Documentbeheer" blok in elk document.
-- Versie staat op **1.0** totdat de proefperiode en initiÃ«le feedbackronde is afgerond.
+- Eenduidig versiebeheer geïntroduceerd via een nieuw "Documentbeheer" blok in elk document.
+- Versie staat op **1.0** totdat de proefperiode en initiële feedbackronde is afgerond.
 
 ### Belangrijkste wijzigingen
 

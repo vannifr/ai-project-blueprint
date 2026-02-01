@@ -1,4 +1,4 @@
-﻿# ðŸ“‚ Module 09.05: Prompt Engineering Template
+# ðŸ“‚ Module 09.05: Prompt Engineering Template
 
 ## Documentbeheer
 
@@ -18,7 +18,7 @@ Dit sjabloon helpt bij het opbouwen van hoogwaardige **Sturingsinstructies** (Sy
 
 ______________________________________________________________________
 
-## âš™ï¸ Structuur van een Top-Prompt
+## ⚙️ Structuur van een Top-Prompt
 
 ### 1. Context (De achtergrond)
 
@@ -49,7 +49,7 @@ ______________________________________________________________________
 
 ## ðŸ§ª Voorbeelden (Few-Shot)
 
-*Voeg hier 2-3 voorbeelden toe van Input â†” Gewenste Output om de AI te sturen.*
+*Voeg hier 2-3 voorbeelden toe van Input ↔ Gewenste Output om de AI te sturen.*
 
 ______________________________________________________________________
 

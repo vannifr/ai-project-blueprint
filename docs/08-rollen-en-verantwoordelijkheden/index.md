@@ -1,4 +1,4 @@
-﻿# ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
+# ðŸ“‚ Module 08: Rollen & Verantwoordelijkheden
 
 ## Documentbeheer
 
@@ -14,7 +14,7 @@ ______________________________________________________________________
 
 ## ðŸŽ¯ Wie doet wat in een AI-project?
 
-In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiÃ«ren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
+In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
 
 ______________________________________________________________________
 
@@ -22,7 +22,7 @@ ______________________________________________________________________
 
 Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie.
 
-### ðŸ§™â€â™‚ï¸ De AI Product Manager (Business Lead)
+### ðŸ§™”â™‚ï¸ De AI Product Manager (Business Lead)
 
 Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
 
@@ -38,7 +38,7 @@ De architect van de oplossing. Zorgt dat de losse componenten (data, model, inte
 - **Taak:** Selecteert het juiste model, bouwt de pijplijnen en borgt de technische stabiliteit.
 - **Focus:** "Is het robuust en schaalbaar?"
 
-### âš–ï¸ De Guardian (Ethicus / Compliance)
+### ⚖️ De Guardian (Ethicus / Compliance)
 
 Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de wettelijke en ethische kaders.
 

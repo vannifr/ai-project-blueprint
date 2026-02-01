@@ -1,9 +1,9 @@
-﻿# Module 02.F: Snelle Route (Fast Lane)
+# Module 02.F: Snelle Route (Fast Lane)
 
 ## Documentbeheer
 
 - **Document-ID:** MOD-02-FL
-- **Titel:** Module 02.F â€” Snelle Route (Fast Lane)
+- **Titel:** Module 02.F — Snelle Route (Fast Lane)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -14,51 +14,51 @@ ______________________________________________________________________
 
 ## 1. Doel
 
-De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laagâ€‘risico** AIâ€‘toepassingen, zonder onnodige bureaucratieâ€”maar **met minimale governance**.
+De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑risico** AI‑toepassingen, zonder onnodige bureaucratie—maar **met minimale governance**.
 
 ## 2. Toelatingscriteria (allemaal verplicht)
 
 Een use case mag alleen Fast Lane als aan **alle** punten is voldaan:
 
-1. **EU AI Act risiconiveau = Minimaal** (zie MODâ€‘07)
-1. **Samenwerkingsmodus = 1 of 2** (Instrumenteel of Adviserend; zie MODâ€‘00â€‘06)
+1. **EU AI Act risiconiveau = Minimaal** (zie MOD‑07)
+1. **Samenwerkingsmodus = 1 of 2** (Instrumenteel of Adviserend; zie MOD‑00‑06)
 1. De AI **neemt geen beslissingen over mensen** (geen selectie/toekenning/afwijzing)
 1. Geen verwerking van **bijzondere persoonsgegevens** (gezondheid, religie, biometrie, etc.)
-1. Output wordt **altijd** door een mens bekeken vÃ³Ã³r gebruik (geen autonoom versturen/uitvoeren)
-1. Alleen intern gebruik Ã³f (indien extern) **100% transparantie** (â€œJe spreekt met AIâ€)
+1. Output wordt **altijd** door een mens bekeken vóór gebruik (geen autonoom versturen/uitvoeren)
+1. Alleen intern gebruik óf (indien extern) **100% transparantie** (“Je spreekt met AI”)
 
-**Als Ã©Ã©n criterium niet gehaald wordt:**
-â†’ *geen Fast Lane*, volg de standaard lifecycle (MODâ€‘02 t/m MODâ€‘06).
+**Als één criterium niet gehaald wordt:**
+→ *geen Fast Lane*, volg de standaard lifecycle (MOD‑02 t/m MOD‑06).
 
 ## 3. Minimumpakket deliverables (Fast Lane)
 
-- **TMPâ€‘09â€‘01 Project Charter** (Fast Lane variant: kort)
-- **TMPâ€‘09â€‘03 Risico Preâ€‘Scan** (moet â€œMinimaalâ€ bevestigen)
-- **TMPâ€‘09â€‘02 Doelkaart** (incl. Rode Lijnen)
-- **TMPâ€‘09â€‘05 Test & Acceptatie Protocol** (light: minimaal 20 cases)
-- **TMPâ€‘09â€‘06 Validatierapport** (bewijs van testresultaten)
+- **TMP‑09‑01 Project Charter** (Fast Lane variant: kort)
+- **TMP‑09‑03 Risico Pre‑Scan** (moet “Minimaal” bevestigen)
+- **TMP‑09‑02 Doelkaart** (incl. Rode Lijnen)
+- **TMP‑09‑05 Test & Acceptatie Protocol** (light: minimaal 20 cases)
+- **TMP‑09‑06 Validatierapport** (bewijs van testresultaten)
 
 **Wat mag je overslaan in Fast Lane:**
 
-- Uitgebreide business case (ROI) *mag later*, maar je noteert wÃ©l een â€œwaardeâ€‘hypotheseâ€ in het Charter.
+- Uitgebreide business case (ROI) *mag later*, maar je noteert wél een “waarde‑hypothese” in het Charter.
 - Uitgebreid technisch dossier (alleen relevant bij hoog risico).
 
 ## 4. Fast Lane Gates (simpel en toetsbaar)
 
-### Gate FLâ€‘1 â€” Start experiment (max. 2 weken)
+### Gate FL‑1 — Start experiment (max. 2 weken)
 
 **Go** als:
 
-- Risico Preâ€‘Scan = Minimaal
+- Risico Pre‑Scan = Minimaal
 - Doelkaart bevat Rode Lijnen
-- Minimaal testplan staat klaar (Gouden Set â‰¥ 20)
+- Minimaal testplan staat klaar (Gouden Set ≥ 20)
 
-### Gate FLâ€‘2 â€” Interne live pilot (max. 4 weken)
+### Gate FL‑2 — Interne live pilot (max. 4 weken)
 
 **Go** als:
 
-- Validatierapport (TMPâ€‘09â€‘06) voldoet aan **MODâ€‘01â€‘07** normen voor Minimaal risico
-- Logging/traceerbaarheid is ingericht op basismetaâ€‘niveau
+- Validatierapport (TMP‑09‑06) voldoet aan **MOD‑01‑07** normen voor Minimaal risico
+- Logging/traceerbaarheid is ingericht op basismeta‑niveau
 - Incidentprocedure bekend bij team
 
 ## 5. Wanneer Fast Lane stopt (escalatie)

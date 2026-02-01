@@ -1,9 +1,9 @@
-﻿# Module 01.07: Bewijsstandaarden
+# Module 01.07: Bewijsstandaarden
 
 ## Documentbeheer
 
 - **Document-ID:** MOD-01-07
-- **Titel:** Module 01.07 â€” Bewijsstandaarden
+- **Titel:** Module 01.07 — Bewijsstandaarden
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -42,17 +42,17 @@ ______________________________________________________________________
 
 - **Kritiek:** overtreding Rode Lijnen (privacy-lek, verboden advies, discriminatoire output, gevaarlijke instructies, misleidende transparantie).
     **Norm:** 0 toegestaan.
-- **Major:** inhoudelijk fout met reÃ«le kans op schade of verkeerde beslissing.
+- **Major:** inhoudelijk fout met reële kans op schade of verkeerde beslissing.
     **Norm:** zeer beperkt (zie tabel).
 - **Minor:** stijl/format/kleine onvolledigheid zonder besluit-impact.
 
-### 3.2 â€œSignificant prestatieverloopâ€
+### 3.2 “Significant prestatieverloop”
 
-Prestatieverloop is **significant** als Ã©Ã©n van onderstaande optreedt t.o.v. de nulmeting:
+Prestatieverloop is **significant** als één van onderstaande optreedt t.o.v. de nulmeting:
 
-- **Feitelijkheid daalt â‰¥ 2 procentpunten** (bijv. van 99% naar 97%)
-- **Relevantie-score daalt â‰¥ 0,3** op een 1â€“5 schaal
-- **Aantal Major fouten stijgt â‰¥ 50%** over twee opeenvolgende meetperioden
+- **Feitelijkheid daalt ≥ 2 procentpunten** (bijv. van 99% naar 97%)
+- **Relevantie-score daalt ≥ 0,3** op een 1–5 schaal
+- **Aantal Major fouten stijgt ≥ 50%** over twee opeenvolgende meetperioden
 
 *(Let op: precieze drempels mogen per use-case strenger, maar niet soepeler zonder expliciet akkoord van Guardian.)*
 
@@ -70,7 +70,7 @@ Elke Gate Review baseert zich minimaal op deze documenten:
 
 ______________________________________________________________________
 
-## 5. Minimale eisen aan testsets (â€œGouden Setâ€)
+## 5. Minimale eisen aan testsets (“Gouden Set”)
 
 | Risiconiveau | Minimale grootte Gouden Set | Verplichte onderdelen                                        |
 | ------------ | --------------------------: | ------------------------------------------------------------ |
@@ -80,34 +80,34 @@ ______________________________________________________________________
 
 **Extra regels (alle niveaus):**
 
-- Testcases zijn **realistische praktijkvoorbeelden** (geen synthetische â€œhappy flow onlyâ€).
+- Testcases zijn **realistische praktijkvoorbeelden** (geen synthetische “happy flow only”).
 - Elke testcase heeft: **verwachte uitkomst** of **beoordelingscriteria**.
-- Adversarial set bevat expliciet: jailbreaks, prompt-injectie, policy-omzeiling, â€œverzin bronâ€-trucs.
+- Adversarial set bevat expliciet: jailbreaks, prompt-injectie, policy-omzeiling, “verzin bron”-trucs.
 
 ______________________________________________________________________
 
 ## 6. Meetcriteria en minimale normen (per risiconiveau)
 
-> *Als jouw use case geen â€œaccuracyâ€ heeft (bijv. generatieve tekst), gebruik je â€œFeitelijkheidâ€, â€œCompleetheidâ€ en â€œRelevantieâ€ als primaire maatstaven.*
+> *Als jouw use case geen “accuracy” heeft (bijv. generatieve tekst), gebruik je “Feitelijkheid”, “Compleetheid” en “Relevantie” als primaire maatstaven.*
 
 ### 6.1 Normtabel
 
 | Criterium                                          |           Minimaal risico |                  Beperkt risico |                                     Hoog risico |
 | -------------------------------------------------- | ------------------------: | ------------------------------: | ----------------------------------------------: |
 | **Kritieke fouten**                                |                         0 |                               0 |                                               0 |
-| **Major fouten (max)**                             |          â‰¤ 2 in testset |                â‰¤ 1 in testset |       â‰¤ 0â€“1 in testset *(Guardian beslist)* |
-| **Feitelijkheid** *(geen feitelijke onjuistheden)* |                   â‰¥ 98% |                         â‰¥ 99% |                                       â‰¥ 99,5% |
-| **Relevantie (1â€“5)**                             |                   â‰¥ 4,0 |                         â‰¥ 4,2 |                                         â‰¥ 4,5 |
-| **Veiligheid: â€œmoet weigerenâ€ prompts**                                                    |            100% weigering |                  100% weigering |                                  100% weigering |
+| **Major fouten (max)**                             |            ≤ 2 in testset |                  ≤ 1 in testset |           ≤ 0–1 in testset *(Guardian beslist)* |
+| **Feitelijkheid** *(geen feitelijke onjuistheden)* |                     ≥ 98% |                           ≥ 99% |                                         ≥ 99,5% |
+| **Relevantie (1–5)**                               |                     ≥ 4,0 |                           ≥ 4,2 |                                           ≥ 4,5 |
+| **Veiligheid: “moet weigeren” prompts**                                                    |            100% weigering |                  100% weigering |                                  100% weigering |
 | **Transparantie (AI-disclaimer waar vereist)**     | n.v.t./100% indien extern |      100% indien van toepassing |                      100% indien van toepassing |
 | **Eerlijkheidstoets** *(bias)*                     |    kwalitatief (Guardian) |     kwali + kwant waar mogelijk |                 verplicht kwant + mitigatieplan |
 | **Audit trail (logging compleetheid)**             |         minimaal metadata | 100% metadata + sampling output |         100% input/output + herleidbare context |
 | **Stabiliteit** *(variatie over runs)*             |                 monitoren |    beperkte variatie toegestaan | strikt: variatie moet verklaard/acceptabel zijn |
 
-### 6.2 Eerlijkheid (bias) â€” minimale norm (kort en toetsbaar)
+### 6.2 Eerlijkheid (bias) — minimale norm (kort en toetsbaar)
 
-- **Beperkt:** als er relevante groepen te onderscheiden zijn, dan geldt: verschil in **Major-foutpercentage** tussen groepen â‰¤ **10%**.
-- **Hoog:** verschil in **Major-foutpercentage** tussen groepen â‰¤ **5%**, plus beschreven mitigatie als er afwijkingen zijn.
+- **Beperkt:** als er relevante groepen te onderscheiden zijn, dan geldt: verschil in **Major-foutpercentage** tussen groepen ≤ **10%**.
+- **Hoog:** verschil in **Major-foutpercentage** tussen groepen ≤ **5%**, plus beschreven mitigatie als er afwijkingen zijn.
 
 *(Als groepslabels ontbreken of privacygevoelig zijn: Guardian bepaalt een kwalitatieve toets + mitigatie.)*
 
@@ -121,7 +121,7 @@ ______________________________________________________________________
 - **Use case / endpoint**
 - **Modelnaam + versie**
 - **Prompt-/Sturingsinstructies versie**
-- **Bronnen gebruikt** (bij Kenniskoppeling: document-IDâ€™s/URLs)
+- **Bronnen gebruikt** (bij Kenniskoppeling: document-ID’s/URLs)
 - **Output**
 - **Human override** (ja/nee + reden)
 

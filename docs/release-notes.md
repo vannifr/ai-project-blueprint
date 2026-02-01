@@ -1,9 +1,7 @@
-﻿
-
 ## Documentbeheer
 
 - **Document-ID:** MOD
-- **Titel:** Release Notes â€” AI Project Playbook
+- **Titel:** Release Notes — AI Project Playbook
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -17,8 +15,8 @@ ______________________________________________________________________
 ### Samenvatting
 
 - Eerste release van het gestandaardiseerde AI Project Playbook.
-- Eenduidig versiebeheer geÃ¯ntroduceerd via een nieuw "Documentbeheer" blok in elk document.
-- Versie staat op **1.0** totdat de proefperiode en initiÃ«le feedbackronde is afgerond.
+- Eenduidig versiebeheer geïntroduceerd via een nieuw "Documentbeheer" blok in elk document.
+- Versie staat op **1.0** totdat de proefperiode en initiële feedbackronde is afgerond.
 
 ### Belangrijkste wijzigingen
 

@@ -1,9 +1,9 @@
-﻿# Template 09.07: Data & Privacyblad (AVG/GDPR)
+# Template 09.07: Data & Privacyblad (AVG/GDPR)
 
 ## Documentbeheer
 
 - **Document-ID:** TMP-09-07
-- **Titel:** Template 09.07 â€” Data & Privacyblad (AVG/GDPR)
+- **Titel:** Template 09.07 — Data & Privacyblad (AVG/GDPR)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** Privacy Officer / DPO + AI Competence Center
@@ -15,10 +15,10 @@ ______________________________________________________________________
 ## 1. Use case & doelbinding
 
 - **Project:** \[naam\]
-- **Doel van verwerking:** \[1â€“3 zinnen, concreet\]
-- **Waarom is data nodig:** \[koppel aan doel, geen â€œvoor de zekerheidâ€\]
+- **Doel van verwerking:** \[1–3 zinnen, concreet\]
+- **Waarom is data nodig:** \[koppel aan doel, geen “voor de zekerheid”\]
 
-## 2. DatacategorieÃ«n
+## 2. Datacategorieën
 
 Kruis aan + beschrijf:
 
@@ -26,7 +26,7 @@ Kruis aan + beschrijf:
 - [ ] Contact/communicatie (tickets, e-mails, chat)
 - [ ] Financieel (facturen, betalingen)
 - [ ] Gedrag/gebruik (clicks, sessies)
-- [ ] Bijzondere persoonsgegevens (gezondheid, biometrie, etc.) â†’ **alleen met expliciete onderbouwing**
+- [ ] Bijzondere persoonsgegevens (gezondheid, biometrie, etc.) → **alleen met expliciete onderbouwing**
 
 ## 3. Grondslag & transparantie
 
@@ -59,7 +59,7 @@ Kruis aan + beschrijf:
 - **Wie mag prompts/instellingen wijzigen:** \[rollen\]
 - **Audit trail aanwezig:** \[Ja/Nee\]
 
-## 8. Risicoâ€™s & mitigaties (kort)
+## 8. Risico’s & mitigaties (kort)
 
 | Risico | Impact | Mitigatie | Eigenaar |
 | ------ | ------ | --------- | -------- |

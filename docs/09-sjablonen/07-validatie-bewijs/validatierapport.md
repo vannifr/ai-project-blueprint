@@ -1,9 +1,9 @@
-﻿# Template 09.06: Validatierapport (Bewijsâ€‘pakket)
+# Template 09.06: Validatierapport (Bewijs‑pakket)
 
 ## Documentbeheer
 
 - **Document-ID:** TMP-09-06
-- **Titel:** Template 09.06 â€” Validatierapport (Bewijsâ€‘pakket)
+- **Titel:** Template 09.06 — Validatierapport (Bewijs‑pakket)
 - **Versie:** 1.0
 - **Status:** Definitief
 - **Eigenaar:** AI Competence Center
@@ -16,21 +16,21 @@ ______________________________________________________________________
 
 **Project:** \[Naam\]
 **Risiconiveau:** \[Minimaal / Beperkt / Hoog\]
-**Samenwerkingsmodus:** \[1â€“5\]
+**Samenwerkingsmodus:** \[1–5\]
 **Release/Build:** \[bijv. RC-1\]
 **Testperiode:** \[YYYY-MM-DD t/m YYYY-MM-DD\]
 
-### Conclusie (kies Ã©Ã©n)
+### Conclusie (kies één)
 
-- [ ] **Go** â€” voldoet aan Module 01.07 normen voor dit risiconiveau
-- [ ] **Go met acties** â€” alleen na uitvoeren van acties onder Â§7
-- [ ] **No-Go** â€” voldoet niet; herontwerp/hertrain/herformuleer vereist
+- [ ] **Go** — voldoet aan Module 01.07 normen voor dit risiconiveau
+- [ ] **Go met acties** — alleen na uitvoeren van acties onder Â§7
+- [ ] **No-Go** — voldoet niet; herontwerp/hertrain/herformuleer vereist
 
 **Top 3 bevindingen:**
 
-1. â€¦
-1. â€¦
-1. â€¦
+1. ”¦
+1. ”¦
+1. ”¦
 
 ______________________________________________________________________
 
@@ -49,7 +49,7 @@ ______________________________________________________________________
 
 - **Omgeving:** \[Dev/Test/Prod-simulatie\]
 - **Modelinstellingen:** \[bijv. temperature, max tokens\]
-- **Kenniskoppeling:** \[Ja/Nee\] â€” zo ja: welke bronset + updatefrequentie
+- **Kenniskoppeling:** \[Ja/Nee\] — zo ja: welke bronset + updatefrequentie
 - **Randvoorwaarden:** \[bijv. rate limits, timeouts, tooling\]
 
 ______________________________________________________________________
@@ -59,7 +59,7 @@ ______________________________________________________________________
 ### 3.1 Gouden Set
 
 - **Aantal cases:** \[minimaal volgens MOD-01-07\]
-- **Herkomst:** \[tickets, e-mails, calls, formulierenâ€¦\]
+- **Herkomst:** \[tickets, e-mails, calls, formulieren”¦\]
 - **Dekking:** \[80/15/5 of 70/20/10 afhankelijk risiconiveau\]
 
 ### 3.2 Adversarial set (verplicht bij Beperkt/Hoog)
@@ -80,11 +80,11 @@ ______________________________________________________________________
 | ------------------------------------- | -----------: | ------: | --------------------- | --------- |
 | Kritieke fouten                       |            0 |   \[#\] | \[ \] Pass \[ \] Fail |           |
 | Major fouten (max)                    |        \[#\] |   \[#\] | \[ \] Pass \[ \] Fail |           |
-| Feitelijkheid                         |   \[â‰¥..%\] | \[..%\] | \[ \] Pass \[ \] Fail |           |
-| Relevantie (1â€“5)                    |    \[â‰¥..\] |  \[..\] | \[ \] Pass \[ \] Fail |           |
+| Feitelijkheid                         |     \[≥..%\] | \[..%\] | \[ \] Pass \[ \] Fail |           |
+| Relevantie (1–5)                      |      \[≥..\] |  \[..\] | \[ \] Pass \[ \] Fail |           |
 | Veiligheid (weigeren)                 |         100% | \[..%\] | \[ \] Pass \[ \] Fail |           |
 | Transparantie (indien van toepassing) |         100% | \[..%\] | \[ \] Pass \[ \] Fail |           |
-| Eerlijkheid (bias)                    |   \[â‰¤..%\] | \[..%\] | \[ \] Pass \[ \] Fail |           |
+| Eerlijkheid (bias)                    |     \[≤..%\] | \[..%\] | \[ \] Pass \[ \] Fail |           |
 | Audit trail                           | volgens norm |  \[..\] | \[ \] Pass \[ \] Fail |           |
 
 ______________________________________________________________________
@@ -117,7 +117,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 7. Actieplan (alleen invullen als â€œGo met actiesâ€ of â€œNo-Goâ€)
+## 7. Actieplan (alleen invullen als “Go met acties” of “No-Go”)
 
 | Actie | Eigenaar | Deadline | Verwacht effect | Verificatie (test) |
 | ----- | -------- | -------- | --------------- | ------------------ |

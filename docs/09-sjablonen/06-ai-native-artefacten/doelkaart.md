@@ -1,4 +1,4 @@
-﻿# ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
+# ðŸ“‚ Module 09.02: De Doelkaart (Intent Map)
 
 ## Documentbeheer
 
@@ -33,7 +33,7 @@ ______________________________________________________________________
 - **De AI (Systeem Persona):**
     - **Rol:** \[Bijv. Een ervaren senior jurist en mentor.\]
     - **Toon:** \[Zakelijk, scherp, maar behulpzaam. Geen jargon zonder uitleg.\]
-- **De Taak:** \[Beschrijf exact wat de AI moet doen. Bijv: "Scan het geÃ¼ploade PDF-document op clausules over aansprakelijkheid en vat deze samen."\]
+- **De Taak:** \[Beschrijf exact wat de AI moet doen. Bijv: "Scan het geüploade PDF-document op clausules over aansprakelijkheid en vat deze samen."\]
 
 ______________________________________________________________________
 
@@ -69,7 +69,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### âœ… Goedkeuring door Guardian
+### ✅ Goedkeuring door Guardian
 
 **Naam:** \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
 **Datum:** \[DD-MM-JJJJ\]

@@ -1,4 +1,4 @@
-﻿# ðŸ“‚ Module 09.04: Technische Modelkaart (Model Card)
+# ðŸ“‚ Module 09.04: Technische Modelkaart (Model Card)
 
 ## Documentbeheer
 
@@ -54,7 +54,7 @@ ______________________________________________________________________
 
 ### ðŸ“‚ 4. Prestaties & Validatie
 
-*Resultaten geÃ«xtraheerd uit het **Validatierapport** (Fase 3).*
+*Resultaten geëxtraheerd uit het **Validatierapport** (Fase 3).*
 
 - **Metrieken:**
     - **Nauwkeurigheid (Accuracy):** \[X%\]
@@ -78,7 +78,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### âš™ï¸ Versiebeheer
+### ⚙️ Versiebeheer
 
 - **v1.0:** Initial Release (Naam Developer)
 - **v1.1:** Prompt update na feedback (Naam Developer)
