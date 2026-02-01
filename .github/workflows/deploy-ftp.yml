@@ -1,18 +1,48 @@
-name: Deploy MkDocs to FTP
+name: Build, Verify & Deploy
 
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
+
 concurrency:
   group: deploy-ftp
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    name: Build & Deploy
+  # Job 1: Kwaliteitscontrole (moet slagen)
+  quality:
+    name: Verify Quality
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pre-commit
+
+      - name: Run Pre-commit hooks (Linting & Formatting)
+        run: pre-commit run --all-files
+
+      - name: Build MkDocs (Strict Mode - Check Links)
+        # HTMLPROOFER_ENABLED=true zorgt ervoor dat de link checker draait
+        run: HTMLPROOFER_ENABLED=true mkdocs build --strict
+
+  # Job 2: Deploy (draait alleen als 'quality' slaagt EN het een push naar main is)
+  deploy:
+    name: Deploy to FTP
+    needs: quality  # <--- Dit zorgt voor de afhankelijkheid!
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -35,6 +65,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /public_html/ai-project-playbook/  # Upload naar deze map
-          local-dir: ./site/            # Dit is de map waar MkDocs de site bouwt
-          protocol: ftp                # Gebruik 'ftp' of 'ftps'
+          server-dir: /public_html/ai-project-playbook/
+          local-dir: ./site/
+          protocol: ftp
