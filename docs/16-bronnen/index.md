@@ -52,7 +52,6 @@ De governance en compliance modules (zoals **Module 07: Risicobeheersing & Compl
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

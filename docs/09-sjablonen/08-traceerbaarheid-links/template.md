@@ -35,7 +35,6 @@ Het waarborgen van de verbinding tussen de menselijke intentie, de technische im
 **Status:** Draft  
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

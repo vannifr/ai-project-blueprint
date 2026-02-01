@@ -59,7 +59,6 @@ Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

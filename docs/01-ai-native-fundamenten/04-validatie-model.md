@@ -31,7 +31,6 @@ Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie valida
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

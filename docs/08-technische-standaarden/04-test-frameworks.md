@@ -1,4 +1,4 @@
-﻿# Test Frameworks
+# Test Frameworks
 ## Documentbeheer
 - **Document-ID:** MOD-04
 - **Titel:** Test Frameworks
@@ -12,7 +12,6 @@
 
 Inhoud volgt nog.
 
----
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 

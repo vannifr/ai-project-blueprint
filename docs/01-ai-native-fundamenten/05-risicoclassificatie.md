@@ -26,7 +26,6 @@ Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wi
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

@@ -1,4 +1,4 @@
-﻿# Data Pipelines
+# Data Pipelines
 ## Documentbeheer
 - **Document-ID:** MOD-02
 - **Titel:** Data Pipelines
@@ -12,7 +12,6 @@
 
 Inhoud volgt nog.
 
----
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 

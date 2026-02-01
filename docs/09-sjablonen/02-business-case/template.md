@@ -46,7 +46,6 @@ Dit sjabloon helpt bij het kwantificeren van de businesswaarde en het in kaart b
 **Status:** Draft  
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

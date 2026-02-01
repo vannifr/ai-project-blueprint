@@ -44,7 +44,6 @@ Systematisch identificeren, beoordelen en mitigeren van risico's gedurende de ge
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

@@ -77,7 +77,6 @@ Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welk
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

@@ -43,7 +43,6 @@ Snel en effectief reageren op onvoorziene situaties waarbij een AI-systeem buite
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

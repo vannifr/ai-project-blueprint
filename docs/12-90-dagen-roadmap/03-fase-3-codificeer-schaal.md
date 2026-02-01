@@ -1,4 +1,4 @@
-﻿# Fase 3: Codificeer & Schaal (Dagen 61-90)
+# Fase 3: Codificeer & Schaal (Dagen 61-90)
 ## Documentbeheer
 - **Document-ID:** MOD-03
 - **Titel:** Fase 3: Codificeer & Schaal (Dagen 61-90)
@@ -32,7 +32,6 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
     - [ ] Schaalbare technische architectuur.
     - [ ] Roadmap voor de komende 12 maanden.
 
----
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 

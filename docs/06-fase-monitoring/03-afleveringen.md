@@ -1,4 +1,4 @@
-﻿# Deliverables & Gate 5 (Monitoring)
+# Deliverables & Gate 5 (Monitoring)
 ## Documentbeheer
 - **Document-ID:** MOD-06-03
 - **Titel:** Deliverables & Gate 5 (Monitoring)
@@ -36,7 +36,6 @@ De resultaten van de Monitoringfase voor een duurzame operatie:
 *   **08-01 MLOps-standaarden:** [Link](../08-technische-standaarden/01-mloops-standaarden.md)
 *   **06-05 Drift-detectie:** [Details](05-drift-detectie.md)
 
----
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 

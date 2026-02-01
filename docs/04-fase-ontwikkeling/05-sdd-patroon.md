@@ -1,4 +1,4 @@
-﻿# SDD Patroon
+# SDD Patroon
 ## Documentbeheer
 - **Document-ID:** MOD-05
 - **Titel:** SDD Patroon
@@ -12,7 +12,6 @@
 
 Inhoud volgt nog.
 
----
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 

@@ -32,7 +32,6 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

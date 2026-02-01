@@ -53,7 +53,6 @@ De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veilig
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

@@ -66,7 +66,6 @@ Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checkli
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

@@ -71,7 +71,6 @@ Elke wijziging wordt getoetst op drie dimensies:
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 

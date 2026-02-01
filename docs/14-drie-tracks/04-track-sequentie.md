@@ -1,4 +1,4 @@
-﻿# Track Sequentie
+# Track Sequentie
 ## Documentbeheer
 - **Document-ID:** MOD-04
 - **Titel:** Track Sequentie
@@ -12,7 +12,6 @@
 
 Inhoud volgt nog.
 
----
 ---
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 

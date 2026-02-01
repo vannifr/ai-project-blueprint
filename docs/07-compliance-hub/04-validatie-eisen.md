@@ -29,7 +29,6 @@ Vaststellen waaraan een **Validatierapport** moet voldoen om formeel akkoord te 
 **Status:** Draft
 
 ---
----
 © 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.
 
 
