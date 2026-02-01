@@ -1,0 +1,29 @@
+name: CI - Quality Checks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pre-commit
+
+      - name: Run Pre-commit hooks
+        run: pre-commit run --all-files
+
+      - name: Build MkDocs (Strict Mode)
+        run: mkdocs build --strict

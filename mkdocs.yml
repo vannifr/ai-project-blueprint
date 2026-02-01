@@ -4,15 +4,12 @@ site_author: AI Project Playbook Team
 copyright: '&copy; 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.'
 
 # Blokkeer zoekmachines
-
-
 extra_css:
   - stylesheets/extra.css
 
 # Voeg noindex toe aan de head van elke pagina
 hooks:
   - hooks/add_noindex.py
-
 
 theme:
   name: material
@@ -51,6 +48,15 @@ markdown_extensions:
   - toc:
       permalink: true
 
+plugins:
+  - search
+  - htmlproofer:
+      enabled: !ENV [HTMLPROOFER_ENABLED, False]
+      raise_error: true
+      raise_error_after_finish: true
+      ignore_urls:
+        - !regex "^http://localhost"
+
 nav:
   - Home: index.md
   - Strategisch Kader:
@@ -78,22 +84,29 @@ nav:
       - Activiteiten: 02-fase-ontdekking/02-activiteiten.md
       - Afleveringen: 02-fase-ontdekking/03-afleveringen.md
       - Snelle Route (Fast Lane): 02-fase-ontdekking/06-fast-lane.md
+      - Beoordeling: 02-fase-ontdekking/05-has-h-beoordeling.md
+      - Sjablonen: 02-fase-ontdekking/04-sjablonen/index.md
     - 2. Validatie:
       - Doel: 03-fase-validatie/01-doelstellingen.md
       - Activiteiten: 03-fase-validatie/02-activiteiten.md
       - Afleveringen: 03-fase-validatie/03-afleveringen.md
+      - Risicoclassificatie: 03-fase-validatie/05-risicoclassificatie.md
     - 3. Realisatie:
       - Doel: 04-fase-ontwikkeling/01-doelstellingen.md
       - Activiteiten: 04-fase-ontwikkeling/02-activiteiten.md
       - Afleveringen: 04-fase-ontwikkeling/03-afleveringen.md
+      - SDD Patroon: 04-fase-ontwikkeling/05-sdd-patroon.md
     - 4. Levering:
       - Doel: 05-fase-levering/01-doelstellingen.md
       - Activiteiten: 05-fase-levering/02-activiteiten.md
       - Afleveringen: 05-fase-levering/03-afleveringen.md
+      - Traceerbaarheid: 05-fase-levering/05-traceerbaarheid.md
+      - Overdracht Checklist: 05-fase-levering/04-sjablonen/overdracht-checklist.md
     - 5. Beheer & Optimalisatie:
       - Doel: 06-fase-monitoring/01-doelstellingen.md
       - Activiteiten: 06-fase-monitoring/02-activiteiten.md
       - Afleveringen: 06-fase-monitoring/03-afleveringen.md
+      - Drift Detectie: 06-fase-monitoring/05-drift-detectie.md
   - Compliance Hub:
     - Overzicht: 07-compliance-hub/index.md
     - EU AI Act: 07-compliance-hub/01-eu-ai-act/index.md
@@ -103,14 +116,64 @@ nav:
     - Incident Respons: 07-compliance-hub/05-incidentrespons.md
   - Toolkit & Templates:
     - Sjablonen: 09-sjablonen/index.md
-    - Technische Standaarden: 08-technische-standaarden/01-mloops-standaarden.md
+    - Project Charter: 09-sjablonen/01-project-charter/template.md
+    - Business Case:
+      - Template: 09-sjablonen/02-business-case/template.md
+      - Modelkaart: 09-sjablonen/02-business-case/modelkaart.md
+    - Risicoanalyse:
+      - Template: 09-sjablonen/03-risicoanalyse/template.md
+      - Pre-scan: 09-sjablonen/03-risicoanalyse/pre-scan.md
+    - Gate Reviews: 09-sjablonen/04-gate-reviews/checklist.md
+    - AI Artefacten:
+      - Doelkaart: 09-sjablonen/06-ai-native-artefacten/doelkaart.md
+    - Validatie Bewijs:
+      - Template: 09-sjablonen/07-validatie-bewijs/template.md
+      - Validatierapport: 09-sjablonen/07-validatie-bewijs/validatierapport.md
+    - Traceerbaarheid: 09-sjablonen/08-traceerbaarheid-links/template.md
+    - Prompt Engineering: 09-sjablonen/10-prompt-engineering/template.md
+    - Privacy: 09-sjablonen/11-privacy-data/privacyblad.md
+    - Technische Standaarden:
+      - Overzicht: 08-technische-standaarden/index.md
+      - MLOps: 08-technische-standaarden/01-mloops-standaarden.md
+      - Data Pipelines: 08-technische-standaarden/02-data-pipelines.md
+      - Model Governance: 08-technische-standaarden/03-model-governance.md
+      - Test Frameworks: 08-technische-standaarden/04-test-frameworks.md
+      - AI Architectuur: 08-technische-standaarden/05-ai-architectuur.md
   - Organisatie:
-    - 90-Dagen Startplan: 12-90-dagen-roadmap/index.md
-    - Volwassenheidsniveaus: 13-organisatieprofielen/index.md
-    - Drie Tracks: 14-drie-tracks/index.md
-    - Accelerators: 15-accelerators/index.md
-    - Doorlopende Verbetering: 10-doorlopende-verbetering/index.md
-    - Project Afsluiting: 11-project-afsluiting/index.md
+    - 90-Dagen Startplan:
+      - Overzicht: 12-90-dagen-roadmap/index.md
+      - Fase 1: 12-90-dagen-roadmap/01-fase-1-richt-focus-rationaliseer.md
+      - Fase 2: 12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.md
+      - Fase 3: 12-90-dagen-roadmap/03-fase-3-codificeer-schaal.md
+      - Capaciteits Uitkomsten: 12-90-dagen-roadmap/04-capaciteits-uitkomsten.md
+    - Volwassenheidsniveaus:
+      - Overzicht: 13-organisatieprofielen/index.md
+      - Verkenner: 13-organisatieprofielen/01-ai-verkenner.md
+      - Piloot: 13-organisatieprofielen/02-ai-piloot.md
+      - Expert: 13-organisatieprofielen/03-ai-expert.md
+      - Beoordeling: 13-organisatieprofielen/04-profiel-beoordeling.md
+    - Drie Tracks:
+      - Overzicht: 14-drie-tracks/index.md
+      - Strategisch: 14-drie-tracks/01-strategische-heruitvinding.md
+      - Operationeel: 14-drie-tracks/02-operationele-herontwerp.md
+      - Bedrijfsmodel: 14-drie-tracks/03-ai-first-bedrijfsmodel.md
+      - Sequentie: 14-drie-tracks/04-track-sequentie.md
+    - Accelerators:
+      - Overzicht: 15-accelerators/index.md
+      - Strategisch: 15-accelerators/01-strategische-heruitving-accelerators.md
+      - Operationeel: 15-accelerators/02-operationele-herontwerp-accelerators.md
+      - Bedrijfsmodel: 15-accelerators/03-bedrijfsmodel-accelerators.md
+    - Doorlopende Verbetering:
+      - Overzicht: 10-doorlopende-verbetering/index.md
+      - Retrospectives: 10-doorlopende-verbetering/01-retrospectives.md
+      - Kaizen: 10-doorlopende-verbetering/02-kaizen-logs.md
+      - Metrics: 10-doorlopende-verbetering/03-metrics-dashboards.md
+      - Baten: 10-doorlopende-verbetering/04-batenrealisatie.md
+    - Project Afsluiting:
+      - Overzicht: 11-project-afsluiting/index.md
+      - Lessons Learned: 11-project-afsluiting/01-lessons-learned.md
+      - Overdracht: 11-project-afsluiting/02-overdracht-procedures.md
+      - Batenrealisatie: 11-project-afsluiting/03-batenrealisatie.md
   - Termenlijst: termenlijst/index.md
   - Bronnen: 16-bronnen/index.md
   - Release Notes: release-notes.md

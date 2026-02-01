@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          pip install -r requirements.txt
 
       - name: Build MkDocs
         run: mkdocs build
@@ -38,4 +38,3 @@ jobs:
           server-dir: /public_html/ai-project-playbook/  # Upload naar deze map
           local-dir: ./site/            # Dit is de map waar MkDocs de site bouwt
           protocol: ftp                # Gebruik 'ftp' of 'ftps'
-

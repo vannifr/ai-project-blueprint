@@ -7,41 +7,48 @@
 De centrale documentatiehub voor AI-projectmanagement, gebaseerd op PMI-CPMAI standaarden, EU AI Act compliance en Agile-AI frameworks.
 
 ## 📖 Over dit project
+
 Dit playbook (v1.0) biedt een gestandaardiseerde, modulaire aanpak om AI-projecten te beheren van ideatie tot monitoring. Het is ontworpen om teams te helpen navigeren door de complexiteit van AI-native ontwikkeling, compliance en organisatie-adoptie.
 
 ### Kernmodules
-*   **Executive Summary (MOD-00.01):** Snelle blik op de methodiek en implementatiepaden.
-*   **Strategisch Kader:** Hybride waterval/agile methodiek en governance (HAS H niveaus).
-*   **Snelle Route (Fast Lane):** Versnelde procedure voor AI-experimenten met laag risico.
-*   **AI-Native Fundamenten:** Doelkaarten, bewijsstandaarden en specificatie-gedreven validatie.
-*   **Levenscyclus:** 5 fasen van Discovery tot Monitoring met Gate Reviews.
-*   **Compliance Hub:** Praktische toepassing van de EU AI Act en Privacy-by-Design (AVG/GDPR).
-*   **13-Weken Roadmap:** Een uitvoerbaar startplan voor teams.
+
+- **Executive Summary (MOD-00.01):** Snelle blik op de methodiek en implementatiepaden.
+- **Strategisch Kader:** Hybride waterval/agile methodiek en governance (HAS H niveaus).
+- **Snelle Route (Fast Lane):** Versnelde procedure voor AI-experimenten met laag risico.
+- **AI-Native Fundamenten:** Doelkaarten, bewijsstandaarden en specificatie-gedreven validatie.
+- **Levenscyclus:** 5 fasen van Discovery tot Monitoring met Gate Reviews.
+- **Compliance Hub:** Praktische toepassing van de EU AI Act en Privacy-by-Design (AVG/GDPR).
+- **13-Weken Roadmap:** Een uitvoerbaar startplan voor teams.
 
 ## 🚀 Aan de slag
 
 ### De Website bekijken
+
 De documentatie is geoptimaliseerd voor MkDocs.
 
 **Lokaal draaien:**
-1.  Zorg dat Python geïnstalleerd is.
-2.  Installeer de dependencies:
+
+1. Zorg dat Python geïnstalleerd is.
+1. Installeer de dependencies:
     ```bash
     pip install mkdocs mkdocs-material
     ```
-3.  Start de server:
+1. Start de server:
     ```bash
     mkdocs serve
     ```
-4.  Open [http://localhost:8000](http://localhost:8000).
+1. Open [http://localhost:8000](http://localhost:8000).
 
 ## 🤝 Bijdragen
+
 Dit project wordt beheerd volgens strikte documentatiestandaarden. Zie de `internal-meta/BACKLOG.md` voor de huidige roadmap.
-*   **Taal:** Nederlands, professioneel en zakelijk.
-*   **Stijl:** Gebruik de gestandaardiseerde `Documentbeheer` headers.
-*   **Links:** Controleer altijd op link-integriteit binnen de `docs/` map.
+
+- **Taal:** Nederlands, professioneel en zakelijk.
+- **Stijl:** Gebruik de gestandaardiseerde `Documentbeheer` headers.
+- **Links:** Controleer altijd op link-integriteit binnen de `docs/` map.
 
 ## 📄 Licentie
+
 © 2026 AI Project Playbook.
 Gelicenseerd onder de **Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal (CC BY-NC-SA 4.0)**.
 Zie de footer van elk document voor copyright informatie.
