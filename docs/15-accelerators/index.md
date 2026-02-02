@@ -13,7 +13,7 @@ ______________________________________________________________________
 
 ## 📖 Accelerators per Track
 
-- **[Strategische Heruitvinding Accelerators](01-strategische-heruitving-accelerators.md):** Tools voor strategische transformatie.
+- **[Strategische Heruitvinding Accelerators](01-strategische-heruitvinding-accelerators.md):** Tools voor strategische transformatie.
 - **[Operationele Herontwerp Accelerators](02-operationele-herontwerp-accelerators.md):** Procesoptimalisatie tools.
 - **[Bedrijfsmodel Accelerators](03-bedrijfsmodel-accelerators.md):** Innovatie frameworks.
 

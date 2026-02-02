@@ -43,7 +43,7 @@ gantt
     section Iteratief
     Realisatie Sprints 1-4     :s1, after p2, 4w
     section Voorspelbaar
-    Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) Review              :m1, after s1, 1w
+    Gate 3 (Productie-klaar) Review              :m1, after s1, 1w
     section Iteratief
     Realisatie Sprints 5-8     :s2, after m1, 4w
 ```

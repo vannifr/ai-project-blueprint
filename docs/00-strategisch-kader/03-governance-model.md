@@ -40,16 +40,16 @@ ______________________________________________________________________
 
 ```mermaid
 flowchart TD
-    A[Initiatief] --> B{Gate 1 (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking) (Go/No-Go Ontdekking): Verkenning}
+    A[Initiatief] --> B{Gate 1 (Go/No-Go Ontdekking): Verkenning}
     B -->|Go| C[Validatie]
     B -->|No Go| X[Stop]
-    C --> D{Gate 2 (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV) (Investering PoV): Kostenplaatje}
+    C --> D{Gate 2 (Investering PoV): Kostenplaatje}
     D -->|Go| E[Realisatie]
     D -->|No Go| X
-    E --> F{Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar): Ingebruikname}
+    E --> F{Gate 3 (Productie-klaar): Ingebruikname}
     F -->|Go| G[Beheer & Optimalisatie]
     F -->|No Go| X
-    G --> H{Gate 4 (Livegang) (Livegang) (Livegang) (Livegang) (Livegang) (Livegang): Continue?}
+    G --> H{Gate 4 (Livegang): Continue?}
     H -->|Ja| A
     H -->|Nee| I[Afsluiting]
 ```

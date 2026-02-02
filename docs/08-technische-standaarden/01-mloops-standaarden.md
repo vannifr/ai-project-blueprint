@@ -67,7 +67,7 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 
 Een oplossing mag live als:
 
-- [ ] Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
+- [ ] Gate 3 (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
 - [ ] Logging/retentie ingericht (incl. privacymaatregelen)
 - [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
 - [ ] Owner voor beheer benoemd + monitoring actief

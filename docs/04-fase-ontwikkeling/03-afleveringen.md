@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Opleveringen & Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Realisatie)
+# 🚀 Opleveringen & Gate 3 (Productie-klaar) (Realisatie)
 
 ## 6. Opleveringen (Afleveringen)
 
@@ -16,7 +16,7 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 - **Technische Documentatie:** Architectuur, API's, configuratie.
 - **Ingebruikname Plan:** Stapsgewijs plan voor go-live.
 
-## ? Gate 3 (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) (Productie-klaar) Review Checklist
+## ? Gate 3 (Productie-klaar) Review Checklist
 
 - [ ] Voldoet de Release Candidate aan de normen uit **Bewijsstandaarden**?
 - [ ] Is het systeem technisch stabiel en zijn alle tests geslaagd?
