@@ -33,6 +33,9 @@ jobs:
       - name: Run Pre-commit hooks (Linting & Formatting)
         run: pre-commit run --all-files
 
+      - name: Validate Documentation Quality
+        run: python3 scripts/validate_docs.py
+
       - name: Build MkDocs (Strict Mode - Check Links)
         # HTMLPROOFER_ENABLED=true zorgt ervoor dat de link checker draait
         run: HTMLPROOFER_ENABLED=true mkdocs build --strict
