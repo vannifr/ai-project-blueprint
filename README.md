@@ -31,7 +31,7 @@ De documentatie is geoptimaliseerd voor MkDocs.
 1. Zorg dat Python geïnstalleerd is.
 1. Installeer de dependencies:
     ```bash
-    pip install mkdocs mkdocs-material
+    pip install -r requirements.txt
     ```
 1. Start de server:
     ```bash
@@ -39,13 +39,59 @@ De documentatie is geoptimaliseerd voor MkDocs.
     ```
 1. Open [http://localhost:8000](http://localhost:8000).
 
+### Ontwikkelworkflow
+
+**Pre-commit hooks instellen (aanbevolen):**
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+Dit activeert automatische kwaliteitscontroles bij elke commit:
+
+- Markdown formatting (mdformat)
+- Trailing whitespace verwijderen
+- YAML syntax validatie
+- **Documentatie kwaliteitsvalidatie** (duplicate text detection, frontmatter checks)
+
+**Handmatige kwaliteitscontrole:**
+
+```bash
+python3 scripts/validate_docs.py
+```
+
+Dit script controleert op:
+
+- Herhaalde tekst patronen (bijv. "(Gate 1) (Gate 1) (Gate 1)")
+- Ontbrekende of inconsistente YAML frontmatter
+- Spellingfouten en naamgevingsinconsistenties
+- Duplicate woorden in koppen
+
 ## 🤝 Bijdragen
 
 Dit project wordt beheerd volgens strikte documentatiestandaarden. Zie de `internal-meta/BACKLOG.md` voor de huidige roadmap.
 
+### Documentatiestandaarden
+
 - **Taal:** Nederlands, professioneel en zakelijk.
 - **Stijl:** Gebruik de gestandaardiseerde `Documentbeheer` headers.
-- **Links:** Controleer altijd op link-integriteit binnen de `docs/` map.
+- **Frontmatter:** Alle `.md` bestanden vereisen YAML frontmatter met `versie` en `laatst_herzien`.
+- **Links:** Alle interne links worden automatisch gevalideerd tijdens build.
+
+### Kwaliteitsborging
+
+Alle wijzigingen doorlopen automatisch:
+
+1. **Pre-commit hooks:** Formatting, linting, en custom validaties
+1. **GitHub Actions CI:** Quality checks + link validation (strict mode)
+1. **Automated deployment:** Alleen bij succesvolle validatie
+
+**Voor het indienen van een PR:**
+
+- Voer `pre-commit run --all-files` uit
+- Controleer dat `mkdocs build --strict` slaagt
+- Verifieer dat `python3 scripts/validate_docs.py` geen errors geeft
 
 ## 📄 Licentie
 
