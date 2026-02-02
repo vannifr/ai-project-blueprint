@@ -2,20 +2,17 @@ name: Build, Verify & Deploy
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-    branches:
-      - main
+    branches: [main]
 
 concurrency:
   group: deploy-ftp
   cancel-in-progress: true
 
 jobs:
-  # Job 1: Kwaliteitscontrole (moet slagen)
   quality:
-    name: Verify Quality
+    name: Verify Quality & Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,43 +21,43 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+          cache: 'pip' # Caches dependencies for faster subsequent runs
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
           pip install pre-commit
 
-      - name: Run Pre-commit hooks (Linting & Formatting)
+      - name: Run Pre-commit hooks
         run: pre-commit run --all-files
 
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
 
-      - name: Build MkDocs (Strict Mode - Check Links)
-        # HTMLPROOFER_ENABLED=true zorgt ervoor dat de link checker draait
+      - name: Build MkDocs (Strict)
         run: HTMLPROOFER_ENABLED=true mkdocs build --strict
 
-  # Job 2: Deploy (draait alleen als 'quality' slaagt EN het een push naar main is)
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-build
+          path: site/
+          retention-days: 1
+
   deploy:
     name: Deploy to FTP
-    needs: quality  # <--- Dit zorgt voor de afhankelijkheid!
+    needs: quality
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v4
         with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-
-      - name: Build MkDocs
-        run: mkdocs build
+          name: site-build
+          path: ./site/
 
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
