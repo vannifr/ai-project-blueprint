@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 90-Dagen Startplan (13 weken)
+# Snelstart: AI-Project in 90 Dagen
 
 ## 0. Vooraf (Definition of Ready)
 

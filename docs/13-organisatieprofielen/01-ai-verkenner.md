@@ -36,6 +36,6 @@ Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme e
 
 ## Gerelateerde Modules
 
-- [90-Dagen Startplan](../12-90-dagen-roadmap/index.md)
+- [Snelstart: AI-Project in 90 Dagen](../12-90-dagen-roadmap/index.md)
 - [Verkenning & Strategie](../02-fase-ontdekking/01-doelstellingen.md)
 - [Validatie](../03-fase-validatie/01-doelstellingen.md)

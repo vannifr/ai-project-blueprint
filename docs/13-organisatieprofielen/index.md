@@ -70,7 +70,7 @@ ______________________________________________________________________
 ## Gerelateerde Modules
 
 - [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
-- [90-Dagen Startplan](../12-90-dagen-roadmap/index.md)
+- [Snelstart: AI-Project in 90 Dagen](../12-90-dagen-roadmap/index.md)
 - [Accelerators](../15-accelerators/index.md)
 
 ______________________________________________________________________

@@ -15,7 +15,7 @@ ______________________________________________________________________
 
 - 📖 **[Leeswijzer & Navigatie](00-strategisch-kader/00-leeswijzer.md):** Hoe u dit playbook het meest effectief gebruikt.
 - 👥 **[Rollen & Verantwoordelijkheden](08-rollen-en-verantwoordelijkheden/index.md):** Wie doet wat in een AI-team?
-- 📅 **[90-Dagen Startplan](12-90-dagen-roadmap/index.md):** Ga direct van strategie naar actie.
+- 📅 **[Snelstart: AI-Project in 90 Dagen](12-90-dagen-roadmap/index.md):** Ga direct van strategie naar actie.
 - 🧰 **[De toolkit](09-sjablonen/index.md):** Alle sjablonen en sjablonen op één plek.
 
 ______________________________________________________________________

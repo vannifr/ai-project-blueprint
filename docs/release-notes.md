@@ -16,7 +16,7 @@ laatst_herzien: '2026-02-01'
 - **Managementsamenvatting (Strategisch Kader.01)**: Nieuwe managementsamenvatting en implementatie-stappenplan.
 - **Snelle Route (Fast Lane, Verkenning & Strategie.FL)**: Versnelde procedure voor AI-experimenten met een minimaal risico.
 - **Technische Standaarden (Technische Standaarden)**: Concrete criteria voor "productiewaardig" en de introductie van een automation ladder.
-- **90-Dagen Startplan (90-Dagen Startplan)**: Volledig uitgewerkt 13-weken plan voor teams.
+- **Snelstart: AI-Project in 90 Dagen**: Volledig uitgewerkt 13-weken plan voor teams.
 - **Privacy-by-Design**: Nieuwe sjabloon (**TMP-09.07 Data & Privacyblad**) en DPIA-triggers in de Risico Pre-Scan (**TMP-09.03**).
 - **Bewijsstandaarden (AI-Native Fundamenten.07)**: Strikte normen voor validatie en rapportage (**TMP-09.06**).
 
