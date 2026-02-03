@@ -114,9 +114,9 @@ Geen livegang zonder:
 
 ______________________________________________________________________
 
-## 📖 Toekomst: Agentic AI & Constitutional AI
+## 📖 Agentic AI & Constitutional AI
 
-Wanneer AI-systemen autonoom acties gaan uitvoeren (Modus 4 & 5), verschuift de focus naar **Constitutional AI**:
+Wanneer AI-systemen autonoom acties uitvoeren (Modus 4 & 5), verschuift de focus naar **Constitutional AI**:
 
 - **Actieradius:** Technische inperking van wat een agent mag doen (bijv. maximale budgetlimieten).
 - **Guardrails:** Real-time monitoring die acties blokkeert als deze de **Rode Lijnen** dreigen te overschrijden.
