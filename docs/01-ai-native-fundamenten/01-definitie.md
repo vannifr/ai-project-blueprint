@@ -27,7 +27,7 @@ Het systeem wordt niet één keer getest en dan "klaar" verklaard. We valideren 
 
 Documentatie alleen verandert gedrag niet; de implementatie doet dat wel. We hanteren het principe van **Verifieerbaarheid door Code**:
 
-- **Technisch Dossier in Git:** Artefacten zoals de **Technische Modelkaart** worden bij voorkeur opgeslagen als code (YAML/JSON) in de repository.
+- **Technisch Dossier in Git:** Artefacten zoals de **Technische Modelkaart** worden bij voorkeur opgeslagen als code (bijvoorbeeld YAML, JSON of andere gestructureerde formaten) in de repository.
 - **Automated Gates:** De CI/CD-pipeline checkt automatisch op compliance-criteria (bijv. accuraatheid > 85%) voordat een model naar productie gaat.
 
 ______________________________________________________________________

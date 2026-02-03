@@ -12,7 +12,7 @@ Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie valida
 ### 1. Syntactische Geldigheid
 
 - **Vraag:** Werkt de code? Geen crashes of errors?
-- **Methode:** Geautomatiseerde checks op structuur, JSON/YAML schema's en linting.
+- **Methode:** Geautomatiseerde checks op structuur, gestructureerde schema's (zoals JSON, YAML) en linting.
 
 ### 2. Gedragsconformiteit
 
