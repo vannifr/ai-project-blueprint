@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 📂 Module 09.02: De Doelkaart (Intent Map)
+# 📂 De Doelkaart (Intent Map)
 
 ## 🎯 Doel
 

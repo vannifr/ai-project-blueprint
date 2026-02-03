@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-﻿# Module 12: 90-Dagen Startplan (13 weken)
+# 90-Dagen Startplan (13 weken)
 
 ## 0. Vooraf (Definition of Ready)
 

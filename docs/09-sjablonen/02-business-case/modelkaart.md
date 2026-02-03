@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 📂 Module 09.04: Technische Modelkaart (Model Card)
+# 📂 Technische Modelkaart (Model Card)
 
 ## 🎯 Doel
 
@@ -39,7 +39,7 @@ ______________________________________________________________________
 - *Alleen invullen indien er sprake is van fine-tuning of eigen training.*
 - **Trainingsdata:** \[Beschrijving dataset\]
 - **Periode:** \[Data van JJJJ tot JJJJ\]
-- **Data-Evaluatie:** \[Verwijzing naar kwaliteitsrapport / Module 02\]
+- **Data-Evaluatie:** \[Verwijzing naar kwaliteitsrapport\]
 
 ______________________________________________________________________
 

@@ -21,7 +21,7 @@ ______________________________________________________________________
 
 ### 2. Risicobeoordeling
 
-- Classificatie conform de Risicopiramide (zie Module 07 Overzicht).
+- Classificatie conform de Risicopiramide (zie Risicobeheersing & Compliance).
 - Inschatting van waarschijnlijkheid en impact.
 
 ### 3. Mitigatie

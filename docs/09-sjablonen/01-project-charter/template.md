@@ -3,11 +3,11 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Module 09.01: Het Project Charter
+# 🚀 Het Project Charter
 
 ## 0. Routekeuze
 
-- **Route:** \[ \] Fast Lane (MOD-02-FL)  \[ \] Standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie)
+- **Route:** \[ \] Fast Lane  \[ \] Standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie)
 - **Motivatie:** \[1 zin\]
 - **Fast Lane toelatingscriteria bevestigd via Risico Pre-Scan:** \[Ja/Nee\]
 
@@ -48,7 +48,7 @@ ______________________________________________________________________
 *Waarom nu en is het haalbaar?*
 
 - **Strategische Pijler:** \[Aan welk bedrijfsdoel draagt dit bij?\]
-- **Data-Evaluatie Score:** \[Groen/Oranje/Rood\] - Zie Module 02.
+- **Data-Evaluatie Score:** \[Groen/Oranje/Rood\]
 - **Beschikbare Bronnen:** \[Welke dataset(s) gaan we gebruiken?\]
 - **Datakwaliteit:** \[Is de data schoon en representatief genoeg?\]
 
@@ -56,7 +56,7 @@ ______________________________________________________________________
 
 ### 🎯 4. Risico & Compliance (Pre-scan)
 
-*Zie Module 07 voor definities.*
+*Zie Risicobeheersing & Compliance voor definities.*
 
 - **Risico Categorie (EU AI Act):** \[Minimaal / Beperkt / Hoog\]
 - **Persoonsgegevens:** \[Ja/Nee\] - *Indien Ja: is de DPO/Privacy Officer geïnformeerd?*

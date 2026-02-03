@@ -34,7 +34,7 @@ ______________________________________________________________________
 
 ## 📖 3. Wet- en Regelgeving
 
-De governance en compliance modules (zoals **Module 07: Risicobeheersing & Compliance**) zijn direct afgeleid van:
+De governance en compliance onderdelen (zoals **Risicobeheersing & Compliance**) zijn direct afgeleid van:
 
 ### Europese Unie
 

@@ -24,10 +24,10 @@ ______________________________________________________________________
 
 ### 🎯 Strategisch Kader & Fundamenten
 
-- **Module 00:** [Strategisch Kader](00-strategisch-kader/01-ai-levenscyclus.md)
-- **Module 01:** [Kernprincipes](01-ai-native-fundamenten/01-definitie.md)
-- **Module 07:** [Risicobeheersing & Compliance](07-compliance-hub/index.md)
-- **Module 08:** [Rollen & Verantwoordelijkheden](08-rollen-en-verantwoordelijkheden/index.md)
+- [Strategisch Kader](00-strategisch-kader/01-ai-levenscyclus.md)
+- [Kernprincipes](01-ai-native-fundamenten/01-definitie.md)
+- [Risicobeheersing & Compliance](07-compliance-hub/index.md)
+- [Rollen & Verantwoordelijkheden](08-rollen-en-verantwoordelijkheden/index.md)
 
 ### 🎯 De AI Levenscyclus (Fase Gidsen)
 

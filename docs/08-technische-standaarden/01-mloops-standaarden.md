@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-﻿# Module 08.1: Technische Standaarden & Leveringscriteria
+# Technische Standaarden & Leveringscriteria
 
 ## 1. Doel
 

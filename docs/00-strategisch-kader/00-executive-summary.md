@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Module 00.01: Managementsamenvatting
+# Managementsamenvatting
 
 ## 1. Wat is dit Playbook?
 
@@ -43,7 +43,7 @@ Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot be
 
 ## 6. Navigatie (wat moet je lezen?)
 
-- **Start:** MOD‑00‑00 Leeswijzer & MOD‑00‑01 Managementsamenvatting
+- **Start:** Leeswijzer & Managementsamenvatting
 - **Proces:** Verkenning & Strategie t/m Beheer & Optimalisatie
 - **Governance:** Compliance Hub + Bewijsstandaarden (Bewijsstandaarden)
 - **Sjablonen:** Toolkit & Sjablonen (Project Charter t/m Validatierapport)

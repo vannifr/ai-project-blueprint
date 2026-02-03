@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 📂 Module 08: Rollen & Verantwoordelijkheden
+# 📂 Rollen & Verantwoordelijkheden
 
 ## 🎯 Wie doet wat in een AI-project?
 
@@ -19,7 +19,7 @@ Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie
 
 Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
 
-- **Verantwoordelijkheid:** De **Doelkaart** (Module 09.02).
+- **Verantwoordelijkheid:** De **Doelkaart**.
 - **Taak:** Vertaalt vage business-wensen naar scherpe AI-instructies. Beheert de backlog en prioriteert op waarde.
 - **Focus:** "Lossen we het juiste probleem op?"
 
@@ -27,7 +27,7 @@ Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar
 
 De architect van de oplossing. Zorgt dat de losse componenten (data, model, interface) naadloos samenwerken.
 
-- **Verantwoordelijkheid:** De **Technische Modelkaart** (Module 09.04).
+- **Verantwoordelijkheid:** De **Technische Modelkaart**.
 - **Taak:** Selecteert het juiste model, bouwt de pijplijnen en borgt de technische stabiliteit.
 - **Focus:** "Is het robuust en schaalbaar?"
 
@@ -35,7 +35,7 @@ De architect van de oplossing. Zorgt dat de losse componenten (data, model, inte
 
 Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de wettelijke en ethische kaders.
 
-- **Verantwoordelijkheid:** De **Risico Pre-scan** (Module 09.03).
+- **Verantwoordelijkheid:** De **Risico Pre-scan**.
 - **Taak:** Toetst plannen aan de EU AI Act en interne waarden. Heeft veto-recht bij overschrijding van de **Rode Lijnen**. Voert **Eerlijkheidstoetsen** (bias-audits) uit.
 - **Focus:** "Is het veilig en eerlijk?"
 

@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Module 02.F: Snelle Route (Fast Lane)
+# Snelle Route (Fast Lane)
 
 ## 1. Doel
 
@@ -14,7 +14,7 @@ De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑ris
 Een gebruikscasus mag alleen Fast Lane als aan **alle** punten is voldaan:
 
 1. **EU AI Act risiconiveau = Minimaal** (zie Compliance Hub)
-1. **Samenwerkingsmodus = 1 of 2** (Instrumenteel of Adviserend; zie MOD‑00‑06)
+1. **Samenwerkingsmodus = 1 of 2** (Instrumenteel of Adviserend; zie AI-Samenwerkingsmodi)
 1. De AI **neemt geen beslissingen over mensen** (geen selectie/toekenning/afwijzing)
 1. Geen verwerking van **bijzondere persoonsgegevens** (gezondheid, religie, biometrie, etc.)
 1. Output wordt **altijd** door een mens bekeken vóór gebruik (geen autonoom versturen/uitvoeren)

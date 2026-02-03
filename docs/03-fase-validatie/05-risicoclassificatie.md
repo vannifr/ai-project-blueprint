@@ -9,7 +9,7 @@ Tijdens de Validatiefase wordt de initiële risicoclassificatie uit Discovery ge
 
 ## Verfijning van het Risicoprofiel
 
-Op basis van de PoC resultaten moet het project worden ingedeeld volgens de kaders in [Module 01.05: Risicoclassificatie](../01-ai-native-fundamenten/05-risicoclassificatie.md).
+Op basis van de PoC resultaten moet het project worden ingedeeld volgens de kaders in [Risicoclassificatie](../01-ai-native-fundamenten/05-risicoclassificatie.md).
 
 ### Aandachtspunten:
 

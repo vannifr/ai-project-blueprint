@@ -15,7 +15,7 @@ laatst_herzien: '2026-02-01'
 
 ### Conclusie (kies één)
 
-- [ ] **Go** — voldoet aan Module 01.07 normen voor dit risiconiveau
+- [ ] **Go** — voldoet aan Bewijsstandaarden normen voor dit risiconiveau
 - [ ] **Go met acties** — alleen na uitvoeren van acties onder Â§7
 - [ ] **No-Go** — voldoet niet; herontwerp/hertrain/herformuleer vereist
 

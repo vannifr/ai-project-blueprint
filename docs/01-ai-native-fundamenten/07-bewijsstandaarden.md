@@ -3,14 +3,14 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Module 01.07: Bewijsstandaarden
+# Bewijsstandaarden
 
 ## 1. Doel
 
 Deze module definieert **minimale bewijsstandaarden** voor AI-oplossingen, zodat Gate Reviews niet op gevoel maar op **toetsbare criteria** plaatsvinden.
 
 **Kernprincipe:**
-Een AI-oplossing mag pas door naar de volgende fase als het bewijs voldoet aan de normen voor het gekozen **risiconiveau** (Module 07) en **Samenwerkingsmodus** (Module 00.06).
+Een AI-oplossing mag pas door naar de volgende fase als het bewijs voldoet aan de normen voor het gekozen **risiconiveau** (zie Risicobeheersing & Compliance) en **Samenwerkingsmodus** (zie AI-Samenwerkingsmodi).
 
 ______________________________________________________________________
 
