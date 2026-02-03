@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Kernactiviteiten & RACI (Validatie)
+# 🚀 Kernactiviteiten & Rollen (Validatie)
 
 ## 3. Kernactiviteiten
 
@@ -46,7 +46,7 @@ Een volledige raming van investering en operationele kosten.
 - **Kwaliteitsverbetering:** Minder fouten, hogere klanttevredenheid
 - **Omzetgroei:** Nieuwe mogelijkheden, snellere doorlooptijd
 
-## 📖 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen
 
 | Rol                    | Verantwoordelijkheid in Validatie                                                       |
 | :--------------------- | :-------------------------------------------------------------------------------------- |

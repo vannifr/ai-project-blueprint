@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Kernactiviteiten & RACI (Verkenning & Strategie)
+# 🚀 Kernactiviteiten & Rollen (Verkenning & Strategie)
 
 ## 3. Kernactiviteiten
 
@@ -43,7 +43,7 @@ Een eerste scan op juridische en ethische obstakels.
 - **Ethische Vraagstukken:** Kan het systeem discrimineren of schade veroorzaken?
 - **Organisatorische Risico's:** Hebben we de juiste mensen en middelen?
 
-## 📖 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen
 
 | Rol                     | Verantwoordelijkheid in Verkenning                                     |
 | :---------------------- | :--------------------------------------------------------------------- |

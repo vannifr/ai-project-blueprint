@@ -21,7 +21,7 @@ Het governance model bestaat uit drie lagen die samenwerken om strategie, operat
 
 ______________________________________________________________________
 
-## 📖 Verantwoordelijkheden (RACI)
+## 📖 Verantwoordelijkheden
 
 | Rol                          | Niveau        | Kernverantwoordelijkheden                                           |
 | :--------------------------- | :------------ | :------------------------------------------------------------------ |

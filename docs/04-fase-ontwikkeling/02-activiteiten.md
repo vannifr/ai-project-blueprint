@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Kernactiviteiten & RACI (Realisatie)
+# 🚀 Kernactiviteiten & Rollen (Realisatie)
 
 ## 3. Kernactiviteiten
 
@@ -59,7 +59,7 @@ ______________________________________________________________________
 - **Vraag:** Helpt het de gebruiker? Levert het waarde?
 - **Check:** User acceptance testing, A/B testing
 
-## 📖 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen
 
 | Rol                    | Verantwoordelijkheid in Realisatie                                    |
 | :--------------------- | :-------------------------------------------------------------------- |

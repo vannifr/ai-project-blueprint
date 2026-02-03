@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Kernactiviteiten & RACI (Levering)
+# 🚀 Kernactiviteiten & Rollen (Levering)
 
 ## 3. Kernactiviteiten
 
@@ -39,7 +39,7 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 - **Verantwoordingsbewijs:** Aantonen dat de **Rode Lijnen** zijn gehandhaafd tijdens de testfase.
 - **Overdracht Logboeken:** Volledig overzicht van de systeemhistorie.
 
-## 📖 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen
 
 | Rol                        | Verantwoordelijkheid in Levering                                                    |
 | :------------------------- | :---------------------------------------------------------------------------------- |

@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Kernactiviteiten & RACI (Beheer & Optimalisatie)
+# 🚀 Kernactiviteiten & Rollen (Beheer & Optimalisatie)
 
 ## 3. Kernactiviteiten
 
@@ -41,7 +41,7 @@ Blijvende wettelijke conformiteit.
 - **Transparantie Rapporten:** Periodieke rapportage aan stakeholders en CAIO over veiligheid en performance.
 - **Eerlijkheidstoets (Bias Audit):** Regelmatige steekproeven door de Ethicist op de 'toon' en kwaliteit van outputs.
 
-## 📖 4. Team & Rollen (RACI)
+## 📖 4. Team & Rollen
 
 | Rol                         | Verantwoordelijkheid in Beheer & Optimalisatie                                                |
 | :-------------------------- | :-------------------------------------------------------------------------------------------- |
