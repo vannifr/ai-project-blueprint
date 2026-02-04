@@ -7,7 +7,7 @@ laatst_herzien: '2026-02-01'
 
 ### Samenvatting
 
-- Eerste release van het gestandaardiseerde AI Project Playbook.
+- Eerste release van de gestandaardiseerde AI Project Gids.
 - Eenduidig versiebeheer geïntroduceerd via een nieuw "Documentbeheer" blok in elk document.
 - Versie staat op **1.0** totdat de proefperiode en initiële feedbackronde is afgerond.
 

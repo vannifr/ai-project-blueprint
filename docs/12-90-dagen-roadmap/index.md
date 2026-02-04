@@ -30,7 +30,7 @@ ______________________________________________________________________
 |   10 | RC testen & bewijs              | Doelkaart (RC)                               | QA + Guardian        | Gate 3 (Productie-klaar): Live?            |
 |   11 | Live pilot + monitoring         | Monitoring + incidentproces actief           | Tech Lead            | 1e productie-evaluatie                     |
 |   12 | Optimaliseren + overdracht      | Beheerplan + nulmeting drift                 | Tech Lead + AI PM    | Overdracht Beheer & Optimalisatie          |
-|   13 | Retrospective + standaardiseren | Lessons learned + playbook updates           | AI CC                | v2.3 backlog                               |
+|   13 | Retrospective + standaardiseren | Lessons learned + gids updates               | AI CC                | v2.3 backlog                               |
 
 ______________________________________________________________________
 

@@ -5,7 +5,7 @@ laatst_herzien: '2026-02-01'
 
 # 🚀 Termenlijst (Glossary)
 
-Dit document bevat de definities van de belangrijkste termen en afkortingen die in dit AI Project Playbook worden gebruikt. Wij slaan de brug tussen techniek en business door consequent heldere Nederlandse termen te gebruiken.
+Dit document bevat de definities van de belangrijkste termen en afkortingen die in de AI Project Gids worden gebruikt. Wij slaan de brug tussen techniek en business door consequent heldere Nederlandse termen te gebruiken.
 
 ______________________________________________________________________
 
@@ -45,7 +45,7 @@ ______________________________________________________________________
 ## K
 
 - 📍 **Kenniskoppeling:** Het verbinden van een AI-model aan specifieke bedrijfsinformatie of documenten om de antwoorden relevanter en accurater te maken (*Retrieval-Augmented Generation / RAG*).
-- 📍 **Kernprincipes:** De fundamentele uitgangspunten van dit playbook, gericht op gedragssturing, impact, traceerbaarheid en continue toetsing.
+- 📍 **Kernprincipes:** De fundamentele uitgangspunten van deze gids, gericht op gedragssturing, impact, traceerbaarheid en continue toetsing.
 
 ## P
 

@@ -13,7 +13,7 @@ ______________________________________________________________________
 
 ## 📖 2. Externe Standaarden & Methodologieën
 
-De procesinrichting van dit Playbook is getoetst aan en geïnspireerd door de volgende internationale raamwerken:
+De procesinrichting van deze Gids is getoetst aan en geïnspireerd door de volgende internationale raamwerken:
 
 ### Project Management Institute (PMI)
 

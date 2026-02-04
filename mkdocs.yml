@@ -1,7 +1,7 @@
-site_name: AI Project Playbook
+site_name: AI Project Gids
 site_description: Modulaire documentatie voor AI-projectmanagement (PMI-CPMAI & Agile-AI).
 site_author: AI Project Playbook Team
-copyright: '&copy; 2026 AI Project Playbook. Gelicenseerd onder CC BY-NC-SA 4.0.'
+copyright: '&copy; 2026 AI Project Gids. Gelicenseerd onder CC BY-NC-SA 4.0.'
 
 extra_css:
   - stylesheets/extra.css
@@ -14,7 +14,9 @@ theme:
   language: nl
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.indexes
     - navigation.top
     - toc.integrate
     - search.suggest
@@ -56,7 +58,7 @@ plugins:
         - "^http://localhost"
 
 nav:
-  - Startpagina: index.md
+  - 🏠 Startpagina: index.md
   - 🚀 Aan de Slag:
     - Management Samenvatting: 00-strategisch-kader/00-executive-summary.md
     - Leeswijzer & Navigatie: 00-strategisch-kader/00-leeswijzer.md
@@ -107,6 +109,17 @@ nav:
       - Activiteiten: 06-fase-monitoring/02-activiteiten.md
       - Afleveringen: 06-fase-monitoring/03-afleveringen.md
       - Drift Detectie: 06-fase-monitoring/05-drift-detectie.md
+    - 6. Doorlopende Verbetering:
+      - Overzicht: 10-doorlopende-verbetering/index.md
+      - Retrospectives: 10-doorlopende-verbetering/01-retrospectives.md
+      - Kaizen Logs: 10-doorlopende-verbetering/02-kaizen-logs.md
+      - Metrics: 10-doorlopende-verbetering/03-metrics-dashboards.md
+      - Batenrealisatie: 10-doorlopende-verbetering/04-batenrealisatie.md
+    - 7. Project Afsluiting:
+      - Overzicht: 11-project-afsluiting/index.md
+      - Lessons Learned: 11-project-afsluiting/01-lessons-learned.md
+      - Overdracht: 11-project-afsluiting/02-overdracht-procedures.md
+      - Batenrealisatie: 11-project-afsluiting/03-batenrealisatie.md
   - 🛡️ Compliance & Techniek:
     - Compliance Hub:
       - Overzicht: 07-compliance-hub/index.md
@@ -165,18 +178,6 @@ nav:
       - Strategisch: 15-accelerators/01-strategische-heruitvinding-accelerators.md
       - Operationeel: 15-accelerators/02-operationele-herontwerp-accelerators.md
       - Bedrijfsmodel: 15-accelerators/03-bedrijfsmodel-accelerators.md
-  - 🔄 Verbetering & Afsluiting:
-    - Doorlopende Verbetering:
-      - Overzicht: 10-doorlopende-verbetering/index.md
-      - Retrospectives: 10-doorlopende-verbetering/01-retrospectives.md
-      - Kaizen Logs: 10-doorlopende-verbetering/02-kaizen-logs.md
-      - Metrics: 10-doorlopende-verbetering/03-metrics-dashboards.md
-      - Batenrealisatie: 10-doorlopende-verbetering/04-batenrealisatie.md
-    - Project Afsluiting:
-      - Overzicht: 11-project-afsluiting/index.md
-      - Lessons Learned: 11-project-afsluiting/01-lessons-learned.md
-      - Overdracht: 11-project-afsluiting/02-overdracht-procedures.md
-      - Batenrealisatie: 11-project-afsluiting/03-batenrealisatie.md
   - 📚 Naslag:
     - Termenlijst: termenlijst/index.md
     - Bronnen & Inspiratie: 16-bronnen/index.md

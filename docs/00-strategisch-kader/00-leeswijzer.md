@@ -5,7 +5,7 @@ laatst_herzien: '2026-02-01'
 
 # 🚀 Leeswijzer & Navigatie
 
-## 📖 Welkom bij het AI Project Playbook
+## 📖 Welkom bij de AI Project Gids
 
 Dit is geen document om van A tot Z te lezen. Het is een toolkit. U raadpleegt wat u nodig heeft, op het moment dat u het nodig heeft.
 
@@ -40,7 +40,7 @@ Focus op [Risicobeheersing & Compliance](../07-compliance-hub/index.md) en de [A
 
 ______________________________________________________________________
 
-## 📍ï¸  Hoe werkt dit Playbook?
+## 📍ï¸  Hoe werkt deze Gids?
 
 - **Modulair:** Elk onderdeel staat op zichzelf. U hoeft niet alles opeenvolgend te lezen.
 - **Actiegericht:** We gebruiken geen onduidelijke taal, maar checklists en sjablonen voor direct resultaat.

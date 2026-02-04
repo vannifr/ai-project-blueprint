@@ -5,13 +5,13 @@ laatst_herzien: '2026-02-01'
 
 # 🗺️ Blueprint & Methodologie Index
 
-Deze pagina fungeert als de "Rosetta-steen" van het AI Project Playbook. Hier vindt u de koppeling tussen de technische codes (gebruikt voor auditing en automatisering) en de inhoudelijke documenten.
+Deze pagina fungeert als de "Rosetta-steen" van de AI Project Gids. Hier vindt u de koppeling tussen de technische codes (gebruikt voor auditing en automatisering) en de inhoudelijke documenten.
 
 ## 🛠️ De Codestructuur
 
 | Code     | Betekenis        | Gebruik                                              |
 | :------- | :--------------- | :--------------------------------------------------- |
-| **MOD**  | **Module**       | Een procesfase of kennisgebied in het playbook.      |
+| **MOD**  | **Module**       | Een procesfase of kennisgebied in de gids.           |
 | **TMP**  | **Sjabloon**     | Een invulbaar document of sjabloon (sjabloon).       |
 | **SDD**  | **Spec-Driven**  | Richtlijnen voor specificatie-gedreven ontwikkeling. |
 | **GATE** | **Beslismoment** | Een formeel reviewmoment tussen fasen.               |

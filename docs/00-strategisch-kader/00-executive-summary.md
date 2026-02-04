@@ -5,9 +5,9 @@ laatst_herzien: '2026-02-01'
 
 # Managementsamenvatting
 
-## 1. Wat is dit Playbook?
+## 1. Wat is deze Gids?
 
-Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
+Deze Gids is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
 
 ## 2. Voor wie is dit bedoeld?
 
@@ -23,7 +23,7 @@ Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot be
 1. **Audit‑klaar dossier** (bewijs‑pakket) voor interne/externe toetsing
 1. **Herhaalbaarheid**: elke gebruikscasus volgt dezelfde lifecycle en standaard opleveringen
 
-## 4. Hoe gebruik je het Playbook (snelle start)?
+## 4. Hoe gebruik je de Gids (snelle start)?
 
 **Als je vandaag start met 1 gebruikscasus:**
 
@@ -39,7 +39,7 @@ Dit Playbook is een **modulaire werkwijze** voor AI‑projecten (van idee tot be
 - **Week 1–2:** kies 1 pilot gebruikscasus + stel kernrollen aan (AI PM, Tech Lead, Guardian).
 - **Week 3–6:** voer lifecycle uit (Modules 02–04), inclusief bewijsstandaarden (Bewijsstandaarden).
 - **Week 7–8:** livegang + beheer (Modules 05–06).
-- **Week 9:** evaluatie + update Playbook naar v1.1 op basis van leerpunten.
+- **Week 9:** evaluatie + update Gids naar v1.1 op basis van leerpunten.
 
 ## 6. Navigatie (wat moet je lezen?)
 

@@ -17,7 +17,7 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
 
 ## Activiteiten
 
-1. **Playbook creatie:** Schrijf de 'lesgeleerd' op in dit AI Playbook.
+1. **Gids creatie:** Schrijf de 'lesgeleerd' op in de AI Project Gids.
 1. **Tech Stack keuze:** Beslis over definitieve platforms/tools voor schaal.
 1. **Organisatie uitrol:** Start communicatie en training voor de rest van de organisatie.
 1. **Governance Setup:** Installeer de AI Board / Ethische commissie structureel.
@@ -25,7 +25,7 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
 ## Opleveringen (Dag 90)
 
 !!! check "Opleveringen Fase 3"
-    - [ ] Geformaliseerd AI Beleid & Playbook v1.0.
+    - [ ] Geformaliseerd AI Beleid & Gids v1.0.
     - [ ] Operationeel en getraind team/afdeling.
     - [ ] Schaalbare technische architectuur.
     - [ ] Stappenplan voor de komende 12 maanden.
