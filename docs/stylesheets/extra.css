@@ -1,19 +1,8 @@
-/* === Task List Icons === */
-/* Ensure task lists look like checkboxes */
-.md-typeset .task-list-indicator::before {
-    background-color: transparent;
-    border: 1.5px solid var(--md-typeset-color);
-    border-radius: 2px; /* Square with slight rounding */
-}
-
-/* Checked state - Green background and white checkmark */
-.md-typeset [type="checkbox"]:checked+.task-list-indicator::before {
-    background-color: #22c55e !important;
-    border-color: #22c55e !important;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="white" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
+/* === Task List Styling === */
+/* Style the native checkboxes to be green when checked */
+.md-typeset .task-list-item [type="checkbox"]:checked + .task-list-indicator::before {
+    background-color: #22c55e;
+    border-color: #22c55e;
 }
 
 /* Admonition customization for Checkpoints */
