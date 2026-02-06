@@ -3,32 +3,32 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 5.2.3 De Visionair
+# 1. De Visionair
 
-## 5.2.3.1 Profiel
+## 1. Profiel
 
 Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strategie en operaties. AI is business-as-usual.
 
-## 5.2.3.2 Kenmerken
+## 2. Kenmerken
 
 - **AI op schaal:** Meerdere productiesystemen draaien stabiel.
 - **Strategische integratie:** AI is onderdeel van de lange termijn visie.
 - **Volwassen governance:** Duidelijke rollen, verantwoordelijkheden en beleid.
 - **Continue optimalisatie:** Focus op efficiëntie, kosten en impact.
 
-## 5.2.3.3 Uitdagingen
+## 3. Uitdagingen
 
 - **Complexiteit:** Beheer van een vloot van AI-systemen.
 - **Ethisch toezicht op schaal:** Hoe borg je verantwoorde AI bij 100+ use cases?
 - **Kostenbeheersing:** Cloud en API-kosten kunnen snel oplopen.
 - **Talent:** Behoud van gespecialiseerde AI-expertise.
 
-## 5.2.3.4 Aanbevolen Samenwerkingsmodi
+## 4. Aanbevolen Samenwerkingsmodi
 
 - **Modus 4 (Gedelegeerd):** AI voert zelfstandig uit, mens beheert uitzonderingen.
 - **Modus 5 (Autonoom):** Voor specifieke processen waar volledige autonomie acceptabel is.
 
-## 5.2.3.5 Volgende Stappen
+## 5. Volgende Stappen
 
 1. Implementeer geautomatiseerde compliance monitoring (EU AI Act)
 1. Stel AI Board of Ethics Committee in
@@ -37,7 +37,7 @@ Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strate
 1. Investeer in energie-efficiëntie (ESG doelen)
 1. Bouw een AI Center of Excellence
 
-## 5.2.3.6 Gerelateerde Modules
+## 6. Gerelateerde Modules
 
 - [Compliance Hub](../07-compliance-hub/01-eu-ai-act/index.md)
 - [Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md)

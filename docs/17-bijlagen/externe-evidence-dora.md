@@ -3,13 +3,13 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Externe Evidence: DORA (DevOps Research & Assessment)
+# 1. Externe Evidence: DORA (DevOps Research & Assessment)
 
-## Doel
+## 1. Doel
 
 Dit document vat de belangrijkste bevindingen samen uit het DORA-onderzoeksprogramma (DevOps Research and Assessment) met betrekking tot AI-ondersteunde softwareontwikkeling.
 
-## Kernbevindingen
+## 2. Kernbevindingen
 
 ### Gemengde effecten op delivery performance
 

@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 4.7 De Doelkaart (Intent Map)
+# 1. De Doelkaart (Intent Map)
 
-## 4.7.1 Doel
+## 1. Doel
 
 De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke intentie aan de technische **Sturingsinstructies** en fungeert als de bron waaruit de AI-oplossing wordt gegenereerd.
 
@@ -15,7 +15,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.7.1.1 A. De Intentie (Human Intent)
+### A. De Intentie (Human Intent)
 
 *Wat probeert de gebruiker te bereiken en hoe moet de AI zich gedragen?*
 
@@ -28,7 +28,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.7.1.2 B. Sturingsinstructies (Context)
+### B. Sturingsinstructies (Context)
 
 *Welke kennis heeft de AI nodig om dit te doen?*
 
@@ -40,7 +40,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.7.1.3 C. Rode Lijnen (Constraints)
+### C. Rode Lijnen (Constraints)
 
 *Wat mag de AI absoluut niet doen? Dit zijn de harde veiligheidsregels.*
 
@@ -50,7 +50,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.7.1.4 D. Toetsing (Evidence)
+### D. Toetsing (Evidence)
 
 *Hoe bewijzen we dat de Doelkaart werkt? Dit is de input voor het **Validatierapport**.*
 
@@ -60,7 +60,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.7.1.5 Goedkeuring door Guardian
+### Goedkeuring door Guardian
 
 **Naam:** \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
 

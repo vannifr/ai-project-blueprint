@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 2.3.3 Specificatie-eerst Patroon (SDD)
+# 1. Specificatie-eerst Patroon (SDD)
 
-## 2.3.3.1 Doel
+## 1. Doel
 
 Het Specificatie-eerst Patroon (Specification-Driven Development) is een werkwijze waarbij wij eerst formeel vastleggen wat het AI-systeem moet doen, voordat we beginnen met bouwen. Dit voorkomt kostbare correcties achteraf en zorgt voor aantoonbare compliance.
 
 ______________________________________________________________________
 
-## 2.3.3.2 Kernprincipe: Specificatie Vóór Implementatie
+## 2. Kernprincipe: Specificatie Vóór Implementatie
 
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
@@ -35,9 +35,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 2.3.3.3 De SDD-Cyclus
+## 3. De SDD-Cyclus
 
-### 2.3.3.3.1 Doeldefinitie Opstellen
+### Doeldefinitie Opstellen
 
 De **AI Product Manager** legt de business-intentie vast in de [Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md).
 
@@ -48,7 +48,7 @@ De **AI Product Manager** legt de business-intentie vast in de [Doelkaart](../09
 - Wie zijn de gebruikers?
 - Wat is succes? (Meetbare criteria)
 
-### 2.3.3.3.2 Specificatie Uitwerken
+### Specificatie Uitwerken
 
 De **Tech Lead** en **ML Engineer** vertalen de Doelkaart naar een technische specificatie.
 
@@ -62,7 +62,7 @@ De **Tech Lead** en **ML Engineer** vertalen de Doelkaart naar een technische sp
 | Randvoorwaarden         | Technische beperkingen                  | Max 500 tokens, latency \< 2s       |
 | Rode Lijnen (technisch) | Concrete implementatie van constraints  | Filter op PII-patronen              |
 
-### 2.3.3.3.3 Specificatie Review
+### Specificatie Review
 
 De specificatie wordt gereviewd voordat implementatie start.
 
@@ -74,7 +74,7 @@ De specificatie wordt gereviewd voordat implementatie start.
 - [ ] Zijn edge cases beschreven?
 - [ ] Guardian akkoord op Rode Lijnen-implementatie?
 
-### 2.3.3.3.4 Gouden Set Afleiden
+### Gouden Set Afleiden
 
 Vanuit de specificatie leiden we de testcases af.
 
@@ -84,7 +84,7 @@ Vanuit de specificatie leiden we de testcases af.
 - Minimaal 1 negatieve testcase (wat mag niet?)
 - Edge cases waar relevant
 
-### 2.3.3.3.5 Implementatie tegen Specificatie
+### Implementatie tegen Specificatie
 
 Nu pas beginnen we met bouwen:
 
@@ -92,7 +92,7 @@ Nu pas beginnen we met bouwen:
 - Integratie met databronnen
 - Implementatie van filters en guardrails
 
-### 2.3.3.3.6 Validatie tegen Specificatie
+### Validatie tegen Specificatie
 
 We valideren of de implementatie voldoet aan de specificatie:
 
@@ -102,7 +102,7 @@ We valideren of de implementatie voldoet aan de specificatie:
 
 ______________________________________________________________________
 
-## 2.3.3.4 Voordelen van SDD
+## 4. Voordelen van SDD
 
 | Voordeel                | Toelichting                                   |
 | ----------------------- | --------------------------------------------- |
@@ -114,28 +114,28 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 2.3.3.5 Praktische Tips
+## 5. Praktische Tips
 
-### 2.3.3.5.1 Start Klein
+### Start Klein
 
 Begin met de belangrijkste scenario's. Breid de specificatie iteratief uit.
 
-### 2.3.3.5.2 Specificatie Is Levend Document
+### Specificatie Is Levend Document
 
 Update de specificatie wanneer requirements veranderen. Oude versies blijven bewaard voor audit.
 
-### 2.3.3.5.3 Specificatie ≠ Documentatie
+### Specificatie ≠ Documentatie
 
 De specificatie is geen handleiding voor gebruikers, maar een contract voor ontwikkelaars en testers.
 
-### 2.3.3.5.4 Integratie met Gates
+### Integratie met Gates
 
 - **Gate 2:** Specificatie goedgekeurd, Gouden Set afgeleid
 - **Gate 3:** Implementatie voldoet aan specificatie
 
 ______________________________________________________________________
 
-## 2.3.3.6 Voorbeeld: Klantenservice Chatbot
+## 6. Voorbeeld: Klantenservice Chatbot
 
 **Doelkaart (excerpt):**
 
@@ -159,7 +159,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 2.3.3.7 Checklist SDD
+## 7. Checklist SDD
 
 - [ ] Doelkaart is opgesteld en goedgekeurd
 - [ ] Specificatie is uitgewerkt met input/output/gedragsregels
@@ -170,7 +170,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 2.3.3.8 Gerelateerde Modules
+## 8. Gerelateerde Modules
 
 - [Doelkaart Sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)

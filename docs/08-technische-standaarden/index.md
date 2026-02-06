@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 3.2 Technische Standaarden
+# 1. Technische Standaarden
 
-## 3.2.1 Doel
+## 1. Doel
 
 In dit onderdeel leggen we de technische blauwdrukken en kwaliteitskaders vast voor AI-engineering, van modelselectie tot MLOps.
 
 ______________________________________________________________________
 
-## 3.2.2 Beschikbare Standaarden
+## 2. Beschikbare Standaarden
 
 - [MLOps Standaarden](01-mloops-standaarden.md)
 - [Data Pijplijnen](02-data-pipelines.md)

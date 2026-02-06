@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 4.4.1 Sjabloon: Business Case & Het Kostenoverzicht
+# 1. Sjabloon: Business Case & Het Kostenoverzicht
 
-## 4.4.1.1 Doel
+## 1. Doel
 
 Dit sjabloon helpt bij het kwantificeren van de businesswaarde en het in kaart brengen van de totale exploitatiekosten van een AI-oplossing.
 
 ______________________________________________________________________
 
-### 4.4.1.1.1 Waarde-Hypothese
+### Waarde-Hypothese
 
 *Wat is de verwachte winst?*
 
@@ -21,7 +21,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.4.1.1.2 Het Kostenoverzicht (TCO)
+### Het Kostenoverzicht (TCO)
 
 *Wat zijn de totale kosten voor ontwikkeling en beheer?*
 
@@ -35,7 +35,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.4.1.1.3 ROI & Terugverdientijd
+### ROI & Terugverdientijd
 
 - **Netto opbrengst:** \[Waarde - Kosten\].
 - **Terugverdientijd:** \[Maanden tot break-even\].

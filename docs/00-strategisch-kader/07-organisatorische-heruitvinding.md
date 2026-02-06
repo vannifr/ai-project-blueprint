@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 1.2.5 Organisatorische Heruitvinding
+# 1. Organisatorische Heruitvinding
 
-## 1.2.5.1 Doel
+## 1. Doel
 
 AI is niet alleen een technische upgrade, maar een fundament voor een nieuwe manier van werken. Dit document beschrijft hoe de organisatie moet transformeren om de vruchten van AI te plukken.
 
 ______________________________________________________________________
 
-## 1.2.5.2 Van Project naar Platform
+## 2. Van Project naar Platform
 
 Traditionele organisaties zien AI als een serie losse projecten. Voor maximale impact moeten we verschuiven naar een platformvisie.
 
@@ -21,26 +21,26 @@ Traditionele organisaties zien AI als een serie losse projecten. Voor maximale i
 
 ______________________________________________________________________
 
-## 1.2.5.3 Kernonderdelen van de Heruitvinding
+## 3. Kernonderdelen van de Heruitvinding
 
-### 1.2.5.3.1 Cultuur & Mindset
+### Cultuur & Mindset
 
 - Van "AI vervangt ons" naar "AI versterkt ons".
 - Cultuur van experimenteren, falen en snel leren.
 
-### 1.2.5.3.2 Talent & Rollen
+### Talent & Rollen
 
 - Ontwikkeling van nieuwe rollen zoals de AI Product Manager en de Guardian (Ethicist).
 - Upskilling van de gehele organisatie in AI-geletterdheid.
 
-### 1.2.5.3.3 Schaalbare Architectuur
+### Schaalbare Architectuur
 
 - Investeren in MLOps om **Ingebruikname** te versnellen.
 - Standaardiseren van **Sturingsinstructies** en bewaarmethoden.
 
 ______________________________________________________________________
 
-## 1.2.5.4 Gerelateerde Modules
+## 4. Gerelateerde Modules
 
 - [Volwassenheidsniveaus](../13-organisatieprofielen/index.md)
 - [Governance Model](03-governance-model.md)

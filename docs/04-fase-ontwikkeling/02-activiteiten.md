@@ -3,11 +3,11 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 2.3.1 Kernactiviteiten & Rollen (Realisatie)
+# 1. Kernactiviteiten & Rollen (Realisatie)
 
-## 2.3.1.1 Kernactiviteiten
+## 1. Kernactiviteiten
 
-### 2.3.1.1.1 Datastromen Automatiseren
+### Datastromen Automatiseren
 
 Het opzetten van pijplijnen die data automatisch opschonen en aanleveren (geen handwerk meer).
 
@@ -15,7 +15,7 @@ Het opzetten van pijplijnen die data automatisch opschonen en aanleveren (geen h
 - **Kwaliteitscontroles:** Automatische validatie van inkomende data
 - **Versiebeheer:** Tracking van data-wijzigingen en lineage
 
-### 2.3.1.1.2 Kenniskoppeling & Afstellen
+### Kenniskoppeling & Afstellen
 
 Het verbinden van de AI aan interne documenten en het **Afstellen van het model** voor optimale prestaties.
 
@@ -23,7 +23,7 @@ Het verbinden van de AI aan interne documenten en het **Afstellen van het model*
 - **Prompt Engineering:** Optimaliseren van de **Sturingsinstructies**.
 - **Model-Afstelling:** Aanpassen van parameters voor specifieke gebruikscasus.
 
-### 2.3.1.1.3 Specificatie-eerst Methode
+### Specificatie-eerst Methode
 
 We schrijven eerst de verwachte uitkomst (de test), dan pas de implementatie. Zo borgen we kwaliteit.
 
@@ -31,7 +31,7 @@ We schrijven eerst de verwachte uitkomst (de test), dan pas de implementatie. Zo
 - **Acceptatiecriteria:** Heldere, meetbare eisen per functionaliteit.
 - **Geautomatiseerde Tests:** Continue validatie bij elke wijziging.
 
-### 2.3.1.1.4 Validatie op Drie Niveaus
+### Validatie op Drie Niveaus
 
 Elke wijziging wordt getoetst op drie dimensies:
 
@@ -59,7 +59,7 @@ ______________________________________________________________________
 - **Vraag:** Helpt het de gebruiker? Levert het waarde?
 - **Check:** User acceptance testing, A/B testing
 
-## 2.3.1.2 Team & Rollen
+## 2. Team & Rollen
 
 | Rol                    | Verantwoordelijkheid in Realisatie                                    |
 | :--------------------- | :-------------------------------------------------------------------- |

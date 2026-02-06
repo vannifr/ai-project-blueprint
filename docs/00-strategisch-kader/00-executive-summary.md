@@ -3,27 +3,27 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 0.1 Managementsamenvatting
+# 1. Managementsamenvatting
 
-## 0.1.1 Wat is deze Gids?
+## 1. Wat is deze Gids?
 
 Deze Gids is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
 
-## 0.1.2 Voor wie is dit bedoeld?
+## 2. Voor wie is dit bedoeld?
 
 - **Bestuur & MT:** keuzes maken, risico's beheersen, investering onderbouwen
 - **Product & Business owners:** use cases selecteren, waarde leveren, adoptie borgen
 - **IT/Engineering:** bouwen, testen, integreren, operationeel beheer inrichten
 - **Compliance/Legal/Privacy:** EU AI Act + AVG toetsbaar maken, audit‑klaar werken
 
-## 0.1.3 Wat levert dit concreet op?
+## 3. Wat levert dit concreet op?
 
 1. **Snellere time‑to‑value** via standaard sjablonen en gates
 1. **Minder incidenten** via Rode Lijnen + veiligheidstesten + incidentproces
 1. **Audit‑klaar dossier** (bewijs‑pakket) voor interne/externe toetsing
 1. **Herhaalbaarheid**: elke gebruikscasus volgt dezelfde lifecycle en standaard opleveringen
 
-## 0.1.4 Hoe gebruik je de Gids (snelle start)?
+## 4. Hoe gebruik je de Gids (snelle start)?
 
 **Als je vandaag start met 1 gebruikscasus:**
 
@@ -34,14 +34,14 @@ Deze Gids is een **modulaire werkwijze** voor AI‑projecten (van idee tot behee
 1. Leg resultaten vast in het **[Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)**.
 1. Beslis bij Gate of je doorgaat naar Realisatie/Livegang.
 
-## 0.1.5 Implementatie (organisatiebreed) – aanbevolen aanpak
+## 5. Implementatie (organisatiebreed) – aanbevolen aanpak
 
 - **Week 1–2:** kies 1 pilot gebruikscasus + stel kernrollen aan (AI PM, Tech Lead, Guardian).
 - **Week 3–6:** voer lifecycle uit (Modules 02–04), inclusief [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md).
 - **Week 7–8:** livegang + beheer (Modules 05–06).
 - **Week 9:** evaluatie + update Gids naar v1.1 op basis van leerpunten.
 
-## 0.1.6 Navigatie (wat moet je lezen?)
+## 6. Navigatie (wat moet je lezen?)
 
 - **Start:** Leeswijzer & Managementsamenvatting
 - **Proces:** Verkenning & Strategie t/m Beheer & Optimalisatie

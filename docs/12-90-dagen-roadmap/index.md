@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 5.1 Snelstart: AI-Project in 90 Dagen
+# 1. Snelstart: AI-Project in 90 Dagen
 
-## 5.1.1 Vooraf (Definition of Ready)
+## 1. Vooraf (Definition of Ready)
 
 - Kernteam benoemd: **AI Product Manager**, **Tech Lead**, **Guardian**
 - Toegang tot relevante data geregeld (minimaal leesrechten)
@@ -14,7 +14,7 @@ laatst_herzien: '2026-02-01'
 
 ______________________________________________________________________
 
-## 5.1.2 Planning (week-voor-week)
+## 2. Planning (week-voor-week)
 
 | Week | Doel                            | Opleveringen (verplicht)                                                                                                                     | Primaire eigenaar    | Gate/Output                                |
 | ---: | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------ |
@@ -34,7 +34,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 5.1.3 Minimale beslismomenten (Gates)
+## 3. Minimale beslismomenten (Gates)
 
 - **Gate 1 (Go/No-Go Ontdekking) (einde week 2):** risico + data haalbaarheid bevestigd
 - **Gate 2 (Investering PoV) (einde week 6):** pilotresultaat ([Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)) voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
@@ -43,11 +43,11 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 5.1.4 Tijdlijn per Risiconiveau
+## 4. Tijdlijn per Risiconiveau
 
 De standaard 13-weken planning is geschikt voor **Beperkt Risico** toepassingen. Pas de tijdlijn aan op basis van uw risicoklassificatie:
 
-### 5.1.4.1 Minimaal Risico (Fast Lane): 6-8 weken
+### Minimaal Risico (Fast Lane): 6-8 weken
 
 | Fase         | Weken | Focus                                     |
 | ------------ | ----: | ----------------------------------------- |
@@ -58,11 +58,11 @@ De standaard 13-weken planning is geschikt voor **Beperkt Risico** toepassingen.
 
 Zie [Fast Lane](../02-fase-ontdekking/06-fast-lane.md) voor toelatingscriteria.
 
-### 5.1.4.2 Beperkt Risico: 13 weken (standaard)
+### Beperkt Risico: 13 weken (standaard)
 
 Volg de week-voor-week planning in sectie 1 hierboven.
 
-### 5.1.4.3 Hoog Risico: 18-24 weken
+### Hoog Risico: 18-24 weken
 
 | Fase                    | Weken | Extra activiteiten t.o.v. standaard                         |
 | ----------------------- | ----: | ----------------------------------------------------------- |

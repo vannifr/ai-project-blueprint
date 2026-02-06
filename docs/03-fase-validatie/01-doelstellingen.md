@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 2.2 Validatie
+# 1. Validatie
 
-## 2.2.1 Doelstelling
+## 1. Doelstelling
 
 Het primaire doel van de Validatiefase is bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
 
 **Belangrijkste resultaat:** Een werkende Praktijkproef (Proof of Value) die aantoont dat de AI de specifieke bedrijfscontext begrijpt en meetbare waarde levert.
 
-## 2.2.2 Intrede Criteria (Definition of Ready)
+## 2. Intrede Criteria (Definition of Ready)
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 

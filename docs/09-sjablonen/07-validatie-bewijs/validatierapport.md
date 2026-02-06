@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 4.8.2 Sjabloon 09.06: Validatierapport (Bewijs‑pakket)
+# 1. Sjabloon 09.06: Validatierapport (Bewijs‑pakket)
 
-## 4.8.2.1 Samenvatting (1 pagina)
+## 1. Samenvatting (1 pagina)
 
 **Project:** \[Naam\]
 **Risiconiveau:** \[Minimaal / Beperkt / Hoog\]
@@ -13,7 +13,7 @@ laatst_herzien: '2026-02-01'
 **Release/Build:** \[bijv. RC-1\]
 **Testperiode:** \[YYYY-MM-DD t/m YYYY-MM-DD\]
 
-### 4.8.2.1.1 Conclusie (kies één)
+### Conclusie (kies één)
 
 - [ ] **Go** — voldoet aan Bewijsstandaarden normen voor dit risiconiveau
 - [ ] **Go met acties** — alleen na uitvoeren van acties onder §7
@@ -27,7 +27,7 @@ laatst_herzien: '2026-02-01'
 
 ______________________________________________________________________
 
-## 4.8.2.2 Scope & referenties (traceerbaarheid)
+## 2. Scope & referenties (traceerbaarheid)
 
 **Doelkaart versie:** \[link/ID\]
 **Rode Lijnen versie:** \[link/ID\]
@@ -38,7 +38,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4.8.2.3 Testopzet
+## 3. Testopzet
 
 - **Omgeving:** \[Dev/Test/Prod-simulatie\]
 - **Modelinstellingen:** \[bijv. temperature, max tokens\]
@@ -47,27 +47,27 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4.8.2.4 Testsets (Gouden Set + aanvullingen)
+## 4. Testsets (Gouden Set + aanvullingen)
 
-### 4.8.2.4.1 Gouden Set
+### Gouden Set
 
 - **Aantal cases:** \[minimaal volgens Bewijsstandaarden\]
 - **Herkomst:** \[tickets, e-mails, calls, formulieren”¦\]
 - **Dekking:** \[80/15/5 of 70/20/10 afhankelijk risiconiveau\]
 
-### 4.8.2.4.2 Adversarial set (verplicht bij Beperkt/Hoog)
+### Adversarial set (verplicht bij Beperkt/Hoog)
 
 - **Aantal adversarial prompts:** \[#\]
 - **Soorten:** jailbreak / prompt injectie / datalek / bronverzinnen
 
-### 4.8.2.4.3 Fairness set (verplicht bij Hoog)
+### Fairness set (verplicht bij Hoog)
 
 - **Aanpak:** \[kwantitatief / kwalitatief + motivatie\]
 - **Groepen/segmenten:** \[beschrijf zonder gevoelige details\]
 
 ______________________________________________________________________
 
-## 4.8.2.5 Resultaten t.o.v. Bewijsstandaarden (Bewijsstandaarden)
+## 5. Resultaten t.o.v. Bewijsstandaarden (Bewijsstandaarden)
 
 | Criterium                             |         Norm | Gemeten | Pass/Fail             | Opmerking |
 | ------------------------------------- | -----------: | ------: | --------------------- | --------- |
@@ -82,26 +82,26 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4.8.2.6 Overzicht van fouten (verplicht)
+## 6. Overzicht van fouten (verplicht)
 
-### 4.8.2.6.1 Kritieke fouten (0 toegestaan)
-
-| Case-ID | Beschrijving | Impact | Oorzaak | Fix | Status |
-| ------- | ------------ | ------ | ------- | --- | ------ |
-
-### 4.8.2.6.2 Major fouten
+### Kritieke fouten (0 toegestaan)
 
 | Case-ID | Beschrijving | Impact | Oorzaak | Fix | Status |
 | ------- | ------------ | ------ | ------- | --- | ------ |
 
-### 4.8.2.6.3 Terugkerende patronen (failure modes)
+### Major fouten
+
+| Case-ID | Beschrijving | Impact | Oorzaak | Fix | Status |
+| ------- | ------------ | ------ | ------- | --- | ------ |
+
+### Terugkerende patronen (failure modes)
 
 - \[bijv. bronvermelding onjuist bij type document X\]
 - \[bijv. te creatieve toon bij korte prompts\]
 
 ______________________________________________________________________
 
-## 4.8.2.7 Logging & audit trail (bewijs dat we kunnen terugzoeken)
+## 7. Logging & audit trail (bewijs dat we kunnen terugzoeken)
 
 - **Wat loggen we:** \[conform Bewijsstandaarden §7\]
 - **Waar staat het:** \[tool + locatie\]
@@ -110,7 +110,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4.8.2.8 Actieplan (alleen invullen als “Go met acties” of “No-Go”)
+## 8. Actieplan (alleen invullen als “Go met acties” of “No-Go”)
 
 | Actie | Eigenaar | Deadline | Verwacht effect | Verificatie (test) |
 | ----- | -------- | -------- | --------------- | ------------------ |
@@ -118,6 +118,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4.8.2.9 Go/No-Go ondertekening
+## 9. Go/No-Go ondertekening
 
 **Tech Lead:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  **AI Product Manager:** \_\_\_\_\_\_\_\_\_\_\_  **Guardian:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

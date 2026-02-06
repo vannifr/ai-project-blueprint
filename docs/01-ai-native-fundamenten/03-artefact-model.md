@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 1.1.2 Artefact Model
+# 1. Artefact Model
 
-## 1.1.2.1 Beheer-Artefacten
+## 1. Beheer-Artefacten
 
 Om AI-systemen beheersbaar te maken, beheren we specifieke artefacten die grip geven op het gedrag.
 

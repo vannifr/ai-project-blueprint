@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 4.4.2 Technische Modelkaart (Model Card)
+# 1. Technische Modelkaart (Model Card)
 
-## 4.4.2.1 Doel
+## 1. Doel
 
 Dit sjabloon is bedoeld voor ontwikkelaars en auditors. Het documenteert de technische specificaties, trainingsdata en prestaties van het model en reist mee van **Realisatie** naar **Beheer & Optimalisatie**.
 
@@ -16,7 +16,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.4.2.1.1 Doel & Beperkingen
+### Doel & Beperkingen
 
 - **Primair Gebruik:** \[Waar is dit model voor bedoeld?\]
 - **Buiten Scope:** \[Waar mag dit model NIET voor gebruikt worden?\]
@@ -24,7 +24,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.4.2.1.2 Technische Specificaties
+### Technische Specificaties
 
 - **Basismodel (Foundation):** \[Bijv. Azure OpenAI GPT-4\]
 - **Parameters:** \[Bijv. Temperature: 0.7, TopP: 0.9\]
@@ -34,7 +34,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.4.2.1.3 Training & Data
+### Training & Data
 
 - *Alleen invullen indien er sprake is van fine-tuning of eigen training.*
 - **Trainingsdata:** \[Beschrijving dataset\]
@@ -43,7 +43,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.4.2.1.4 Prestaties & Validatie
+### Prestaties & Validatie
 
 *Resultaten geëxtraheerd uit het **Validatierapport** (Fase 3).*
 
@@ -54,14 +54,14 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.4.2.1.5 Ethische Overwegingen
+### Ethische Overwegingen
 
 - **Bekende Beperkingen:** \[Bijv. "Model heeft moeite met jargon in taal X".\]
 - **Bias Mitigatie:** \[Welke stappen zijn genomen om vooroordelen te verminderen?\]
 
 ______________________________________________________________________
 
-### 4.4.2.1.6 Beheer & Onderhoud
+### Beheer & Onderhoud
 
 - **Eigenaar (Tech):** \[Naam Tech Lead\]
 - **Eigenaar (Business):** \[Naam Product Owner\]
@@ -69,7 +69,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.4.2.1.7 Versiebeheer
+### Versiebeheer
 
 - **v1.0:** Initial Release (Naam Developer)
 - **v1.1:** Prompt update na feedback (Naam Developer)

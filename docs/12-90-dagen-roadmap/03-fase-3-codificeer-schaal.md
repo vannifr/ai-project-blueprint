@@ -3,26 +3,26 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 5.1.3 Codificeer & Schaal (Dagen 61-90)
+# 1. Codificeer & Schaal (Dagen 61-90)
 
 **Thema:** Standaardiseren en Uitrollen.
 
 Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor de lange termijn.
 
-## 5.1.3.1 Doelstellingen
+## 1. Doelstellingen
 
 - **Standaardisatie:** Leg de 'winnende' werkwijze vast in beleid en techniek.
 - **Governance:** Formaliseer de regels (Compliance, Security) voor bredere uitrol.
 - **Stappenplan 2.0:** Plan de volgende kwartalen.
 
-## 5.1.3.2 Activiteiten
+## 2. Activiteiten
 
 1. **Gids creatie:** Schrijf de 'lesgeleerd' op in de AI Project Gids.
 1. **Tech Stack keuze:** Beslis over definitieve platforms/tools voor schaal.
 1. **Organisatie uitrol:** Start communicatie en training voor de rest van de organisatie.
 1. **Governance Setup:** Installeer de AI Board / Ethische commissie structureel.
 
-## 5.1.3.3 Opleveringen (Dag 90)
+## 3. Opleveringen (Dag 90)
 
 !!! check "Opleveringen Fase 3"
     - [ ] Geformaliseerd AI Beleid & Gids v1.0.

@@ -3,17 +3,17 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 3.2.2 Data Pipelines
+# 1. Data Pipelines
 
-## 3.2.2.1 Doel
+## 1. Doel
 
 Deze module definieert de standaarden voor het opzetten en beheren van datapipelines die AI-systemen voeden. Een robuuste datapipeline is de ruggengraat van elke betrouwbare AI-oplossing.
 
 ______________________________________________________________________
 
-## 3.2.2.2 Kernactiviteiten
+## 2. Kernactiviteiten
 
-### 3.2.2.2.1 Data-ingestie
+### Data-ingestie
 
 Het verzamelen van data uit bronbestanden naar een centrale verwerkingsomgeving.
 
@@ -24,7 +24,7 @@ Het verzamelen van data uit bronbestanden naar een centrale verwerkingsomgeving.
 - [ ] Ingestie is herhaalbaar en geautomatiseerd waar mogelijk
 - [ ] Foutenafhandeling is geïmplementeerd (wat gebeurt bij een mislukte ingestie?)
 
-### 3.2.2.2.2 Datavalidatie & Kwaliteitscontroles
+### Datavalidatie & Kwaliteitscontroles
 
 Het controleren of inkomende data voldoet aan verwachte schema's en kwaliteitsnormen.
 
@@ -43,7 +43,7 @@ Het controleren of inkomende data voldoet aan verwachte schema's en kwaliteitsno
 | Waarschuwing  | Waarde buiten verwacht bereik            | Loggen, pipeline doorgaan |
 | Informatief   | Statistische afwijking t.o.v. historisch | Loggen voor review        |
 
-### 3.2.2.2.3 Datatransformatie
+### Datatransformatie
 
 Het omzetten van ruwe data naar een bruikbaar formaat voor het AI-model.
 
@@ -53,7 +53,7 @@ Het omzetten van ruwe data naar een bruikbaar formaat voor het AI-model.
 - [ ] Persoonlijk identificeerbare gegevens (PII) worden gepseudonimiseerd waar nodig
 - [ ] Transformaties zijn reproduceerbaar (zelfde input = zelfde output)
 
-### 3.2.2.2.4 Versioning & Reproduceerbaarheid
+### Versioning & Reproduceerbaarheid
 
 Het bijhouden van dataversies zodat resultaten herleidbaar zijn.
 
@@ -65,7 +65,7 @@ Het bijhouden van dataversies zodat resultaten herleidbaar zijn.
 
 ______________________________________________________________________
 
-## 3.2.2.3 Basis vs Gevorderd
+## 3. Basis vs Gevorderd
 
 | Aspect        | Basis (L0-L1)                  | Gevorderd (L2-L3)                       |
 | ------------- | ------------------------------ | --------------------------------------- |
@@ -77,7 +77,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3.2.2.4 Integratie met Governance
+## 4. Integratie met Governance
 
 - **Traceerbaarheid:** Elke modeloutput moet herleidbaar zijn naar de gebruikte dataversie.
 - **Privacy:** Pas de regels uit [Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md) toe op de pipeline.
@@ -85,7 +85,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3.2.2.5 Checklist voor Livegang
+## 5. Checklist voor Livegang
 
 - [ ] Data-ingestie draait stabiel in productie-omgeving
 - [ ] Kwaliteitscontroles zijn geïmplementeerd en getest
@@ -96,7 +96,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3.2.2.6 Gerelateerde Modules
+## 6. Gerelateerde Modules
 
 - [Technische Standaarden & Leveringscriteria](01-mloops-standaarden.md)
 - [Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md)

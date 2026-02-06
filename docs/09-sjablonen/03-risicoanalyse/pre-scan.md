@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 4.5.2 Risico Pre-Scan (Gate 1 Checklist)
+# 1. Risico Pre-Scan (Gate 1 Checklist)
 
-## 4.5.2.1 Doel
+## 1. Doel
 
 Dit sjabloon dient voor de initiële risico-inventarisatie in **Verkenning & Strategie** (Fase 1). Het helpt bij het vroegtijdig identificeren van blokkades op het gebied van wetgeving (EU AI Act), privacy en ethiek.
 
@@ -16,7 +16,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.5.2.1.1 Deel A: EU AI Act Classificatie
+### Deel A: EU AI Act Classificatie
 
 *Kruis aan wat van toepassing is. Als één van deze 'Ja' is, bepaalt dat de risicocategorie.*
 
@@ -43,7 +43,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.5.2.1.2 Deel A.2: GPAI & Rolbepaling
+### Deel A.2: GPAI & Rolbepaling
 
 Beantwoord onderstaande vragen om te bepalen of aanvullende EU AI Act verplichtingen van toepassing zijn.
 
@@ -57,7 +57,7 @@ Raadpleeg de uitgebreide guidance in [EU AI Act Compliance](../../07-compliance-
 
 ______________________________________________________________________
 
-### 4.5.2.1.3 Deel B: Privacy & Data (AVG)
+### Deel B: Privacy & Data (AVG)
 
 - **Worden er persoonsgegevens verwerkt?** \[Ja/Nee\]
 - **Is er een wettelijke grondslag voor dit gebruik?** \[Ja/Nee\]
@@ -73,7 +73,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.5.2.1.4 Deel C: Ethische Quickscan
+### Deel C: Ethische Quickscan
 
 - **Kan het systeem groepen discrimineren of uitsluiten (Bias)?** \[Ja/Nee\]
 - **Is de werking uitlegbaar aan een leek?** \[Ja/Nee\]
@@ -81,7 +81,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.5.2.1.5 Conclusie & Advies Guardian
+### Conclusie & Advies Guardian
 
 - **Definitief Risiconiveau:** \[Laag / Beperkt / Hoog / Verboden\]
 - **Actievereisten:** \[Bijv. "DPIA uitvoeren", "Validatierapport opstellen", "Disclaimer toevoegen"\]

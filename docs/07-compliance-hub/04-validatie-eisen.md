@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 3.1.4 Validatie Eisen (Compliance)
+# 1. Validatie Eisen (Compliance)
 
-## 3.1.4.1 Doel
+## 1. Doel
 
 Vaststellen waaraan een **Validatierapport** moet voldoen om formeel akkoord te krijgen voor ingebruikname, specifiek gericht op wettelijke en ethische kaders.
 
 ______________________________________________________________________
 
-## 3.1.4.2 Vereisten voor het Validatierapport
+## 2. Vereisten voor het Validatierapport
 
 1. **Objectiviteit:** Gebruik van meetbare metrics en onafhankelijke testsets.
 1. **Dekking:** Bewijs van toetsing op alle gedefinieerde **Rode Lijnen**.

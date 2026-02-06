@@ -3,17 +3,17 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 3.2.4 Test Frameworks
+# 1. Test Frameworks
 
-## 3.2.4.1 Doel
+## 1. Doel
 
 Deze module definieert hoe wij AI-systemen testen. Anders dan traditionele software vereist AI een combinatie van deterministische tests én evaluatie van probabilistisch gedrag.
 
 ______________________________________________________________________
 
-## 3.2.4.2 Testniveaus
+## 2. Testniveaus
 
-### 3.2.4.2.1 Componenttests (Unit Tests)
+### Componenttests (Unit Tests)
 
 Testen van individuele onderdelen in isolatie.
 
@@ -30,7 +30,7 @@ Testen van individuele onderdelen in isolatie.
 - Deterministisch (zelfde input = zelfde resultaat)
 - Automatisch bij elke code-wijziging
 
-### 3.2.4.2.2 Integratietests
+### Integratietests
 
 Testen van de samenwerking tussen componenten.
 
@@ -46,7 +46,7 @@ Testen van de samenwerking tussen componenten.
 - Kan externe afhankelijkheden vereisen
 - Periodiek of bij belangrijke wijzigingen
 
-### 3.2.4.2.3 AI-gedragstests (Gouden Set)
+### AI-gedragstests (Gouden Set)
 
 Testen van het AI-gedrag op representatieve scenario's.
 
@@ -65,11 +65,11 @@ Testen van het AI-gedrag op representatieve scenario's.
 
 ______________________________________________________________________
 
-## 3.2.4.3 De Gouden Set
+## 3. De Gouden Set
 
 De Gouden Set is de centrale testset voor AI-gedrag. Zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) voor minimale eisen per risiconiveau.
 
-### 3.2.4.3.1 Samenstelling
+### Samenstelling
 
 | Categorie         | Beschrijving                                  |    Minimaal % |
 | ----------------- | --------------------------------------------- | ------------: |
@@ -78,7 +78,7 @@ De Gouden Set is de centrale testset voor AI-gedrag. Zie [Bewijsstandaarden](../
 | Adversarial cases | Jailbreaks, prompt-injectie, policy-omzeiling |         5-10% |
 | Fairness cases    | Scenario's per relevante gebruikersgroep      | Naar behoefte |
 
-### 3.2.4.3.2 Format per Testcase
+### Format per Testcase
 
 | Veld                | Beschrijving                                    |
 | ------------------- | ----------------------------------------------- |
@@ -89,7 +89,7 @@ De Gouden Set is de centrale testset voor AI-gedrag. Zie [Bewijsstandaarden](../
 | Beoordelingsmethode | Exact match / Keywords / Menselijke beoordeling |
 | Kritiek?            | Ja/Nee (Kritieke fout als incorrect?)           |
 
-### 3.2.4.3.3 Onderhoud
+### Onderhoud
 
 - Gouden Set wordt periodiek herzien (minimaal per release)
 - Nieuwe scenario's worden toegevoegd bij incidenten of nieuwe functionaliteit
@@ -97,11 +97,11 @@ De Gouden Set is de centrale testset voor AI-gedrag. Zie [Bewijsstandaarden](../
 
 ______________________________________________________________________
 
-## 3.2.4.4 Adversarial Testing
+## 4. Adversarial Testing
 
 Specifieke tests om de veiligheid en robuustheid te valideren.
 
-### 3.2.4.4.1 Verplichte Adversarial Scenario's
+### Verplichte Adversarial Scenario's
 
 | Scenario                          | Beschrijving                                                                              | Verwacht gedrag                                        |
 | --------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------ |
@@ -117,7 +117,7 @@ Specifieke tests om de veiligheid en robuustheid te valideren.
 
 Bronnen: \[so-1\], \[so-10\]
 
-### 3.2.4.4.2 Uitvoering
+### Uitvoering
 
 - **Minimaal Risico:** Kwalitatieve steekproef door Guardian
 - **Beperkt Risico:** Gestructureerde adversarial set (minimaal 5% van Gouden Set)
@@ -125,11 +125,11 @@ Bronnen: \[so-1\], \[so-10\]
 
 ______________________________________________________________________
 
-## 3.2.4.5 Regressietesting
+## 5. Regressietesting
 
 Het automatisch herhalen van tests bij wijzigingen om achteruitgang te detecteren.
 
-### 3.2.4.5.1 Wat triggert regressietests?
+### Wat triggert regressietests?
 
 | Wijziging          | Regressietest niveau                |
 | ------------------ | ----------------------------------- |
@@ -138,7 +138,7 @@ Het automatisch herhalen van tests bij wijzigingen om achteruitgang te detectere
 | Modelversie-update | Volledige Gouden Set                |
 | Databron-wijziging | Volledige Gouden Set + Fairness     |
 
-### 3.2.4.5.2 Automatisering
+### Automatisering
 
 | Niveau | Aanpak                               | Tooling voorbeelden       |
 | ------ | ------------------------------------ | ------------------------- |
@@ -149,7 +149,7 @@ Het automatisch herhalen van tests bij wijzigingen om achteruitgang te detectere
 
 ______________________________________________________________________
 
-## 3.2.4.6 Evaluatiemetrics
+## 6. Evaluatiemetrics
 
 | Metric          | Toepassing              | Berekening                     |
 | --------------- | ----------------------- | ------------------------------ |
@@ -161,7 +161,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3.2.4.7 Checklist Test Framework
+## 7. Checklist Test Framework
 
 - [ ] Componenttests dekken kritieke functies
 - [ ] Integratietests valideren end-to-end flow
@@ -173,7 +173,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3.2.4.8 Gerelateerde Modules
+## 8. Gerelateerde Modules
 
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)

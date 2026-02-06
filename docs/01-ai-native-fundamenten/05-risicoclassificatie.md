@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 1.2.3 Risicoclassificatie
+# 1. Risicoclassificatie
 
-## 1.2.3.1 Validatie Diepgang
+## 1. Validatie Diepgang
 
 Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wijzigingen op basis van de impact op de **Rode Lijnen**.
 

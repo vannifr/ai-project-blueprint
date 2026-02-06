@@ -3,17 +3,17 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 5.2 Volwassenheidsniveaus
+# 1. Volwassenheidsniveaus
 
-## 5.2.1 Welke Aanpak Past Bij Jouw Team?
+## 1. Welke Aanpak Past Bij Jouw Team?
 
 Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welke aanpak en welke Samenwerkingsmodi passen bij jouw huidige situatie.
 
 ______________________________________________________________________
 
-## 5.2.2 De Drie Niveaus
+## 2. De Drie Niveaus
 
-### 5.2.2.1 De Verkenner
+### De Verkenner
 
 **Kenmerken:** Veel experimenten, weinig structuur.
 
@@ -31,7 +31,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 5.2.2.2 De Bouwer
+### De Bouwer
 
 **Kenmerken:** Eerste successen, maar moeite met stabiliteit.
 
@@ -49,7 +49,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 5.2.2.3 De Visionair
+### De Visionair
 
 **Kenmerken:** AI is onderdeel van de strategie.
 
@@ -67,7 +67,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 5.2.3 Gerelateerde Modules
+## 3. Gerelateerde Modules
 
 - [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
 - [Snelstart: AI-Project in 90 Dagen](../12-90-dagen-roadmap/index.md)

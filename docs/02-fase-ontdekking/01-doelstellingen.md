@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 2.1 Verkenning & Strategie
+# 1. Verkenning & Strategie
 
-## 2.1.1 Doelstelling
+## 1. Doelstelling
 
 Het primaire doel van de Verkenningsfase is het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten met een AI-project.
 
@@ -15,7 +15,7 @@ Het primaire doel van de Verkenningsfase is het identificeren van het juiste pro
 > **De Snelle Route (Fast Lane)**
 > Voor projecten met een **Laag Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Praktijkproef**. Zie voor details de **[Snelle Route (Fast Lane)](06-fast-lane.md)**.
 
-## 2.1.2 Intrede Criteria (Definition of Ready)
+## 2. Intrede Criteria (Definition of Ready)
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 

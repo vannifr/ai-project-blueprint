@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 4.9 Sjabloon: Traceerbaarheid (Traceability)
+# 1. Sjabloon: Traceerbaarheid (Traceability)
 
-## 4.9.1 Doel
+## 1. Doel
 
 Het waarborgen van de verbinding tussen de menselijke intentie, de technische implementatie en het uiteindelijke bewijs. Dit is essentieel voor auditing en compliance (EU AI Act).
 
 ______________________________________________________________________
 
-### 4.9.1.1 Traceerbaarheidsmatrix
+### Traceerbaarheidsmatrix
 
 | Doel-ID  | Doeldefinitie (Intent)         | Sturingsinstructie ID | Validatierapport ID | Status         |
 | :------- | :----------------------------- | :-------------------- | :------------------ | :------------- |
@@ -21,7 +21,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 4.9.1.2 Gebruikte Versies
+### Gebruikte Versies
 
 - **Git Commit SHA:** \[Bijv. a1b2c3d4\]
 - **Data SHA:** \[Vingerafdruk van de gebruikte test-data\]

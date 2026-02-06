@@ -3,41 +3,41 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 3.1.3 Ethische Richtlijnen
+# 1. Ethische Richtlijnen
 
-## 3.1.3.1 Doel
+## 1. Doel
 
 Waarborgen dat AI-systemen worden ontwikkeld en gebruikt op een manier die de menselijke waarden respecteert en geen onbedoelde schade toebrengt.
 
 ______________________________________________________________________
 
-## 3.1.3.2 Ethische Grondbeginselen
+## 2. Ethische Grondbeginselen
 
-### 3.1.3.2.1 Menselijke Regie en Toezicht
+### Menselijke Regie en Toezicht
 
 AI mag de menselijke autonomie niet ondermijnen. Gebruikers moeten in staat zijn om de werking van het systeem te begrijpen en, indien nodig, in te grijpen (**Menselijke Regie**).
 
-### 3.1.3.2.2 Rechtvaardigheid & Eerlijkheid
+### Rechtvaardigheid & Eerlijkheid
 
 AI-systemen mogen niet leiden tot onrechtvaardige discriminatie. We passen de **Eerlijkheidstoets** toe om bias op drie niveaus (Representativiteit, Stereotypering, Gelijke Behandeling) te elimineren.
 
-### 3.1.3.2.3 Transparantie & Uitlegbaarheid
+### Transparantie & Uitlegbaarheid
 
 Het moet voor een gebruiker duidelijk zijn wanneer hij met een AI communiceert. Beslissingen van het systeem moeten op een begrijpelijke manier kunnen worden uitgelegd.
 
-### 3.1.3.2.4 Privacy & Gegevensbescherming
+### Privacy & Gegevensbescherming
 
 Strikte naleving van de AVG/GDPR. Gegevens worden alleen gebruikt voor het beoogde doel en conform de gestelde **Rode Lijnen**.
 
-### 3.1.3.2.5 Maatschappelijk & Ecologisch Welzijn
+### Maatschappelijk & Ecologisch Welzijn
 
 We streven naar een positieve impact op de samenleving en minimaliseren de ecologische voetafdruk van onze AI-systemen (energie-efficiëntie).
 
 ______________________________________________________________________
 
-## 3.1.3.3 De Eerlijkheidstoets (Bias Audit) - Uitgebreid
+## 3. De Eerlijkheidstoets (Bias Audit) - Uitgebreid
 
-### 3.1.3.3.1 Toetsniveaus
+### Toetsniveaus
 
 We toetsen elk Hoog en Beperkt risico systeem op drie niveaus:
 
@@ -47,7 +47,7 @@ We toetsen elk Hoog en Beperkt risico systeem op drie niveaus:
 | **Stereotypering**      | Bevestigt de AI schadelijke clichés?                           | Associeert het systeem bepaalde beroepen met specifieke geslachten? |
 | **Gelijke Behandeling** | Krijgt elke gebruikersgroep dezelfde kwaliteit van antwoorden? | Is de foutmarge gelijk voor verschillende leeftijdsgroepen?         |
 
-### 3.1.3.3.2 Meetbare Fairness Criteria
+### Meetbare Fairness Criteria
 
 Wij hanteren de volgende meetbare criteria voor eerlijkheid:
 
@@ -58,7 +58,7 @@ Wij hanteren de volgende meetbare criteria voor eerlijkheid:
 | **Predictive Parity**   | Precision (positief voorspellende waarde) is gelijk per groep   | Precision gelijk voor A=0 en A=1  | Wanneer vertrouwen in positieve voorspellingen cruciaal is           |
 | **Individual Fairness** | Vergelijkbare individuen krijgen vergelijkbare behandeling      | d(f(x), f(x')) ≤ d(x, x')         | Gepersonaliseerde dienstverlening                                    |
 
-### 3.1.3.3.3 Drempelwaarden per Risiconiveau
+### Drempelwaarden per Risiconiveau
 
 | Risiconiveau | Maximaal Verschil Tussen Groepen       | Aanvullende Eisen                                    |
 | ------------ | -------------------------------------- | ---------------------------------------------------- |
@@ -66,7 +66,7 @@ Wij hanteren de volgende meetbare criteria voor eerlijkheid:
 | **Beperkt**  | ≤ 10% verschil in Major-foutpercentage | Documentatie van groepsvergelijking                  |
 | **Hoog**     | ≤ 5% verschil in Major-foutpercentage  | Kwantitatieve analyse + gedocumenteerd mitigatieplan |
 
-### 3.1.3.3.4 Uitvoering van de Eerlijkheidstoets
+### Uitvoering van de Eerlijkheidstoets
 
 **Stap 1: Identificeer Relevante Groepen**
 
@@ -110,7 +110,7 @@ Leg vast in [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapp
 - Conclusie t.a.v. drempels
 - Mitigatiemaatregelen (indien van toepassing)
 
-### 3.1.3.3.5 Tooling voor Eerlijkheidstoets
+### Tooling voor Eerlijkheidstoets
 
 | Tool                      | Type           | Sterkte                                    | Link                             |
 | ------------------------- | -------------- | ------------------------------------------ | -------------------------------- |
@@ -119,7 +119,7 @@ Leg vast in [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapp
 | **Aequitas**              | Python library | Focus op auditing, visuele reports         | github.com/dssg/aequitas         |
 | **What-If Tool** (Google) | Visualisatie   | Interactieve exploratie                    | pair-code.github.io/what-if-tool |
 
-### 3.1.3.3.6 Beperkingen en Overwegingen
+### Beperkingen en Overwegingen
 
 **Fairness-accuracy trade-off:**
 Het optimaliseren voor fairness kan leiden tot lagere overall accuracy. Documenteer de afweging.
@@ -135,7 +135,7 @@ Fairness voor individuele groepen garandeert geen fairness voor combinaties (bij
 
 ______________________________________________________________________
 
-## 3.1.3.4 De Rol van de Guardian
+## 4. De Rol van de Guardian
 
 De Guardian fungeert als het morele kompas van het project:
 
@@ -145,7 +145,7 @@ De Guardian fungeert als het morele kompas van het project:
 - Keurt Eerlijkheidstoets resultaten goed
 - Escaleert bij onoplosbare fairness issues
 
-### 3.1.3.4.1 Guardian Taken per Fase
+### Guardian Taken per Fase
 
 | Fase       | Guardian Activiteit                                       |
 | ---------- | --------------------------------------------------------- |
@@ -157,7 +157,7 @@ De Guardian fungeert als het morele kompas van het project:
 
 ______________________________________________________________________
 
-## 3.1.3.5 Checklist Ethische Richtlijnen
+## 5. Checklist Ethische Richtlijnen
 
 - [ ] Ethische grondbeginselen zijn besproken met team
 - [ ] Rode Lijnen zijn gedefinieerd in Doelkaart
@@ -169,7 +169,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3.1.3.6 Gerelateerde Modules
+## 6. Gerelateerde Modules
 
 - [Risicobeheersing & Compliance](index.md)
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)

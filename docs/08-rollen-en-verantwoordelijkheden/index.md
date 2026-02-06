@@ -3,19 +3,19 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 1.2.2 Rollen & Verantwoordelijkheden
+# 1. Rollen & Verantwoordelijkheden
 
-## 1.2.2.1 Wie doet wat in een AI-project?
+## 1. Wie doet wat in een AI-project?
 
 In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
 
 ______________________________________________________________________
 
-## 1.2.2.2 Het Kernteam (The Squad)
+## 2. Het Kernteam (The Squad)
 
 Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie.
 
-### 1.2.2.2.1 De AI Product Manager (Business Lead)
+### De AI Product Manager (Business Lead)
 
 Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
 
@@ -23,7 +23,7 @@ Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar
 - **Taak:** Vertaalt vage business-wensen naar scherpe AI-instructies. Beheert de backlog en prioriteert op waarde.
 - **Focus:** "Lossen we het juiste probleem op?"
 
-### 1.2.2.2.2 De Tech Lead (Technical Lead)
+### De Tech Lead (Technical Lead)
 
 De architect van de oplossing. Zorgt dat de losse componenten (data, model, interface) naadloos samenwerken.
 
@@ -31,7 +31,7 @@ De architect van de oplossing. Zorgt dat de losse componenten (data, model, inte
 - **Taak:** Selecteert het juiste model, bouwt de pijplijnen en borgt de technische stabiliteit.
 - **Focus:** "Is het robuust en schaalbaar?"
 
-### 1.2.2.2.3 De Guardian (Ethicus / Compliance)
+### De Guardian (Ethicus / Compliance)
 
 Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de wettelijke en ethische kaders.
 
@@ -41,7 +41,7 @@ Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de
 
 ______________________________________________________________________
 
-## 1.2.2.3 De Ondersteunende Rollen
+## 3. De Ondersteunende Rollen
 
 Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
 
@@ -53,9 +53,9 @@ Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
 
 ______________________________________________________________________
 
-## 1.2.2.4 Strategisch Niveau (Steering Com)
+## 4. Strategisch Niveau (Steering Com)
 
-### 1.2.2.4.1 Chief AI Officer (CAIO)
+### Chief AI Officer (CAIO)
 
 Sponsor van het programma. Bepaalt de overkoepelende strategie en wijst budget toe.
 

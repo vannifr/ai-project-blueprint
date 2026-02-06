@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 1.3.5 Specificatie-eerst Methode
+# 1. Specificatie-eerst Methode
 
-## 1.3.5.1 Shift-Left Validatie
+## 1. Shift-Left Validatie
 
 De **Specificatie-eerst Methode** (ook wel *Spec-Driven Development*) zorgt ervoor dat we eerst de verwachtingen vastleggen voordat we bouwen.
 
@@ -19,6 +19,6 @@ In plaats van direct prompts te schrijven, volgen we deze cyclus:
 
 ______________________________________________________________________
 
-## 1.3.5.2 Gerelateerde Sjablonen
+## 2. Gerelateerde Sjablonen
 
 - [Doelkaart Sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
