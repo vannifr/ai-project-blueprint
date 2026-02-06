@@ -17,11 +17,11 @@ Een succesvol AI-project is geen lineair proces, maar een iteratieve cyclus waar
 
 ```mermaid
 graph TD
-    A[Verkenning & Strategie] --> B[Validatie]
-    B --> C[Realisatie]
-    C --> D[Levering]
-    D --> E[Beheer & Optimalisatie]
-    E --> A
+ A[Verkenning & Strategie] --> B[Validatie]
+ B --> C[Realisatie]
+ C --> D[Levering]
+ D --> E[Beheer & Optimalisatie]
+ E --> A
 ```
 
 ### Belangrijkste Kenmerken

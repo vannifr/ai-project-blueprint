@@ -29,7 +29,7 @@ ______________________________________________________________________
 - **[Gate Reviews](04-gate-reviews/checklist.md):** Checklists voor de harde stop/go beslismomenten.
 - **[Validatierapport](07-validatie-bewijs/validatierapport.md):** Documentatie van de resultaten van de **Praktijkproef**.
 - **[Validatie Bewijs](07-validatie-bewijs/template.md):** Oude sjabloon voor validatiebewijs (ter referentie).
-- **[Traceerbaarheid](08-traceerbaarheid-links/template.md):** Verbinding tussen Doel ? Instructie ? Bewijs.
+- **[Traceerbaarheid](08-traceerbaarheid-links/template.md):** Verbinding tussen Doel Instructie Bewijs.
 
 ### Compliance & Privacy
 

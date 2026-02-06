@@ -22,8 +22,8 @@ ______________________________________________________________________
 - **De Gebruiker (Persona):** Wie is het? \[Bijv. Een junior juridisch medewerker.\]
 - **Het Doel:** Wat willen ze bereiken? \[Snel de risico's in een contract vinden.\]
 - **De AI (Systeem Persona):**
-    - **Rol:** \[Bijv. Een ervaren senior jurist en mentor.\]
-    - **Toon:** \[Zakelijk, scherp, maar behulpzaam. Geen jargon zonder uitleg.\]
+- **Rol:** \[Bijv. Een ervaren senior jurist en mentor.\]
+- **Toon:** \[Zakelijk, scherp, maar behulpzaam. Geen jargon zonder uitleg.\]
 - **De Taak:** \[Beschrijf exact wat de AI moet doen. Bijv: "Scan het geüploade PDF-document op clausules over aansprakelijkheid en vat deze samen."\]
 
 ______________________________________________________________________
@@ -34,9 +34,9 @@ ______________________________________________________________________
 
 - **Primaire Bronnen:** \[Bedrijfsinformatie/Handboeken voor de **Kenniskoppeling**.\]
 - **Voorbeelden (Few-Shot):**
-    - **Input:** \[Voorbeeld van een vage clausule.\]
-    - **Gewenste Output:** \[Hoe de AI dit had moeten interpreteren/verbeteren.\]
-    - *(Voeg minimaal 3 goede voorbeelden toe om het gedrag te sturen).*
+- **Input:** \[Voorbeeld van een vage clausule.\]
+- **Gewenste Output:** \[Hoe de AI dit had moeten interpreteren/verbeteren.\]
+- *(Voeg minimaal 3 goede voorbeelden toe om het gedrag te sturen).*
 
 ______________________________________________________________________
 

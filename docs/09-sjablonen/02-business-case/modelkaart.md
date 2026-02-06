@@ -29,8 +29,8 @@ ______________________________________________________________________
 - **Basismodel (Foundation):** \[Bijv. Azure OpenAI GPT-4\]
 - **Parameters:** \[Bijv. Temperature: 0.7, TopP: 0.9\]
 - **Kenniskoppeling (RAG):**
-    - **Bron:** \[Bijv. SharePoint Map 'Kennisbeheer'\]
-    - **Update frequentie:** \[Wekelijks / Real-time\]
+- **Bron:** \[Bijv. SharePoint Map 'Kennisbeheer'\]
+- **Update frequentie:** \[Wekelijks / Real-time\]
 
 ______________________________________________________________________
 
@@ -48,8 +48,8 @@ ______________________________________________________________________
 *Resultaten geëxtraheerd uit het **Validatierapport** (Fase 3).*
 
 - **Metrieken:**
-    - **Nauwkeurigheid (Accuracy):** \[X%\]
-    - **Hallucinatie-rate:** \[\< X%\]
+- **Nauwkeurigheid (Accuracy):** \[X%\]
+- **Hallucinatie-rate:** \[\< X%\]
 - **Testset:** \[Beschrijving van de gebruikte vragen of scenario's\]
 
 ______________________________________________________________________

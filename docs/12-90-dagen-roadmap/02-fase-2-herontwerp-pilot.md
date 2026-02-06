@@ -25,7 +25,8 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
 ## 3. Opleveringen (Dag 60)
 
 !!! check "Opleveringen Fase 2"
-    - [ ] Werkend prototype / PoV in handen van gebruikers.
-    - [ ] Aangepaste procesbeschrijving (SOPs).
-    - [ ] Eerste resultatenrapportage (bijv. "30% tijdwinst op taak X").
-    - [ ] Go/No-Go besluit voor opschaling.
+
+- [ ] Werkend prototype / PoV in handen van gebruikers.
+- [ ] Aangepaste procesbeschrijving (SOPs).
+- [ ] Eerste resultatenrapportage (bijv. "30% tijdwinst op taak X").
+- [ ] Go/No-Go besluit voor opschaling.

@@ -30,9 +30,9 @@ De Guardian is de "Beschermheer" van de waarden van de organisatie. Deze rol is 
 
 - **Mandaat:** De Guardian heeft veto-recht (via een 'Stop-knop') in elke fase van het project als de **Rode Lijnen** worden overschreden.
 - **Taken:**
-    - Fase 1: Toetst de **Doeldefinitie** op ethische wenselijkheid.
-    - Fase 2 & 3: Voert **Eerlijkheidstoetsen** (Bias audits) uit.
-    - Fase 5: Voert periodieke 'Vibe Checks' uit op productie-systemen.
+- Fase 1: Toetst de **Doeldefinitie** op ethische wenselijkheid.
+- Fase 2 & 3: Voert **Eerlijkheidstoetsen** (Bias audits) uit.
+- Fase 5: Voert periodieke 'Vibe Checks' uit op productie-systemen.
 
 ______________________________________________________________________
 

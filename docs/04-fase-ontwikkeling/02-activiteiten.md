@@ -44,7 +44,7 @@ Elke wijziging wordt getoetst op drie dimensies:
 
 - **Data Pijplijnen:** Inrichten van robuuste stromen voor training en inferentie.
 - **Automated Gates (Governance-as-Code):** Integreer de **Rode Lijnen** en succes-metrics direct in de CI/CD-pipeline.
-    - *Voorbeeld:* De build faalt automatisch als de bias-score te hoog is of de accuraatheid onder de drempelwaarde zakt.
+- *Voorbeeld:* De build faalt automatisch als de bias-score te hoog is of de accuraatheid onder de drempelwaarde zakt.
 - **Continuous Testing (CT):** Geautomatiseerde evaluatie van model-outputs bij elke wijziging in de **Sturingsinstructies**.
 
 ______________________________________________________________________

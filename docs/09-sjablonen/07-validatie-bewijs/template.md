@@ -23,8 +23,10 @@ ______________________________________________________________________
 
 - **Nauwkeurigheid / Relevantie:** \[Bijv. 92% van de antwoorden was correct volgens de expert.\]
 - **Rode Lijnen Check:**
-    1. Privacy: \[Geen PII gedetecteerd in output\].
-    1. Veiligheid: \[Systeem weigerde succesvol schadelijke prompts\].
+
+1. Privacy: \[Geen PII gedetecteerd in output\].
+1. Veiligheid: \[Systeem weigerde succesvol schadelijke prompts\].
+
 - **Gebruikerservaring:** \[Feedback van de testers\].
 
 ______________________________________________________________________

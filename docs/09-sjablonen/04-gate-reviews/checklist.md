@@ -14,22 +14,26 @@ ______________________________________________________________________
 ## 2. Gate Review Overzicht
 
 !!! check "Gate 1 (Go/No-Go Ontdekking): Van Verkenning naar Validatie"
-    - [ ] **Doeldefinitie** is vastgelegd.
-    - [ ] **Data-Evaluatie** is positief (Score Groen/Oranje).
-    - [ ] **Samenwerkingsmodus** is gekozen.
-    - [ ] Initiële risico-scan uitgevoerd.
+
+- [ ] **Doeldefinitie** is vastgelegd.
+- [ ] **Data-Evaluatie** is positief (Score Groen/Oranje).
+- [ ] **Samenwerkingsmodus** is gekozen.
+- [ ] Initiële risico-scan uitgevoerd.
 
 !!! check "Gate 2 (Investering PoV): Van Validatie naar Realisatie"
-    - [ ] **Praktijkproef** is succesvol afgerond (>90% score).
-    - [ ] **Het Kostenoverzicht** is goedgekeurd.
-    - [ ] **Rode Lijnen** zijn gedefinieerd door the Guardian.
+
+- [ ] **Praktijkproef** is succesvol afgerond (>90% score).
+- [ ] **Het Kostenoverzicht** is goedgekeurd.
+- [ ] **Rode Lijnen** zijn gedefinieerd door the Guardian.
 
 !!! check "Gate 3 (Productie-klaar): Van Realisatie naar Levering"
-    - [ ] **Validatierapport** is beschikbaar en goedgekeurd.
-    - [ ] **Sturingsinstructies** zijn geversioneerd en gedocumenteerd.
-    - [ ] Gebruikers zijn getraind voor **Menselijke Regie**.
+
+- [ ] **Validatierapport** is beschikbaar en goedgekeurd.
+- [ ] **Sturingsinstructies** zijn geversioneerd en gedocumenteerd.
+- [ ] Gebruikers zijn getraind voor **Menselijke Regie**.
 
 !!! check "Gate 4 (Livegang): Ingebruikname & Beheer"
-    - [ ] Monitoring op **Prestatieverloop** is actief.
-    - [ ] Incident procedure is bekend.
-    - [ ] Eigenaarschap in de beheerfase is vastgelegd.
+
+- [ ] Monitoring op **Prestatieverloop** is actief.
+- [ ] Incident procedure is bekend.
+- [ ] Eigenaarschap in de beheerfase is vastgelegd.

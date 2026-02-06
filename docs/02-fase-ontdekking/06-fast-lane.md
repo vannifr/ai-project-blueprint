@@ -32,9 +32,10 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 1. **Systemen met autonome beslissingen** die personen raken (screening, scoring, toekenning).
 
 !!! check "Bewijsvoering voor Art. 50 implementatie (indien van toepassing)"
-    - [ ] Screenshot of UX-copy van disclosure/labeling in de gebruikersinterface
-    - [ ] Testcases in Gouden Set die disclosure/labeling-gedrag valideren
-    - [ ] Vermelding in Validatierapport met verwijzing naar bewijsstukken
+
+- [ ] Screenshot of UX-copy van disclosure/labeling in de gebruikersinterface
+- [ ] Testcases in Gouden Set die disclosure/labeling-gedrag valideren
+- [ ] Vermelding in Validatierapport met verwijzing naar bewijsstukken
 
 ## 3. Minimumpakket opleveringen (Fast Lane)
 

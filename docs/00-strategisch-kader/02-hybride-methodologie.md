@@ -35,17 +35,17 @@ ______________________________________________________________________
 
 ```mermaid
 gantt
-    title Hybride Methodologie
-    dateFormat  YYYY-MM-DD
-    section Voorspelbaar
-    Verkenning & Strategie     :p1, 2024-01-01, 2w
-    Het Kostenoverzicht          :p2, after p1, 1w
-    section Iteratief
-    Realisatie Sprints 1-4     :s1, after p2, 4w
-    section Voorspelbaar
-    Gate 3 (Productie-klaar) Review              :m1, after s1, 1w
-    section Iteratief
-    Realisatie Sprints 5-8     :s2, after m1, 4w
+ title Hybride Methodologie
+ dateFormat YYYY-MM-DD
+ section Voorspelbaar
+ Verkenning & Strategie :p1, 2024-01-01, 2w
+ Het Kostenoverzicht :p2, after p1, 1w
+ section Iteratief
+ Realisatie Sprints 1-4 :s1, after p2, 4w
+ section Voorspelbaar
+ Gate 3 (Productie-klaar) Review :m1, after s1, 1w
+ section Iteratief
+ Realisatie Sprints 5-8 :s2, after m1, 4w
 ```
 
 ______________________________________________________________________

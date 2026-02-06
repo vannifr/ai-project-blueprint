@@ -25,7 +25,8 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
 ## 3. Opleveringen (Dag 90)
 
 !!! check "Opleveringen Fase 3"
-    - [ ] Geformaliseerd AI Beleid & Gids v1.0.
-    - [ ] Operationeel en getraind team/afdeling.
-    - [ ] Schaalbare technische architectuur.
-    - [ ] Stappenplan voor de komende 12 maanden.
+
+- [ ] Geformaliseerd AI Beleid & Gids v1.0.
+- [ ] Operationeel en getraind team/afdeling.
+- [ ] Schaalbare technische architectuur.
+- [ ] Stappenplan voor de komende 12 maanden.

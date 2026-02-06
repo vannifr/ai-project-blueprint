@@ -17,15 +17,15 @@ Elke AI-oplossing bestaat uit een aantal lagen die samenwerken:
 
 ```
 ┌─────────────────────────────────────────┐
-│           Gebruikersinterface           │  Web, App, API, Chat
+│ Gebruikersinterface │ Web, App, API, Chat
 ├─────────────────────────────────────────┤
-│            Orkestratie-laag             │  Routing, workflow, caching
+│ Orkestratie-laag │ Routing, workflow, caching
 ├─────────────────────────────────────────┤
-│              AI-Kern (Model)            │  LLM, classifier, etc.
+│ AI-Kern (Model) │ LLM, classifier, etc.
 ├─────────────────────────────────────────┤
-│           Kenniskoppeling (RAG)         │  Vectorstore, documenten
+│ Kenniskoppeling (RAG) │ Vectorstore, documenten
 ├─────────────────────────────────────────┤
-│              Data-laag                  │  Databases, logging, storage
+│ Data-laag │ Databases, logging, storage
 └─────────────────────────────────────────┘
 ```
 

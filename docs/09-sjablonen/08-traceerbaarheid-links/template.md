@@ -13,11 +13,11 @@ ______________________________________________________________________
 
 ### Traceerbaarheidsmatrix
 
-| Doel-ID  | Doeldefinitie (Intent)         | Sturingsinstructie ID | Validatierapport ID | Status         |
-| :------- | :----------------------------- | :-------------------- | :------------------ | :------------- |
-| **D-01** | \[Vat juridische mails samen\] | \[SYSTEM-04\]         | \[RPT-22\]          | ? Geverifieerd |
-| **D-02** | \[Genereer concept-antwoord\]  | \[SYSTEM-05\]         | \[RPT-23\]          | 📍 In Review   |
-| **...**  | ...                            | ...                   | ...                 | ...            |
+| Doel-ID  | Doeldefinitie (Intent)         | Sturingsinstructie ID | Validatierapport ID | Status       |
+| :------- | :----------------------------- | :-------------------- | :------------------ | :----------- |
+| **D-01** | \[Vat juridische mails samen\] | \[SYSTEM-04\]         | \[RPT-22\]          | Geverifieerd |
+| **D-02** | \[Genereer concept-antwoord\]  | \[SYSTEM-05\]         | \[RPT-23\]          | 📍 In Review |
+| **...**  | ...                            | ...                   | ...                 | ...          |
 
 ______________________________________________________________________
 

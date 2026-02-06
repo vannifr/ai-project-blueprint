@@ -25,7 +25,8 @@ In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet wer
 ## 3. Opleveringen (Dag 30)
 
 !!! check "Opleveringen Fase 1"
-    - [ ] Lijst met gestopte/gepauzeerde projecten (besparing).
-    - [ ] Kostenoverzicht huidige AI-stack.
-    - [ ] Selectie van top 2 Use Cases voor Fase 2.
-    - [ ] Projectteam samengesteld voor de pilot.
+
+- [ ] Lijst met gestopte/gepauzeerde projecten (besparing).
+- [ ] Kostenoverzicht huidige AI-stack.
+- [ ] Selectie van top 2 Use Cases voor Fase 2.
+- [ ] Projectteam samengesteld voor de pilot.

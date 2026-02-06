@@ -7,7 +7,7 @@ laatst_herzien: '2026-02-01'
 
 ## 1. Routekeuze
 
-- **Route:** \[ \] Fast Lane  \[ \] Standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie)
+- **Route:** \[ \] Fast Lane \[ \] Standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie)
 - **Motivatie:** \[1 zin\]
 - **Fast Lane toelatingscriteria bevestigd via Risico Pre-Scan:** \[Ja/Nee\]
 
@@ -39,7 +39,8 @@ ______________________________________________________________________
 
 - **Concept:** \[Bijv. Een AI-assistent die inkomende mails samenvat en een concept-antwoord klaarzet.\]
 - **Samenwerkingsmodus:** \[Kies: 1. Instrumenteel / 2. Adviserend / 3. Collaboratief / 4. Gedelegeerd\]
-    > *Let op: Begin bij twijfel één niveau lager om vertrouwen en data op te bouwen.*
+
+> *Let op: Begin bij twijfel één niveau lager om vertrouwen en data op te bouwen.*
 
 ______________________________________________________________________
 
@@ -85,6 +86,7 @@ ______________________________________________________________________
 ### Besluit Gate 1 (Go/No-Go Ontdekking)
 
 !!! check "Besluit"
-    - [ ] **Go: Fast Lane FL-1**
-    - [ ] **Go: Standaard lifecycle Gate 1**
-    - [ ] **No-Go / Pauze**
+
+- [ ] **Go: Fast Lane FL-1**
+- [ ] **Go: Standaard lifecycle Gate 1**
+- [ ] **No-Go / Pauze**

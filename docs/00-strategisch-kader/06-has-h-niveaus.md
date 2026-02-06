@@ -21,7 +21,7 @@ ______________________________________________________________________
 
 Dit is de klassieke situatie. De AI is passief en doet niets tenzij de mens op een knop drukt. De mens is volledig verantwoordelijk voor de start, de uitvoering en het resultaat.
 
-- **Dynamiek:** Mens ? Actie ? AI ? Resultaat.
+- **Dynamiek:** Mens Actie AI Resultaat.
 - **Voorbeeld:** Een tekst vertalen met Google Translate of een formule genereren in Excel.
 - **Risico:** Laag (fouten worden direct door de gebruiker gezien).
 - **Governance:** Standaard IT-beheer.
@@ -32,7 +32,7 @@ Dit is de klassieke situatie. De AI is passief en doet niets tenzij de mens op e
 
 De AI analyseert de situatie en biedt opties of aanbevelingen. De mens fungeert als 'Gatekeeper'; er gebeurt niets zonder expliciete goedkeuring. Dit is vaak de instapfase voor professionele toepassingen.
 
-- **Dynamiek:** AI ? Suggestie ? Mens ? Goedkeuring/Actie.
+- **Dynamiek:** AI Suggestie Mens Goedkeuring/Actie.
 - **Voorbeeld:** Een copiloot die code-suggesties doet, of een systeem dat fraude markeert voor inspectie door een analist.
 - **Risico:** "Rubber stamping" (de mens keurt blind goed uit gemakzucht).
 - **Governance:** Focus op het trainen van de menselijke beoordelaar.
@@ -43,7 +43,7 @@ De AI analyseert de situatie en biedt opties of aanbevelingen. De mens fungeert 
 
 Mens en AI werken iteratief samen aan een complex probleem. Het is een ping-pong spel van ideeën waarbij het eindresultaat een mix is van beide intelligenties. Dit wordt ook wel 'Co-Intelligentie' of het 'Centaur-model' genoemd.
 
-- **Dynamiek:** Mens ? AI (Continue lus van input en feedback).
+- **Dynamiek:** Mens AI (Continue lus van input en feedback).
 - **Voorbeeld:** Samen met ChatGPT een strategisch plan brainstormen en verfijnen.
 - **Risico:** Vertroebeling van eigenaarschap (wie bedacht wat?) en verlies van eigen kritisch denkvermogen.
 - **Governance:** Richtlijnen voor bronvermelding en fact-checking.
@@ -54,7 +54,7 @@ Mens en AI werken iteratief samen aan een complex probleem. Het is een ping-pong
 
 Hier draaien we het proces om: we ontwerpen de workflow zo dat AI het 'zware werk' doet. De mens stapt uit de dagelijkse loop en grijpt alleen in als de AI aangeeft het niet te weten (laag betrouwbaarheidsscore) of als er een foutmelding is. Dit heet vaak *Human-on-the-loop*.
 
-- **Dynamiek:** AI ? Uitvoering ? (Alleen bij Fout) ? Mens.
+- **Dynamiek:** AI Uitvoering (Alleen bij Fout) Mens.
 - **Voorbeeld:** Een chatbot die zelfstandig klantvragen afhandelt en alleen doorverbindt bij boze klanten.
 - **Risico:** 'Silent failures' (fouten die niet als fout worden herkend) en degradatie van menselijke expertise omdat ze het werk nooit meer zelf doen.
 - **Governance:** Strenge geautomatiseerde monitoring en steekproeven (Audits).
@@ -65,7 +65,7 @@ Hier draaien we het proces om: we ontwerpen de workflow zo dat AI het 'zware wer
 
 Het systeem krijgt een breed mandaat (bijv. "Optimaliseer de inkoopvoorraad") en bepaalt zelf de sub-taken, timing en methode. De menselijke rol beperkt zich tot het stellen van de kaders (het beleid) en de 'Kill Switch'.
 
-- **Dynamiek:** Mens (Beleid) ? AI (Autonome Uitvoering).
+- **Dynamiek:** Mens (Beleid) AI (Autonome Uitvoering).
 - **Voorbeeld:** High-frequency trading algoritmes of volledig autonome supply chain planners.
 - **Risico:** Onvoorspelbaar emergent gedrag en kettingreacties (Flash Crashes).
 - **Governance:** 'Circuit Breakers' (noodstoppen) en beleidsmatige constraints (wat mag de AI absoluut niet).
@@ -91,10 +91,12 @@ ______________________________________________________________________
 Bij het starten van een project (Fase Discovery) moet de beoogde modus worden vastgelegd in het **Project Charter**.
 
 !!! tip "Begin laag, schaal op"
-    Start een gebruikscasus in **Modus 2 (Adviseur)** om data te verzamelen en vertrouwen te bouwen. Pas als de kwaliteit bewezen is (>90%), kan worden overgestapt naar **Modus 4 (Gedelegeerd)**.
+
+Start een gebruikscasus in **Modus 2 (Adviseur)** om data te verzamelen en vertrouwen te bouwen. Pas als de kwaliteit bewezen is (>90%), kan worden overgestapt naar **Modus 4 (Gedelegeerd)**.
 
 !!! warning "Waarschuwing"
-    Probeer niet direct naar Modus 4 of 5 te springen zonder de tussenliggende leerfases.
+
+Probeer niet direct naar Modus 4 of 5 te springen zonder de tussenliggende leerfases.
 
 ______________________________________________________________________
 

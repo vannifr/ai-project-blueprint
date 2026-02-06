@@ -21,9 +21,9 @@ laatst_herzien: '2026-02-01'
 
 **Top 3 bevindingen:**
 
-1. ”¦
-1. ”¦
-1. ”¦
+1. ...
+1. ...
+1. ...
 
 ______________________________________________________________________
 
@@ -52,7 +52,7 @@ ______________________________________________________________________
 ### Gouden Set
 
 - **Aantal cases:** \[minimaal volgens Bewijsstandaarden\]
-- **Herkomst:** \[tickets, e-mails, calls, formulieren”¦\]
+- **Herkomst:** \[tickets, e-mails, calls, formulieren...\]
 - **Dekking:** \[80/15/5 of 70/20/10 afhankelijk risiconiveau\]
 
 ### Adversarial set (verplicht bij Beperkt/Hoog)
@@ -120,4 +120,4 @@ ______________________________________________________________________
 
 ## 9. Go/No-Go ondertekening
 
-**Tech Lead:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  **AI Product Manager:** \_\_\_\_\_\_\_\_\_\_\_  **Guardian:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Tech Lead:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **AI Product Manager:** \_\_\_\_\_\_\_\_\_\_\_ **Guardian:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

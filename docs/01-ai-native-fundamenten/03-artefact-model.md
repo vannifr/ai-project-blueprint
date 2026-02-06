@@ -15,6 +15,6 @@ Om AI-systemen beheersbaar te maken, beheren we specifieke artefacten die grip g
 | **Rode Lijnen**         | **Harde grenzen:** Wat mag NOOIT gebeuren? (*Constraints*)           | Guardian (Ethicist) | IF/THEN regels ("ALS PII, DAN blokkeren")                                                    |
 | **Sturingsinstructies** | **Sturing:** De configuratie die de AI stuurt (prompts, RAG).        | ML Engineer         | Versiebeheerde config (bijvoorbeeld YAML, JSON, Markdown of andere gestructureerde formaten) |
 | **Validatierapport**    | **Bewijs:** Resultaten van testen en metingen (*Evidence*).          | QA Engineer         | Gestructureerd rapport met metrics                                                           |
-| **Traceerbaarheid**     | **Verbinding:** Koppeling tussen Doel ? Instructie ? Bewijs.         | ML Engineer         | Referenties (ID's / Git SHAs)                                                                |
+| **Traceerbaarheid**     | **Verbinding:** Koppeling tussen Doel Instructie Bewijs.             | ML Engineer         | Referenties (ID's / Git SHAs)                                                                |
 
 ______________________________________________________________________

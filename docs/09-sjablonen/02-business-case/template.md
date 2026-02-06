@@ -26,12 +26,12 @@ ______________________________________________________________________
 *Wat zijn de totale kosten voor ontwikkeling en beheer?*
 
 - **Investering (Capex):**
-    - Uren team (Project Management, Data Science, Engineering).
-    - Initiële data-acquisitie of tooling.
+- Uren team (Project Management, Data Science, Engineering).
+- Initiële data-acquisitie of tooling.
 - **Gebruikskosten (Opex):**
-    - API / Token kosten per maand.
-    - Compute / Hosting (Cloud).
-    - Onderhoud & Monitoring door team.
+- API / Token kosten per maand.
+- Compute / Hosting (Cloud).
+- Onderhoud & Monitoring door team.
 
 ______________________________________________________________________
 

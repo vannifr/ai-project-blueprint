@@ -14,14 +14,14 @@ ______________________________________________________________________
 ## 2. Kernprincipe: Specificatie Vóór Implementatie
 
 ```
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│   Doelkaart     │ --> │  Specificatie   │ --> │  Implementatie  │
-│   (Intent)      │     │  (Contract)     │     │  (Code/Prompts) │
-└─────────────────┘     └─────────────────┘     └─────────────────┘
-         │                      │                       │
-         v                      v                       v
-    Wat willen we?      Hoe gedraagt het    Hoe bouwen we het?
-                           zich precies?
+┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
+│ Doelkaart │ --> │ Specificatie │ --> │ Implementatie │
+│ (Intent) │ │ (Contract) │ │ (Code/Prompts) │
+└─────────────────┘ └─────────────────┘ └─────────────────┘
+ │ │ │
+ v v v
+ Wat willen we? Hoe gedraagt het Hoe bouwen we het?
+ zich precies?
 ```
 
 **Het verschil met traditionele ontwikkeling:**
