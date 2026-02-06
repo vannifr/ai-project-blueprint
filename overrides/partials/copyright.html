@@ -2,7 +2,14 @@
   {% if config.copyright %}
     <div class="md-copyright__highlight">
       {% if page and page.meta and page.meta.versie %}
-        Versie {{ page.meta.versie }} | Laatst herzien: {{ page.meta.laatst_herzien }} |
+        Versie {{ page.meta.versie }} |
+        Laatst herzien:
+        {% if page.meta.git_revision_date_localized %}
+          {{ page.meta.git_revision_date_localized }}
+        {% else %}
+          {{ page.meta.laatst_herzien }}
+        {% endif %}
+        |
       {% endif %}
       {{ config.copyright }}
     </div>

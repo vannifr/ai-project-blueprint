@@ -50,6 +50,9 @@ markdown_extensions:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      locale: nl
+      type: date
   - htmlproofer:
       enabled: !ENV [HTMLPROOFER_ENABLED, False]
       raise_error: true
