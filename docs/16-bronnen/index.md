@@ -3,15 +3,29 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Bronnen & Inspiratie
+# Bronnen & Inspiratie
 
-## 📖 1. Overzicht
+## 1. Overzicht
 
 Dit project is tot stand gekomen door de synthese van internationale industrie-standaarden, academisch onderzoek en praktische ervaringen in AI-projectmanagement. Hieronder volgt een overzicht van de belangrijkste bronnen die als fundament en inspiratie hebben gediend.
 
 ______________________________________________________________________
 
-## 📖 2. Externe Standaarden & Methodologieën
+## 2. Primaire bronnen (audit)
+
+De volgende bronnen vormen de juridische en technische ruggengraat van deze gids en zijn geschikt voor audit-doeleinden.
+
+| Ref ID        | Bron                       | Beschrijving                                           | Status       |
+| :------------ | :------------------------- | :----------------------------------------------------- | :----------- |
+| **\[so-27\]** | EU AI Act (Official Text)  | Officiële wettekst & Verordening (EU) 2024/1689        | Definitief   |
+| **\[so-36\]** | EU AI Act (Implementation) | Gefaseerde inwerkingtreding & deadlines                | Actief       |
+| **\[so-28\]** | DORA GenAI Report v2025.2  | DevOps Research & Assessment rapport over GenAI impact | Gepubliceerd |
+| **\[so-1\]**  | NIST IR 8605 (Draft)       | A Framework for Managing Risks of Generative AI        | Public Draft |
+| **\[so-10\]** | arXiv:2505.10924           | Man-in-the-Middle Attacks on LLM-based Agents          | Preprint     |
+
+______________________________________________________________________
+
+## 3. Externe Standaarden & Methodologieën
 
 De procesinrichting van deze Gids is getoetst aan en geïnspireerd door de volgende internationale raamwerken:
 
@@ -32,7 +46,7 @@ De procesinrichting van deze Gids is getoetst aan en geïnspireerd door de volge
 
 ______________________________________________________________________
 
-## 📖 3. Wet- en Regelgeving
+## 4. Wet- en Regelgeving
 
 De governance en compliance onderdelen (zoals **Risicobeheersing & Compliance**) zijn direct afgeleid van:
 
@@ -43,10 +57,16 @@ De governance en compliance onderdelen (zoals **Risicobeheersing & Compliance**)
 
 ______________________________________________________________________
 
-## 📖 4. Academisch & Onderzoek
+## 5. Academisch & Onderzoek
 
 - **Stanford Digital Economy Lab - Future of Work:** Onderzoek naar de impact van AI op werk en de economie.
-- **DORA 2025 Research Report:** State of DevOps en de impact van AI op softwarelevering.
 - **MIT NANDA - The GenAI Divide (2025):** Rapport over de kloof in AI-executie binnen het bedrijfsleven.
 
 ______________________________________________________________________
+
+## 6. Secundaire duiding (optioneel)
+
+De volgende bronnen bieden aanvullende context en interpretatie, maar gelden niet als primaire audit-bronnen.
+
+- MayerBrown — EU AI Act analysis and commentary
+- Overige secundaire duiding enkel na review door Guardian

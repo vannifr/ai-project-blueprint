@@ -39,7 +39,7 @@ ______________________________________________________________________
     **Norm:** zeer beperkt (zie tabel).
 - **Minor:** stijl/format/kleine onvolledigheid zonder besluit-impact.
 
-### 3.2 “Significant prestatieverloop”
+### 3.2 "Significant prestatieverloop"
 
 Prestatieverloop is **significant** als één van onderstaande optreedt t.o.v. de nulmeting:
 
@@ -55,15 +55,15 @@ ______________________________________________________________________
 
 Elke Gate Review baseert zich minimaal op deze documenten:
 
-1. **Gouden Set Test Test & Acceptatie Protocol** (de aanpak)
-1. **Doelkaart Validatierapport** (de resultaten + conclusie)
-1. **Gate Review Checklist Technische Modelkaart** (wat draait er precies)
-1. **Business Case Doelkaart** (wat moest het doen + Rode Lijnen)
-1. **Risico Pre-Scan Risico Pre-Scan** (risicoklasse)
+1. **[Gouden Set Test & Acceptatie Protocol](../09-sjablonen/07-validatie-bewijs/template.md)** (de aanpak)
+1. **[Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)** (de resultaten + conclusie)
+1. **[Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md)** (wat draait er precies)
+1. **[Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (wat moest het doen + Rode Lijnen)
+1. **[Risico Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)** (risicoklasse)
 
 ______________________________________________________________________
 
-## 5. Minimale eisen aan testsets (“Gouden Set”)
+## 5. Minimale eisen aan testsets ("Gouden Set")
 
 | Risiconiveau | Minimale grootte Gouden Set | Verplichte onderdelen                                        |
 | ------------ | --------------------------: | ------------------------------------------------------------ |
@@ -73,15 +73,15 @@ ______________________________________________________________________
 
 **Extra regels (alle niveaus):**
 
-- Testcases zijn **realistische praktijkvoorbeelden** (geen synthetische “happy flow only”).
+- Testcases zijn **realistische praktijkvoorbeelden** (geen synthetische "happy flow only").
 - Elke testcase heeft: **verwachte uitkomst** of **beoordelingscriteria**.
-- Adversarial set bevat expliciet: jailbreaks, prompt-injectie, policy-omzeiling, “verzin bron”-trucs.
+- Adversarial set bevat expliciet: jailbreaks, prompt-injectie, policy-omzeiling, "verzin bron"-trucs.
 
 ______________________________________________________________________
 
 ## 6. Meetcriteria en minimale normen (per risiconiveau)
 
-> *Als jouw gebruikscasus geen “accuracy” heeft (bijv. generatieve tekst), gebruik je “Feitelijkheid”, “Compleetheid” en “Relevantie” als primaire maatstaven.*
+> *Als jouw gebruikscasus geen "accuracy" heeft (bijv. generatieve tekst), gebruik je "Feitelijkheid", "Compleetheid" en "Relevantie" als primaire maatstaven.*
 
 ### 6.1 Normtabel
 
@@ -91,7 +91,7 @@ ______________________________________________________________________
 | **Major fouten (max)**                             |            ≤ 2 in testset |                  ≤ 1 in testset |           ≤ 0–1 in testset *(Guardian beslist)* |
 | **Feitelijkheid** *(geen feitelijke onjuistheden)* |                     ≥ 98% |                           ≥ 99% |                                         ≥ 99,5% |
 | **Relevantie (1–5)**                               |                     ≥ 4,0 |                           ≥ 4,2 |                                           ≥ 4,5 |
-| **Veiligheid: “moet weigeren” prompts**                                                    |            100% weigering |                  100% weigering |                                  100% weigering |
+| **Veiligheid: "moet weigeren" prompts**            |            100% weigering |                  100% weigering |                                  100% weigering |
 | **Transparantie (AI-disclaimer waar vereist)**     | n.v.t./100% indien extern |      100% indien van toepassing |                      100% indien van toepassing |
 | **Eerlijkheidstoets** *(bias)*                     |    kwalitatief (Guardian) |     kwali + kwant waar mogelijk |                 verplicht kwant + mitigatieplan |
 | **Audit trail (logging compleetheid)**             |         minimaal metadata | 100% metadata + sampling output |         100% input/output + herleidbare context |
@@ -114,7 +114,7 @@ ______________________________________________________________________
 - **Gebruikscasus / endpoint**
 - **Modelnaam + versie**
 - **Prompt-/Sturingsinstructies versie**
-- **Bronnen gebruikt** (bij Kenniskoppeling: document-ID’s/URLs)
+- **Bronnen gebruikt** (bij Kenniskoppeling: document-ID's/URLs)
 - **Output**
 - **Human override** (ja/nee + reden)
 
@@ -131,5 +131,5 @@ ______________________________________________________________________
 
 - **Gate 1 (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
 - **Gate 2 (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
-- **Gate 3 (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit Â§6 + logging-plan + incidentprocedure.
+- **Gate 3 (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit §6 + logging-plan + incidentprocedure.
 - **Gate 4 (Livegang) (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.

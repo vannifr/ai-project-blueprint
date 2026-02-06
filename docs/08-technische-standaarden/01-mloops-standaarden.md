@@ -7,7 +7,7 @@ laatst_herzien: '2026-02-01'
 
 ## 1. Doel
 
-Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, inclusief een realistische route:
+Deze module definieert wat "productiewaardig" betekent voor AI-oplossingen, inclusief een realistische route:
 
 - **Basis** (handmatige governance, minimale automatisering)
 - **Gevorderd** (meer automatisering, CI/CD/kwaliteitspoorten)
@@ -44,14 +44,14 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 ### 3.4 Kwaliteit & bewijs
 
 - [ ] Gouden Set bestaat en wordt gebruikt
-- [ ] Doelkaart Validatierapport beschikbaar voor pilot/RC
-- [ ] Voldoet aan Bewijsstandaarden normen voor risiconiveau
+- [ ] [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md) beschikbaar voor pilot/RC
+- [ ] Voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) normen voor risiconiveau
 
 ## 4. Basisroute (zonder zware MLOps)
 
 **Doel:** veilig live met minimale tooling.
 
-- Gebruik sjablonen als “single source of truth”
+- Gebruik sjablonen als "single source of truth"
 - Plan vaste evaluatiemomenten (bijv. wekelijks in pilot, maandelijks in beheer)
 - Logging minimaal: metadata + sampling output (waar privacy toelaat)
 
@@ -60,14 +60,14 @@ Deze module definieert wat “productiewaardig” betekent voor AI-oplossingen, 
 **Doel:** schaalbaar beheer bij meerdere use cases.
 
 - Automatische regressietests op Gouden Set bij elke wijziging
-- Automatisch genereren van Doelkaart uit testruns (waar mogelijk)
-- Integratie van policy checks: “geen Validatierapport = geen release”
+- Automatisch genereren van Validatierapport uit testruns (waar mogelijk)
+- Integratie van policy checks: "geen Validatierapport = geen release"
 
 ## 6. Definition of Done voor Livegang (checklist)
 
 Een oplossing mag live als:
 
-- [ ] Gate 3 (Productie-klaar) akkoord (Doelkaart RC voldoet aan Bewijsstandaarden)
+- [ ] Gate 3 (Productie-klaar) akkoord (Validatierapport RC voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md))
 - [ ] Logging/retentie ingericht (incl. privacymaatregelen)
 - [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
 - [ ] Owner voor beheer benoemd + monitoring actief

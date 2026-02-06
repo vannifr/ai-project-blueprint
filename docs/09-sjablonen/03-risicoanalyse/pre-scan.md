@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Risico Pre-Scan (Gate 1 Checklist)
+# Risico Pre-Scan (Gate 1 Checklist)
 
-## 📖 Doel
+## Doel
 
 Dit sjabloon dient voor de initiële risico-inventarisatie in **Verkenning & Strategie** (Fase 1). Het helpt bij het vroegtijdig identificeren van blokkades op het gebied van wetgeving (EU AI Act), privacy en ethiek.
 
@@ -16,18 +16,18 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 Deel A: EU AI Act Classificatie
+### Deel A: EU AI Act Classificatie
 
 *Kruis aan wat van toepassing is. Als één van deze 'Ja' is, bepaalt dat de risicocategorie.*
 
-#### 1. Verboden Praktijken (📍 ONACCEPTABEL)
+#### 1. Verboden Praktijken (ONACCEPTABEL)
 
 - [ ] Gebruikt het systeem subliminale technieken om gedrag te manipuleren?
 - [ ] Wordt er gebruik gemaakt van biometrische categorisering (ras, politiek, religie)?
 - [ ] Wordt er in openbare ruimtes real-time biometrische identificatie toegepast?
     > **Indien JA op één van bovenstaande: STOP PROJECT DIRECT.**
 
-#### 2. Hoog Risico Systemen (📍 HOOG RISICO)
+#### 2. Hoog Risico Systemen (HOOG RISICO)
 
 - [ ] Wordt het gebruikt in kritieke infrastructuur (water, energie, verkeer)?
 - [ ] Beslist het over toegang tot onderwijs of beoordeling van studenten?
@@ -35,21 +35,35 @@ ______________________________________________________________________
 - [ ] Beslist het over toegang tot diensten (krediet, uitkeringen, verzekeringen)?
     > **Indien JA: Volledige compliance verplicht (Technisch Dossier, CE-markering).**
 
-#### 3. Beperkt Risico (📍 BEPERKT RISICO)
+#### 3. Transparantieverplichtingen (Art. 50)
 
-- [ ] Is er directe interactie met mensen (chatbot, emotie-herkenning)?
-- [ ] Genereert het systeem inhoud (tekst, beeld, geluid)?
-    > **Indien JA: Transparantieplicht (Gebruiker moet weten dat het AI is).**
+- [ ] Is er directe interactie met mensen (chatbot, virtuele assistent)?
+- [ ] Genereert het systeem synthetische of gemanipuleerde content (tekst, beeld, geluid)?
+    > **Indien JA: Transparantieplicht (Gebruiker moet weten dat het AI is, content moet gelabeld worden waar vereist).**
 
 ______________________________________________________________________
 
-### 🎯 Deel B: Privacy & Data (AVG)
+### Deel A.2: GPAI & Rolbepaling
+
+Beantwoord onderstaande vragen om te bepalen of aanvullende EU AI Act verplichtingen van toepassing zijn.
+
+- [ ] Gebruiken wij een GPAI/foundation model van een derde partij?
+- [ ] Zijn wij deployer of (deels) provider (bijvoorbeeld door fine-tuning of eigen distributie)?
+- [ ] Valt dit systeem onder Art. 50 transparantieverplichtingen (chatbot, synthetische content, of content met manipulatief potentieel)?
+- [ ] Is er een AI-geletterdheidsplan voor betrokken rollen (verplicht vanaf 2 februari 2025)?
+
+**Indien één of meer vragen met "Ja" worden beantwoord:**
+Raadpleeg de uitgebreide guidance in [EU AI Act Compliance](../../07-compliance-hub/01-eu-ai-act/index.md).
+
+______________________________________________________________________
+
+### Deel B: Privacy & Data (AVG)
 
 - **Worden er persoonsgegevens verwerkt?** \[Ja/Nee\]
 - **Is er een wettelijke grondslag voor dit gebruik?** \[Ja/Nee\]
 - **Wordt data gedeeld met externe partijen (bijv. OpenAI, Azure)?** \[Ja/Nee\]
 
-#### B.4 DPIA-triggers (indien één “Ja”: DPIA starten of DPO raadplegen)
+#### B.4 DPIA-triggers (indien één "Ja": DPIA starten of DPO raadplegen)
 
 - [ ] Grootschalige verwerking van persoonsgegevens
 - [ ] Systematische monitoring van gedrag (bijv. profiling)
@@ -59,7 +73,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 Deel C: Ethische Quickscan
+### Deel C: Ethische Quickscan
 
 - **Kan het systeem groepen discrimineren of uitsluiten (Bias)?** \[Ja/Nee\]
 - **Is de werking uitlegbaar aan een leek?** \[Ja/Nee\]
@@ -67,7 +81,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 Conclusie & Advies Guardian
+### Conclusie & Advies Guardian
 
 - **Definitief Risiconiveau:** \[Laag / Beperkt / Hoog / Verboden\]
 - **Actievereisten:** \[Bijv. "DPIA uitvoeren", "Validatierapport opstellen", "Disclaimer toevoegen"\]
