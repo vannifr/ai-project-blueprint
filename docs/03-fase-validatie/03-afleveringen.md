@@ -17,12 +17,13 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 
 ## 2. Gate 2 (Investering PoV) Review Checklist
 
-- [ ] Voldoet het bewijs aan de normen uit [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) (Feitelijkheid, Relevantie, etc.)?
-- [ ] Is het **[Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)** volledig ingevuld en ondertekend?
-- [ ] Zijn de resultaten reproduceerbaar en stabiel?
-- [ ] Is de ROI positief binnen acceptabele termijn?
-- [ ] Zijn de operationele kosten beheersbaar?
-- [ ] Is er commitment voor de volgende fase (Realisatie)?
+!!! check "Review Checklist"
+    - [ ] Voldoet het bewijs aan de normen uit [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) (Feitelijkheid, Relevantie, etc.)?
+    - [ ] Is het **[Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)** volledig ingevuld en ondertekend?
+    - [ ] Zijn de resultaten reproduceerbaar en stabiel?
+    - [ ] Is de ROI positief binnen acceptabele termijn?
+    - [ ] Zijn de operationele kosten beheersbaar?
+    - [ ] Is er commitment voor de volgende fase (Realisatie)?
 
 ## 3. Gerelateerde Sjablonen
 

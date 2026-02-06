@@ -16,13 +16,14 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 
 ## 2. Gate 1 (Go/No-Go Ontdekking) Review Checklist
 
-- [ ] Is het probleem helder gearticuleerd vanuit gebruikersperspectief?
-- [ ] Is AI de juiste oplossing (niet te complex, niet te simpel)?
-- [ ] Hebben we toegang tot de benodigde data?
-- [ ] Is de datakwaliteit voldoende voor een eerste experiment?
-- [ ] Zijn de belangrijkste risico's geïdentificeerd?
-- [ ] Is er commitment van de business sponsor?
-- [ ] Is het team compleet en beschikbaar?
+!!! check "Review Checklist"
+    - [ ] Is het probleem helder gearticuleerd vanuit gebruikersperspectief?
+    - [ ] Is AI de juiste oplossing (niet te complex, niet te simpel)?
+    - [ ] Hebben we toegang tot de benodigde data?
+    - [ ] Is de datakwaliteit voldoende voor een eerste experiment?
+    - [ ] Zijn de belangrijkste risico's geïdentificeerd?
+    - [ ] Is er commitment van de business sponsor?
+    - [ ] Is het team compleet en beschikbaar?
 
 ## 3. Gerelateerde Sjablonen
 

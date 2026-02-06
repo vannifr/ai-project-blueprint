@@ -18,12 +18,13 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 
 ## 2. Gate 3 (Productie-klaar) Review Checklist
 
-- [ ] Voldoet de Release Candidate aan de normen uit **Bewijsstandaarden**?
-- [ ] Is het systeem technisch stabiel en zijn alle tests geslaagd?
-- [ ] Is de performance acceptabel (latency, throughput)?
-- [ ] Is de technische documentatie compleet en actueel?
-- [ ] Zijn alle beveiligingseisen geïmplemented?
-- [ ] Is het **Ingebruikname Plan** getest en goedgekeurd?
+!!! check "Review Checklist"
+    - [ ] Voldoet de Release Candidate aan de normen uit **Bewijsstandaarden**?
+    - [ ] Is het systeem technisch stabiel en zijn alle tests geslaagd?
+    - [ ] Is de performance acceptabel (latency, throughput)?
+    - [ ] Is de technische documentatie compleet en actueel?
+    - [ ] Zijn alle beveiligingseisen geïmplemented?
+    - [ ] Is het **Ingebruikname Plan** getest en goedgekeurd?
 
 ## 3. Gerelateerde Sjablonen
 

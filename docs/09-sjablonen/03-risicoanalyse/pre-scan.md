@@ -20,37 +20,36 @@ ______________________________________________________________________
 
 *Kruis aan wat van toepassing is. Als één van deze 'Ja' is, bepaalt dat de risicocategorie.*
 
-#### Verboden Praktijken (ONACCEPTABEL)
+!!! check "Verboden Praktijken (ONACCEPTABEL)"
+    - [ ] Gebruikt het systeem subliminale technieken om gedrag te manipuleren?
+    - [ ] Wordt er gebruik gemaakt van biometrische categorisering (ras, politiek, religie)?
+    - [ ] Wordt er in openbare ruimtes real-time biometrische identificatie toegepast?
 
-- [ ] Gebruikt het systeem subliminale technieken om gedrag te manipuleren?
-- [ ] Wordt er gebruik gemaakt van biometrische categorisering (ras, politiek, religie)?
-- [ ] Wordt er in openbare ruimtes real-time biometrische identificatie toegepast?
-    > **Indien JA op één van bovenstaande: STOP PROJECT DIRECT.**
+    **Indien JA op één van bovenstaande: STOP PROJECT DIRECT.**
 
-#### Hoog Risico Systemen (HOOG RISICO)
+!!! check "Hoog Risico Systemen (HOOG RISICO)"
+    - [ ] Wordt het gebruikt in kritieke infrastructuur (water, energie, verkeer)?
+    - [ ] Beslist het over toegang tot onderwijs of beoordeling van studenten?
+    - [ ] Beslist het over werving, selectie of promotie van werknemers?
+    - [ ] Beslist het over toegang tot diensten (krediet, uitkeringen, verzekeringen)?
 
-- [ ] Wordt het gebruikt in kritieke infrastructuur (water, energie, verkeer)?
-- [ ] Beslist het over toegang tot onderwijs of beoordeling van studenten?
-- [ ] Beslist het over werving, selectie of promotie van werknemers?
-- [ ] Beslist het over toegang tot diensten (krediet, uitkeringen, verzekeringen)?
-    > **Indien JA: Volledige compliance verplicht (Technisch Dossier, CE-markering).**
+    **Indien JA: Volledige compliance verplicht (Technisch Dossier, CE-markering).**
 
-#### Transparantieverplichtingen (Art. 50)
+!!! check "Transparantieverplichtingen (Art. 50)"
+    - [ ] Is er directe interactie met mensen (chatbot, virtuele assistent)?
+    - [ ] Genereert het systeem synthetische of gemanipuleerde content (tekst, beeld, geluid)?
 
-- [ ] Is er directe interactie met mensen (chatbot, virtuele assistent)?
-- [ ] Genereert het systeem synthetische of gemanipuleerde content (tekst, beeld, geluid)?
-    > **Indien JA: Transparantieplicht (Gebruiker moet weten dat het AI is, content moet gelabeld worden waar vereist).**
+    **Indien JA: Transparantieplicht (Gebruiker moet weten dat het AI is, content moet gelabeld worden waar vereist).**
 
 ______________________________________________________________________
 
 ### Deel A.2: GPAI & Rolbepaling
 
-Beantwoord onderstaande vragen om te bepalen of aanvullende EU AI Act verplichtingen van toepassing zijn.
-
-- [ ] Gebruiken wij een GPAI/foundation model van een derde partij?
-- [ ] Zijn wij deployer of (deels) provider (bijvoorbeeld door fine-tuning of eigen distributie)?
-- [ ] Valt dit systeem onder Art. 50 transparantieverplichtingen (chatbot, synthetische content, of content met manipulatief potentieel)?
-- [ ] Is er een AI-geletterdheidsplan voor betrokken rollen (verplicht vanaf 2 februari 2025)?
+!!! check "Rolbepaling & Verplichtingen"
+    - [ ] Gebruiken wij een GPAI/foundation model van een derde partij?
+    - [ ] Zijn wij deployer of (deels) provider (bijvoorbeeld door fine-tuning of eigen distributie)?
+    - [ ] Valt dit systeem onder Art. 50 transparantieverplichtingen (chatbot, synthetische content, of content met manipulatief potentieel)?
+    - [ ] Is er een AI-geletterdheidsplan voor betrokken rollen (verplicht vanaf 2 februari 2025)?
 
 **Indien één of meer vragen met "Ja" worden beantwoord:**
 Raadpleeg de uitgebreide guidance in [EU AI Act Compliance](../../07-compliance-hub/01-eu-ai-act/index.md).
@@ -65,11 +64,12 @@ ______________________________________________________________________
 
 #### B.4 DPIA-triggers (indien één "Ja": DPIA starten of DPO raadplegen)
 
-- [ ] Grootschalige verwerking van persoonsgegevens
-- [ ] Systematische monitoring van gedrag (bijv. profiling)
-- [ ] Gebruik van bijzondere persoonsgegevens
-- [ ] Geautomatiseerde beoordeling met significante impact op personen
-- [ ] Nieuwe technologie + hoge risico context (twijfel = DPO betrekken)
+!!! check "DPIA Triggers"
+    - [ ] Grootschalige verwerking van persoonsgegevens
+    - [ ] Systematische monitoring van gedrag (bijv. profiling)
+    - [ ] Gebruik van bijzondere persoonsgegevens
+    - [ ] Geautomatiseerde beoordeling met significante impact op personen
+    - [ ] Nieuwe technologie + hoge risico context (twijfel = DPO betrekken)
 
 ______________________________________________________________________
 

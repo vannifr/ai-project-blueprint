@@ -16,12 +16,13 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 
 ## 2. Gate 4 (Livegang) Review Checklist
 
-- [ ] Is de technische koppeling stabiel en veilig?
-- [ ] Zijn de regie-protocollen voor menselijk toezicht getest en begrepen?
-- [ ] Hebben alle relevante gebruikers de adoptie-training afgerond?
-- [ ] Is het Compliance Dossier compleet en gearchiveerd?
-- [ ] Is er een duidelijke procedure voor incidenten?
-- [ ] Is de business sponsor tevreden met de acceptatie in de organisatie?
+!!! check "Review Checklist"
+    - [ ] Is de technische koppeling stabiel en veilig?
+    - [ ] Zijn de regie-protocollen voor menselijk toezicht getest en begrepen?
+    - [ ] Hebben alle relevante gebruikers de adoptie-training afgerond?
+    - [ ] Is het Compliance Dossier compleet en gearchiveerd?
+    - [ ] Is er een duidelijke procedure voor incidenten?
+    - [ ] Is de business sponsor tevreden met de acceptatie in de organisatie?
 
 ## 3. Gerelateerde Sjablonen
 
