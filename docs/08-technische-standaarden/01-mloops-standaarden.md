@@ -23,29 +23,25 @@ Deze module definieert wat "productiewaardig" betekent voor AI-oplossingen, incl
 
 ## 3. Minimum Technical Baseline (moet elk team halen)
 
-### Reproduceerbaarheid & wijzigingsbeheer
+!!! check "Reproduceerbaarheid & wijzigingsbeheer"
+    - [ ] Code/instructies staan in versiebeheer (repo)
+    - [ ] Config (modelversie, instellingen) is traceerbaar
+    - [ ] Release is tagbaar (RC-1, v1.0) + rollback plan bestaat
 
-- [ ] Code/instructies staan in versiebeheer (repo)
-- [ ] Config (modelversie, instellingen) is traceerbaar
-- [ ] Release is tagbaar (RC-1, v1.0) + rollback plan bestaat
+!!! check "Security & toegang"
+    - [ ] Secrets niet hardcoded; toegang via veilige opslag
+    - [ ] Role-based access (wie mag prompts/config wijzigen?)
+    - [ ] Least privilege op data-bronnen
 
-### Security & toegang
+!!! check "Observability (minimaal)"
+    - [ ] Logging aanwezig (modelversie, promptversie, bron-IDs, output-status)
+    - [ ] Basis metrics: foutpercentage, latency, volume
+    - [ ] Incidentproces is bekend (wie belt wie)
 
-- [ ] Secrets niet hardcoded; toegang via veilige opslag
-- [ ] Role-based access (wie mag prompts/config wijzigen?)
-- [ ] Least privilege op data-bronnen
-
-### Observability (minimaal)
-
-- [ ] Logging aanwezig (modelversie, promptversie, bron-IDs, output-status)
-- [ ] Basis metrics: foutpercentage, latency, volume
-- [ ] Incidentproces is bekend (wie belt wie)
-
-### Kwaliteit & bewijs
-
-- [ ] Gouden Set bestaat en wordt gebruikt
-- [ ] [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md) beschikbaar voor pilot/RC
-- [ ] Voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) normen voor risiconiveau
+!!! check "Kwaliteit & bewijs"
+    - [ ] Gouden Set bestaat en wordt gebruikt
+    - [ ] [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md) beschikbaar voor pilot/RC
+    - [ ] Voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) normen voor risiconiveau
 
 ## 4. Basisroute (zonder zware MLOps)
 
@@ -63,12 +59,11 @@ Deze module definieert wat "productiewaardig" betekent voor AI-oplossingen, incl
 - Automatisch genereren van Validatierapport uit testruns (waar mogelijk)
 - Integratie van policy checks: "geen Validatierapport = geen release"
 
-## 6. Definition of Done voor Livegang (checklist)
+## 6. Definition of Done voor Livegang
 
-Een oplossing mag live als:
-
-- [ ] Gate 3 (Productie-klaar) akkoord (Validatierapport RC voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md))
-- [ ] Logging/retentie ingericht (incl. privacymaatregelen)
-- [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
-- [ ] Owner voor beheer benoemd + monitoring actief
-- [ ] Gebruikersinstructies + transparantie (indien relevant) gepubliceerd
+!!! check "Livegang Checklist"
+    - [ ] Gate 3 (Productie-klaar) akkoord (Validatierapport RC voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md))
+    - [ ] Logging/retentie ingericht (incl. privacymaatregelen)
+    - [ ] Incident & rollback procedure getest (tabletop oefening of simulatie)
+    - [ ] Owner voor beheer benoemd + monitoring actief
+    - [ ] Gebruikersinstructies + transparantie (indien relevant) gepubliceerd

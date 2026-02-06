@@ -87,12 +87,13 @@ ______________________________________________________________________
 
 ## 5. Checklist voor Livegang
 
-- [ ] Data-ingestie draait stabiel in productie-omgeving
-- [ ] Kwaliteitscontroles zijn geïmplementeerd en getest
-- [ ] Transformatielogica is gereviewd en gedocumenteerd
-- [ ] Dataversioning is ingericht
-- [ ] Monitoring en alerting zijn actief
-- [ ] Privacy-maatregelen zijn geïmplementeerd en gevalideerd
+!!! check "5. Checklist voor Livegang"
+    - [ ] Data-ingestie draait stabiel in productie-omgeving
+    - [ ] Kwaliteitscontroles zijn geïmplementeerd en getest
+    - [ ] Transformatielogica is gereviewd en gedocumenteerd
+    - [ ] Dataversioning is ingericht
+    - [ ] Monitoring en alerting zijn actief
+    - [ ] Privacy-maatregelen zijn geïmplementeerd en gevalideerd
 
 ______________________________________________________________________
 

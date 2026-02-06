@@ -161,12 +161,13 @@ ______________________________________________________________________
 
 ## 7. Checklist SDD
 
-- [ ] Doelkaart is opgesteld en goedgekeurd
-- [ ] Specificatie is uitgewerkt met input/output/gedragsregels
-- [ ] Specificatie is gereviewd door Tech Lead en Guardian
-- [ ] Gouden Set is afgeleid uit specificatie
-- [ ] Implementatie is gevalideerd tegen specificatie
-- [ ] Afwijkingen zijn gedocumenteerd en opgelost
+!!! check "7. Checklist SDD"
+    - [ ] Doelkaart is opgesteld en goedgekeurd
+    - [ ] Specificatie is uitgewerkt met input/output/gedragsregels
+    - [ ] Specificatie is gereviewd door Tech Lead en Guardian
+    - [ ] Gouden Set is afgeleid uit specificatie
+    - [ ] Implementatie is gevalideerd tegen specificatie
+    - [ ] Afwijkingen zijn gedocumenteerd en opgelost
 
 ______________________________________________________________________
 

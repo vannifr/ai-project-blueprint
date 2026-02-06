@@ -224,13 +224,14 @@ ______________________________________________________________________
 
 ## 9. Checklist Drift Monitoring
 
-- [ ] Nulmeting is vastgelegd bij livegang
-- [ ] Periodieke Gouden Set testing is ingepland
-- [ ] Real-time monitoring is actief
-- [ ] Drempelwaarden zijn geconfigureerd
-- [ ] Alerting is gekoppeld aan verantwoordelijken
-- [ ] Responsprotocol is gedocumenteerd en bekend
-- [ ] Feedbackkanalen zijn ingericht
+!!! check "9. Checklist Drift Monitoring"
+    - [ ] Nulmeting is vastgelegd bij livegang
+    - [ ] Periodieke Gouden Set testing is ingepland
+    - [ ] Real-time monitoring is actief
+    - [ ] Drempelwaarden zijn geconfigureerd
+    - [ ] Alerting is gekoppeld aan verantwoordelijken
+    - [ ] Responsprotocol is gedocumenteerd en bekend
+    - [ ] Feedbackkanalen zijn ingericht
 
 ______________________________________________________________________
 

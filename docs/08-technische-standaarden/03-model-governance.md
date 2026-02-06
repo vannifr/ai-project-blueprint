@@ -115,11 +115,12 @@ ______________________________________________________________________
 
 ## 7. Checklist Model Governance
 
-- [ ] Model registry is ingericht en up-to-date
-- [ ] Alle productiemodellen hebben een eigenaar
-- [ ] Goedkeuringsworkflow is gedocumenteerd en wordt gevolgd
-- [ ] Wijzigingsbeheer is ingericht met rollback-procedure
-- [ ] Modellen zijn gekoppeld aan Validatierapporten
+!!! check "Model Governance Checklist"
+    - [ ] Model registry is ingericht en up-to-date
+    - [ ] Alle productiemodellen hebben een eigenaar
+    - [ ] Goedkeuringsworkflow is gedocumenteerd en wordt gevolgd
+    - [ ] Wijzigingsbeheer is ingericht met rollback-procedure
+    - [ ] Modellen zijn gekoppeld aan Validatierapporten
 
 ______________________________________________________________________
 

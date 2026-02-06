@@ -208,13 +208,14 @@ ______________________________________________________________________
 
 ## 7. Checklist Architectuur
 
-- [ ] Architectuurpatroon is gekozen en gedocumenteerd
-- [ ] Beveiligingslagen zijn geïmplementeerd
-- [ ] Schaalbaarheid is overwogen
-- [ ] Kosteninschatting is gemaakt
-- [ ] Logging en monitoring zijn ingericht
-- [ ] Rode Lijnen zijn geïmplementeerd in de architectuur
-- [ ] Rollback-strategie is gedefinieerd
+!!! check "7. Checklist Architectuur"
+    - [ ] Architectuurpatroon is gekozen en gedocumenteerd
+    - [ ] Beveiligingslagen zijn geïmplementeerd
+    - [ ] Schaalbaarheid is overwogen
+    - [ ] Kosteninschatting is gemaakt
+    - [ ] Logging en monitoring zijn ingericht
+    - [ ] Rode Lijnen zijn geïmplementeerd in de architectuur
+    - [ ] Rollback-strategie is gedefinieerd
 
 ______________________________________________________________________
 

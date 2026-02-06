@@ -15,9 +15,10 @@ laatst_herzien: '2026-02-01'
 
 ### Conclusie (kies één)
 
-- [ ] **Go** — voldoet aan Bewijsstandaarden normen voor dit risiconiveau
-- [ ] **Go met acties** — alleen na uitvoeren van acties onder §7
-- [ ] **No-Go** — voldoet niet; herontwerp/hertrain/herformuleer vereist
+!!! check "Conclusie (kies één)"
+    - [ ] **Go** — voldoet aan Bewijsstandaarden normen voor dit risiconiveau
+    - [ ] **Go met acties** — alleen na uitvoeren van acties onder §7
+    - [ ] **No-Go** — voldoet niet; herontwerp/hertrain/herformuleer vereist
 
 **Top 3 bevindingen:**
 

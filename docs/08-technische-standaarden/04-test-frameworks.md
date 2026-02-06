@@ -163,13 +163,14 @@ ______________________________________________________________________
 
 ## 7. Checklist Test Framework
 
-- [ ] Componenttests dekken kritieke functies
-- [ ] Integratietests valideren end-to-end flow
-- [ ] Gouden Set is samengesteld conform [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
-- [ ] Adversarial scenarios zijn gedefinieerd en getest
-- [ ] Regressietest-strategie is vastgelegd
-- [ ] Evaluatiemetrics zijn gedefinieerd
-- [ ] Testresultaten worden vastgelegd in [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
+!!! check "7. Checklist Test Framework"
+    - [ ] Componenttests dekken kritieke functies
+    - [ ] Integratietests valideren end-to-end flow
+    - [ ] Gouden Set is samengesteld conform [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+    - [ ] Adversarial scenarios zijn gedefinieerd en getest
+    - [ ] Regressietest-strategie is vastgelegd
+    - [ ] Evaluatiemetrics zijn gedefinieerd
+    - [ ] Testresultaten worden vastgelegd in [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 
 ______________________________________________________________________
 

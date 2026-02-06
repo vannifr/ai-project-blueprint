@@ -159,13 +159,14 @@ ______________________________________________________________________
 
 ## 5. Checklist Ethische Richtlijnen
 
-- [ ] Ethische grondbeginselen zijn besproken met team
-- [ ] Rode Lijnen zijn gedefinieerd in Doelkaart
-- [ ] Relevante groepen voor Eerlijkheidstoets zijn geïdentificeerd
-- [ ] Eerlijkheidstoets is uitgevoerd conform risiconiveau
-- [ ] Resultaten voldoen aan drempels óf mitigatie is gedocumenteerd
-- [ ] Guardian heeft ethische goedkeuring gegeven
-- [ ] Transparantieplicht is geïmplementeerd (Beperkt/Hoog Risico)
+!!! check "5. Checklist Ethische Richtlijnen"
+    - [ ] Ethische grondbeginselen zijn besproken met team
+    - [ ] Rode Lijnen zijn gedefinieerd in Doelkaart
+    - [ ] Relevante groepen voor Eerlijkheidstoets zijn geïdentificeerd
+    - [ ] Eerlijkheidstoets is uitgevoerd conform risiconiveau
+    - [ ] Resultaten voldoen aan drempels óf mitigatie is gedocumenteerd
+    - [ ] Guardian heeft ethische goedkeuring gegeven
+    - [ ] Transparantieplicht is geïmplementeerd (Beperkt/Hoog Risico)
 
 ______________________________________________________________________
 

@@ -33,7 +33,8 @@ ______________________________________________________________________
 
 ### Conclusie
 
-- [ ] **Voldoet** aan de succesval-criteria (>90%).
-- [ ] **Voldoet niet**. Aanpassing van **Sturingsinstructies** vereist.
+!!! check "Conclusie"
+    - [ ] **Voldoet** aan de succesval-criteria (>90%).
+    - [ ] **Voldoet niet**. Aanpassing van **Sturingsinstructies** vereist.
 
 ______________________________________________________________________

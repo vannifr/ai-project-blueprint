@@ -168,13 +168,14 @@ ______________________________________________________________________
 
 ## 8. Checklist Traceerbaarheid
 
-- [ ] Traceerbaarheidsmatrix is opgesteld
-- [ ] Alle Doelkaart-items zijn gekoppeld aan specificaties
-- [ ] Alle specificaties zijn gekoppeld aan testcases
-- [ ] Runtime logging is ingericht conform risiconiveau
-- [ ] Logging voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
-- [ ] Retentie is afgestemd met privacybeleid
-- [ ] Audit-ready package is compleet
+!!! check "8. Checklist Traceerbaarheid"
+    - [ ] Traceerbaarheidsmatrix is opgesteld
+    - [ ] Alle Doelkaart-items zijn gekoppeld aan specificaties
+    - [ ] Alle specificaties zijn gekoppeld aan testcases
+    - [ ] Runtime logging is ingericht conform risiconiveau
+    - [ ] Logging voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+    - [ ] Retentie is afgestemd met privacybeleid
+    - [ ] Audit-ready package is compleet
 
 ______________________________________________________________________
 
