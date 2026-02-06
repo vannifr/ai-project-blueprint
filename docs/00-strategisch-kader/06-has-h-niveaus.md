@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# AI-Samenwerkingsmodi
+# 1.2.4 AI-Samenwerkingsmodi
 
-## Doel van de Modi
+## 1.2.4.1 Doel van de Modi
 
 Om te bepalen welke processen, governance en risicobeheersing nodig zijn, classificeren we de relatie tussen mens en machine in vijf **Samenwerkingsmodi**.
 
@@ -13,9 +13,9 @@ Dit model beschrijft de verschuiving van AI als gereedschap naar AI als zelfstan
 
 ______________________________________________________________________
 
-## De Vijf Modi
+## 1.2.4.2 De Vijf Modi
 
-### Modus 1: Instrumenteel (The Tool)
+### 1.2.4.2.1 Modus 1: Instrumenteel (The Tool)
 
 **De mens werkt, AI wacht.**
 
@@ -26,7 +26,7 @@ Dit is de klassieke situatie. De AI is passief en doet niets tenzij de mens op e
 - **Risico:** Laag (fouten worden direct door de gebruiker gezien).
 - **Governance:** Standaard IT-beheer.
 
-### Modus 2: Adviserend (The Advisor)
+### 1.2.4.2.2 Modus 2: Adviserend (The Advisor)
 
 **De AI stelt voor, de mens beslist.**
 
@@ -37,7 +37,7 @@ De AI analyseert de situatie en biedt opties of aanbevelingen. De mens fungeert 
 - **Risico:** "Rubber stamping" (de mens keurt blind goed uit gemakzucht).
 - **Governance:** Focus op het trainen van de menselijke beoordelaar.
 
-### Modus 3: Collaboratief (The Partner)
+### 1.2.4.2.3 Modus 3: Collaboratief (The Partner)
 
 **De dialoog staat centraal.**
 
@@ -48,7 +48,7 @@ Mens en AI werken iteratief samen aan een complex probleem. Het is een ping-pong
 - **Risico:** Vertroebeling van eigenaarschap (wie bedacht wat?) en verlies van eigen kritisch denkvermogen.
 - **Governance:** Richtlijnen voor bronvermelding en fact-checking.
 
-### Modus 4: Gedelegeerd (The Agent)
+### 1.2.4.2.4 Modus 4: Gedelegeerd (The Agent)
 
 **AI voert uit, de mens beheert uitzonderingen.**
 
@@ -59,7 +59,7 @@ Hier draaien we het proces om: we ontwerpen de workflow zo dat AI het 'zware wer
 - **Risico:** 'Silent failures' (fouten die niet als fout worden herkend) en degradatie van menselijke expertise omdat ze het werk nooit meer zelf doen.
 - **Governance:** Strenge geautomatiseerde monitoring en steekproeven (Audits).
 
-### Modus 5: Autonoom (The Entity)
+### 1.2.4.2.5 Modus 5: Autonoom (The Entity)
 
 **AI stelt doelen en handelt zelfstandig.**
 
@@ -72,7 +72,7 @@ Het systeem krijgt een breed mandaat (bijv. "Optimaliseer de inkoopvoorraad") en
 
 ______________________________________________________________________
 
-## Risico & Validatie Matrix
+## 1.2.4.3 Risico & Validatie Matrix
 
 Hoe hoger de modus, hoe zwaarder de validatie-eisen.
 
@@ -86,7 +86,7 @@ Hoe hoger de modus, hoe zwaarder de validatie-eisen.
 
 ______________________________________________________________________
 
-## Toepassing in Projecten
+## 1.2.4.4 Toepassing in Projecten
 
 Bij het starten van een project (Fase Discovery) moet de beoogde modus worden vastgelegd in het **Project Charter**.
 
@@ -98,7 +98,7 @@ Bij het starten van een project (Fase Discovery) moet de beoogde modus worden va
 
 ______________________________________________________________________
 
-## Gerelateerde Modules
+## 1.2.4.5 Gerelateerde Modules
 
 - [Kernprincipes](../01-ai-native-fundamenten/01-definitie.md)
 - [Validatie Model](../01-ai-native-fundamenten/04-validatie-model.md)

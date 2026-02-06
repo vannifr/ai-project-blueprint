@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Levering
+# 2.4 Levering
 
-## Doelstellingen van de Levering
+## 2.4.1 Doelstellingen van de Levering
 
 - **Veilige Ingebruikname:** Gecontroleerde overgang naar productie.
 - **Menselijke Regie:** Waarborgen dat gebruikers het systeem begrijpen en kunnen bijsturen.
@@ -15,7 +15,7 @@ laatst_herzien: '2026-02-01'
 
 **Belangrijkste resultaat:** Een operationeel AI-systeem dat technisch geïntegreerd is, menselijk wordt beheerst en breed wordt geaccepteerd door gebruikers.
 
-## Intrede Criteria (Definition of Ready)
+## 2.4.2 Intrede Criteria (Definition of Ready)
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 

@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Bewijsstandaarden
+# 1.1.4 Bewijsstandaarden
 
-## Doel
+## 1.1.4.1 Doel
 
 Deze module definieert **minimale bewijsstandaarden** voor AI-oplossingen, zodat Gate Reviews niet op gevoel maar op **toetsbare criteria** plaatsvinden.
 
@@ -14,7 +14,7 @@ Een AI-oplossing mag pas door naar de volgende fase als het bewijs voldoet aan d
 
 ______________________________________________________________________
 
-## Scope (waar geldt dit voor?)
+## 1.1.4.2 Scope (waar geldt dit voor?)
 
 Deze standaarden gelden voor:
 
@@ -29,9 +29,9 @@ Niet bedoeld voor:
 
 ______________________________________________________________________
 
-## Definities (zodat termen toetsbaar zijn)
+## 1.1.4.3 Definities (zodat termen toetsbaar zijn)
 
-### Foutclassificatie
+### 1.1.4.3.1 Foutclassificatie
 
 - **Kritiek:** overtreding Rode Lijnen (privacy-lek, verboden advies, discriminatoire output, gevaarlijke instructies, misleidende transparantie).
     **Norm:** 0 toegestaan.
@@ -39,7 +39,7 @@ ______________________________________________________________________
     **Norm:** zeer beperkt (zie tabel).
 - **Minor:** stijl/format/kleine onvolledigheid zonder besluit-impact.
 
-### "Significant prestatieverloop"
+### 1.1.4.3.2 "Significant prestatieverloop"
 
 Prestatieverloop is **significant** als één van onderstaande optreedt t.o.v. de nulmeting:
 
@@ -51,7 +51,7 @@ Prestatieverloop is **significant** als één van onderstaande optreedt t.o.v. d
 
 ______________________________________________________________________
 
-## Vereiste bewijsstukken (evidence pack)
+## 1.1.4.4 Vereiste bewijsstukken (evidence pack)
 
 Elke Gate Review baseert zich minimaal op deze documenten:
 
@@ -63,7 +63,7 @@ Elke Gate Review baseert zich minimaal op deze documenten:
 
 ______________________________________________________________________
 
-## Minimale eisen aan testsets ("Gouden Set")
+## 1.1.4.5 Minimale eisen aan testsets ("Gouden Set")
 
 | Risiconiveau | Minimale grootte Gouden Set | Verplichte onderdelen                                        |
 | ------------ | --------------------------: | ------------------------------------------------------------ |
@@ -79,11 +79,11 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Meetcriteria en minimale normen (per risiconiveau)
+## 1.1.4.6 Meetcriteria en minimale normen (per risiconiveau)
 
 > *Als jouw gebruikscasus geen "accuracy" heeft (bijv. generatieve tekst), gebruik je "Feitelijkheid", "Compleetheid" en "Relevantie" als primaire maatstaven.*
 
-### Normtabel
+### 1.1.4.6.1 Normtabel
 
 | Criterium                                          |           Minimaal risico |                  Beperkt risico |                                     Hoog risico |
 | -------------------------------------------------- | ------------------------: | ------------------------------: | ----------------------------------------------: |
@@ -97,7 +97,7 @@ ______________________________________________________________________
 | **Audit trail (logging compleetheid)**             |         minimaal metadata | 100% metadata + sampling output |         100% input/output + herleidbare context |
 | **Stabiliteit** *(variatie over runs)*             |                 monitoren |    beperkte variatie toegestaan | strikt: variatie moet verklaard/acceptabel zijn |
 
-### Eerlijkheid (bias) — minimale norm (kort en toetsbaar)
+### 1.1.4.6.2 Eerlijkheid (bias) — minimale norm (kort en toetsbaar)
 
 - **Beperkt:** als er relevante groepen te onderscheiden zijn, dan geldt: verschil in **Major-foutpercentage** tussen groepen ≤ **10%**.
 - **Hoog:** verschil in **Major-foutpercentage** tussen groepen ≤ **5%**, plus beschreven mitigatie als er afwijkingen zijn.
@@ -106,9 +106,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Logging-eisen (audit trail)
+## 1.1.4.7 Logging-eisen (audit trail)
 
-### Wat loggen we minimaal?
+### 1.1.4.7.1 Wat loggen we minimaal?
 
 - **Datum/tijd**, gebruiker/rol (gehashte ID waar nodig)
 - **Gebruikscasus / endpoint**
@@ -118,7 +118,7 @@ ______________________________________________________________________
 - **Output**
 - **Human override** (ja/nee + reden)
 
-### Retentie (basis)
+### 1.1.4.7.2 Retentie (basis)
 
 - **Minimaal/Beperkt:** standaard 90 dagen, tenzij anders vereist.
 - **Hoog risico:** standaard 12 maanden (of langer indien wettelijke plicht).
@@ -127,7 +127,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Bewijs per Gate (praktisch)
+## 1.1.4.8 Bewijs per Gate (praktisch)
 
 - **Gate 1 (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
 - **Gate 2 (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.

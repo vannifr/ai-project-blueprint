@@ -3,19 +3,19 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# EU AI Act
+# 3.1.1 EU AI Act
 
-## Doel
+## 3.1.1.1 Doel
 
 Dit document beschrijft de specifieke vereisten van de Europese AI Verordening (EU AI Act) en hoe deze worden toegepast binnen het project. De EU AI Act is de eerste uitgebreide AI-regelgeving ter wereld en is van toepassing op alle organisaties die AI-systemen aanbieden of gebruiken binnen de EU.
 
 ______________________________________________________________________
 
-## Risicoclassificatie conform EU AI Act
+## 3.1.1.2 Risicoclassificatie conform EU AI Act
 
 De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veiligheid en grondrechten.
 
-### Onacceptabel Risico (Art. 5)
+### 3.1.1.2.1 Onacceptabel Risico (Art. 5)
 
 - **Definitie:** Systemen die een duidelijke bedreiging vormen voor fundamentele rechten.
 - **Actie:** Absoluut verboden.
@@ -31,13 +31,13 @@ De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veilig
 | Emotieherkenning              | Op werkplek of in onderwijs (beperkte uitzonderingen)                  |
 | Biometrische categorisatie    | Op basis van gevoelige kenmerken (ras, religie, etc.)                  |
 
-### Hoog Risico (Art. 6, Bijlage III)
+### 3.1.1.2.2 Hoog Risico (Art. 6, Bijlage III)
 
 - **Definitie:** Systemen in kritieke domeinen met significante impact op grondrechten.
 - **Vereisten:** Strenge regels voor data-governance, documentatie, transparantie en menselijk toezicht.
 - **Documentatie:** Verplicht technisch dossier en CE-markering.
 
-### Transparantieverplichtingen (EU AI Act Art. 50)
+### 3.1.1.2.3 Transparantieverplichtingen (EU AI Act Art. 50)
 
 - **Toepassing:** Transparantieverplichtingen gelden voor bepaalde AI-systemen, waaronder systemen die met personen interageren (bijvoorbeeld chatbots) en systemen die synthetische of gemanipuleerde content genereren of publiceren in contexten waar labeling/disclosure vereist is.
 - **Vereisten:** Disclosure/labeling waar wettelijk vereist, inclusief (a) melden dat men met AI interageert (tenzij evident uit de context), en (b) markeren/labelen van kunstmatig gegenereerde of gemanipuleerde content waar van toepassing.
@@ -46,14 +46,14 @@ De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veilig
 
 Bronnen: \[so-27\], \[so-36\]
 
-### Minimaal Risico
+### 3.1.1.2.4 Minimaal Risico
 
 - **Definitie:** De meeste AI-systemen (spamfilters, AI in games).
 - **Vereisten:** Geen wettelijke verplichtingen, maar vrijwillige gedragscodes aanbevolen.
 
 ______________________________________________________________________
 
-## Bijlage III: Hoog-Risico Gebieden
+## 3.1.1.3 Bijlage III: Hoog-Risico Gebieden
 
 AI-systemen vallen onder Hoog Risico als ze worden ingezet in de volgende domeinen:
 
@@ -70,9 +70,9 @@ AI-systemen vallen onder Hoog Risico als ze worden ingezet in de volgende domein
 
 ______________________________________________________________________
 
-## Artikelverwijzingen: Kernverplichtingen
+## 3.1.1.4 Artikelverwijzingen: Kernverplichtingen
 
-### Art. 9: Risicobeheersysteem
+### 3.1.1.4.1 Art. 9: Risicobeheersysteem
 
 **Vereiste:** Een continu risicobeheersysteem gedurende de volledige levenscyclus.
 
@@ -90,7 +90,7 @@ ______________________________________________________________________
 - [ ] Residuele risico's zijn geaccepteerd door Guardian
 - [ ] Risicoregister wordt periodiek herzien
 
-### Art. 10: Data Governance
+### 3.1.1.4.2 Art. 10: Data Governance
 
 **Vereiste:** Gebruik van hoogwaardige datasets met passende maatregelen tegen bias.
 
@@ -107,7 +107,7 @@ ______________________________________________________________________
 - [ ] Bias-analyse is uitgevoerd
 - [ ] Representativiteit is gevalideerd
 
-### Art. 11-12: Technische Documentatie
+### 3.1.1.4.3 Art. 11-12: Technische Documentatie
 
 **Vereiste:** Uitgebreide technische documentatie die compliance aantoont.
 
@@ -128,7 +128,7 @@ ______________________________________________________________________
 | Wijzigingslogboek       | Git history + release notes   |
 | Testresultaten          | Validatierapport + Gouden Set |
 
-### Art. 13: Transparantie
+### 3.1.1.4.4 Art. 13: Transparantie
 
 **Vereiste:** Voldoende transparantie zodat gebruikers de output kunnen interpreteren.
 
@@ -144,7 +144,7 @@ ______________________________________________________________________
 - [ ] Beperkingen zijn gecommuniceerd
 - [ ] Bronnen worden getoond waar relevant
 
-### Art. 14: Menselijk Toezicht
+### 3.1.1.4.5 Art. 14: Menselijk Toezicht
 
 **Vereiste:** Maatregelen om effectief menselijk toezicht mogelijk te maken.
 
@@ -164,7 +164,7 @@ ______________________________________________________________________
 | 4     | Human-over-the-loop  | Mens stelt kaders, AI voert uit              |
 | 5     | Human-above-the-loop | Mens stelt beleid, AI autonoom binnen kaders |
 
-### Art. 15: Nauwkeurigheid, Robuustheid & Cybersecurity
+### 3.1.1.4.6 Art. 15: Nauwkeurigheid, Robuustheid & Cybersecurity
 
 **Vereiste:** Passende niveaus van nauwkeurigheid, robuustheid en cybersecurity.
 
@@ -181,7 +181,7 @@ ______________________________________________________________________
 - [ ] Beveiligingsmaatregelen zijn geïmplementeerd
 - [ ] Robuustheid is getest (variatie, edge cases)
 
-### GPAI (vanaf 2 augustus 2025) — implicaties voor vendorselectie
+### 3.1.1.4.7 GPAI (vanaf 2 augustus 2025) — implicaties voor vendorselectie
 
 Wanneer uw organisatie een general-purpose AI (GPAI) of foundation model van een derde partij inzet, gelden specifieke overwegingen.
 
@@ -202,7 +202,7 @@ Bronnen: \[so-27\], \[so-36\]
 
 ______________________________________________________________________
 
-## Compliance Mapping: Playbook naar EU AI Act
+## 3.1.1.5 Compliance Mapping: Playbook naar EU AI Act
 
 | EU AI Act Artikel    | Vereiste                  | Playbook Module                    | Sjabloon            |
 | -------------------- | ------------------------- | ---------------------------------- | ------------------- |
@@ -218,7 +218,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Tijdlijn EU AI Act
+## 3.1.1.6 Tijdlijn EU AI Act
 
 De EU AI Act kent een gefaseerde inwerkingtreding. Onderstaande data zijn bindend.
 
@@ -232,7 +232,7 @@ Bronnen: \[so-27\], \[so-36\]
 
 ______________________________________________________________________
 
-## Checklist EU AI Act Compliance (Hoog Risico)
+## 3.1.1.7 Checklist EU AI Act Compliance (Hoog Risico)
 
 **Voorafgaand aan ontwikkeling:**
 
@@ -261,7 +261,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Gerelateerde Modules
+## 3.1.1.8 Gerelateerde Modules
 
 - [Risicobeheersing & Compliance](../index.md)
 - [Risico Pre-Scan](../../09-sjablonen/03-risicoanalyse/pre-scan.md)

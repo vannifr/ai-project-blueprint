@@ -3,26 +3,26 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Hybride Methodologie
+# 1.3.2 Hybride Methodologie
 
-## Doel
+## 1.3.2.1 Doel
 
 Dit document beschrijft de hybride aanpak van de AI Project Gids, waarbij voorspelbare planning (Waterfall) wordt gecombineerd met iteratieve uitvoering (Agile) voor een optimale balans tussen structuur en flexibiliteit.
 
 ______________________________________________________________________
 
-## Concept
+## 1.3.2.2 Concept
 
 De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vereisen voor budgettering en compliance, en anderzijds extreme flexibiliteit nodig hebben tijdens de modelontwikkeling.
 
-### Voorspelbare Elementen (Waterfall)
+### 1.3.2.2.1 Voorspelbare Elementen (Waterfall)
 
 - Strategische planning en **Het Kostenoverzicht**.
 - Compliance en governance checkpoints.
 - Risico-inventarisatie.
 - Mijlpaal planning (**Gates**).
 
-### Iteratieve Elementen (Agile)
+### 1.3.2.2.2 Iteratieve Elementen (Agile)
 
 - **Afstellen van het model** en tuning.
 - User feedback loops.
@@ -31,7 +31,7 @@ De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vere
 
 ______________________________________________________________________
 
-## Praktische Implementatie
+## 1.3.2.3 Praktische Implementatie
 
 ```mermaid
 gantt
@@ -50,7 +50,7 @@ gantt
 
 ______________________________________________________________________
 
-## Voordelen
+## 1.3.2.4 Voordelen
 
 - **Structuur:** Duidelijke planning en governance voor management.
 - **Flexibiliteit:** Snelle aanpassing aan nieuwe data-inzichten voor het team.

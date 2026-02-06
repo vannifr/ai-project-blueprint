@@ -3,11 +3,11 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Kernactiviteiten & Rollen (Beheer & Optimalisatie)
+# 2.5.1 Kernactiviteiten & Rollen (Beheer & Optimalisatie)
 
-## Kernactiviteiten
+## 2.5.1.1 Kernactiviteiten
 
-### Operationele Monitoring & MLOps
+### 2.5.1.1.1 Operationele Monitoring & MLOps
 
 We houden de 'hartslag' van het systeem in de gaten.
 
@@ -16,7 +16,7 @@ We houden de 'hartslag' van het systeem in de gaten.
 - **Data Loop Integratie:** Terugkoppelen van productie-data en uitkomsten naar de ontwikkelomgeving voor analyse (Feedback Loop).
 - **Geautomatiseerde Triggers:** Alerts instellen voor dalingen onder drempelwaarden (bv. accuracy \< 85%).
 
-### Continue Verbetering & Retraining
+### 2.5.1.1.2 Continue Verbetering & Retraining
 
 Stilstand is achteruitgang.
 
@@ -24,7 +24,7 @@ Stilstand is achteruitgang.
 - **Experiment Loops:** Gebruik productie-inzichten om nieuwe hypotheses te testen in korte sprints (A/B testing, Canary releases).
 - **Backlog Management:** Beheer een levende lijst van bugs, verbeterpunten en feature requests vanuit gebruikers.
 
-### Kostenbeheersing & Energie-efficiëntie
+### 2.5.1.1.3 Kostenbeheersing & Energie-efficiëntie
 
 Duurzaamheid in euro's en CO2.
 
@@ -32,7 +32,7 @@ Duurzaamheid in euro's en CO2.
 - **Duurzaamheidsmeting (ESG):** Monitoren van energieverbruik (*inference footprint*) en rapporteren voor ESG-doelen.
 - **Resource Allocatie:** Autoscaling instellen om infrastructuur aan te passen aan de werkelijke vraag.
 
-### Ethisch Toezicht & Compliance Monitoring
+### 2.5.1.1.4 Ethisch Toezicht & Compliance Monitoring
 
 Blijvende wettelijke conformiteit.
 
@@ -41,7 +41,7 @@ Blijvende wettelijke conformiteit.
 - **Transparantie Rapporten:** Periodieke rapportage aan stakeholders en CAIO over veiligheid en performance.
 - **Eerlijkheidstoets (Bias Audit):** Regelmatige steekproeven door de Ethicist op de 'toon' en kwaliteit van outputs.
 
-## Team & Rollen
+## 2.5.1.2 Team & Rollen
 
 | Rol                         | Verantwoordelijkheid in Beheer & Optimalisatie                                                |
 | :-------------------------- | :-------------------------------------------------------------------------------------------- |

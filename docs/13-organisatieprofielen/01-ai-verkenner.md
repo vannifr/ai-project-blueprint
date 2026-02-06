@@ -3,38 +3,38 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# De Verkenner
+# 5.2.1 De Verkenner
 
-## Profiel
+## 5.2.1.1 Profiel
 
 Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme en experimenteerdrang, maar weinig structuur.
 
-## Kenmerken
+## 5.2.1.2 Kenmerken
 
 - **Veel pilots, weinig productie:** Er draaien meerdere experimenten, maar weinig bereikt echte gebruikers.
 - **Ad-hoc aanpak:** Elk team doet het op zijn eigen manier. Geen standaarden.
 - **Lage AI-volwassenheid:** Beperkte kennis van MLOps, governance en risicobeheer.
 - **Opportunistisch:** Projecten starten op basis van enthousiasme, niet strategie.
 
-## Uitdagingen
+## 5.2.1.3 Uitdagingen
 
 - **Geen duidelijke ROI:** Moeilijk om de waarde van AI aan te tonen.
 - **Gebrek aan herbruikbaarheid:** Elk project begint van nul.
 - **Risico op "AI-theater":** Veel praten, weinig doen.
 
-## Aanbevolen Samenwerkingsmodi
+## 5.2.1.4 Aanbevolen Samenwerkingsmodi
 
 - **Modus 1 (Instrumenteel):** Start met eenvoudige tools (ChatGPT, Copilot).
 - **Modus 2 (Adviserend):** Laat AI suggesties doen, mens keurt goed.
 
-## Volgende Stappen
+## 5.2.1.5 Volgende Stappen
 
 1. Kies 1-2 use cases met hoge impact en lage complexiteit
 1. Voer Data-Evaluatie uit (Toegang, Kwaliteit, Relevantie)
 1. Bouw een Praktijkproef binnen 30 dagen
 1. Documenteer wat je leert in een eenvoudige Gids
 
-## Gerelateerde Modules
+## 5.2.1.6 Gerelateerde Modules
 
 - [Snelstart: AI-Project in 90 Dagen](../12-90-dagen-roadmap/index.md)
 - [Verkenning & Strategie](../02-fase-ontdekking/01-doelstellingen.md)

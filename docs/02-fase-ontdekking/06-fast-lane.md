@@ -3,13 +3,13 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Snelle Route (Fast Lane)
+# 2.1.3 Snelle Route (Fast Lane)
 
-## Doel
+## 2.1.3.1 Doel
 
 De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑risico** AI‑toepassingen, zonder onnodige bureaucratie—maar **met minimale governance**.
 
-## Toelatingscriteria (allemaal verplicht)
+## 2.1.3.2 Toelatingscriteria (allemaal verplicht)
 
 Een gebruikscasus mag alleen Fast Lane als aan **alle** punten is voldaan:
 
@@ -23,7 +23,7 @@ Een gebruikscasus mag alleen Fast Lane als aan **alle** punten is voldaan:
 **Als één criterium niet gehaald wordt:**
 → *geen Fast Lane*, volg de standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie).
 
-### Harde uitsluitingen
+### 2.1.3.2.1 Harde uitsluitingen
 
 Fast Lane is **niet toegestaan** voor de volgende categorieën:
 
@@ -37,7 +37,7 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 > - [ ] Testcases in Gouden Set die disclosure/labeling-gedrag valideren
 > - [ ] Vermelding in Validatierapport met verwijzing naar bewijsstukken
 
-## Minimumpakket opleveringen (Fast Lane)
+## 2.1.3.3 Minimumpakket opleveringen (Fast Lane)
 
 - **[Project Charter](../09-sjablonen/01-project-charter/template.md)** (Fast Lane variant: kort)
 - **[Risico Pre‑Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)** (moet "Minimaal" bevestigen)
@@ -50,9 +50,9 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 - Uitgebreide business case (ROI) *mag later*, maar je noteert wél een "waarde‑hypothese" in het Charter.
 - Uitgebreid technisch dossier (alleen relevant bij hoog risico).
 
-## Fast Lane Gates (simpel en toetsbaar)
+## 2.1.3.4 Fast Lane Gates (simpel en toetsbaar)
 
-### Gate FL‑1 — Start experiment (max. 2 weken)
+### 2.1.3.4.1 Gate FL‑1 — Start experiment (max. 2 weken)
 
 **Go** als:
 
@@ -60,7 +60,7 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 - Doelkaart bevat Rode Lijnen
 - Minimaal testplan staat klaar (Gouden Set ≥ 20)
 
-### Gate FL‑2 — Interne live pilot (max. 4 weken)
+### 2.1.3.4.2 Gate FL‑2 — Interne live pilot (max. 4 weken)
 
 **Go** als:
 
@@ -68,7 +68,7 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 - Logging/traceerbaarheid is ingericht op basismeta‑niveau
 - Incidentprocedure bekend bij team
 
-## Wanneer Fast Lane stopt (escalatie)
+## 2.1.3.5 Wanneer Fast Lane stopt (escalatie)
 
 Fast Lane stopt direct en je stapt over op standaard lifecycle als:
 

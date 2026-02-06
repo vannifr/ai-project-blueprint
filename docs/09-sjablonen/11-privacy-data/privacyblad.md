@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Sjabloon 09.07: Data & Privacyblad (AVG/GDPR)
+# 4.11 Sjabloon 09.07: Data & Privacyblad (AVG/GDPR)
 
-## Gebruikscasus & doelbinding
+## 4.11.1 Gebruikscasus & doelbinding
 
 - **Project:** \[naam\]
 - **Doel van verwerking:** \[1–3 zinnen, concreet\]
 - **Waarom is data nodig:** \[koppel aan doel, geen “voor de zekerheid”\]
 
-## Datacategorieën
+## 4.11.2 Datacategorieën
 
 Kruis aan + beschrijf:
 
@@ -21,38 +21,38 @@ Kruis aan + beschrijf:
 - [ ] Gedrag/gebruik (clicks, sessies)
 - [ ] Bijzondere persoonsgegevens (gezondheid, biometrie, etc.) → **alleen met expliciete onderbouwing**
 
-## Grondslag & transparantie
+## 4.11.3 Grondslag & transparantie
 
 - **Grondslag (AVG):** \[toestemming / overeenkomst / gerechtvaardigd belang / wettelijke plicht\]
 - **Transparantie nodig naar betrokkenen?** \[Ja/Nee\]
     Zo ja: waar wordt dit gecommuniceerd? \[link/tekst\]
 
-## Dataflow & leveranciers
+## 4.11.4 Dataflow & leveranciers
 
 - **Bronnen:** \[systemen/teams\]
 - **Verwerkers / leveranciers:** \[naam + waar verwerkt? EU/VS\]
 - **Data verlaat EU/EER?** \[Ja/Nee\]
     Zo ja: welke waarborgen (SCC, etc.)? \[beschrijf kort\]
 
-## Minimisatie & bewaartermijnen
+## 4.11.5 Minimisatie & bewaartermijnen
 
 - **Welke velden zijn echt nodig:** \[lijst\]
 - **Bewaartijd logs:** \[90 dagen / 12 maanden / anders + motivatie\]
 - **Pseudonimisering/anonymisering:** \[wat doen we?\]
 
-## DPIA (Data Protection Impact Assessment)
+## 4.11.6 DPIA (Data Protection Impact Assessment)
 
 - **DPIA vereist?** \[Ja/Nee/Twijfel\]
 - **Waarom:** \[trigger invullen\]
 - **Actie:** \[DPO betrekken + deadline\]
 
-## Toegangsbeheer
+## 4.11.7 Toegangsbeheer
 
 - **Wie heeft toegang tot ruwe data:** \[rollen\]
 - **Wie mag prompts/instellingen wijzigen:** \[rollen\]
 - **Audit trail aanwezig:** \[Ja/Nee\]
 
-## Risico’s & mitigaties (kort)
+## 4.11.8 Risico’s & mitigaties (kort)
 
 | Risico | Impact | Mitigatie | Eigenaar |
 | ------ | ------ | --------- | -------- |

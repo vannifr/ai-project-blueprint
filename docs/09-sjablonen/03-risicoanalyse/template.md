@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Sjabloon: Risico-Inventarisatie
+# 4.5.1 Sjabloon: Risico-Inventarisatie
 
-## Doel
+## 4.5.1.1 Doel
 
 Het identificeren en beoordelen van risico's op het gebied van techniek, organisatie en compliance (EU AI Act).
 
 ______________________________________________________________________
 
-### Risicoclassificatie
+### 4.5.1.1.1 Risicoclassificatie
 
 *Kies de categorie conform de EU AI Act:*
 
@@ -22,7 +22,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### Toetsing op Rode Lijnen
+### 4.5.1.1.2 Toetsing op Rode Lijnen
 
 *Welke harde grenzen mogen niet worden overschreden?*
 
@@ -32,7 +32,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### Mitigatieplan
+### 4.5.1.1.3 Mitigatieplan
 
 *Hoe verlagen we de risico's naar een acceptabel niveau?*
 

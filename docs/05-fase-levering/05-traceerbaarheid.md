@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Traceerbaarheid
+# 2.4.3 Traceerbaarheid
 
-## Doel
+## 2.4.3.1 Doel
 
 Traceerbaarheid zorgt ervoor dat we altijd kunnen verklaren waarom een AI-systeem een bepaalde output gaf. Dit is essentieel voor auditing, debugging, incidentanalyse en compliance met de EU AI Act.
 
 ______________________________________________________________________
 
-## De Traceerbaarheidspiramide
+## 2.4.3.2 De Traceerbaarheidspiramide
 
 ```
                     ┌───────────────┐
@@ -44,11 +44,11 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Traceerbaarheidsmatrix
+## 2.4.3.3 Traceerbaarheidsmatrix
 
 De traceerbaarheidsmatrix koppelt requirements aan implementatie aan tests.
 
-### Structuur
+### 2.4.3.3.1 Structuur
 
 | Doel-ID | Doelomschrijving           | Spec-ID | Specificatie                  | Prompt-versie | Test-ID | Testresultaat |
 | ------- | -------------------------- | ------- | ----------------------------- | ------------- | ------- | ------------- |
@@ -56,7 +56,7 @@ De traceerbaarheidsmatrix koppelt requirements aan implementatie aan tests.
 | D-002   | Geen medisch advies        | S-002   | Weigering bij medische vragen | v2.3          | GS-003  | Pass          |
 | D-003   | Transparantie              | S-003   | AI-disclaimer tonen           | v2.3          | GS-010  | Pass          |
 
-### Minimale Velden
+### 2.4.3.3.2 Minimale Velden
 
 | Veld             | Beschrijving                           |
 | ---------------- | -------------------------------------- |
@@ -71,11 +71,11 @@ De traceerbaarheidsmatrix koppelt requirements aan implementatie aan tests.
 
 ______________________________________________________________________
 
-## Runtime Traceerbaarheid (Logging)
+## 2.4.3.4 Runtime Traceerbaarheid (Logging)
 
 Naast documentatie-traceerbaarheid is runtime logging essentieel.
 
-### Wat Loggen We?
+### 2.4.3.4.1 Wat Loggen We?
 
 Per interactie minimaal (zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)):
 
@@ -92,7 +92,7 @@ Per interactie minimaal (zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-
 | Latency                    | 1.2s                                |
 | Human override             | Nee                                 |
 
-### Logging per Risiconiveau
+### 2.4.3.4.2 Logging per Risiconiveau
 
 | Niveau   | Logging-eis                                      |
 | -------- | ------------------------------------------------ |
@@ -100,18 +100,18 @@ Per interactie minimaal (zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-
 | Beperkt  | Metadata + sampling van input/output (bijv. 10%) |
 | Hoog     | 100% input/output + bronverwijzingen + context   |
 
-### Retentie
+### 2.4.3.4.3 Retentie
 
 - **Minimaal/Beperkt:** 90 dagen standaard
 - **Hoog Risico:** 12 maanden of langer (afhankelijk van regelgeving)
 
 ______________________________________________________________________
 
-## Incidentanalyse met Traceerbaarheid
+## 2.4.3.5 Incidentanalyse met Traceerbaarheid
 
 Wanneer een incident optreedt, volgen we de traceerbaarheidsketen terug:
 
-### Analyse-stappenplan
+### 2.4.3.5.1 Analyse-stappenplan
 
 1. **Identificeer de output:** Welke response veroorzaakte het probleem?
 1. **Haal logging op:** Request-ID, input, model, bronnen
@@ -120,7 +120,7 @@ Wanneer een incident optreedt, volgen we de traceerbaarheidsketen terug:
 1. **Check Gouden Set:** Hadden we dit scenario getest?
 1. **Terug naar Doelkaart:** Was dit gedrag bedoeld of een gap?
 
-### Root Cause Categorieën
+### 2.4.3.5.2 Root Cause Categorieën
 
 | Categorie         | Beschrijving                         | Actie                   |
 | ----------------- | ------------------------------------ | ----------------------- |
@@ -131,15 +131,15 @@ Wanneer een incident optreedt, volgen we de traceerbaarheidsketen terug:
 
 ______________________________________________________________________
 
-## Traceerbaarheid voor Audit
+## 2.4.3.6 Traceerbaarheid voor Audit
 
-### EU AI Act Vereisten (Hoog Risico)
+### 2.4.3.6.1 EU AI Act Vereisten (Hoog Risico)
 
 - Alle beslissingen moeten herleidbaar zijn
 - Documentatie moet beschikbaar zijn voor toezichthouders
 - Wijzigingen in het systeem moeten gedocumenteerd zijn
 
-### Audit-Ready Package
+### 2.4.3.6.2 Audit-Ready Package
 
 Voor elke productierelease:
 
@@ -155,7 +155,7 @@ Voor elke productierelease:
 
 ______________________________________________________________________
 
-## Tooling Suggesties
+## 2.4.3.7 Tooling Suggesties
 
 | Doel                     | Opties                                   |
 | ------------------------ | ---------------------------------------- |
@@ -166,7 +166,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Checklist Traceerbaarheid
+## 2.4.3.8 Checklist Traceerbaarheid
 
 - [ ] Traceerbaarheidsmatrix is opgesteld
 - [ ] Alle Doelkaart-items zijn gekoppeld aan specificaties
@@ -178,7 +178,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Gerelateerde Modules
+## 2.4.3.9 Gerelateerde Modules
 
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - [Traceerbaarheid Sjabloon](../09-sjablonen/08-traceerbaarheid-links/template.md)

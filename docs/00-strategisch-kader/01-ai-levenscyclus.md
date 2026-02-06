@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# AI Levenscyclus
+# 1.3.1 AI Levenscyclus
 
-## Doel
+## 1.3.1.1 Doel
 
 Dit document definieert de volledige methodologie voor AI projecten en vormt de fundering van de AI levenscyclus. Het beschrijft de 5 fasen van AI projecten en fungeert als centrale routekaart voor het team.
 
 ______________________________________________________________________
 
-## Overzicht van de AI Levenscyclus
+## 1.3.1.2 Overzicht van de AI Levenscyclus
 
 Een succesvol AI-project is geen lineair proces, maar een iteratieve cyclus waarbij techniek, business en compliance constant op elkaar worden afgestemd. De AI levenscyclus bestaat uit 5 fasen die elkaar overlappen en versterken:
 
@@ -24,7 +24,7 @@ graph TD
     E --> A
 ```
 
-### Belangrijkste Kenmerken
+### 1.3.1.2.1 Belangrijkste Kenmerken
 
 - **Iteratief:** Elke fase leert van de vorige en voedt de volgende.
 - **Hybride:** Combineert voorspelbare planning met agile uitvoering (zie [Hybride Methodologie](02-hybride-methodologie.md)).
@@ -34,13 +34,13 @@ graph TD
 
 ______________________________________________________________________
 
-## De Vijf Fasen van de Levenscyclus
+## 1.3.1.3 De Vijf Fasen van de Levenscyclus
 
 > \[!TIP\]
 > **De Fast Lane (De Innovatie-route)**
 > Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
 
-### Verkenning & Strategie
+### 1.3.1.3.1 Verkenning & Strategie
 
 **📍 Doel:** Het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten.
 
@@ -52,7 +52,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### Validatie
+### 1.3.1.3.2 Validatie
 
 **📍 Doel:** Bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
 
@@ -64,7 +64,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### Realisatie
+### 1.3.1.3.3 Realisatie
 
 **📍 Doel:** Het bouwen van een robuuste, productiewaardige oplossing.
 
@@ -76,7 +76,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### Levering
+### 1.3.1.3.4 Levering
 
 **📍 Doel:** Een veilige **Ingebruikname** en acceptatie door de organisatie.
 
@@ -88,7 +88,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### Beheer & Optimalisatie
+### 1.3.1.3.5 Beheer & Optimalisatie
 
 **📍 Doel:** Waarde behouden en de oplossing actueel houden.
 
@@ -100,7 +100,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Gerelateerde Modules
+## 1.3.1.4 Gerelateerde Modules
 
 - [Hybride Methodologie](02-hybride-methodologie.md)
 - [Governance Model](03-governance-model.md)

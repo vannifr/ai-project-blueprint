@@ -3,11 +3,11 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Kernactiviteiten & Rollen (Levering)
+# 2.4.1 Kernactiviteiten & Rollen (Levering)
 
-## Kernactiviteiten
+## 2.4.1.1 Kernactiviteiten
 
-### Technische Integratie
+### 2.4.1.1.1 Technische Integratie
 
 Het koppelen van de AI aan de bestaande softwaresystemen en beveiliging (toegangsbeheer).
 
@@ -15,7 +15,7 @@ Het koppelen van de AI aan de bestaande softwaresystemen en beveiliging (toegang
 - **Toegangsbeheer:** Instellen van wie welke functies en data mag gebruiken.
 - **Stabiliteitstest:** Bevestigen dat de integratie geen storingen veroorzaakt in andere processen.
 
-### Menselijke Regie
+### 2.4.1.1.2 Menselijke Regie
 
 Implementeren van procedures voor menselijk toezicht (*Human-in-the-loop*) zoals vereist voor de gekozen Samenwerkingsmodus.
 
@@ -23,7 +23,7 @@ Implementeren van procedures voor menselijk toezicht (*Human-in-the-loop*) zoals
 - **Escalatiepaden:** Wie wordt gewaarschuwd als het systeem buiten zijn kaders treedt?
 - **Interventieniveaus:** Duidelijke afspraken over de mate van autonomie.
 
-### Adoptie & Training
+### 2.4.1.1.3 Adoptie & Training
 
 Gebruikers opleiden, niet alleen in de knoppen, maar in de nieuwe werkwijze.
 
@@ -31,7 +31,7 @@ Gebruikers opleiden, niet alleen in de knoppen, maar in de nieuwe werkwijze.
 - **Kwaliteitsbewustzijn:** Gebruikers leren hoe ze de output van de AI kritisch kunnen beoordelen.
 - **Feedbacklus:** Inrichten van een kanaal voor gebruikerservaringen en verbeterpunten.
 
-### Compliance Dossier
+### 2.4.1.1.4 Compliance Dossier
 
 Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indien nodig).
 
@@ -39,7 +39,7 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 - **Verantwoordingsbewijs:** Aantonen dat de **Rode Lijnen** zijn gehandhaafd tijdens de testfase.
 - **Overdracht Logboeken:** Volledig overzicht van de systeemhistorie.
 
-## Team & Rollen
+## 2.4.1.2 Team & Rollen
 
 | Rol                        | Verantwoordelijkheid in Levering                                                    |
 | :------------------------- | :---------------------------------------------------------------------------------- |

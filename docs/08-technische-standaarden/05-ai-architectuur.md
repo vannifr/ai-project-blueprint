@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# AI Architectuur
+# 3.2.5 AI Architectuur
 
-## Doel
+## 3.2.5.1 Doel
 
 Deze module beschrijft de meest voorkomende architectuurpatronen voor AI-systemen en de overwegingen bij het kiezen van de juiste aanpak. Een goede architectuur balanceert functionaliteit, schaalbaarheid, kosten en veiligheid.
 
 ______________________________________________________________________
 
-## Basisarchitectuur: De AI-Stack
+## 3.2.5.2 Basisarchitectuur: De AI-Stack
 
 Elke AI-oplossing bestaat uit een aantal lagen die samenwerken:
 
@@ -31,9 +31,9 @@ Elke AI-oplossing bestaat uit een aantal lagen die samenwerken:
 
 ______________________________________________________________________
 
-## Referentiearchitecturen
+## 3.2.5.3 Referentiearchitecturen
 
-### Patroon A: Directe LLM-integratie
+### 3.2.5.3.1 Patroon A: Directe LLM-integratie
 
 **Omschrijving:** Gebruiker communiceert direct met een LLM via een simpele interface.
 
@@ -57,7 +57,7 @@ ______________________________________________________________________
 - Log alle interacties conform [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - Implementeer Rode Lijnen via system prompts
 
-### Patroon B: Kenniskoppeling (RAG)
+### 3.2.5.3.2 Patroon B: Kenniskoppeling (RAG)
 
 **Omschrijving:** LLM wordt verrijkt met bedrijfsspecifieke informatie uit een kennisbank.
 
@@ -89,7 +89,7 @@ ______________________________________________________________________
 - Embedding-model moet passen bij taal en domein
 - Log bronverwijzingen voor traceerbaarheid
 
-### Patroon C: Agentic AI (Autonome Systemen)
+### 3.2.5.3.3 Patroon C: Agentic AI (Autonome Systemen)
 
 **Omschrijving:** AI-systeem dat zelfstandig taken uitvoert, tools aanroept en beslissingen neemt.
 
@@ -138,9 +138,9 @@ Bron: \[so-1\]
 
 ______________________________________________________________________
 
-## Architectuurbeslissingen
+## 3.2.5.4 Architectuurbeslissingen
 
-### Cloud vs On-Premise
+### 3.2.5.4.1 Cloud vs On-Premise
 
 | Factor              | Cloud (API)                   | On-Premise / Private Cloud   |
 | ------------------- | ----------------------------- | ---------------------------- |
@@ -151,7 +151,7 @@ ______________________________________________________________________
 | Latency             | Afhankelijk van netwerk       | Potentieel lager             |
 | Geschikt voor       | Prototypes, variabele volumes | Strenge privacy, hoog volume |
 
-### Modelkeuze
+### 3.2.5.4.2 Modelkeuze
 
 | Overweging       | Foundation Model (GPT, Claude) | Fine-tuned / Custom Model            |
 | ---------------- | ------------------------------ | ------------------------------------ |
@@ -163,9 +163,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Beveiligingsarchitectuur
+## 3.2.5.5 Beveiligingsarchitectuur
 
-### Minimale Beveiligingslagen
+### 3.2.5.5.1 Minimale Beveiligingslagen
 
 | Laag             | Maatregel                             |
 | ---------------- | ------------------------------------- |
@@ -176,7 +176,7 @@ ______________________________________________________________________
 | Output filtering | PII detectie, content filtering       |
 | Logging          | Audit trail conform Bewijsstandaarden |
 
-### Specifiek voor AI
+### 3.2.5.5.2 Specifiek voor AI
 
 - **Prompt injection bescherming:** Scheiding system/user prompts
 - **Rate limiting:** Per gebruiker en totaal
@@ -185,9 +185,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Schaalbaarheid
+## 3.2.5.6 Schaalbaarheid
 
-### Typische Bottlenecks
+### 3.2.5.6.1 Typische Bottlenecks
 
 | Component   | Bottleneck                        | Oplossing                  |
 | ----------- | --------------------------------- | -------------------------- |
@@ -195,7 +195,7 @@ ______________________________________________________________________
 | Vectorstore | Query latency bij veel documenten | Indexing, sharding         |
 | Orkestratie | Complexe workflows                | Async processing, workers  |
 
-### Schaalstrategieën
+### 3.2.5.6.2 Schaalstrategieën
 
 | Strategie        | Wanneer toepassen                    |
 | ---------------- | ------------------------------------ |
@@ -206,7 +206,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Checklist Architectuur
+## 3.2.5.7 Checklist Architectuur
 
 - [ ] Architectuurpatroon is gekozen en gedocumenteerd
 - [ ] Beveiligingslagen zijn geïmplementeerd
@@ -218,7 +218,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Gerelateerde Modules
+## 3.2.5.8 Gerelateerde Modules
 
 - [Technische Standaarden & Leveringscriteria](01-mloops-standaarden.md)
 - [Model Governance](03-model-governance.md)

@@ -3,38 +3,38 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Model Governance
+# 3.2.3 Model Governance
 
-## Doel
+## 3.2.3.1 Doel
 
 Deze module definieert hoe wij AI-modellen beheren gedurende hun levenscyclus: van ontwikkeling tot productie en uiteindelijke uitfasering. Goede model governance zorgt voor traceerbaarheid, controleerbaarheid en veilige releases.
 
 ______________________________________________________________________
 
-## Kernprincipes
+## 3.2.3.2 Kernprincipes
 
-### Elk Model Heeft Een Eigenaar
+### 3.2.3.2.1 Elk Model Heeft Een Eigenaar
 
 - Elke AI-oplossing heeft één aangewezen **Tech Lead** die verantwoordelijk is voor de technische kwaliteit.
 - De eigenaar is aanspreekpunt voor incidenten, updates en decommissioning.
 
-### Alles Is Versiebeheerd
+### 3.2.3.2.2 Alles Is Versiebeheerd
 
 - Modelgewichten, configuraties en Sturingsinstructies staan in versiebeheer.
 - Wijzigingen zijn traceerbaar: wie heeft wat wanneer aangepast?
 
-### Geen Wijziging Zonder Review
+### 3.2.3.2.3 Geen Wijziging Zonder Review
 
 - Wijzigingen aan productiemodellen vereisen review door ten minste één andere teamlid.
 - Bij Hoog Risico: Guardian review verplicht.
 
 ______________________________________________________________________
 
-## Model Registry
+## 3.2.3.3 Model Registry
 
 Een centrale plek waar alle modellen zijn geregistreerd met hun metadata.
 
-### Minimale Metadata per Model
+### 3.2.3.3.1 Minimale Metadata per Model
 
 | Veld                | Beschrijving                                    | Voorbeeld                   |
 | ------------------- | ----------------------------------------------- | --------------------------- |
@@ -48,7 +48,7 @@ Een centrale plek waar alle modellen zijn geregistreerd met hun metadata.
 | Validatierapport    | Link naar bijbehorend bewijs                    | `reports/invoice-v2.1.md`   |
 | Risiconiveau        | Classificatie conform EU AI Act                 | Beperkt                     |
 
-### Implementatie-opties
+### 3.2.3.3.2 Implementatie-opties
 
 | Optie                     | Geschikt voor                    | Complexiteit |
 | ------------------------- | -------------------------------- | ------------ |
@@ -58,9 +58,9 @@ Een centrale plek waar alle modellen zijn geregistreerd met hun metadata.
 
 ______________________________________________________________________
 
-## Goedkeuringsworkflow
+## 3.2.3.4 Goedkeuringsworkflow
 
-### Standaard Flow (Beperkt Risico)
+### 3.2.3.4.1 Standaard Flow (Beperkt Risico)
 
 ```
 [Development] → [Code Review] → [Staging Test] → [Gate Review] → [Production]
@@ -70,7 +70,7 @@ ______________________________________________________________________
 - **Staging Test:** Gouden Set test op staging-omgeving
 - **Gate Review:** Validatierapport voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 
-### Uitgebreide Flow (Hoog Risico)
+### 3.2.3.4.2 Uitgebreide Flow (Hoog Risico)
 
 ```
 [Development] → [Code Review] → [Guardian Review] → [Staging Test] → [Eerlijkheidstoets] → [Gate Review] → [Gefaseerde Uitrol] → [Production]
@@ -82,7 +82,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Modellevenscyclus
+## 3.2.3.5 Modellevenscyclus
 
 | Fase        | Kenmerken                   | Acties                                      |
 | ----------- | --------------------------- | ------------------------------------------- |
@@ -94,9 +94,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Wijzigingsbeheer
+## 3.2.3.6 Wijzigingsbeheer
 
-### Typen Wijzigingen
+### 3.2.3.6.1 Typen Wijzigingen
 
 | Type                    | Voorbeeld                              | Vereiste Goedkeuring          |
 | ----------------------- | -------------------------------------- | ----------------------------- |
@@ -105,7 +105,7 @@ ______________________________________________________________________
 | Modelversie-update      | Nieuw basismodel (bijv. GPT-4 → GPT-5) | Volledige Gate Review         |
 | Databron-wijziging      | Nieuwe kennisbank koppelen             | Guardian review (Hoog Risico) |
 
-### Rollback Procedure
+### 3.2.3.6.2 Rollback Procedure
 
 - Elke productierelease heeft een gedocumenteerd rollback plan.
 - Rollback moet binnen 30 minuten uitvoerbaar zijn.
@@ -113,7 +113,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Checklist Model Governance
+## 3.2.3.7 Checklist Model Governance
 
 - [ ] Model registry is ingericht en up-to-date
 - [ ] Alle productiemodellen hebben een eigenaar
@@ -123,7 +123,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Gerelateerde Modules
+## 3.2.3.8 Gerelateerde Modules
 
 - [Technische Standaarden & Leveringscriteria](01-mloops-standaarden.md)
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)

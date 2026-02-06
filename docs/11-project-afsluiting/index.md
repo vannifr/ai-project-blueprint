@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Project Afsluiting
+# 2.7 Project Afsluiting
 
-## Doel
+## 2.7.1 Doel
 
 Het formeel afronden van een AI-project, met de focus op het borgen van de opgedane kennis en het overdragen van verantwoordelijkheden naar de beheerorganisatie.
 
 ______________________________________________________________________
 
-## Onderdelen
+## 2.7.2 Onderdelen
 
 - [Lessons Learned](01-lessons-learned.md)
 - [Overdracht Procedures](02-overdracht-procedures.md)

@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Normatieve Criteria
+# 1.1.1 Normatieve Criteria
 
-## Wanneer Werken We Volgens de Kernprincipes?
+## 1.1.1.1 Wanneer Werken We Volgens de Kernprincipes?
 
 Een project kwalificeert voor deze aanpak als aan de volgende drie criteria wordt voldaan:
 
