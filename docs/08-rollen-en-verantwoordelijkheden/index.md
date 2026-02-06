@@ -11,7 +11,7 @@ In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we
 
 ______________________________________________________________________
 
-## 1. Het Kernteam (The Squad)
+## Het Kernteam (The Squad)
 
 Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie.
 
@@ -41,7 +41,7 @@ Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de
 
 ______________________________________________________________________
 
-## 2. De Ondersteunende Rollen
+## De Ondersteunende Rollen
 
 Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
 
@@ -53,7 +53,7 @@ Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
 
 ______________________________________________________________________
 
-## 3. Strategisch Niveau (Steering Com)
+## Strategisch Niveau (Steering Com)
 
 ### Chief AI Officer (CAIO)
 

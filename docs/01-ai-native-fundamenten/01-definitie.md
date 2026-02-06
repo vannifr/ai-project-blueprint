@@ -3,27 +3,27 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 De Kernprincipes
+# De Kernprincipes
 
-## 📖 1. Wat Zijn de Kernprincipes?
+## Wat Zijn de Kernprincipes?
 
 Wij beschouwen AI-voorzieningen niet als statische software, maar als **gedragssturing**. Dit betekent dat we AI-systemen niet programmeren in de traditionele zin, maar sturen door middel van informatie en context.
 
 Een project valt onder dit regime als aan **drie voorwaarden** is voldaan:
 
-### 1. Impact
+### Impact
 
 Het systeem raakt de business direct. Het neemt beslissingen, genereert content of beïnvloedt processen die waarde creëren of risico's met zich meebrengen.
 
-### 2. Traceerbaarheid
+### Traceerbaarheid
 
 Alle instructies en configuraties zijn beheerd als code (version control). We kunnen altijd terugkijken: "Waarom deed het systeem dit op dat moment?"
 
-### 3. Continue Toetsing
+### Continue Toetsing
 
 Het systeem wordt niet één keer getest en dan "klaar" verklaard. We valideren doorlopend of het gedrag nog aansluit bij de bedoeling.
 
-## 📖 Governance-as-Code (Automatisering)
+## Governance-as-Code (Automatisering)
 
 Documentatie alleen verandert gedrag niet; de implementatie doet dat wel. We hanteren het principe van **Verifieerbaarheid door Code**:
 
@@ -32,11 +32,11 @@ Documentatie alleen verandert gedrag niet; de implementatie doet dat wel. We han
 
 ______________________________________________________________________
 
-## 📖 De Drie Kernvoorwaarden
+## De Drie Kernvoorwaarden
 
 Om AI-systemen beheersbaar te maken, werken we met vier kerndocumenten:
 
-### 2.1 Doeldefinitie (Intent)
+### Doeldefinitie (Intent)
 
 **Wat proberen we te bereiken?**
 
@@ -45,7 +45,7 @@ Dit is de hypothese of het doel van het systeem. Bijvoorbeeld:
 - "Automatisch facturen categoriseren met 95% nauwkeurigheid"
 - "Klantvragen beantwoorden binnen 30 seconden"
 
-### 2.2 Rode Lijnen (Constraints)
+### Rode Lijnen (Constraints)
 
 **Wat mag absoluut niet gebeuren?**
 
@@ -55,7 +55,7 @@ Dit zijn de harde grenzen waar het systeem zich aan moet houden:
 - Veiligheid: Geen medische adviezen geven
 - Compliance: Voldoen aan AVG/GDPR
 
-### 2.3 Sturingsinstructies (Context)
+### Sturingsinstructies (Context)
 
 **Welke informatie stuurt het gedrag?**
 
@@ -66,7 +66,7 @@ Dit omvat alle inputs die de AI gebruikt:
 - Configuraties en parameters
 - Voorbeelden (few-shot learning)
 
-### 2.4 Validatierapport (Evidence)
+### Validatierapport (Evidence)
 
 **Hoe weten we dat het werkt?**
 
@@ -79,7 +79,7 @@ Het rapport dat aantoont dat de AI zich aan de Rode Lijnen houdt en het Doel ber
 
 ______________________________________________________________________
 
-## 3. Van Code naar Gedrag
+## Van Code naar Gedrag
 
 Het verschil met traditionele software:
 
@@ -94,7 +94,7 @@ Het verschil met traditionele software:
 
 ______________________________________________________________________
 
-## 4. Waarom Dit Belangrijk Is
+## Waarom Dit Belangrijk Is
 
 Deze aanpak zorgt voor:
 

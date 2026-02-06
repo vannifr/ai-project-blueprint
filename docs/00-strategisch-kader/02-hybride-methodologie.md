@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Hybride Methodologie
+# Hybride Methodologie
 
-## 📖 Doel
+## Doel
 
 Dit document beschrijft de hybride aanpak van de AI Project Gids, waarbij voorspelbare planning (Waterfall) wordt gecombineerd met iteratieve uitvoering (Agile) voor een optimale balans tussen structuur en flexibiliteit.
 
 ______________________________________________________________________
 
-## 📖 Concept
+## Concept
 
 De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vereisen voor budgettering en compliance, en anderzijds extreme flexibiliteit nodig hebben tijdens de modelontwikkeling.
 
@@ -31,7 +31,7 @@ De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vere
 
 ______________________________________________________________________
 
-## 📖 Praktische Implementatie
+## Praktische Implementatie
 
 ```mermaid
 gantt
@@ -50,7 +50,7 @@ gantt
 
 ______________________________________________________________________
 
-## ? Voordelen
+## Voordelen
 
 - **Structuur:** Duidelijke planning en governance voor management.
 - **Flexibiliteit:** Snelle aanpassing aan nieuwe data-inzichten voor het team.

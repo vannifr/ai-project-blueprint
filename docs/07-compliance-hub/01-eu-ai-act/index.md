@@ -5,13 +5,13 @@ laatst_herzien: '2026-02-01'
 
 # EU AI Act
 
-## 1. Doel
+## Doel
 
 Dit document beschrijft de specifieke vereisten van de Europese AI Verordening (EU AI Act) en hoe deze worden toegepast binnen het project. De EU AI Act is de eerste uitgebreide AI-regelgeving ter wereld en is van toepassing op alle organisaties die AI-systemen aanbieden of gebruiken binnen de EU.
 
 ______________________________________________________________________
 
-## 2. Risicoclassificatie conform EU AI Act
+## Risicoclassificatie conform EU AI Act
 
 De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veiligheid en grondrechten.
 
@@ -53,7 +53,7 @@ Bronnen: \[so-27\], \[so-36\]
 
 ______________________________________________________________________
 
-## 3. Bijlage III: Hoog-Risico Gebieden
+## Bijlage III: Hoog-Risico Gebieden
 
 AI-systemen vallen onder Hoog Risico als ze worden ingezet in de volgende domeinen:
 
@@ -70,7 +70,7 @@ AI-systemen vallen onder Hoog Risico als ze worden ingezet in de volgende domein
 
 ______________________________________________________________________
 
-## 4. Artikelverwijzingen: Kernverplichtingen
+## Artikelverwijzingen: Kernverplichtingen
 
 ### Art. 9: Risicobeheersysteem
 
@@ -202,7 +202,7 @@ Bronnen: \[so-27\], \[so-36\]
 
 ______________________________________________________________________
 
-## 5. Compliance Mapping: Playbook naar EU AI Act
+## Compliance Mapping: Playbook naar EU AI Act
 
 | EU AI Act Artikel    | Vereiste                  | Playbook Module                    | Sjabloon            |
 | -------------------- | ------------------------- | ---------------------------------- | ------------------- |
@@ -218,7 +218,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 6. Tijdlijn EU AI Act
+## Tijdlijn EU AI Act
 
 De EU AI Act kent een gefaseerde inwerkingtreding. Onderstaande data zijn bindend.
 
@@ -232,7 +232,7 @@ Bronnen: \[so-27\], \[so-36\]
 
 ______________________________________________________________________
 
-## 7. Checklist EU AI Act Compliance (Hoog Risico)
+## Checklist EU AI Act Compliance (Hoog Risico)
 
 **Voorafgaand aan ontwikkeling:**
 

@@ -5,7 +5,7 @@ laatst_herzien: '2026-02-01'
 
 # Opleveringen & Gate 2 (Investering PoV) (Validatie)
 
-## 6. Opleveringen (Afleveringen)
+## Opleveringen (Afleveringen)
 
 De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 

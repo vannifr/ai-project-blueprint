@@ -20,14 +20,14 @@ ______________________________________________________________________
 
 *Kruis aan wat van toepassing is. Als één van deze 'Ja' is, bepaalt dat de risicocategorie.*
 
-#### 1. Verboden Praktijken (ONACCEPTABEL)
+#### Verboden Praktijken (ONACCEPTABEL)
 
 - [ ] Gebruikt het systeem subliminale technieken om gedrag te manipuleren?
 - [ ] Wordt er gebruik gemaakt van biometrische categorisering (ras, politiek, religie)?
 - [ ] Wordt er in openbare ruimtes real-time biometrische identificatie toegepast?
     > **Indien JA op één van bovenstaande: STOP PROJECT DIRECT.**
 
-#### 2. Hoog Risico Systemen (HOOG RISICO)
+#### Hoog Risico Systemen (HOOG RISICO)
 
 - [ ] Wordt het gebruikt in kritieke infrastructuur (water, energie, verkeer)?
 - [ ] Beslist het over toegang tot onderwijs of beoordeling van studenten?
@@ -35,7 +35,7 @@ ______________________________________________________________________
 - [ ] Beslist het over toegang tot diensten (krediet, uitkeringen, verzekeringen)?
     > **Indien JA: Volledige compliance verplicht (Technisch Dossier, CE-markering).**
 
-#### 3. Transparantieverplichtingen (Art. 50)
+#### Transparantieverplichtingen (Art. 50)
 
 - [ ] Is er directe interactie met mensen (chatbot, virtuele assistent)?
 - [ ] Genereert het systeem synthetische of gemanipuleerde content (tekst, beeld, geluid)?

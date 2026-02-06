@@ -3,11 +3,11 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Kernactiviteiten & Rollen (Validatie)
+# Kernactiviteiten & Rollen (Validatie)
 
-## 3. Kernactiviteiten
+## Kernactiviteiten
 
-### Activiteit 3.1: Praktijkproef (Proof of Value)
+### Praktijkproef (Proof of Value)
 
 Een kleinschalig experiment om te testen of de AI de specifieke bedrijfscontext begrijpt.
 
@@ -16,7 +16,7 @@ Een kleinschalig experiment om te testen of de AI de specifieke bedrijfscontext 
 - **AI Experiment:** Laat de AI dezelfde voorbeelden verwerken
 - **Succescriterium:** Scoort de AI een voldoende (>90%) op de testset?
 
-### Activiteit 3.2: Betrouwbaarheidstesten
+### Betrouwbaarheidstesten
 
 Statistische check of de resultaten stabiel zijn en niet op toeval berusten.
 
@@ -24,7 +24,7 @@ Statistische check of de resultaten stabiel zijn en niet op toeval berusten.
 - **Edge Cases:** Hoe reageert het systeem op ongewone of extreme input?
 - **Bias Detectie:** Zijn er systematische fouten in bepaalde categorieën?
 
-### Activiteit 3.3: Het Kostenoverzicht
+### Het Kostenoverzicht
 
 Een volledige raming van investering en operationele kosten.
 
@@ -46,7 +46,7 @@ Een volledige raming van investering en operationele kosten.
 - **Kwaliteitsverbetering:** Minder fouten, hogere klanttevredenheid
 - **Omzetgroei:** Nieuwe mogelijkheden, snellere doorlooptijd
 
-## 📖 4. Team & Rollen
+## Team & Rollen
 
 | Rol                    | Verantwoordelijkheid in Validatie                                                       |
 | :--------------------- | :-------------------------------------------------------------------------------------- |

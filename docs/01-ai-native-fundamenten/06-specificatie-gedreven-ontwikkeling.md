@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Specificatie-eerst Methode
+# Specificatie-eerst Methode
 
-## 📖 Shift-Left Validatie
+## Shift-Left Validatie
 
 De **Specificatie-eerst Methode** (ook wel *Spec-Driven Development*) zorgt ervoor dat we eerst de verwachtingen vastleggen voordat we bouwen.
 

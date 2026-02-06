@@ -1,10 +1,10 @@
-﻿# 🎨 Huisstijl & Schrijfwijzer (Styleguide v2.1)
+# Huisstijl & Schrijfwijzer (Styleguide v2.1)
 
 Deze gids borgt dat alle modules in het Playbook consistent, begrijpelijk en uniform blijven. Versie 2.1 integreert de **Vlaamse taalgids-audit** voor een optimale aansluiting bij Belgisch Nederlandstalige professionals.
 
 ______________________________________________________________________
 
-## 1. Toon & Stem (Tone of Voice)
+## Toon & Stem (Tone of Voice)
 
 Wij schrijven voor professionals die actie willen ondernemen. Onze taal is direct, activerend en zelfverzekerd.
 
@@ -17,7 +17,7 @@ Wij schrijven voor professionals die actie willen ondernemen. Onze taal is direc
 
 ______________________________________________________________________
 
-## 2. Terminologie & Lexicon (De Vertaallijst)
+## Terminologie & Lexicon (De Vertaallijst)
 
 Wij slaan de brug tussen techniek en business. Gebruik de onderstaande tabel voor een consistente woordkeuze die zowel technisch accuraat als grammaticaal correct is voor een Vlaams publiek.
 
@@ -41,7 +41,7 @@ Wij slaan de brug tussen techniek en business. Gebruik de onderstaande tabel voo
 
 ______________________________________________________________________
 
-## 3. Plagiaat & Originaliteit
+## Plagiaat & Originaliteit
 
 - **Strikte Regel:** Kopieer nooit letterlijke zinnen uit bronbestanden (zoals PMI-documenten, ISO-normen of externe whitepapers).
 - **Herformuleren:** Lees de bron, begrijp de kern, en schrijf het op alsof je het uitlegt aan een collega.
@@ -49,7 +49,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4. Opmaakstandaarden (Markdown)
+## Opmaakstandaarden (Markdown)
 
 Consistentie zorgt voor leesbaarheid.
 
@@ -67,11 +67,11 @@ Consistentie zorgt voor leesbaarheid.
 
 ______________________________________________________________________
 
-## 📝 Instructies voor Auteurs
+## Instructies voor Auteurs
 
 Volg dit proces wanneer je een nieuwe module toevoegt of een bestaande bewerkt.
 
-### Stap 1: Bepaal de Plaats in de Levenscyclus
+### Bepaal de Plaats in de Levenscyclus
 
 Kijk naar **Module 00 (Het Strategisch Kader)**. Waar past jouw document?
 
@@ -80,7 +80,7 @@ Kijk naar **Module 00 (Het Strategisch Kader)**. Waar past jouw document?
 - Is het beheer? -> Module 06.
 - Is het een template? -> Module 09+.
 
-### Stap 2: Gebruik de Vaste Structuur
+### Gebruik de Vaste Structuur
 
 Elke Proces-Module moet de volgende anatomie hebben:
 
@@ -91,14 +91,14 @@ Elke Proces-Module moet de volgende anatomie hebben:
 1. **Exit Criteria (De Gate):** De checklist om de fase af te sluiten.
 1. **Deliverables:** De concrete bestanden die worden opgeleverd.
 
-### Stap 3: De 'Jip en Janneke' Check (Begrijpelijkheid)
+### De 'Jip en Janneke' Check (Begrijpelijkheid)
 
 Lees je concepttekst door met de bril van een niet-technische manager (bijv. een Financieel Directeur).
 
 - Snapt hij/zij wat "Inference costs" zijn? -> Nee? Verander in **"Gebruikskosten"**.
 - Snapt hij/zij wat "Bias audit" is? -> Nee? Verander in **"Eerlijkheidstoets"**.
 
-### Stap 4: Versiebeheer
+### Versiebeheer
 
 Eindig elk document altijd met een footer voor traceerbaarheid:
 

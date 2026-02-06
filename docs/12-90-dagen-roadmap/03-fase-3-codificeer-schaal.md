@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Fase 3: Codificeer & Schaal (Dagen 61-90)
+# Codificeer & Schaal (Dagen 61-90)
 
 **Thema:** Standaardiseren en Uitrollen.
 

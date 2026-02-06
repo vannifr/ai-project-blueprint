@@ -3,11 +3,11 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🗺️ Blueprint & Methodologie Index
+# Blueprint & Methodologie Index
 
 Deze pagina fungeert als de "Rosetta-steen" van de AI Project Gids. Hier vindt u de koppeling tussen de technische codes (gebruikt voor auditing en automatisering) en de inhoudelijke documenten.
 
-## 🛠️ De Codestructuur
+## De Codestructuur
 
 | Code     | Betekenis        | Gebruik                                              |
 | :------- | :--------------- | :--------------------------------------------------- |
@@ -18,7 +18,7 @@ Deze pagina fungeert als de "Rosetta-steen" van de AI Project Gids. Hier vindt u
 
 ______________________________________________________________________
 
-## 📂 Overzicht van Modules (MOD)
+## Overzicht van Modules (MOD)
 
 De modules vormen de navigatiestructuur van de AI-levenscyclus.
 
@@ -37,7 +37,7 @@ De modules vormen de navigatiestructuur van de AI-levenscyclus.
 
 ______________________________________________________________________
 
-## 📝 Overzicht van Sjablonen (TMP)
+## Overzicht van Sjablonen (TMP)
 
 Dit zijn de artefacten die gedurende een project worden geproduceerd. Deze vormen samen het **Wettelijk Dossier**.
 
@@ -59,7 +59,7 @@ Dit zijn de artefacten die gedurende een project worden geproduceerd. Deze vorme
 
 ______________________________________________________________________
 
-## 🚦 Beslismomenten (GATES)
+## Beslismomenten (GATES)
 
 | Gate       | Naam                | Voorwaarde voor doorgang                          |
 | :--------- | :------------------ | :------------------------------------------------ |

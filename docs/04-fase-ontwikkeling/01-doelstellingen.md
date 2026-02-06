@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Fase 04: Realisatie
+# Realisatie
 
-## 📖 Doelstelling
+## Doelstelling
 
 Het primaire doel van de Realisatiefase is het bouwen van een robuuste, productiewaardige oplossing die voldoet aan alle kwaliteits- en veiligheidseisen.
 
 **Belangrijkste resultaat:** Een volledig functioneel AI-systeem dat klaar is voor **ingebruikname**, inclusief geautomatiseerde tests en documentatie.
 
-## ? Intrede Criteria (Definition of Ready)
+## Intrede Criteria (Definition of Ready)
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 

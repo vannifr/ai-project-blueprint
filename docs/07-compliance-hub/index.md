@@ -5,13 +5,13 @@ laatst_herzien: '2026-02-01'
 
 # Risicobeheersing & Compliance
 
-## 1. Doel van deze Module
+## Doel van deze Module
 
 Compliance is geen rem, maar de remmen op een auto zorgen ervoor dat je veilig hard kunt rijden. Deze module definieert de **Rode Lijnen**: de ethische en wettelijke grenzen waarbinnen we innoveren. Het centraliseert de vereisten vanuit de EU AI Act en interne waarden.
 
 ______________________________________________________________________
 
-## 2. Risico-Classificatie (De Piramide)
+## Risico-Classificatie (De Piramide)
 
 Voordat een project start (in **Verkenning & Strategie**), moet het worden ingedeeld in een risicocategorie. Dit bepaalt de zwaarte van het toezicht.
 
@@ -24,7 +24,7 @@ Voordat een project start (in **Verkenning & Strategie**), moet het worden inged
 
 ______________________________________________________________________
 
-## 3. De Rol van de 'Guardian' (Ethicus)
+## De Rol van de 'Guardian' (Ethicus)
 
 De Guardian is de "Beschermheer" van de waarden van de organisatie. Deze rol is onafhankelijk van het ontwikkelteam.
 
@@ -36,7 +36,7 @@ De Guardian is de "Beschermheer" van de waarden van de organisatie. Deze rol is 
 
 ______________________________________________________________________
 
-## 4. De Eerlijkheidstoets (Bias Audit)
+## De Eerlijkheidstoets (Bias Audit)
 
 AI leert van data uit het verleden en kan daardoor vooroordelen overnemen. We toetsen elk Hoog en Beperkt risico systeem op drie niveaus:
 
@@ -46,7 +46,7 @@ AI leert van data uit het verleden en kan daardoor vooroordelen overnemen. We to
 
 ______________________________________________________________________
 
-## 5. Beheer van Incidenten
+## Beheer van Incidenten
 
 Wat als het misgaat?
 
@@ -55,7 +55,7 @@ Wat als het misgaat?
 
 ______________________________________________________________________
 
-## 6. Documentatievereisten (Het Dossier)
+## Documentatievereisten (Het Dossier)
 
 Voor Hoog Risico systemen is een 'Technisch Dossier' verplicht. Dit bevat:
 
@@ -67,18 +67,18 @@ Voor Hoog Risico systemen is een 'Technisch Dossier' verplicht. Dit bevat:
 
 ______________________________________________________________________
 
-## 7. Privacy-by-Design (AVG/GDPR) — Praktische richtlijnen
+## Privacy-by-Design (AVG/GDPR) — Praktische richtlijnen
 
 **Doel:** privacy is geen bijlage, maar een ontwerpkeuze.
 
-### 7.1 Minimale regels (altijd)
+### Minimale regels (altijd)
 
 - **Dataminimalisatie:** verzamel/verwerk alleen wat noodzakelijk is.
 - **Doelbinding:** hergebruik data niet automatisch voor andere doelen.
 - **Transparantie:** gebruiker/betrokkene weet wanneer AI wordt ingezet (waar relevant).
 - **Beveiliging:** toegang, logging en retentie zijn ingericht vóór livegang.
 
-### 7.2 Privacy acties per fase
+### Privacy acties per fase
 
 **Fase 1 (Verkenning & Strategie):**
 
@@ -105,7 +105,7 @@ ______________________________________________________________________
 - Monitor op datalekken/ongewenste data in logs.
 - Periodieke review van retentie en toegangsrechten.
 
-### 7.3 Livegang-voorwaarde
+### Livegang-voorwaarde
 
 Geen livegang zonder:
 
@@ -114,7 +114,7 @@ Geen livegang zonder:
 
 ______________________________________________________________________
 
-## 8. Agentic AI & Constitutional AI
+## Agentic AI & Constitutional AI
 
 Wanneer AI-systemen autonoom acties uitvoeren (Modus 4 & 5), verschuift de focus naar **Constitutional AI**:
 

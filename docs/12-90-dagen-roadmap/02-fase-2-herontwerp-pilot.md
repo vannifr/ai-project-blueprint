@@ -3,7 +3,7 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# Fase 2: Herontwerp & Pilot (Dagen 31-60)
+# Herontwerp & Pilot (Dagen 31-60)
 
 **Thema:** Doen, Testen en Leren.
 

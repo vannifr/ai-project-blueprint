@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Het Project Charter
+# Het Project Charter
 
-## 0. Routekeuze
+## Routekeuze
 
 - **Route:** \[ \] Fast Lane  \[ \] Standaard lifecycle (Verkenning & Strategie t/m Beheer & Optimalisatie)
 - **Motivatie:** \[1 zin\]
@@ -13,7 +13,7 @@ laatst_herzien: '2026-02-01'
 
 ______________________________________________________________________
 
-## 📖 Doel
+## Doel
 
 Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de scope, doelen en kaders vast te leggen voordat er middelen worden gealloceerd aan de Bewijsvoering (Fase 2).
 
@@ -23,7 +23,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 1. De Probleemstelling (Het Waarom)
+### De Probleemstelling (Het Waarom)
 
 *Beschrijf het probleem vanuit de gebruiker of de organisatie. Focus op het knelpunt, niet op de technologie.*
 
@@ -33,7 +33,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 2. De Oplossing (Het Wat)
+### De Oplossing (Het Wat)
 
 *Beschrijf op hoofdlijnen wat we gaan bouwen en hoe mens en AI samenwerken.*
 
@@ -43,7 +43,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 3. Strategische Fit & Data
+### Strategische Fit & Data
 
 *Waarom nu en is het haalbaar?*
 
@@ -54,7 +54,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 4. Risico & Compliance (Pre-scan)
+### Risico & Compliance (Pre-scan)
 
 *Zie Risicobeheersing & Compliance voor definities.*
 
@@ -64,7 +64,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 5. De Business Case (Schatting)
+### De Business Case (Schatting)
 
 *De hypothese van waarde.*
 
@@ -74,7 +74,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 6. Het Kernteam
+### Het Kernteam
 
 - **AI Product Manager (Business):** \[Naam\]
 - **Tech Lead (IT):** \[Naam\]
@@ -82,7 +82,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Besluit Gate 1 (Go/No-Go Ontdekking)
+### Besluit Gate 1 (Go/No-Go Ontdekking)
 
 - [ ] **Go: Fast Lane FL-1**
 - [ ] **Go: Standaard lifecycle Gate 1**

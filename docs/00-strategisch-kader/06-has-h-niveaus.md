@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 AI-Samenwerkingsmodi
+# AI-Samenwerkingsmodi
 
-## 📖 1. Doel van de Modi
+## Doel van de Modi
 
 Om te bepalen welke processen, governance en risicobeheersing nodig zijn, classificeren we de relatie tussen mens en machine in vijf **Samenwerkingsmodi**.
 
@@ -13,7 +13,7 @@ Dit model beschrijft de verschuiving van AI als gereedschap naar AI als zelfstan
 
 ______________________________________________________________________
 
-## 📖 De Vijf Modi
+## De Vijf Modi
 
 ### Modus 1: Instrumenteel (The Tool)
 
@@ -72,7 +72,7 @@ Het systeem krijgt een breed mandaat (bijv. "Optimaliseer de inkoopvoorraad") en
 
 ______________________________________________________________________
 
-## ? Risico & Validatie Matrix
+## Risico & Validatie Matrix
 
 Hoe hoger de modus, hoe zwaarder de validatie-eisen.
 
@@ -86,7 +86,7 @@ Hoe hoger de modus, hoe zwaarder de validatie-eisen.
 
 ______________________________________________________________________
 
-## 📖 Toepassing in Projecten
+## Toepassing in Projecten
 
 Bij het starten van een project (Fase Discovery) moet de beoogde modus worden vastgelegd in het **Project Charter**.
 

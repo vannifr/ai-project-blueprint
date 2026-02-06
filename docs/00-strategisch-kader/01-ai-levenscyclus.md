@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 AI Levenscyclus
+# AI Levenscyclus
 
-## 📖 Doel
+## Doel
 
 Dit document definieert de volledige methodologie voor AI projecten en vormt de fundering van de AI levenscyclus. Het beschrijft de 5 fasen van AI projecten en fungeert als centrale routekaart voor het team.
 
 ______________________________________________________________________
 
-## 📖 Overzicht van de AI Levenscyclus
+## Overzicht van de AI Levenscyclus
 
 Een succesvol AI-project is geen lineair proces, maar een iteratieve cyclus waarbij techniek, business en compliance constant op elkaar worden afgestemd. De AI levenscyclus bestaat uit 5 fasen die elkaar overlappen en versterken:
 
@@ -34,17 +34,17 @@ graph TD
 
 ______________________________________________________________________
 
-## 📖 De Vijf Fasen van de Levenscyclus
+## De Vijf Fasen van de Levenscyclus
 
 > \[!TIP\]
 > **De Fast Lane (De Innovatie-route)**
 > Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
 
-### 🎯 Fase 1: Verkenning & Strategie
+### Verkenning & Strategie
 
 **📍 Doel:** Het identificeren van het juiste probleem en toetsen of we klaar zijn om te starten.
 
-#### 📍 Kernactiviteiten
+#### Kernactiviteiten
 
 - **Probleemverkenning:** Het probleem definiëren vanuit de gebruiker, niet vanuit de techniek.
 - **Data-Evaluatie:** Beoordelen van Toegang, Kwaliteit en Relevantie van de data.
@@ -52,11 +52,11 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 Fase 2: Validatie
+### Validatie
 
 **📍 Doel:** Bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
 
-#### 📍 Kernactivities
+#### Kernactivities
 
 - **Praktijkproef (PoV):** Kleinschalig experiment om de hypothese te testen.
 - **Het Kostenoverzicht:** Schatten van investering versus ROI.
@@ -64,11 +64,11 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 Fase 3: Realisatie
+### Realisatie
 
 **📍 Doel:** Het bouwen van een robuuste, productiewaardige oplossing.
 
-#### 📍 Kernactiviteiten
+#### Kernactiviteiten
 
 - **Specificatie-eerst Methode:** Eerst tests schrijven, dan pas de implementatie.
 - **Kenniskoppeling (RAG):** De AI verbinden aan interne bedrijfsinformatie.
@@ -76,11 +76,11 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 Fase 4: Levering
+### Levering
 
 **📍 Doel:** Een veilige **Ingebruikname** en acceptatie door de organisatie.
 
-#### 📍 Kernactiviteiten
+#### Kernactiviteiten
 
 - **Ingebruikname Plan:** Stapsgewijze uitrol naar productie.
 - **Menselijke Regie:** Implementeren van toezichtsprotocollen.
@@ -88,11 +88,11 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 Fase 5: Beheer & Optimalisatie
+### Beheer & Optimalisatie
 
 **📍 Doel:** Waarde behouden en de oplossing actueel houden.
 
-#### 📍 Kernactiviteiten
+#### Kernactiviteiten
 
 - **Prestatieverloop Meten:** Continu monitoren van accuraatheid en drift.
 - **Kostenbeheersing:** Het verbruik en de middelen optimaliseren.

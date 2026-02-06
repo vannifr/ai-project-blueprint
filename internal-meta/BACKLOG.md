@@ -1,4 +1,4 @@
-﻿# GeÃ¼pdatete Backlog - AI Project Playbook (Nederlands)
+# GeÃ¼pdatete Backlog - AI Project Playbook (Nederlands)
 
 Dit document bevat de geprioriteerde roadmap voor de ontwikkeling van het AI Project Playbook, volledig in het Nederlands en afgestemd op de nieuwe organisatiestructuur.
 
@@ -76,7 +76,7 @@ ______________________________________________________________________
 - [x] **Output:** 13.01 Verkenner, 13.02 Bouwer, 13.03 Visionair.
 - [x] **Fundering:** AI Playbook (ortcsk).
 
-### Module 14: Drie Tracks
+### Drie Tracks
 
 - **Waarom:** Structuur voor heruitvinding op strategisch, operationeel en bedrijfsmodel niveau.
 - **Output:** 14.01 Strategische Heruitvinding, 14.02 Operationele Herontwerp, 14.03 AI-First Bedrijfsmodel.

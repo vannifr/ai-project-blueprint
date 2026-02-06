@@ -3,28 +3,28 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Risicobeheer
+# Risicobeheer
 
-## 📖 Doel
+## Doel
 
 Systematisch identificeren, beoordelen en mitigeren van risico's gedurende de gehele AI-levenscyclus.
 
 ______________________________________________________________________
 
-## 📖 Risicobeheer Proces
+## Risicobeheer Proces
 
-### 1. Risico-identificatie
+### Risico-identificatie
 
 - Systeemanalyse op basis van de **Doeldefinitie**.
 - Identificeren van impact op de **Rode Lijnen**.
 - Analyseren van mogelijke **Prestatieverschuiving** in productie.
 
-### 2. Risicobeoordeling
+### Risicobeoordeling
 
 - Classificatie conform de Risicopiramide (zie Risicobeheersing & Compliance).
 - Inschatting van waarschijnlijkheid en impact.
 
-### 3. Mitigatie
+### Mitigatie
 
 - Implementeren van technische kaders.
 - Opstellen van Menselijke Regie protocollen.
@@ -32,7 +32,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 📖 Rollen in Risicobeheer
+## Rollen in Risicobeheer
 
 - **AI Product Manager:** Eindverantwoordelijk voor de business risico's.
 - **Guardian:** Onafhankelijk toezichthouder op ethiek en **Rode Lijnen**.

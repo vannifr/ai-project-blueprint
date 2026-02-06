@@ -3,45 +3,45 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Project Initiatie
+# Project Initiatie
 
-## 📖 Doel
+## Doel
 
 Het formaliseren van de start van een AI-project door het vastleggen van heldere doelen, rollen, verantwoordelijkheden en kaders in een **AI Project Charter**.
 
 ______________________________________________________________________
 
-## 📖 Initiatie Stappen
+## Initiatie Stappen
 
-### 1. Project Charter Opstellen
+### Project Charter Opstellen
 
 - Definieer de **project scope**: Wat hoort er wel bij en wat niet?
 - Formuleer duidelijke **doelen** en de verwachte **Doeldefinitie**.
 - Leg de beoogde **Samenwerkingsmodus** vast.
 - Identificeer **stakeholders** en breng hun verwachtingen in kaart.
 
-### 2. Team Samenstellen
+### Team Samenstellen
 
 - Wijs duidelijke rollen toe (zie **📍 4. Team & Rollen**).
 - Zorg voor multidisciplinaire samenwerking (Business, Data Science, IT/Guardians).
 
-### 3. Governance Opzetten
+### Governance Opzetten
 
 - Definieer de besluitvormingsstructuur voor dit specifieke project.
 - Plan de **Gate Reviews** en checkpoints in de agenda.
 
-### 4. Risicobeheer Plan
+### Risicobeheer Plan
 
 - Voer een initiële **Risico-Inventarisatie** uit.
 - Ontwikkel mitigatie strategieën voor de top-risico's.
 
-### 5. Het Kostenoverzicht
+### Het Kostenoverzicht
 
 - Maak een eerste raming van de investering en verwachte opbrengsten.
 
 ______________________________________________________________________
 
-## 📖 Sjablonen en Tools
+## Sjablonen en Tools
 
 Gebruik de volgende sjablonen om de initiatie te ondersteunen:
 

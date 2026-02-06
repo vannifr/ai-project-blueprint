@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Opleveringen & Gate 4 (Livegang) (Levering)
+# Opleveringen & Gate 4 (Livegang) (Levering)
 
-## 6. Opleveringen (Afleveringen)
+## Opleveringen (Afleveringen)
 
 De resultaten van de Levering-fase die een veilige operatie garanderen:
 
@@ -14,7 +14,7 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 - **Trainingspakket:** Behandelt zowel technische bediening als nieuwe werkwijze.
 - **Compliance Dossier:** Volledige set documentatie (waaronder het Validatierapport en het Data & Privacyblad) voor juridische verantwoording.
 
-## ? Gate 4 (Livegang) Review Checklist
+## Gate 4 (Livegang) Review Checklist
 
 - [ ] Is de technische koppeling stabiel en veilig?
 - [ ] Zijn de regie-protocollen voor menselijk toezicht getest en begrepen?

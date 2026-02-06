@@ -3,9 +3,9 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Fase 05: Levering
+# Levering
 
-## 📖 Doelstellingen van de Levering
+## Doelstellingen van de Levering
 
 - **Veilige Ingebruikname:** Gecontroleerde overgang naar productie.
 - **Menselijke Regie:** Waarborgen dat gebruikers het systeem begrijpen en kunnen bijsturen.
@@ -15,7 +15,7 @@ laatst_herzien: '2026-02-01'
 
 **Belangrijkste resultaat:** Een operationeel AI-systeem dat technisch geïntegreerd is, menselijk wordt beheerst en breed wordt geaccepteerd door gebruikers.
 
-## ? 2. Intrede Criteria (Definition of Ready)
+## Intrede Criteria (Definition of Ready)
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 

@@ -3,11 +3,11 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Kernactiviteiten & Rollen (Realisatie)
+# Kernactiviteiten & Rollen (Realisatie)
 
-## 3. Kernactiviteiten
+## Kernactiviteiten
 
-### Activiteit 3.1: Datastromen Automatiseren
+### Datastromen Automatiseren
 
 Het opzetten van pijplijnen die data automatisch opschonen en aanleveren (geen handwerk meer).
 
@@ -15,7 +15,7 @@ Het opzetten van pijplijnen die data automatisch opschonen en aanleveren (geen h
 - **Kwaliteitscontroles:** Automatische validatie van inkomende data
 - **Versiebeheer:** Tracking van data-wijzigingen en lineage
 
-### Activiteit 3.2: Kenniskoppeling & Afstellen
+### Kenniskoppeling & Afstellen
 
 Het verbinden van de AI aan interne documenten en het **Afstellen van het model** voor optimale prestaties.
 
@@ -23,7 +23,7 @@ Het verbinden van de AI aan interne documenten en het **Afstellen van het model*
 - **Prompt Engineering:** Optimaliseren van de **Sturingsinstructies**.
 - **Model-Afstelling:** Aanpassen van parameters voor specifieke gebruikscasus.
 
-### Activiteit 3.3: Specificatie-eerst Methode
+### Specificatie-eerst Methode
 
 We schrijven eerst de verwachte uitkomst (de test), dan pas de implementatie. Zo borgen we kwaliteit.
 
@@ -31,16 +31,16 @@ We schrijven eerst de verwachte uitkomst (de test), dan pas de implementatie. Zo
 - **Acceptatiecriteria:** Heldere, meetbare eisen per functionaliteit.
 - **Geautomatiseerde Tests:** Continue validatie bij elke wijziging.
 
-### Activiteit 3.4: Validatie op Drie Niveaus
+### Validatie op Drie Niveaus
 
 Elke wijziging wordt getoetst op drie dimensies:
 
-#### 1. Syntactisch
+#### Syntactisch
 
 - **Vraag:** Werkt de code? Geen crashes of errors?
 - **Check:** Unit tests, integration tests
 
-#### 2. Technische Realisatie & Pijplijnen
+#### Technische Realisatie & Pijplijnen
 
 - **Data Pijplijnen:** Inrichten van robuuste stromen voor training en inferentie.
 - **Automated Gates (Governance-as-Code):** Integreer de **Rode Lijnen** en succes-metrics direct in de CI/CD-pipeline.
@@ -49,17 +49,17 @@ Elke wijziging wordt getoetst op drie dimensies:
 
 ______________________________________________________________________
 
-#### 3. Gedrag
+#### Gedrag
 
 - **Vraag:** Doet het wat we verwachten?
 - **Check:** Functionele tests, regressie tests
 
-#### 4. Doelgericht
+#### Doelgericht
 
 - **Vraag:** Helpt het de gebruiker? Levert het waarde?
 - **Check:** User acceptance testing, A/B testing
 
-## 📖 4. Team & Rollen
+## Team & Rollen
 
 | Rol                    | Verantwoordelijkheid in Realisatie                                    |
 | :--------------------- | :-------------------------------------------------------------------- |

@@ -2,7 +2,7 @@
 
 Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk bestand van het AI Project Playbook moet komen te staan.
 
-## 00-Strategisch Kader
+## Strategisch Kader
 
 *Focus: De fundamenten van AI projectmanagement en organisatie-integratie.*
 
@@ -14,7 +14,7 @@ Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk 
 - **06-has-h-niveaus.md**: Beschrijving van de 5 niveaus van AI-integratie volgens de AIGENEERS Blueprint.
 - **07-organisatorische-heruitvinding.md**: De 5 pijlers van heruitvinding: Growth, Innovation, Talent, Resilience, Efficiency.
 
-## 01-AI-Native Fundamenten
+## AI-Native Fundamenten
 
 *Focus: De nieuwe discipline van AI-Native software ontwikkeling.*
 
@@ -26,11 +26,11 @@ Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk 
 - **06-specificatie-gedreven-ontwikkeling.md**: Het SDD pattern voor vroege validatie ("shift-left").
 - **07-bewijsstandaarden.md**: Metadata en vormvereisten voor onweerlegbaar validatie-bewijs.
 
-## 02 t/m 06 Fase-Gidsen
+## t/m 06 Fase-Gidsen
 
 *Focus: Instructies per fase in de levenscyclus.*
 
-### 02-Fase Ontdekking (Discovery)
+### Fase Ontdekking (Discovery)
 
 - **01-doelstellingen.md**: Het 'waarom' en de verwachte uitkomst van de ontdekkingsfase.
 - **02-activiteiten.md**: Kernstappen, workshops en data-exploratie.
@@ -38,35 +38,35 @@ Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk 
 - **04-sjablonen/**: Mappenstructuur voor relevante templates.
 - **05-has-h-beoordeling.md**: Nulmeting van het HAS H-niveau voor het specifieke project.
 
-### 03-Fase Validatie (Validation)
+### Fase Validatie (Validation)
 
 - **01-doelstellingen.md**: Validatie van business waarde en technische haalbaarheid.
 - **02-activiteiten.md**: PoV (Proof of Value), ROI analyse en business case verfijning.
 - **03-afleveringen.md**: Validatierapporten en go/no-go besluiten.
 - **05-risicoclassificatie.md**: Toewijzing van het definitieve risicoprofiel.
 
-### 04-Fase Ontwikkeling (Development)
+### Fase Ontwikkeling (Development)
 
 - **01-doelstellingen.md**: Het iteratief bouwen van de AI oplossing.
 - **02-activiteiten.md**: Data engineering, model training en robuuste testing.
 - **03-afleveringen.md**: Getrainde modellen, documentatie en testresultaten.
 - **05-sdd-patroon.md**: Concrete implementatie van Spec-Driven Development.
 
-### 05-Fase Levering (Delivery)
+### Fase Levering (Delivery)
 
 - **01-doelstellingen.md**: Deployment en operationele ingebruikname.
 - **02-activiteiten.md**: Change management, gebruikersadoptie en integratie.
 - **03-afleveringen.md**: Productieklaar systeem en overdrachtsdocumentatie.
 - **05-traceerbaarheid.md**: Het leggen van verbindingen tussen Intent, Change en Evidence.
 
-### 06-Fase Monitoring (Monitoring)
+### Fase Monitoring (Monitoring)
 
 - **01-doelstellingen.md**: Beheer van het model in productie.
 - **02-activiteiten.md**: MLOps routines, drift detectie en hertraining.
 - **03-afleveringen.md**: Performance logs en incident rapportages.
 - **05-drift-detectie.md**: Triggers en procedures voor modeldrift.
 
-## 07-Compliance Hub
+## Compliance Hub
 
 *Focus: Wetgeving, ethiek en veiligheid.*
 
@@ -76,7 +76,7 @@ Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk 
 - **04-validatie-eisen.md**: Definitie van de 3 validatie categorieën.
 - **05-incidentrespons.md**: Wat te doen bij onverwacht modelgedrag of datalekken.
 
-## 08-Technische Standaarden
+## Technische Standaarden
 
 *Focus: De technische blauwdrukken.*
 
@@ -86,7 +86,7 @@ Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk 
 - **04-test-frameworks.md**: Gestandaardiseerde tools voor AI testing.
 - **05-ai-architectuur.md**: Kernprincipes voor moderne AI-systemen.
 
-## 09-Sjablonen (Toolkit)
+## Sjablonen (Toolkit)
 
 *Focus: Praktische invuldocumenten.*
 
@@ -95,7 +95,7 @@ Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk 
 - **07-validatie-bewijs/**: Gestructureerde documenten voor Syntactisch, Gedrag en Intent bewijs.
 - **08-traceerbaarheid-links/**: Templates voor het loggen van traceerbaarheidsverbindingen.
 
-## 10-Doorlopende Verbetering & 11-Project Afsluiting
+## Doorlopende Verbetering & 11-Project Afsluiting
 
 *Focus: Leren en waarde verzilveren.*
 

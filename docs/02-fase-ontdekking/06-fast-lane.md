@@ -5,11 +5,11 @@ laatst_herzien: '2026-02-01'
 
 # Snelle Route (Fast Lane)
 
-## 1. Doel
+## Doel
 
 De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑risico** AI‑toepassingen, zonder onnodige bureaucratie—maar **met minimale governance**.
 
-## 2. Toelatingscriteria (allemaal verplicht)
+## Toelatingscriteria (allemaal verplicht)
 
 Een gebruikscasus mag alleen Fast Lane als aan **alle** punten is voldaan:
 
@@ -37,7 +37,7 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 > - [ ] Testcases in Gouden Set die disclosure/labeling-gedrag valideren
 > - [ ] Vermelding in Validatierapport met verwijzing naar bewijsstukken
 
-## 3. Minimumpakket opleveringen (Fast Lane)
+## Minimumpakket opleveringen (Fast Lane)
 
 - **[Project Charter](../09-sjablonen/01-project-charter/template.md)** (Fast Lane variant: kort)
 - **[Risico Pre‑Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)** (moet "Minimaal" bevestigen)
@@ -50,7 +50,7 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 - Uitgebreide business case (ROI) *mag later*, maar je noteert wél een "waarde‑hypothese" in het Charter.
 - Uitgebreid technisch dossier (alleen relevant bij hoog risico).
 
-## 4. Fast Lane Gates (simpel en toetsbaar)
+## Fast Lane Gates (simpel en toetsbaar)
 
 ### Gate FL‑1 — Start experiment (max. 2 weken)
 
@@ -68,7 +68,7 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 - Logging/traceerbaarheid is ingericht op basismeta‑niveau
 - Incidentprocedure bekend bij team
 
-## 5. Wanneer Fast Lane stopt (escalatie)
+## Wanneer Fast Lane stopt (escalatie)
 
 Fast Lane stopt direct en je stapt over op standaard lifecycle als:
 

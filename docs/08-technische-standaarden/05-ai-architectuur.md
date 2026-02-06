@@ -5,13 +5,13 @@ laatst_herzien: '2026-02-01'
 
 # AI Architectuur
 
-## 1. Doel
+## Doel
 
 Deze module beschrijft de meest voorkomende architectuurpatronen voor AI-systemen en de overwegingen bij het kiezen van de juiste aanpak. Een goede architectuur balanceert functionaliteit, schaalbaarheid, kosten en veiligheid.
 
 ______________________________________________________________________
 
-## 2. Basisarchitectuur: De AI-Stack
+## Basisarchitectuur: De AI-Stack
 
 Elke AI-oplossing bestaat uit een aantal lagen die samenwerken:
 
@@ -31,9 +31,9 @@ Elke AI-oplossing bestaat uit een aantal lagen die samenwerken:
 
 ______________________________________________________________________
 
-## 3. Referentiearchitecturen
+## Referentiearchitecturen
 
-### 3.1 Patroon A: Directe LLM-integratie
+### Patroon A: Directe LLM-integratie
 
 **Omschrijving:** Gebruiker communiceert direct met een LLM via een simpele interface.
 
@@ -57,7 +57,7 @@ ______________________________________________________________________
 - Log alle interacties conform [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - Implementeer Rode Lijnen via system prompts
 
-### 3.2 Patroon B: Kenniskoppeling (RAG)
+### Patroon B: Kenniskoppeling (RAG)
 
 **Omschrijving:** LLM wordt verrijkt met bedrijfsspecifieke informatie uit een kennisbank.
 
@@ -89,7 +89,7 @@ ______________________________________________________________________
 - Embedding-model moet passen bij taal en domein
 - Log bronverwijzingen voor traceerbaarheid
 
-### 3.3 Patroon C: Agentic AI (Autonome Systemen)
+### Patroon C: Agentic AI (Autonome Systemen)
 
 **Omschrijving:** AI-systeem dat zelfstandig taken uitvoert, tools aanroept en beslissingen neemt.
 
@@ -138,9 +138,9 @@ Bron: \[so-1\]
 
 ______________________________________________________________________
 
-## 4. Architectuurbeslissingen
+## Architectuurbeslissingen
 
-### 4.1 Cloud vs On-Premise
+### Cloud vs On-Premise
 
 | Factor              | Cloud (API)                   | On-Premise / Private Cloud   |
 | ------------------- | ----------------------------- | ---------------------------- |
@@ -151,7 +151,7 @@ ______________________________________________________________________
 | Latency             | Afhankelijk van netwerk       | Potentieel lager             |
 | Geschikt voor       | Prototypes, variabele volumes | Strenge privacy, hoog volume |
 
-### 4.2 Modelkeuze
+### Modelkeuze
 
 | Overweging       | Foundation Model (GPT, Claude) | Fine-tuned / Custom Model            |
 | ---------------- | ------------------------------ | ------------------------------------ |
@@ -163,9 +163,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 5. Beveiligingsarchitectuur
+## Beveiligingsarchitectuur
 
-### 5.1 Minimale Beveiligingslagen
+### Minimale Beveiligingslagen
 
 | Laag             | Maatregel                             |
 | ---------------- | ------------------------------------- |
@@ -176,7 +176,7 @@ ______________________________________________________________________
 | Output filtering | PII detectie, content filtering       |
 | Logging          | Audit trail conform Bewijsstandaarden |
 
-### 5.2 Specifiek voor AI
+### Specifiek voor AI
 
 - **Prompt injection bescherming:** Scheiding system/user prompts
 - **Rate limiting:** Per gebruiker en totaal
@@ -185,9 +185,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 6. Schaalbaarheid
+## Schaalbaarheid
 
-### 6.1 Typische Bottlenecks
+### Typische Bottlenecks
 
 | Component   | Bottleneck                        | Oplossing                  |
 | ----------- | --------------------------------- | -------------------------- |
@@ -195,7 +195,7 @@ ______________________________________________________________________
 | Vectorstore | Query latency bij veel documenten | Indexing, sharding         |
 | Orkestratie | Complexe workflows                | Async processing, workers  |
 
-### 6.2 Schaalstrategieën
+### Schaalstrategieën
 
 | Strategie        | Wanneer toepassen                    |
 | ---------------- | ------------------------------------ |
@@ -206,7 +206,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 7. Checklist Architectuur
+## Checklist Architectuur
 
 - [ ] Architectuurpatroon is gekozen en gedocumenteerd
 - [ ] Beveiligingslagen zijn geïmplementeerd

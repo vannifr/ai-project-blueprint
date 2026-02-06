@@ -5,7 +5,7 @@ laatst_herzien: '2026-02-01'
 
 # Snelstart: AI-Project in 90 Dagen
 
-## 0. Vooraf (Definition of Ready)
+## Vooraf (Definition of Ready)
 
 - Kernteam benoemd: **AI Product Manager**, **Tech Lead**, **Guardian**
 - Toegang tot relevante data geregeld (minimaal leesrechten)
@@ -14,7 +14,7 @@ laatst_herzien: '2026-02-01'
 
 ______________________________________________________________________
 
-## 1. Planning (week-voor-week)
+## Planning (week-voor-week)
 
 | Week | Doel                            | Opleveringen (verplicht)                                                                                                                     | Primaire eigenaar    | Gate/Output                                |
 | ---: | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------------------------ |
@@ -34,7 +34,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 2. Minimale beslismomenten (Gates)
+## Minimale beslismomenten (Gates)
 
 - **Gate 1 (Go/No-Go Ontdekking) (einde week 2):** risico + data haalbaarheid bevestigd
 - **Gate 2 (Investering PoV) (einde week 6):** pilotresultaat ([Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)) voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
@@ -43,7 +43,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3. Tijdlijn per Risiconiveau
+## Tijdlijn per Risiconiveau
 
 De standaard 13-weken planning is geschikt voor **Beperkt Risico** toepassingen. Pas de tijdlijn aan op basis van uw risicoklassificatie:
 

@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Governance Model
+# Governance Model
 
-## 📖 Doel
+## Doel
 
 Het definiëren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
 
 ______________________________________________________________________
 
-## 📖 Structuur
+## Structuur
 
 Het governance model bestaat uit drie lagen die samenwerken om strategie, operatie en techniek te verbinden:
 
@@ -21,7 +21,7 @@ Het governance model bestaat uit drie lagen die samenwerken om strategie, operat
 
 ______________________________________________________________________
 
-## 📖 Verantwoordelijkheden
+## Verantwoordelijkheden
 
 | Rol                          | Niveau        | Kernverantwoordelijkheden                                           |
 | :--------------------------- | :------------ | :------------------------------------------------------------------ |
@@ -36,7 +36,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## ? Besluitvormingsproces (Gate Model)
+## Besluitvormingsproces (Gate Model)
 
 ```mermaid
 flowchart TD
@@ -54,7 +54,7 @@ flowchart TD
     H -->|Nee| I[Afsluiting]
 ```
 
-## ? Gate Reviews
+## Gate Reviews
 
 Elke gate fungeert als een harde stop/go beslissing. Zie de [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md) voor specifieke criteria per fase.
 

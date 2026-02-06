@@ -5,13 +5,13 @@ laatst_herzien: '2026-02-01'
 
 # Bronnen & Inspiratie
 
-## 1. Overzicht
+## Overzicht
 
 Dit project is tot stand gekomen door de synthese van internationale industrie-standaarden, academisch onderzoek en praktische ervaringen in AI-projectmanagement. Hieronder volgt een overzicht van de belangrijkste bronnen die als fundament en inspiratie hebben gediend.
 
 ______________________________________________________________________
 
-## 2. Primaire bronnen (audit)
+## Primaire bronnen (audit)
 
 De volgende bronnen vormen de juridische en technische ruggengraat van deze gids en zijn geschikt voor audit-doeleinden.
 
@@ -25,7 +25,7 @@ De volgende bronnen vormen de juridische en technische ruggengraat van deze gids
 
 ______________________________________________________________________
 
-## 3. Externe Standaarden & Methodologieën
+## Externe Standaarden & Methodologieën
 
 De procesinrichting van deze Gids is getoetst aan en geïnspireerd door de volgende internationale raamwerken:
 
@@ -46,7 +46,7 @@ De procesinrichting van deze Gids is getoetst aan en geïnspireerd door de volge
 
 ______________________________________________________________________
 
-## 4. Wet- en Regelgeving
+## Wet- en Regelgeving
 
 De governance en compliance onderdelen (zoals **Risicobeheersing & Compliance**) zijn direct afgeleid van:
 
@@ -57,14 +57,14 @@ De governance en compliance onderdelen (zoals **Risicobeheersing & Compliance**)
 
 ______________________________________________________________________
 
-## 5. Academisch & Onderzoek
+## Academisch & Onderzoek
 
 - **Stanford Digital Economy Lab - Future of Work:** Onderzoek naar de impact van AI op werk en de economie.
 - **MIT NANDA - The GenAI Divide (2025):** Rapport over de kloof in AI-executie binnen het bedrijfsleven.
 
 ______________________________________________________________________
 
-## 6. Secundaire duiding (optioneel)
+## Secundaire duiding (optioneel)
 
 De volgende bronnen bieden aanvullende context en interpretatie, maar gelden niet als primaire audit-bronnen.
 

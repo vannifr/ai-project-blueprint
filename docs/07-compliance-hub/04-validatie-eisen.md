@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Validatie Eisen (Compliance)
+# Validatie Eisen (Compliance)
 
-## 📖 Doel
+## Doel
 
 Vaststellen waaraan een **Validatierapport** moet voldoen om formeel akkoord te krijgen voor ingebruikname, specifiek gericht op wettelijke en ethische kaders.
 
 ______________________________________________________________________
 
-## 📖 Vereisten voor het Validatierapport
+## Vereisten voor het Validatierapport
 
 1. **Objectiviteit:** Gebruik van meetbare metrics en onafhankelijke testsets.
 1. **Dekking:** Bewijs van toetsing op alle gedefinieerde **Rode Lijnen**.

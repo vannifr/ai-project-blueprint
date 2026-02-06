@@ -3,11 +3,11 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Kernactiviteiten & Rollen (Levering)
+# Kernactiviteiten & Rollen (Levering)
 
-## 3. Kernactiviteiten
+## Kernactiviteiten
 
-### Activiteit 3.1: Technische Integratie
+### Technische Integratie
 
 Het koppelen van de AI aan de bestaande softwaresystemen en beveiliging (toegangsbeheer).
 
@@ -15,7 +15,7 @@ Het koppelen van de AI aan de bestaande softwaresystemen en beveiliging (toegang
 - **Toegangsbeheer:** Instellen van wie welke functies en data mag gebruiken.
 - **Stabiliteitstest:** Bevestigen dat de integratie geen storingen veroorzaakt in andere processen.
 
-### Activiteit 3.2: Menselijke Regie
+### Menselijke Regie
 
 Implementeren van procedures voor menselijk toezicht (*Human-in-the-loop*) zoals vereist voor de gekozen Samenwerkingsmodus.
 
@@ -23,7 +23,7 @@ Implementeren van procedures voor menselijk toezicht (*Human-in-the-loop*) zoals
 - **Escalatiepaden:** Wie wordt gewaarschuwd als het systeem buiten zijn kaders treedt?
 - **Interventieniveaus:** Duidelijke afspraken over de mate van autonomie.
 
-### Activiteit 3.3: Adoptie & Training
+### Adoptie & Training
 
 Gebruikers opleiden, niet alleen in de knoppen, maar in de nieuwe werkwijze.
 
@@ -31,7 +31,7 @@ Gebruikers opleiden, niet alleen in de knoppen, maar in de nieuwe werkwijze.
 - **Kwaliteitsbewustzijn:** Gebruikers leren hoe ze de output van de AI kritisch kunnen beoordelen.
 - **Feedbacklus:** Inrichten van een kanaal voor gebruikerservaringen en verbeterpunten.
 
-### Activiteit 3.4: Compliance Dossier
+### Compliance Dossier
 
 Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indien nodig).
 
@@ -39,7 +39,7 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 - **Verantwoordingsbewijs:** Aantonen dat de **Rode Lijnen** zijn gehandhaafd tijdens de testfase.
 - **Overdracht Logboeken:** Volledig overzicht van de systeemhistorie.
 
-## 📖 4. Team & Rollen
+## Team & Rollen
 
 | Rol                        | Verantwoordelijkheid in Levering                                                    |
 | :------------------------- | :---------------------------------------------------------------------------------- |

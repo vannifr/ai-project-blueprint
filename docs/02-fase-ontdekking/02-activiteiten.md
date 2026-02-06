@@ -3,11 +3,11 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Kernactiviteiten & Rollen (Verkenning & Strategie)
+# Kernactiviteiten & Rollen (Verkenning & Strategie)
 
-## 3. Kernactiviteiten
+## Kernactiviteiten
 
-### Activiteit 3.1: Probleemverkenning
+### Probleemverkenning
 
 We definiëren de uitdaging vanuit de eindgebruiker, niet vanuit de technologie.
 
@@ -15,26 +15,26 @@ We definiëren de uitdaging vanuit de eindgebruiker, niet vanuit de technologie.
 - **AI-Geschiktheid:** Is AI hier echt de oplossing? Of kan het eenvoudiger?
 - **Succesindicatoren:** Hoe meten we of we het probleem hebben opgelost?
 
-### Activiteit 3.2: Data-Evaluatie
+### Data-Evaluatie
 
 Een analyse van de benodigde informatie op drie dimensies:
 
-#### 1. Toegang
+#### Toegang
 
 - **Vraag:** Mogen en kunnen we er technisch bij?
 - **Check:** Juridische rechten, API's, databases, beveiliging
 
-#### 2. Kwaliteit
+#### Kwaliteit
 
 - **Vraag:** Is de data compleet en consistent?
 - **Check:** Volledigheid, nauwkeurigheid, actualiteit, duplicaten
 
-#### 3. Relevantie
+#### Relevantie
 
 - **Vraag:** Bevat de data het answer op de vraag?
 - **Check:** Correlatie met het doel, representativiteit
 
-### Activiteit 3.3: Risico-Inventarisatie
+### Risico-Inventarisatie
 
 Een eerste scan op juridische en ethische obstakels.
 
@@ -43,7 +43,7 @@ Een eerste scan op juridische en ethische obstakels.
 - **Ethische Vraagstukken:** Kan het systeem discrimineren of schade veroorzaken?
 - **Organisatorische Risico's:** Hebben we de juiste mensen en middelen?
 
-## 📖 4. Team & Rollen
+## Team & Rollen
 
 | Rol                     | Verantwoordelijkheid in Verkenning                                     |
 | :---------------------- | :--------------------------------------------------------------------- |

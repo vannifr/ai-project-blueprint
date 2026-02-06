@@ -3,15 +3,15 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 🚀 Sjabloon: Validatierapport
+# Sjabloon: Validatierapport
 
-## 📖 Doel
+## Doel
 
 Dit sjabloon dient voor het vastleggen van de testresultaten van de **Praktijkproef**. Het vormt het objectieve bewijs dat de AI-oplossing voldoet aan de gestelde criteria en veiligheidsgrenzen.
 
 ______________________________________________________________________
 
-### 🎯 1. Test-Setup
+### Test-Setup
 
 - **Datum van de proef:** \[DD-MM-JJJJ\]
 - **Modelversie:** \[Bijv. GPT-4o met specifieke sturingsinstructies v1.2\]
@@ -19,7 +19,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### 🎯 2. Resultaten (Metrics)
+### Resultaten (Metrics)
 
 - **Nauwkeurigheid / Relevantie:** \[Bijv. 92% van de antwoorden was correct volgens de expert.\]
 - **Rode Lijnen Check:**
@@ -29,7 +29,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ? Conclusie
+### Conclusie
 
 - [ ] **Voldoet** aan de succesval-criteria (>90%).
 - [ ] **Voldoet niet**. Aanpassing van **Sturingsinstructies** vereist.

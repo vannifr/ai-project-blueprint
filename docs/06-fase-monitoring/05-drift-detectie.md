@@ -5,15 +5,15 @@ laatst_herzien: '2026-02-01'
 
 # Prestatieverloop Detectie (Drift Detection)
 
-## 1. Doel
+## Doel
 
 Prestatieverloop (drift) is het fenomeen waarbij de kwaliteit van een AI-systeem over tijd verslechtert. Deze module beschrijft hoe wij drift detecteren, meten en hierop reageren.
 
 ______________________________________________________________________
 
-## 2. Typen Prestatieverloop
+## Typen Prestatieverloop
 
-### 2.1 Data Drift
+### Data Drift
 
 **Wat:** De input die het systeem ontvangt verandert t.o.v. de data waarop het getraind/getest is.
 
@@ -29,7 +29,7 @@ ______________________________________________________________________
 - Vragen over onbekende onderwerpen
 - Veranderende vraagverdeling
 
-### 2.2 Concept Drift
+### Concept Drift
 
 **Wat:** De relatie tussen input en gewenste output verandert, ook al blijft de input vergelijkbaar.
 
@@ -45,7 +45,7 @@ ______________________________________________________________________
 - Toename van klachten ondanks gelijke testresultaten
 - Gap tussen validatie en productie-feedback
 
-### 2.3 Model Drift
+### Model Drift
 
 **Wat:** Het model zelf verandert (bij updates door provider) of degradeert.
 
@@ -63,9 +63,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3. Detectiemethoden
+## Detectiemethoden
 
-### 3.1 Periodieke Gouden Set Testing
+### Periodieke Gouden Set Testing
 
 **Aanpak:** Voer de Gouden Set regelmatig uit op productie.
 
@@ -82,7 +82,7 @@ ______________________________________________________________________
 - Weigeringsgraad (adversarial)
 - Vergelijking met nulmeting
 
-### 3.2 Real-time Monitoring
+### Real-time Monitoring
 
 **Aanpak:** Monitor productie-interacties op signalen van drift.
 
@@ -96,7 +96,7 @@ ______________________________________________________________________
 | Tokengebruik           | > 1.5x baseline (kostenindicator) |
 | Negatieve feedback     | > 2x baseline                     |
 
-### 3.3 Gebruikersfeedback Analyse
+### Gebruikersfeedback Analyse
 
 **Aanpak:** Verzamel en analyseer feedback systematisch.
 
@@ -109,7 +109,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4. Drempelwaarden
+## Drempelwaarden
 
 Gebaseerd op [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) sectie 3.2:
 
@@ -133,16 +133,16 @@ Gebaseerd op [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarde
 
 ______________________________________________________________________
 
-## 5. Responsprotocol
+## Responsprotocol
 
-### 5.1 Bij Geel (Verhoogde Monitoring)
+### Bij Geel (Verhoogde Monitoring)
 
 - [ ] Verhoog meetfrequentie
 - [ ] Analyseer trend (is het stabiel of verslechterend?)
 - [ ] Identificeer mogelijke oorzaken
 - [ ] Documenteer bevindingen
 
-### 5.2 Bij Oranje (Onderzoek)
+### Bij Oranje (Onderzoek)
 
 - [ ] Root cause analyse uitvoeren
 - [ ] Bepaal type drift (data/concept/model)
@@ -150,7 +150,7 @@ ______________________________________________________________________
 - [ ] Informeer stakeholders
 - [ ] Plan correctieve actie
 
-### 5.3 Bij Rood (Escalatie)
+### Bij Rood (Escalatie)
 
 - [ ] Escaleer naar Tech Lead en Guardian
 - [ ] Overweeg rollback of tijdelijke uitschakeling
@@ -160,9 +160,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 6. Mitigatiestrategieën
+## Mitigatiestrategieën
 
-### 6.1 Data Drift
+### Data Drift
 
 | Oorzaak               | Mitigatie                              |
 | --------------------- | -------------------------------------- |
@@ -170,7 +170,7 @@ ______________________________________________________________________
 | Nieuwe onderwerpen    | Kennisbank uitbreiden                  |
 | Veranderd taalgebruik | Prompts aanpassen, voorbeelden updaten |
 
-### 6.2 Concept Drift
+### Concept Drift
 
 | Oorzaak                 | Mitigatie                              |
 | ----------------------- | -------------------------------------- |
@@ -178,7 +178,7 @@ ______________________________________________________________________
 | Verwachtingen veranderd | Doelkaart herzien, specificatie update |
 | Externe veranderingen   | Rode Lijnen herzien                    |
 
-### 6.3 Model Drift
+### Model Drift
 
 | Oorzaak                   | Mitigatie                              |
 | ------------------------- | -------------------------------------- |
@@ -188,9 +188,9 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 7. Nulmeting en Baseline
+## Nulmeting en Baseline
 
-### 7.1 Nulmeting Vastleggen
+### Nulmeting Vastleggen
 
 Bij livegang leg je de nulmeting vast:
 
@@ -201,7 +201,7 @@ Bij livegang leg je de nulmeting vast:
 | Major fouten  | 2/150               | > 3/150            |
 | Latency (p95) | 1.8s                | > 3.6s             |
 
-### 7.2 Baseline Updaten
+### Baseline Updaten
 
 - Na significante systeemwijzigingen
 - Na uitbreiding van kennisbank
@@ -209,7 +209,7 @@ Bij livegang leg je de nulmeting vast:
 
 ______________________________________________________________________
 
-## 8. Monitoring Dashboard
+## Monitoring Dashboard
 
 Aanbevolen visualisaties:
 
@@ -222,7 +222,7 @@ Aanbevolen visualisaties:
 
 ______________________________________________________________________
 
-## 9. Checklist Drift Monitoring
+## Checklist Drift Monitoring
 
 - [ ] Nulmeting is vastgelegd bij livegang
 - [ ] Periodieke Gouden Set testing is ingepland

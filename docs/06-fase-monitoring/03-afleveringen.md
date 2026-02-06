@@ -5,7 +5,7 @@ laatst_herzien: '2026-02-01'
 
 # Opleveringen & Gate 5 (Monitoring)
 
-## 6. Opleveringen (Afleveringen)
+## Opleveringen (Afleveringen)
 
 De resultaten van de Monitoringfase voor een duurzame operatie:
 

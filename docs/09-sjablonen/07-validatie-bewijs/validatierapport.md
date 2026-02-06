@@ -5,7 +5,7 @@ laatst_herzien: '2026-02-01'
 
 # Sjabloon 09.06: Validatierapport (Bewijs‑pakket)
 
-## 0. Samenvatting (1 pagina)
+## Samenvatting (1 pagina)
 
 **Project:** \[Naam\]
 **Risiconiveau:** \[Minimaal / Beperkt / Hoog\]
@@ -27,7 +27,7 @@ laatst_herzien: '2026-02-01'
 
 ______________________________________________________________________
 
-## 1. Scope & referenties (traceerbaarheid)
+## Scope & referenties (traceerbaarheid)
 
 **Doelkaart versie:** \[link/ID\]
 **Rode Lijnen versie:** \[link/ID\]
@@ -38,7 +38,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 2. Testopzet
+## Testopzet
 
 - **Omgeving:** \[Dev/Test/Prod-simulatie\]
 - **Modelinstellingen:** \[bijv. temperature, max tokens\]
@@ -47,27 +47,27 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3. Testsets (Gouden Set + aanvullingen)
+## Testsets (Gouden Set + aanvullingen)
 
-### 3.1 Gouden Set
+### Gouden Set
 
 - **Aantal cases:** \[minimaal volgens Bewijsstandaarden\]
 - **Herkomst:** \[tickets, e-mails, calls, formulieren”¦\]
 - **Dekking:** \[80/15/5 of 70/20/10 afhankelijk risiconiveau\]
 
-### 3.2 Adversarial set (verplicht bij Beperkt/Hoog)
+### Adversarial set (verplicht bij Beperkt/Hoog)
 
 - **Aantal adversarial prompts:** \[#\]
 - **Soorten:** jailbreak / prompt injectie / datalek / bronverzinnen
 
-### 3.3 Fairness set (verplicht bij Hoog)
+### Fairness set (verplicht bij Hoog)
 
 - **Aanpak:** \[kwantitatief / kwalitatief + motivatie\]
 - **Groepen/segmenten:** \[beschrijf zonder gevoelige details\]
 
 ______________________________________________________________________
 
-## 4. Resultaten t.o.v. Bewijsstandaarden (Bewijsstandaarden)
+## Resultaten t.o.v. Bewijsstandaarden (Bewijsstandaarden)
 
 | Criterium                             |         Norm | Gemeten | Pass/Fail             | Opmerking |
 | ------------------------------------- | -----------: | ------: | --------------------- | --------- |
@@ -82,26 +82,26 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 5. Overzicht van fouten (verplicht)
+## Overzicht van fouten (verplicht)
 
-### 5.1 Kritieke fouten (0 toegestaan)
-
-| Case-ID | Beschrijving | Impact | Oorzaak | Fix | Status |
-| ------- | ------------ | ------ | ------- | --- | ------ |
-
-### 5.2 Major fouten
+### Kritieke fouten (0 toegestaan)
 
 | Case-ID | Beschrijving | Impact | Oorzaak | Fix | Status |
 | ------- | ------------ | ------ | ------- | --- | ------ |
 
-### 5.3 Terugkerende patronen (failure modes)
+### Major fouten
+
+| Case-ID | Beschrijving | Impact | Oorzaak | Fix | Status |
+| ------- | ------------ | ------ | ------- | --- | ------ |
+
+### Terugkerende patronen (failure modes)
 
 - \[bijv. bronvermelding onjuist bij type document X\]
 - \[bijv. te creatieve toon bij korte prompts\]
 
 ______________________________________________________________________
 
-## 6. Logging & audit trail (bewijs dat we kunnen terugzoeken)
+## Logging & audit trail (bewijs dat we kunnen terugzoeken)
 
 - **Wat loggen we:** \[conform Bewijsstandaarden §7\]
 - **Waar staat het:** \[tool + locatie\]
@@ -110,7 +110,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 7. Actieplan (alleen invullen als “Go met acties” of “No-Go”)
+## Actieplan (alleen invullen als “Go met acties” of “No-Go”)
 
 | Actie | Eigenaar | Deadline | Verwacht effect | Verificatie (test) |
 | ----- | -------- | -------- | --------------- | ------------------ |
@@ -118,6 +118,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 8. Go/No-Go ondertekening
+## Go/No-Go ondertekening
 
 **Tech Lead:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  **AI Product Manager:** \_\_\_\_\_\_\_\_\_\_\_  **Guardian:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
