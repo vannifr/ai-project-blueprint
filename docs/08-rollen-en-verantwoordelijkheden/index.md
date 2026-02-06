@@ -3,19 +3,19 @@ versie: '1.0'
 laatst_herzien: '2026-02-01'
 ---
 
-# 📂 Rollen & Verantwoordelijkheden
+# Rollen & Verantwoordelijkheden
 
-## 🎯 Wie doet wat in een AI-project?
+## Wie doet wat in een AI-project?
 
 In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
 
 ______________________________________________________________________
 
-## 📂 1. Het Kernteam (The Squad)
+## 1. Het Kernteam (The Squad)
 
 Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie.
 
-### 🧠™”â™‚ï¸ De AI Product Manager (Business Lead)
+### De AI Product Manager (Business Lead)
 
 Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
 
@@ -23,7 +23,7 @@ Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar
 - **Taak:** Vertaalt vage business-wensen naar scherpe AI-instructies. Beheert de backlog en prioriteert op waarde.
 - **Focus:** "Lossen we het juiste probleem op?"
 
-### ðŸ¤– De Tech Lead (Technical Lead)
+### De Tech Lead (Technical Lead)
 
 De architect van de oplossing. Zorgt dat de losse componenten (data, model, interface) naadloos samenwerken.
 
@@ -31,7 +31,7 @@ De architect van de oplossing. Zorgt dat de losse componenten (data, model, inte
 - **Taak:** Selecteert het juiste model, bouwt de pijplijnen en borgt de technische stabiliteit.
 - **Focus:** "Is het robuust en schaalbaar?"
 
-### ⚖️ De Guardian (Ethicus / Compliance)
+### De Guardian (Ethicus / Compliance)
 
 Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de wettelijke en ethische kaders.
 
@@ -41,25 +41,23 @@ Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de
 
 ______________________________________________________________________
 
-## 📂 2. De Ondersteunende Rollen
+## 2. De Ondersteunende Rollen
 
 Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
 
-| Rol                      | Focus           | Taak                                                                     |
-| :----------------------- | :-------------- | :----------------------------------------------------------------------- |
-| ðŸ’¾ **Data Engineer**   | Datakwaliteit   | De ruggengraat van de data. Zorgt dat data schoon aankomt bij het model. |
-| 🧠ª **AI Tester (QA)**   | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.        |
-| ðŸ“¢ **Adoptie Manager** | Verandering     | Zorgt dat mensen de tool echt gebruiken (ADKAR-model).                   |
+| Rol                 | Focus           | Taak                                                                     |
+| :------------------ | :-------------- | :----------------------------------------------------------------------- |
+| **Data Engineer**   | Datakwaliteit   | De ruggengraat van de data. Zorgt dat data schoon aankomt bij het model. |
+| **AI Tester (QA)**  | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.        |
+| **Adoptie Manager** | Verandering     | Zorgt dat mensen de tool echt gebruiken (ADKAR-model).                   |
 
 ______________________________________________________________________
 
-## 📂 3. Strategisch Niveau (Steering Com)
+## 3. Strategisch Niveau (Steering Com)
 
-### 🚀 Chief AI Officer (CAIO)
+### Chief AI Officer (CAIO)
 
 Sponsor van het programma. Bepaalt de overkoepelende strategie en wijst budget toe.
 
 - **Taak:** Beslist bij de **Gates** of een project doorgaat of stopt.
 - **Eigenaarschap:** Bewaakt het gehele portfolio en de AI-volwassenheid van de organisatie.
-
-______________________________________________________________________

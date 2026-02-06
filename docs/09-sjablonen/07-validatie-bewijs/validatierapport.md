@@ -16,7 +16,7 @@ laatst_herzien: '2026-02-01'
 ### Conclusie (kies één)
 
 - [ ] **Go** — voldoet aan Bewijsstandaarden normen voor dit risiconiveau
-- [ ] **Go met acties** — alleen na uitvoeren van acties onder Â§7
+- [ ] **Go met acties** — alleen na uitvoeren van acties onder §7
 - [ ] **No-Go** — voldoet niet; herontwerp/hertrain/herformuleer vereist
 
 **Top 3 bevindingen:**
@@ -103,7 +103,7 @@ ______________________________________________________________________
 
 ## 6. Logging & audit trail (bewijs dat we kunnen terugzoeken)
 
-- **Wat loggen we:** \[conform Bewijsstandaarden Â§7\]
+- **Wat loggen we:** \[conform Bewijsstandaarden §7\]
 - **Waar staat het:** \[tool + locatie\]
 - **Retentie:** \[90 dagen / 12 maanden / anders\]
 - **Privacymaatregelen:** \[hashing/pseudonimisering/redactie\]

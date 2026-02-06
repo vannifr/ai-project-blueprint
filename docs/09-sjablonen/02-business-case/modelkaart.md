@@ -61,7 +61,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### ðŸ‘¥ 6. Beheer & Onderhoud
+### 6. Beheer & Onderhoud
 
 - **Eigenaar (Tech):** \[Naam Tech Lead\]
 - **Eigenaar (Business):** \[Naam Product Owner\]
