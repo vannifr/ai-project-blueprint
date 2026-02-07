@@ -102,7 +102,7 @@ def check_frontmatter(filepath: str, content: List[str]) -> List[ValidationError
     frontmatter_text = ''.join(frontmatter_lines)
 
     # Check required fields
-    required_fields = ['versie', 'laatst_herzien']
+    required_fields = ['versie']
     for field in required_fields:
         if f'{field}:' not in frontmatter_text:
             errors.append(ValidationError(
