@@ -31,12 +31,16 @@ De architect van de oplossing. Zorgt dat de losse componenten (data, model, inte
 - **Taak:** Selecteert het juiste model, bouwt de pijplijnen en borgt de technische stabiliteit.
 - **Focus:** "Is het robuust en schaalbaar?"
 
-### De Guardian (Ethicus / Compliance)
+### De Guardian (Rol & Invulling)
 
-Het 'geweten' van het project. Heeft een onafhankelijke positie en waakt over de wettelijke en ethische kaders.
+De 'Guardian' is geen enkele functietitel, maar een rol met veto-recht die waakt over de ethische en wettelijke kaders. Gezien de complexiteit wordt deze rol in de praktijk vaak ingevuld door een duo ("Two-man rule"):
+
+- **Privacy & Legal Officer:** Toetst op AVG, EU AI Act en juridische risico's. Focus: *Mag dit wettelijk?*
+- **AI Quality Ethicist (of QA Lead):** Toetst op bias in de dataset, kwaliteit van de Gouden Set en output-veiligheid. Focus: *Is dit eerlijk en veilig?*
+
+Voor projecten met een **Hoog Risico** is expliciete goedkeuring van beiden vereist bij Gate Reviews. Bij kleine projecten kan één persoon de rol dragen, mits voldoende mandaat.
 
 - **Verantwoordelijkheid:** De **Risico Pre-scan**.
-- **Taak:** Toetst plannen aan de EU AI Act en interne waarden. Heeft veto-recht bij overschrijding van de **Rode Lijnen**. Voert **Eerlijkheidstoetsen** (bias-audits) uit.
 - **Focus:** "Is het veilig en eerlijk?"
 
 ______________________________________________________________________

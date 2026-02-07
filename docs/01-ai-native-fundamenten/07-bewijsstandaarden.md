@@ -76,6 +76,7 @@ ______________________________________________________________________
 - Testcases zijn **realistische praktijkvoorbeelden** (geen synthetische "happy flow only").
 - Elke testcase heeft: **verwachte uitkomst** of **beoordelingscriteria**.
 - Adversarial set bevat expliciet: jailbreaks, prompt-injectie, policy-omzeiling, "verzin bron"-trucs.
+- **Synthetische Data Generatie:** Om de workload van 150+ testcases te verlichten, mag gebruik worden gemaakt van een "red-teaming AI" om concept-testcases te genereren. **Eis:** Een menselijk expert moet elke gegenereerde testcase en het "verwachte antwoord" (Ground Truth) valideren en goedkeuren voor opname in de Gouden Set.
 
 ______________________________________________________________________
 

@@ -125,14 +125,16 @@ ______________________________________________________________________
 
 Voor agentic AI-systemen die autonoom acties uitvoeren, zijn de volgende technische controls verplicht.
 
-| Control                                | Beschrijving                                                                                               |
-| -------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Tool allowlist                         | Expliciete lijst van toegestane tools; niet-geautoriseerde tools worden geblokkeerd.                       |
-| Capability-based access control (CBAC) | Toegangsrechten worden toegekend op basis van capabilities (wat mag), eventueel bovenop RBAC (wie is het). |
-| Sandboxed tool execution               | Tools worden uitgevoerd in een geïsoleerde omgeving zonder directe toegang tot productiesystemen.          |
-| Just-in-time permissies                | Rechten worden enkel verleend op het moment van uitvoering en voor de minimaal benodigde scope.            |
-| Per-taak budget/spend limit            | Maximale kosten of resources per individuele taak of sessie.                                               |
-| Deny-by-default network egress         | Uitgaand netwerkverkeer is standaard geblokkeerd; enkel expliciete bestemmingen worden toegestaan.         |
+| Control                                | Beschrijving                                                                                                                     |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Tool allowlist                         | Expliciete lijst van toegestane tools; niet-geautoriseerde tools worden geblokkeerd.                                             |
+| Capability-based access control (CBAC) | Toegangsrechten worden toegekend op basis van capabilities (wat mag), eventueel bovenop RBAC (wie is het).                       |
+| Sandboxed tool execution               | Tools worden uitgevoerd in een geïsoleerde omgeving zonder directe toegang tot productiesystemen.                                |
+| Just-in-time permissies                | Rechten worden enkel verleend op het moment van uitvoering en voor de minimaal benodigde scope.                                  |
+| Per-taak budget/spend limit            | Maximale kosten of resources per individuele taak of sessie.                                                                     |
+| Deny-by-default network egress         | Uitgaand netwerkverkeer is standaard geblokkeerd; enkel expliciete bestemmingen worden toegestaan.                               |
+| Harde Budget Cap (Cost Guardrail)      | Technische limiet op API-kosten per dag/maand (via API-gateway of provider). Voorkomt "bill shock" door oneindige loops of DDOS. |
+| Rate Limiting                          | Maximaal aantal requests per gebruiker per minuut. Beschermt tegen misbruik en kostenexplosie.                                   |
 
 Bron: \[so-1\]
 

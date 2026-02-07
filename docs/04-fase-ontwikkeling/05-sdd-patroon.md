@@ -159,9 +159,21 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 7. Checklist SDD
+## 7. Fallback & Failure Experience
 
-!!! check "7. Checklist SDD"
+Definieer hoe het systeem faalt (*Graceful Degradation*). Een "wit scherm" of een technische error is onacceptabel.
+
+| Scenario                                     | Verwacht Gedrag                                                                                                            |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Geen antwoord mogelijk / Hallucinatie-risico | "Ik heb hier niet genoeg informatie over in mijn kennisbank." + Doorverwijzing naar menselijke expert.                     |
+| Service Down / API Error                     | Melding "De AI-assistent is tijdelijk niet beschikbaar" + Tonen van alternatieve route (bijv. telefoonnummer of zoekbalk). |
+| Rode Lijn getriggerd                         | Neutrale weigering ("Ik kan deze vraag niet beantwoorden vanwege veiligheidsrichtlijnen").                                 |
+
+______________________________________________________________________
+
+## 8. Checklist SDD
+
+!!! check "8. Checklist SDD"
     - [ ] Doelkaart is opgesteld en goedgekeurd
     - [ ] Specificatie is uitgewerkt met input/output/gedragsregels
     - [ ] Specificatie is gereviewd door Tech Lead en Guardian
@@ -171,7 +183,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 8. Gerelateerde Modules
+## 9. Gerelateerde Modules
 
 - [Doelkaart Sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
