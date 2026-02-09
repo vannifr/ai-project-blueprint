@@ -38,4 +38,10 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
+## 4. Over deze Gids
+
+De AI Project Gids is een modulaire, normatieve werkwijze voor het opzetten, uitvoeren en beheren van AI‑projecten. De gids beschrijft de volledige levenscyclus — van strategische verkenning tot operationeel beheer — en biedt concrete sjablonen, checklists en bewijsstandaarden waarmee organisaties AI‑systemen controleerbaar, traceerbaar en verantwoord kunnen inzetten.
+
+**Auteurs:** Frederik Vannieuwenhuyse, Hadrien-Joseph van Durme
+
 ______________________________________________________________________

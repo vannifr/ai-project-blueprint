@@ -8,6 +8,8 @@ versie: '1.0'
 
 Deze Gids is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
 
+Deze gids is toepasbaar op zowel AI‑systemen die ondersteunen (zoals advies, analyse of contentgeneratie) als op AI‑systemen die binnen vooraf vastgestelde kaders zelfstandig taken uitvoeren. Naarmate een systeem meer zelfstandigheid krijgt, gelden aanvullende eisen voor vastlegging, toezicht en bewijs, zodat menselijk eigenaarschap, controleerbaarheid en verantwoording behouden blijven.
+
 ## 2. Voor wie is dit bedoeld?
 
 - **Bestuur & MT:** keuzes maken, risico's beheersen, investering onderbouwen

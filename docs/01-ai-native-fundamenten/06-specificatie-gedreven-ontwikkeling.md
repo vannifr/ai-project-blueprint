@@ -16,6 +16,8 @@ In plaats van direct prompts te schrijven, volgen we deze cyclus:
 1. **Menselijke Review** van de specificatie: We valideren de bedoeling voordat we middelen besteden aan training of testruns.
 1. De goedgekeurde specificatie stuurt de verdere ontwikkeling en de automatische validatie aan.
 
+Bij systemen met een grotere mate van zelfstandigheid worden wijzigingen aan gedrag uitgevoerd in kleine, afgebakende stappen. Vooraf wordt vastgelegd wat de wijziging beoogt, welke grenzen gelden en hoe wordt vastgesteld of de wijziging correct werkt voordat deze structureel wordt toegepast.
+
 ______________________________________________________________________
 
 ## 2. Gerelateerde Sjablonen

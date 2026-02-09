@@ -20,3 +20,13 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Het ontwikkelteam is compleet en heeft toegang tot alle benodigde resources.
 
 ______________________________________________________________________
+
+### Gecontroleerde gedragswijzigingen
+
+Wijzigingen aan het gedrag van een AI‑systeem worden uitgevoerd in afgebakende stappen. Per wijziging wordt vastgelegd:
+
+- het beoogde effect,
+- de geldende grenzen en limieten,
+- hoe wordt vastgesteld dat de wijziging voldoet aan doel en Rode Lijnen.
+
+Pas na succesvolle toetsing wordt een wijziging structureel toegepast.

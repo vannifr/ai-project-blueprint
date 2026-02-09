@@ -8,6 +8,8 @@ versie: '1.0'
 
 Wij beschouwen AI-voorzieningen niet als statische software, maar als **gedragssturing**. Dit betekent dat we AI-systemen niet programmeren in de traditionele zin, maar sturen door middel van informatie en context.
 
+Gedragssturing betekent daarbij niet alleen het formuleren van doelen en grenzen, maar ook het expliciet beheren van alle informatie, configuraties en toegestane handelingen die het gedrag van het systeem sturen. Deze sturing wordt vastgelegd, versie‑beheerbaar gemaakt en getoetst, zodat wijzigingen controleerbaar blijven.
+
 Een project valt onder dit regime als aan **drie voorwaarden** is voldaan:
 
 ### Impact

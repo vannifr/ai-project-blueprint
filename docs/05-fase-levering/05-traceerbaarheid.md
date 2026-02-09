@@ -91,6 +91,8 @@ Per interactie minimaal (zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-
 | Latency                    | 1.2s                                |
 | Human override             | Nee                                 |
 
+Voor systemen die zelfstandig taken uitvoeren, wordt daarnaast vastgelegd welke acties zijn uitgevoerd, binnen welke vooraf vastgestelde kaders, en of daarbij menselijke tussenkomst of goedkeuring heeft plaatsgevonden.
+
 ### Logging per Risiconiveau
 
 | Niveau   | Logging-eis                                      |

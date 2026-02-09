@@ -58,6 +58,8 @@ Hier draaien we het proces om: we ontwerpen de workflow zo dat AI het 'zware wer
 - **Risico:** 'Silent failures' (fouten die niet als fout worden herkend) en degradatie van menselijke expertise omdat ze het werk nooit meer zelf doen.
 - **Governance:** Strenge geautomatiseerde monitoring en steekproeven (Audits).
 
+Menselijke regie betekent in deze context niet voortdurende handmatige controle, maar duidelijke afspraken over wanneer, hoe en door wie wordt ingegrepen bij afwijkend gedrag of overschrijding van vastgestelde grenzen.
+
 ### Modus 5: Autonoom (The Entity)
 
 **AI stelt doelen en handelt zelfstandig.**
@@ -68,6 +70,8 @@ Het systeem krijgt een breed mandaat (bijv. "Optimaliseer de inkoopvoorraad") en
 - **Voorbeeld:** High-frequency trading algoritmes of volledig autonome supply chain planners.
 - **Risico:** Onvoorspelbaar emergent gedrag en kettingreacties (Flash Crashes).
 - **Governance:** 'Circuit Breakers' (noodstoppen) en beleidsmatige constraints (wat mag de AI absoluut niet).
+
+Menselijke regie betekent in deze context niet voortdurende handmatige controle, maar duidelijke afspraken over wanneer, hoe en door wie wordt ingegrepen bij afwijkend gedrag of overschrijding van vastgestelde grenzen.
 
 ______________________________________________________________________
 

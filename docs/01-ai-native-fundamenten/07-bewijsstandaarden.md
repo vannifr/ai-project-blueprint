@@ -8,6 +8,8 @@ versie: '1.0'
 
 Deze module definieert **minimale bewijsstandaarden** voor AI-oplossingen, zodat Gate Reviews niet op gevoel maar op **toetsbare criteria** plaatsvinden.
 
+Het bewijs voor een AI‑systeem bestaat uit een samenhangende set documenten en loggegevens die gezamenlijk inzicht geven in: wat het systeem moest doen, hoe het gedrag werd gestuurd, hoe dit is getest en wat er in de praktijk is gebeurd. Deze samenhang maakt beoordeling, auditing en incidentanalyse mogelijk.
+
 **Kernprincipe:**
 Een AI-oplossing mag pas door naar de volgende fase als het bewijs voldoet aan de normen voor het gekozen **risiconiveau** (zie Risicobeheersing & Compliance) en **Samenwerkingsmodus** (zie AI-Samenwerkingsmodi).
 

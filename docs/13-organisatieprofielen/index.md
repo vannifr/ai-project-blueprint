@@ -8,6 +8,8 @@ versie: '1.0'
 
 Niet elke organisatie is even ver in de AI-reis. Dit model helpt je bepalen welke aanpak en welke Samenwerkingsmodi passen bij jouw huidige situatie.
 
+Volwassenheid is geen vast organisatielabel, maar kan per gebruikscasus verschillen. De gekozen aanpak en mate van toezicht volgen het risico en de impact van de toepassing, niet het algemene volwassenheidsniveau van de organisatie.
+
 ______________________________________________________________________
 
 ## 2. De Drie Niveaus

@@ -30,6 +30,9 @@ ______________________________________________________________________
 - [ ] **Validatierapport** is beschikbaar en goedgekeurd.
 - [ ] **Sturingsinstructies** zijn geversioneerd en gedocumenteerd.
 - [ ] Gebruikers zijn getraind voor **Menselijke Regie**.
+    - [ ] Gedragssturing en toegestane acties zijn expliciet vastgelegd en beoordeeld.
+    - [ ] Wijzigingen sinds de vorige release zijn aantoonbaar getoetst en vastgelegd.
+    - [ ] Het toezicht‑ en escalatiepad is duidelijk beschreven.
 
 !!! check "Gate 4 (Livegang): Ingebruikname & Beheer"
 

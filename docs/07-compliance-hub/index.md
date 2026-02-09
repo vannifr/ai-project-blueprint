@@ -119,3 +119,5 @@ Wanneer AI-systemen autonoom acties uitvoeren (Modus 4 & 5), verschuift de focus
 
 - **Actieradius:** Technische inperking van wat een agent mag doen (bijv. maximale budgetlimieten).
 - **Guardrails:** Real-time monitoring die acties blokkeert als deze de **Rode Lijnen** dreigen te overschrijden.
+
+Wanneer een AI‑systeem handelingen kan uitvoeren in andere systemen, wordt expliciet vastgelegd welke systemen en functies toegankelijk zijn, onder welke voorwaarden dit mag plaatsvinden en hoe toegang direct kan worden beperkt of ingetrokken bij afwijkingen of incidenten.

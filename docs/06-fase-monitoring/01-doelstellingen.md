@@ -19,4 +19,6 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Beheerteam (Operations/MLOps) is geïnstrueerd en stand-by.
 - Incident Response Plan is getest.
 
+Bij significante afwijkingen wordt niet automatisch bijgestuurd. Eerst wordt onderzocht wat de oorzaak is, welke aanpassing nodig is en hoe deze gecontroleerd kan worden doorgevoerd, inclusief toetsing en vastlegging.
+
 ______________________________________________________________________

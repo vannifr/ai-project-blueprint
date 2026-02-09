@@ -16,4 +16,6 @@ Om AI-systemen beheersbaar te maken, beheren we specifieke artefacten die grip g
 | **Validatierapport**    | **Bewijs:** Resultaten van testen en metingen (*Evidence*).          | QA Engineer         | Gestructureerd rapport met metrics                                                           |
 | **Traceerbaarheid**     | **Verbinding:** Koppeling tussen Doel Instructie Bewijs.             | ML Engineer         | Referenties (ID's / Git SHAs)                                                                |
 
+Sturingsinstructies omvatten niet alleen prompts, maar alle informatie en configuraties die het gedrag van het systeem beïnvloeden, waaronder gekoppelde kennisbronnen, toegestane acties, technische beperkingen, bewaartermijnen en regels voor gebruik en escalatie.
+
 ______________________________________________________________________
