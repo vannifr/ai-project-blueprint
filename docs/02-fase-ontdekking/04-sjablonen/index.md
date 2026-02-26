@@ -4,6 +4,4 @@ versie: '1.0'
 
 # 1. fase-ontdekking/04-sjablonen
 
-## 1. Inhoud volgt nog.
-
-© 2026 AI Project Gids. Gelicenseerd onder CC BY-NC-SA 4.0.
+Dit hoofdstuk wordt uitgewerkt in een toekomstige versie van de AI Project Gids. Zie de [Release Notes](../../release-notes.md) voor de publicatieplanning.

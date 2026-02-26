@@ -1,2 +1,3 @@
 .venv/
 site/
+resources/templates/covers/*.html

@@ -8,6 +8,8 @@ extra_css:
 
 hooks:
   - hooks/add_noindex.py
+  - hooks/render_covers.py
+  - hooks/pdf_heading_numbers.py
 
 theme:
   name: material
@@ -53,6 +55,20 @@ plugins:
   - git-revision-date-localized:
       locale: nl
       type: date
+  - exporter:
+      formats:
+        pdf:
+          enabled: !ENV [MKDOCS_EXPORTER_PDF, false]
+          concurrency: 8
+          stylesheets:
+            - resources/stylesheets/pdf.scss
+          covers:
+            front: resources/templates/covers/front.html.j2
+            back: resources/templates/covers/back.html.j2
+          aggregator:
+            enabled: true
+            output: pdf/ai-project-gids.pdf
+            covers: limits
   - htmlproofer:
       enabled: !ENV [HTMLPROOFER_ENABLED, False]
       raise_error: true
@@ -164,12 +180,7 @@ nav:
       - Fase 2 (Pilot): 12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.md
       - Fase 3 (Schaal): 12-90-dagen-roadmap/03-fase-3-codificeer-schaal.md
       - Uitkomsten: 12-90-dagen-roadmap/04-capaciteits-uitkomsten.md
-    - Organisatieprofielen:
-      - Overzicht: 13-organisatieprofielen/index.md
-      - Verkenner: 13-organisatieprofielen/01-ai-verkenner.md
-      - Piloot: 13-organisatieprofielen/02-ai-piloot.md
-      - Expert: 13-organisatieprofielen/03-ai-expert.md
-      - Beoordeling: 13-organisatieprofielen/04-profiel-beoordeling.md
+    - Organisatieprofielen: 13-organisatieprofielen/index.md
     - De Drie Tracks:
       - Overzicht: 14-drie-tracks/index.md
       - Strategisch: 14-drie-tracks/01-strategische-heruitvinding.md

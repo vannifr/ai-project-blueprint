@@ -30,6 +30,9 @@ jobs:
           pip install -r requirements.txt
           pip install pre-commit
 
+      - name: Install Playwright Chromium
+        run: playwright install --with-deps chromium
+
       - name: Run Pre-commit hooks
         run: pre-commit run --all-files
 
@@ -37,7 +40,10 @@ jobs:
         run: python3 scripts/validate_docs.py
 
       - name: Build MkDocs (Strict)
-        run: HTMLPROOFER_ENABLED=true mkdocs build --strict
+        run: HTMLPROOFER_ENABLED=true MKDOCS_EXPORTER_PDF=true mkdocs build --strict
+
+      - name: PDF Post-process (TOC + Bookmarks)
+        run: python3 scripts/pdf_postprocess.py site
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4

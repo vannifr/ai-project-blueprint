@@ -1,0 +1,477 @@
+// =============================================================
+// PDF Stylesheet — AI Project Gids
+// Publicatie-template voor AI-governance documentatie
+// Engine: mkdocs-exporter (Paged.js / Playwright)
+// =============================================================
+//
+// Kleurenpalet (5 functionele kleuren):
+//   --clr-primary:  #00796b  (teal 700  — koppen, links, primaire accenten)
+//   --clr-accent:   #6a1b9a  (purple 800 — gate/risico accenten)
+//   --clr-success:  #2e7d32  (green 800  — checklist, goedkeuring)
+//   --clr-warning:  #e65100  (orange 900 — risico, waarschuwing)
+//   --clr-neutral:  #37474f  (blue-grey 800 — bodytekst, donkere UI)
+//
+// Callout-blokken (4 types):
+//   TYPE 1 DOEL:          bg #EBF5FB, balk #0E7C86 (teal)
+//   TYPE 2 CHECKLIST:     bg #EAFAF1, balk #27AE60 (groen)
+//   TYPE 3 WAARSCHUWING:  bg #FEF9E7, balk #E3A008 (amber)
+//   TYPE 4 GATE:          bg #F4F6F7, rand #BDC3C7 (grijs)
+// =============================================================
+
+// --- CSS Custom Properties ---
+:root {
+  --clr-primary: #00796b;
+  --clr-accent:  #6a1b9a;
+  --clr-success: #2e7d32;
+  --clr-warning: #e65100;
+  --clr-neutral: #37474f;
+}
+
+// =============================================================
+// Page Setup — Header & Footer
+// =============================================================
+
+@page {
+  size: A4;
+  margin: 28mm 20mm 28mm 20mm;
+
+  // --- HEADER ---
+  @top-left {
+    content: "AI Project Gids";
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 9pt;
+    color: #666666;
+    border-bottom: 0.5pt solid #cccccc;
+    padding-bottom: 6pt;
+  }
+
+  @top-right {
+    content: string(chapter-title);
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 9pt;
+    color: #666666;
+    border-bottom: 0.5pt solid #cccccc;
+    padding-bottom: 6pt;
+  }
+
+  // --- FOOTER ---
+  @bottom-left {
+    content: "Versie 2026.02 \00b7  CC BY-NC-SA 4.0";
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 8pt;
+    color: #999999;
+    border-top: 0.5pt solid #cccccc;
+    padding-top: 6pt;
+  }
+
+  @bottom-center {
+    content: counter(page);
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 8pt;
+    color: #999999;
+    border-top: 0.5pt solid #cccccc;
+    padding-top: 6pt;
+  }
+
+  @bottom-right {
+    content: "Vertrouwelijk";
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 8pt;
+    color: #999999;
+    border-top: 0.5pt solid #cccccc;
+    padding-top: 6pt;
+  }
+}
+
+// =============================================================
+// Cover pages: eigen pagina, geen header/footer
+// =============================================================
+
+// Named page voor covers
+@page cover-page {
+  margin: 0;
+  @top-left { content: none; border: none; }
+  @top-right { content: none; border: none; }
+  @bottom-left { content: none; border: none; }
+  @bottom-center { content: none; border: none; }
+  @bottom-right { content: none; border: none; }
+}
+
+// Titelpagina (@page :first fallback)
+@page :first {
+  @top-left { content: none; border: none; }
+  @top-right { content: none; border: none; }
+  @bottom-left { content: none; border: none; }
+  @bottom-center { content: none; border: none; }
+  @bottom-right { content: none; border: none; }
+}
+
+// Front cover: page-break na cover, geen named page (voorkomt lege pagina)
+.mkdocs-exporter-front-cover {
+  break-after: page;
+}
+
+// Back cover: start op nieuwe pagina
+.mkdocs-exporter-back-cover {
+  break-before: page;
+}
+
+// Verberg git-revision-date in PDF (voorkomt losse pagina na back cover)
+.md-source-file {
+  display: none !important;
+}
+
+// --- Base Typography ---
+// Body: serif voor leesbaarheid in print
+body {
+  font-family: "Georgia", "Charter", "Cambria", "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: var(--clr-neutral);
+  text-align: left;
+}
+
+// --- Koppen: sans-serif ---
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  text-align: left;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+}
+
+h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  color: var(--clr-primary);
+  border-bottom: 2px solid var(--clr-primary);
+  padding-bottom: 6pt;
+  page-break-after: avoid;
+  string-set: chapter-title content(text);
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 16pt;
+  font-weight: 600;
+  color: var(--clr-primary);
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 13pt;
+  font-weight: 600;
+  color: var(--clr-neutral);
+  page-break-after: avoid;
+}
+
+h4, h5, h6 {
+  font-size: 11pt;
+  font-weight: 700;
+  color: var(--clr-neutral);
+  page-break-after: avoid;
+}
+
+// --- Paragrafen ---
+p {
+  orphans: 3;
+  widows: 3;
+  margin-bottom: 0.6em;
+}
+
+// --- Links ---
+a {
+  color: var(--clr-primary);
+  text-decoration: none;
+  border-bottom: 0.5px solid rgba(0, 121, 107, 0.3);
+}
+
+// --- Code: monospace ---
+pre {
+  font-family: "Roboto Mono", "Fira Code", "Consolas", monospace;
+  font-size: 9pt;
+  line-height: 1.4;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+  padding: 10pt 14pt;
+  page-break-inside: avoid;
+  overflow-x: auto;
+}
+
+code {
+  font-family: "Roboto Mono", "Fira Code", "Consolas", monospace;
+  font-size: 9pt;
+  background: #f0f1f3;
+  padding: 1pt 4pt;
+  border-radius: 2px;
+  color: var(--clr-neutral);
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+// =============================================================
+// Tabellen
+// Header: #1F2A44 donkerblauw, wit tekst, 10pt vet
+// Data: zebra #FFFFFF / #F8F9FA, tekst #333333, 10pt
+// Randen: horizontaal 0.5pt #DEE2E6, buitenrand 1pt #BDC3C7
+// Geen verticale lijnen. Max breedte 90%.
+// =============================================================
+table {
+  width: 90%;
+  border-collapse: collapse;
+  font-family: "Inter", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.4;
+  margin: 1em 0 1.4em;
+  page-break-inside: avoid;
+  border: 1pt solid #BDC3C7;
+}
+
+th {
+  background: #1F2A44;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 10pt;
+  padding: 8pt 10pt;
+  text-align: left;
+  border-bottom: 1pt solid #BDC3C7;
+  border-left: none;
+  border-right: none;
+}
+
+td {
+  color: #333333;
+  font-weight: 400;
+  font-size: 10pt;
+  padding: 6pt 10pt;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 0.5pt solid #DEE2E6;
+  border-left: none;
+  border-right: none;
+}
+
+// Zebra-striping
+tr:nth-child(odd) td {
+  background: #FFFFFF;
+}
+
+tr:nth-child(even) td {
+  background: #F8F9FA;
+}
+
+// =============================================================
+// Callout-blokken — 4 gestandaardiseerde types
+// =============================================================
+
+// --- Basis admonition-stijl (fallback) ---
+.admonition, details {
+  border: none;
+  border-left: 4px solid #bdbdbd;
+  background: #fafafa;
+  padding: 10pt 14pt;
+  border-radius: 0;
+  margin: 1em 0;
+  page-break-inside: avoid;
+  font-size: 11pt;
+  line-height: 1.45;
+}
+
+.admonition-title, summary {
+  font-family: "Inter", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 12pt;
+  margin-bottom: 6pt;
+  display: block;
+}
+
+// --- TYPE 1: DOEL-BLOK (tip, hint, important) ---
+// Achtergrond: #EBF5FB, linkerbalk: #0E7C86
+.admonition.tip, details.tip,
+.admonition.hint, details.hint,
+.admonition.important, details.important {
+  background: #EBF5FB;
+  border-left: 4px solid #0E7C86;
+}
+
+.tip > .admonition-title, .tip > summary,
+.hint > .admonition-title, .hint > summary,
+.important > .admonition-title, .important > summary {
+  color: #0E7C86;
+}
+
+// --- TYPE 2: CHECKLIST-BLOK (check, success, done) ---
+// Achtergrond: #EAFAF1, linkerbalk: #27AE60
+.admonition.check, details.check,
+.admonition.success, details.success,
+.admonition.done, details.done {
+  background: #EAFAF1;
+  border-left: 4px solid #27AE60;
+}
+
+.check > .admonition-title, .check > summary,
+.success > .admonition-title, .success > summary,
+.done > .admonition-title, .done > summary {
+  color: #27AE60;
+}
+
+// --- TYPE 3: WAARSCHUWING-BLOK (warning, caution, attention) ---
+// Achtergrond: #FEF9E7, linkerbalk: #E3A008
+.admonition.warning, details.warning,
+.admonition.caution, details.caution,
+.admonition.attention, details.attention {
+  background: #FEF9E7;
+  border-left: 4px solid #E3A008;
+}
+
+.warning > .admonition-title, .warning > summary,
+.caution > .admonition-title, .caution > summary,
+.attention > .admonition-title, .attention > summary {
+  color: #E3A008;
+}
+
+// --- TYPE 4: GATE/BESLISMOMENT-BLOK (abstract, summary, info, example) ---
+// Achtergrond: #F4F6F7, rand: 1px solid #BDC3C7
+.admonition.abstract, details.abstract,
+.admonition.summary, details.summary,
+.admonition.info, details.info,
+.admonition.example, details.example {
+  background: #F4F6F7;
+  border-left: none;
+  border: 1px solid #BDC3C7;
+}
+
+.abstract > .admonition-title, .abstract > summary,
+.summary > .admonition-title, .summary > summary,
+.info > .admonition-title, .info > summary,
+.example > .admonition-title, .example > summary {
+  color: #37474f;
+}
+
+// --- Danger / Error (valt buiten de 4 types, als waarschuwing-variant) ---
+.admonition.danger, details.danger,
+.admonition.error, details.error {
+  background: #FEF9E7;
+  border-left: 4px solid #c62828;
+}
+
+.danger > .admonition-title, .danger > summary,
+.error > .admonition-title, .error > summary {
+  color: #c62828;
+}
+
+// =============================================================
+// Mermaid diagrammen
+// =============================================================
+.mermaid {
+  page-break-inside: avoid;
+  text-align: center;
+  margin: 1.2em 0;
+}
+
+.mermaid text, .mermaid span {
+  font-size: 10pt !important;
+}
+
+// =============================================================
+// Afbeeldingen
+// =============================================================
+img {
+  max-width: 100%;
+  height: auto;
+  page-break-inside: avoid;
+}
+
+// =============================================================
+// Lijsten
+// =============================================================
+ul, ol {
+  padding-left: 1.6em;
+  page-break-before: avoid;
+}
+
+li {
+  margin-bottom: 0.2em;
+  orphans: 2;
+  widows: 2;
+}
+
+// Geneste lijsten compacter
+li > ul, li > ol {
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+}
+
+// Takenlijsten
+.task-list-item {
+  list-style-type: none;
+  margin-left: -1.2em;
+}
+
+// =============================================================
+// Horizontale lijn als sectie-scheiding
+// =============================================================
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 1.6em 0;
+}
+
+// =============================================================
+// Verberg web-only UI-elementen
+// =============================================================
+.md-header,
+.md-tabs,
+.md-sidebar,
+.md-footer,
+.md-search,
+.md-top,
+.md-source {
+  display: none !important;
+}
+
+// =============================================================
+// Verberg permalink-ankers (¶) in PDF-output
+// Voorkomt dat het ¶-teken zichtbaar is in hoofdstuktitels
+// en in de running header (via string-set: chapter-title)
+// =============================================================
+a.headerlink {
+  display: none !important;
+  font-size: 0 !important;
+  visibility: hidden !important;
+}
+
+// =============================================================
+// Font-rendering fix: voorkom M-spatie artefacten
+// Chromium PDF-subsetting kan kerning/ligature-tabellen
+// incorrect opslaan, waardoor extractie spaties toevoegt.
+// Disabling kern en liga voorkomt dit.
+// =============================================================
+body,
+h1, h2, h3, h4, h5, h6,
+p, li, td, th {
+  font-kerning: none;
+  font-variant-ligatures: none;
+  font-feature-settings: "kern" 0, "liga" 0, "calt" 0;
+}
+
+// =============================================================
+// Zwart-wit print compatibiliteit
+// Functionele kleuren (WCAG AA contrast tegen wit):
+//   --clr-primary  #00796b → 5.0:1
+//   --clr-accent   #6a1b9a → 8.8:1
+//   --clr-success  #2e7d32 → 4.9:1
+//   --clr-warning  #e65100 → 4.6:1
+//   --clr-neutral  #37474f → 7.9:1
+// Callout-balkkleuren (tegen witte achtergrond):
+//   Doel       #0E7C86 → 4.5:1
+//   Checklist  #27AE60 → 3.0:1 (accent, niet voor tekst)
+//   Waarschuw. #E3A008 → 2.8:1 (accent, niet voor tekst)
+//   Gate       #BDC3C7 → rand, geen contrast-eis
+// Callout-achtergronden zijn licht genoeg om in grijswaarden
+// onderscheidbaar te blijven.
+// =============================================================
