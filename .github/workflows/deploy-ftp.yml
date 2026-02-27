@@ -79,6 +79,7 @@ jobs:
           MKDOCS_LANG: ${{ matrix.lang }}
           MKDOCS_EXPORTER_PDF: "true"
           MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.${{ matrix.lang }}.pdf"
+          MKDOCS_BUILD_I18N: "false"
         run: mkdocs build --no-directory-urls
 
       - name: PDF Post-process (${{ matrix.lang }})
