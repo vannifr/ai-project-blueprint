@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+pdf: false
 ---
 
 # 1. fase-ontdekking/04-sjablonen

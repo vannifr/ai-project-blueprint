@@ -4,3 +4,4 @@ mkdocs-htmlproofer-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-exporter[pdf]
 reportlab
+pypdf

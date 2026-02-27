@@ -74,12 +74,8 @@
   }
 
   @bottom-right {
-    content: "Vertrouwelijk";
-    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    font-size: 8pt;
-    color: #999999;
-    border-top: 0.5pt solid #cccccc;
-    padding-top: 6pt;
+    content: none;
+    border: none;
   }
 }
 

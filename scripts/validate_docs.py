@@ -142,8 +142,110 @@ def check_spelling_consistency(filepath: str, content: List[str]) -> List[Valida
     return errors
 
 
+def check_h1_presence(filepath: str, content: List[str]) -> List[ValidationError]:
+    """Verify every page has at least one H1 heading."""
+    errors = []
+    h1_count = sum(1 for line in content if re.match(r'^# ', line))
+    if h1_count == 0:
+        errors.append(ValidationError(
+            "ERROR",
+            filepath,
+            1,
+            "Page has no H1 heading (# Title) — required for PDF running header and bookmarks"
+        ))
+    return errors
+
+
+def check_debug_markers(filepath: str, content: List[str]) -> List[ValidationError]:
+    """Detect development artifacts left in headings.
+
+    Flags markers only when they appear in parentheses (e.g. '(NOT DONE)', '(TODO)')
+    to avoid false positives on legitimate content like 'De "NOT DONE" Lijst'.
+    """
+    errors = []
+    # Match markers inside parentheses: (NOT DONE), (TODO), (FIXME), (TBD), (WIP), (PLACEHOLDER)
+    pattern = re.compile(r'\((NOT DONE|TODO|FIXME|TBD|WIP|PLACEHOLDER)\)', re.IGNORECASE)
+    for i, line in enumerate(content, 1):
+        if line.startswith('#'):
+            match = pattern.search(line)
+            if match:
+                errors.append(ValidationError(
+                    "ERROR",
+                    filepath,
+                    i,
+                    f"Debug marker '({match.group(1)})' found in heading — remove before publishing"
+                ))
+    return errors
+
+
+def check_stub_pdf_exclusion(filepath: str, content: List[str]) -> List[ValidationError]:
+    """Stub/placeholder pages should have pdf: false in frontmatter."""
+    errors = []
+    stub_phrases = ['Inhoud volgt nog', 'wordt uitgewerkt in een toekomstige versie']
+    full_text = ''.join(content)
+
+    is_stub = any(phrase in full_text for phrase in stub_phrases)
+    if not is_stub:
+        return errors
+
+    # Extract frontmatter text (between first --- and second ---)
+    frontmatter = ''
+    if content and content[0].strip() == '---':
+        for line in content[1:]:
+            if line.strip() == '---':
+                break
+            frontmatter += line
+
+    if 'pdf: false' not in frontmatter:
+        errors.append(ValidationError(
+            "WARNING",
+            filepath,
+            1,
+            "Stub/placeholder page should have 'pdf: false' in frontmatter to exclude from PDF export"
+        ))
+    return errors
+
+
+def check_nav_completeness(docs_dir: Path) -> List[ValidationError]:
+    """Check for orphaned markdown files not referenced in mkdocs.yml nav."""
+    errors = []
+
+    mkdocs_path = Path('mkdocs.yml')
+    if not mkdocs_path.exists():
+        return errors
+
+    try:
+        with open(mkdocs_path, 'r', encoding='utf-8') as f:
+            mkdocs_content = f.read()
+    except Exception as e:
+        errors.append(ValidationError("WARNING", "mkdocs.yml", 0, f"Could not read mkdocs.yml: {e}"))
+        return errors
+
+    # Extract all .md file references from mkdocs.yml using regex
+    nav_files = set(re.findall(r'[\w/-]+\.md', mkdocs_content))
+
+    # Find all .md files on disk
+    disk_files = set()
+    for md_file in docs_dir.rglob('*.md'):
+        if 'site' in md_file.parts:
+            continue
+        rel = str(md_file.relative_to(docs_dir))
+        disk_files.add(rel)
+
+    # Report orphans
+    for rel in sorted(disk_files - nav_files):
+        errors.append(ValidationError(
+            "WARNING",
+            str(docs_dir / rel),
+            1,
+            "File not referenced in mkdocs.yml nav (orphaned page — unreachable via navigation)"
+        ))
+
+    return errors
+
+
 def validate_file(filepath: str) -> List[ValidationError]:
-    """Run all validation checks on a single file."""
+    """Run all per-file validation checks on a single file."""
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.readlines()
@@ -155,6 +257,9 @@ def validate_file(filepath: str) -> List[ValidationError]:
     errors.extend(check_duplicate_words_in_headings(filepath, content))
     errors.extend(check_frontmatter(filepath, content))
     errors.extend(check_spelling_consistency(filepath, content))
+    errors.extend(check_h1_presence(filepath, content))
+    errors.extend(check_debug_markers(filepath, content))
+    errors.extend(check_stub_pdf_exclusion(filepath, content))
 
     return errors
 
@@ -170,15 +275,17 @@ def main():
     all_errors = []
     files_checked = 0
 
-    # Find all markdown files
-    for md_file in docs_dir.rglob('*.md'):
-        # Skip build artifacts
+    # Per-file checks
+    for md_file in sorted(docs_dir.rglob('*.md')):
         if 'site' in md_file.parts:
             continue
 
         files_checked += 1
         errors = validate_file(str(md_file))
         all_errors.extend(errors)
+
+    # Global checks (cross-file)
+    all_errors.extend(check_nav_completeness(docs_dir))
 
     # Print results
     print(f"\n{'='*70}")

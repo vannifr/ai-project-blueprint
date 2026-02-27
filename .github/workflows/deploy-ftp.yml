@@ -22,8 +22,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-          cache: 'pip' # Caches dependencies for faster subsequent runs
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
@@ -50,7 +50,7 @@ jobs:
         with:
           name: site-build
           path: site/
-          retention-days: 1
+          retention-days: 7
 
   deploy:
     name: Deploy to FTP
@@ -58,11 +58,6 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Download Build Artifact
         uses: actions/download-artifact@v4
         with:

@@ -6,7 +6,6 @@ Deze hook rendert de .html.j2 templates met Jinja2 en schrijft de output naar
 """
 
 import os
-import locale
 from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader
@@ -39,6 +38,10 @@ def _nl_now():
 
 
 def on_config(config):
+    # Alleen uitvoeren als PDF-export actief is
+    if not os.environ.get("MKDOCS_EXPORTER_PDF"):
+        return config
+
     covers_dir = os.path.normpath(COVERS_DIR)
     env = Environment(loader=FileSystemLoader(covers_dir), autoescape=False)
 

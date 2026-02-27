@@ -7,7 +7,6 @@ extra_css:
   - stylesheets/extra.css
 
 hooks:
-  - hooks/add_noindex.py
   - hooks/render_covers.py
   - hooks/pdf_heading_numbers.py
 
@@ -28,12 +27,15 @@ theme:
     - scheme: default
       primary: teal
       accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
     - scheme: slate
       primary: teal
       accent: purple
       toggle:
-        icon: material/brightness-4
-        name: Switch to dark mode
+        icon: material/brightness-7
+        name: Switch to light mode
 
 markdown_extensions:
   - admonition
@@ -60,7 +62,7 @@ plugins:
         pdf:
           enabled: !ENV [MKDOCS_EXPORTER_PDF, false]
           explicit: false
-          concurrency: 8
+          concurrency: 4
           stylesheets:
             - resources/stylesheets/pdf.scss
           covers:
@@ -182,7 +184,12 @@ nav:
       - Fase 2 (Pilot): 12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.md
       - Fase 3 (Schaal): 12-90-dagen-roadmap/03-fase-3-codificeer-schaal.md
       - Uitkomsten: 12-90-dagen-roadmap/04-capaciteits-uitkomsten.md
-    - Organisatieprofielen: 13-organisatieprofielen/index.md
+    - Organisatieprofielen:
+      - Overzicht: 13-organisatieprofielen/index.md
+      - De Verkenner: 13-organisatieprofielen/01-ai-verkenner.md
+      - De Bouwer: 13-organisatieprofielen/02-ai-piloot.md
+      - De Visionair: 13-organisatieprofielen/03-ai-expert.md
+      - Profielbeoordeling: 13-organisatieprofielen/04-profiel-beoordeling.md
     - De Drie Tracks:
       - Overzicht: 14-drie-tracks/index.md
       - Strategisch: 14-drie-tracks/01-strategische-heruitvinding.md

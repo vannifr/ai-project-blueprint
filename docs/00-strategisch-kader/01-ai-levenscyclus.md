@@ -55,7 +55,7 @@ ______________________________________________________________________
 
 **📍 Doel:** Bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
 
-#### Kernactivities
+#### Kernactiviteiten
 
 - **Praktijkproef (PoV):** Kleinschalig experiment om de hypothese te testen.
 - **Het Kostenoverzicht:** Schatten van investering versus ROI.

@@ -2,7 +2,7 @@
 versie: '1.0'
 ---
 
-# 1. Agile Antipatronen (NOT DONE)
+# 1. Agile Antipatronen
 
 ## 1. Doel
 

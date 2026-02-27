@@ -2,6 +2,8 @@
 versie: '1.0'
 ---
 
+# 1. Release Notes
+
 ## 1. Release 1.0 (2026-02-01) - Pre-Live Baseline
 
 ### Samenvatting

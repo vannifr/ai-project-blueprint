@@ -5,4 +5,4 @@ pdf: false
 
 # 1. Bedrijfsmodel Accelerators
 
-Inhoud volgt nog.
+Dit hoofdstuk wordt uitgewerkt in een toekomstige versie van de AI Project Gids. Zie de [Release Notes](../release-notes.md) voor de publicatieplanning.
