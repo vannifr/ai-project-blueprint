@@ -36,12 +36,15 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
+    - navigation.path
+    - navigation.prune
     - navigation.top
     - navigation.footer
     - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.tooltips
   custom_dir: overrides
   palette:
     - scheme: default
