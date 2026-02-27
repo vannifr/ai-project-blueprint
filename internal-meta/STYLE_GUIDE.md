@@ -1,6 +1,6 @@
 # Huisstijl & Schrijfwijzer (Styleguide v2.1)
 
-Deze gids borgt dat alle modules in het Playbook consistent, begrijpelijk en uniform blijven. Versie 2.1 integreert de **Vlaamse taalgids-audit** voor een optimale aansluiting bij Belgisch Nederlandstalige professionals.
+Deze blauwdruk borgt dat alle modules in het Playbook consistent, begrijpelijk en uniform blijven. Versie 2.1 integreert de **Vlaamse taalgids-audit** voor een optimale aansluiting bij Belgisch Nederlandstalige professionals.
 
 ______________________________________________________________________
 

@@ -1,4 +1,4 @@
-# AI Project Gids
+# AI Project Blauwdruk
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-green)
 ![Version](https://img.shields.io/badge/version-1.0-blue)
@@ -8,7 +8,7 @@ De centrale documentatiehub voor AI-projectmanagement, gebaseerd op PMI-CPMAI st
 
 ## 📖 Over dit project
 
-Deze gids (v1.0) biedt een gestandaardiseerde, modulaire aanpak om AI-projecten te beheren van ideatie tot monitoring. Het is ontworpen om teams te helpen navigeren door de complexiteit van AI-native ontwikkeling, compliance en organisatie-adoptie.
+Deze blauwdruk (v1.0) biedt een gestandaardiseerde, modulaire aanpak om AI-projecten te beheren van ideatie tot monitoring. Het is ontworpen om teams te helpen navigeren door de complexiteit van AI-native ontwikkeling, compliance en organisatie-adoptie.
 
 ### Kernmodules
 
@@ -95,6 +95,6 @@ Alle wijzigingen doorlopen automatisch:
 
 ## 📄 Licentie
 
-© 2026 AI Project Gids.
+© 2026 AI Project Blauwdruk.
 Gelicenseerd onder de **Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal (CC BY-NC-SA 4.0)**.
 Zie de footer van elk document voor copyright informatie.

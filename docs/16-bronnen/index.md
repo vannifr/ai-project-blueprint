@@ -12,7 +12,7 @@ ______________________________________________________________________
 
 ## 2. Primaire bronnen (audit)
 
-De volgende bronnen vormen de juridische en technische ruggengraat van deze gids en zijn geschikt voor audit-doeleinden.
+De volgende bronnen vormen de juridische en technische ruggengraat van deze blauwdruk en zijn geschikt voor audit-doeleinden.
 
 | Ref ID        | Bron                       | Beschrijving                                           | Status       |
 | :------------ | :------------------------- | :----------------------------------------------------- | :----------- |
@@ -26,7 +26,7 @@ ______________________________________________________________________
 
 ## 3. Externe Standaarden & Methodologieën
 
-De procesinrichting van deze Gids is getoetst aan en geïnspireerd door de volgende internationale raamwerken:
+De procesinrichting van deze Blauwdruk is getoetst aan en geïnspireerd door de volgende internationale raamwerken:
 
 ### Project Management Institute (PMI)
 

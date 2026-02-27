@@ -27,7 +27,7 @@ from reportlab.lib.colors import Color
 # Configuratie
 # ---------------------------------------------------------------------------
 
-PDF_RELPATH = "pdf/ai-project-gids.pdf"
+PDF_RELPATH = "pdf/ai-project-blauwdruk.pdf"
 
 # Kleuren
 CLR_TITLE = Color(0x1F / 255, 0x2A / 255, 0x44 / 255)   # #1F2A44
@@ -61,7 +61,7 @@ def extract_headings(pdf_path):
 
     H1 koppen worden gevonden via twee patronen:
       1. Chapter-start pagina's: eerste regel is "N. Titel" (zonder prefix)
-      2. Continuation pagina's: running header "AI Project Gids N. Titel¶"
+      2. Continuation pagina's: running header "AI Project Blauwdruk N. Titel¶"
 
     H2 koppen worden geëxtraheerd uit content-regels (patroon: "N.M Titel")
     waarbij N een bekend H1-prefix moet zijn.
@@ -84,17 +84,17 @@ def extract_headings(pdf_path):
 
         # Patroon 1: chapter-start pagina — eerste regel is "N. Titel"
         m1 = re.match(r"^(\d{1,3})\.\s+(.+)$", first_line)
-        if m1 and not first_line.startswith("AI Project Gids"):
+        if m1 and not first_line.startswith("AI Project Blauwdruk"):
             prefix = m1.group(1)
             title = m1.group(2).strip()
             if prefix not in h1_map:
                 h1_map[prefix] = (title, page_idx + 1)
             continue
 
-        # Patroon 2: running header — "AI Project Gids N. Titel" (¶ optioneel,
+        # Patroon 2: running header — "AI Project Blauwdruk N. Titel" (¶ optioneel,
         # wordt verborgen door CSS in nieuwere builds)
         m2 = re.match(
-            r"^AI Project Gids\s+(\d{1,3})\.\s+(.+?)(?:\s*¶)?\s*$", first_line
+            r"^AI Project Blauwdruk\s+(\d{1,3})\.\s+(.+?)(?:\s*¶)?\s*$", first_line
         )
         if m2:
             prefix = m2.group(1)
@@ -113,7 +113,7 @@ def extract_headings(pdf_path):
         # waar een running header boven de H1 staat)
         for line in lines[1:6]:  # kijk in eerste 6 regels
             if any(skip in line for skip in
-                   ["AI Project Gids", "CC BY-NC-SA", "Vertrouwelijk",
+                   ["AI Project Blauwdruk", "CC BY-NC-SA", "Vertrouwelijk",
                     "Versie 2026", "\u00b6"]):
                 continue
             m3 = re.match(r"^(\d{1,3})\.\s+([A-Z].{2,})$", line)
@@ -134,7 +134,7 @@ def extract_headings(pdf_path):
             break
 
     # --- H2: extraheer uit content ---
-    content_skip = ["AI Project Gids", "CC BY-NC-SA", "Vertrouwelijk",
+    content_skip = ["AI Project Blauwdruk", "CC BY-NC-SA", "Vertrouwelijk",
                     "Versie 2026", "\u00b6"]
 
     h2_list = []

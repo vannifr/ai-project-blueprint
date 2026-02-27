@@ -8,7 +8,7 @@ versie: '1.0'
 
 ### Samenvatting
 
-- Eerste release van de gestandaardiseerde AI Project Gids.
+- Eerste release van de gestandaardiseerde AI Project Blauwdruk.
 - Eenduidig versiebeheer geïntroduceerd via een nieuw "Documentbeheer" blok in elk document.
 - Versie staat op **1.0** totdat de proefperiode en initiële feedbackronde is afgerond.
 
@@ -35,7 +35,7 @@ ______________________________________________________________________
 
 ## 2. Geplande Inhoud (v1.1)
 
-De volgende secties worden uitgewerkt in een toekomstige versie van de AI Project Gids:
+De volgende secties worden uitgewerkt in een toekomstige versie van de AI Project Blauwdruk:
 
 ### Operationele Fasen
 

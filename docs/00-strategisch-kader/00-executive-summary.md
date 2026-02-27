@@ -4,11 +4,11 @@ versie: '1.0'
 
 # 1. Managementsamenvatting
 
-## 1. Wat is deze Gids?
+## 1. Wat is deze Blauwdruk?
 
-Deze Gids is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
+Deze Blauwdruk is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
 
-Deze gids is toepasbaar op zowel AI‑systemen die ondersteunen (zoals advies, analyse of contentgeneratie) als op AI‑systemen die binnen vooraf vastgestelde kaders zelfstandig taken uitvoeren. Naarmate een systeem meer zelfstandigheid krijgt, gelden aanvullende eisen voor vastlegging, toezicht en bewijs, zodat menselijk eigenaarschap, controleerbaarheid en verantwoording behouden blijven.
+Deze blauwdruk is toepasbaar op zowel AI‑systemen die ondersteunen (zoals advies, analyse of contentgeneratie) als op AI‑systemen die binnen vooraf vastgestelde kaders zelfstandig taken uitvoeren. Naarmate een systeem meer zelfstandigheid krijgt, gelden aanvullende eisen voor vastlegging, toezicht en bewijs, zodat menselijk eigenaarschap, controleerbaarheid en verantwoording behouden blijven.
 
 ## 2. Voor wie is dit bedoeld?
 
@@ -24,7 +24,7 @@ Deze gids is toepasbaar op zowel AI‑systemen die ondersteunen (zoals advies, a
 1. **Audit‑klaar dossier** (bewijs‑pakket) voor interne/externe toetsing
 1. **Herhaalbaarheid**: elke gebruikscasus volgt dezelfde lifecycle en standaard opleveringen
 
-## 4. Hoe gebruik je de Gids (snelle start)?
+## 4. Hoe gebruik je de Blauwdruk (snelle start)?
 
 **Als je vandaag start met 1 gebruikscasus:**
 
@@ -40,7 +40,7 @@ Deze gids is toepasbaar op zowel AI‑systemen die ondersteunen (zoals advies, a
 - **Week 1–2:** kies 1 pilot gebruikscasus + stel kernrollen aan (AI PM, Tech Lead, Guardian).
 - **Week 3–6:** voer lifecycle uit (Modules 02–04), inclusief [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md).
 - **Week 7–8:** livegang + beheer (Modules 05–06).
-- **Week 9:** evaluatie + update Gids naar v1.1 op basis van leerpunten.
+- **Week 9:** evaluatie + update Blauwdruk naar v1.1 op basis van leerpunten.
 
 ## 6. Navigatie (wat moet je lezen?)
 

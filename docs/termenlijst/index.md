@@ -4,7 +4,7 @@ versie: '1.0'
 
 # 1. Termenlijst (Glossary)
 
-Dit document bevat de definities van de belangrijkste termen en afkortingen die in de AI Project Gids worden gebruikt. Wij slaan de brug tussen techniek en business door consequent heldere Nederlandse termen te gebruiken.
+Dit document bevat de definities van de belangrijkste termen en afkortingen die in de AI Project Blauwdruk worden gebruikt. Wij slaan de brug tussen techniek en business door consequent heldere Nederlandse termen te gebruiken.
 
 ______________________________________________________________________
 
@@ -43,7 +43,7 @@ ______________________________________________________________________
 
 ## 7. G
 
-- **Gate:** Een formeel beslismoment in de AI-levenscyclus waarbij op basis van bewijs een Go/No-Go beslissing wordt genomen. De gids definieert 4 gates (Gate 1 t/m Gate 4). → [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
+- **Gate:** Een formeel beslismoment in de AI-levenscyclus waarbij op basis van bewijs een Go/No-Go beslissing wordt genomen. De blauwdruk definieert 4 gates (Gate 1 t/m Gate 4). → [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 - **Gebruikskosten:** De variabele kosten voor het draaien van een AI-systeem, zoals API-tokens of cloud-rekentijd (*Inference costs*).
 - **Gouden Set:** Een representatieve verzameling testcases die wordt gebruikt om AI-prestaties te meten. Bevat standaardcases, randgevallen en adversarial scenarios. Grootte varieert per risiconiveau (20-150 cases).
 - **Guardian:** De onafhankelijke rol binnen het projectteam die waakt over ethische en wettelijke kaders. Heeft veto-recht bij overschrijding van Rode Lijnen. → [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
@@ -60,7 +60,7 @@ ______________________________________________________________________
 ## 10. K
 
 - **Kenniskoppeling:** Het verbinden van een AI-model aan specifieke bedrijfsinformatie of documenten om de antwoorden relevanter en accurater te maken (*Retrieval-Augmented Generation / RAG*).
-- **Kernprincipes:** De fundamentele uitgangspunten van deze gids, gericht op gedragssturing, impact, traceerbaarheid en continue toetsing.
+- **Kernprincipes:** De fundamentele uitgangspunten van deze blauwdruk, gericht op gedragssturing, impact, traceerbaarheid en continue toetsing.
 
 ## 11. M
 

@@ -16,7 +16,7 @@ Traditionele organisaties zien AI als een serie losse projecten. Voor maximale i
 
 - **Data als Brandstof:** Data is niet langer een bijproduct, maar de kern van de bedrijfsvoering.
 - **Accelerators:** Bouw herbruikbare componenten (zoals **Kenniskoppeling**) die over de hele organisatie ingezet kunnen worden.
-- **Centrale Regie:** Voorkom **Wildgroei** door duidelijke kaders en een gedeelde **Gids**.
+- **Centrale Regie:** Voorkom **Wildgroei** door duidelijke kaders en een gedeelde **Blauwdruk**.
 
 ______________________________________________________________________
 

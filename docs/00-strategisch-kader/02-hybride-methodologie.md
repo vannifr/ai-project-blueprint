@@ -6,7 +6,7 @@ versie: '1.0'
 
 ## 1. Doel
 
-Dit document beschrijft de hybride aanpak van de AI Project Gids, waarbij voorspelbare planning (Waterfall) wordt gecombineerd met iteratieve uitvoering (Agile) voor een optimale balans tussen structuur en flexibiliteit.
+Dit document beschrijft de hybride aanpak van de AI Project Blauwdruk, waarbij voorspelbare planning (Waterfall) wordt gecombineerd met iteratieve uitvoering (Agile) voor een optimale balans tussen structuur en flexibiliteit.
 
 ______________________________________________________________________
 

@@ -41,7 +41,7 @@ De EU AI Act deelt systemen in op basis van het risico dat ze vormen voor veilig
 - **Toepassing:** Transparantieverplichtingen gelden voor bepaalde AI-systemen, waaronder systemen die met personen interageren (bijvoorbeeld chatbots) en systemen die synthetische of gemanipuleerde content genereren of publiceren in contexten waar labeling/disclosure vereist is.
 - **Vereisten:** Disclosure/labeling waar wettelijk vereist, inclusief (a) melden dat men met AI interageert (tenzij evident uit de context), en (b) markeren/labelen van kunstmatig gegenereerde of gemanipuleerde content waar van toepassing.
 
-> **Verduidelijking:** "Beperkt risico" is een interne werkcategorie binnen deze gids. De EU AI Act werkt niet met een expliciet "beperkt risico"-niveau, maar met concrete verplichtingen per systeemtype (Art. 50).
+> **Verduidelijking:** "Beperkt risico" is een interne werkcategorie binnen deze blauwdruk. De EU AI Act werkt niet met een expliciet "beperkt risico"-niveau, maar met concrete verplichtingen per systeemtype (Art. 50).
 
 Bronnen: \[so-27\], \[so-36\]
 

@@ -29,7 +29,7 @@ ______________________________________________________________________
 |   10 | RC testen & bewijs              | [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md) (RC); *CI feedback SLO's vastgesteld (afgesproken tijdsvenster)* | QA + Guardian        | Gate 3 (Productie-klaar): Live?            |
 |   11 | Live pilot + monitoring         | Monitoring + incidentproces actief; *AI-assisted development guardrails geïmplementeerd (verplichte review, test coverage)*                  | Tech Lead            | 1e productie-evaluatie                     |
 |   12 | Optimaliseren + overdracht      | Beheerplan + nulmeting drift; *Regressie op Gouden Set vóór RC afgedwongen* — Bron: \[so-28\]                                                | Tech Lead + AI PM    | Overdracht Beheer & Optimalisatie          |
-|   13 | Retrospective + standaardiseren | Lessons learned + gids updates                                                                                                               | AI CC                | v2.3 backlog                               |
+|   13 | Retrospective + standaardiseren | Lessons learned + blauwdruk updates                                                                                                          | AI CC                | v2.3 backlog                               |
 
 ______________________________________________________________________
 

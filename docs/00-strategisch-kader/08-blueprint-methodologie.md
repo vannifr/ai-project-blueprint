@@ -4,13 +4,13 @@ versie: '1.0'
 
 # 1. Blueprint & Methodologie Index
 
-Deze pagina fungeert als de "Rosetta-steen" van de AI Project Gids. Hier vindt u de koppeling tussen de technische codes (gebruikt voor auditing en automatisering) en de inhoudelijke documenten.
+Deze pagina fungeert als de "Rosetta-steen" van de AI Project Blauwdruk. Hier vindt u de koppeling tussen de technische codes (gebruikt voor auditing en automatisering) en de inhoudelijke documenten.
 
 ## 1. De Codestructuur
 
 | Code     | Betekenis        | Gebruik                                              |
 | :------- | :--------------- | :--------------------------------------------------- |
-| **MOD**  | **Module**       | Een procesfase of kennisgebied in de gids.           |
+| **MOD**  | **Module**       | Een procesfase of kennisgebied in de blauwdruk.      |
 | **TMP**  | **Sjabloon**     | Een invulbaar document of sjabloon (sjabloon).       |
 | **SDD**  | **Spec-Driven**  | Richtlijnen voor specificatie-gedreven ontwikkeling. |
 | **GATE** | **Beslismoment** | Een formeel reviewmoment tussen fasen.               |

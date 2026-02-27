@@ -4,7 +4,7 @@ versie: '1.0'
 
 # 1. Leeswijzer & Navigatie
 
-## 1. Welkom bij de AI Project Gids
+## 1. Welkom bij de AI Project Blauwdruk
 
 Dit is geen document om van A tot Z te lezen. Het is een toolkit. U raadpleegt wat u nodig heeft, op het moment dat u het nodig heeft.
 
@@ -39,7 +39,7 @@ Focus op [Risicobeheersing & Compliance](../07-compliance-hub/index.md) en de [A
 
 ______________________________________________________________________
 
-## 3. Hoe werkt deze Gids?
+## 3. Hoe werkt deze Blauwdruk?
 
 - **Modulair:** Elk onderdeel staat op zichzelf. U hoeft niet alles opeenvolgend te lezen.
 - **Actiegericht:** We gebruiken geen onduidelijke taal, maar checklists en sjablonen voor direct resultaat.
