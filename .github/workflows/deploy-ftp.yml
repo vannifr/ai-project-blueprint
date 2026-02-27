@@ -34,7 +34,7 @@ jobs:
         run: playwright install --with-deps chromium
 
       - name: Run Pre-commit hooks
-        run: pre-commit run --all-files
+        run: SKIP=no-commit-to-branch pre-commit run --all-files
 
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
