@@ -84,7 +84,7 @@ plugins:
           build: true
         - locale: en
           name: English
-          build: true
+          build: !ENV [MKDOCS_BUILD_I18N, true]
           nav_translations:
             "🔵 Aan de Slag": "🔵 Getting Started"
             "📘 Strategisch Kader": "📘 Strategic Framework"
@@ -100,7 +100,7 @@ plugins:
             "🗒️ Release Notes": "🗒️ Release Notes"
         - locale: fr
           name: Français
-          build: true
+          build: !ENV [MKDOCS_BUILD_I18N, true]
           nav_translations:
             "🔵 Aan de Slag": "🔵 Démarrage"
             "📘 Strategisch Kader": "📘 Cadre Stratégique"
@@ -116,7 +116,7 @@ plugins:
             "🗒️ Release Notes": "🗒️ Notes de version"
         - locale: de
           name: Deutsch
-          build: true
+          build: !ENV [MKDOCS_BUILD_I18N, true]
           nav_translations:
             "🔵 Aan de Slag": "🔵 Einstieg"
             "📘 Strategisch Kader": "📘 Strategischer Rahmen"
