@@ -24,3 +24,20 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Het implementatieteam is stand-by.
 
 ______________________________________________________________________
+
+## 3. Gerelateerde Modules
+
+**Sjablonen voor deze fase:**
+
+- [Overdracht Checklist](04-sjablonen/overdracht-checklist.md)
+- [Gate Reviews (Go/No-Go checklist)](../09-sjablonen/04-gate-reviews/checklist.md)
+- [Traceerbaarheid & Links](../09-sjablonen/08-traceerbaarheid-links/template.md)
+
+**Verdieping:**
+
+- [Traceerbaarheid](05-traceerbaarheid.md)
+- [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
+- [Activiteiten](02-activiteiten.md)
+- [Afleveringen](03-afleveringen.md)
+
+**Volgende stap:** [➡ Fase 5: Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md)

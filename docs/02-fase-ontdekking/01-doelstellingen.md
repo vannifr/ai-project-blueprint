@@ -21,3 +21,23 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Er is een business sponsor die het probleem erkent en budget beschikbaar stelt.
 - Het probleem is niet triviaal oplosbaar met bestaande tools of processen.
 - Er is bereidheid om data en processen te delen voor analyse.
+
+______________________________________________________________________
+
+## 3. Gerelateerde Modules
+
+**Sjablonen voor deze fase:**
+
+- [Project Charter](../09-sjablonen/01-project-charter/template.md)
+- [Risicoanalyse](../09-sjablonen/03-risicoanalyse/template.md)
+- [Risico Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)
+- [Gate Reviews (Go/No-Go checklist)](../09-sjablonen/04-gate-reviews/checklist.md)
+
+**Verdieping binnen deze fase:**
+
+- [Activiteiten](02-activiteiten.md)
+- [Afleveringen](03-afleveringen.md)
+- [Fast Lane (Snelle Route)](06-fast-lane.md)
+- [HAS-H Beoordeling](05-has-h-beoordeling.md)
+
+**Volgende stap:** [➡ Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)

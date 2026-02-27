@@ -22,3 +22,18 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 Bij significante afwijkingen wordt niet automatisch bijgestuurd. Eerst wordt onderzocht wat de oorzaak is, welke aanpassing nodig is en hoe deze gecontroleerd kan worden doorgevoerd, inclusief toetsing en vastlegging.
 
 ______________________________________________________________________
+
+## 3. Gerelateerde Modules
+
+**Verdieping:**
+
+- [Drift Detectie](05-drift-detectie.md)
+- [Activiteiten](02-activiteiten.md)
+- [Afleveringen](03-afleveringen.md)
+
+**Compliance & Techniek:**
+
+- [EU AI Act](../07-compliance-hub/01-eu-ai-act/index.md)
+- [MLOps Standaarden](../08-technische-standaarden/01-mloops-standaarden.md)
+
+**Volgende stap:** [➡ Fase 6: Doorlopende Verbetering](../10-doorlopende-verbetering/index.md)

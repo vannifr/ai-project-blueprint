@@ -30,3 +30,21 @@ Wijzigingen aan het gedrag van een AI‑systeem worden uitgevoerd in afgebakende
 - hoe wordt vastgesteld dat de wijziging voldoet aan doel en Rode Lijnen.
 
 Pas na succesvolle toetsing wordt een wijziging structureel toegepast.
+
+______________________________________________________________________
+
+## 3. Gerelateerde Modules
+
+**Sjablonen voor deze fase:**
+
+- [AI Artefacten (Doelkaart)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- [Gate Reviews (Go/No-Go checklist)](../09-sjablonen/04-gate-reviews/checklist.md)
+
+**Verdieping:**
+
+- [Spec-Driven Development](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
+- [SDD Patroon](05-sdd-patroon.md)
+- [Activiteiten](02-activiteiten.md)
+- [Afleveringen](03-afleveringen.md)
+
+**Volgende stap:** [➡ Fase 4: Levering](../05-fase-levering/01-doelstellingen.md)

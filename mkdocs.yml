@@ -19,9 +19,13 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.top
-    - toc.integrate
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - toc.follow
     - search.suggest
     - search.highlight
+    - content.code.copy
   custom_dir: overrides
   palette:
     - scheme: default
@@ -48,7 +52,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
-      custom_checkbox: false
+      custom_checkbox: true
   - toc:
       permalink: true
 
@@ -85,7 +89,6 @@ nav:
   - 🚀 Aan de Slag:
     - Management Samenvatting: 00-strategisch-kader/00-executive-summary.md
     - Leeswijzer & Navigatie: 00-strategisch-kader/00-leeswijzer.md
-    - Methode Index (Blueprint): 00-strategisch-kader/08-blueprint-methodologie.md
   - 🧠 Strategische Fundering:
     - AI-Native Principes:
       - Definitie & Kern: 01-ai-native-fundamenten/01-definitie.md
@@ -170,9 +173,7 @@ nav:
       - Pre-scan: 09-sjablonen/03-risicoanalyse/pre-scan.md
     - Gate Reviews: 09-sjablonen/04-gate-reviews/checklist.md
     - AI Artefacten (Doelkaart): 09-sjablonen/06-ai-native-artefacten/doelkaart.md
-    - Validatie & Bewijs:
-      - Validatie Sjabloon: 09-sjablonen/07-validatie-bewijs/template.md
-      - Validatierapport: 09-sjablonen/07-validatie-bewijs/validatierapport.md
+    - Validatierapport: 09-sjablonen/07-validatie-bewijs/validatierapport.md
     - Traceerbaarheid & Links: 09-sjablonen/08-traceerbaarheid-links/template.md
     - Prompt Engineering: 09-sjablonen/10-prompt-engineering/template.md
     - Privacy & Data: 09-sjablonen/11-privacy-data/privacyblad.md
@@ -203,6 +204,7 @@ nav:
       - Bedrijfsmodel: 15-accelerators/03-bedrijfsmodel-accelerators.md
   - 📚 Naslag:
     - Termenlijst: termenlijst/index.md
+    - Methode Index (Blueprint): 00-strategisch-kader/08-blueprint-methodologie.md
     - Bronnen & Inspiratie: 16-bronnen/index.md
     - Externe Evidence (DORA): 17-bijlagen/externe-evidence-dora.md
     - Release Notes: release-notes.md

@@ -4,6 +4,9 @@ versie: '1.0'
 
 # 1. Accelerators
 
+!!! warning "Sectie in ontwikkeling"
+    De subpagina's van deze sectie worden uitgewerkt in een toekomstige versie. Zie de [Release Notes](../release-notes.md) voor de planning.
+
 ## 1. Doel
 
 Accelerators zijn tools, frameworks en sjablonen die de uitvoering van AI-projecten versnellen binnen de verschillende tracks.

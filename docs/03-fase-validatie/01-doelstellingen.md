@@ -20,3 +20,20 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Het team heeft toegang tot de benodigde tools en data.
 
 ______________________________________________________________________
+
+## 3. Gerelateerde Modules
+
+**Sjablonen voor deze fase:**
+
+- [Business Case & Modelkaart](../09-sjablonen/02-business-case/template.md)
+- [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
+- [Gate Reviews (Go/No-Go checklist)](../09-sjablonen/04-gate-reviews/checklist.md)
+
+**Verdieping:**
+
+- [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+- [Activiteiten](02-activiteiten.md)
+- [Afleveringen](03-afleveringen.md)
+- [Risicotoets](05-risicoclassificatie.md)
+
+**Volgende stap:** [➡ Fase 3: Realisatie](../04-fase-ontwikkeling/01-doelstellingen.md)

@@ -4,6 +4,9 @@ versie: '1.0'
 
 # 1. Sjabloon: Validatierapport
 
+!!! warning "Verouderd sjabloon"
+    Dit is het **oude** sjabloon voor validatieverslaglegging. Gebruik voor nieuwe projecten het bijgewerkte **[Validatierapport](validatierapport.md)**.
+
 ## 1. Doel
 
 Dit sjabloon dient voor het vastleggen van de testresultaten van de **Praktijkproef**. Het vormt het objectieve bewijs dat de AI-oplossing voldoet aan de gestelde criteria en veiligheidsgrenzen.

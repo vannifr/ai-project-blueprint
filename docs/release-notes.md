@@ -30,3 +30,29 @@ versie: '1.0'
 
 - Structuur in `mkdocs.yml` volledig herzien voor betere vindbaarheid.
 - Alle interne links gecontroleerd op integriteit.
+
+______________________________________________________________________
+
+## 2. Geplande Inhoud (v1.1)
+
+De volgende secties worden uitgewerkt in een toekomstige versie van de AI Project Gids:
+
+### Operationele Fasen
+
+- **6. Doorlopende Verbetering:** Retrospectives, Kaizen Logs, Metrics Dashboards, Batenrealisatie
+- **7. Project Afsluiting:** Lessons Learned, Overdracht Procedures, Batenrealisatie
+
+### Transformatie & Groei
+
+- **De Drie Tracks:** Strategische Heruitvinding, Operationele Herontwerp, AI-First Bedrijfsmodel, Track Sequentie
+- **Accelerators:** Strategische, Operationele en Bedrijfsmodel Accelerators
+- **Uitkomsten (90 Dagen Roadmap):** Capaciteitsuitkomsten en meetresultaten
+
+### Verkenning & Strategie
+
+- **HAS-H Beoordeling:** Volledige assessmentprocedure voor AI-samenwerkingsmodi
+- **Fase 1 Sjablonen:** Aanvullende sjablonen voor de verkenningsfase
+
+### Overig
+
+- **Profielbeoordeling:** Zelfevaluatie-instrument voor organisatieprofielen

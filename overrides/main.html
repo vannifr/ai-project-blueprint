@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-<meta charset="utf-8">
-<meta name="robots" content="noindex, nofollow" />
+{# Privaat: niet indexeren door zoekmachines #}
+<meta name="robots" content="noindex" />
+{# Open Graph tags voor sharing via Slack/Teams/LinkedIn #}
+<meta property="og:title" content="{% if page and page.title %}{{ page.title }} — {% endif %}{{ config.site_name }}" />
+<meta property="og:description" content="{{ config.site_description }}" />
+<meta property="og:type" content="article" />
 {% endblock %}
