@@ -128,7 +128,7 @@ Wanneer een incident optreedt, volgen we de traceerbaarheidsketen terug:
 | Spec Gap          | Scenario niet gespecificeerd         | Specificatie uitbreiden |
 | Implementatie Bug | Spec correct, implementatie wijkt af | Code/prompt corrigeren  |
 | Test Gap          | Scenario niet in Gouden Set          | Testcase toevoegen      |
-| Onvoorzien Gedrag | Probabilistisch karakter van AI      | Guardrails versterken   |
+| Onvoorzien Gedrag | Probabilistisch karakter van AI      | Rode lijnen versterken  |
 
 ______________________________________________________________________
 

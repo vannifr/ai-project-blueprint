@@ -1,5 +1,6 @@
 mkdocs>=1.5,<2.0
 mkdocs-material
+mkdocs-static-i18n>=1.2
 mkdocs-htmlproofer-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-exporter[pdf]

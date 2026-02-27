@@ -7,6 +7,11 @@ repos:
       - id: check-yaml
         args: [--unsafe]
       - id: check-added-large-files
+        args: [--maxkb=500]
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: no-commit-to-branch
+        args: [--branch, main]
 
   - repo: https://github.com/executablebooks/mdformat
     rev: 0.7.17

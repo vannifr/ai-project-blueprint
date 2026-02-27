@@ -3,6 +3,21 @@ site_description: Modulaire documentatie voor AI-projectmanagement (PMI-CPMAI & 
 site_author: AI Project Playbook Team
 copyright: '&copy; 2026 AI Project Blauwdruk. Gelicenseerd onder CC BY-NC-SA 4.0.'
 
+extra:
+  alternate:
+    - name: Nederlands
+      link: /
+      lang: nl
+    - name: English
+      link: /en/
+      lang: en
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: Deutsch
+      link: /de/
+      lang: de
+
 extra_css:
   - stylesheets/extra.css
 
@@ -12,7 +27,6 @@ hooks:
 
 theme:
   name: material
-  language: nl
   font: false
   logo: assets/images/logo.svg
   favicon: assets/images/favicon.svg
@@ -23,8 +37,6 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.footer
-    - navigation.instant
-    - navigation.instant.progress
     - toc.follow
     - search.suggest
     - search.highlight
@@ -60,9 +72,68 @@ markdown_extensions:
       permalink: true
 
 plugins:
-  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: nl
+          default: true
+          name: Nederlands
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            "🔵 Aan de Slag": "🔵 Getting Started"
+            "📘 Strategisch Kader": "📘 Strategic Framework"
+            "🤖 AI-Native Fundamenten": "🤖 AI-Native Foundations"
+            "Verkenning & Strategie": "Discovery & Strategy"
+            "Validatie": "Validation"
+            "Realisatie": "Development"
+            "Levering": "Delivery"
+            "Beheer & Optimalisatie": "Monitoring & Optimization"
+            "⚖️ Compliance Hub": "⚖️ Compliance Hub"
+            "📋 Sjablonen & Hulpmiddelen": "📋 Templates & Tools"
+            "📊 Naslag": "📊 Reference"
+            "🗒️ Release Notes": "🗒️ Release Notes"
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            "🔵 Aan de Slag": "🔵 Démarrage"
+            "📘 Strategisch Kader": "📘 Cadre Stratégique"
+            "🤖 AI-Native Fundamenten": "🤖 Fondements AI-Natifs"
+            "Verkenning & Strategie": "Découverte & Stratégie"
+            "Validatie": "Validation"
+            "Realisatie": "Réalisation"
+            "Levering": "Livraison"
+            "Beheer & Optimalisatie": "Gestion & Optimisation"
+            "⚖️ Compliance Hub": "⚖️ Hub Conformité"
+            "📋 Sjablonen & Hulpmiddelen": "📋 Modèles & Outils"
+            "📊 Naslag": "📊 Référence"
+            "🗒️ Release Notes": "🗒️ Notes de version"
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            "🔵 Aan de Slag": "🔵 Einstieg"
+            "📘 Strategisch Kader": "📘 Strategischer Rahmen"
+            "🤖 AI-Native Fundamenten": "🤖 KI-Native Grundlagen"
+            "Verkenning & Strategie": "Erkundung & Strategie"
+            "Validatie": "Validierung"
+            "Realisatie": "Realisierung"
+            "Levering": "Lieferung"
+            "Beheer & Optimalisatie": "Betrieb & Optimierung"
+            "⚖️ Compliance Hub": "⚖️ Compliance-Hub"
+            "📋 Sjablonen & Hulpmiddelen": "📋 Vorlagen & Hilfsmittel"
+            "📊 Naslag": "📊 Referenz"
+            "🗒️ Release Notes": "🗒️ Versionshinweise"
+  - search:
+      lang: [nl, en, fr, de]
   - git-revision-date-localized:
-      locale: nl
+      locale: !ENV [MKDOCS_LANG, "nl"]
       type: date
   - exporter:
       formats:
@@ -77,7 +148,7 @@ plugins:
             back: resources/templates/covers/back.html.j2
           aggregator:
             enabled: true
-            output: pdf/ai-project-blauwdruk.pdf
+            output: !ENV [MKDOCS_PDF_OUTPUT, "pdf/ai-project-blauwdruk.pdf"]
             covers: limits
   - htmlproofer:
       enabled: !ENV [HTMLPROOFER_ENABLED, False]
@@ -86,6 +157,7 @@ plugins:
       ignore_urls:
         - "^http://localhost"
         - ".*\\.pdf$"
+        - "^/(en|fr|de)/.*"
 
 nav:
   - 🏠 Startpagina: index.md
@@ -177,6 +249,7 @@ nav:
     - Gate Reviews: 09-sjablonen/04-gate-reviews/checklist.md
     - AI Artefacten (Doelkaart): 09-sjablonen/06-ai-native-artefacten/doelkaart.md
     - Validatierapport: 09-sjablonen/07-validatie-bewijs/validatierapport.md
+    - Gouden Set Test (Verouderd): 09-sjablonen/07-validatie-bewijs/template.md
     - Traceerbaarheid & Links: 09-sjablonen/08-traceerbaarheid-links/template.md
     - Prompt Engineering: 09-sjablonen/10-prompt-engineering/template.md
     - Privacy & Data: 09-sjablonen/11-privacy-data/privacyblad.md

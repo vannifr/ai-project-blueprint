@@ -3,6 +3,7 @@
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-green)
 ![Version](https://img.shields.io/badge/version-1.0-blue)
 ![Build Status](https://github.com/vannifr/ai-project-playbook/actions/workflows/deploy-ftp.yml/badge.svg)
+![Languages](https://img.shields.io/badge/languages-NL%20%7C%20EN%20%7C%20FR%20%7C%20DE-informational)
 
 De centrale documentatiehub voor AI-projectmanagement, gebaseerd op PMI-CPMAI standaarden, EU AI Act compliance en Agile-AI frameworks.
 
@@ -67,6 +68,46 @@ Dit script controleert op:
 - Ontbrekende of inconsistente YAML frontmatter
 - Spellingfouten en naamgevingsinconsistenties
 - Duplicate woorden in koppen
+
+## 🌍 Taalondersteuning
+
+De site wordt gebouwd in vier talen via de **bestandssuffix-strategie** (`mkdocs-static-i18n`):
+
+| Taal                   | Suffix   | URL    | Status             |
+| ---------------------- | -------- | ------ | ------------------ |
+| Nederlands (standaard) | *(geen)* | `/`    | ✅ Volledig        |
+| English                | `.en.md` | `/en/` | 🚧 Sleutelpagina's |
+| Français               | `.fr.md` | `/fr/` | 🚧 Sleutelpagina's |
+| Deutsch                | `.de.md` | `/de/` | 🚧 Sleutelpagina's |
+
+Ontbrekende vertalingen vallen automatisch terug op de Nederlandse versie.
+
+### Vertaalworkflow
+
+Een nieuwe vertaling toevoegen:
+
+1. Maak een bestand aan naast het NL-origineel met het juiste taalsuffix:
+    - `docs/index.md` → `docs/index.en.md`
+1. Voeg frontmatter toe (`versie: '1.0'`) en schrijf de inhoud in de doeltaal.
+1. Verwijder `pdf: false` zodra de pagina vertaald is (dan wordt hij ook in de PDF opgenomen).
+1. Voer `mkdocs serve` uit en navigeer naar `/en/` om het resultaat te controleren.
+
+### Build per taal
+
+```bash
+# HTML-site (alle talen tegelijk)
+mkdocs serve
+mkdocs build --strict
+
+# PDF per taal
+MKDOCS_LANG=nl MKDOCS_EXPORTER_PDF=true MKDOCS_PDF_OUTPUT=pdf/ai-project-blauwdruk.nl.pdf mkdocs build --no-directory-urls
+MKDOCS_LANG=en MKDOCS_EXPORTER_PDF=true MKDOCS_PDF_OUTPUT=pdf/ai-project-blauwdruk.en.pdf mkdocs build --no-directory-urls
+MKDOCS_LANG=fr MKDOCS_EXPORTER_PDF=true MKDOCS_PDF_OUTPUT=pdf/ai-project-blauwdruk.fr.pdf mkdocs build --no-directory-urls
+MKDOCS_LANG=de MKDOCS_EXPORTER_PDF=true MKDOCS_PDF_OUTPUT=pdf/ai-project-blauwdruk.de.pdf mkdocs build --no-directory-urls
+
+# Vertalingsdekking controleren
+python3 scripts/validate_docs.py
+```
 
 ## 🤝 Bijdragen
 

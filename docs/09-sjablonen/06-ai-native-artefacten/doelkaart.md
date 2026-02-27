@@ -6,7 +6,7 @@ versie: '1.0'
 
 ## 1. Doel
 
-De Doelkaart vervangt het 'Intent Record'. Dit document verbindt de menselijke intentie aan de technische **Sturingsinstructies** en fungeert als de bron waaruit de AI-oplossing wordt gegenereerd.
+De Doelkaart formaliseert de **Doeldefinitie** van het AI-project. Dit document verbindt de menselijke intentie aan de technische **Sturingsinstructies** en fungeert als de bron waaruit de AI-oplossing wordt gegenereerd.
 
 ______________________________________________________________________
 

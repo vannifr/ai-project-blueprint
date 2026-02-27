@@ -89,7 +89,7 @@ Nu pas beginnen we met bouwen:
 
 - Sturingsinstructies (prompts/configs) opstellen
 - Integratie met databronnen
-- Implementatie van filters en guardrails
+- Implementatie van filters en rode lijnen
 
 ### Validatie tegen Specificatie
 

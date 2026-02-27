@@ -27,7 +27,19 @@ from reportlab.lib.colors import Color
 # Configuratie
 # ---------------------------------------------------------------------------
 
-PDF_RELPATH = "pdf/ai-project-blauwdruk.pdf"
+LANG = os.environ.get("MKDOCS_LANG", "nl")
+
+TOC_TITLES = {
+    "nl": "Inhoudsopgave",
+    "en": "Table of Contents",
+    "fr": "Table des matières",
+    "de": "Inhaltsverzeichnis",
+}
+
+TOC_TITLE = TOC_TITLES.get(LANG, "Inhoudsopgave")
+
+_pdf_output_env = os.environ.get("MKDOCS_PDF_OUTPUT", "")
+PDF_RELPATH = _pdf_output_env if _pdf_output_env else f"pdf/ai-project-blauwdruk.{LANG}.pdf"
 
 # Kleuren
 CLR_TITLE = Color(0x1F / 255, 0x2A / 255, 0x44 / 255)   # #1F2A44
@@ -114,7 +126,8 @@ def extract_headings(pdf_path):
         for line in lines[1:6]:  # kijk in eerste 6 regels
             if any(skip in line for skip in
                    ["AI Project Blauwdruk", "CC BY-NC-SA", "Vertrouwelijk",
-                    "Versie 2026", "\u00b6"]):
+                    "Confidential", "Confidentiel", "Vertraulich",
+                    "Versie 2026", "Version 2026", "\u00b6"]):
                 continue
             m3 = re.match(r"^(\d{1,3})\.\s+([A-Z].{2,})$", line)
             if m3:
@@ -135,7 +148,8 @@ def extract_headings(pdf_path):
 
     # --- H2: extraheer uit content ---
     content_skip = ["AI Project Blauwdruk", "CC BY-NC-SA", "Vertrouwelijk",
-                    "Versie 2026", "\u00b6"]
+                    "Confidential", "Confidentiel", "Vertraulich",
+                    "Versie 2026", "Version 2026", "\u00b6"]
 
     h2_list = []
     h2_seen = set()
@@ -216,7 +230,7 @@ def generate_toc_pdf(headings, toc_page_count):
     # --- Titel ---
     c.setFont(FONT_BOLD, 22)
     c.setFillColor(CLR_TITLE)
-    c.drawString(M_LEFT, y - 22, "Inhoudsopgave")
+    c.drawString(M_LEFT, y - 22, TOC_TITLE)
     y -= 50
 
     page_num_space = 30
@@ -349,7 +363,7 @@ def postprocess(pdf_path):
 
     # 4. Bookmarks toevoegen
     # Bookmark voor de inhoudsopgave
-    writer.add_outline_item("Inhoudsopgave", 1)  # 0-indexed: pagina 2
+    writer.add_outline_item(TOC_TITLE, 1)  # 0-indexed: pagina 2
 
     current_h1 = None
     for level, prefix, title, orig_page in headings:

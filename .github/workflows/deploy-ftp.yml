@@ -40,10 +40,7 @@ jobs:
         run: python3 scripts/validate_docs.py
 
       - name: Build MkDocs (Strict)
-        run: HTMLPROOFER_ENABLED=true MKDOCS_EXPORTER_PDF=true mkdocs build --strict
-
-      - name: PDF Post-process (TOC + Bookmarks)
-        run: python3 scripts/pdf_postprocess.py site
+        run: MKDOCS_LANG=nl HTMLPROOFER_ENABLED=true mkdocs build --strict
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
@@ -52,10 +49,57 @@ jobs:
           path: site/
           retention-days: 7
 
-  deploy:
-    name: Deploy to FTP
+  pdf:
+    name: Build PDF (${{ matrix.lang }})
+    runs-on: ubuntu-latest
     needs: quality
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    strategy:
+      matrix:
+        lang: [nl, en, fr, de]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: playwright install --with-deps chromium
+
+      - name: Build PDF (${{ matrix.lang }})
+        env:
+          MKDOCS_LANG: ${{ matrix.lang }}
+          MKDOCS_EXPORTER_PDF: "true"
+          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.${{ matrix.lang }}.pdf"
+        run: mkdocs build --no-directory-urls
+
+      - name: PDF Post-process (${{ matrix.lang }})
+        env:
+          MKDOCS_LANG: ${{ matrix.lang }}
+          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.${{ matrix.lang }}.pdf"
+        run: python3 scripts/pdf_postprocess.py site
+
+      - name: Upload PDF Artifact (${{ matrix.lang }})
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf-${{ matrix.lang }}
+          path: site/pdf/ai-project-blauwdruk.${{ matrix.lang }}.pdf
+          retention-days: 30
+
+  deploy:
+    name: Deploy to FTP
+    needs: [quality, pdf]
+    if: |
+      github.event_name == 'push' && github.ref == 'refs/heads/main' &&
+      needs.pdf.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Download Build Artifact
@@ -63,6 +107,30 @@ jobs:
         with:
           name: site-build
           path: ./site/
+
+      - name: Download PDF (nl)
+        uses: actions/download-artifact@v4
+        with:
+          name: pdf-nl
+          path: ./site/pdf/
+
+      - name: Download PDF (en)
+        uses: actions/download-artifact@v4
+        with:
+          name: pdf-en
+          path: ./site/pdf/
+
+      - name: Download PDF (fr)
+        uses: actions/download-artifact@v4
+        with:
+          name: pdf-fr
+          path: ./site/pdf/
+
+      - name: Download PDF (de)
+        uses: actions/download-artifact@v4
+        with:
+          name: pdf-de
+          path: ./site/pdf/
 
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5

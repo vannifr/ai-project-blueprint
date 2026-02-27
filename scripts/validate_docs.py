@@ -8,7 +8,7 @@ import os
 import re
 import sys
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Tuple  # noqa: F401
 
 
 class ValidationError:
@@ -181,7 +181,12 @@ def check_debug_markers(filepath: str, content: List[str]) -> List[ValidationErr
 def check_stub_pdf_exclusion(filepath: str, content: List[str]) -> List[ValidationError]:
     """Stub/placeholder pages should have pdf: false in frontmatter."""
     errors = []
-    stub_phrases = ['Inhoud volgt nog', 'wordt uitgewerkt in een toekomstige versie']
+    stub_phrases = [
+        'Inhoud volgt nog', 'wordt uitgewerkt in een toekomstige versie',
+        'This page is being translated',
+        'Cette page est en cours de traduction',
+        'Diese Seite wird übersetzt',
+    ]
     full_text = ''.join(content)
 
     is_stub = any(phrase in full_text for phrase in stub_phrases)
@@ -206,6 +211,136 @@ def check_stub_pdf_exclusion(filepath: str, content: List[str]) -> List[Validati
     return errors
 
 
+def check_merge_conflict_markers(filepath: str, content: List[str]) -> List[ValidationError]:
+    """Detect unresolved git merge conflict markers."""
+    errors = []
+    markers = ("<<<<<<< ", ">>>>>>> ", "=======")
+    for i, line in enumerate(content, 1):
+        stripped = line.strip()
+        if any(stripped.startswith(m) for m in markers) or stripped == "=======":
+            errors.append(ValidationError(
+                "ERROR",
+                filepath,
+                i,
+                "Unresolved merge conflict marker — resolve before committing"
+            ))
+    return errors
+
+
+# Forbidden terms from the STYLE_GUIDE lexicon.
+# Format: (regex_pattern, suggested_replacement)
+_FORBIDDEN_TERMS = [
+    (r'\bkostenplaatje\b', 'kostenoverzicht'),
+    (r'\binregelen\b', 'instellen/configureren'),
+    (r'\bgereedschapskist\b', 'toolkit'),
+    (r'\bshadow\s+ai\b', 'wildgroei'),
+    (r'\bmodel\s+drift\b', 'prestatieverloop'),
+    (r'\bguardrails\b', 'rode lijnen'),
+    (r'\bintent\s+records?\b', 'doeldefinitie'),
+    (r'\bhyperparameter\s+tuning\b', 'afstellen van het model'),
+]
+
+
+def check_terminology(filepath: str, content: List[str]) -> List[ValidationError]:
+    """Flag forbidden terms from the STYLE_GUIDE lexicon (case-insensitive).
+
+    Only flags terms that are in the NL content (not inside code blocks or URLs).
+    Skips the termenlijst (glossary) where forbidden terms are explicitly defined.
+    """
+    # The termenlijst is the reference that explains these terms — skip it
+    if "termenlijst" in filepath:
+        return []
+
+    errors = []
+    in_code_block = False
+
+    for i, line in enumerate(content, 1):
+        stripped = line.strip()
+        # Track fenced code blocks
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_code_block = not in_code_block
+        if in_code_block:
+            continue
+        # Skip inline code, links, and frontmatter
+        if stripped.startswith("    ") or stripped.startswith("---"):
+            continue
+
+        for pattern, suggestion in _FORBIDDEN_TERMS:
+            if re.search(pattern, line, re.IGNORECASE):
+                errors.append(ValidationError(
+                    "WARNING",
+                    filepath,
+                    i,
+                    f"Stijlgids: gebruik '{suggestion}' in plaats van de gevonden term (patroon: {pattern})"
+                ))
+    return errors
+
+
+def check_heading_hierarchy(filepath: str, content: List[str]) -> List[ValidationError]:
+    """Detect skipped heading levels (e.g. H1 → H3 without H2).
+
+    Skipped levels make the document structure ambiguous and break PDF bookmarks.
+    """
+    errors = []
+    prev_level = 0
+    in_code_block = False
+
+    for i, line in enumerate(content, 1):
+        stripped = line.strip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_code_block = not in_code_block
+        if in_code_block:
+            continue
+
+        m = re.match(r'^(#{1,6})\s+', line)
+        if not m:
+            continue
+
+        level = len(m.group(1))
+        if prev_level > 0 and level > prev_level + 1:
+            errors.append(ValidationError(
+                "WARNING",
+                filepath,
+                i,
+                f"Kopniveau overgeslagen: H{prev_level} → H{level} (voeg H{prev_level + 1} toe)"
+            ))
+        prev_level = level
+
+    return errors
+
+
+def check_translation_coverage(docs_dir: Path, languages: List[str], strict: bool = False) -> List[ValidationError]:
+    """Report which source pages (NL, no suffix) are missing translations.
+
+    Uses INFO severity by default; WARNING when strict=True (for CI-gating).
+    """
+    errors = []
+    severity = "WARNING" if strict else "INFO"
+
+    for md_file in sorted(docs_dir.rglob('*.md')):
+        if 'site' in md_file.parts:
+            continue
+
+        name = md_file.name
+        # Skip files that already have a language suffix (e.g. index.en.md)
+        parts = name.rsplit('.', 2)
+        if len(parts) == 3 and parts[1] in languages:
+            continue
+
+        stem = md_file.stem  # e.g. "index"
+        for lang in languages:
+            translated = md_file.parent / f"{stem}.{lang}.md"
+            if not translated.exists():
+                errors.append(ValidationError(
+                    severity,
+                    str(md_file.relative_to(docs_dir.parent)),
+                    1,
+                    f"Missing {lang.upper()} translation: {translated.name}",
+                ))
+
+    return errors
+
+
 def check_nav_completeness(docs_dir: Path) -> List[ValidationError]:
     """Check for orphaned markdown files not referenced in mkdocs.yml nav."""
     errors = []
@@ -224,10 +359,13 @@ def check_nav_completeness(docs_dir: Path) -> List[ValidationError]:
     # Extract all .md file references from mkdocs.yml using regex
     nav_files = set(re.findall(r'[\w/-]+\.md', mkdocs_content))
 
-    # Find all .md files on disk
+    # Find all .md files on disk (skip language-suffix variants managed by i18n plugin)
+    i18n_suffixes = {'.en.md', '.fr.md', '.de.md'}
     disk_files = set()
     for md_file in docs_dir.rglob('*.md'):
         if 'site' in md_file.parts:
+            continue
+        if any(md_file.name.endswith(sfx) for sfx in i18n_suffixes):
             continue
         rel = str(md_file.relative_to(docs_dir))
         disk_files.add(rel)
@@ -253,6 +391,7 @@ def validate_file(filepath: str) -> List[ValidationError]:
         return [ValidationError("ERROR", filepath, 0, f"Failed to read file: {e}")]
 
     errors = []
+    errors.extend(check_merge_conflict_markers(filepath, content))
     errors.extend(check_duplicate_parenthetical_text(filepath, content))
     errors.extend(check_duplicate_words_in_headings(filepath, content))
     errors.extend(check_frontmatter(filepath, content))
@@ -260,12 +399,22 @@ def validate_file(filepath: str) -> List[ValidationError]:
     errors.extend(check_h1_presence(filepath, content))
     errors.extend(check_debug_markers(filepath, content))
     errors.extend(check_stub_pdf_exclusion(filepath, content))
+    errors.extend(check_terminology(filepath, content))
+    errors.extend(check_heading_hierarchy(filepath, content))
 
     return errors
 
 
 def main():
     """Main validation function."""
+    import argparse
+    parser = argparse.ArgumentParser(description="Documentation quality validation")
+    parser.add_argument(
+        '--strict-i18n', action='store_true',
+        help="Treat missing translations as WARNING (for CI-gating)"
+    )
+    args = parser.parse_args()
+
     docs_dir = Path('docs')
 
     if not docs_dir.exists():
@@ -275,9 +424,12 @@ def main():
     all_errors = []
     files_checked = 0
 
-    # Per-file checks
+    # Per-file checks (skip i18n translation files — stubs are checked separately)
+    i18n_suffixes = ('.en.md', '.fr.md', '.de.md')
     for md_file in sorted(docs_dir.rglob('*.md')):
         if 'site' in md_file.parts:
+            continue
+        if md_file.name.endswith(i18n_suffixes):
             continue
 
         files_checked += 1
@@ -286,6 +438,9 @@ def main():
 
     # Global checks (cross-file)
     all_errors.extend(check_nav_completeness(docs_dir))
+    all_errors.extend(check_translation_coverage(
+        docs_dir, languages=["en", "fr", "de"], strict=args.strict_i18n
+    ))
 
     # Print results
     print(f"\n{'='*70}")
@@ -299,12 +454,12 @@ def main():
         sys.exit(0)
 
     # Group errors by severity
-    errors_by_severity = {'ERROR': [], 'WARNING': []}
+    errors_by_severity = {'ERROR': [], 'WARNING': [], 'INFO': []}
     for error in all_errors:
         errors_by_severity[error.severity].append(error)
 
     # Print errors
-    for severity in ['ERROR', 'WARNING']:
+    for severity in ['ERROR', 'WARNING', 'INFO']:
         if errors_by_severity[severity]:
             print(f"\n{severity}S ({len(errors_by_severity[severity])}):")
             for error in errors_by_severity[severity]:

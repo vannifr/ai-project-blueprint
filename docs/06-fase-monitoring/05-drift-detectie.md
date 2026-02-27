@@ -44,7 +44,7 @@ ______________________________________________________________________
 - Toename van klachten ondanks gelijke testresultaten
 - Gap tussen validatie en productie-feedback
 
-### Model Drift
+### Prestatieverloop
 
 **Wat:** Het model zelf verandert (bij updates door provider) of degradeert.
 
@@ -177,7 +177,7 @@ ______________________________________________________________________
 | Verwachtingen veranderd | Doelkaart herzien, specificatie update |
 | Externe veranderingen   | Rode Lijnen herzien                    |
 
-### Model Drift
+### Prestatieverloop
 
 | Oorzaak                   | Mitigatie                              |
 | ------------------------- | -------------------------------------- |
