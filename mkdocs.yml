@@ -76,6 +76,7 @@ plugins:
       raise_error_after_finish: true
       ignore_urls:
         - "^http://localhost"
+        - ".*\\.pdf$"
 
 nav:
   - 🏠 Startpagina: index.md
