@@ -42,6 +42,28 @@ jobs:
       - name: Build MkDocs (Strict, NL only)
         run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=false HTMLPROOFER_ENABLED=true mkdocs build --strict
 
+  build-site:
+    name: Build Site (All Languages)
+    runs-on: ubuntu-latest
+    needs: quality
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build MkDocs (All Languages)
+        run: mkdocs build
+
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -97,9 +119,10 @@ jobs:
 
   deploy:
     name: Deploy to FTP
-    needs: [quality, pdf]
+    needs: [build-site, pdf]
     if: |
       github.event_name == 'push' && github.ref == 'refs/heads/main' &&
+      needs.build-site.result == 'success' &&
       needs.pdf.result == 'success'
     runs-on: ubuntu-latest
     steps:
