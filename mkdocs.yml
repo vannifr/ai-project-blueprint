@@ -59,6 +59,7 @@ plugins:
       formats:
         pdf:
           enabled: !ENV [MKDOCS_EXPORTER_PDF, false]
+          explicit: false
           concurrency: 8
           stylesheets:
             - resources/stylesheets/pdf.scss
