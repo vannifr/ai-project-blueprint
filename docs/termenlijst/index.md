@@ -11,7 +11,7 @@ ______________________________________________________________________
 ## 1. A
 
 - **Afstellen van het model:** Het fijn-afstellen van parameters en configuraties om de prestaties van een AI-model te optimaliseren voor een specifieke taak (*Hyperparameter Tuning*).
-- **AI-Samenwerkingsmodi:** Een model met vijf niveaus dat de relatie en taakverdeling tussen mens en AI definieert (Instrumenteel t/m Autonoom).
+- **AI-Samenwerkingsmodi:** Een model met vijf niveaus dat de relatie en taakverdeling tussen mens en AI definieert (Instrumenteel t/m Autonoom). → [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
 
 ## 2. B
 
@@ -20,66 +20,79 @@ ______________________________________________________________________
 - **Bias:** Vooroordelen in data of modellen die leiden tot onrechtvaardige resultaten. Zie ook **Eerlijkheidstoets**.
 - **Business Case:** Het financiële onderbouwingsdocument dat de investering, verwachte opbrengsten (ROI) en kosten-batenanalyse beschrijft. Wordt aangevuld met de **Doelkaart** voor AI-specifieke doeldefinities en Rode Lijnen.
 
-## 3. D
+## 3. C
+
+- **Circuit Breaker:** Een automatisch stopmechanisme in agentic AI-systemen dat acties blokkeert of menselijke goedkeuring vereist wanneer het systeem afwijkend gedrag vertoont of geconfigureerde drempelwaarden overschrijdt.
+- **Constitutional AI:** Een techniek waarbij AI-systemen worden getraind met expliciete ethische principes als verankerd stelsel van regels, zodat het systeem consistent veilig en eerlijk gedrag vertoont.
+
+## 4. D
 
 - **Data-Evaluatie:** Het proces van het beoordelen of data geschikt is voor een AI-oplossing op basis van Toegang, Kwaliteit en Relevantie.
 - **Doeldefinitie:** Een formeel document dat het beoogde resultaat en de waarde-hypothese van een AI-systeem vastlegt (*Intent Record*).
 - **Doelkaart:** Het AI-specifieke sturingsdocument dat de **Doeldefinitie** (wat willen we bereiken), **Rode Lijnen** (wat mag nooit gebeuren) en **Sturingsinstructies** (hoe sturen we het gedrag) combineert. Kernafact voor elke AI-oplossing (*Intent Map*). → [Doelkaart sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- **DPIA (Data Protection Impact Assessment):** Verplichte risicoanalyse onder de AVG voor AI-systemen die persoonsgegevens verwerken en een hoog risico vormen voor de betrokkenen. → [Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md)
 
-## 4. E
+## 5. E
 
 - **Eerlijkheidstoets:** Een controle of audit om ongewenste vooroordelen of discriminatie in de output van een AI-systeem op te sporen. Meet verschillen in prestaties tussen groepen (*Bias Audit*).
 - **EU AI Act:** De Europese verordening die regels stelt voor de veiligheid en ethiek van AI-systemen. → [EU AI Act](../07-compliance-hub/01-eu-ai-act/index.md)
 
-## 5. F
+## 6. F
 
 - **Fast Lane:** Een versnelde projectroute voor AI-toepassingen met Minimaal risico en Samenwerkingsmodus 1-2. Vereist minder documentatie maar behoudt kerngovernance. → [Fast Lane](../02-fase-ontdekking/06-fast-lane.md)
 
-## 6. G
+## 7. G
 
+- **Gate:** Een formeel beslismoment in de AI-levenscyclus waarbij op basis van bewijs een Go/No-Go beslissing wordt genomen. De gids definieert 4 gates (Gate 1 t/m Gate 4). → [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 - **Gebruikskosten:** De variabele kosten voor het draaien van een AI-systeem, zoals API-tokens of cloud-rekentijd (*Inference costs*).
 - **Gouden Set:** Een representatieve verzameling testcases die wordt gebruikt om AI-prestaties te meten. Bevat standaardcases, randgevallen en adversarial scenarios. Grootte varieert per risiconiveau (20-150 cases).
 - **Guardian:** De onafhankelijke rol binnen het projectteam die waakt over ethische en wettelijke kaders. Heeft veto-recht bij overschrijding van Rode Lijnen. → [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
 
-## 7. H
+## 8. H
 
 - **Het Kostenoverzicht:** Een integrale berekening van alle kosten (investering + exploitatie) en de verwachte opbrengsten (ROI) (*Total Cost of Ownership*).
 - **Human-in-the-loop:** Een werkwijze waarbij een mens toezicht houdt of een beslissende rol speelt in een AI-gestuurd proces.
 
-## 8. I
+## 9. I
 
 - **Ingebruikname:** Het proces van het live zetten van een AI-systeem in de productieomgeving en de overdracht aan de organisatie (*Deployment / Livegang*).
 
-## 9. K
+## 10. K
 
 - **Kenniskoppeling:** Het verbinden van een AI-model aan specifieke bedrijfsinformatie of documenten om de antwoorden relevanter en accurater te maken (*Retrieval-Augmented Generation / RAG*).
 - **Kernprincipes:** De fundamentele uitgangspunten van deze gids, gericht op gedragssturing, impact, traceerbaarheid en continue toetsing.
 
-## 10. P
+## 11. M
+
+- **Modelkaart:** Verkorte naam voor **Technische Modelkaart**. Het technische verantwoordingsdocument voor ontwikkelaars en auditors. → [Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md)
+- **Modus 1–5 (AI-Samenwerkingsmodi):** De vijf samenwerkingsniveaus tussen mens en AI: Modus 1 (Instrumenteel), Modus 2 (Adviserend), Modus 3 (Collaboratief), Modus 4 (Delegerend), Modus 5 (Autonoom). → [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
+
+## 12. P
 
 - **Praktijkproef:** Een kleinschalig, gecontroleerd experiment om te bewijzen dat een AI-oplossing werkt in de beoogde context (*Proof of Value / PoV*). → [Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)
 - **Prestatieverloop:** Het fenomeen waarbij de nauwkeurigheid of relevantie van een model over tijd afneemt door veranderingen in data of de wereld (*Model Drift / Data Drift*). → [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
 
-## 11. R
+## 13. R
 
 - **RACI:** Een matrix voor het toewijzen van rollen: **R**esponsible, **A**ccountable, **C**onsulted, **I**nformed.
 - **Realisatie:** De fase waarin de AI-oplossing technisch wordt gebouwd en uitvoerig wordt getest.
 - **Rode Lijnen:** De harde grenzen en veiligheidskaders waar een AI-systeem nooit buiten mag treden (*Constraints / Guardrails*).
 
-## 12. S
+## 14. S
 
+- **Specificatie-gedreven Ontwikkeling (SDD):** Een methode waarbij tests en specificaties worden opgesteld vóór de implementatie. Eerst definiëren wat het systeem moet doen en wat het nooit mag doen, daarna pas bouwen (*Spec-First / Test-Driven Development*). → [Spec-Driven Development](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
 - **Sturingsinstructies:** De verzameling van informatie, aanwijzingen en configuraties die bepalen hoe de AI zich gedraagt (*Prompts / Context Artifacts*). → [Prompt Engineering sjabloon](../09-sjablonen/10-prompt-engineering/template.md)
 
-## 13. T
+## 15. T
 
-- **Technische Modelkaart:** Het technische verantwoordingsdocument voor ontwikkelaars en auditors. Beschrijft modelversie, architectuur, databronnen en configuratie.
+- **Technische Modelkaart:** Het technische verantwoordingsdocument voor ontwikkelaars en auditors. Beschrijft modelversie, architectuur, databronnen en configuratie. → [Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md)
 
-## 14. V
+## 16. V
 
 - **Validatierapport:** Het bewijsdocument dat met objectieve testdata aantoont dat een AI-systeem voldoet aan de gestelde doelen en de normen uit de Bewijsstandaarden. Bevat testresultaten, metrics en conclusies (*Evidence Report*). Let op: dit is een ander document dan het Data & Privacyblad (AVG-gerelateerd). → [Validatierapport sjabloon](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 - **Verkenning & Strategie:** De eerste fase van een project gericht op het begrijpen van het probleem en de haalbaarheid.
 
-## 15. W
+## 17. W
 
 - **Wildgroei:** Het ongecontroleerd of onbeheerd gebruik van AI-tools binnen een organisatie (*Shadow AI*).
 

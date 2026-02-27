@@ -56,3 +56,14 @@ Een volledige raming van investering en operationele kosten.
 | **Stakeholders**       | **I**nformed: Ontvangen updates over de voortgang.                                      |
 
 ______________________________________________________________________
+
+## 5. Gerelateerde Modules
+
+**Sjablonen:**
+
+- [Business Case & Modelkaart](../09-sjablonen/02-business-case/template.md)
+- [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
+- [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+- [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
+
+**Zie ook:** [Overzicht Fase 2](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)

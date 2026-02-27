@@ -53,3 +53,13 @@ Een eerste scan op juridische en ethische obstakels.
 | **Stakeholders**        | **I**nformed: Worden op de hoogte gehouden van bevindingen.            |
 
 ______________________________________________________________________
+
+## 5. Gerelateerde Modules
+
+**Sjablonen:**
+
+- [Project Charter](../09-sjablonen/01-project-charter/template.md)
+- [Risico Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)
+- [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
+
+**Zie ook:** [Overzicht Fase 1](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)

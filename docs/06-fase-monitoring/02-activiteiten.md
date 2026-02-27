@@ -51,3 +51,13 @@ Blijvende wettelijke conformiteit.
 | **Guardian (Ethicist)**     | **C**onsulted: Voert ethische reviews en post-market surveillance uit.                        |
 
 ______________________________________________________________________
+
+## 5. Gerelateerde Modules
+
+**Verdieping:**
+
+- [Drift Detectie](05-drift-detectie.md)
+- [MLOps Standaarden](../08-technische-standaarden/01-mloops-standaarden.md)
+- [EU AI Act compliance](../07-compliance-hub/01-eu-ai-act/index.md)
+
+**Zie ook:** [Overzicht Fase 5](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)

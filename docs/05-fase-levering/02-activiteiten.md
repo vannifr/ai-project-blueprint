@@ -49,3 +49,18 @@ Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indie
 | **Eindgebruikers**         | **I**nformed/Consulted: Worden getraind en leveren de eerste praktijkfeedback.      |
 
 ______________________________________________________________________
+
+## 5. Gerelateerde Modules
+
+**Sjablonen:**
+
+- [Overdracht Checklist](04-sjablonen/overdracht-checklist.md)
+- [Traceerbaarheid & Links](../09-sjablonen/08-traceerbaarheid-links/template.md)
+- [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
+
+**Verdieping:**
+
+- [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
+- [Incident Respons](../07-compliance-hub/05-incidentrespons.md)
+
+**Zie ook:** [Overzicht Fase 4](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)

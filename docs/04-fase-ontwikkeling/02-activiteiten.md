@@ -80,3 +80,17 @@ ______________________________________________________________________
 | **DevOps**             | **C**onsulted: Adviseert over **Ingebruikname** en infrastructuur.    |
 
 ______________________________________________________________________
+
+## 5. Gerelateerde Modules
+
+**Sjablonen:**
+
+- [Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
+
+**Verdieping:**
+
+- [Spec-Driven Development](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
+- [SDD Patroon](05-sdd-patroon.md)
+
+**Zie ook:** [Overzicht Fase 3](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)

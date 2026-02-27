@@ -26,5 +26,7 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 
 ## 3. Gerelateerde Sjablonen
 
-- **11-02 Overdracht-procedures:** [Link](../11-project-afsluiting/02-overdracht-procedures.md)
-- **07-05 Incidentrespons:** [Link](../07-compliance-hub/05-incidentrespons.md)
+- **Overdracht Checklist:** [Sjabloon](04-sjablonen/overdracht-checklist.md)
+- **Traceerbaarheid & Links:** [Sjabloon](../09-sjablonen/08-traceerbaarheid-links/template.md)
+- **Gate Reviews:** [Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
+- **Incident Respons:** [Module](../07-compliance-hub/05-incidentrespons.md)

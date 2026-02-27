@@ -13,6 +13,9 @@ hooks:
 theme:
   name: material
   language: nl
+  font: false
+  icon:
+    logo: material/brain
   features:
     - navigation.tabs
     - navigation.tabs.sticky

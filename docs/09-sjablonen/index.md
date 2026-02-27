@@ -27,8 +27,11 @@ ______________________________________________________________________
 
 - **[Gate Reviews](04-gate-reviews/checklist.md):** Checklists voor de harde stop/go beslismomenten.
 - **[Validatierapport](07-validatie-bewijs/validatierapport.md):** Documentatie van de resultaten van de **Praktijkproef**.
-- **[Validatie Bewijs](07-validatie-bewijs/template.md):** Oude sjabloon voor validatiebewijs (ter referentie).
 - **[Traceerbaarheid](08-traceerbaarheid-links/template.md):** Verbinding tussen Doel Instructie Bewijs.
+
+### Levering & Afsluiting
+
+- **[Overdracht Checklist](../05-fase-levering/04-sjablonen/overdracht-checklist.md):** Checklist voor de gestructureerde overdracht van het AI-systeem aan de beheerorganisatie.
 
 ### Compliance & Privacy
 

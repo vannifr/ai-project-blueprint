@@ -56,3 +56,11 @@ De volgende secties worden uitgewerkt in een toekomstige versie van de AI Projec
 ### Overig
 
 - **Profielbeoordeling:** Zelfevaluatie-instrument voor organisatieprofielen
+
+______________________________________________________________________
+
+## 3. Technische Backlog
+
+| #     | Onderwerp                | Details                                                                                                                        |
+| ----- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| TB-01 | **`site_url` instellen** | Canonical URL-tags en sitemap vereisen een `site_url` in `mkdocs.yml`. Toe te voegen zodra het publieke domein is vastgesteld. |
