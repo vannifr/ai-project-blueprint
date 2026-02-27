@@ -14,8 +14,8 @@ theme:
   name: material
   language: nl
   font: false
-  icon:
-    logo: material/brain
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.svg
   features:
     - navigation.tabs
     - navigation.tabs.sticky
