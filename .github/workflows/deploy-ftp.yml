@@ -72,4 +72,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /public_html/ai-project-playbook/
           local-dir: ./site/
-          protocol: ftp
+          protocol: ftps
