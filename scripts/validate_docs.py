@@ -238,6 +238,9 @@ _FORBIDDEN_TERMS = [
     (r'\bguardrails\b', 'rode lijnen'),
     (r'\bintent\s+records?\b', 'doeldefinitie'),
     (r'\bhyperparameter\s+tuning\b', 'afstellen van het model'),
+    (r'\bdeployment\b', 'ingebruikname/livegang'),
+    (r'\bproof\s+of\s+value\b', 'validatiepilot (Praktijkproef)'),
+    (r'\binference\s+costs?\b', 'gebruikskosten'),
 ]
 
 

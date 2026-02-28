@@ -22,6 +22,7 @@ ______________________________________________________________________
 
 ## 3. C
 
+- **CI/CD (Continuous Integration / Continuous Delivery):** Een automatische pijplijn die codewijzigingen bouwt, test en beschikbaar stelt. In AI-projecten bewaakt de CI/CD-pijplijn ook modelkwaliteit via geautomatiseerde gates (bijv. nauwkeurigheid > 85% voor ingebruikname).
 - **Circuit Breaker:** Een automatisch stopmechanisme in agentic AI-systemen dat acties blokkeert of menselijke goedkeuring vereist wanneer het systeem afwijkend gedrag vertoont of geconfigureerde drempelwaarden overschrijdt.
 - **Constitutional AI:** Een techniek waarbij AI-systemen worden getraind met expliciete ethische principes als verankerd stelsel van regels, zodat het systeem consistent veilig en eerlijk gedrag vertoont.
 
@@ -43,7 +44,8 @@ ______________________________________________________________________
 
 ## 7. G
 
-- **Gate:** Een formeel beslismoment in de AI-levenscyclus waarbij op basis van bewijs een Go/No-Go beslissing wordt genomen. De blauwdruk definieert 4 gates (Gate 1 t/m Gate 4). → [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
+- **Gate:**
+- **GPU (Graphics Processing Unit):** Gespecialiseerde processor die veelvuldig wordt ingezet voor het trainen en uitvoeren van AI-modellen, vanwege de hoge parallelisatiecapaciteit. Een formeel beslismoment in de AI-levenscyclus waarbij op basis van bewijs een Go/No-Go beslissing wordt genomen. De blauwdruk definieert 4 gates (Gate 1 t/m Gate 4). → [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 - **Gebruikskosten:** De variabele kosten voor het draaien van een AI-systeem, zoals API-tokens of cloud-rekentijd (*Inference costs*).
 - **Gouden Set:** Een representatieve verzameling testcases die wordt gebruikt om AI-prestaties te meten. Bevat standaardcases, randgevallen en adversarial scenarios. Grootte varieert per risiconiveau (20-150 cases).
 - **Guardian:** De onafhankelijke rol binnen het projectteam die waakt over ethische en wettelijke kaders. Heeft veto-recht bij overschrijding van Rode Lijnen. → [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
@@ -64,6 +66,8 @@ ______________________________________________________________________
 
 ## 11. M
 
+- **LLM (Large Language Model):** Een grootschalig taalmodel getraind op omvangrijke tekstcorpora, in staat tot het genereren, samenvatten en redeneren over tekst. Voorbeelden zijn modellen in de GPT-, Claude- en Gemini-familie.
+- **MLOps (Machine Learning Operations):** De combinatie van praktijken, processen en tools voor het betrouwbaar bouwen, testen, uitrollen en bewaken van ML-modellen in productie. Het is de ML-tegenhanger van DevOps.
 - **Modelkaart:** Verkorte naam voor **Technische Modelkaart**. Het technische verantwoordingsdocument voor ontwikkelaars en auditors. → [Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md)
 - **Modus 1–5 (AI-Samenwerkingsmodi):** De vijf samenwerkingsniveaus tussen mens en AI: Modus 1 (Instrumenteel), Modus 2 (Adviserend), Modus 3 (Collaboratief), Modus 4 (Delegerend), Modus 5 (Autonoom). → [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
 
@@ -74,12 +78,14 @@ ______________________________________________________________________
 
 ## 13. R
 
-- **RACI:** Een matrix voor het toewijzen van rollen: **R**esponsible, **A**ccountable, **C**onsulted, **I**nformed.
+- **RACI:** Een matrix voor het toewijzen van rollen: **R**esponsible (uitvoerder), **A**ccountable (eindverantwoordelijke), **C**onsulted (geraadpleegd), **I**nformed (geïnformeerd). Elke activiteit heeft precies één A.
+- **ROI (Return on Investment):** De verhouding tussen de opbrengst en de investering van een project of systeem, uitgedrukt als percentage of absolute waarde.
 - **Realisatie:** De fase waarin de AI-oplossing technisch wordt gebouwd en uitvoerig wordt getest.
 - **Rode Lijnen:** De harde grenzen en veiligheidskaders waar een AI-systeem nooit buiten mag treden (*Constraints / Guardrails*).
 
 ## 14. S
 
+- **SLO (Service Level Objective):** Een meetbaar streefdoel voor de kwaliteit of beschikbaarheid van een dienst, zoals "latentie P95 \< 2 seconden" of "uptime > 99,5%". Lager dan een SLA maar intern bindend voor het team.
 - **Specificatie-gedreven Ontwikkeling (SDD):** Een methode waarbij tests en specificaties worden opgesteld vóór de implementatie. Eerst definiëren wat het systeem moet doen en wat het nooit mag doen, daarna pas bouwen (*Spec-First / Test-Driven Development*). → [Spec-Driven Development](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
 - **Sturingsinstructies:** De verzameling van informatie, aanwijzingen en configuraties die bepalen hoe de AI zich gedraagt (*Prompts / Context Artifacts*). → [Prompt Engineering sjabloon](../09-sjablonen/10-prompt-engineering/template.md)
 

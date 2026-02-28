@@ -1,103 +1,165 @@
-# Handleiding voor Exporteren van Documentatie
+# Export- en Publicatiegids
 
-Dit document beschrijft de methoden om de Markdown (.md) bestanden van het AI Project Playbook te exporteren naar andere formaten zoals HTML, PDF en Word (DOCX).
-
-## Optie 1: HTML Website (Aanbevolen voor Teams)
-
-Voor levende documentatie die makkelijk doorzoekbaar is, raden we aan om een statische website te genereren met **MkDocs**.
-
-### Benodigdheden
-
-- Python geïnstalleerd
-- `pip` package manager
-
-### Installatie
-
-1. Installeer MkDocs en het Material theme:
-    ```bash
-    pip install mkdocs mkdocs-material
-    ```
-
-### Configuratie
-
-1. Maak een bestand genaamd `mkdocs.yml` in de hoofdmap met de volgende inhoud:
-    ```yaml
-    site_name: AI Project Playbook
-    theme:
-      name: material
-      features:
-        - navigation.tabs
-        - search.suggest
-        - toc.integrate
-    nav:
-      - Home: index.md
-      - Strategisch Kader: docs/00-strategisch-kader/
-      - ... (voeg overige mappen toe)
-    markdown_extensions:
-      - admonition
-      - pymdownx.details
-      - pymdownx.superfences
-      - pymdownx.tabbed
-    ```
-
-### Genereren
-
-- **Lokaal bekijken:** `mkdocs serve` (opent op http://127.0.0.1:8000)
-- **Bouwen voor publicatie:** `mkdocs build` (genereert een `site/` map met HTML bestanden)
+Dit document beschrijft hoe de AI Project Blauwdruk wordt gepubliceerd als HTML-website en als PDF. De gehele pipeline is geautomatiseerd via GitHub Actions en vereist geen handmatige stappen voor een standaard publicatie.
 
 ______________________________________________________________________
 
-## Optie 2: PDF en DOCX (Voor Rapportage)
+## Lokale Ontwikkeling
 
-Voor het delen van specifieke documenten of het genereren van formele rapporten gebruiken we **Pandoc**.
-
-### Benodigdheden
-
-- [Pandoc](https://pandoc.org/installing.html)
-- Voor PDF: Een PDF engine zoals `wkhtmltopdf` of een LaTeX distributie (bijv. MiKTeX).
-
-### Commando's
-
-#### Naar Word (DOCX)
+### Vereisten
 
 ```bash
-pandoc "docs/00-strategisch-kader/01-ai-levenscyclus.md" -o "AI_Levenscyclus.docx"
+pip install -r requirements.txt
 ```
 
-*Tip: Je kunt een 'reference doc' toevoegen voor huisstijl-opmaak:*
+Playwright (voor PDF via Chromium) wordt apart geïnstalleerd:
 
 ```bash
-pandoc input.md -o output.docx --reference-doc=template.docx
+playwright install chromium
 ```
 
-#### Naar PDF
+### HTML-site (live preview)
 
 ```bash
-pandoc "docs/00-strategisch-kader/01-ai-levenscyclus.md" -o "AI_Levenscyclus.pdf" --pdf-engine=wkhtmltopdf
+mkdocs serve
 ```
 
-#### Meerdere bestanden samenvoegen
+De site is dan beschikbaar op `http://127.0.0.1:8000`. Wijzigingen in `docs/` en `mkdocs.yml` worden automatisch herladen.
 
-Je kunt een heel hoofdstuk naar één PDF exporteren:
+### HTML-site (bouwen)
 
 ```bash
-pandoc docs/00-strategisch-kader/*.md -o Strategisch_Kader_Compleet.pdf --pdf-engine=wkhtmltopdf
+mkdocs build
+```
+
+Genereert een `site/`-map met alle HTML-bestanden. De site is zelfstandig te openen zonder webserver.
+
+### Bouwen met strict-modus (zelfde als CI)
+
+```bash
+mkdocs build --strict
+```
+
+Laat broken links en onbekende sjabloonvariabelen als fout optreden — gebruik dit lokaal om CI-fouten te voorkomen.
+
+______________________________________________________________________
+
+## PDF Genereren
+
+De PDF wordt gegenereerd door `mkdocs-exporter` met Playwright (Chromium headless).
+
+### Stap 1: Bouw de site met PDF-export ingeschakeld
+
+```bash
+MKDOCS_EXPORTER_PDF=true mkdocs build --no-directory-urls
+```
+
+De variabele `MKDOCS_EXPORTER_PDF=true` schakelt de PDF-export in. Zonder deze variabele wordt de PDF-export overgeslagen (sneller voor HTML-only builds).
+
+### Stap 2: Nabewerking (inhoudsopgave, omslagen, paginanummering)
+
+```bash
+python3 scripts/pdf_postprocess.py site
+```
+
+Dit script:
+
+- Voegt de PDF-inhoudsopgave samen met het hoofddocument.
+- Injecteert de voor- en achterkant van de omslag.
+- Nummert secties door via CSS-paginatellers.
+
+### Uitvoer
+
+Het PDF-bestand verschijnt op: `site/pdf/ai-project-blauwdruk.pdf`
+
+______________________________________________________________________
+
+## Meertalige Builds
+
+De site ondersteunt NL (standaard), EN, FR en DE via de `mkdocs-static-i18n` plugin.
+
+### HTML — alle talen (standaard)
+
+```bash
+mkdocs build
+```
+
+Dit bouwt alle vier taalversies in één stap:
+
+- `/` → NL
+- `/en/` → EN
+- `/fr/` → FR
+- `/de/` → DE
+
+### HTML — alleen NL (sneller, voor kwaliteitscheck)
+
+```bash
+MKDOCS_BUILD_I18N=false mkdocs build --strict
+```
+
+### PDF — per taal
+
+```bash
+MKDOCS_LANG=nl MKDOCS_EXPORTER_PDF=true mkdocs build --no-directory-urls
+python3 scripts/pdf_postprocess.py site
+# Uitvoer: site/pdf/ai-project-blauwdruk.nl.pdf
+
+MKDOCS_LANG=en MKDOCS_EXPORTER_PDF=true MKDOCS_PDF_OUTPUT=pdf/ai-project-blauwdruk.en.pdf mkdocs build --no-directory-urls
+python3 scripts/pdf_postprocess.py site
+# Uitvoer: site/pdf/ai-project-blauwdruk.en.pdf
 ```
 
 ______________________________________________________________________
 
-## Optie 3: VS Code Extensies (Snel & Simpel)
+## Geautomatiseerde CI/CD Pipeline
 
-Als je snel één bestand wilt exporteren zonder command line tools.
+De GitHub Actions workflow (`.github/workflows/deploy-ftp.yml`) voert automatisch uit bij elke push naar `main`:
 
-### Aanbevolen Extensie
+| Job          | Wat                                                 | Artefact           |
+| :----------- | :-------------------------------------------------- | :----------------- |
+| `quality`    | MkDocs strict build (NL) + htmlproofer + pre-commit | —                  |
+| `build-site` | MkDocs build (alle talen)                           | `site-build/`      |
+| `pdf`        | PDF build NL + nabewerking                          | `pdf-artifact/`    |
+| `deploy`     | FTP-upload van site + PDF naar `vannifr.ovh`        | Gepubliceerde site |
 
-- **Markdown PDF** (yzane)
-
-### Gebruik
-
-1. Open een `.md` bestand in VS Code.
-1. Rechtermuisklik in de editor.
-1. Kies `Markdown PDF: Export (pdf)`, `Export (html)` of `Export (docx)`.
+De `quality` en `pdf` jobs lopen parallel. De `deploy` job wacht op beide.
 
 ______________________________________________________________________
+
+## Validatie
+
+De volgende validaties worden uitgevoerd in de `quality` job:
+
+```bash
+python3 scripts/validate_docs.py          # Verbodsterm-check, stub-check, termenlijst-check
+mkdocs build --strict                     # Broken links, sjabloonfouten
+```
+
+Voer deze lokaal uit vóór een pull request:
+
+```bash
+python3 scripts/validate_docs.py
+mkdocs build --strict
+```
+
+______________________________________________________________________
+
+## Handmatige Publicatie (noodsituatie)
+
+Als de CI/CD pipeline tijdelijk niet beschikbaar is:
+
+1. Bouw lokaal: `mkdocs build`
+1. Upload de volledige `site/`-map via FTP naar `vannifr.ovh/ai-project-playbook/`.
+1. Verifieer de publicatie: open `https://vannifr.ovh/ai-project-playbook/` in een browser.
+
+______________________________________________________________________
+
+## Probleemoplossing
+
+| Symptoom                                           | Waarschijnlijke oorzaak          | Oplossing                                                           |
+| :------------------------------------------------- | :------------------------------- | :------------------------------------------------------------------ |
+| `WARNING - Doc file not found`                     | Link naar niet-bestaand bestand  | Corrigeer het pad of maak het bestand aan                           |
+| PDF leeg of zonder omslagen                        | Playwright niet geïnstalleerd    | `playwright install chromium`                                       |
+| `/en/` geeft 404 op de site                        | `build-site` job niet uitgevoerd | Controleer of de `MKDOCS_BUILD_I18N`-variabele correct is ingesteld |
+| `ValueError: future belongs to different loop`     | i18n + PDF-export in combinatie  | Gebruik `MKDOCS_BUILD_I18N=false` voor PDF-builds                   |
+| Pre-commit hook `no-commit-to-branch` blokkeert CI | Standaard CI-gedrag op main      | CI gebruikt `SKIP=no-commit-to-branch`                              |

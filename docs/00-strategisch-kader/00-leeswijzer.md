@@ -49,8 +49,8 @@ ______________________________________________________________________
 
 ## 4. Legenda Icoontjes
 
-- **Doel:** Waarom doen we dit?
-- **Activiteit:** Wat moet er gebeuren?
-- **Checklist:** Zijn we klaar?
-- **Risico:** Let op!
-- **Rollen:** Wie is betrokken?
+- 🎯 **Doel:** Waarom doen we dit?
+- ⚙️ **Activiteit:** Wat moet er gebeuren?
+- ✅ **Checklist:** Zijn we klaar?
+- ⚠️ **Risico:** Let op!
+- 👥 **Rollen:** Wie is betrokken?

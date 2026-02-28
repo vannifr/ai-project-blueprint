@@ -6,7 +6,7 @@ versie: '1.0'
 
 ## 1. Kernactiviteiten
 
-### Praktijkproef (Proof of Value)
+### Praktijkproef
 
 Een kleinschalig experiment om te testen of de AI de specifieke bedrijfscontext begrijpt.
 

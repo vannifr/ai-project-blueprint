@@ -158,12 +158,12 @@ ______________________________________________________________________
 
 ## 7. Tooling Suggesties
 
-| Doel                     | Opties                                   |
-| ------------------------ | ---------------------------------------- |
-| Document traceerbaarheid | Git (alles als code), Confluence, Notion |
-| Runtime logging          | CloudWatch, Datadog, ELK Stack, custom   |
-| Traceerbaarheidsmatrix   | Spreadsheet, Jira, dedicated tools       |
-| Audit trail              | Onveranderbare logging (append-only)     |
+| Doel                     | Opties                                      |
+| ------------------------ | ------------------------------------------- |
+| Document traceerbaarheid | Git (alles als code), uw wiki of kennisbank |
+| Runtime logging          | CloudWatch, Datadog, ELK Stack, custom      |
+| Traceerbaarheidsmatrix   | Spreadsheet, Jira, dedicated tools          |
+| Audit trail              | Onveranderbare logging (append-only)        |
 
 ______________________________________________________________________
 

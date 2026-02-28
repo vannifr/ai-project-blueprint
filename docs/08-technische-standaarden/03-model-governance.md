@@ -49,11 +49,11 @@ Een centrale plek waar alle modellen zijn geregistreerd met hun metadata.
 
 ### Implementatie-opties
 
-| Optie                     | Geschikt voor                    | Complexiteit |
-| ------------------------- | -------------------------------- | ------------ |
-| Spreadsheet/Wiki          | Startende teams, weinig modellen | Laag         |
-| Git repository met YAML   | Engineering teams                | Midden       |
-| MLflow / Weights & Biases | Mature MLOps, veel modellen      | Hoog         |
+| Optie                        | Geschikt voor                        | Complexiteit |
+| ---------------------------- | ------------------------------------ | ------------ |
+| Spreadsheet/Wiki             | Startende teams, weinig modellen     | Laag         |
+| Git repository met YAML      | Engineering teams                    | Midden       |
+| Experiment tracking platform | Mature MLOps-omgeving, veel modellen | Hoog         |
 
 ______________________________________________________________________
 

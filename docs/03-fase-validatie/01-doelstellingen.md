@@ -8,7 +8,7 @@ versie: '1.0'
 
 Het primaire doel van de Validatiefase is bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
 
-**Belangrijkste resultaat:** Een werkende Praktijkproef (Proof of Value) die aantoont dat de AI de specifieke bedrijfscontext begrijpt en meetbare waarde levert.
+**Belangrijkste resultaat:** Een werkende Praktijkproef die aantoont dat de AI de specifieke bedrijfscontext begrijpt en meetbare waarde levert.
 
 ## 2. Intrede Criteria (Definition of Ready)
 

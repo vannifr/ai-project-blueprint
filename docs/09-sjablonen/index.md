@@ -4,7 +4,7 @@ versie: '1.0'
 
 # 1. Sjablonen
 
-Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-project. Deze documenten zijn ontworpen om direct gekopieerd te worden naar een Wiki (Confluence/SharePoint) of Word-document.
+Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-project. Deze documenten zijn ontworpen om direct gekopieerd te worden naar uw wiki, kennisbank of documenten­omgeving.
 
 ______________________________________________________________________
 

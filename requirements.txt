@@ -1,8 +1,8 @@
-mkdocs>=1.5,<2.0
-mkdocs-material
-mkdocs-static-i18n>=1.2
-mkdocs-htmlproofer-plugin
-mkdocs-git-revision-date-localized-plugin
-mkdocs-exporter[pdf]
-reportlab
-pypdf
+mkdocs>=1.6,<2.0
+mkdocs-material>=9.5,<10.0
+mkdocs-static-i18n>=1.2,<2.0
+mkdocs-htmlproofer-plugin>=1.4,<2.0
+mkdocs-git-revision-date-localized-plugin>=1.5,<2.0
+mkdocs-exporter[pdf]>=6.2,<7.0
+reportlab>=4.4,<5.0
+pypdf>=6.0,<7.0

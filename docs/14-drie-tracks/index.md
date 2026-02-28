@@ -4,9 +4,6 @@ versie: '1.0'
 
 # 1. Drie Tracks
 
-!!! warning "Sectie in ontwikkeling"
-    De subpagina's van deze sectie worden uitgewerkt in een toekomstige versie. Zie de [Release Notes](../release-notes.md) voor de planning.
-
 ## 1. Doel
 
 De AI-transformatie kan via drie verschillende strategische tracks worden benaderd, afhankelijk van de organisatievolwassenheid en ambities.

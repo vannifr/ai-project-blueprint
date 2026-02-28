@@ -5,19 +5,7 @@ site_author: AI Project Playbook Team
 copyright: '&copy; 2026 AI Project Blauwdruk. Gelicenseerd onder CC BY-NC-SA 4.0.'
 
 extra:
-  alternate:
-    - name: Nederlands
-      link: /
-      lang: nl
-    - name: English
-      link: /en/
-      lang: en
-    - name: Français
-      link: /fr/
-      lang: fr
-    - name: Deutsch
-      link: /de/
-      lang: de
+  noindex: true
 
 extra_css:
   - stylesheets/extra.css
