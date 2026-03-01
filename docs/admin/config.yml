@@ -1,12 +1,12 @@
-# Static CMS — AI Project Blauwdruk
-# Documentatie: https://staticcms.org/docs/
+# Decap CMS — AI Project Blauwdruk
+# Documentatie: https://decapcms.org/docs/
 #
 # PRODUCTIE — GitHub OAuth:
 #   Stel 'base_url' in op uw OAuth-proxy (zie docs/admin/SETUP.md).
 #   Aanbevolen gratis optie: Netlify OAuth provider of Cloudflare Worker.
 #
 # LOKAAL ONTWIKKELEN:
-#   1. npx @staticcms/proxy-server   (in project root)
+#   1. npx decap-server              (in project root)
 #   2. mkdocs serve                  (in ander terminal)
 #   3. Ga naar http://localhost:8000/admin/
 

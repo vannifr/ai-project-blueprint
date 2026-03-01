@@ -4,7 +4,7 @@ search:
   exclude: true
 ---
 
-# Static CMS — Authenticatie Setup
+# Decap CMS — Authenticatie Setup
 
 Dit bestand is alleen voor interne configuratie. Het verschijnt niet in de navigatie.
 
@@ -14,7 +14,7 @@ Gebruik de local backend proxy voor offline bewerken:
 
 ```bash
 # Terminal 1 — start de CMS proxy
-npx @staticcms/proxy-server
+npx decap-server
 
 # Terminal 2 — start de MkDocs live preview
 mkdocs serve
