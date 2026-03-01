@@ -75,13 +75,11 @@ jobs:
           retention-days: 7
 
   pdf:
-    name: Build PDF (${{ matrix.lang }})
+    name: Build PDF (nl)
     runs-on: ubuntu-latest
     needs: quality
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    strategy:
-      matrix:
-        lang: [nl, en, fr, de]
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -99,25 +97,25 @@ jobs:
       - name: Install Playwright Chromium
         run: playwright install --with-deps chromium
 
-      - name: Build PDF (${{ matrix.lang }})
+      - name: Build PDF (nl)
         env:
-          MKDOCS_LANG: ${{ matrix.lang }}
+          MKDOCS_LANG: nl
           MKDOCS_EXPORTER_PDF: "true"
-          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.${{ matrix.lang }}.pdf"
+          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.pdf"
           MKDOCS_BUILD_I18N: "false"
         run: mkdocs build --no-directory-urls
 
-      - name: PDF Post-process (${{ matrix.lang }})
+      - name: PDF Post-process (nl)
         env:
-          MKDOCS_LANG: ${{ matrix.lang }}
-          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.${{ matrix.lang }}.pdf"
+          MKDOCS_LANG: nl
+          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.pdf"
         run: python3 scripts/pdf_postprocess.py site
 
-      - name: Upload PDF Artifact (${{ matrix.lang }})
+      - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: pdf-${{ matrix.lang }}
-          path: site/pdf/ai-project-blauwdruk.${{ matrix.lang }}.pdf
+          name: pdf-nl
+          path: site/pdf/ai-project-blauwdruk.pdf
           retention-days: 30
 
   deploy:
@@ -139,24 +137,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: pdf-nl
-          path: ./site/pdf/
-
-      - name: Download PDF (en)
-        uses: actions/download-artifact@v4
-        with:
-          name: pdf-en
-          path: ./site/pdf/
-
-      - name: Download PDF (fr)
-        uses: actions/download-artifact@v4
-        with:
-          name: pdf-fr
-          path: ./site/pdf/
-
-      - name: Download PDF (de)
-        uses: actions/download-artifact@v4
-        with:
-          name: pdf-de
           path: ./site/pdf/
 
       - name: Deploy to FTP
