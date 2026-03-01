@@ -12,7 +12,7 @@
 
 backend:
   name: github
-  repo: vannifr/ai-project-playbook
+  repo: vannifr/ai-project-blueprint
   branch: main
   # Verwijder onderstaande regel na configuratie van uw OAuth-proxy:
   base_url: https://api.netlify.com

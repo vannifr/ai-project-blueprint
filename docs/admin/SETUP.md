@@ -34,7 +34,7 @@ Deze methode werkt voor elke statische site — ook zonder Netlify hosting.
 1. Ga naar **GitHub → Settings → Developer settings → OAuth Apps → New OAuth App**
 1. Vul in:
     - **Application name:** `AI Project Blauwdruk CMS`
-    - **Homepage URL:** `https://vannifr.ovh/ai-project-playbook/`
+    - **Homepage URL:** `https://vannifr.ovh/ai-project-blueprint/`
     - **Authorization callback URL:** `https://api.netlify.com/auth/done`
 1. Klik **Register application** en noteer de **Client ID** en **Client Secret**.
 
@@ -52,7 +52,7 @@ Geen verdere wijzigingen nodig.
 
 ### Stap 4 — Testen
 
-Ga naar `https://vannifr.ovh/ai-project-playbook/admin/` en klik **Login with GitHub**.
+Ga naar `https://vannifr.ovh/ai-project-blueprint/admin/` en klik **Login with GitHub**.
 
 ______________________________________________________________________
 
@@ -95,4 +95,4 @@ ______________________________________________________________________
 ## Rechten
 
 Alleen GitHub-gebruikers met **Write** of **Admin** toegang tot de repository
-`vannifr/ai-project-playbook` kunnen inloggen in het CMS.
+`vannifr/ai-project-blueprint` kunnen inloggen in het CMS.
