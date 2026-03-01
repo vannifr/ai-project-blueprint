@@ -1,0 +1,264 @@
+# Static CMS — AI Project Blauwdruk
+# Documentatie: https://staticcms.org/docs/
+#
+# PRODUCTIE — GitHub OAuth:
+#   Stel 'base_url' in op uw OAuth-proxy (zie docs/admin/SETUP.md).
+#   Aanbevolen gratis optie: Netlify OAuth provider of Cloudflare Worker.
+#
+# LOKAAL ONTWIKKELEN:
+#   1. npx @staticcms/proxy-server   (in project root)
+#   2. mkdocs serve                  (in ander terminal)
+#   3. Ga naar http://localhost:8000/admin/
+
+backend:
+  name: github
+  repo: vannifr/ai-project-playbook
+  branch: main
+  # Verwijder onderstaande regel na configuratie van uw OAuth-proxy:
+  base_url: https://api.netlify.com
+
+# Inschakelen voor lokale ontwikkeling (werkt met npx @staticcms/proxy-server)
+local_backend: true
+
+media_folder: docs/assets/images
+public_folder: /assets/images
+
+# Toon publicatieknop (commit direct naar main zonder pull request)
+publish_mode: simple
+
+collections:
+
+  # ─── STARTPAGINA & RELEASE NOTES ──────────────────────────────────────────
+
+  - name: site-paginas
+    label: "Startpagina & Release Notes"
+    files:
+      - name: startpagina
+        label: "🏠 Startpagina"
+        file: docs/index.md
+        fields:
+          - { label: "Versie", name: versie, widget: string, default: "1.0" }
+          - { label: "Inhoud", name: body, widget: markdown }
+      - name: release-notes
+        label: "🗒️ Release Notes"
+        file: docs/release-notes.md
+        fields:
+          - { label: "Versie", name: versie, widget: string, default: "1.0" }
+          - { label: "Inhoud", name: body, widget: markdown }
+
+  # ─── STRATEGISCH KADER ────────────────────────────────────────────────────
+
+  - name: strategisch-kader
+    label: "📘 Strategisch Kader"
+    label_singular: "Pagina"
+    folder: docs/00-strategisch-kader
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: ai-native-fundamenten
+    label: "🤖 AI-Native Fundamenten"
+    label_singular: "Pagina"
+    folder: docs/01-ai-native-fundamenten
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: rollen
+    label: "👤 Rollen & Verantwoordelijkheden"
+    label_singular: "Pagina"
+    folder: docs/08-rollen-en-verantwoordelijkheden
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  # ─── OPERATIONELE FASEN ───────────────────────────────────────────────────
+
+  - name: fase-verkenning
+    label: "1. Verkenning & Strategie"
+    label_singular: "Pagina"
+    folder: docs/02-fase-ontdekking
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "In PDF opnemen", name: pdf, widget: boolean, required: false, default: true }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: fase-validatie
+    label: "2. Validatie (PoV)"
+    label_singular: "Pagina"
+    folder: docs/03-fase-validatie
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: fase-realisatie
+    label: "3. Realisatie"
+    label_singular: "Pagina"
+    folder: docs/04-fase-ontwikkeling
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: fase-levering
+    label: "4. Levering"
+    label_singular: "Pagina"
+    folder: docs/05-fase-levering
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: fase-monitoring
+    label: "5. Beheer & Optimalisatie"
+    label_singular: "Pagina"
+    folder: docs/06-fase-monitoring
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: doorlopende-verbetering
+    label: "6. Doorlopende Verbetering"
+    label_singular: "Pagina"
+    folder: docs/10-doorlopende-verbetering
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: project-afsluiting
+    label: "7. Project Afsluiting"
+    label_singular: "Pagina"
+    folder: docs/11-project-afsluiting
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  # ─── COMPLIANCE & TECHNIEK ────────────────────────────────────────────────
+
+  - name: compliance-hub
+    label: "⚖️ Compliance Hub"
+    label_singular: "Pagina"
+    folder: docs/07-compliance-hub
+    create: false
+    delete: false
+    nested:
+      depth: 2
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: technische-standaarden
+    label: "⚙️ Technische Standaarden"
+    label_singular: "Pagina"
+    folder: docs/08-technische-standaarden
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  # ─── SJABLONEN ────────────────────────────────────────────────────────────
+
+  - name: sjablonen
+    label: "📋 Sjablonen"
+    label_singular: "Sjabloon"
+    folder: docs/09-sjablonen
+    create: false
+    delete: false
+    nested:
+      depth: 2
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: overdracht-checklist
+    label: "Overdracht Checklist"
+    label_singular: "Checklist"
+    folder: docs/05-fase-levering/04-sjablonen
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  # ─── TRANSFORMATIE & GROEI ────────────────────────────────────────────────
+
+  - name: snelstart-90-dagen
+    label: "🚀 Snelstart (90 Dagen)"
+    label_singular: "Pagina"
+    folder: docs/12-90-dagen-roadmap
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: organisatieprofielen
+    label: "👥 Organisatieprofielen"
+    label_singular: "Profiel"
+    folder: docs/13-organisatieprofielen
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: drie-tracks
+    label: "🛤️ Drie Tracks"
+    label_singular: "Track"
+    folder: docs/14-drie-tracks
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: accelerators
+    label: "⚡ Accelerators"
+    label_singular: "Accelerator"
+    folder: docs/15-accelerators
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  # ─── NASLAG ───────────────────────────────────────────────────────────────
+
+  - name: termenlijst
+    label: "📖 Termenlijst"
+    label_singular: "Pagina"
+    folder: docs/termenlijst
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }
+
+  - name: bronnen
+    label: "📚 Bronnen & Bijlagen"
+    label_singular: "Pagina"
+    folder: docs/16-bronnen
+    create: false
+    delete: false
+    fields:
+      - { label: "Versie", name: versie, widget: string, default: "1.0" }
+      - { label: "Inhoud", name: body, widget: markdown }

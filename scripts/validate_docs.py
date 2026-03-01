@@ -429,8 +429,12 @@ def main():
 
     # Per-file checks (skip i18n translation files — stubs are checked separately)
     i18n_suffixes = ('.en.md', '.fr.md', '.de.md')
+    # Directories excluded from all checks (internal/meta files, not content)
+    excluded_dirs = {'admin'}
     for md_file in sorted(docs_dir.rglob('*.md')):
         if 'site' in md_file.parts:
+            continue
+        if any(part in excluded_dirs for part in md_file.parts):
             continue
         if md_file.name.endswith(i18n_suffixes):
             continue
