@@ -1,5 +1,5 @@
 ---
-versie: "1.0"
+versie: '1.0'
 ---
 
 # 1. Realisatie
