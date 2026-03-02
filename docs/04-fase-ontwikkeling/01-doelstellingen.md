@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: "1.0"
 ---
 
 # 1. Realisatie
@@ -16,7 +16,7 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
 - Gate 2 (Investering PoV) is goedgekeurd.
 - De Praktijkproef heeft aangetoond dat de oplossing werkt (>90% score).
-- **Het Kostenoverzicht** is positief en goedgekeurd.
+- Het Kostenoverzicht is positief en goedgekeurd.
 - Het ontwikkelteam is compleet en heeft toegang tot alle benodigde resources.
 
 ______________________________________________________________________
