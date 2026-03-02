@@ -1,7 +1,6 @@
 [build]
-  command = "pip install -r requirements.txt && mkdocs build"
   publish = "site"
 
-[build.environment]
-  PYTHON_VERSION = "3.12"
-  MKDOCS_BUILD_I18N = "false"
+# Build wordt uitgevoerd door GitHub Actions (ci.yml).
+# Schakel auto-build uit in Netlify dashboard:
+# Site configuration → Build & deploy → Stop builds

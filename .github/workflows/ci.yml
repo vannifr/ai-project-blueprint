@@ -1,4 +1,4 @@
-name: Verify & Build
+name: Verify & Deploy
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       build_pdf:
-        description: 'PDF bouwen'
+        description: 'PDF bouwen en deployen'
         type: boolean
         default: false
 
@@ -48,12 +48,46 @@ jobs:
       - name: Build MkDocs (Strict, NL only)
         run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=false HTMLPROOFER_ENABLED=true mkdocs build --strict
 
+  deploy:
+    name: Deploy naar Netlify (HTML)
+    runs-on: ubuntu-latest
+    needs: quality
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build MkDocs (NL)
+        env:
+          MKDOCS_BUILD_I18N: "false"
+        run: mkdocs build
+
+      - name: Deploy naar Netlify
+        uses: nwtgck/actions-netlify@v3
+        with:
+          publish-dir: './site'
+          production-deploy: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_PROJECT_ID }}
+
   pdf:
-    name: Build PDF (nl)
+    name: Build & Deploy PDF (nl)
     runs-on: ubuntu-latest
     needs: quality
     if: github.event_name == 'workflow_dispatch' && inputs.build_pdf == true
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -85,7 +119,27 @@ jobs:
           MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.pdf"
         run: python3 scripts/pdf_postprocess.py site
 
-      - name: Upload PDF Artifact
+      - name: Bewaar verwerkte PDF
+        run: cp site/pdf/ai-project-blauwdruk.pdf /tmp/ai-project-blauwdruk.pdf
+
+      - name: Build HTML site (NL)
+        env:
+          MKDOCS_BUILD_I18N: "false"
+        run: mkdocs build
+
+      - name: Voeg PDF toe aan site
+        run: mkdir -p site/pdf && cp /tmp/ai-project-blauwdruk.pdf site/pdf/ai-project-blauwdruk.pdf
+
+      - name: Deploy naar Netlify (met PDF)
+        uses: nwtgck/actions-netlify@v3
+        with:
+          publish-dir: './site'
+          production-deploy: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_PROJECT_ID }}
+
+      - name: Upload PDF als artifact
         uses: actions/upload-artifact@v4
         with:
           name: pdf-nl
