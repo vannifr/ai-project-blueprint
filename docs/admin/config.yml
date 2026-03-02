@@ -50,6 +50,7 @@ collections:
   - name: strategisch-kader
     label: "📘 Strategisch Kader"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/00-strategisch-kader
     create: false
     delete: false
@@ -60,6 +61,7 @@ collections:
   - name: ai-native-fundamenten
     label: "🤖 AI-Native Fundamenten"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/01-ai-native-fundamenten
     create: false
     delete: false
@@ -70,6 +72,7 @@ collections:
   - name: rollen
     label: "👤 Rollen & Verantwoordelijkheden"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/08-rollen-en-verantwoordelijkheden
     create: false
     delete: false
@@ -82,6 +85,7 @@ collections:
   - name: fase-verkenning
     label: "1. Verkenning & Strategie"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/02-fase-ontdekking
     create: false
     delete: false
@@ -93,6 +97,7 @@ collections:
   - name: fase-validatie
     label: "2. Validatie (PoV)"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/03-fase-validatie
     create: false
     delete: false
@@ -103,6 +108,7 @@ collections:
   - name: fase-realisatie
     label: "3. Realisatie"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/04-fase-ontwikkeling
     create: false
     delete: false
@@ -113,6 +119,7 @@ collections:
   - name: fase-levering
     label: "4. Levering"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/05-fase-levering
     create: false
     delete: false
@@ -123,6 +130,7 @@ collections:
   - name: fase-monitoring
     label: "5. Beheer & Optimalisatie"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/06-fase-monitoring
     create: false
     delete: false
@@ -133,6 +141,7 @@ collections:
   - name: doorlopende-verbetering
     label: "6. Doorlopende Verbetering"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/10-doorlopende-verbetering
     create: false
     delete: false
@@ -143,6 +152,7 @@ collections:
   - name: project-afsluiting
     label: "7. Project Afsluiting"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/11-project-afsluiting
     create: false
     delete: false
@@ -155,6 +165,7 @@ collections:
   - name: compliance-hub
     label: "⚖️ Compliance Hub"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/07-compliance-hub
     create: false
     delete: false
@@ -167,6 +178,7 @@ collections:
   - name: technische-standaarden
     label: "⚙️ Technische Standaarden"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/08-technische-standaarden
     create: false
     delete: false
@@ -179,6 +191,7 @@ collections:
   - name: sjablonen
     label: "📋 Sjablonen"
     label_singular: "Sjabloon"
+    summary: "{{filename}}"
     folder: docs/09-sjablonen
     create: false
     delete: false
@@ -191,6 +204,7 @@ collections:
   - name: overdracht-checklist
     label: "Overdracht Checklist"
     label_singular: "Checklist"
+    summary: "{{filename}}"
     folder: docs/05-fase-levering/04-sjablonen
     create: false
     delete: false
@@ -203,6 +217,7 @@ collections:
   - name: snelstart-90-dagen
     label: "🚀 Snelstart (90 Dagen)"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/12-90-dagen-roadmap
     create: false
     delete: false
@@ -213,6 +228,7 @@ collections:
   - name: organisatieprofielen
     label: "👥 Organisatieprofielen"
     label_singular: "Profiel"
+    summary: "{{filename}}"
     folder: docs/13-organisatieprofielen
     create: false
     delete: false
@@ -223,6 +239,7 @@ collections:
   - name: drie-tracks
     label: "🛤️ Drie Tracks"
     label_singular: "Track"
+    summary: "{{filename}}"
     folder: docs/14-drie-tracks
     create: false
     delete: false
@@ -233,6 +250,7 @@ collections:
   - name: accelerators
     label: "⚡ Accelerators"
     label_singular: "Accelerator"
+    summary: "{{filename}}"
     folder: docs/15-accelerators
     create: false
     delete: false
@@ -245,6 +263,7 @@ collections:
   - name: termenlijst
     label: "📖 Termenlijst"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/termenlijst
     create: false
     delete: false
@@ -255,6 +274,7 @@ collections:
   - name: bronnen
     label: "📚 Bronnen & Bijlagen"
     label_singular: "Pagina"
+    summary: "{{filename}}"
     folder: docs/16-bronnen
     create: false
     delete: false
