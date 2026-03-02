@@ -90,9 +90,7 @@ jobs:
     name: Build & Deploy PDF (nl)
     runs-on: ubuntu-latest
     needs: quality
-    if: |
-      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
-      (github.event_name == 'workflow_dispatch' && inputs.build_pdf == true)
+    if: github.event_name == 'workflow_dispatch' && inputs.build_pdf == true
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
