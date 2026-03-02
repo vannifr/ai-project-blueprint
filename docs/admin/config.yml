@@ -15,7 +15,6 @@ backend:
   repo: vannifr/ai-project-blueprint
   branch: main
   base_url: https://api.netlify.com
-  site_domain: adorable-youtiao-fb2f88.netlify.app
 
 # Inschakelen voor lokale ontwikkeling (werkt met npx @staticcms/proxy-server)
 local_backend: true
