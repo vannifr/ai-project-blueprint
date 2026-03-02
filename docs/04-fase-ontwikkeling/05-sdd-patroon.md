@@ -164,7 +164,7 @@ Definieer hoe het systeem faalt (*Graceful Degradation*). Een "wit scherm" of ee
 
 | Scenario                                     | Verwacht Gedrag                                                                                                            |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Geen antwoord mogelijk / Hallucinatie-risico | "Ik heb hier niet genoeg informatie over in mijn kennisbank." + Doorverwijzing naar menselijke expert.                     |
+| Geen antwoord mogelijk / Hallucinatie-risico | "Ik heb hier niet genoeg informatie over in mijn kennisbank." + Doorverwijzing naar een menselijke expert.                 |
 | Service Down / API Error                     | Melding "De AI-assistent is tijdelijk niet beschikbaar" + Tonen van alternatieve route (bijv. telefoonnummer of zoekbalk). |
 | Rode Lijn getriggerd                         | Neutrale weigering ("Ik kan deze vraag niet beantwoorden vanwege veiligheidsrichtlijnen").                                 |
 
