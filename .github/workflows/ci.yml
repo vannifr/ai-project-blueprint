@@ -41,6 +41,7 @@ jobs:
 
       - name: Auto-format markdown (mdformat)
         run: |
+          pip install mdformat==0.7.17 mdformat-gfm mdformat-frontmatter mdformat-tables mdformat-toc mdformat-mkdocs
           mdformat docs/
           if ! git diff --quiet; then
             git config user.name "github-actions[bot]"
