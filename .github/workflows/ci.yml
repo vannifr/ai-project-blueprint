@@ -48,30 +48,25 @@ jobs:
       - name: Build MkDocs (Strict, NL only)
         run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=false HTMLPROOFER_ENABLED=true mkdocs build --strict
 
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-html
+          path: site/
+          retention-days: 1
+
   deploy:
     name: Deploy naar Netlify (HTML)
     runs-on: ubuntu-latest
     needs: quality
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    timeout-minutes: 15
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
         with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Build MkDocs (NL)
-        env:
-          MKDOCS_BUILD_I18N: "false"
-        run: mkdocs build
+          name: site-html
+          path: site/
 
       - name: Deploy naar Netlify
         uses: nwtgck/actions-netlify@v3
@@ -124,10 +119,11 @@ jobs:
       - name: Bewaar verwerkte PDF
         run: cp site/pdf/ai-project-blauwdruk.pdf /tmp/ai-project-blauwdruk.pdf
 
-      - name: Build HTML site (NL)
-        env:
-          MKDOCS_BUILD_I18N: "false"
-        run: mkdocs build
+      - name: Download HTML site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-html
+          path: site/
 
       - name: Voeg PDF toe aan site
         run: mkdir -p site/pdf && cp /tmp/ai-project-blauwdruk.pdf site/pdf/ai-project-blauwdruk.pdf
