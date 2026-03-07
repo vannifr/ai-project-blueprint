@@ -6,37 +6,225 @@ ______________________________________________________________________
 
 <!-- SOURCE: docs/index.en.md -->
 
-# Welcome to the AI Project Blueprint
+# 1. Welcome to the AI Project Blueprint
 
-!!! info "Translation in progress"
-    This page is being translated. See the [Dutch original](index.md).
+## 1. Your Blueprint for AI Project Management
+
+This is the central documentation hub for successfully managing AI projects, based on the **Core Principles** of behavioural steering, traceability and human oversight.
+
+______________________________________________________________________
+
+## 2. Quick Start
+
+- **[Reader's Guide & Navigation](00-strategisch-kader/00-leeswijzer.md):** How to use this blueprint most effectively.
+- **[Roles & Responsibilities](08-rollen-en-verantwoordelijkheden/index.md):** Who does what in an AI team?
+- **[Quick Start: AI Project in 90 Days](12-90-dagen-roadmap/index.md):** Go directly from strategy to action.
+- **[The Toolkit](09-sjablonen/index.md):** All templates and checklists in one place.
+- **<a href="pdf/ai-project-blauwdruk.pdf">Download full blueprint (PDF)</a>:** The complete AI Project Blueprint as a single PDF file.
+
+______________________________________________________________________
+
+## 3. Documentation Overview
+
+### Strategic Framework & Foundations
+
+- [Strategic Framework](00-strategisch-kader/01-ai-levenscyclus.md)
+- [Core Principles](01-ai-native-fundamenten/01-definitie.md)
+- [Risk Management & Compliance](07-compliance-hub/index.md)
+- [Roles & Responsibilities](08-rollen-en-verantwoordelijkheden/index.md)
+
+### The AI Lifecycle (Phase Modules)
+
+1. **[Discovery & Strategy](02-fase-ontdekking/01-doelstellingen.md):** Understanding the problem.
+1. **[Validation](03-fase-validatie/01-doelstellingen.md):** Proving it works (**Validation Pilot**).
+1. **[Realisation](04-fase-ontwikkeling/01-doelstellingen.md):** Building the solution (**Specification-first**).
+1. **[Delivery](05-fase-levering/01-doelstellingen.md):** Safe **Go-live**.
+1. **[Monitoring & Optimisation](06-fase-monitoring/01-doelstellingen.md):** Retaining value (**Performance degradation**).
+
+______________________________________________________________________
+
+## 4. About this Blueprint
+
+The AI Project Blueprint is a modular, normative methodology for setting up, executing and managing AI projects. The blueprint describes the full lifecycle — from strategic discovery to operational management — and provides concrete templates, checklists and evidence standards with which organisations can deploy AI systems in a controllable, traceable and responsible manner.
+
+**Authors:** Frederik Vannieuwenhuyse, Hadrien-Joseph van Durme
+
+______________________________________________________________________
 
 ______________________________________________________________________
 
 <!-- SOURCE: docs/release-notes.en.md -->
 
-# Release Notes
+# 1. Release Notes
 
-!!! info "Translation in progress"
-    This page is being translated. See the [Dutch original](release-notes.md).
+## 1. Release 1.0 (2026-02-01) — Pre-Live Baseline
+
+### Summary
+
+- First release of the standardised AI Project Blueprint.
+- Uniform version management introduced via a new "Document management" block in each document.
+- Version remains at **1.0** until the trial period and initial feedback round is completed.
+
+### Key changes
+
+- **Executive Summary (Strategic Framework.01):** New executive summary and implementation roadmap.
+- **Fast Lane (Discovery & Strategy.FL):** Accelerated procedure for AI experiments with minimal risk.
+- **Technical Standards:** Concrete criteria for "production-ready" and introduction of an automation ladder.
+- **Quick Start: AI Project in 90 Days:** Fully elaborated 13-week plan for teams.
+- **Privacy-by-Design:** New template (**TMP-09.07 Data & Privacy Sheet**) and DPIA triggers in the Risk Pre-Scan (**TMP-09.03**).
+- **Evidence Standards (AI-Native Foundations.07):** Strict standards for validation and reporting (**TMP-09.06**).
+
+### Breaking changes
+
+- From v1.0, teams must submit the new **Objective Card Validation Report** for Gate 2 (Validation Pilot investment) and Gate 3 (Production-ready).
+- Evidence must comply with the specific standards (factuality, relevance, etc.) as laid down in **Evidence Standards**.
+
+### Navigation & Structure
+
+- Structure in `mkdocs.yml` fully revised for better findability.
+- All internal links checked for integrity.
+
+______________________________________________________________________
+
+## 2. Planned Content (v1.1)
+
+The following sections will be elaborated in a future version of the AI Project Blueprint:
+
+### Operational Phases
+
+- **6. Continuous Improvement:** Retrospectives, Kaizen Logs, Metrics Dashboards, Benefits Realisation
+- **7. Project Closure:** Lessons Learned, Handover Procedures, Benefits Realisation
+
+### Transformation & Growth
+
+- **The Three Tracks:** Strategic Reinvention, Operational Redesign, AI-First Business Model, Track Sequence
+- **Accelerators:** Strategic, Operational and Business Model Accelerators
+- **Outcomes (90-Day Roadmap):** Capacity outcomes and measurement results
+
+### Discovery & Strategy
+
+- **HAS-H Assessment:** Full assessment procedure for AI collaboration modes
+- **Phase 1 Templates:** Additional templates for the discovery phase
+
+### Other
+
+- **Profile Assessment:** Self-assessment tool for organisation profiles
+
+______________________________________________________________________
+
+## 3. Technical Backlog
+
+| #     | Topic              | Details                                                                                                                 |
+| ----- | ------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| TB-01 | **Set `site_url`** | Canonical URL tags and sitemap require a `site_url` in `mkdocs.yml`. To be added once the public domain is established. |
 
 ______________________________________________________________________
 
 <!-- SOURCE: docs/00-strategisch-kader/00-executive-summary.en.md -->
 
-# Executive Summary
+# 1. Executive Summary
 
-!!! info "Translation in progress"
-    This page is being translated. See the [Dutch original](00-executive-summary.md).
+## 1. What is this Blueprint?
+
+This Blueprint is a **modular methodology** for AI projects (from idea to management) in which we approach AI as **behavioural steering**: we manage not only code, but also *Objective Definition*, *Hard Boundaries*, *System Prompts* and *Evidence*.
+
+This blueprint applies to both AI systems that support (such as advice, analysis or content generation) and AI systems that independently execute tasks within pre-established frameworks. As a system gains more autonomy, additional requirements apply for documentation, oversight and evidence, so that human ownership, controllability and accountability are maintained.
+
+## 2. Who is this for?
+
+- **Board & MT:** making choices, managing risks, justifying investment
+- **Product & Business owners:** selecting use cases, delivering value, ensuring adoption
+- **IT/Engineering:** building, testing, integrating, setting up operational management
+- **Compliance/Legal/Privacy:** making EU AI Act + GDPR verifiable, working audit-ready
+
+## 3. What does this concretely deliver?
+
+1. **Faster time-to-value** via standard templates and gates
+1. **Fewer incidents** via Hard Boundaries + safety tests + incident process
+1. **Audit-ready dossier** (evidence package) for internal/external review
+1. **Repeatability**: every use case follows the same lifecycle and standard deliverables
+
+## 4. How do you use the Blueprint (quick start)?
+
+**If you start today with 1 use case:**
+
+1. Complete the **[Project Charter](../09-sjablonen/01-project-charter/template.md)** (1 A4).
+1. Do the **[Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)** and determine risk level.
+1. Create the **[Objective Card](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (incl. Hard Boundaries).
+1. Set up a **Golden Set** and test with the **[Golden Set Test](../09-sjablonen/07-validatie-bewijs/template.md)**.
+1. Record results in the **[Validation Report](../09-sjablonen/07-validatie-bewijs/validatierapport.md)**.
+1. Decide at Gate whether to proceed to Realisation/Go-live.
+
+## 5. Implementation (organisation-wide) — recommended approach
+
+- **Week 1–2:** choose 1 pilot use case + appoint core roles (AI PM, Tech Lead, Guardian).
+- **Week 3–6:** execute lifecycle (Modules 02–04), including [Evidence Standards](../01-ai-native-fundamenten/07-bewijsstandaarden.md).
+- **Week 7–8:** go-live + management (Modules 05–06).
+- **Week 9:** evaluation + update Blueprint to v1.1 based on learnings.
+
+## 6. Navigation (what should you read?)
+
+- **Start:** Reader's Guide & Executive Summary
+- **Process:** Discovery & Strategy through Monitoring & Optimisation
+- **Governance:** Compliance Hub + [Evidence Standards](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+- **Templates:** Toolkit & Templates (Project Charter through Validation Report)
 
 ______________________________________________________________________
 
 <!-- SOURCE: docs/00-strategisch-kader/00-leeswijzer.en.md -->
 
-# Reader's Guide & Navigation
+# 1. Reader's Guide & Navigation
 
-!!! info "Translation in progress"
-    This page is being translated. See the [Dutch original](00-leeswijzer.md).
+## 1. Welcome to the AI Project Blueprint
+
+This is not a document to read from A to Z. It is a toolkit. You consult what you need, when you need it.
+
+______________________________________________________________________
+
+## 2. Where should I start?
+
+### I want an overview for management
+
+Go to **[Executive Summary](00-executive-summary.md)** for a summary of the core values and implementation trajectory.
+
+### I want to experiment quickly (Fast Lane)
+
+Does your idea have **Low Risk** and fall under **Collaboration Mode 1 or 2** (e.g. internal chatbot for summaries)?
+Use the **[Fast Lane](../02-fase-ontdekking/06-fast-lane.md)**: Skip the extensive Business Case. Only fill in the [Objective Card](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) and register the project with the Guardian.
+
+### I have an idea for an AI project
+
+Go to [Discovery & Strategy](../02-fase-ontdekking/01-doelstellingen.md). Use the [Project Charter](../09-sjablonen/01-project-charter/template.md) to capture your idea on one A4.
+
+### I want to request funding or budget
+
+Go to [Validation](../03-fase-validatie/01-doelstellingen.md). Here you will learn how to set up a **Validation Pilot** and calculate the **Total Cost of Ownership**.
+
+### I am going to build or develop
+
+Go to [Realisation](../04-fase-ontwikkeling/01-doelstellingen.md) and [Risk Management](../07-compliance-hub/index.md). Make sure you complete the **Technical Model Card**.
+
+### I am from Legal or Compliance
+
+Focus on [Risk Management & Compliance](../07-compliance-hub/index.md) and the [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md). Here you will find the frameworks for safety and legislation.
+
+______________________________________________________________________
+
+## 3. How does this Blueprint work?
+
+- **Modular:** Each section stands on its own. You do not need to read everything sequentially.
+- **Action-oriented:** We do not use vague language, but checklists and templates for direct results.
+- **Traceable:** Each project delivers standard documents (**Validation Report**). This forms your dossier for the EU AI Act.
+
+______________________________________________________________________
+
+## 4. Icon Legend
+
+- 🎯 **Goal:** Why are we doing this?
+- ⚙️ **Activity:** What needs to happen?
+- ✅ **Checklist:** Are we ready?
+- ⚠️ **Risk:** Watch out!
+- 👥 **Roles:** Who is involved?
 
 ______________________________________________________________________
 
@@ -7113,9 +7301,105 @@ ______________________________________________________________________
 
 <!-- SOURCE: docs/termenlijst/index.en.md -->
 
-# Glossary
+# 1. Glossary
 
-!!! info "Translation in progress"
-    This page is being translated. See the [Dutch original](index.md).
+This document contains the definitions of the most important terms and abbreviations used in the AI Project Blueprint. We bridge the gap between technology and business by consistently using clear terminology.
+
+______________________________________________________________________
+
+## 1. A
+
+- **AI Collaboration Modes:** A five-level model that defines the relationship and division of tasks between human and AI (Instrumental through Autonomous). → [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md)
+- **Model fine-tuning:** The fine-tuning of parameters and configurations to optimise the performance of an AI model for a specific task (*Hyperparameter Tuning*).
+
+## 2. B
+
+- **Bias:** Prejudices in data or models that lead to unfair results. See also **Fairness Check**.
+- **Business Case:** The financial justification document describing the investment, expected returns (ROI) and cost-benefit analysis. Supplemented by the **Objective Card** for AI-specific goal definitions and Hard Boundaries.
+
+## 3. C
+
+- **CI/CD (Continuous Integration / Continuous Delivery):** An automatic pipeline that builds, tests and deploys code changes. In AI projects, the CI/CD pipeline also monitors model quality via automated gates (e.g. accuracy > 85% before go-live).
+- **Circuit Breaker:** An automatic stop mechanism in agentic AI systems that blocks actions or requires human approval when the system exhibits deviant behaviour or exceeds configured thresholds.
+- **Constitutional AI:** A technique in which AI systems are trained with explicit ethical principles as an anchored set of rules, so that the system consistently exhibits safe and fair behaviour.
+
+## 4. D
+
+- **Data Assessment:** The process of evaluating whether data is suitable for an AI solution based on Access, Quality and Relevance.
+- **DPIA (Data Protection Impact Assessment):** Mandatory risk analysis under GDPR for AI systems that process personal data and pose a high risk to data subjects. → [Data & Privacy Sheet](../09-sjablonen/11-privacy-data/privacyblad.md)
+
+## 5. E
+
+- **EU AI Act:** The European regulation that sets rules for the safety and ethics of AI systems. → [EU AI Act](../07-compliance-hub/01-eu-ai-act/index.md)
+- **Evidence Standards:** The minimum criteria that test results and documentation must meet to pass a Gate. Defines standards per risk level for factuality, relevance, safety and fairness. → [Evidence Standards](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+
+## 6. F
+
+- **Fairness Check:** A check or audit to detect undesired bias or discrimination in the output of an AI system. Measures differences in performance between groups (*Bias Audit*).
+- **Fast Lane:** An accelerated project route for AI applications with Minimal risk and Collaboration Mode 1-2. Requires less documentation but retains core governance. → [Fast Lane](../02-fase-ontdekking/06-fast-lane.md)
+
+## 7. G
+
+- **Gate:** A formal decision point in the AI lifecycle where a Go/No-Go decision is made on the basis of evidence. The blueprint defines 4 gates (Gate 1 through Gate 4). → [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
+- **Golden Set:** A representative collection of test cases used to measure AI performance. Contains standard cases, edge cases and adversarial scenarios. Size varies by risk level (20–150 cases).
+- **GPU (Graphics Processing Unit):** Specialised processor widely used for training and running AI models, due to its high parallelisation capacity.
+- **Guardian:** The independent role within the project team that safeguards ethical and legal frameworks. Has veto rights when Hard Boundaries are exceeded. → [Roles & Responsibilities](../08-rollen-en-verantwoordelijkheden/index.md)
+
+## 8. H
+
+- **Hard Boundaries:** The strict limits and safety frameworks that an AI system must never exceed (*Constraints / Guardrails*).
+- **Human-in-the-loop:** A working method in which a human supervises or plays a decisive role in an AI-driven process.
+
+## 9. K
+
+- **Knowledge Coupling:** Connecting an AI model to specific business information or documents to make answers more relevant and accurate (*Retrieval-Augmented Generation / RAG*).
+
+## 10. L
+
+- **LLM (Large Language Model):** A large-scale language model trained on extensive text corpora, capable of generating, summarising and reasoning about text. Examples include models in the GPT, Claude and Gemini families.
+
+## 11. M
+
+- **MLOps (Machine Learning Operations):** The combination of practices, processes and tools for reliably building, testing, deploying and monitoring ML models in production. It is the ML counterpart of DevOps.
+- **Model Card:** Short name for **Technical Model Card**. The technical accountability document for developers and auditors. → [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md)
+- **Mode 1–5 (AI Collaboration Modes):** The five collaboration levels between human and AI: Mode 1 (Instrumental), Mode 2 (Advisory), Mode 3 (Collaborative), Mode 4 (Delegating), Mode 5 (Autonomous). → [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md)
+- **Monitoring & Optimisation:** The phase after go-live focused on monitoring performance, costs and compliance.
+
+## 12. O
+
+- **Objective Card:** The AI-specific steering document that combines the **Objective Definition** (what do we want to achieve), **Hard Boundaries** (what must never happen) and **System Prompts** (how do we steer behaviour). Core artefact for every AI solution (*Intent Map*). → [Objective Card template](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+
+## 13. P
+
+- **Performance degradation:** The phenomenon in which the accuracy or relevance of a model decreases over time due to changes in data or the world (*Model Drift / Data Drift*). → [Drift Detection](../06-fase-monitoring/05-drift-detectie.md)
+
+## 14. R
+
+- **RACI:** A matrix for assigning roles: **R**esponsible (executor), **A**ccountable (final responsible), **C**onsulted (consulted), **I**nformed (informed). Each activity has exactly one A.
+- **Realisation:** The phase in which the AI solution is technically built and extensively tested.
+- **ROI (Return on Investment):** The ratio between the return and the investment of a project or system, expressed as a percentage or absolute value.
+
+## 15. S
+
+- **SLO (Service Level Objective):** A measurable target for the quality or availability of a service, such as "latency P95 \< 2 seconds" or "uptime > 99.5%". Lower than an SLA but internally binding for the team.
+- **Specification-Driven Development (SDD):** A method in which tests and specifications are drawn up before implementation. First define what the system must do and what it must never do, then build (*Spec-First / Test-Driven Development*). → [Spec-Driven Development](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
+- **System Prompts:** The collection of information, instructions and configurations that determine how the AI behaves (*Prompts / Context Artifacts*). → [Prompt Engineering template](../09-sjablonen/10-prompt-engineering/template.md)
+
+## 16. T
+
+- **Technical Model Card:** The technical accountability document for developers and auditors. Describes model version, architecture, data sources and configuration. → [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md)
+- **Total Cost of Ownership:** An integral calculation of all costs (investment + operations) and expected returns (ROI).
+
+## 17. U
+
+- **Uncontrolled AI use:** The uncontrolled or unmanaged use of AI tools within an organisation (*Shadow AI*).
+- **Usage costs:** The variable costs of running an AI system, such as API tokens or cloud computing time (*Inference costs*).
+
+## 18. V
+
+- **Validation Pilot (PoV):** A small-scale, controlled experiment to prove that an AI solution works in the intended context (*Proof of Value / PoV*). → [Phase 2: Validation](../03-fase-validatie/01-doelstellingen.md)
+- **Validation Report:** The evidence document that, using objective test data, demonstrates that an AI system meets the stated objectives and the standards from the Evidence Standards. Contains test results, metrics and conclusions (*Evidence Report*). Note: this is a different document from the Data & Privacy Sheet (GDPR-related). → [Validation Report template](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
+
+______________________________________________________________________
 
 ______________________________________________________________________
