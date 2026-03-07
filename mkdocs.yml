@@ -92,40 +92,8 @@ plugins:
             "📋 Sjablonen & Hulpmiddelen": "📋 Templates & Tools"
             "📊 Naslag": "📊 Reference"
             "🗒️ Release Notes": "🗒️ Release Notes"
-        - locale: fr
-          name: Français
-          build: !ENV [MKDOCS_BUILD_I18N, true]
-          nav_translations:
-            "🔵 Aan de Slag": "🔵 Démarrage"
-            "📘 Strategisch Kader": "📘 Cadre Stratégique"
-            "🤖 AI-Native Fundamenten": "🤖 Fondements AI-Natifs"
-            "Verkenning & Strategie": "Découverte & Stratégie"
-            "Validatie": "Validation"
-            "Realisatie": "Réalisation"
-            "Levering": "Livraison"
-            "Beheer & Optimalisatie": "Gestion & Optimisation"
-            "⚖️ Compliance Hub": "⚖️ Hub Conformité"
-            "📋 Sjablonen & Hulpmiddelen": "📋 Modèles & Outils"
-            "📊 Naslag": "📊 Référence"
-            "🗒️ Release Notes": "🗒️ Notes de version"
-        - locale: de
-          name: Deutsch
-          build: !ENV [MKDOCS_BUILD_I18N, true]
-          nav_translations:
-            "🔵 Aan de Slag": "🔵 Einstieg"
-            "📘 Strategisch Kader": "📘 Strategischer Rahmen"
-            "🤖 AI-Native Fundamenten": "🤖 KI-Native Grundlagen"
-            "Verkenning & Strategie": "Erkundung & Strategie"
-            "Validatie": "Validierung"
-            "Realisatie": "Realisierung"
-            "Levering": "Lieferung"
-            "Beheer & Optimalisatie": "Betrieb & Optimierung"
-            "⚖️ Compliance Hub": "⚖️ Compliance-Hub"
-            "📋 Sjablonen & Hulpmiddelen": "📋 Vorlagen & Hilfsmittel"
-            "📊 Naslag": "📊 Referenz"
-            "🗒️ Release Notes": "🗒️ Versionshinweise"
   - search:
-      lang: [nl, en, fr, de]
+      lang: [nl, en]
   - git-revision-date-localized:
       locale: !ENV [MKDOCS_LANG, "nl"]
       type: date
@@ -152,7 +120,7 @@ plugins:
       ignore_urls:
         - "^http://localhost"
         - ".*\\.pdf$"
-        - "^/(en|fr|de)/.*"
+        - "^/en/.*"
       ignore_pages:
         - admin/*
 

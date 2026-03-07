@@ -1,0 +1,41 @@
+---
+versie: '1.0'
+---
+
+# 1. Checklist: Gate Reviews
+
+## 1. Purpose
+
+This document contains the criteria a project must meet in order to advance to the next phase.
+
+______________________________________________________________________
+
+## 2. Gate Review Overview
+
+!!! check "Gate 1 (Go/No-Go Discovery): From Discovery to Validation"
+
+- [ ] **Objective Definition** is recorded.
+- [ ] **Data Evaluation** is positive (Score Green/Orange).
+- [ ] **Collaboration Mode** is chosen.
+- [ ] Initial risk scan performed.
+
+!!! check "Gate 2 (Validation Pilot Investment): From Validation to Development"
+
+- [ ] **Validation Pilot** has been completed successfully (>90% score).
+- [ ] **The Cost Overview** has been approved.
+- [ ] **Hard Boundaries** are defined by the Guardian.
+
+!!! check "Gate 3 (Production-Ready): From Development to Delivery"
+
+- [ ] **Validation Report** is available and approved.
+- [ ] **System Prompts** are versioned and documented.
+- [ ] Users are trained for **Human Oversight**.
+    - [ ] Behavioural guidance and permitted actions are explicitly recorded and reviewed.
+    - [ ] Changes since the previous release are demonstrably tested and documented.
+    - [ ] The oversight and escalation path is clearly described.
+
+!!! check "Gate 4 (Go-Live): Deployment & Management"
+
+- [ ] Monitoring on **Performance Degradation** is active.
+- [ ] Incident procedure is known.
+- [ ] Ownership in the management phase is documented.

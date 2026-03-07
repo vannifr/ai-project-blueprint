@@ -184,8 +184,6 @@ def check_stub_pdf_exclusion(filepath: str, content: List[str]) -> List[Validati
     stub_phrases = [
         'Inhoud volgt nog', 'wordt uitgewerkt in een toekomstige versie',
         'This page is being translated',
-        'Cette page est en cours de traduction',
-        'Diese Seite wird übersetzt',
     ]
     full_text = ''.join(content)
 
@@ -363,7 +361,7 @@ def check_nav_completeness(docs_dir: Path) -> List[ValidationError]:
     nav_files = set(re.findall(r'[\w/-]+\.md', mkdocs_content))
 
     # Find all .md files on disk (skip language-suffix variants managed by i18n plugin)
-    i18n_suffixes = {'.en.md', '.fr.md', '.de.md'}
+    i18n_suffixes = {'.en.md'}
     disk_files = set()
     for md_file in docs_dir.rglob('*.md'):
         if 'site' in md_file.parts:
@@ -428,7 +426,7 @@ def main():
     files_checked = 0
 
     # Per-file checks (skip i18n translation files — stubs are checked separately)
-    i18n_suffixes = ('.en.md', '.fr.md', '.de.md')
+    i18n_suffixes = ('.en.md',)
     # Directories excluded from all checks (internal/meta files, not content)
     excluded_dirs = {'admin'}
     for md_file in sorted(docs_dir.rglob('*.md')):
@@ -446,7 +444,7 @@ def main():
     # Global checks (cross-file)
     all_errors.extend(check_nav_completeness(docs_dir))
     all_errors.extend(check_translation_coverage(
-        docs_dir, languages=["en", "fr", "de"], strict=args.strict_i18n
+        docs_dir, languages=["en"], strict=args.strict_i18n
     ))
 
     # Print results
