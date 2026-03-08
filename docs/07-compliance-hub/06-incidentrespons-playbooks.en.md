@@ -57,7 +57,7 @@ ______________________________________________________________________
 ### Step 1 — Detection & First Action (0–15 min)
 
 - [ ] Classify type: **access violation** / **data leakage** / **system misuse**
-- [ ] Activate [Circuit Breaker](05-incidentrespons.md#3-circuit-breaker) if active threat
+- [ ] Activate [Circuit Breaker](05-incidentrespons.md) if active threat
 - [ ] Immediately notify: Security/CISO, Guardian, Legal
 - [ ] Preserve evidence: export logs, take screenshots, record timeline
 

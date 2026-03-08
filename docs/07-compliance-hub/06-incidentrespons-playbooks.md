@@ -56,7 +56,7 @@ ______________________________________________________________________
 ### Stap 1 — Detectie & Eerste Actie (0–15 min)
 
 - [ ] Classificeer type: **toegangsschending** / **datalekkage** / **misbruik van systeem**
-- [ ] Activeer [Circuit Breaker](05-incidentrespons.md#3-circuit-breaker) indien actieve dreiging
+- [ ] Activeer [Circuit Breaker](05-incidentrespons.md) indien actieve dreiging
 - [ ] Notificeer onmiddellijk: Security/CISO, Guardian, Legal
 - [ ] Preserveer bewijs: exporteer logs, maak screenshots, noteer tijdlijn
 
