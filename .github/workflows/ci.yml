@@ -48,6 +48,11 @@ jobs:
             git push
           fi
 
+      - name: Re-checkout (shallow, for fast git-revision-date)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
 
