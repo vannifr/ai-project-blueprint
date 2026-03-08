@@ -65,11 +65,11 @@ jobs:
           retention-days: 1
 
   deploy:
-    name: Deploy naar Netlify (HTML)
+    name: Deploy naar FTP (HTML)
     runs-on: ubuntu-latest
     needs: quality
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - name: Download site artifact
         uses: actions/download-artifact@v4
@@ -77,14 +77,14 @@ jobs:
           name: site-html
           path: site/
 
-      - name: Deploy naar Netlify
-        uses: nwtgck/actions-netlify@v3
+      - name: Deploy naar FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          publish-dir: './site'
-          production-deploy: true
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_PROJECT_ID }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./site/
+          dangerous-clean-slate: false
 
   pdf:
     name: Build & Deploy PDF (nl)
@@ -135,14 +135,14 @@ jobs:
       - name: Voeg PDF toe aan site
         run: mkdir -p site/pdf && cp /tmp/ai-project-blauwdruk.pdf site/pdf/ai-project-blauwdruk.pdf
 
-      - name: Deploy naar Netlify (met PDF)
-        uses: nwtgck/actions-netlify@v3
+      - name: Deploy naar FTP (met PDF)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          publish-dir: './site'
-          production-deploy: true
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_PROJECT_ID }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./site/
+          dangerous-clean-slate: false
 
       - name: Upload PDF als artifact
         uses: actions/upload-artifact@v4
