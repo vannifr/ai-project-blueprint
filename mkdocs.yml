@@ -3,9 +3,6 @@ site_url: https://ai-project-blueprint.netlify.app/
 site_description: Modulaire documentatie voor AI-projectmanagement (PMI-CPMAI & Agile-AI).
 site_author: AI Project Playbook Team
 copyright: '&copy; 2026 AI Project Blauwdruk. Gelicenseerd onder CC BY-NC-SA 4.0.'
-exclude_docs: |
-  admin/SETUP.md
-
 extra:
   noindex: true
 
@@ -130,8 +127,7 @@ plugins:
         - "^http://localhost"
         - ".*\\.pdf$"
         - "^/en/.*"
-      ignore_pages:
-        - admin/*
+      ignore_pages: []
 
 nav:
   - 🏠 Startpagina: index.md
