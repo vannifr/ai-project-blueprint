@@ -84,6 +84,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./site/
+          server-dir: /ai-project-blueprint/
           dangerous-clean-slate: true
 
   pdf:
@@ -142,6 +143,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./site/
+          server-dir: /ai-project-blueprint/
           dangerous-clean-slate: true
 
       - name: Upload PDF als artifact
