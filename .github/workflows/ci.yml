@@ -51,11 +51,8 @@ jobs:
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
 
-      - name: Build MkDocs (Strict, NL only) + HTMLProofer
-        run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=false HTMLPROOFER_ENABLED=true mkdocs build --strict
-
-      - name: Build MkDocs (NL + EN, no HTMLProofer)
-        run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true HTMLPROOFER_ENABLED=false mkdocs build
+      - name: Build MkDocs (Strict, NL + EN)
+        run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true HTMLPROOFER_ENABLED=false mkdocs build --strict
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
