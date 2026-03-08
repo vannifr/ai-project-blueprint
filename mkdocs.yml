@@ -119,7 +119,7 @@ plugins:
   - git-revision-date-localized:
       locale: !ENV [MKDOCS_LANG, "nl"]
       type: date
-      enable_parallel_processing: false
+      enable_parallel_processing: true
       fallback_to_build_date: true
   - exporter:
       formats:
