@@ -11,7 +11,7 @@ on:
         default: false
 
 concurrency:
-  group: ci
+  group: ci-${{ github.event_name == 'workflow_dispatch' && inputs.build_pdf == true && 'pdf' || 'main' }}
   cancel-in-progress: true
 
 jobs:
@@ -32,16 +32,13 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          pip install pre-commit
+        run: pip install -r requirements.txt pre-commit
 
       - name: Run Pre-commit hooks
         run: SKIP=no-commit-to-branch,mdformat pre-commit run --all-files
 
       - name: Auto-format markdown (mdformat)
         run: |
-          pip install mdformat==0.7.17 mdformat-gfm mdformat-frontmatter mdformat-tables mdformat-toc mdformat-mkdocs
           mdformat docs/
           if ! git diff --quiet; then
             git config user.name "github-actions[bot]"
@@ -68,7 +65,9 @@ jobs:
     name: Deploy naar FTP (HTML)
     runs-on: ubuntu-latest
     needs: quality
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: >
+      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+      (github.event_name == 'workflow_dispatch' && inputs.build_pdf != true)
     timeout-minutes: 10
     steps:
       - name: Download site artifact

@@ -6,3 +6,9 @@ mkdocs-git-revision-date-localized-plugin>=1.5,<2.0
 mkdocs-exporter[pdf]>=6.2,<7.0
 reportlab>=4.4,<5.0
 pypdf>=6.0,<7.0
+mdformat==0.7.17
+mdformat-gfm
+mdformat-frontmatter
+mdformat-tables
+mdformat-toc
+mdformat-mkdocs
