@@ -13,6 +13,8 @@ ______________________________________________________________________
 
 ## 2. Quick Start
 
+- 🧭 **[Blueprint Navigator](00-navigator/index.md):** Interactive wizard — find your starting point in 5 minutes.
+- 🚀 **[Explorer Kit (30 Days)](00-explorer-kit/index.md):** First AI prototype in 30 days — templates, scaffold code and day-by-day plan.
 - **[Reader's Guide & Navigation](00-strategisch-kader/00-leeswijzer.md):** How to use this blueprint most effectively.
 - **[Roles & Responsibilities](08-rollen-en-verantwoordelijkheden/index.md):** Who does what in an AI team?
 - **[Quick Start: AI Project in 90 Days](12-90-dagen-roadmap/index.md):** Go directly from strategy to action.

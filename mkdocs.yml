@@ -81,6 +81,13 @@ plugins:
           build: !ENV [MKDOCS_BUILD_I18N, true]
           nav_translations:
             "🔵 Aan de Slag": "🔵 Getting Started"
+            "Blueprint Navigator": "Blueprint Navigator"
+            "Verkenner Kit (30 Dagen)": "Explorer Kit (30 Days)"
+            "30-Dagen Plan": "30-Day Plan"
+            "Project Charter Light": "Project Charter Light"
+            "Risk Pre-Scan Quick": "Risk Pre-Scan Quick"
+            "Validatierapport Minimaal": "Minimal Validation Report"
+            "Scaffold Code": "Scaffold Code"
             "📘 Strategisch Kader": "📘 Strategic Framework"
             "🤖 AI-Native Fundamenten": "🤖 AI-Native Foundations"
             "Verkenning & Strategie": "Discovery & Strategy"
@@ -92,12 +99,14 @@ plugins:
             "📋 Sjablonen & Hulpmiddelen": "📋 Templates & Tools"
             "📊 Naslag": "📊 Reference"
             "🗒️ Release Notes": "🗒️ Release Notes"
+            "Changelog": "Changelog"
   - search:
       lang: [nl, en]
   - git-revision-date-localized:
       locale: !ENV [MKDOCS_LANG, "nl"]
       type: date
       enable_parallel_processing: false
+      fallback_to_build_date: true
   - exporter:
       formats:
         pdf:
@@ -127,8 +136,16 @@ plugins:
 nav:
   - 🏠 Startpagina: index.md
   - 🚀 Aan de Slag:
+    - Blueprint Navigator: 00-navigator/index.md
     - Management Samenvatting: 00-strategisch-kader/00-executive-summary.md
     - Leeswijzer & Navigatie: 00-strategisch-kader/00-leeswijzer.md
+    - Verkenner Kit (30 Dagen):
+      - Overzicht: 00-explorer-kit/index.md
+      - 30-Dagen Plan: 00-explorer-kit/01-30-dagen-plan.md
+      - Project Charter Light: 00-explorer-kit/02-project-charter-light.md
+      - Risk Pre-Scan Quick: 00-explorer-kit/03-risk-prescan-quick.md
+      - Validatierapport Minimaal: 00-explorer-kit/04-validatierapport-minimal.md
+      - Scaffold Code: 00-explorer-kit/05-scaffold-code.md
   - 🧠 Strategische Fundering:
     - AI-Native Principes:
       - Definitie & Kern: 01-ai-native-fundamenten/01-definitie.md
@@ -248,4 +265,4 @@ nav:
     - Methode Index (Blueprint): 00-strategisch-kader/08-blueprint-methodologie.md
     - Bronnen & Inspiratie: 16-bronnen/index.md
     - Externe Evidence (DORA): 17-bijlagen/externe-evidence-dora.md
-    - Release Notes: release-notes.md
+    - Changelog: release-notes.md

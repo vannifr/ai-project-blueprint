@@ -1,67 +1,94 @@
 ---
-versie: '1.0'
+versie: '1.3'
 pdf: false
 ---
 
-# 1. Release Notes
+# Changelog
 
-## 1. Release 1.0 (2026-02-01) — Pre-Live Baseline
+All significant changes to the AI Project Blueprint are tracked here, most recent first.
 
-### Summary
+______________________________________________________________________
 
-- First release of the standardised AI Project Blueprint.
-- Uniform version management introduced via a new "Document management" block in each document.
-- Version remains at **1.0** until the trial period and initial feedback round is completed.
+## v1.3 — 2026-03-08
 
-### Key changes
+### New Content
 
-- **Executive Summary (Strategic Framework.01):** New executive summary and implementation roadmap.
-- **Fast Lane (Discovery & Strategy.FL):** Accelerated procedure for AI experiments with minimal risk.
-- **Technical Standards:** Concrete criteria for "production-ready" and introduction of an automation ladder.
-- **Quick Start: AI Project in 90 Days:** Fully elaborated 13-week plan for teams.
-- **Privacy-by-Design:** New template (**TMP-09.07 Data & Privacy Sheet**) and DPIA triggers in the Risk Pre-Scan (**TMP-09.03**).
-- **Evidence Standards (AI-Native Foundations.07):** Strict standards for validation and reporting (**TMP-09.06**).
+- **Blueprint Navigator** (`🚀 Getting Started › Blueprint Navigator`): Interactive 4-step wizard guiding new users to their starting point within 5 minutes. Input: role (AI PM / Tech Lead / Guardian / CAIO), organisational context and a 10-question maturity scan. Output: personalised profile (Explorer / Builder / Visionary) + recommended starting module + first 3 actions with direct links. 12 unique routes (4 personas × 3 profiles). Works in light and dark mode.
 
-### Breaking changes
+- **Explorer Kit — 30-Day Starter Programme** (`🚀 Getting Started › Explorer Kit`): Complete package for organisations without AI experience:
 
-- From v1.0, teams must submit the new **Objective Card Validation Report** for Gate 2 (Validation Pilot investment) and Gate 3 (Production-ready).
-- Evidence must comply with the specific standards (factuality, relevance, etc.) as laid down in **Evidence Standards**.
+    - **30-Day Day-by-Day Plan**: Daily checklist structured by week (Foundation → Discovery → Validation → Decision).
+    - **Project Charter Light**: Simplified 1-page project framework (vs. the full 3-page charter).
+    - **Quick Risk Pre-Scan**: 15-question risk scan with green/amber/red outcome.
+    - **Minimal Validation Report**: 2-page validation report for Gate 1 Review.
+    - **Scaffold Code**: Working Python starter code for three use cases: Document Q&A (RAG), Email Classification and Content Generation. Includes Docker-compose setup and troubleshooting guide.
 
 ### Navigation & Structure
 
-- Structure in `mkdocs.yml` fully revised for better findability.
-- All internal links checked for integrity.
+- Home page updated: Blueprint Navigator and Explorer Kit are now the first two items in "Quick Start".
+- `mkdocs.yml`: new navigation block `Explorer Kit (30 Days)` added under `🚀 Getting Started`, including English nav translations.
 
 ______________________________________________________________________
 
-## 2. Planned Content (v1.1)
+## v1.2 — 2026-03-07
 
-The following sections will be elaborated in a future version of the AI Project Blueprint:
+### New Content
 
-### Operational Phases
+- **Full English translation**: All documentation available in English via the language selector (top right). Every module has an `.en.md` counterpart.
+- **Single-file exports**: Complete blueprint as a single Markdown file (`export-nl.md`, `export-en.md`) for offline use and LLM ingestion.
 
-- **6. Continuous Improvement:** Retrospectives, Kaizen Logs, Metrics Dashboards, Benefits Realisation
-- **7. Project Closure:** Lessons Learned, Handover Procedures, Benefits Realisation
+### Content Corrections
 
-### Transformation & Growth
+- Phrasing of "referral to human expert" corrected in the SDD pattern (Phase 3).
+- 5 stub EN translations completed for priority modules.
 
-- **The Three Tracks:** Strategic Reinvention, Operational Redesign, AI-First Business Model, Track Sequence
-- **Accelerators:** Strategic, Operational and Business Model Accelerators
-- **Outcomes (90-Day Roadmap):** Capacity outcomes and measurement results
+### Infrastructure
 
-### Discovery & Strategy
-
-- **HAS-H Assessment:** Full assessment procedure for AI collaboration modes
-- **Phase 1 Templates:** Additional templates for the discovery phase
-
-### Other
-
-- **Profile Assessment:** Self-assessment tool for organisation profiles
+- FR/DE language support removed (not in use).
+- Trunk-based development: no-commit-to-branch git hook removed.
 
 ______________________________________________________________________
 
-## 3. Technical Backlog
+## v1.1 — 2026-03-02
 
-| #     | Topic              | Details                                                                                                                 |
-| ----- | ------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| TB-01 | **Set `site_url`** | Canonical URL tags and sitemap require a `site_url` in `mkdocs.yml`. To be added once the public domain is established. |
+### New Content
+
+- **Phase 4 (Development)** — Activities and Deliverables pages elaborated.
+- **Phase 5 (Delivery)** — Activities page updated with missing content.
+
+### Infrastructure
+
+- **Netlify deployment**: Hosting switched from FTP to Netlify via GitHub Actions.
+- **PDF export**: PDF automatically generated on manual CI trigger.
+- **CMS**: Decap CMS configuration improved (file names as display names).
+- Auto-format Markdown via CI removed (mdformat not compatible with CMS output).
+
+______________________________________________________________________
+
+## v1.0 — 2026-02-01
+
+### Initial Release — Pre-Live Baseline
+
+First release of the standardised AI Project Blueprint. Version set to **1.0** until the trial period and initial feedback round is completed.
+
+### Content
+
+- **Strategic Framework**: Executive summary, AI lifecycle, hybrid Agile-AI methodology, governance model, AI collaboration modes (HAS-H levels), organisational reinvention.
+- **AI-Native Foundations**: Definition, normative criteria, artefact model, validation model, risk classification, SDD pattern, evidence standards.
+- **Lifecycle Phases**: All 5 phases elaborated (Discovery & Strategy, Validation, Development, Delivery, Monitoring & Optimisation).
+- **Compliance Hub**: EU AI Act, risk management, ethical guidelines, validation requirements, incident response.
+- **Technical Standards**: MLOps, data pipelines, model governance, test frameworks, AI architecture.
+- **Toolkit**: All templates — Project Charter, Business Case, Model Card, Risk Analysis, Gate Reviews, Validation Report, Traceability, Prompt Engineering, Privacy & Data.
+- **Transformation & Growth**: 90-Day Roadmap, Organisation Profiles (Explorer / Builder / Visionary), Three Tracks, Accelerators.
+- **Reference**: Glossary, Blueprint Methodology, Sources & Inspiration, DORA 2025 external evidence.
+
+### Breaking Changes
+
+- From v1.0: Gate 2 (PoV Investment) and Gate 3 (Production-ready) require the **Objective Card Validation Report**.
+- Evidence must comply with evidence standards (factuality, relevance, completeness).
+
+### Technical Backlog (open)
+
+| #     | Topic                                             | Status |
+| :---- | :------------------------------------------------ | :----- |
+| TB-01 | Set `site_url` for canonical URL tags and sitemap | Open   |

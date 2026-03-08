@@ -12,6 +12,8 @@ ______________________________________________________________________
 
 ## 2. Snel Starten
 
+- 🧭 **[Blueprint Navigator](00-navigator/index.md):** Interactieve wizard — vindt uw startpunt in 5 minuten.
+- 🚀 **[Verkenner Kit (30 Dagen)](00-explorer-kit/index.md):** Eerste AI-prototype in 30 dagen — templates, scaffold code en dag-tot-dag plan.
 - 📖 **[Leeswijzer & Navigatie](00-strategisch-kader/00-leeswijzer.md):** Hoe u deze blauwdruk het meest effectief gebruikt.
 - 👥 **[Rollen & Verantwoordelijkheden](08-rollen-en-verantwoordelijkheden/index.md):** Wie doet wat in een AI-team?
 - 📅 **[Snelstart: AI-Project in 90 Dagen](12-90-dagen-roadmap/index.md):** Ga direct van strategie naar actie.

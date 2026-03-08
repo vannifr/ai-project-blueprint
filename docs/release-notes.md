@@ -1,66 +1,93 @@
 ---
-versie: '1.0'
+versie: '1.3'
 ---
 
-# 1. Release Notes
+# Changelog
 
-## 1. Release 1.0 (2026-02-01) - Pre-Live Baseline
+Alle significante wijzigingen aan de AI Project Blauwdruk worden hier bijgehouden, nieuwste bovenaan.
 
-### Samenvatting
+______________________________________________________________________
 
-- Eerste release van de gestandaardiseerde AI Project Blauwdruk.
-- Eenduidig versiebeheer geïntroduceerd via een nieuw "Documentbeheer" blok in elk document.
-- Versie staat op **1.0** totdat de proefperiode en initiële feedbackronde is afgerond.
+## v1.3 — 2026-03-08
 
-### Belangrijkste wijzigingen
+### Nieuwe Inhoud
 
-- **Managementsamenvatting (Strategisch Kader.01)**: Nieuwe managementsamenvatting en implementatie-stappenplan.
-- **Snelle Route (Fast Lane, Verkenning & Strategie.FL)**: Versnelde procedure voor AI-experimenten met een minimaal risico.
-- **Technische Standaarden (Technische Standaarden)**: Concrete criteria voor "productiewaardig" en de introductie van een automation ladder.
-- **Snelstart: AI-Project in 90 Dagen**: Volledig uitgewerkt 13-weken plan voor teams.
-- **Privacy-by-Design**: Nieuwe sjabloon (**TMP-09.07 Data & Privacyblad**) en DPIA-triggers in de Risico Pre-Scan (**TMP-09.03**).
-- **Bewijsstandaarden (AI-Native Fundamenten.07)**: Strikte normen voor validatie en rapportage (**TMP-09.06**).
+- **Blueprint Navigator** (`🚀 Aan de Slag › Blueprint Navigator`): Interactieve 4-staps wizard die nieuwe gebruikers binnen 5 minuten naar hun startpunt leidt. Invoer: rol (AI PM / Tech Lead / Guardian / CAIO), organisatiecontext en 10-vragen maturity scan. Uitvoer: persoonlijk profiel (Verkenner / Bouwer / Visionair) + aanbevolen startmodule + eerste 3 acties met directe links. 12 unieke routes (4 persona's × 3 profielen). Werkt in light- en dark mode.
 
-### Breaking changes
+- **Verkenner Kit — 30-Dagen Startprogramma** (`🚀 Aan de Slag › Verkenner Kit`): Volledig pakket voor organisaties zonder AI-ervaring:
 
-- Teams moeten vanaf v1.0 het nieuwe **Doelkaart Validatierapport** aanleveren voor Gate 2 (Investering PoV) en Gate 3 (Productie-klaar).
-- Bewijs moet voldoen aan de specifieke normen (feitelijkheid, relevantie, etc.) zoals vastgelegd in **Bewijsstandaarden**.
+    - **30-Dagen Dag-tot-Dag Plan**: Checklist per dag, gestructureerd per week (Fundament → Verkenning → Validatie → Beslissing).
+    - **Project Charter Light**: Vereenvoudigd 1-pagina projectkader (vs. het volledige 3-pagina charter).
+    - **Risk Pre-Scan Quick**: 15-vragen risicoscan met groen/oranje/rood uitkomst.
+    - **Validatierapport Minimaal**: 2-pagina validatierapport voor Gate 1 Review.
+    - **Scaffold Code**: Werkende Python-startcode voor drie use cases: Document Q&A (RAG), E-mailclassificatie en Contentgeneratie. Inclusief Docker-compose setup en probleemoplossingsgids.
 
 ### Navigatie & Structuur
 
-- Structuur in `mkdocs.yml` volledig herzien voor betere vindbaarheid.
-- Alle interne links gecontroleerd op integriteit.
+- Startpagina bijgewerkt: Blueprint Navigator en Verkenner Kit zijn nu de eerste twee items in "Snel Starten".
+- `mkdocs.yml`: nieuw navigatieblok `Verkenner Kit (30 Dagen)` toegevoegd onder `🚀 Aan de Slag`, inclusief Engelstalige nav-vertalingen.
 
 ______________________________________________________________________
 
-## 2. Geplande Inhoud (v1.1)
+## v1.2 — 2026-03-07
 
-De volgende secties worden uitgewerkt in een toekomstige versie van de AI Project Blauwdruk:
+### Nieuwe Inhoud
 
-### Operationele Fasen
+- **Volledige Engelstalige vertaling**: Alle documentatie beschikbaar in het Engels via de taalkeuze rechtsboven. Elke module heeft een `.en.md` tegenhanger.
+- **Single-file exports**: Volledige blauwdruk als één Markdown-bestand (`export-nl.md`, `export-en.md`) voor offline gebruik en LLM-ingestie.
 
-- **6. Doorlopende Verbetering:** Retrospectives, Kaizen Logs, Metrics Dashboards, Batenrealisatie
-- **7. Project Afsluiting:** Lessons Learned, Overdracht Procedures, Batenrealisatie
+### Inhoudelijke Correcties
 
-### Transformatie & Groei
+- Formulering "verwijzing naar menselijk expert" gecorrigeerd in het SDD-patroon (Fase 3).
+- 5 stub-vertalingen (EN) afgerond voor prioritaire modules.
 
-- **De Drie Tracks:** Strategische Heruitvinding, Operationele Herontwerp, AI-First Bedrijfsmodel, Track Sequentie
-- **Accelerators:** Strategische, Operationele en Bedrijfsmodel Accelerators
-- **Uitkomsten (90 Dagen Roadmap):** Capaciteitsuitkomsten en meetresultaten
+### Infrastructuur
 
-### Verkenning & Strategie
-
-- **HAS-H Beoordeling:** Volledige assessmentprocedure voor AI-samenwerkingsmodi
-- **Fase 1 Sjablonen:** Aanvullende sjablonen voor de verkenningsfase
-
-### Overig
-
-- **Profielbeoordeling:** Zelfevaluatie-instrument voor organisatieprofielen
+- FR/DE taalondersteuning verwijderd (niet in gebruik).
+- Trunk-based development: no-commit-to-branch git hook verwijderd.
 
 ______________________________________________________________________
 
-## 3. Technische Backlog
+## v1.1 — 2026-03-02
 
-| #     | Onderwerp                | Details                                                                                                                        |
-| ----- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| TB-01 | **`site_url` instellen** | Canonical URL-tags en sitemap vereisen een `site_url` in `mkdocs.yml`. Toe te voegen zodra het publieke domein is vastgesteld. |
+### Nieuwe Inhoud
+
+- **Fase 4 (Realisatie)** — Activiteiten en Afleveringen pagina's uitgewerkt.
+- **Fase 5 (Levering)** — Activiteiten pagina bijgewerkt met ontbrekende inhoud.
+
+### Infrastructuur
+
+- **Netlify deployment**: Hosting overgestapt van FTP naar Netlify via GitHub Actions.
+- **PDF-export**: PDF automatisch gegenereerd bij handmatige CI-trigger.
+- **CMS**: Decap CMS-configuratie verbeterd (bestandsnamen als weergavenaam).
+- Auto-format Markdown via CI verwijderd (mdformat niet compatibel met CMS-output).
+
+______________________________________________________________________
+
+## v1.0 — 2026-02-01
+
+### Initiële Release — Pre-Live Baseline
+
+Eerste release van de gestandaardiseerde AI Project Blauwdruk. Versie op **1.0** tot de proefperiode en feedbackronde is afgerond.
+
+### Inhoud
+
+- **Strategisch Kader**: Managementsamenvatting, AI-levenscyclus, hybride Agile-AI methodologie, governance model, AI-samenwerkingsmodi (HAS-H niveaus), organisatorische heruitvinding.
+- **AI-Native Fundamenten**: Definitie, normatieve criteria, artefact model, validatie model, risicoclassificatie, SDD-patroon, bewijsstandaarden.
+- **Levenscyclusfasen**: Alle 5 fases uitgewerkt (Verkenning & Strategie, Validatie, Realisatie, Levering, Beheer & Optimalisatie).
+- **Compliance Hub**: EU AI Act, risicobeheer, ethische richtlijnen, validatie-eisen, incident respons.
+- **Technische Standaarden**: MLOps, data pipelines, model governance, test frameworks, AI-architectuur.
+- **Toolkit**: Alle sjablonen — Project Charter, Business Case, Modelkaart, Risicoanalyse, Gate Reviews, Validatierapport, Traceerbaarheid, Prompt Engineering, Privacy & Data.
+- **Transformatie & Groei**: 90-Dagen Roadmap, Organisatieprofielen (Verkenner / Bouwer / Visionair), Drie Tracks, Accelerators.
+- **Naslag**: Termenlijst, Blueprint Methodologie, Bronnen & Inspiratie, DORA 2025 externe evidentie.
+
+### Breaking Changes
+
+- Vanaf v1.0: Gate 2 (Investering PoV) en Gate 3 (Productie-klaar) vereisen het **Doelkaart Validatierapport**.
+- Bewijs moet voldoen aan de bewijsstandaarden (feitelijkheid, relevantie, volledigheid).
+
+### Technische Backlog (openstaand)
+
+| #     | Onderwerp                                               | Status |
+| :---- | :------------------------------------------------------ | :----- |
+| TB-01 | `site_url` instellen voor canonical URL-tags en sitemap | Open   |
