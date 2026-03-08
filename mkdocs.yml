@@ -94,6 +94,22 @@ plugins:
             "Levering": "Delivery"
             "Beheer & Optimalisatie": "Monitoring & Optimization"
             "⚖️ Compliance Hub": "⚖️ Compliance Hub"
+            "Incident Playbooks": "Incident Playbooks"
+            "Red Teaming": "Red Teaming"
+            "AI Safety Checklist": "AI Safety Checklist"
+            "Cloud vs. On-Premise": "Cloud vs. On-Premise"
+            "Kostenoptimalisatie": "Cost Optimisation"
+            "Cheatsheets": "Cheatsheets"
+            "Project Dagboek": "Project Diary"
+            "Vendor Management": "Vendor Management"
+            "Selectie Framework": "Selection Framework"
+            "RFP Template": "RFP Template"
+            "Contract Checklist": "Contract Checklist"
+            "Bewijsstandaarden": "Evidence Standards"
+            "Samenwerkingsmodi": "Collaboration Modes"
+            "Rode Lijnen": "Red Lines"
+            "Incident Respons": "Incident Response"
+            "Golden Set": "Golden Set"
             "📋 Sjablonen & Hulpmiddelen": "📋 Templates & Tools"
             "📊 Naslag": "📊 Reference"
             "🗒️ Release Notes": "🗒️ Release Notes"
@@ -208,6 +224,9 @@ nav:
       - Ethische Richtlijnen: 07-compliance-hub/03-ethische-richtlijnen.md
       - Validatie Eisen: 07-compliance-hub/04-validatie-eisen.md
       - Incident Respons: 07-compliance-hub/05-incidentrespons.md
+      - Incident Playbooks: 07-compliance-hub/06-incidentrespons-playbooks.md
+      - Red Teaming: 07-compliance-hub/07-red-teaming.md
+      - AI Safety Checklist: 07-compliance-hub/08-ai-safety-checklist.md
     - Technische Standaarden:
       - Overzicht: 08-technische-standaarden/index.md
       - MLOps Standaarden: 08-technische-standaarden/01-mloops-standaarden.md
@@ -215,6 +234,8 @@ nav:
       - Model Governance: 08-technische-standaarden/03-model-governance.md
       - Test Frameworks: 08-technische-standaarden/04-test-frameworks.md
       - AI Architectuur: 08-technische-standaarden/05-ai-architectuur.md
+      - Cloud vs. On-Premise: 08-technische-standaarden/06-cloud-vs-onpremise.md
+      - Kostenoptimalisatie: 08-technische-standaarden/07-kostenoptimalisatie.md
   - 🧰 Toolkit & Sjablonen:
     - Alle Sjablonen (Overzicht): 09-sjablonen/index.md
     - Fase 1 Sjablonen: 02-fase-ontdekking/04-sjablonen/index.md
@@ -233,6 +254,22 @@ nav:
     - Prompt Engineering: 09-sjablonen/10-prompt-engineering/template.md
     - Privacy & Data: 09-sjablonen/11-privacy-data/privacyblad.md
     - Overdracht Checklist: 05-fase-levering/04-sjablonen/overdracht-checklist.md
+    - Project Dagboek: 09-sjablonen/13-project-dagboek/template.md
+    - Vendor Management:
+      - Overzicht: 09-sjablonen/14-vendor-management/index.md
+      - Selectie Framework: 09-sjablonen/14-vendor-management/01-selectie-framework.md
+      - RFP Template: 09-sjablonen/14-vendor-management/02-rfp-template.md
+      - Contract Checklist: 09-sjablonen/14-vendor-management/03-contract-checklist.md
+    - Cheatsheets:
+      - Overzicht: 09-sjablonen/12-cheatsheets/index.md
+      - Project Charter: 09-sjablonen/12-cheatsheets/01-project-charter.md
+      - Risk Pre-Scan: 09-sjablonen/12-cheatsheets/02-risk-pre-scan.md
+      - Golden Set: 09-sjablonen/12-cheatsheets/03-golden-set.md
+      - Gate Reviews: 09-sjablonen/12-cheatsheets/04-gate-reviews.md
+      - Bewijsstandaarden: 09-sjablonen/12-cheatsheets/05-bewijsstandaarden.md
+      - Samenwerkingsmodi: 09-sjablonen/12-cheatsheets/06-samenwerkingsmodi.md
+      - Rode Lijnen: 09-sjablonen/12-cheatsheets/07-rode-lijnen.md
+      - Incident Respons: 09-sjablonen/12-cheatsheets/08-incident-respons.md
   - 📈 Transformatie & Groei:
     - Snelstart (90 Dagen):
       - Overzicht: 12-90-dagen-roadmap/index.md
