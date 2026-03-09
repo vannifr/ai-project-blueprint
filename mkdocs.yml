@@ -187,6 +187,7 @@ plugins:
             "Feedback": "Feedback"
             "Guardian Review Checklist": "Guardian Review Checklist"
             "RACI Matrix": "RACI Matrix"
+            "RAG Design Canvas": "RAG Design Canvas"
   - search:
       lang: [nl, en]
   - git-revision-date-localized:
@@ -328,6 +329,7 @@ nav:
     - Golden Set Test (Deprecated): 09-sjablonen/07-validatie-bewijs/template.md
     - Traceerbaarheid & Links: 09-sjablonen/08-traceerbaarheid-links/template.md
     - Prompt Engineering: 09-sjablonen/10-prompt-engineering/template.md
+    - RAG Design Canvas: 09-sjablonen/16-rag-design-canvas/template.md
     - Privacy & Data: 09-sjablonen/11-privacy-data/privacyblad.md
     - Overdracht Checklist: 05-fase-levering/04-sjablonen/overdracht-checklist.md
     - Project Dagboek: 09-sjablonen/13-project-dagboek/template.md
