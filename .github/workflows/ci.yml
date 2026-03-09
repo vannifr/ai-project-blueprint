@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt pre-commit
 
+      - name: Patch mkdocs-static-i18n (fix infinite loop bug)
+        run: python3 scripts/patch_i18n.py
+
       - name: Run Pre-commit hooks
         run: SKIP=no-commit-to-branch,mdformat pre-commit run --all-files
 
@@ -61,8 +64,8 @@ jobs:
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
 
-      - name: Build MkDocs (Strict, NL)
-        run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=false HTMLPROOFER_ENABLED=false mkdocs build --strict
+      - name: Build MkDocs (Strict, NL + EN)
+        run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true HTMLPROOFER_ENABLED=false mkdocs build --strict
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
@@ -115,6 +118,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Patch mkdocs-static-i18n (fix infinite loop bug)
+        run: python3 scripts/patch_i18n.py
 
       - name: Install Playwright Chromium
         run: playwright install --with-deps chromium
