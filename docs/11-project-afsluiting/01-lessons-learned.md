@@ -35,7 +35,7 @@ Organiseer één gestructureerde afsluitsessie van 3 tot 4 uur met het volledige
 
 - Hoe accuraat was onze initiële risico-inschatting (Pre-Scan)?
 - Welke datakwaliteitsproblemen verraste ons het meest?
-- Was de Gouden Set representatief genoeg? Wat zouden we anders samenstellen?
+- Was de Golden Set representatief genoeg? Wat zouden we anders samenstellen?
 - Hoe effectief was de Guardian-rol in de praktijk?
 - Welke Rode Lijnen bleken achteraf te eng of te ruim geformuleerd?
 - Waren de gekozen Samenwerkingsmodi (HAS-H) correct ingeschat?
@@ -94,6 +94,6 @@ ______________________________________________________________________
 
 - [Project Afsluiting — Overzicht](index.md)
 - [Overdracht Procedures](02-overdracht-procedures.md)
-- [Batenrealisatie](03-batenrealisatie.md)
+- [Waarderealisatie (benefits realization)](03-batenrealisatie.md)
 - [Gate Reviews Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 - [Retrospectives](../10-doorlopende-verbetering/01-retrospectives.md)

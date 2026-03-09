@@ -2,7 +2,7 @@
 versie: '1.0'
 ---
 
-# 4. Batenrealisatie (Operationeel)
+# 4. Waarderealisatie (benefits realization) (Operationeel)
 
 ## 1. Doelstelling
 
@@ -14,13 +14,13 @@ ______________________________________________________________________
 
 - Systeem is in productie en nulmeting is vastgelegd (zie [Overdracht Checklist](../05-fase-levering/04-sjablonen/overdracht-checklist.md)).
 - De originele Business Case met baten-KPI's is beschikbaar.
-- Het batenrealisatieplan is overgedragen aan de eigenaar in de beheerorganisatie.
+- Het waarderealisatie (benefits realization)plan is overgedragen aan de eigenaar in de beheerorganisatie.
 
 ______________________________________________________________________
 
 ## 3. Kernactiviteiten
 
-### Kwartaalreview Batenrealisatie
+### Kwartaalreview Waarderealisatie (benefits realization)
 
 Elke drie maanden vergelijkt de AI PM de werkelijke baten met de Business Case. De review omvat:
 
@@ -85,5 +85,5 @@ ______________________________________________________________________
 
 - [Doorlopende Verbetering — Overzicht](index.md)
 - [Metrics & Dashboards](03-metrics-dashboards.md)
-- [Project Afsluiting — Batenrealisatie](../11-project-afsluiting/03-batenrealisatie.md)
+- [Project Afsluiting — Waarderealisatie (benefits realization)](../11-project-afsluiting/03-batenrealisatie.md)
 - [Business Case sjabloon](../09-sjablonen/02-business-case/template.md)

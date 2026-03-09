@@ -37,7 +37,7 @@ ______________________________________________________________________
 
 > \[!TIP\]
 > **De Fast Lane (De Innovatie-route)**
-> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Praktijkproef**, zonder uitgebreide business case.
+> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Proof of Value (PoV)**, zonder uitgebreide business case.
 
 ### Verkenning & Strategie
 
@@ -57,9 +57,9 @@ ______________________________________________________________________
 
 #### Kernactiviteiten
 
-- **Praktijkproef (PoV):** Kleinschalig experiment om de hypothese te testen.
+- **Proof of Value (PoV) (PoV):** Kleinschalig experiment om de hypothese te testen.
 - **Het Kostenoverzicht:** Schatten van investering versus ROI.
-- **Eerlijkheidstoets (Bias Detectie):** Eerste scan op ongewenste vooroordelen in het model.
+- **Fairness audit (bias audit) (Bias Detectie):** Eerste scan op ongewenste vooroordelen in het model.
 
 ______________________________________________________________________
 
@@ -70,8 +70,8 @@ ______________________________________________________________________
 #### Kernactiviteiten
 
 - **Specificatie-eerst Methode:** Eerst tests schrijven, dan pas de implementatie.
-- **Kenniskoppeling (RAG):** De AI verbinden aan interne bedrijfsinformatie.
-- **Afstellen van het model:** Optimaliseren van de parameters en **Sturingsinstructies**.
+- **RAG (RAG):** De AI verbinden aan interne bedrijfsinformatie.
+- **Fine-tunen:** Optimaliseren van de parameters en **Prompts**.
 
 ______________________________________________________________________
 
@@ -93,7 +93,7 @@ ______________________________________________________________________
 
 #### Kernactiviteiten
 
-- **Prestatieverloop Meten:** Continu monitoren van accuraatheid en drift.
+- **Drift Meten:** Continu monitoren van accuraatheid en drift.
 - **Kostenbeheersing:** Het verbruik en de middelen optimaliseren.
 - **Feedbacklus:** Gebruikerservaringen terugkoppelen naar Fase 1.
 

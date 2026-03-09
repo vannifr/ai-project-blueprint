@@ -40,7 +40,7 @@ Doorloop deze checklist vóór significante investering:
 
 **Oplossingsvalidatie**
 
-- [ ] We hebben een Praktijkproef (minimale versie) getest met echte klanten.
+- [ ] We hebben een Proof of Value (PoV) (minimale versie) getest met echte klanten.
 - [ ] Klanten konden de waardepropositie duidelijk verwoorden.
 - [ ] De AI-kern haalt de minimale kwaliteitsdrempel (zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)).
 

@@ -29,11 +29,11 @@ ______________________________________________________________________
 
 ## 2. Scope & referenties (traceerbaarheid)
 
-**Doelkaart versie:** \[link/ID\]
+**Doelkaart (goal card) versie:** \[link/ID\]
 **Rode Lijnen versie:** \[link/ID\]
-**Sturingsinstructies versie:** \[link/ID\]
+**Prompts versie:** \[link/ID\]
 **Modelkaart versie:** \[link/ID\]
-**Testprotocol versie (Gouden Set Test):** \[link/ID\]
+**Testprotocol versie (Golden Set Test):** \[link/ID\]
 **Risico Pre-Scan (Risico Pre-Scan):** \[link/ID\]
 
 ______________________________________________________________________
@@ -42,14 +42,14 @@ ______________________________________________________________________
 
 - **Omgeving:** \[Dev/Test/Prod-simulatie\]
 - **Modelinstellingen:** \[bijv. temperature, max tokens\]
-- **Kenniskoppeling:** \[Ja/Nee\] — zo ja: welke bronset + updatefrequentie
+- **RAG:** \[Ja/Nee\] — zo ja: welke bronset + updatefrequentie
 - **Randvoorwaarden:** \[bijv. rate limits, timeouts, tooling\]
 
 ______________________________________________________________________
 
-## 4. Testsets (Gouden Set + aanvullingen)
+## 4. Testsets (Golden Set + aanvullingen)
 
-### Gouden Set
+### Golden Set
 
 - **Aantal cases:** \[minimaal volgens Bewijsstandaarden\]
 - **Herkomst:** \[tickets, e-mails, calls, formulieren...\]

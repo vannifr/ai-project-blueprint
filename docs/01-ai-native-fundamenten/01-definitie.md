@@ -56,7 +56,7 @@ Dit zijn de harde grenzen waar het systeem zich aan moet houden:
 - Veiligheid: Geen medische adviezen geven
 - Compliance: Voldoen aan AVG/GDPR
 
-### Sturingsinstructies (Context)
+### Prompts (Context)
 
 **Welke informatie stuurt het gedrag?**
 

@@ -18,7 +18,7 @@ ______________________________________________________________________
 
 ### Ontwerp & Sturing
 
-- **[De Doelkaart (Intent Map)](06-ai-native-artefacten/doelkaart.md):** Verbindt de menselijke intentie aan de technische **Sturingsinstructies**.
+- **[De Doelkaart (goal card) (Intent Map)](06-ai-native-artefacten/doelkaart.md):** Verbindt de menselijke intentie aan de technische **Prompts**.
 - **[Prompt Sjabloon](10-prompt-engineering/template.md):** Sjabloon voor het opbouwen van effectieve AI-instructies.
 - **[Technische Modelkaart](02-business-case/modelkaart.md):** Technische verantwoording voor ontwikkelaars en auditors.
 - **[Risicoanalyse](03-risicoanalyse/template.md):** Systematische risico-inventarisatie en toetsing op de **Rode Lijnen**.
@@ -26,7 +26,7 @@ ______________________________________________________________________
 ### Validatie & Beheer
 
 - **[Gate Reviews](04-gate-reviews/checklist.md):** Checklists voor de harde stop/go beslismomenten.
-- **[Validatierapport](07-validatie-bewijs/validatierapport.md):** Documentatie van de resultaten van de **Praktijkproef**.
+- **[Validatierapport](07-validatie-bewijs/validatierapport.md):** Documentatie van de resultaten van de **Proof of Value (PoV)**.
 - **[Traceerbaarheid](08-traceerbaarheid-links/template.md):** Verbinding tussen Doel Instructie Bewijs.
 
 ### Levering & Afsluiting

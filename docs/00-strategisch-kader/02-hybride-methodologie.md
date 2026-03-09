@@ -23,7 +23,7 @@ De hybride methodologie erkent dat AI-projecten enerzijds strikte mijlpalen vere
 
 ### Iteratieve Elementen (Agile)
 
-- **Afstellen van het model** en tuning.
+- **Fine-tunen** en tuning.
 - User feedback loops.
 - *Experiment-driven development*.
 - Continue verbetering (*Kaizen*).

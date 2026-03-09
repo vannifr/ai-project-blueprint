@@ -14,12 +14,12 @@ Het opzetten van pijplijnen die data automatisch opschonen en aanleveren (geen h
 - **Kwaliteitscontroles:** Automatische validatie van inkomende data
 - **Versiebeheer:** Tracking van data-wijzigingen en lineage
 
-### Kenniskoppeling & Afstellen
+### RAG & Fine-tunen
 
-Het verbinden van de AI aan interne documenten en het **Afstellen van het model** voor optimale prestaties.
+Het verbinden van de AI aan interne documenten en het **Fine-tunen** voor optimale prestaties.
 
-- **Kenniskoppeling:** Verbinden van de AI aan interne documenten, FAQ's, procedures.
-- **Prompt Engineering:** Optimaliseren van de **Sturingsinstructies**.
+- **RAG:** Verbinden van de AI aan interne documenten, FAQ's, procedures.
+- **Prompt Engineering:** Optimaliseren van de **Prompts**.
 - **Model-Afstelling:** Aanpassen van parameters voor specifieke gebruikscasus.
 
 ### Specificatie-eerst Methode
@@ -35,7 +35,7 @@ We schrijven eerst de verwachte uitkomst (de test), dan pas de implementatie. Zo
 Niet alle AI-oplossingen worden zelf gebouwd. Bij aanschaf van standaard AI-software (SaaS) verandert de focus van de Realisatie-fase:
 
 - **Van Bouwen naar Configureren:** Focus op het instellen van de juiste systeem-prompts, RAG-kennisbronnen en veiligheidsfilters binnen de leveranciersomgeving.
-- **Validatie blijft Identiek:** Ook een gekochte tool moet slagen voor de **Praktijkproef** en de **Gouden Set** test voordat deze live gaat. Vertrouw niet blind op de "demo" van de leverancier.
+- **Validatie blijft Identiek:** Ook een gekochte tool moet slagen voor de **Proof of Value (PoV)** en de **Golden Set** test voordat deze live gaat. Vertrouw niet blind op de "demo" van de leverancier.
 - **Modelkaart wordt Configuratiekaart:** Documenteer welke instellingen, plugins en data-connecties actief zijn.
 - **Vendor Lock-in Check:** Controleer of data en logs exporteerbaar zijn voor compliance (EU AI Act).
 
@@ -55,7 +55,7 @@ Elke wijziging wordt getoetst op drie dimensies:
 - **Data Pijplijnen:** Inrichten van robuuste stromen voor training en inferentie.
 - **Automated Gates (Governance-as-Code):** Integreer de **Rode Lijnen** en succes-metrics direct in de CI/CD-pipeline.
 - *Voorbeeld:* De build faalt automatisch als de bias-score te hoog is of de accuraatheid onder de drempelwaarde zakt.
-- **Continuous Testing (CT):** Geautomatiseerde evaluatie van model-outputs bij elke wijziging in de **Sturingsinstructies**.
+- **Continuous Testing (CT):** Geautomatiseerde evaluatie van model-outputs bij elke wijziging in de **Prompts**.
 
 ______________________________________________________________________
 
@@ -71,13 +71,13 @@ ______________________________________________________________________
 
 ## 2. Team & Rollen
 
-| Rol                    | Verantwoordelijkheid in Realisatie                                    |
-| ---------------------- | --------------------------------------------------------------------- |
-| **Data Scientist**     | **R**esponsible: Ontwikkeling van AI-modellen en **Kenniskoppeling**. |
-| **ML Engineer**        | **R**esponsible: Bouwen van data pipelines en infrastructuur.         |
-| **AI Product Manager** | **A**ccountable: Eigenaar van de product backlog en prioritering.     |
-| **QA Engineer**        | **R**esponsible: Uitvoeren van geautomatiseerde tests en validatie.   |
-| **DevOps**             | **C**onsulted: Adviseert over **Ingebruikname** en infrastructuur.    |
+| Rol                    | Verantwoordelijkheid in Realisatie                                  |
+| ---------------------- | ------------------------------------------------------------------- |
+| **Data Scientist**     | **R**esponsible: Ontwikkeling van AI-modellen en **RAG**.           |
+| **ML Engineer**        | **R**esponsible: Bouwen van data pipelines en infrastructuur.       |
+| **AI Product Manager** | **A**ccountable: Eigenaar van de product backlog en prioritering.   |
+| **QA Engineer**        | **R**esponsible: Uitvoeren van geautomatiseerde tests en validatie. |
+| **DevOps**             | **C**onsulted: Adviseert over **Ingebruikname** en infrastructuur.  |
 
 ______________________________________________________________________
 
@@ -85,7 +85,7 @@ ______________________________________________________________________
 
 **Sjablonen:**
 
-- [Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- [Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 - [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 
 **Verdieping:**

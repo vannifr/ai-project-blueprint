@@ -6,7 +6,7 @@ versie: '1.0'
 
 ## 1. Drie Dimensies van Validatie
 
-Elke wijziging in de **Sturingsinstructies** of kenniskoppeling moet drie validatiecategorieën doorlopen:
+Elke wijziging in de **Prompts** of RAG moet drie validatiecategorieën doorlopen:
 
 ### Syntactische Geldigheid
 

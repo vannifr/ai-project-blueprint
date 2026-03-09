@@ -12,7 +12,7 @@ Het primaire doel van de Verkenningsfase is het identificeren van het juiste pro
 
 > \[!TIP\]
 > **De Snelle Route (Fast Lane)**
-> Voor projecten met een **Laag Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Praktijkproef**. Zie voor details de **[Snelle Route (Fast Lane)](06-fast-lane.md)**.
+> Voor projecten met een **Laag Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Proof of Value (PoV)**. Zie voor details de **[Snelle Route (Fast Lane)](06-fast-lane.md)**.
 
 ## 2. Intrede Criteria (Definition of Ready)
 

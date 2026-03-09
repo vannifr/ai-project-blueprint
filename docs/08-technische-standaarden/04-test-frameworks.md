@@ -45,7 +45,7 @@ Testen van de samenwerking tussen componenten.
 - Kan externe afhankelijkheden vereisen
 - Periodiek of bij belangrijke wijzigingen
 
-### AI-gedragstests (Gouden Set)
+### AI-gedragstests (Golden Set)
 
 Testen van het AI-gedrag op representatieve scenario's.
 
@@ -64,9 +64,9 @@ Testen van het AI-gedrag op representatieve scenario's.
 
 ______________________________________________________________________
 
-## 3. De Gouden Set
+## 3. De Golden Set
 
-De Gouden Set is de centrale testset voor AI-gedrag. Zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) voor minimale eisen per risiconiveau.
+De Golden Set is de centrale testset voor AI-gedrag. Zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) voor minimale eisen per risiconiveau.
 
 ### Samenstelling
 
@@ -90,7 +90,7 @@ De Gouden Set is de centrale testset voor AI-gedrag. Zie [Bewijsstandaarden](../
 
 ### Onderhoud
 
-- Gouden Set wordt periodiek herzien (minimaal per release)
+- Golden Set wordt periodiek herzien (minimaal per release)
 - Nieuwe scenario's worden toegevoegd bij incidenten of nieuwe functionaliteit
 - Verouderde cases worden verwijderd of geupdate
 
@@ -119,7 +119,7 @@ Bronnen: \[so-1\], \[so-10\]
 ### Uitvoering
 
 - **Minimaal Risico:** Kwalitatieve steekproef door Guardian
-- **Beperkt Risico:** Gestructureerde adversarial set (minimaal 5% van Gouden Set)
+- **Beperkt Risico:** Gestructureerde adversarial set (minimaal 5% van Golden Set)
 - **Hoog Risico:** Uitgebreide adversarial testing + externe red team indien relevant
 
 ______________________________________________________________________
@@ -133,9 +133,9 @@ Het automatisch herhalen van tests bij wijzigingen om achteruitgang te detectere
 | Wijziging          | Regressietest niveau                |
 | ------------------ | ----------------------------------- |
 | Codewijziging      | Componenttests + Integratietests    |
-| Prompt-wijziging   | Integratietests + Gouden Set sample |
-| Modelversie-update | Volledige Gouden Set                |
-| Databron-wijziging | Volledige Gouden Set + Fairness     |
+| Prompt-wijziging   | Integratietests + Golden Set sample |
+| Modelversie-update | Volledige Golden Set                |
+| Databron-wijziging | Volledige Golden Set + Fairness     |
 
 ### Automatisering
 
@@ -165,7 +165,7 @@ ______________________________________________________________________
 !!! check "7. Checklist Test Framework"
     - [ ] Componenttests dekken kritieke functies
     - [ ] Integratietests valideren end-to-end flow
-    - [ ] Gouden Set is samengesteld conform [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+    - [ ] Golden Set is samengesteld conform [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
     - [ ] Adversarial scenarios zijn gedefinieerd en getest
     - [ ] Regressietest-strategie is vastgelegd
     - [ ] Evaluatiemetrics zijn gedefinieerd
@@ -177,4 +177,4 @@ ______________________________________________________________________
 
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
-- [Gouden Set Test Template](../09-sjablonen/07-validatie-bewijs/template.md)
+- [Golden Set Test Template](../09-sjablonen/07-validatie-bewijs/template.md)

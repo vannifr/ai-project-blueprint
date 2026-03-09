@@ -83,7 +83,7 @@ Eerste release van de gestandaardiseerde AI Project Blauwdruk. Versie op **1.0**
 
 ### Breaking Changes
 
-- Vanaf v1.0: Gate 2 (Investering PoV) en Gate 3 (Productie-klaar) vereisen het **Doelkaart Validatierapport**.
+- Vanaf v1.0: Gate 2 (Investering PoV) en Gate 3 (Productie-klaar) vereisen het **Doelkaart (goal card) Validatierapport**.
 - Bewijs moet voldoen aan de bewijsstandaarden (feitelijkheid, relevantie, volledigheid).
 
 ### Technische Backlog (openstaand)

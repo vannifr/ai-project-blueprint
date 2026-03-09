@@ -16,8 +16,8 @@ Deze module definieert wat "productiewaardig" betekent voor AI-oplossingen, incl
 | Niveau                        | Omschrijving                            | Voor wie          | Voorbeeld controles                  |
 | ----------------------------- | --------------------------------------- | ----------------- | ------------------------------------ |
 | **L0 Handmatig**              | Checklists + handmatige gates           | startende teams   | sjablonen ingevuld, handtekeningen   |
-| **L1 Semi**                   | vaste testset + vaste rapportage        | meeste teams      | Doelkaart elke release               |
-| **L2 Geautomatiseerd testen** | tests draaien automatisch bij wijziging | engineering teams | regressietest op Gouden Set          |
+| **L1 Semi**                   | vaste testset + vaste rapportage        | meeste teams      | Doelkaart (goal card) elke release   |
+| **L2 Geautomatiseerd testen** | tests draaien automatisch bij wijziging | engineering teams | regressietest op Golden Set          |
 | **L3 Governance-as-Code**     | policy checks blokkeren release         | mature MLOps      | release faalt zonder bewijs/metadata |
 
 ## 3. Minimum Technical Baseline (moet elk team halen)
@@ -38,7 +38,7 @@ Deze module definieert wat "productiewaardig" betekent voor AI-oplossingen, incl
     - [ ] Incidentproces is bekend (wie belt wie)
 
 !!! check "Kwaliteit & bewijs"
-    - [ ] Gouden Set bestaat en wordt gebruikt
+    - [ ] Golden Set bestaat en wordt gebruikt
     - [ ] [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md) beschikbaar voor pilot/RC
     - [ ] Voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) normen voor risiconiveau
 
@@ -54,7 +54,7 @@ Deze module definieert wat "productiewaardig" betekent voor AI-oplossingen, incl
 
 **Doel:** schaalbaar beheer bij meerdere use cases.
 
-- Automatische regressietests op Gouden Set bij elke wijziging
+- Automatische regressietests op Golden Set bij elke wijziging
 - Automatisch genereren van Validatierapport uit testruns (waar mogelijk)
 - Integratie van policy checks: "geen Validatierapport = geen release"
 

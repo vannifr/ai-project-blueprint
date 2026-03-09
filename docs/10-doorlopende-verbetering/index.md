@@ -18,6 +18,6 @@ ______________________________________________________________________
 - [Retrospectives](01-retrospectives.md)
 - [Kaizen Logs](02-kaizen-logs.md)
 - [Metrics Dashboards](03-metrics-dashboards.md)
-- [Batenrealisatie](04-batenrealisatie.md)
+- [Waarderealisatie (benefits realization)](04-batenrealisatie.md)
 
 ______________________________________________________________________

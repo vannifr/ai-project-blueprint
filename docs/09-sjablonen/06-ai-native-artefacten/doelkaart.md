@@ -2,11 +2,11 @@
 versie: '1.0'
 ---
 
-# 1. De Doelkaart (Intent Map)
+# 1. De Doelkaart (goal card) (Intent Map)
 
 ## 1. Doel
 
-De Doelkaart formaliseert de **Doeldefinitie** van het AI-project. Dit document verbindt de menselijke intentie aan de technische **Sturingsinstructies** en fungeert als de bron waaruit de AI-oplossing wordt gegenereerd.
+De Doelkaart (goal card) formaliseert de **Doeldefinitie** van het AI-project. Dit document verbindt de menselijke intentie aan de technische **Prompts** en fungeert als de bron waaruit de AI-oplossing wordt gegenereerd.
 
 ______________________________________________________________________
 
@@ -27,11 +27,11 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### B. Sturingsinstructies (Context)
+### B. Prompts (Context)
 
 *Welke kennis heeft de AI nodig om dit te doen?*
 
-- **Primaire Bronnen:** \[Bedrijfsinformatie/Handboeken voor de **Kenniskoppeling**.\]
+- **Primaire Bronnen:** \[Bedrijfsinformatie/Handboeken voor de **RAG**.\]
 - **Voorbeelden (Few-Shot):**
 - **Input:** \[Voorbeeld van een vage clausule.\]
 - **Gewenste Output:** \[Hoe de AI dit had moeten interpreteren/verbeteren.\]
@@ -51,7 +51,7 @@ ______________________________________________________________________
 
 ### D. Toetsing (Evidence)
 
-*Hoe bewijzen we dat de Doelkaart werkt? Dit is de input voor het **Validatierapport**.*
+*Hoe bewijzen we dat de Doelkaart (goal card) werkt? Dit is de input voor het **Validatierapport**.*
 
 - **Testprompt 1 (Succesval):** \[Vraag die de AI correct moet beantwoorden.\]
 - **Testprompt 2 (Adversarial):** \[Vraag die probeert de AI te laten hallucineren of de **Rode Lijnen** te laten overschrijden.\]

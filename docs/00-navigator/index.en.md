@@ -384,7 +384,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Accelerators Overview', url: '../15-accelerators/', desc: 'Reusable components for accelerated AI roll-out' },
         { label: 'Continuous Improvement', url: '../10-doorlopende-verbetering/', desc: 'Kaizen, retrospectives and continuous optimisation' },
-        { label: 'Benefits Realisation', url: '../10-doorlopende-verbetering/04-batenrealisatie/', desc: 'Demonstrate and manage ROI of your AI portfolio' }
+        { label: 'Benefits Realisation', url: '../10-doorlopende-verbetering/04-waarderealisatie (benefits realization)/', desc: 'Demonstrate and manage ROI of your AI portfolio' }
       ]
     }
   },
@@ -457,7 +457,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Governance Model (Formalise)', url: '../00-strategisch-kader/03-governance-model/', desc: 'Set up your AI governance for the long term' },
         { label: 'Continuous Improvement', url: '../10-doorlopende-verbetering/', desc: 'From project mindset to programme thinking' },
-        { label: 'Benefits Realisation', url: '../10-doorlopende-verbetering/04-batenrealisatie/', desc: 'Report ROI to management and the board' }
+        { label: 'Benefits Realisation', url: '../10-doorlopende-verbetering/04-waarderealisatie (benefits realization)/', desc: 'Report ROI to management and the board' }
       ]
     },
     Visionary: {
@@ -465,7 +465,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Organisational Reinvention', url: '../00-strategisch-kader/07-organisatorische-heruitvinding/', desc: 'AI as the foundation of your business model and culture' },
         { label: 'Strategic Reinvention (Track)', url: '../14-drie-tracks/01-strategische-heruitvinding/', desc: 'Long-term strategic transformation through AI' },
-        { label: 'Portfolio-level Benefits', url: '../10-doorlopende-verbetering/04-batenrealisatie/', desc: 'Manage and communicate the value of your AI portfolio' }
+        { label: 'Portfolio-level Benefits', url: '../10-doorlopende-verbetering/04-waarderealisatie (benefits realization)/', desc: 'Manage and communicate the value of your AI portfolio' }
       ]
     }
   }

@@ -80,42 +80,107 @@ plugins:
           name: English
           build: !ENV [MKDOCS_BUILD_I18N, true]
           nav_translations:
-            "🔵 Aan de Slag": "🔵 Getting Started"
-            "Blueprint Navigator": "Blueprint Navigator"
+            # Home
+            "🏠 Startpagina": "🏠 Home"
+            # Getting Started
+            "🚀 Aan de Slag": "🚀 Getting Started"
+            "Management Samenvatting": "Executive Summary"
+            "Leeswijzer & Navigatie": "Reading Guide & Navigation"
             "Verkenner Kit (30 Dagen)": "Explorer Kit (30 Days)"
             "30-Dagen Plan": "30-Day Plan"
-            "Project Charter Light": "Project Charter Light"
-            "Risk Pre-Scan Quick": "Risk Pre-Scan Quick"
             "Validatierapport Minimaal": "Minimal Validation Report"
-            "Scaffold Code": "Scaffold Code"
-            "📘 Strategisch Kader": "📘 Strategic Framework"
-            "🤖 AI-Native Fundamenten": "🤖 AI-Native Foundations"
-            "Verkenning & Strategie": "Discovery & Strategy"
-            "Validatie": "Validation"
-            "Realisatie": "Development"
-            "Levering": "Delivery"
-            "Beheer & Optimalisatie": "Monitoring & Optimization"
-            "⚖️ Compliance Hub": "⚖️ Compliance Hub"
-            "Incident Playbooks": "Incident Playbooks"
-            "Red Teaming": "Red Teaming"
-            "AI Safety Checklist": "AI Safety Checklist"
-            "Cloud vs. On-Premise": "Cloud vs. On-Premise"
+            # Strategic Foundation
+            "🧠 Strategische Fundering": "🧠 Strategic Foundation"
+            "AI-Native Principes": "AI-Native Principles"
+            "Definitie & Kern": "Definition & Core"
+            "Normatieve Criteria": "Normative Criteria"
+            "Artefact Model": "Artefact Model"
+            "Validatie Model": "Validation Model"
+            "Governance & Organisatie": "Governance & Organisation"
+            "Rollen & Verantwoordelijkheden": "Roles & Responsibilities"
+            "Risicoclassificatie": "Risk Classification"
+            "AI-Samenwerkingsmodi": "AI Collaboration Modes"
+            "Organisatorische Heruitvinding": "Organisational Reinvention"
+            "Methodologie": "Methodology"
+            "De AI Levenscyclus": "The AI Lifecycle"
+            "Hybride (Agile-AI)": "Hybrid (Agile-AI)"
+            "Agile Antipatronen": "Agile Anti-patterns"
+            "Project Initiatie": "Project Initiation"
+            # Operational Phases
+            "⚙️ Operationele Fasen": "⚙️ Operational Phases"
+            "1. Verkenning & Strategie": "1. Discovery & Strategy"
+            "Overzicht": "Overview"
+            "Activiteiten": "Activities"
+            "Afleveringen": "Deliverables"
+            "Fast Lane (Snelle Route)": "Fast Lane"
+            "HAS-H Beoordeling": "HAS-H Assessment"
+            "2. Validatie (PoV)": "2. Validation (PoV)"
+            "Risicotoets": "Risk Assessment"
+            "3. Realisatie": "3. Development"
+            "SDD Patroon": "SDD Pattern"
+            "4. Levering": "4. Delivery"
+            "Traceerbaarheid": "Traceability"
+            "5. Beheer & Optimalisatie": "5. Monitoring & Optimisation"
+            "Drift Detectie": "Drift Detection"
+            "6. Doorlopende Verbetering": "6. Continuous Improvement"
+            "Waarderealisatie (benefits realization)": "Benefits Realization"
+            "7. Project Afsluiting": "7. Project Closure"
+            "Overdracht": "Handover"
+            # Compliance & Technology
+            "🛡️ Compliance & Techniek": "🛡️ Compliance & Technology"
+            "Compliance Hub": "Compliance Hub"
+            "Risicobeheer": "Risk Management"
+            "Ethische Richtlijnen": "Ethical Guidelines"
+            "Validatie Eisen": "Validation Requirements"
+            "Technische Standaarden": "Technical Standards"
+            "MLOps Standaarden": "MLOps Standards"
+            "AI Architectuur": "AI Architecture"
             "Kostenoptimalisatie": "Cost Optimisation"
+            # Toolkit & Templates
+            "🧰 Toolkit & Sjablonen": "🧰 Toolkit & Templates"
+            "Alle Sjablonen (Overzicht)": "All Templates (Overview)"
+            "Fase 1 Sjablonen": "Phase 1 Templates"
+            "Business Case & Modelkaart": "Business Case & Model Card"
+            "Modelkaart": "Model Card"
+            "Risicoanalyse & Pre-scan": "Risk Analysis & Pre-scan"
+            "Risicoanalyse": "Risk Analysis"
+            "AI Artefacten (Doelkaart)": "AI Artefacts (Goal Card)"
+            "Validatierapport": "Validation Report"
+            "Golden Set Test (Deprecated)": "Golden Set Test (Deprecated)"
+            "Traceerbaarheid & Links": "Traceability & Links"
+            "Overdracht Checklist": "Handover Checklist"
             "Cheatsheets": "Cheatsheets"
-            "Project Dagboek": "Project Diary"
-            "Vendor Management": "Vendor Management"
-            "Selectie Framework": "Selection Framework"
-            "RFP Template": "RFP Template"
-            "Contract Checklist": "Contract Checklist"
             "Bewijsstandaarden": "Evidence Standards"
             "Samenwerkingsmodi": "Collaboration Modes"
             "Rode Lijnen": "Red Lines"
             "Incident Respons": "Incident Response"
-            "Golden Set": "Golden Set"
-            "📋 Sjablonen & Hulpmiddelen": "📋 Templates & Tools"
-            "📊 Naslag": "📊 Reference"
-            "🗒️ Release Notes": "🗒️ Release Notes"
-            "Changelog": "Changelog"
+            "Incident Playbooks": "Incident Playbooks"
+            "Vendor Management": "Vendor Management"
+            "Selectie Framework": "Selection Framework"
+            # Transformation & Growth
+            "📈 Transformatie & Groei": "📈 Transformation & Growth"
+            "Snelstart (90 Dagen)": "Quick Start (90 Days)"
+            "Fase 1 (Focus)": "Phase 1 (Focus)"
+            "Fase 2 (Pilot)": "Phase 2 (Pilot)"
+            "Fase 3 (Schaal)": "Phase 3 (Scale)"
+            "Uitkomsten": "Outcomes"
+            "Organisatieprofielen": "Organisation Profiles"
+            "De Verkenner": "The Explorer"
+            "De Bouwer": "The Builder"
+            "De Visionair": "The Visionary"
+            "Profielbeoordeling": "Profile Assessment"
+            "De Drie Tracks": "The Three Tracks"
+            "Strategisch": "Strategic"
+            "Operationeel": "Operational"
+            "Bedrijfsmodel": "Business Model"
+            "Volgorde": "Sequence"
+            "Accelerators": "Accelerators"
+            # Reference
+            "📚 Naslag": "📚 Reference"
+            "Termenlijst": "Glossary"
+            "Methode Index (Blueprint)": "Method Index (Blueprint)"
+            "Bronnen & Inspiratie": "Sources & Inspiration"
+            "Externe Evidence (DORA)": "External Evidence (DORA)"
   - search:
       lang: [nl, en]
   - git-revision-date-localized:
@@ -212,12 +277,12 @@ nav:
       - Retrospectives: 10-doorlopende-verbetering/01-retrospectives.md
       - Kaizen Logs: 10-doorlopende-verbetering/02-kaizen-logs.md
       - Metrics: 10-doorlopende-verbetering/03-metrics-dashboards.md
-      - Batenrealisatie: 10-doorlopende-verbetering/04-batenrealisatie.md
+      - Waarderealisatie (benefits realization): 10-doorlopende-verbetering/04-batenrealisatie.md
     - 7. Project Afsluiting:
       - Overzicht: 11-project-afsluiting/index.md
       - Lessons Learned: 11-project-afsluiting/01-lessons-learned.md
       - Overdracht: 11-project-afsluiting/02-overdracht-procedures.md
-      - Batenrealisatie: 11-project-afsluiting/03-batenrealisatie.md
+      - Waarderealisatie (benefits realization): 11-project-afsluiting/03-batenrealisatie.md
   - 🛡️ Compliance & Techniek:
     - Compliance Hub:
       - Overzicht: 07-compliance-hub/index.md
@@ -251,7 +316,7 @@ nav:
     - Gate Reviews: 09-sjablonen/04-gate-reviews/checklist.md
     - AI Artefacten (Doelkaart): 09-sjablonen/06-ai-native-artefacten/doelkaart.md
     - Validatierapport: 09-sjablonen/07-validatie-bewijs/validatierapport.md
-    - Gouden Set Test (Verouderd): 09-sjablonen/07-validatie-bewijs/template.md
+    - Golden Set Test (Deprecated): 09-sjablonen/07-validatie-bewijs/template.md
     - Traceerbaarheid & Links: 09-sjablonen/08-traceerbaarheid-links/template.md
     - Prompt Engineering: 09-sjablonen/10-prompt-engineering/template.md
     - Privacy & Data: 09-sjablonen/11-privacy-data/privacyblad.md

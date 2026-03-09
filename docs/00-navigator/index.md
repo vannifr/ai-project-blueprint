@@ -537,7 +537,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Accelerators Overzicht', url: '../15-accelerators/', desc: 'Herbruikbare componenten voor versnelde AI-uitrol' },
         { label: 'Doorlopende Verbetering', url: '../10-doorlopende-verbetering/', desc: 'Kaizen, retrospectives en continue optimalisatie' },
-        { label: 'Batenrealisatie', url: '../10-doorlopende-verbetering/04-batenrealisatie/', desc: 'Aantoon en beheer de ROI van uw AI-portfolio' }
+        { label: 'Waarderealisatie (benefits realization)', url: '../10-doorlopende-verbetering/04-waarderealisatie (benefits realization)/', desc: 'Aantoon en beheer de ROI van uw AI-portfolio' }
       ]
     }
   },
@@ -610,7 +610,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Governance Model (Formaliseer)', url: '../00-strategisch-kader/03-governance-model/', desc: 'Zet uw AI-governance op voor de lange termijn' },
         { label: 'Doorlopende Verbetering', url: '../10-doorlopende-verbetering/', desc: 'Van projectmentaliteit naar programma-denken' },
-        { label: 'Batenrealisatie', url: '../10-doorlopende-verbetering/04-batenrealisatie/', desc: 'Rapporteer ROI aan het management en de raad van bestuur' }
+        { label: 'Waarderealisatie (benefits realization)', url: '../10-doorlopende-verbetering/04-waarderealisatie (benefits realization)/', desc: 'Rapporteer ROI aan het management en de raad van bestuur' }
       ]
     },
     Visionary: {
@@ -618,7 +618,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Organisatorische Heruitvinding', url: '../00-strategisch-kader/07-organisatorische-heruitvinding/', desc: 'AI als fundament van uw bedrijfsmodel en cultuur' },
         { label: 'Strategische Heruitvinding (Track)', url: '../14-drie-tracks/01-strategische-heruitvinding/', desc: 'Strategische transformatie op de lange termijn' },
-        { label: 'Batenrealisatie op Portfolio-niveau', url: '../10-doorlopende-verbetering/04-batenrealisatie/', desc: 'Beheer en communiceer de waarde van uw AI-portfolio' }
+        { label: 'Waarderealisatie (benefits realization) op Portfolio-niveau', url: '../10-doorlopende-verbetering/04-waarderealisatie (benefits realization)/', desc: 'Beheer en communiceer de waarde van uw AI-portfolio' }
       ]
     }
   }

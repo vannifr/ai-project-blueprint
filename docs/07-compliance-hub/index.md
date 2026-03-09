@@ -30,12 +30,12 @@ De Guardian is de "Beschermheer" van de waarden van de organisatie. Deze rol is 
 - **Mandaat:** De Guardian heeft veto-recht (via een 'Stop-knop') in elke fase van het project als de **Rode Lijnen** worden overschreden.
 - **Taken:**
 - Fase 1: Toetst de **Doeldefinitie** op ethische wenselijkheid.
-- Fase 2 & 3: Voert **Eerlijkheidstoetsen** (Bias audits) uit.
+- Fase 2 & 3: Voert **Fairness audit (bias audit)en** (Bias audits) uit.
 - Fase 5: Voert periodieke 'Vibe Checks' uit op productie-systemen.
 
 ______________________________________________________________________
 
-## 4. De Eerlijkheidstoets (Bias Audit)
+## 4. De Fairness audit (bias audit) (Bias Audit)
 
 AI leert van data uit het verleden en kan daardoor vooroordelen overnemen. We toetsen elk Hoog en Beperkt risico systeem op drie niveaus:
 

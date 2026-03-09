@@ -9,14 +9,14 @@ versie: '1.0'
 
 ## 1. Doel
 
-Dit sjabloon dient voor het vastleggen van de testresultaten van de **Praktijkproef**. Het vormt het objectieve bewijs dat de AI-oplossing voldoet aan de gestelde criteria en veiligheidsgrenzen.
+Dit sjabloon dient voor het vastleggen van de testresultaten van de **Proof of Value (PoV)**. Het vormt het objectieve bewijs dat de AI-oplossing voldoet aan de gestelde criteria en veiligheidsgrenzen.
 
 ______________________________________________________________________
 
 ### Test-Setup
 
 - **Datum van de proef:** \[DD-MM-JJJJ\]
-- **Modelversie:** \[Bijv. GPT-4o met specifieke sturingsinstructies v1.2\]
+- **Modelversie:** \[Bijv. GPT-4o met specifieke prompts v1.2\]
 - **Testset:** \[Beschrijving van de gebruikte dataset of scenario's\]
 
 ______________________________________________________________________
@@ -37,6 +37,6 @@ ______________________________________________________________________
 
 !!! check "Conclusie"
     - [ ] **Voldoet** aan de succesval-criteria (>90%).
-    - [ ] **Voldoet niet**. Aanpassing van **Sturingsinstructies** vereist.
+    - [ ] **Voldoet niet**. Aanpassing van **Prompts** vereist.
 
 ______________________________________________________________________

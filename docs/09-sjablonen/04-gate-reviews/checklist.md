@@ -21,14 +21,14 @@ ______________________________________________________________________
 
 !!! check "Gate 2 (Investering PoV): Van Validatie naar Realisatie"
 
-- [ ] **Praktijkproef** is succesvol afgerond (>90% score).
+- [ ] **Proof of Value (PoV)** is succesvol afgerond (>90% score).
 - [ ] **Het Kostenoverzicht** is goedgekeurd.
 - [ ] **Rode Lijnen** zijn gedefinieerd door the Guardian.
 
 !!! check "Gate 3 (Productie-klaar): Van Realisatie naar Levering"
 
 - [ ] **Validatierapport** is beschikbaar en goedgekeurd.
-- [ ] **Sturingsinstructies** zijn geversioneerd en gedocumenteerd.
+- [ ] **Prompts** zijn geversioneerd en gedocumenteerd.
 - [ ] Gebruikers zijn getraind voor **Menselijke Regie**.
     - [ ] Gedragssturing en toegestane acties zijn expliciet vastgelegd en beoordeeld.
     - [ ] Wijzigingen sinds de vorige release zijn aantoonbaar getoetst en vastgelegd.
@@ -36,6 +36,6 @@ ______________________________________________________________________
 
 !!! check "Gate 4 (Livegang): Ingebruikname & Beheer"
 
-- [ ] Monitoring op **Prestatieverloop** is actief.
+- [ ] Monitoring op **Drift** is actief.
 - [ ] Incident procedure is bekend.
 - [ ] Eigenaarschap in de beheerfase is vastgelegd.

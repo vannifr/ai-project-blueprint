@@ -22,7 +22,7 @@ Elke AI-oplossing bestaat uit een aantal lagen die samenwerken:
 ├─────────────────────────────────────────┤
 │ AI-Kern (Model) │ LLM, classifier, etc.
 ├─────────────────────────────────────────┤
-│ Kenniskoppeling (RAG) │ Vectorstore, documenten
+│ RAG (RAG) │ Vectorstore, documenten
 ├─────────────────────────────────────────┤
 │ Data-laag │ Databases, logging, storage
 └─────────────────────────────────────────┘
@@ -56,7 +56,7 @@ ______________________________________________________________________
 - Log alle interacties conform [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - Implementeer Rode Lijnen via system prompts
 
-### Patroon B: Kenniskoppeling (RAG)
+### Patroon B: RAG (RAG)
 
 **Omschrijving:** LLM wordt verrijkt met bedrijfsspecifieke informatie uit een kennisbank.
 

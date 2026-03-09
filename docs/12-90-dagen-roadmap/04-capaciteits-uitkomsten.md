@@ -75,4 +75,4 @@ ______________________________________________________________________
 - [Organisatieprofielen](../13-organisatieprofielen/index.md)
 - [Drie Tracks](../14-drie-tracks/index.md)
 - [Lessons Learned](../11-project-afsluiting/01-lessons-learned.md)
-- [Batenrealisatie — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)
+- [Waarderealisatie (benefits realization) — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)

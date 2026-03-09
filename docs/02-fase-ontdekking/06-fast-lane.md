@@ -33,15 +33,15 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 !!! check "Bewijsvoering voor Art. 50 implementatie (indien van toepassing)"
 
 - [ ] Screenshot of UX-copy van disclosure/labeling in de gebruikersinterface
-- [ ] Testcases in Gouden Set die disclosure/labeling-gedrag valideren
+- [ ] Testcases in Golden Set die disclosure/labeling-gedrag valideren
 - [ ] Vermelding in Validatierapport met verwijzing naar bewijsstukken
 
 ## 3. Minimumpakket opleveringen (Fast Lane)
 
 - **[Project Charter](../09-sjablonen/01-project-charter/template.md)** (Fast Lane variant: kort)
 - **[Risico Pre‑Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)** (moet "Minimaal" bevestigen)
-- **[Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (incl. Rode Lijnen)
-- **[Gouden Set Test & Acceptatie Protocol](../09-sjablonen/07-validatie-bewijs/template.md)** (light: minimaal 20 cases)
+- **[Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (incl. Rode Lijnen)
+- **[Golden Set Test & Acceptatie Protocol](../09-sjablonen/07-validatie-bewijs/template.md)** (light: minimaal 20 cases)
 - **[Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)** (bewijs van testresultaten)
 
 **Wat mag je overslaan in Fast Lane:**
@@ -56,8 +56,8 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 **Go** als:
 
 - Risico Pre‑Scan = Minimaal
-- Doelkaart bevat Rode Lijnen
-- Minimaal testplan staat klaar (Gouden Set ≥ 20)
+- Doelkaart (goal card) bevat Rode Lijnen
+- Minimaal testplan staat klaar (Golden Set ≥ 20)
 
 ### Gate FL‑2 — Interne live pilot (max. 4 weken)
 

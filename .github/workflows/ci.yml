@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       build_pdf:
-        description: 'PDF bouwen en deployen'
+        description: 'Build and deploy PDF'
         type: boolean
         default: false
       pdf_language:
-        description: 'Taal voor PDF (nl = blauwdruk, en = blueprint)'
+        description: 'Language for PDF (nl = blauwdruk, en = blueprint)'
         type: choice
         options: [nl, en]
         default: nl
@@ -129,7 +129,7 @@ jobs:
       - name: Install Playwright Chromium
         run: playwright install --with-deps chromium
 
-      - name: Pre-process docs voor EN build
+      - name: Pre-process docs for EN build
         if: inputs.pdf_language == 'en'
         run: |
           find docs/ -name "*.en.md" | while read en_file; do
@@ -151,7 +151,7 @@ jobs:
           MKDOCS_PDF_OUTPUT: ${{ inputs.pdf_language == 'en' && 'pdf/ai-project-blueprint.pdf' || 'pdf/ai-project-blauwdruk.pdf' }}
         run: python3 scripts/pdf_postprocess.py site
 
-      - name: Bewaar verwerkte PDF
+      - name: Save processed PDF
         run: |
           if [ "${{ inputs.pdf_language }}" = "en" ]; then
             cp site/pdf/ai-project-blueprint.pdf /tmp/ai-project-pdf.pdf
@@ -165,7 +165,7 @@ jobs:
           name: site-html
           path: site/
 
-      - name: Voeg PDF toe aan site
+      - name: Add PDF to site
         run: |
           mkdir -p site/pdf
           if [ "${{ inputs.pdf_language }}" = "en" ]; then
@@ -177,18 +177,18 @@ jobs:
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
           echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
 
-      - name: Deploy via rsync (met PDF)
+      - name: Deploy via rsync (with PDF)
         run: |
           rsync -avz --delete \
-            -e "ssh -i ~/.ssh/id_ed25519 -p ${{ secrets.SSH_PORT || 22 }}" \
+            -e "ssh -i ~/.ssh/id_rsa -p ${{ secrets.SSH_PORT }} -o HostKeyAlgorithms=ssh-rsa -o PubkeyAcceptedAlgorithms=ssh-rsa" \
             site/ \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}/
 
-      - name: Upload PDF als artifact
+      - name: Upload PDF as artifact
         uses: actions/upload-artifact@v4
         with:
           name: pdf-${{ inputs.pdf_language }}

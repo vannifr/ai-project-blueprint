@@ -79,13 +79,13 @@ ______________________________________________________________________
 
 Hoe hoger de modus, hoe zwaarder de validatie-eisen.
 
-| Modus                | Primaire Validatie                         | Rol van de Mens          | Focus van Eigenaarschap |
-| :------------------- | :----------------------------------------- | :----------------------- | :---------------------- |
-| **1. Instrumenteel** | Gebruikerstest (UAT)                       | Uitvoerder               | Taakgericht             |
-| **2. Adviserend**    | Precisie-meting                            | Beslisser (Gatekeeper)   | Besluitvorming          |
-| **3. Collaboratief** | Ervaring & Bruikbaarheid                   | Partner                  | Resultaatgericht        |
-| **4. Gedelegeerd**   | Continue Monitoring & **Prestatieverloop** | Toezichthouder (Auditor) | Procesgericht           |
-| **5. Autonoom**      | Simulatie & Stress-testing                 | Beleidsbepaler           | Systeemgericht          |
+| Modus                | Primaire Validatie              | Rol van de Mens          | Focus van Eigenaarschap |
+| :------------------- | :------------------------------ | :----------------------- | :---------------------- |
+| **1. Instrumenteel** | Gebruikerstest (UAT)            | Uitvoerder               | Taakgericht             |
+| **2. Adviserend**    | Precisie-meting                 | Beslisser (Gatekeeper)   | Besluitvorming          |
+| **3. Collaboratief** | Ervaring & Bruikbaarheid        | Partner                  | Resultaatgericht        |
+| **4. Gedelegeerd**   | Continue Monitoring & **Drift** | Toezichthouder (Auditor) | Procesgericht           |
+| **5. Autonoom**      | Simulatie & Stress-testing      | Beleidsbepaler           | Systeemgericht          |
 
 ______________________________________________________________________
 

@@ -8,11 +8,11 @@ versie: '1.0'
 
 Een project kwalificeert voor deze aanpak als aan de volgende drie criteria wordt voldaan:
 
-| Criterium              | Vereiste                                                                                                              |
-| :--------------------- | :-------------------------------------------------------------------------------------------------------------------- |
-| **Materiale Invloed**  | Het systeem vertrouwt op AI voor productie-outputs of beslissingen die de business raken.                             |
-| **Expliciete Context** | Inputs die het gedrag sturen (**Sturingsinstructies**, kenniskoppeling) worden beheerd als geversioneerde artefacten. |
-| **Continue Toetsing**  | Wijzigingen ondergaan validatie die specifiek is ontworpen voor het niet-deterministische gedrag van AI.              |
+| Criterium              | Vereiste                                                                                                 |
+| :--------------------- | :------------------------------------------------------------------------------------------------------- |
+| **Materiale Invloed**  | Het systeem vertrouwt op AI voor productie-outputs of beslissingen die de business raken.                |
+| **Expliciete Context** | Inputs die het gedrag sturen (**Prompts**, RAG) worden beheerd als geversioneerde artefacten.            |
+| **Continue Toetsing**  | Wijzigingen ondergaan validatie die specifiek is ontworpen voor het niet-deterministische gedrag van AI. |
 
 > **Zodra gekwalificeerd**, gelden de operationele controles voor beheer, monitoring en traceerbaarheid om de ontwikkeling in goede banen te leiden.
 

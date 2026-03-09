@@ -14,7 +14,7 @@ ______________________________________________________________________
 
 ```
  ┌───────────────┐
- │ Doelkaart │ Waarom bouwen we dit?
+ │ Doelkaart (goal card) │ Waarom bouwen we dit?
  │ (Intent) │
  └───────┬───────┘
  │
@@ -29,7 +29,7 @@ ______________________________________________________________________
  └───────┬───────┘
  │
  ┌───────v───────┐
- │ Gouden Set │ Hoe hebben we getest?
+ │ Golden Set │ Hoe hebben we getest?
  │ (Tests) │
  └───────┬───────┘
  │
@@ -57,16 +57,16 @@ De traceerbaarheidsmatrix koppelt requirements aan implementatie aan tests.
 
 ### Minimale Velden
 
-| Veld             | Beschrijving                           |
-| ---------------- | -------------------------------------- |
-| Doel-ID          | Referentie naar Doelkaart item         |
-| Doelomschrijving | Korte beschrijving van het doel        |
-| Spec-ID          | Referentie naar specificatie-item      |
-| Specificatie     | Hoe wordt het doel technisch vertaald? |
-| Prompt-versie    | Welke versie van Sturingsinstructies?  |
-| Test-ID          | Referentie naar Gouden Set testcase    |
-| Testresultaat    | Pass/Fail/N.v.t.                       |
-| Validatierapport | Link naar bewijs                       |
+| Veld             | Beschrijving                               |
+| ---------------- | ------------------------------------------ |
+| Doel-ID          | Referentie naar Doelkaart (goal card) item |
+| Doelomschrijving | Korte beschrijving van het doel            |
+| Spec-ID          | Referentie naar specificatie-item          |
+| Specificatie     | Hoe wordt het doel technisch vertaald?     |
+| Prompt-versie    | Welke versie van Prompts?                  |
+| Test-ID          | Referentie naar Golden Set testcase        |
+| Testresultaat    | Pass/Fail/N.v.t.                           |
+| Validatierapport | Link naar bewijs                           |
 
 ______________________________________________________________________
 
@@ -78,18 +78,18 @@ Naast documentatie-traceerbaarheid is runtime logging essentieel.
 
 Per interactie minimaal (zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)):
 
-| Veld                       | Voorbeeld                           |
-| -------------------------- | ----------------------------------- |
-| Timestamp                  | 2026-02-01T14:32:15Z                |
-| Request-ID                 | req-abc123                          |
-| Gebruiker/Sessie           | user-456 (gehashed indien nodig)    |
-| Model + versie             | gpt-4-turbo / v2024-01              |
-| Sturingsinstructies-versie | prompts/v2.3                        |
-| Input (query)              | "Wat kost product X?"               |
-| Gebruikte bronnen          | doc-789, doc-012                    |
-| Output                     | "Product X kost €49,99 (bron: ...)" |
-| Latency                    | 1.2s                                |
-| Human override             | Nee                                 |
+| Veld              | Voorbeeld                           |
+| ----------------- | ----------------------------------- |
+| Timestamp         | 2026-02-01T14:32:15Z                |
+| Request-ID        | req-abc123                          |
+| Gebruiker/Sessie  | user-456 (gehashed indien nodig)    |
+| Model + versie    | gpt-4-turbo / v2024-01              |
+| Prompts-versie    | prompts/v2.3                        |
+| Input (query)     | "Wat kost product X?"               |
+| Gebruikte bronnen | doc-789, doc-012                    |
+| Output            | "Product X kost €49,99 (bron: ...)" |
+| Latency           | 1.2s                                |
+| Human override    | Nee                                 |
 
 Voor systemen die zelfstandig taken uitvoeren, wordt daarnaast vastgelegd welke acties zijn uitgevoerd, binnen welke vooraf vastgestelde kaders, en of daarbij menselijke tussenkomst of goedkeuring heeft plaatsgevonden.
 
@@ -116,10 +116,10 @@ Wanneer een incident optreedt, volgen we de traceerbaarheidsketen terug:
 
 1. **Identificeer de output:** Welke response veroorzaakte het probleem?
 1. **Haal logging op:** Request-ID, input, model, bronnen
-1. **Check Sturingsinstructies:** Was de juiste versie actief?
+1. **Check Prompts:** Was de juiste versie actief?
 1. **Vergelijk met specificatie:** Voldeed de output aan de spec?
-1. **Check Gouden Set:** Hadden we dit scenario getest?
-1. **Terug naar Doelkaart:** Was dit gedrag bedoeld of een gap?
+1. **Check Golden Set:** Hadden we dit scenario getest?
+1. **Terug naar Doelkaart (goal card):** Was dit gedrag bedoeld of een gap?
 
 ### Root Cause Categorieën
 
@@ -127,7 +127,7 @@ Wanneer een incident optreedt, volgen we de traceerbaarheidsketen terug:
 | ----------------- | ------------------------------------ | ----------------------- |
 | Spec Gap          | Scenario niet gespecificeerd         | Specificatie uitbreiden |
 | Implementatie Bug | Spec correct, implementatie wijkt af | Code/prompt corrigeren  |
-| Test Gap          | Scenario niet in Gouden Set          | Testcase toevoegen      |
+| Test Gap          | Scenario niet in Golden Set          | Testcase toevoegen      |
 | Onvoorzien Gedrag | Probabilistisch karakter van AI      | Rode lijnen versterken  |
 
 ______________________________________________________________________
@@ -146,10 +146,10 @@ Voor elke productierelease:
 
 | Document               | Inhoud                            |
 | ---------------------- | --------------------------------- |
-| Doelkaart              | Intent en Rode Lijnen             |
+| Doelkaart (goal card)  | Intent en Rode Lijnen             |
 | Specificatie           | Gedragscontract                   |
-| Sturingsinstructies    | Prompts/configs (versiebeheerd)   |
-| Gouden Set             | Testcases en verwachte resultaten |
+| Prompts                | Prompts/configs (versiebeheerd)   |
+| Golden Set             | Testcases en verwachte resultaten |
 | Validatierapport       | Testresultaten en conclusie       |
 | Traceerbaarheidsmatrix | Koppelingen tussen bovenstaande   |
 | Wijzigingslog          | Alle changes sinds vorige release |
@@ -171,7 +171,7 @@ ______________________________________________________________________
 
 !!! check "8. Checklist Traceerbaarheid"
     - [ ] Traceerbaarheidsmatrix is opgesteld
-    - [ ] Alle Doelkaart-items zijn gekoppeld aan specificaties
+    - [ ] Alle Doelkaart (goal card)-items zijn gekoppeld aan specificaties
     - [ ] Alle specificaties zijn gekoppeld aan testcases
     - [ ] Runtime logging is ingericht conform risiconiveau
     - [ ] Logging voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)

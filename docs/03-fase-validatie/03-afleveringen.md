@@ -10,7 +10,7 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 
 - **[TMP-09-06 Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md):** Bevat resultaten van de proef t.o.v. de normen uit [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md).
 - **[TMP-09-07 Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md):** Verplicht indien persoonsgegevens in scope zijn.
-- **Praktijkproef Rapport:** Gedetailleerde analyse van het experiment.
+- **Proof of Value (PoV) Rapport:** Gedetailleerde analyse van het experiment.
 - **Het Kostenoverzicht:** Volledige business case met investering en ROI.
 - **Risico-update:** Verfijnde risico-inventarisatie op basis van bevindingen.
 

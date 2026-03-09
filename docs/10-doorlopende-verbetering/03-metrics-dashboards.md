@@ -26,7 +26,7 @@ Wij meten op vier niveaus. Elke categorie heeft een vaste eigenaar en rapportage
 
 | Categorie           | Voorbeeldmetrics                                                      | Eigenaar       | Cadans      |
 | :------------------ | :-------------------------------------------------------------------- | :------------- | :---------- |
-| **Modelprestaties** | Nauwkeurigheid, F1-score, afwijking t.o.v. Gouden Set                 | Data Scientist | Dagelijks   |
+| **Modelprestaties** | Nauwkeurigheid, F1-score, afwijking t.o.v. Golden Set                 | Data Scientist | Dagelijks   |
 | **Operationeel**    | Latentie P95, foutpercentage, uptime, doorvoer (requests/min)         | MLOps Engineer | Real-time   |
 | **Gebruikskosten**  | Kosten per aanroep, maandelijkse rekenkosten                          | AI PM          | Maandelijks |
 | **Governance**      | Aantal overschreden Rode Lijnen, Guardian-interventies, bias-signalen | Guardian       | Wekelijks   |
@@ -37,7 +37,7 @@ Wij onderscheiden drie lagen. Elk dashboard heeft een ander publiek en een ander
 
 **Laag 1 — Operationeel (real-time):** Zichtbaar voor MLOps en tech team. Toont systeemgezondheid, alerts en actieve incidenten.
 
-**Laag 2 — Modelkwaliteit (dagelijks/wekelijks):** Zichtbaar voor Data Scientist en AI PM. Toont nauwkeurigheidstrends, Prestatieverloop-signalen en vergelijking met de Gouden Set.
+**Laag 2 — Modelkwaliteit (dagelijks/wekelijks):** Zichtbaar voor Data Scientist en AI PM. Toont nauwkeurigheidstrends, Drift-signalen en vergelijking met de Golden Set.
 
 **Laag 3 — Strategisch (maandelijks/kwartaal):** Zichtbaar voor CAIO en management. Toont ROI-realisatie, kostentrends en compliance-status.
 
@@ -59,7 +59,7 @@ Een SLO (Service Level Objective) is een intern bindend streefdoel. Wij definië
 
 - **Beschikbaarheid:** bijv. ≥ 99,5% uptime per maand.
 - **Latentie:** bijv. P95 responstijd ≤ 2 seconden.
-- **Nauwkeurigheidsbodem:** bijv. F1-score ≥ 0,80 op de Gouden Set.
+- **Nauwkeurigheidsbodem:** bijv. F1-score ≥ 0,80 op de Golden Set.
 
 SLO's worden vastgesteld vóór Gate 4 en opgenomen in de overdrachts­documentatie.
 
@@ -91,7 +91,7 @@ ______________________________________________________________________
 | Deliverable              | Beschrijving                                      | Eigenaar       |
 | :----------------------- | :------------------------------------------------ | :------------- |
 | Operationeel dashboard   | Real-time gezondheids­bewaking                    | MLOps Engineer |
-| Modelkwaliteitsrapport   | Wekelijkse samenvatting prestaties vs. Gouden Set | Data Scientist |
+| Modelkwaliteitsrapport   | Wekelijkse samenvatting prestaties vs. Golden Set | Data Scientist |
 | Maandrapport Strategisch | ROI, kosten, compliance-status                    | AI PM          |
 | SLO-document             | Vastgestelde servicenormen en drempelwaarden      | AI PM          |
 
@@ -101,6 +101,6 @@ ______________________________________________________________________
 
 - [Doorlopende Verbetering — Overzicht](index.md)
 - [Retrospectives](01-retrospectives.md)
-- [Batenrealisatie](04-batenrealisatie.md)
+- [Waarderealisatie (benefits realization)](04-batenrealisatie.md)
 - [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
 - [Beheer & Optimalisatie — Activiteiten](../06-fase-monitoring/02-activiteiten.md)

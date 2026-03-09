@@ -6,7 +6,7 @@ versie: '1.0'
 
 ## 1. Kernactiviteiten
 
-### Praktijkproef
+### Proof of Value (PoV)
 
 Een kleinschalig experiment om te testen of de AI de specifieke bedrijfscontext begrijpt.
 
@@ -49,7 +49,7 @@ Een volledige raming van investering en operationele kosten.
 
 | Rol                    | Verantwoordelijkheid in Validatie                                                       |
 | :--------------------- | :-------------------------------------------------------------------------------------- |
-| **Data Scientist**     | **R**esponsible: Uitvoeren van de Praktijkproef en betrouwbaarheidstesten.              |
+| **Data Scientist**     | **R**esponsible: Uitvoeren van de Proof of Value (PoV) en betrouwbaarheidstesten.       |
 | **AI Product Manager** | **A**ccountable: Eigenaar van de business case en ROI-berekening (Het Kostenoverzicht). |
 | **Business Sponsor**   | **C**onsulted: Valideert de testset en succescriteria.                                  |
 | **Finance**            | **C**onsulted: Controleert de kostenraming en ROI-berekening.                           |

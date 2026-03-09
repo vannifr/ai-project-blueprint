@@ -97,7 +97,7 @@ ______________________________________________________________________
 
 - [Data-Evaluatie](../../02-fase-ontdekking/02-activiteiten.md) in Fase 1
 - [Data Pipelines](../../08-technische-standaarden/02-data-pipelines.md) standaarden
-- [Eerlijkheidstoets](../../07-compliance-hub/03-ethische-richtlijnen.md) voor bias-detectie
+- [Fairness audit (bias audit)](../../07-compliance-hub/03-ethische-richtlijnen.md) voor bias-detectie
 
 **Checklist:**
 
@@ -113,19 +113,19 @@ ______________________________________________________________________
 **Playbook Implementatie:**
 
 - [Technische Modelkaart](../../09-sjablonen/02-business-case/modelkaart.md)
-- [Doelkaart](../../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- [Doelkaart (goal card)](../../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 - [Validatierapport](../../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 
 **Vereiste Inhoud Technisch Dossier:**
 
-| Element                 | Playbook Document             |
-| ----------------------- | ----------------------------- |
-| Systeembeschrijving     | Technische Modelkaart         |
-| Ontwerp en ontwikkeling | Specificatie (SDD Patroon)    |
-| Werking en beperkingen  | Doelkaart + Rode Lijnen       |
-| Risicobeheersysteem     | Risico Pre-Scan + updates     |
-| Wijzigingslogboek       | Git history + release notes   |
-| Testresultaten          | Validatierapport + Gouden Set |
+| Element                 | Playbook Document                   |
+| ----------------------- | ----------------------------------- |
+| Systeembeschrijving     | Technische Modelkaart               |
+| Ontwerp en ontwikkeling | Specificatie (SDD Patroon)          |
+| Werking en beperkingen  | Doelkaart (goal card) + Rode Lijnen |
+| Risicobeheersysteem     | Risico Pre-Scan + updates           |
+| Wijzigingslogboek       | Git history + release notes         |
+| Testresultaten          | Validatierapport + Golden Set       |
 
 ### Art. 13: Transparantie
 
@@ -135,7 +135,7 @@ ______________________________________________________________________
 
 - Transparantieplicht in [Rode Lijnen](../../07-compliance-hub/index.md)
 - AI-disclaimer in gebruikersinterface (Beperkt/Hoog Risico)
-- Bronvermelding bij Kenniskoppeling (RAG)
+- Bronvermelding bij RAG (RAG)
 
 **Checklist:**
 
@@ -203,17 +203,17 @@ ______________________________________________________________________
 
 ## 5. Compliance Mapping: Playbook naar EU AI Act
 
-| EU AI Act Artikel    | Vereiste                  | Playbook Module                    | Sjabloon            |
-| -------------------- | ------------------------- | ---------------------------------- | ------------------- |
-| Art. 5               | Verboden praktijken       | Risico Pre-Scan                    | Deel A              |
-| Art. 6 + Bijlage III | Hoog-risico classificatie | Compliance Hub                     | Risicoclassificatie |
-| Art. 9               | Risicobeheersysteem       | Risico Pre-Scan + Gates            | Risicoanalyse       |
-| Art. 10              | Data governance           | Data Pipelines + Eerlijkheidstoets | Data & Privacyblad  |
-| Art. 11-12           | Technische documentatie   | Technische standaarden             | Modelkaart          |
-| Art. 13              | Transparantie             | Rode Lijnen                        | Doelkaart           |
-| Art. 14              | Menselijk toezicht        | AI-Samenwerkingsmodi               | Project Charter     |
-| Art. 15              | Nauwkeurigheid & security | Bewijsstandaarden                  | Validatierapport    |
-| Art. 50              | Transparantieplicht       | Rode Lijnen                        | Doelkaart           |
+| EU AI Act Artikel    | Vereiste                  | Playbook Module                              | Sjabloon              |
+| -------------------- | ------------------------- | -------------------------------------------- | --------------------- |
+| Art. 5               | Verboden praktijken       | Risico Pre-Scan                              | Deel A                |
+| Art. 6 + Bijlage III | Hoog-risico classificatie | Compliance Hub                               | Risicoclassificatie   |
+| Art. 9               | Risicobeheersysteem       | Risico Pre-Scan + Gates                      | Risicoanalyse         |
+| Art. 10              | Data governance           | Data Pipelines + Fairness audit (bias audit) | Data & Privacyblad    |
+| Art. 11-12           | Technische documentatie   | Technische standaarden                       | Modelkaart            |
+| Art. 13              | Transparantie             | Rode Lijnen                                  | Doelkaart (goal card) |
+| Art. 14              | Menselijk toezicht        | AI-Samenwerkingsmodi                         | Project Charter       |
+| Art. 15              | Nauwkeurigheid & security | Bewijsstandaarden                            | Validatierapport      |
+| Art. 50              | Transparantieplicht       | Rode Lijnen                                  | Doelkaart (goal card) |
 
 ______________________________________________________________________
 

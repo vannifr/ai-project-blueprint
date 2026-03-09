@@ -10,15 +10,15 @@ ______________________________________________________________________
 
 ## 1. A
 
-- **Afstellen van het model:** Het fijn-afstellen van parameters en configuraties om de prestaties van een AI-model te optimaliseren voor een specifieke taak (*Hyperparameter Tuning*).
+- **Fine-tunen:** Het fine-tunen van parameters en configuraties om de prestaties van een AI-model te optimaliseren voor een specifieke taak (*Hyperparameter Tuning*).
 - **AI-Samenwerkingsmodi:** Een model met vijf niveaus dat de relatie en taakverdeling tussen mens en AI definieert (Instrumenteel t/m Autonoom). → [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
 
 ## 2. B
 
 - **Beheer & Optimalisatie:** De fase na ingebruikname gericht op het monitoren van prestaties, kosten en compliance.
 - **Bewijsstandaarden:** De minimale criteria waaraan testresultaten en documentatie moeten voldoen om door een Gate te komen. Definieert normen per risiconiveau voor feitelijkheid, relevantie, veiligheid en eerlijkheid. → [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
-- **Bias:** Vooroordelen in data of modellen die leiden tot onrechtvaardige resultaten. Zie ook **Eerlijkheidstoets**.
-- **Business Case:** Het financiële onderbouwingsdocument dat de investering, verwachte opbrengsten (ROI) en kosten-batenanalyse beschrijft. Wordt aangevuld met de **Doelkaart** voor AI-specifieke doeldefinities en Rode Lijnen.
+- **Bias:** Vooroordelen in data of modellen die leiden tot onrechtvaardige resultaten. Zie ook **Fairness audit (bias audit)**.
+- **Business Case:** Het financiële onderbouwingsdocument dat de investering, verwachte opbrengsten (ROI) en kosten-batenanalyse beschrijft. Wordt aangevuld met de **Doelkaart (goal card)** voor AI-specifieke doeldefinities en Rode Lijnen.
 
 ## 3. C
 
@@ -30,12 +30,12 @@ ______________________________________________________________________
 
 - **Data-Evaluatie:** Het proces van het beoordelen of data geschikt is voor een AI-oplossing op basis van Toegang, Kwaliteit en Relevantie.
 - **Doeldefinitie:** Een formeel document dat het beoogde resultaat en de waarde-hypothese van een AI-systeem vastlegt (*Intent Record*).
-- **Doelkaart:** Het AI-specifieke sturingsdocument dat de **Doeldefinitie** (wat willen we bereiken), **Rode Lijnen** (wat mag nooit gebeuren) en **Sturingsinstructies** (hoe sturen we het gedrag) combineert. Kernafact voor elke AI-oplossing (*Intent Map*). → [Doelkaart sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- **Doelkaart (goal card):** Het AI-specifieke sturingsdocument dat de **Doeldefinitie** (wat willen we bereiken), **Rode Lijnen** (wat mag nooit gebeuren) en **Prompts** (hoe sturen we het gedrag) combineert. Kernafact voor elke AI-oplossing (*Intent Map*). → [Doelkaart (goal card) sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 - **DPIA (Data Protection Impact Assessment):** Verplichte risicoanalyse onder de AVG voor AI-systemen die persoonsgegevens verwerken en een hoog risico vormen voor de betrokkenen. → [Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md)
 
 ## 5. E
 
-- **Eerlijkheidstoets:** Een controle of audit om ongewenste vooroordelen of discriminatie in de output van een AI-systeem op te sporen. Meet verschillen in prestaties tussen groepen (*Bias Audit*).
+- **Fairness audit (bias audit):** Een controle of audit om ongewenste vooroordelen of discriminatie in de output van een AI-systeem op te sporen. Meet verschillen in prestaties tussen groepen (*Bias Audit*).
 - **EU AI Act:** De Europese verordening die regels stelt voor de veiligheid en ethiek van AI-systemen. → [EU AI Act](../07-compliance-hub/01-eu-ai-act/index.md)
 
 ## 6. F
@@ -47,7 +47,7 @@ ______________________________________________________________________
 - **Gate:**
 - **GPU (Graphics Processing Unit):** Gespecialiseerde processor die veelvuldig wordt ingezet voor het trainen en uitvoeren van AI-modellen, vanwege de hoge parallelisatiecapaciteit. Een formeel beslismoment in de AI-levenscyclus waarbij op basis van bewijs een Go/No-Go beslissing wordt genomen. De blauwdruk definieert 4 gates (Gate 1 t/m Gate 4). → [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 - **Gebruikskosten:** De variabele kosten voor het draaien van een AI-systeem, zoals API-tokens of cloud-rekentijd (*Inference costs*).
-- **Gouden Set:** Een representatieve verzameling testcases die wordt gebruikt om AI-prestaties te meten. Bevat standaardcases, randgevallen en adversarial scenarios. Grootte varieert per risiconiveau (20-150 cases).
+- **Golden Set:** Een representatieve verzameling testcases die wordt gebruikt om AI-prestaties te meten. Bevat standaardcases, randgevallen en adversarial scenarios. Grootte varieert per risiconiveau (20-150 cases).
 - **Guardian:** De onafhankelijke rol binnen het projectteam die waakt over ethische en wettelijke kaders. Heeft veto-recht bij overschrijding van Rode Lijnen. → [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
 
 ## 8. H
@@ -61,7 +61,7 @@ ______________________________________________________________________
 
 ## 10. K
 
-- **Kenniskoppeling:** Het verbinden van een AI-model aan specifieke bedrijfsinformatie of documenten om de antwoorden relevanter en accurater te maken (*Retrieval-Augmented Generation / RAG*).
+- **RAG:** Het verbinden van een AI-model aan specifieke bedrijfsinformatie of documenten om de antwoorden relevanter en accurater te maken (*Retrieval-Augmented Generation / RAG*).
 - **Kernprincipes:** De fundamentele uitgangspunten van deze blauwdruk, gericht op gedragssturing, impact, traceerbaarheid en continue toetsing.
 
 ## 11. M
@@ -73,8 +73,8 @@ ______________________________________________________________________
 
 ## 12. P
 
-- **Praktijkproef:** Een kleinschalig, gecontroleerd experiment om te bewijzen dat een AI-oplossing werkt in de beoogde context (*Proof of Value / PoV*). → [Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)
-- **Prestatieverloop:** Het fenomeen waarbij de nauwkeurigheid of relevantie van een model over tijd afneemt door veranderingen in data of de wereld (*Model Drift / Data Drift*). → [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
+- **Proof of Value (PoV):** Een kleinschalig, gecontroleerd experiment om te bewijzen dat een AI-oplossing werkt in de beoogde context (*Proof of Value / PoV*). → [Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)
+- **Drift:** Het fenomeen waarbij de nauwkeurigheid of relevantie van een model over tijd afneemt door veranderingen in data of de wereld (*Model Drift / Data Drift*). → [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
 
 ## 13. R
 
@@ -87,7 +87,7 @@ ______________________________________________________________________
 
 - **SLO (Service Level Objective):** Een meetbaar streefdoel voor de kwaliteit of beschikbaarheid van een dienst, zoals "latentie P95 \< 2 seconden" of "uptime > 99,5%". Lager dan een SLA maar intern bindend voor het team.
 - **Specificatie-gedreven Ontwikkeling (SDD):** Een methode waarbij tests en specificaties worden opgesteld vóór de implementatie. Eerst definiëren wat het systeem moet doen en wat het nooit mag doen, daarna pas bouwen (*Spec-First / Test-Driven Development*). → [Spec-Driven Development](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
-- **Sturingsinstructies:** De verzameling van informatie, aanwijzingen en configuraties die bepalen hoe de AI zich gedraagt (*Prompts / Context Artifacts*). → [Prompt Engineering sjabloon](../09-sjablonen/10-prompt-engineering/template.md)
+- **Prompts:** De verzameling van informatie, aanwijzingen en configuraties die bepalen hoe de AI zich gedraagt (*Prompts / Context Artifacts*). → [Prompt Engineering sjabloon](../09-sjablonen/10-prompt-engineering/template.md)
 
 ## 15. T
 

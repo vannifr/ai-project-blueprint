@@ -19,7 +19,7 @@ ______________________________________________________________________
 
 ### Alles Is Versiebeheerd
 
-- Modelgewichten, configuraties en Sturingsinstructies staan in versiebeheer.
+- Modelgewichten, configuraties en Prompts staan in versiebeheer.
 - Wijzigingen zijn traceerbaar: wie heeft wat wanneer aangepast?
 
 ### Geen Wijziging Zonder Review
@@ -35,17 +35,17 @@ Een centrale plek waar alle modellen zijn geregistreerd met hun metadata.
 
 ### Minimale Metadata per Model
 
-| Veld                | Beschrijving                                    | Voorbeeld                   |
-| ------------------- | ----------------------------------------------- | --------------------------- |
-| Model ID            | Unieke identificatie                            | `invoice-classifier-v2.1`   |
-| Versie              | Semantische versie of hash                      | `2.1.0` of `abc123`         |
-| Status              | Development / Staging / Production / Deprecated | Production                  |
-| Eigenaar            | Verantwoordelijke persoon/team                  | Team Finance AI             |
-| Aanmaakdatum        | Wanneer getraind/gedeployed                     | 2026-01-15                  |
-| Databron versie     | Welke data gebruikt voor training               | `invoices-2025-q4`          |
-| Sturingsinstructies | Link naar prompt/config versie                  | `prompts/invoice-v2.1.yaml` |
-| Validatierapport    | Link naar bijbehorend bewijs                    | `reports/invoice-v2.1.md`   |
-| Risiconiveau        | Classificatie conform EU AI Act                 | Beperkt                     |
+| Veld             | Beschrijving                                    | Voorbeeld                   |
+| ---------------- | ----------------------------------------------- | --------------------------- |
+| Model ID         | Unieke identificatie                            | `invoice-classifier-v2.1`   |
+| Versie           | Semantische versie of hash                      | `2.1.0` of `abc123`         |
+| Status           | Development / Staging / Production / Deprecated | Production                  |
+| Eigenaar         | Verantwoordelijke persoon/team                  | Team Finance AI             |
+| Aanmaakdatum     | Wanneer getraind/gedeployed                     | 2026-01-15                  |
+| Databron versie  | Welke data gebruikt voor training               | `invoices-2025-q4`          |
+| Prompts          | Link naar prompt/config versie                  | `prompts/invoice-v2.1.yaml` |
+| Validatierapport | Link naar bijbehorend bewijs                    | `reports/invoice-v2.1.md`   |
+| Risiconiveau     | Classificatie conform EU AI Act                 | Beperkt                     |
 
 ### Implementatie-opties
 
@@ -66,17 +66,17 @@ ______________________________________________________________________
 ```
 
 - **Code Review:** Ten minste één peer review
-- **Staging Test:** Gouden Set test op staging-omgeving
+- **Staging Test:** Golden Set test op staging-omgeving
 - **Gate Review:** Validatierapport voldoet aan [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 
 ### Uitgebreide Flow (Hoog Risico)
 
 ```
-[Development] → [Code Review] → [Guardian Review] → [Staging Test] → [Eerlijkheidstoets] → [Gate Review] → [Gefaseerde Uitrol] → [Production]
+[Development] → [Code Review] → [Guardian Review] → [Staging Test] → [Fairness audit (bias audit)] → [Gate Review] → [Gefaseerde Uitrol] → [Production]
 ```
 
 - **Guardian Review:** Onafhankelijke toetsing op Rode Lijnen
-- **Eerlijkheidstoets:** Kwantitatieve bias-analyse
+- **Fairness audit (bias audit):** Kwantitatieve bias-analyse
 - **Gefaseerde Uitrol:** Start met beperkte gebruikersgroep, monitor, dan volledige uitrol
 
 ______________________________________________________________________
@@ -86,7 +86,7 @@ ______________________________________________________________________
 | Fase        | Kenmerken                   | Acties                                      |
 | ----------- | --------------------------- | ------------------------------------------- |
 | Development | Experimenten, prototypes    | Geen productiedata, geen externe gebruikers |
-| Staging     | Kandidaat voor productie    | Volledige Gouden Set test, review           |
+| Staging     | Kandidaat voor productie    | Volledige Golden Set test, review           |
 | Production  | Live, wordt actief gebruikt | Monitoring, incidentprocedure actief        |
 | Deprecated  | Wordt uitgefaseerd          | Geen nieuwe gebruikers, migratieplan actief |
 | Retired     | Niet meer beschikbaar       | Archivering, documentatie bewaard           |

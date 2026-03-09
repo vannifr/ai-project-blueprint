@@ -15,7 +15,7 @@ ______________________________________________________________________
 Traditionele organisaties zien AI als een serie losse projecten. Voor maximale impact moeten we verschuiven naar een platformvisie.
 
 - **Data als Brandstof:** Data is niet langer een bijproduct, maar de kern van de bedrijfsvoering.
-- **Accelerators:** Bouw herbruikbare componenten (zoals **Kenniskoppeling**) die over de hele organisatie ingezet kunnen worden.
+- **Accelerators:** Bouw herbruikbare componenten (zoals **RAG**) die over de hele organisatie ingezet kunnen worden.
 - **Centrale Regie:** Voorkom **Wildgroei** door duidelijke kaders en een gedeelde **Blauwdruk**.
 
 ______________________________________________________________________
@@ -35,7 +35,7 @@ ______________________________________________________________________
 ### Schaalbare Architectuur
 
 - Investeren in MLOps om **Ingebruikname** te versnellen.
-- Standaardiseren van **Sturingsinstructies** en bewaarmethoden.
+- Standaardiseren van **Prompts** en bewaarmethoden.
 
 ______________________________________________________________________
 

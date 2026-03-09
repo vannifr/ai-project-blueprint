@@ -6,7 +6,7 @@ versie: '1.0'
 
 ## 1. Wat is deze Blauwdruk?
 
-Deze Blauwdruk is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Sturingsinstructies* en *Bewijs*.
+Deze Blauwdruk is een **modulaire werkwijze** voor AI‑projecten (van idee tot beheer) waarin we AI benaderen als **gedragssturing**: we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Prompts* en *Bewijs*.
 
 Deze blauwdruk is toepasbaar op zowel AI‑systemen die ondersteunen (zoals advies, analyse of contentgeneratie) als op AI‑systemen die binnen vooraf vastgestelde kaders zelfstandig taken uitvoeren. Naarmate een systeem meer zelfstandigheid krijgt, gelden aanvullende eisen voor vastlegging, toezicht en bewijs, zodat menselijk eigenaarschap, controleerbaarheid en verantwoording behouden blijven.
 
@@ -30,8 +30,8 @@ Deze blauwdruk is toepasbaar op zowel AI‑systemen die ondersteunen (zoals advi
 
 1. Vul het **[Project Charter](../09-sjablonen/01-project-charter/template.md)** in (1 A4).
 1. Doe de **[Risico Pre‑Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)** en bepaal risiconiveau.
-1. Maak de **[Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (incl. Rode Lijnen).
-1. Stel een **Gouden Set** op en test met de **[Gouden Set Test](../09-sjablonen/07-validatie-bewijs/template.md)**.
+1. Maak de **[Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (incl. Rode Lijnen).
+1. Stel een **Golden Set** op en test met de **[Golden Set Test](../09-sjablonen/07-validatie-bewijs/template.md)**.
 1. Leg resultaten vast in het **[Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)**.
 1. Beslis bij Gate of je doorgaat naar Realisatie/Livegang.
 

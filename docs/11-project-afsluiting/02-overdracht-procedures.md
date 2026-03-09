@@ -95,4 +95,4 @@ ______________________________________________________________________
 - [Overdracht Checklist Sjabloon](../05-fase-levering/04-sjablonen/overdracht-checklist.md)
 - [Gate Reviews Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 - [Lessons Learned](01-lessons-learned.md)
-- [Batenrealisatie](03-batenrealisatie.md)
+- [Waarderealisatie (benefits realization)](03-batenrealisatie.md)

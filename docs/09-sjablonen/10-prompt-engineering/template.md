@@ -6,7 +6,7 @@ versie: '1.0'
 
 ## 1. Doel
 
-Dit sjabloon helpt bij het opbouwen van hoogwaardige **Sturingsinstructies** (System Prompts). Een goed opgebouwde prompt vermindert hallucinaties en verhoogt de betrouwbaarheid.
+Dit sjabloon helpt bij het opbouwen van hoogwaardige **Prompts** (System Prompts). Een goed opgebouwde prompt vermindert hallucinaties en verhoogt de betrouwbaarheid.
 
 ______________________________________________________________________
 
@@ -22,7 +22,7 @@ ______________________________________________________________________
 - **Wat moet er gebeuren?** \[Bijv. "Vat de top 3 redenen voor churn samen op basis van de bijgevoegde transcripten."\]
 - **Gebruik actieve werkwoorden!** (Vat samen, Classificeer, Genereer).
 
-### Sturingsinstructies (Kennis & Regels)
+### Prompts (Kennis & Regels)
 
 - **Kennisbron:** \[Bijv. "Gebruik alleen de informatie uit de bijgevoegde PDF."\]
 - **Stapsgewijze aanpak:** \[Bijv. "Stap 1: Scan op trefwoorden. Stap 2: Check op sentiment. Stap 3: Formuleer advies."\]

@@ -36,9 +36,9 @@ De sprint retrospective evalueert de werking van het team en het systeem over de
 Elk kwartaal evalueren wij het model zelf — niet enkel het team:
 
 - Evolutie van de nauwkeurigheid ten opzichte van de nulmeting.
-- Signalen van Prestatieverloop: is de verdeling van invoerdata veranderd?
+- Signalen van Drift: is de verdeling van invoerdata veranderd?
 - Vergelijking met de oorspronkelijke Business Case: leveren we nog de beloofde waarde?
-- Beoordeling van de Gouden Set: zijn de testcases nog representatief?
+- Beoordeling van de Golden Set: zijn de testcases nog representatief?
 
 **Duur:** 3 uur. **Eigenaar:** Data Scientist + AI PM. **Output:** Kwartaalrapport Modelgezondheid.
 
@@ -61,7 +61,7 @@ ______________________________________________________________________
 | Rol                | Verantwoordelijkheid                                    | R/A/C/I |
 | :----------------- | :------------------------------------------------------ | :------ |
 | AI Product Manager | Faciliteert de retrospective, bewaakt actielijst        | A       |
-| Data Scientist     | Rapporteert over modelprestaties en Prestatieverloop    | R       |
+| Data Scientist     | Rapporteert over modelprestaties en Drift               | R       |
 | MLOps Engineer     | Rapporteert over infrastructuur en monitoring           | R       |
 | Guardian           | Evalueert naleving van Rode Lijnen en ethische aspecten | C       |
 | Eindgebruikers     | Leveren feedback over kwaliteit van outputs             | C       |
@@ -79,11 +79,11 @@ ______________________________________________________________________
 
 ## 6. Deliverables
 
-| Deliverable                     | Beschrijving                                             | Eigenaar       |
-| :------------------------------ | :------------------------------------------------------- | :------------- |
-| Actielijst sprint               | Concrete verbeterpunten met deadline                     | AI PM          |
-| Kwartaalrapport Modelgezondheid | Prestaties, Prestatieverloop, Business Case-vergelijking | Data Scientist |
-| Retrospective Notulen           | Beslissingen en discussiepunten                          | AI PM          |
+| Deliverable                     | Beschrijving                                  | Eigenaar       |
+| :------------------------------ | :-------------------------------------------- | :------------- |
+| Actielijst sprint               | Concrete verbeterpunten met deadline          | AI PM          |
+| Kwartaalrapport Modelgezondheid | Prestaties, Drift, Business Case-vergelijking | Data Scientist |
+| Retrospective Notulen           | Beslissingen en discussiepunten               | AI PM          |
 
 ______________________________________________________________________
 

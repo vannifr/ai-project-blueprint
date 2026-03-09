@@ -19,7 +19,7 @@ Ga naar **[Managementsamenvatting](00-executive-summary.md)** voor een samenvatt
 ### Ik wil snel experimenteren (Fast Lane)
 
 Heeft uw idee een **Laag Risico** en valt het onder **Samenwerkingsmodus 1 of 2** (bijv. interne chatbot voor samenvattingen)?
-Gebruik de **[Snelle Route (Fast Lane)](../02-fase-ontdekking/06-fast-lane.md)**: Sla de uitgebreide Business Case over. Vul enkel de [Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) in en registreer het project bij de Guardian.
+Gebruik de **[Snelle Route (Fast Lane)](../02-fase-ontdekking/06-fast-lane.md)**: Sla de uitgebreide Business Case over. Vul enkel de [Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) in en registreer het project bij de Guardian.
 
 ### Ik heb een idee voor een AI-project
 
@@ -27,7 +27,7 @@ Ga naar [Verkenning & Strategie](../02-fase-ontdekking/01-doelstellingen.md). Ge
 
 ### Ik wil geld of budget aanvragen
 
-Ga naar [Validatie](../03-fase-validatie/01-doelstellingen.md). Hier leert u hoe u een **Praktijkproef** opzet en **Het Kostenoverzicht** berekent.
+Ga naar [Validatie](../03-fase-validatie/01-doelstellingen.md). Hier leert u hoe u een **Proof of Value (PoV)** opzet en **Het Kostenoverzicht** berekent.
 
 ### Ik ga bouwen of ontwikkelen
 

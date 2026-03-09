@@ -18,7 +18,7 @@ AI mag de menselijke autonomie niet ondermijnen. Gebruikers moeten in staat zijn
 
 ### Rechtvaardigheid & Eerlijkheid
 
-AI-systemen mogen niet leiden tot onrechtvaardige discriminatie. We passen de **Eerlijkheidstoets** toe om bias op drie niveaus (Representativiteit, Stereotypering, Gelijke Behandeling) te elimineren.
+AI-systemen mogen niet leiden tot onrechtvaardige discriminatie. We passen de **Fairness audit (bias audit)** toe om bias op drie niveaus (Representativiteit, Stereotypering, Gelijke Behandeling) te elimineren.
 
 ### Transparantie & Uitlegbaarheid
 
@@ -34,7 +34,7 @@ We streven naar een positieve impact op de samenleving en minimaliseren de ecolo
 
 ______________________________________________________________________
 
-## 3. De Eerlijkheidstoets (Bias Audit) - Uitgebreid
+## 3. De Fairness audit (bias audit) (Bias Audit) - Uitgebreid
 
 ### Toetsniveaus
 
@@ -65,7 +65,7 @@ Wij hanteren de volgende meetbare criteria voor eerlijkheid:
 | **Beperkt**  | ≤ 10% verschil in Major-foutpercentage | Documentatie van groepsvergelijking                  |
 | **Hoog**     | ≤ 5% verschil in Major-foutpercentage  | Kwantitatieve analyse + gedocumenteerd mitigatieplan |
 
-### Uitvoering van de Eerlijkheidstoets
+### Uitvoering van de Fairness audit (bias audit)
 
 **Stap 1: Identificeer Relevante Groepen**
 
@@ -76,7 +76,7 @@ Wij hanteren de volgende meetbare criteria voor eerlijkheid:
 **Stap 2: Verzamel of Annoteer Data**
 
 - Optie A: Groepslabels beschikbaar in testdata
-- Optie B: Handmatige annotatie van Gouden Set subset
+- Optie B: Handmatige annotatie van Golden Set subset
 - Optie C: Proxy-variabelen met onderbouwing
 - Let op privacy: pseudonimiseer waar mogelijk
 
@@ -109,7 +109,7 @@ Leg vast in [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapp
 - Conclusie t.a.v. drempels
 - Mitigatiemaatregelen (indien van toepassing)
 
-### Tooling voor Eerlijkheidstoets
+### Tooling voor Fairness audit (bias audit)
 
 | Tool                      | Type           | Sterkte                                    | Link                             |
 | ------------------------- | -------------- | ------------------------------------------ | -------------------------------- |
@@ -141,7 +141,7 @@ De Guardian fungeert als het morele kompas van het project:
 - Bewaakt de **Rode Lijnen**
 - Voert onafhankelijke ethische reviews uit
 - Heeft veto-mandaat bij ethische overschrijdingen
-- Keurt Eerlijkheidstoets resultaten goed
+- Keurt Fairness audit (bias audit) resultaten goed
 - Escaleert bij onoplosbare fairness issues
 
 ### Guardian Taken per Fase
@@ -149,7 +149,7 @@ De Guardian fungeert als het morele kompas van het project:
 | Fase       | Guardian Activiteit                                       |
 | ---------- | --------------------------------------------------------- |
 | Verkenning | Ethische wenselijkheid beoordelen, Rode Lijnen definiëren |
-| Validatie  | Eerlijkheidstoets uitvoeren/reviewen                      |
+| Validatie  | Fairness audit (bias audit) uitvoeren/reviewen            |
 | Realisatie | Mitigatiemaatregelen valideren                            |
 | Levering   | Finale ethische goedkeuring                               |
 | Beheer     | Periodieke ethics reviews, bias monitoring                |
@@ -160,9 +160,9 @@ ______________________________________________________________________
 
 !!! check "5. Checklist Ethische Richtlijnen"
     - [ ] Ethische grondbeginselen zijn besproken met team
-    - [ ] Rode Lijnen zijn gedefinieerd in Doelkaart
-    - [ ] Relevante groepen voor Eerlijkheidstoets zijn geïdentificeerd
-    - [ ] Eerlijkheidstoets is uitgevoerd conform risiconiveau
+    - [ ] Rode Lijnen zijn gedefinieerd in Doelkaart (goal card)
+    - [ ] Relevante groepen voor Fairness audit (bias audit) zijn geïdentificeerd
+    - [ ] Fairness audit (bias audit) is uitgevoerd conform risiconiveau
     - [ ] Resultaten voldoen aan drempels óf mitigatie is gedocumenteerd
     - [ ] Guardian heeft ethische goedkeuring gegeven
     - [ ] Transparantieplicht is geïmplementeerd (Beperkt/Hoog Risico)

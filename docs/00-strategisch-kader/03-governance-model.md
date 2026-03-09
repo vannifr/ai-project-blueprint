@@ -30,7 +30,7 @@ ______________________________________________________________________
 | **AI Transformation Office** | Operationeel  | Procesbewaking, standaardisatie, training.                          |
 | **Data Scientist**           | Technisch     | Model development, validatie, experimentatie.                       |
 | **ML Engineering**           | Technisch     | **Ingebruikname** pipelines, monitoring, infrastructuur.            |
-| **Guardian (Ethicist)**      | Ondersteunend | Eerlijkheidstoetsen, Bias audits, Compliance checks.                |
+| **Guardian (Ethicist)**      | Ondersteunend | Fairness audit (bias audit)en, Bias audits, Compliance checks.      |
 | **Security Officer**         | Ondersteunend | Security maatregelen, Privacy waarborging.                          |
 
 ______________________________________________________________________

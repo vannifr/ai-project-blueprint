@@ -17,6 +17,6 @@ ______________________________________________________________________
 
 - [Lessons Learned](01-lessons-learned.md)
 - [Overdracht Procedures](02-overdracht-procedures.md)
-- [Batenrealisatie](03-batenrealisatie.md)
+- [Waarderealisatie (benefits realization)](03-batenrealisatie.md)
 
 ______________________________________________________________________

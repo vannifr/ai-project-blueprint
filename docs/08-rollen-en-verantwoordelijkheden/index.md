@@ -18,7 +18,7 @@ Deze mensen werken dagelijks aan het project en vormen de motor van de innovatie
 
 Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar snapt ook wat technisch haalbaar is met AI (en wat niet).
 
-- **Verantwoordelijkheid:** De **Doelkaart**.
+- **Verantwoordelijkheid:** De **Doelkaart (goal card)**.
 - **Taak:** Vertaalt vage business-wensen naar scherpe AI-instructies. Beheert de backlog en prioriteert op waarde.
 - **Focus:** "Lossen we het juiste probleem op?"
 
@@ -35,7 +35,7 @@ De architect van de oplossing. Zorgt dat de losse componenten (data, model, inte
 De 'Guardian' is geen enkele functietitel, maar een rol met veto-recht die waakt over de ethische en wettelijke kaders. Gezien de complexiteit wordt deze rol in de praktijk vaak ingevuld door een duo ("Two-man rule"):
 
 - **Privacy & Legal Officer:** Toetst op AVG, EU AI Act en juridische risico's. Focus: *Mag dit wettelijk?*
-- **AI Quality Ethicist (of QA Lead):** Toetst op bias in de dataset, kwaliteit van de Gouden Set en output-veiligheid. Focus: *Is dit eerlijk en veilig?*
+- **AI Quality Ethicist (of QA Lead):** Toetst op bias in de dataset, kwaliteit van de Golden Set en output-veiligheid. Focus: *Is dit eerlijk en veilig?*
 
 Voor projecten met een **Hoog Risico** is expliciete goedkeuring van beiden vereist bij Gate Reviews. Bij kleine projecten kan één persoon de rol dragen, mits voldoende mandaat.
 

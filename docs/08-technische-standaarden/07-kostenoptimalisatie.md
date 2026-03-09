@@ -159,7 +159,7 @@ Stel in uw cloud-provider of LLM-provider altijd budgetalerts in op:
 
 ### Kostentoewijzing
 
-Wijs kosten toe per systeem, team of use case via tags/labels in uw cloud-omgeving. Dit maakt ROI-berekening per project mogelijk (zie [Batenrealisatie](../10-doorlopende-verbetering/04-batenrealisatie.md)).
+Wijs kosten toe per systeem, team of use case via tags/labels in uw cloud-omgeving. Dit maakt ROI-berekening per project mogelijk (zie [Waarderealisatie (benefits realization)](../10-doorlopende-verbetering/04-batenrealisatie.md)).
 
 ______________________________________________________________________
 
@@ -179,5 +179,5 @@ ______________________________________________________________________
 
 - [Cloud vs. On-Premise](06-cloud-vs-onpremise.md)
 - [MLOps Standaarden](01-mloops-standaarden.md)
-- [Batenrealisatie](../10-doorlopende-verbetering/04-batenrealisatie.md)
+- [Waarderealisatie (benefits realization)](../10-doorlopende-verbetering/04-batenrealisatie.md)
 - [Business Case Sjabloon](../09-sjablonen/02-business-case/template.md)

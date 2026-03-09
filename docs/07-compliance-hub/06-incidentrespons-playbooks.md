@@ -133,7 +133,7 @@ Bepaal de bron:
 
 - [ ] Model Card bijgewerkt met bias-bevindingen
 - [ ] Fairness-monitoring uitgebreid
-- [ ] Eerlijkheidstoets (Bias Audit) protocol herzien
+- [ ] Fairness audit (bias audit) (Bias Audit) protocol herzien
 - [ ] Communicatie naar betrokkenen indien van toepassing
 
 ______________________________________________________________________

@@ -92,4 +92,4 @@ ______________________________________________________________________
 - [Operationele Herontwerp](../14-drie-tracks/02-operationele-herontwerp.md)
 - [Snelstart: AI-Project in 90 Dagen](../12-90-dagen-roadmap/index.md)
 - [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
-- [Batenrealisatie — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)
+- [Waarderealisatie (benefits realization) — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)

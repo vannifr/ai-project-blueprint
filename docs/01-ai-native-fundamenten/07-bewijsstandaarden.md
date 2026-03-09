@@ -40,9 +40,9 @@ ______________________________________________________________________
     **Norm:** zeer beperkt (zie tabel).
 - **Minor:** stijl/format/kleine onvolledigheid zonder besluit-impact.
 
-### "Significant prestatieverloop"
+### "Significant drift"
 
-Prestatieverloop is **significant** als één van onderstaande optreedt t.o.v. de nulmeting:
+Drift is **significant** als één van onderstaande optreedt t.o.v. de nulmeting:
 
 - **Feitelijkheid daalt ≥ 2 procentpunten** (bijv. van 99% naar 97%)
 - **Relevantie-score daalt ≥ 0,3** op een 1–5 schaal
@@ -56,17 +56,17 @@ ______________________________________________________________________
 
 Elke Gate Review baseert zich minimaal op deze documenten:
 
-1. **[Gouden Set Test & Acceptatie Protocol](../09-sjablonen/07-validatie-bewijs/template.md)** (de aanpak)
+1. **[Golden Set Test & Acceptatie Protocol](../09-sjablonen/07-validatie-bewijs/template.md)** (de aanpak)
 1. **[Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)** (de resultaten + conclusie)
 1. **[Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md)** (wat draait er precies)
-1. **[Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (wat moest het doen + Rode Lijnen)
+1. **[Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (wat moest het doen + Rode Lijnen)
 1. **[Risico Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)** (risicoklasse)
 
 ______________________________________________________________________
 
-## 5. Minimale eisen aan testsets ("Gouden Set")
+## 5. Minimale eisen aan testsets ("Golden Set")
 
-| Risiconiveau | Minimale grootte Gouden Set | Verplichte onderdelen                                        |
+| Risiconiveau | Minimale grootte Golden Set | Verplichte onderdelen                                        |
 | ------------ | --------------------------: | ------------------------------------------------------------ |
 | **Minimaal** |                    20 cases | 80% standaardcases + 20% randgevallen                        |
 | **Beperkt**  |                    50 cases | 80% standaard + 15% complex + 5% adversarial                 |
@@ -77,7 +77,7 @@ ______________________________________________________________________
 - Testcases zijn **realistische praktijkvoorbeelden** (geen synthetische "happy flow only").
 - Elke testcase heeft: **verwachte uitkomst** of **beoordelingscriteria**.
 - Adversarial set bevat expliciet: jailbreaks, prompt-injectie, policy-omzeiling, "verzin bron"-trucs.
-- **Synthetische Data Generatie:** Om de workload van 150+ testcases te verlichten, mag gebruik worden gemaakt van een "red-teaming AI" om concept-testcases te genereren. **Eis:** Een menselijk expert moet elke gegenereerde testcase en het "verwachte antwoord" (Ground Truth) valideren en goedkeuren voor opname in de Gouden Set.
+- **Synthetische Data Generatie:** Om de workload van 150+ testcases te verlichten, mag gebruik worden gemaakt van een "red-teaming AI" om concept-testcases te genereren. **Eis:** Een menselijk expert moet elke gegenereerde testcase en het "verwachte antwoord" (Ground Truth) valideren en goedkeuren voor opname in de Golden Set.
 
 ______________________________________________________________________
 
@@ -95,7 +95,7 @@ ______________________________________________________________________
 | **Relevantie (1–5)**                               |                     ≥ 4,0 |                           ≥ 4,2 |                                           ≥ 4,5 |
 | **Veiligheid: "moet weigeren" prompts**            |            100% weigering |                  100% weigering |                                  100% weigering |
 | **Transparantie (AI-disclaimer waar vereist)**     | n.v.t./100% indien extern |      100% indien van toepassing |                      100% indien van toepassing |
-| **Eerlijkheidstoets** *(bias)*                     |    kwalitatief (Guardian) |     kwali + kwant waar mogelijk |                 verplicht kwant + mitigatieplan |
+| **Fairness audit (bias audit)** *(bias)*           |    kwalitatief (Guardian) |     kwali + kwant waar mogelijk |                 verplicht kwant + mitigatieplan |
 | **Audit trail (logging compleetheid)**             |         minimaal metadata | 100% metadata + sampling output |         100% input/output + herleidbare context |
 | **Stabiliteit** *(variatie over runs)*             |                 monitoren |    beperkte variatie toegestaan | strikt: variatie moet verklaard/acceptabel zijn |
 
@@ -115,8 +115,8 @@ ______________________________________________________________________
 - **Datum/tijd**, gebruiker/rol (gehashte ID waar nodig)
 - **Gebruikscasus / endpoint**
 - **Modelnaam + versie**
-- **Prompt-/Sturingsinstructies versie**
-- **Bronnen gebruikt** (bij Kenniskoppeling: document-ID's/URLs)
+- **Prompt-/Prompts versie**
+- **Bronnen gebruikt** (bij RAG: document-ID's/URLs)
 - **Output**
 - **Human override** (ja/nee + reden)
 

@@ -2,11 +2,11 @@
 versie: '1.0'
 ---
 
-# 3. Batenrealisatie (Projectafsluiting)
+# 3. Waarderealisatie (benefits realization) (Projectafsluiting)
 
 ## 1. Doelstelling
 
-Wij meten bij projectafsluiting de definitieve realisatie van de beloofde baten, rapporteren hierover aan de stuurgroep en dragen het batenrealisatieplan over aan de beheerorganisatie voor voortgezette bewaking.
+Wij meten bij projectafsluiting de definitieve realisatie van de beloofde baten, rapporteren hierover aan de stuurgroep en dragen het waarderealisatie (benefits realization)plan over aan de beheerorganisatie voor voortgezette bewaking.
 
 ______________________________________________________________________
 
@@ -38,17 +38,17 @@ De Business Case wordt definitief afgesloten met:
 - **Afwijkingsanalyse:** verklaring voor baten die boven of onder de doelwaarde liggen.
 - **Restrisico's:** baten die nog niet meetbaar zijn (te korte productietijd) worden doorgegeven aan de beheerorganisatie voor bewaking.
 
-### Overdracht Batenrealisatieplan
+### Overdracht Waarderealisatie (benefits realization)plan
 
-Het batenrealisatieplan wordt overgedragen aan de eigenaar in de beheerorganisatie:
+Het waarderealisatie (benefits realization)plan wordt overgedragen aan de eigenaar in de beheerorganisatie:
 
 1. Overzicht van alle baten-KPI's met definitie en meetmethode.
-1. Kwartaalreviewschema (zie [Batenrealisatie — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)).
+1. Kwartaalreviewschema (zie [Waarderealisatie (benefits realization) — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)).
 1. Contactpersoon voor escalatie bij structurele batenachterstand.
 
 ### Slotrapportage aan stuurgroep
 
-De AI PM presenteert de batenrealisatie in een slotrapportage (max. 10 slides of 3 A4):
+De AI PM presenteert de waarderealisatie (benefits realization) in een slotrapportage (max. 10 slides of 3 A4):
 
 - Samenvatting gerealiseerde vs. beloofde baten.
 - Top 3 learnings voor toekomstige AI-projecten.
@@ -58,12 +58,12 @@ ______________________________________________________________________
 
 ## 4. Team & Rollen
 
-| Rol                        | Verantwoordelijkheid                                          | R/A/C/I |
-| :------------------------- | :------------------------------------------------------------ | :------ |
-| AI Product Manager         | Coördineert eindmeting en stelt slotrapportage op             | A       |
-| Data Scientist             | Levert meetdata en analyseert afwijkingen                     | R       |
-| CAIO / Stuurgroep          | Ontvangt en beoordeelt slotrapportage                         | C       |
-| Beheerorganisatie eigenaar | Accepteert het batenrealisatieplan voor voortgezette bewaking | R       |
+| Rol                        | Verantwoordelijkheid                                                                  | R/A/C/I |
+| :------------------------- | :------------------------------------------------------------------------------------ | :------ |
+| AI Product Manager         | Coördineert eindmeting en stelt slotrapportage op                                     | A       |
+| Data Scientist             | Levert meetdata en analyseert afwijkingen                                             | R       |
+| CAIO / Stuurgroep          | Ontvangt en beoordeelt slotrapportage                                                 | C       |
+| Beheerorganisatie eigenaar | Accepteert het waarderealisatie (benefits realization)plan voor voortgezette bewaking | R       |
 
 ______________________________________________________________________
 
@@ -71,24 +71,24 @@ ______________________________________________________________________
 
 - [ ] Alle baten-KPI's zijn gemeten en gedocumenteerd.
 - [ ] Slotrapportage is gepresenteerd aan en goedgekeurd door de stuurgroep.
-- [ ] Batenrealisatieplan is overgedragen aan de beheerorganisatie.
+- [ ] Waarderealisatie (benefits realization)plan is overgedragen aan de beheerorganisatie.
 - [ ] Business Case is formeel afgesloten.
 
 ______________________________________________________________________
 
 ## 6. Deliverables
 
-| Deliverable                      | Beschrijving                                           | Eigenaar               |
-| :------------------------------- | :----------------------------------------------------- | :--------------------- |
-| Eindmeting Baten                 | Vergelijking nulmeting / doel / realisatie per KPI     | AI PM + Data Scientist |
-| Slotrapportage                   | Presentatie voor stuurgroep met definitieve ROI        | AI PM                  |
-| Batenrealisatieplan (overdracht) | Plan voor voortgezette bewaking door beheerorganisatie | AI PM                  |
+| Deliverable                                              | Beschrijving                                           | Eigenaar               |
+| :------------------------------------------------------- | :----------------------------------------------------- | :--------------------- |
+| Eindmeting Baten                                         | Vergelijking nulmeting / doel / realisatie per KPI     | AI PM + Data Scientist |
+| Slotrapportage                                           | Presentatie voor stuurgroep met definitieve ROI        | AI PM                  |
+| Waarderealisatie (benefits realization)plan (overdracht) | Plan voor voortgezette bewaking door beheerorganisatie | AI PM                  |
 
 ______________________________________________________________________
 
 **Gerelateerde modules:**
 
 - [Project Afsluiting — Overzicht](index.md)
-- [Batenrealisatie — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)
+- [Waarderealisatie (benefits realization) — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)
 - [Business Case sjabloon](../09-sjablonen/02-business-case/template.md)
 - [Lessons Learned](01-lessons-learned.md)

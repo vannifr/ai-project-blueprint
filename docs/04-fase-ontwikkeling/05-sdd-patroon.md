@@ -14,7 +14,7 @@ ______________________________________________________________________
 
 ```
 ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ Doelkaart │ --> │ Specificatie │ --> │ Implementatie │
+│ Doelkaart (goal card) │ --> │ Specificatie │ --> │ Implementatie │
 │ (Intent) │ │ (Contract) │ │ (Code/Prompts) │
 └─────────────────┘ └─────────────────┘ └─────────────────┘
  │ │ │
@@ -38,7 +38,7 @@ ______________________________________________________________________
 
 ### Doeldefinitie Opstellen
 
-De **AI Product Manager** legt de business-intentie vast in de [Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md).
+De **AI Product Manager** legt de business-intentie vast in de [Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md).
 
 **Minimaal vastleggen:**
 
@@ -49,7 +49,7 @@ De **AI Product Manager** legt de business-intentie vast in de [Doelkaart](../09
 
 ### Specificatie Uitwerken
 
-De **Tech Lead** en **ML Engineer** vertalen de Doelkaart naar een technische specificatie.
+De **Tech Lead** en **ML Engineer** vertalen de Doelkaart (goal card) naar een technische specificatie.
 
 **Onderdelen van de specificatie:**
 
@@ -67,13 +67,13 @@ De specificatie wordt gereviewd voordat implementatie start.
 
 **Review-checklist:**
 
-- [ ] Dekt de specificatie alle scenario's uit de Doelkaart?
+- [ ] Dekt de specificatie alle scenario's uit de Doelkaart (goal card)?
 - [ ] Zijn de Rode Lijnen concreet en implementeerbaar?
-- [ ] Is de specificatie testbaar (kunnen we Gouden Set afleiden)?
+- [ ] Is de specificatie testbaar (kunnen we Golden Set afleiden)?
 - [ ] Zijn edge cases beschreven?
 - [ ] Guardian akkoord op Rode Lijnen-implementatie?
 
-### Gouden Set Afleiden
+### Golden Set Afleiden
 
 Vanuit de specificatie leiden we de testcases af.
 
@@ -87,7 +87,7 @@ Vanuit de specificatie leiden we de testcases af.
 
 Nu pas beginnen we met bouwen:
 
-- Sturingsinstructies (prompts/configs) opstellen
+- Prompts (prompts/configs) opstellen
 - Integratie met databronnen
 - Implementatie van filters en rode lijnen
 
@@ -95,7 +95,7 @@ Nu pas beginnen we met bouwen:
 
 We valideren of de implementatie voldoet aan de specificatie:
 
-- Gouden Set uitvoeren
+- Golden Set uitvoeren
 - Resultaten vergelijken met verwachtingen
 - Afwijkingen analyseren en oplossen
 
@@ -109,7 +109,7 @@ ______________________________________________________________________
 | Aantoonbare compliance  | Specificatie = bewijs van bedoeling           |
 | Efficiënte ontwikkeling | Minder iteraties door helder contract         |
 | Betere samenwerking     | Business en Tech spreken dezelfde taal        |
-| Testbaarheid            | Gouden Set volgt logisch uit specificatie     |
+| Testbaarheid            | Golden Set volgt logisch uit specificatie     |
 
 ______________________________________________________________________
 
@@ -129,14 +129,14 @@ De specificatie is geen handleiding voor gebruikers, maar een contract voor ontw
 
 ### Integratie met Gates
 
-- **Gate 2:** Specificatie goedgekeurd, Gouden Set afgeleid
+- **Gate 2:** Specificatie goedgekeurd, Golden Set afgeleid
 - **Gate 3:** Implementatie voldoet aan specificatie
 
 ______________________________________________________________________
 
 ## 6. Voorbeeld: Klantenservice Chatbot
 
-**Doelkaart (excerpt):**
+**Doelkaart (goal card) (excerpt):**
 
 > "Beantwoord klantvragen over producten met informatie uit onze kennisbank."
 
@@ -149,7 +149,7 @@ ______________________________________________________________________
 | Rode Lijn: medisch advies | "Moet ik dit innemen?"           | Weigering + doorverwijzing           |
 | Rode Lijn: concurrentie   | "Is jullie product beter dan Z?" | Neutraal antwoord, geen vergelijking |
 
-**Gouden Set (afgeleid):**
+**Golden Set (afgeleid):**
 
 - GS-001: Vraag over prijs product X → prijs + bron
 - GS-002: Vraag over onbekend product → "geen informatie"
@@ -173,10 +173,10 @@ ______________________________________________________________________
 ## 8. Checklist SDD
 
 !!! check "8. Checklist SDD"
-    - [ ] Doelkaart is opgesteld en goedgekeurd
+    - [ ] Doelkaart (goal card) is opgesteld en goedgekeurd
     - [ ] Specificatie is uitgewerkt met input/output/gedragsregels
     - [ ] Specificatie is gereviewd door Tech Lead en Guardian
-    - [ ] Gouden Set is afgeleid uit specificatie
+    - [ ] Golden Set is afgeleid uit specificatie
     - [ ] Implementatie is gevalideerd tegen specificatie
     - [ ] Afwijkingen zijn gedocumenteerd en opgelost
 
@@ -184,7 +184,7 @@ ______________________________________________________________________
 
 ## 9. Gerelateerde Modules
 
-- [Doelkaart Sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- [Doelkaart (goal card) Sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - [Test Frameworks](../08-technische-standaarden/04-test-frameworks.md)
 - [Specificatie-eerst Methode](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)

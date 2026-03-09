@@ -27,7 +27,7 @@ ______________________________________________________________________
 
 - **Basismodel (Foundation):** \[Bijv. Azure OpenAI GPT-4\]
 - **Parameters:** \[Bijv. Temperature: 0.7, TopP: 0.9\]
-- **Kenniskoppeling (RAG):**
+- **RAG (RAG):**
 - **Bron:** \[Bijv. SharePoint Map 'Kennisbeheer'\]
 - **Update frequentie:** \[Wekelijks / Real-time\]
 
@@ -64,7 +64,7 @@ ______________________________________________________________________
 
 - **Eigenaar (Tech):** \[Naam Tech Lead\]
 - **Eigenaar (Business):** \[Naam Product Owner\]
-- **Drift Monitoring:** \[Welke tool meet het **Prestatieverloop**?\]
+- **Drift Monitoring:** \[Welke tool meet het **Drift**?\]
 
 ______________________________________________________________________
 

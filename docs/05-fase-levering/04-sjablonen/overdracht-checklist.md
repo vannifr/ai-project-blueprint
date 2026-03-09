@@ -25,7 +25,7 @@ ______________________________________________________________________
 - [ ] **Escalatiepad gedefinieerd:** Procedures voor incidenten zijn gedocumenteerd: wie contacteren, wanneer, hoe? → [Incident Respons](../../07-compliance-hub/05-incidentrespons.md)
 - [ ] **SLO's vastgesteld:** Servicenormen (latentie, beschikbaarheid, nauwkeurigheidsdrempel) zijn schriftelijk overeengekomen tussen projectteam en beheerorganisatie.
 - [ ] **Retraining-protocol gedocumenteerd:** Wanneer en hoe wordt het model opnieuw afgestemd? Wie mag dit initiëren?
-- [ ] **Nulmeting vastgelegd:** Baseline-prestaties (nauwkeurigheid, latentie, gebruikskosten) zijn gemeten en gedocumenteerd als referentie voor toekomstig Prestatieverloop.
+- [ ] **Nulmeting vastgelegd:** Baseline-prestaties (nauwkeurigheid, latentie, gebruikskosten) zijn gemeten en gedocumenteerd als referentie voor toekomstig Drift.
 
 ______________________________________________________________________
 
@@ -52,7 +52,7 @@ ______________________________________________________________________
 
 - [ ] **Overdrachtsacceptatie ondertekend:** Projectteam én beheerorganisatie hebben het overdrachtsformulier ondertekend.
 - [ ] **Gate 4 (Livegang) goedgekeurd:** Alle Gate Review-criteria zijn afgevinkt en gedocumenteerd. → [Gate Reviews](../../09-sjablonen/04-gate-reviews/checklist.md)
-- [ ] **Batenrealisatieplan geactiveerd:** Het plan voor het meten van de gerealiseerde baten is overgedragen aan de eigenaar in de beheerorganisatie. → [Batenrealisatie](../../11-project-afsluiting/03-batenrealisatie.md)
+- [ ] **Waarderealisatie (benefits realization)plan geactiveerd:** Het plan voor het meten van de gerealiseerde baten is overgedragen aan de eigenaar in de beheerorganisatie. → [Waarderealisatie (benefits realization)](../../11-project-afsluiting/03-batenrealisatie.md)
 - [ ] **Projectarchief afgesloten:** Alle projectdocumenten zijn gearchiveerd op de afgesproken locatie.
 
 ______________________________________________________________________

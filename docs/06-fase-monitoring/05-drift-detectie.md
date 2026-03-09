@@ -2,15 +2,15 @@
 versie: '1.0'
 ---
 
-# 1. Prestatieverloop Detectie (Drift Detection)
+# 1. Drift Detectie (Drift Detection)
 
 ## 1. Doel
 
-Prestatieverloop (drift) is het fenomeen waarbij de kwaliteit van een AI-systeem over tijd verslechtert. Deze module beschrijft hoe wij drift detecteren, meten en hierop reageren.
+Drift (drift) is het fenomeen waarbij de kwaliteit van een AI-systeem over tijd verslechtert. Deze module beschrijft hoe wij drift detecteren, meten en hierop reageren.
 
 ______________________________________________________________________
 
-## 2. Typen Prestatieverloop
+## 2. Typen Drift
 
 ### Data Drift
 
@@ -44,7 +44,7 @@ ______________________________________________________________________
 - Toename van klachten ondanks gelijke testresultaten
 - Gap tussen validatie en productie-feedback
 
-### Prestatieverloop
+### Drift
 
 **Wat:** Het model zelf verandert (bij updates door provider) of degradeert.
 
@@ -64,9 +64,9 @@ ______________________________________________________________________
 
 ## 3. Detectiemethoden
 
-### Periodieke Gouden Set Testing
+### Periodieke Golden Set Testing
 
-**Aanpak:** Voer de Gouden Set regelmatig uit op productie.
+**Aanpak:** Voer de Golden Set regelmatig uit op productie.
 
 | Risiconiveau | Frequentie         | Omvang                |
 | ------------ | ------------------ | --------------------- |
@@ -112,7 +112,7 @@ ______________________________________________________________________
 
 Gebaseerd op [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) sectie 3.2:
 
-**Significant prestatieverloop treedt op als:**
+**Significant drift treedt op als:**
 
 | Criterium        | Drempel                                  |
 | ---------------- | ---------------------------------------- |
@@ -171,13 +171,13 @@ ______________________________________________________________________
 
 ### Concept Drift
 
-| Oorzaak                 | Mitigatie                              |
-| ----------------------- | -------------------------------------- |
-| Beleid gewijzigd        | Sturingsinstructies updaten            |
-| Verwachtingen veranderd | Doelkaart herzien, specificatie update |
-| Externe veranderingen   | Rode Lijnen herzien                    |
+| Oorzaak                 | Mitigatie                                          |
+| ----------------------- | -------------------------------------------------- |
+| Beleid gewijzigd        | Prompts updaten                                    |
+| Verwachtingen veranderd | Doelkaart (goal card) herzien, specificatie update |
+| Externe veranderingen   | Rode Lijnen herzien                                |
 
-### Prestatieverloop
+### Drift
 
 | Oorzaak                   | Mitigatie                              |
 | ------------------------- | -------------------------------------- |
@@ -225,7 +225,7 @@ ______________________________________________________________________
 
 !!! check "9. Checklist Drift Monitoring"
     - [ ] Nulmeting is vastgelegd bij livegang
-    - [ ] Periodieke Gouden Set testing is ingepland
+    - [ ] Periodieke Golden Set testing is ingepland
     - [ ] Real-time monitoring is actief
     - [ ] Drempelwaarden zijn geconfigureerd
     - [ ] Alerting is gekoppeld aan verantwoordelijken

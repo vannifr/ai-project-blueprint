@@ -11,7 +11,7 @@ versie: '1.0'
 We houden de 'hartslag' van het systeem in de gaten.
 
 - **Real-time Performance Tracking:** Dashboarding van kritieke metrics: Latency (snelheid), Foutpercentages, Uptime, Throughput.
-- **Prestatieverloop Meten:** Statistisch monitoren of de invoerdata in productie afwijkt van de trainingsdata (*Data Drift*) of als de relatie tussen data en uitkomst verandert (*Concept Drift*).
+- **Drift Meten:** Statistisch monitoren of de invoerdata in productie afwijkt van de trainingsdata (*Data Drift*) of als de relatie tussen data en uitkomst verandert (*Concept Drift*).
 - **Data Loop Integratie:** Terugkoppelen van productie-data en uitkomsten naar de ontwikkelomgeving voor analyse (Feedback Loop).
 - **Geautomatiseerde Triggers:** Alerts instellen voor dalingen onder drempelwaarden (bv. accuracy \< 85%).
 
@@ -38,17 +38,17 @@ Blijvende wettelijke conformiteit.
 - **Post-Market Surveillance:** (EU AI Act eis) Continu scannen op onvoorziene bias, discriminatie of veiligheidsrisico's.
 - **Audit-ready Logging:** Bewaren van logs van beslissingen en menselijke interventies voor auditeurs.
 - **Transparantie Rapporten:** Periodieke rapportage aan stakeholders en CAIO over veiligheid en performance.
-- **Eerlijkheidstoets (Bias Audit):** Regelmatige steekproeven door de Ethicist op de 'toon' en kwaliteit van outputs.
+- **Fairness audit (bias audit) (Bias Audit):** Regelmatige steekproeven door de Ethicist op de 'toon' en kwaliteit van outputs.
 
 ## 2. Team & Rollen
 
-| Rol                         | Verantwoordelijkheid in Beheer & Optimalisatie                                                |
-| :-------------------------- | :-------------------------------------------------------------------------------------------- |
-| **MLOps Engineer**          | **R**esponsible: Eigenaar monitoring-pipelines, infrastructuur en stabiliteit.                |
-| **AI Product Manager**      | **A**ccountable: Bewaakt Business KPI's, beheert backlog en user feedback.                    |
-| **Chief AI Officer (CAIO)** | **C**onsulted: Evalueert lange termijn ROI en strategische impact.                            |
-| **Data Scientist**          | **R**esponsible: Analyseert **Prestatieverloop**, voert retraining uit en verbetert modellen. |
-| **Guardian (Ethicist)**     | **C**onsulted: Voert ethische reviews en post-market surveillance uit.                        |
+| Rol                         | Verantwoordelijkheid in Beheer & Optimalisatie                                     |
+| :-------------------------- | :--------------------------------------------------------------------------------- |
+| **MLOps Engineer**          | **R**esponsible: Eigenaar monitoring-pipelines, infrastructuur en stabiliteit.     |
+| **AI Product Manager**      | **A**ccountable: Bewaakt Business KPI's, beheert backlog en user feedback.         |
+| **Chief AI Officer (CAIO)** | **C**onsulted: Evalueert lange termijn ROI en strategische impact.                 |
+| **Data Scientist**          | **R**esponsible: Analyseert **Drift**, voert retraining uit en verbetert modellen. |
+| **Guardian (Ethicist)**     | **C**onsulted: Voert ethische reviews en post-market surveillance uit.             |
 
 ______________________________________________________________________
 

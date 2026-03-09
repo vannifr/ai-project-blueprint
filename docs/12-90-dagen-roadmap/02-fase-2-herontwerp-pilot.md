@@ -10,7 +10,7 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
 
 ## 1. Doelstellingen
 
-- **Praktijkproef:** Bewijs dat de gekozen gebruikscasus werkt in de praktijk.
+- **Proof of Value (PoV):** Bewijs dat de gekozen gebruikscasus werkt in de praktijk.
 - **Proces Redesign:** Pas het werkproces aan. AI toevoegen aan een slecht proces maakt het alleen maar sneller slecht.
 - **Eerste winst:** Realiseer meetbare besparing of omzetgroei.
 

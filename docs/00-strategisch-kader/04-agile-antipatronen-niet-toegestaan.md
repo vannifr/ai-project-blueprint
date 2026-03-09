@@ -12,7 +12,7 @@ ______________________________________________________________________
 
 ## 2. De "NOT DONE" Lijst
 
-### Geen Eerlijkheidstoets (Bias Audit)
+### Geen Fairness audit (bias audit) (Bias Audit)
 
 - **Regel:** AI systemen moeten regelmatig worden gecontroleerd op bias.
 - **Impact:** Discriminatie en reputatieschade.
@@ -26,7 +26,7 @@ ______________________________________________________________________
 
 ### Geen Continue Monitoring
 
-- **Regel:** Modellen degraderen na verloop van tijd (**Prestatieverloop**). Continue monitoring is vereist.
+- **Regel:** Modellen degraderen na verloop van tijd (**Drift**). Continue monitoring is vereist.
 - **Impact:** Performance verlies en onbetrouwbare output.
 -
 
@@ -62,7 +62,7 @@ ______________________________________________________________________
 
 ### Geen Traceerbaarheid
 
-- **Regel:** Van elke modelversie moet te herleiden zijn op welke data en met welke **Sturingsinstructies** deze is getraind.
+- **Regel:** Van elke modelversie moet te herleiden zijn op welke data en met welke **Prompts** deze is getraind.
 - **Impact:** Onmogelijkheid om fouten te auditen.
 -
 

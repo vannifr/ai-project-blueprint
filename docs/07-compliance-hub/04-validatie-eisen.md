@@ -15,7 +15,7 @@ ______________________________________________________________________
 1. **Objectiviteit:** Gebruik van meetbare metrics en onafhankelijke testsets.
 1. **Dekking:** Bewijs van toetsing op alle gedefinieerde **Rode Lijnen**.
 1. **Traceerbaarheid:** Directe koppeling tussen de **Doeldefinitie**, de gebruikte data en de testresultaten.
-1. **Eerlijkheid:** Rapportage over de uitgevoerde **Eerlijkheidstoets**.
+1. **Eerlijkheid:** Rapportage over de uitgevoerde **Fairness audit (bias audit)**.
 1. **Stabiliteit:** Bewijs van robuustheid tegen afwijkende invoer of pogingen tot manipulatie.
 
 ______________________________________________________________________

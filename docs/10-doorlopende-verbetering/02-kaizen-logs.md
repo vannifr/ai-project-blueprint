@@ -36,7 +36,7 @@ Elke verbetering — hoe klein ook — wordt gelogd met een vaste structuur:
 
 **Voorbeeld:**
 
-> KZ-2026-007 · 15-03-2026 · Data Scientist · De nauwkeurigheid van categorie X daalt structureel 3% per maand. · Aanvulling Gouden Set met 20 nieuwe randgevallen en hertraining. · Nauwkeurigheid hersteld naar baseline +1,2%. · Gesloten.
+> KZ-2026-007 · 15-03-2026 · Data Scientist · De nauwkeurigheid van categorie X daalt structureel 3% per maand. · Aanvulling Golden Set met 20 nieuwe randgevallen en hertraining. · Nauwkeurigheid hersteld naar baseline +1,2%. · Gesloten.
 
 ### Kaizen-cyclus bewaken
 
