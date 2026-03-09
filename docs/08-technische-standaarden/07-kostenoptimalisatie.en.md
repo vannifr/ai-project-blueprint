@@ -87,6 +87,18 @@ Not every question requires the heaviest (most expensive) model. Route based on 
 | **Medium** | Claude Sonnet             | Analysis, summarisation, Q&A                 | 5–10×         |
 | **Heavy**  | Claude Opus               | Complex reasoning, legal, medical            | 15–30×        |
 
+**Example routing logic (Python):**
+
+```python
+def select_model(query: str, complexity_score: float) -> str:
+    if complexity_score < 0.3:
+        return "claude-haiku-4-5-20251001"   # Light — fast & cheap
+    elif complexity_score < 0.7:
+        return "claude-sonnet-4-6"           # Medium — balanced
+    else:
+        return "claude-opus-4-6"             # Heavy — complex reasoning
+```
+
 ______________________________________________________________________
 
 ### Technique 4 — Chunking & RAG Optimisation

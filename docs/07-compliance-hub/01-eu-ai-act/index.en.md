@@ -260,7 +260,53 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 8. Related Modules
+## 8. Additional Legislation & Belgian Context
+
+### Withdrawal of the AI Liability Directive (AILD)
+
+In February 2025 the European Commission announced the withdrawal of the proposal for the AI Liability Directive, officially published in October 2025. The AILD was intended to ease the burden of proof for victims of AI-related harm via a "rebuttable presumption of causality".
+
+**Consequence for Belgian organisations:** there is currently no harmonised EU directive for AI liability. Liability falls back on:
+
+- **General Belgian liability law** (Art. 1382 BW)
+- The revised **Product Liability Directive (PLD)** — see below
+
+Source: \[so-40\]
+
+______________________________________________________________________
+
+### Revised Product Liability Directive (PLD)
+
+The revised PLD (Directive (EU) 2024/2853) entered into force on **8 December 2024** and now explicitly includes software and AI systems as products. Belgium must transpose this into national law by **9 December 2026**.
+
+**Key points for AI projects:**
+
+- AI software falls under the definition of "product" → product liability applies
+- Damage caused by defective AI systems can be recovered from the manufacturer/provider
+- Documentation obligations under the EU AI Act support the PLD defence
+
+Source: \[so-41\]
+
+______________________________________________________________________
+
+### Scope per Regulation (Belgium)
+
+| Regulation             | Applicable?                                   | Deadline              |
+| :--------------------- | :-------------------------------------------- | :-------------------- |
+| EU AI Act              | ✅ Yes — directly applicable as EU regulation | Phased until Aug 2027 |
+| GDPR / AVG             | ✅ Yes — additionally applicable              | Ongoing               |
+| PLD (revised)          | ✅ Yes — after transposition into Belgian law | Dec 2026              |
+| AI Liability Directive | ❌ Withdrawn — not in force                   | N/A                   |
+| Colorado AI Act (US)   | ❌ Not applicable to Belgian market           | N/A                   |
+
+!!! warning "Legal Fragmentation"
+    With the withdrawal of the AILD, organisations are now navigating a patchwork of national legislation. Document your AI systems thoroughly via the EU AI Act obligations: this also forms your PLD defence.
+
+Sources: \[so-40\], \[so-41\]
+
+______________________________________________________________________
+
+## 9. Related Modules
 
 - [Risk Management & Compliance](../index.md)
 - [Risk Pre-Scan](../../09-sjablonen/03-risicoanalyse/pre-scan.md)

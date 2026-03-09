@@ -70,6 +70,17 @@ ______________________________________________________________________
 | **Min. costs (dev)**  | Pay-per-use             | Pay-per-use           | Pay-per-use          |
 | **MLOps platform**    | SageMaker               | Azure ML              | Vertex AI            |
 
+### Cloud Cost Management
+
+Primary cost drivers in cloud AI deployments:
+
+- **Inference APIs** — cost per token/request (largest variable cost for LLM applications)
+- **Compute (GPU/CPU hours)** — for training and fine-tuning
+- **Storage** — model artefacts, training data, vector databases
+- **Network** — data transfer and egress costs
+
+See [Cost Optimisation](07-kostenoptimalisatie.md) for reduction techniques (caching, model tiering, batch processing).
+
 ### Cloud Security Checklist
 
 - [ ] Data residency configured to EU region
