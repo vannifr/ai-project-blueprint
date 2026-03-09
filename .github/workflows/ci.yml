@@ -81,7 +81,7 @@ jobs:
     if: >
       (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
       (github.event_name == 'workflow_dispatch' && inputs.build_pdf != true)
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
       - name: Download site artifact
         uses: actions/download-artifact@v4
@@ -97,7 +97,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./site/
           server-dir: /public_html/ai-project-blueprint/
-          dangerous-clean-slate: true
+          dangerous-clean-slate: false
 
   pdf:
     name: Build & Deploy PDF (${{ inputs.pdf_language }})
@@ -178,7 +178,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./site/
           server-dir: /public_html/ai-project-blueprint/
-          dangerous-clean-slate: true
+          dangerous-clean-slate: false
 
       - name: Upload PDF als artifact
         uses: actions/upload-artifact@v4
