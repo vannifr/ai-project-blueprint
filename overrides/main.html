@@ -1,5 +1,14 @@
 {% extends "base.html" %}
 
+{% block announce %}
+<span class="lang-banner-nl">
+  🇬🇧 Also available in <a href="{{ config.extra.url_en }}"><strong>English</strong></a>
+</span>
+<span class="lang-banner-en">
+  🇳🇱 Ook beschikbaar in het <a href="{{ config.extra.url_nl }}"><strong>Nederlands</strong></a>
+</span>
+{% endblock %}
+
 {% block extrahead %}
 {# Zoekmachine-indexering: stel noindex: true/false in via extra.noindex in mkdocs.yml #}
 {% if config.extra.get('noindex', false) %}<meta name="robots" content="noindex" />{% endif %}

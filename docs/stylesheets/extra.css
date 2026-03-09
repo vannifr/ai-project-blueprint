@@ -30,6 +30,48 @@
     mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9Z"/></svg>');
 }
 
+/* === Taalswitch: announce-banner === */
+/* Beide spans zijn altijd aanwezig in de HTML; CSS toont de juiste. */
+.lang-banner-nl,
+.lang-banner-en {
+    display: none;
+}
+
+html[lang="nl"] .lang-banner-nl {
+    display: inline;
+}
+
+html[lang="en"] .lang-banner-en {
+    display: inline;
+}
+
+/* === Taalswitch: pill-button in de header === */
+/* Voegt een zichtbaar "NL" of "EN" label toe naast het globe-icoon. */
+.md-header__option .md-select > button.md-header__button {
+    border: 1.5px solid rgba(255, 255, 255, 0.45);
+    border-radius: 16px;
+    padding: 0 8px 0 4px;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    height: 1.8rem;
+    gap: 2px;
+}
+
+html[lang="nl"] .md-header__option .md-select > button.md-header__button::after {
+    content: "NL";
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+html[lang="en"] .md-header__option .md-select > button.md-header__button::after {
+    content: "EN";
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
 /* === Tabellen: horizontaal scrollbaar op mobiel === */
 .md-typeset table {
     display: block;
