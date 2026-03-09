@@ -20,6 +20,35 @@ ______________________________________________________________________
 
 ## 3. Kernactiviteiten
 
+### De AI Productiviteitsparadox — Waarschuwing
+
+!!! warning "Rework-valkuil"
+    Onderzoek (Workday, 2025) toont aan dat gemiddeld **40% van de tijdwinst door AI** verloren gaat aan *rework*: het corrigeren van fouten, herschrijven van AI-gegenereerde content en dubbelchecken van outputs. Op organisatieniveau bedraagt de werkelijke productiviteitsboost **5–15%**, tegenover de gepercipieerde 50–100% op individueel niveau.
+
+    Aanvullend: AI-codingassistenten vergroten pull requests gemiddeld met **154%**, wat nieuwe knelpunten in de reviewfase creëert.
+
+    **Conclusie:** meet realisatie op organisatieniveau, niet op individueel gevoel. Splits AI-gegenereerd werk op in kleinere brokken. Investeer in platformvolwassenheid en centrale sturing — louter bottom-up experimenteren leidt tot Shadow AI en inconsistentie.
+
+Bron: \[so-46\]
+
+______________________________________________________________________
+
+### GAINS™ Raamwerk voor ROI-meting
+
+Het GAINS™-raamwerk koppelt AI-uitgaven aan concrete zakelijke uitkomsten in plaats van louter te kijken naar kostenposten. Gebruik de vijf dimensies als structuur voor uw kwartaalrapportage.
+
+| Dimensie                            | Wat meten                                               | Streefwaarde (richtlijn)           |
+| :---------------------------------- | :------------------------------------------------------ | :--------------------------------- |
+| **G — Usage & Engagement**          | Actieve dagelijkse gebruikers (DAU) en interactiediepte | DAU > 60% van doelgroep            |
+| **A — Task Completion Time**        | Versnelling t.o.v. handmatige baseline per taaktype     | Definieer per use case             |
+| **I — Error Reduction**             | Foutpercentage en vermeden herstelkosten                | Koppel aan Batenregister           |
+| **N — Revenue/Output Correlation**  | Directe bijdrage aan omzet of outputvolume              | Koppel aan Business Case           |
+| **S — Cost per Productive Outcome** | Kosten per nuttig resultaat (CFO-metriek)               | Dalende trend kwartaal-op-kwartaal |
+
+Bron: \[so-46\]
+
+______________________________________________________________________
+
 ### Kwartaalreview Waarderealisatie (benefits realization)
 
 Elke drie maanden vergelijkt de AI PM de werkelijke baten met de Business Case. De review omvat:

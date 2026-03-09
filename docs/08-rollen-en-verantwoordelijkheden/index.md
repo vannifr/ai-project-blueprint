@@ -48,11 +48,47 @@ ______________________________________________________________________
 
 Deze specialisten worden ingevlogen wanneer de specifieke fase daarom vraagt.
 
-| Rol                 | Focus           | Taak                                                                     |
-| :------------------ | :-------------- | :----------------------------------------------------------------------- |
-| **Data Engineer**   | Datakwaliteit   | De ruggengraat van de data. Zorgt dat data schoon aankomt bij het model. |
-| **AI Tester (QA)**  | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.        |
-| **Adoptie Manager** | Verandering     | Zorgt dat mensen de tool echt gebruiken (ADKAR-model).                   |
+| Rol                     | Focus           | Taak                                                                                       |
+| :---------------------- | :-------------- | :----------------------------------------------------------------------------------------- |
+| **Data Engineer**       | Datakwaliteit   | De ruggengraat van de data. Zorgt dat data schoon aankomt bij het model.                   |
+| **AI Tester (QA)**      | Betrouwbaarheid | Specialist in het 'kapot maken' van AI via *Adversarial Testing*.                          |
+| **Adoptie Manager**     | Verandering     | Zorgt dat mensen de tool echt gebruiken (ADKAR-model).                                     |
+| **Context Builder**     | Kennisbeheer    | Beheert wat het model op elk moment ziet — zie uitbreiding hieronder.                      |
+| **AI Security Officer** | Beveiliging     | Focust op LLM-kwetsbaarheden, data poisoning en AI-governance — zie uitbreiding hieronder. |
+
+______________________________________________________________________
+
+### Context Builder
+
+De industrie verschuift van *prompt engineering* (instructies schrijven) naar **context engineering** (beheren wat het model op elk moment ziet). De Context Builder fungeert als digitale bibliothecaris: hij verzamelt relevante informatie uit honderden bestanden en realtime datastromen, samenvat deze, en archiveert ze in een hiërarchische kennisbank die de contextlimieten van het LLM overstijgt.
+
+**Kernverantwoordelijkheden:**
+
+- Ontwerpen en onderhouden van de RAG-architectuur (Retrieval-Augmented Generation)
+- Voorkomen van *contextvervuiling* — meer context is niet altijd beter; irrelevante informatie schaadt de modelprestaties
+- Verlagen van inferentiekosten via gerichte informatieophaling (tot 50× goedkoper dan volledige context)
+- Bewaken van de Context Development Lifecycle: welke informatie is actueel, welke verouderd?
+
+**Wanneer inzetten:** verplicht bij RAG-systemen of wanneer het model toegang heeft tot meer dan één kennisbron. Kan een menselijke rol zijn of een geautomatiseerde agentic component.
+
+Bron: \[so-44\]
+
+______________________________________________________________________
+
+### AI Security Officer
+
+Naarmate AI-systemen kritischer worden, volstaan traditionele beveiligingsrollen niet langer. De AI Security Officer richt zich specifiek op dreigingen die uniek zijn voor ML-systemen.
+
+**Kernverantwoordelijkheden:**
+
+- Dreigingsmodellering op basis van de [OWASP Top 10 voor LLMs](../07-compliance-hub/07-red-teaming.md)
+- Uitvoeren of coördineren van Red Teaming sessies
+- Beheer van AI-governance raamwerken (EU AI Act Art. 9, NIST AI RMF)
+- Respons op AI-specifieke incidenten: model poisoning, prompt injection, bias-escalaties
+
+**Certificering:** ISACA introduceerde in augustus 2025 de **AAISM** (Advanced in AI Security Management) — 's werelds eerste AI-gecentreerde beveiligingsmanagementkwalificatie, specifiek gericht op LLM-kwetsbaarheden en AI-governance.
+
+Bron: \[so-45\]
 
 ______________________________________________________________________
 

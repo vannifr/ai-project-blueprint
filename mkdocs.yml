@@ -136,6 +136,7 @@ plugins:
             "MLOps Standaarden": "MLOps Standards"
             "AI Architectuur": "AI Architecture"
             "Kostenoptimalisatie": "Cost Optimisation"
+            "Green AI & Duurzaamheid": "Green AI & Sustainability"
             # Toolkit & Templates
             "🧰 Toolkit & Sjablonen": "🧰 Toolkit & Templates"
             "Alle Sjablonen (Overzicht)": "All Templates (Overview)"
@@ -303,6 +304,7 @@ nav:
       - AI Architectuur: 08-technische-standaarden/05-ai-architectuur.md
       - Cloud vs. On-Premise: 08-technische-standaarden/06-cloud-vs-onpremise.md
       - Kostenoptimalisatie: 08-technische-standaarden/07-kostenoptimalisatie.md
+      - Green AI & Duurzaamheid: 08-technische-standaarden/08-green-ai.md
   - 🧰 Toolkit & Sjablonen:
     - Alle Sjablonen (Overzicht): 09-sjablonen/index.md
     - Fase 1 Sjablonen: 02-fase-ontdekking/04-sjablonen/index.md

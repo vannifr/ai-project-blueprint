@@ -14,13 +14,22 @@ ______________________________________________________________________
 
 De volgende bronnen vormen de juridische en technische ruggengraat van deze blauwdruk en zijn geschikt voor audit-doeleinden.
 
-| Ref ID        | Bron                       | Beschrijving                                           | Status       |
-| :------------ | :------------------------- | :----------------------------------------------------- | :----------- |
-| **\[so-27\]** | EU AI Act (Official Text)  | Officiële wettekst & Verordening (EU) 2024/1689        | Definitief   |
-| **\[so-36\]** | EU AI Act (Implementation) | Gefaseerde inwerkingtreding & deadlines                | Actief       |
-| **\[so-28\]** | DORA GenAI Report v2025.2  | DevOps Research & Assessment rapport over GenAI impact | Gepubliceerd |
-| **\[so-1\]**  | NIST IR 8605 (Draft)       | A Framework for Managing Risks of Generative AI        | Public Draft |
-| **\[so-10\]** | arXiv:2505.10924           | Man-in-the-Middle Attacks on LLM-based Agents          | Preprint     |
+| Ref ID        | Bron                                                            | Beschrijving                                                                                                        | Status       |
+| :------------ | :-------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ | :----------- |
+| **\[so-27\]** | EU AI Act (Official Text)                                       | Officiële wettekst & Verordening (EU) 2024/1689                                                                     | Definitief   |
+| **\[so-36\]** | EU AI Act (Implementation)                                      | Gefaseerde inwerkingtreding & deadlines                                                                             | Actief       |
+| **\[so-28\]** | DORA GenAI Report v2025.2                                       | DevOps Research & Assessment rapport over GenAI impact                                                              | Gepubliceerd |
+| **\[so-1\]**  | NIST IR 8605 (Draft)                                            | A Framework for Managing Risks of Generative AI                                                                     | Public Draft |
+| **\[so-10\]** | arXiv:2505.10924                                                | Man-in-the-Middle Attacks on LLM-based Agents                                                                       | Preprint     |
+| **\[so-40\]** | EC — Intrekking AILD (OJ EU, okt 2025)                          | Officiële intrekking AI Liability Directive; implicaties voor EU-aansprakelijkheidsrecht                            | Definitief   |
+| **\[so-41\]** | Richtlijn (EU) 2024/2853 — Herziene PLD                         | Product Liability Directive inclusief software & AI; inwerkingtreding 8 dec 2024                                    | Definitief   |
+| **\[so-42\]** | OWASP Top 10 for LLM Applications (2025)                        | Meest kritieke beveiligingsrisico's voor LLM-toepassingen, editie 2025                                              | Gepubliceerd |
+| **\[so-43\]** | OWASP / Security Research — Deceptive Delight & HashJack (2025) | Nieuwe aanvalspatronen: multi-turn manipulatie en URL-fragment prompt-injectie                                      | Gepubliceerd |
+| **\[so-44\]** | Context Engineering — Industry Analysis (2025)                  | Verschuiving van prompt engineering naar context engineering; rol van de Context Builder                            | Gepubliceerd |
+| **\[so-45\]** | ISACA — AAISM Certificering (aug 2025)                          | Advanced in AI Security Management: eerste AI-gecentreerde beveiligingsmanagementkwalificatie                       | Definitief   |
+| **\[so-46\]** | Workday — AI Productivity Research (2025)                       | AI Productivity Paradox: rework-valkuil, organisatorisch vs. individueel productiviteitsniveau; GAINS™ ROI-raamwerk | Gepubliceerd |
+| **\[so-47\]** | Cornell University — Carbon-Aware AI (2025)                     | Smart siting en grid-decarbonisatie verminderen CO₂-voetafdruk AI met 73%, water met 86%                            | Gepubliceerd |
+| **\[so-48\]** | IEA / Datacenter Energy Reports (2025)                          | Energieverbruik datacenters, waterconsumptie en projecties tot 2030                                                 | Gepubliceerd |
 
 ______________________________________________________________________
 

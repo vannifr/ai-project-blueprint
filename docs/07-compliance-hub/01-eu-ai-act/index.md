@@ -260,7 +260,53 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 8. Gerelateerde Modules
+## 8. Aanvullende Wetgeving & Belgische Context
+
+### Intrekking AI Liability Directive (AILD)
+
+In februari 2025 kondigde de Europese Commissie de intrekking aan van het voorstel voor de AI Liability Directive, officieel gepubliceerd in oktober 2025. De AILD was bedoeld om via een "weerlegbaar vermoeden van causaliteit" de bewijslast voor slachtoffers van AI-schade te verlichten.
+
+**Gevolg voor Belgische organisaties:** er is momenteel geen geharmoniseerde EU-richtlijn voor AI-aansprakelijkheid. Aansprakelijkheid valt terug op:
+
+- Het **algemeen Belgisch aansprakelijkheidsrecht** (art. 1382 BW)
+- De herziene **Product Liability Directive (PLD)** — zie hieronder
+
+Bron: \[so-40\]
+
+______________________________________________________________________
+
+### Herziene Product Liability Directive (PLD)
+
+De herziene PLD (Richtlijn (EU) 2024/2853) trad in werking op **8 december 2024** en omvat nu expliciet software en AI-systemen als producten. België moet deze omzetten in nationaal recht uiterlijk **9 december 2026**.
+
+**Kernpunten voor AI-projecten:**
+
+- AI-software valt onder de definitie van "product" → productaansprakelijkheid geldt
+- Schade door defecte AI-systemen kan worden verhaald op de fabrikant/aanbieder
+- Documentatieplichten uit de EU AI Act ondersteunen de PLD-verdediging
+
+Bron: \[so-41\]
+
+______________________________________________________________________
+
+### Toepassingsbereik per regelgeving (België)
+
+| Regelgeving            | Van toepassing?                              | Deadline               |
+| :--------------------- | :------------------------------------------- | :--------------------- |
+| EU AI Act              | ✅ Ja — direct van kracht als EU-verordening | Gefaseerd t/m aug 2027 |
+| GDPR / AVG             | ✅ Ja — aanvullend van kracht                | Doorlopend             |
+| PLD (herzien)          | ✅ Ja — na omzetting in Belgisch recht       | Dec 2026               |
+| AI Liability Directive | ❌ Ingetrokken — niet van kracht             | N.v.t.                 |
+| Colorado AI Act (VS)   | ❌ Niet van toepassing op Belgische markt    | N.v.t.                 |
+
+!!! warning "Juridische fragmentatie"
+    Door het wegvallen van de AILD navigeren organisaties nu door een lappendeken van nationale wetgevingen. Documenteer uw AI-systemen grondig via de EU AI Act-verplichtingen: dit vormt ook uw PLD-verdediging.
+
+Bronnen: \[so-40\], \[so-41\]
+
+______________________________________________________________________
+
+## 9. Gerelateerde Modules
 
 - [Risicobeheersing & Compliance](../index.md)
 - [Risico Pre-Scan](../../09-sjablonen/03-risicoanalyse/pre-scan.md)
