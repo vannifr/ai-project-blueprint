@@ -20,6 +20,35 @@ ______________________________________________________________________
 
 ## 3. Core Activities
 
+### The AI Productivity Paradox — Warning
+
+!!! warning "Rework Pitfall"
+    Research (Workday, 2025) shows that on average **40% of time savings from AI** are lost to *rework*: correcting errors, rewriting AI-generated content and double-checking outputs. At organisational level the actual productivity gain is **5–15%**, compared to the perceived 50–100% at individual level.
+
+    Additionally: AI coding assistants increase pull requests by an average of **154%**, creating new bottlenecks in the review phase.
+
+    **Conclusion:** measure realisation at organisational level, not on individual perception. Split AI-generated work into smaller chunks. Invest in platform maturity and central governance — purely bottom-up experimentation leads to Shadow AI and inconsistency.
+
+Source: \[so-46\]
+
+______________________________________________________________________
+
+### GAINS™ Framework for ROI Measurement
+
+The GAINS™ framework links AI expenditure to concrete business outcomes rather than simply looking at cost items. Use the five dimensions as the structure for your quarterly reporting.
+
+| Dimension                           | What to measure                                 | Target value (guideline)           |
+| :---------------------------------- | :---------------------------------------------- | :--------------------------------- |
+| **G — Usage & Engagement**          | Active daily users (DAU) and interaction depth  | DAU > 60% of target group          |
+| **A — Task Completion Time**        | Acceleration vs. manual baseline per task type  | Define per use case                |
+| **I — Error Reduction**             | Error rate and avoided remediation costs        | Link to Benefits Register          |
+| **N — Revenue/Output Correlation**  | Direct contribution to revenue or output volume | Link to Business Case              |
+| **S — Cost per Productive Outcome** | Cost per useful result (CFO metric)             | Declining trend quarter-on-quarter |
+
+Source: \[so-46\]
+
+______________________________________________________________________
+
 ### Quarterly Benefits Realisation Review
 
 Every three months the AI PM compares the actual benefits with the Business Case. The review includes:
