@@ -185,6 +185,7 @@ plugins:
             "Externe Evidence (DORA)": "External Evidence (DORA)"
             "Changelog": "Changelog"
             "Feedback": "Feedback"
+            "Guardian Review Checklist": "Guardian Review Checklist"
   - search:
       lang: [nl, en]
   - git-revision-date-localized:
@@ -319,6 +320,7 @@ nav:
       - Risicoanalyse: 09-sjablonen/03-risicoanalyse/template.md
       - Pre-scan: 09-sjablonen/03-risicoanalyse/pre-scan.md
     - Gate Reviews: 09-sjablonen/04-gate-reviews/checklist.md
+    - Guardian Review Checklist: 09-sjablonen/15-guardian-review/template.md
     - AI Artefacten (Doelkaart): 09-sjablonen/06-ai-native-artefacten/doelkaart.md
     - Validatierapport: 09-sjablonen/07-validatie-bewijs/validatierapport.md
     - Golden Set Test (Deprecated): 09-sjablonen/07-validatie-bewijs/template.md
