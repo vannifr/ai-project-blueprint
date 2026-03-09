@@ -30,6 +30,8 @@ De volgende bronnen vormen de juridische en technische ruggengraat van deze blau
 | **\[so-46\]** | Workday — AI Productivity Research (2025)                       | AI Productivity Paradox: rework-valkuil, organisatorisch vs. individueel productiviteitsniveau; GAINS™ ROI-raamwerk | Gepubliceerd |
 | **\[so-47\]** | Cornell University — Carbon-Aware AI (2025)                     | Smart siting en grid-decarbonisatie verminderen CO₂-voetafdruk AI met 73%, water met 86%                            | Gepubliceerd |
 | **\[so-48\]** | IEA / Datacenter Energy Reports (2025)                          | Energieverbruik datacenters, waterconsumptie en projecties tot 2030                                                 | Gepubliceerd |
+| **\[so-49\]** | Verordening (EU) 2016/679 — AVG/GDPR                            | Algemene Verordening Gegevensbescherming; rechtstreeks van toepassing in alle EU-lidstaten                          | Definitief   |
+| **\[so-50\]** | NIST AI 100-1 — AI Risk Management Framework (RMF) 1.0          | NIST AI RMF: raamwerk voor risicobeheer van AI-systemen; vier kernfuncties: Govern, Map, Measure, Manage            | Definitief   |
 
 ______________________________________________________________________
 

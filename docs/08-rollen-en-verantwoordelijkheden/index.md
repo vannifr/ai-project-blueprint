@@ -83,7 +83,7 @@ Naarmate AI-systemen kritischer worden, volstaan traditionele beveiligingsrollen
 
 - Dreigingsmodellering op basis van de [OWASP Top 10 voor LLMs](../07-compliance-hub/07-red-teaming.md)
 - Uitvoeren of coördineren van Red Teaming sessies
-- Beheer van AI-governance raamwerken (EU AI Act Art. 9, NIST AI RMF)
+- Beheer van AI-governance raamwerken (EU AI Act Art. 9, NIST AI RMF \[so-50\])
 - Respons op AI-specifieke incidenten: model poisoning, prompt injection, bias-escalaties
 
 **Certificering:** ISACA introduceerde in augustus 2025 de **AAISM** (Advanced in AI Security Management) — 's werelds eerste AI-gecentreerde beveiligingsmanagementkwalificatie, specifiek gericht op LLM-kwetsbaarheden en AI-governance.

@@ -28,6 +28,8 @@ Het moet voor een gebruiker duidelijk zijn wanneer hij met een AI communiceert. 
 
 Strikte naleving van de AVG/GDPR. Gegevens worden alleen gebruikt voor het beoogde doel en conform de gestelde **Rode Lijnen**.
 
+Bron: \[so-49\]
+
 ### Maatschappelijk & Ecologisch Welzijn
 
 We streven naar een positieve impact op de samenleving en minimaliseren de ecologische voetafdruk van onze AI-systemen (energie-efficiëntie).
