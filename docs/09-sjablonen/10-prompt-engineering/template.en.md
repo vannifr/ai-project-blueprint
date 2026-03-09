@@ -44,3 +44,33 @@ ______________________________________________________________________
 *Add 2-3 examples of Input ↔ Desired Output here to guide the AI.*
 
 ______________________________________________________________________
+
+## 4. Version Control (Prompt Versioning)
+
+Prompts are production code. Manage them like code: version, changelog and rollback.
+
+### Semantic versioning
+
+| Change                                             | Version bump  | Example         |
+| :------------------------------------------------- | :------------ | :-------------- |
+| New Hard Boundary or task change                   | Major (X.0.0) | v1.0.0 → v2.0.0 |
+| Tone, context or few-shot adjustment               | Minor (x.Y.0) | v1.0.0 → v1.1.0 |
+| Spelling/style correction without behaviour change | Patch (x.y.Z) | v1.0.0 → v1.0.1 |
+
+### Prompt Changelog
+
+| Version | Date     | Changed by | Description     | Tested on Golden Set |
+| :------ | :------- | :--------- | :-------------- | :------------------- |
+| v1.0.0  | \[date\] | \[name\]   | Initial version | ☐ Yes / ☐ No         |
+| v1.1.0  | \[date\] | \[name\]   | \[description\] | ☐ Yes / ☐ No         |
+
+### Rollback Procedure
+
+1. Revert to the previous prompt version in Git.
+1. Re-run the Golden Set to confirm regression.
+1. Document the regression in the Kaizen Log.
+1. Inform the Guardian when changes affect Hard Boundaries.
+
+> Store all versions in Git with a tag per major version: `prompt-v1.0.0`.
+
+______________________________________________________________________

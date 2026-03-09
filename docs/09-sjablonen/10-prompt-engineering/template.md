@@ -44,3 +44,33 @@ ______________________________________________________________________
 *Voeg hier 2-3 voorbeelden toe van Input ↔ Gewenste Output om de AI te sturen.*
 
 ______________________________________________________________________
+
+## 4. Versiebeheer (Prompt Versioning)
+
+Prompts zijn productiecode. Beheer ze als code: versie, changelog en rollback.
+
+### Semantische versienummering
+
+| Wijziging                                    | Versie-bump   | Voorbeeld       |
+| :------------------------------------------- | :------------ | :-------------- |
+| Nieuwe Rode Lijn of taakwijziging            | Major (X.0.0) | v1.0.0 → v2.0.0 |
+| Aanpassing toon, context of few-shots        | Minor (x.Y.0) | v1.0.0 → v1.1.0 |
+| Spel-/stijlcorrectie zonder gedragswijziging | Patch (x.y.Z) | v1.0.0 → v1.0.1 |
+
+### Prompt Changelog
+
+| Versie | Datum     | Gewijzigd door | Omschrijving     | Getest op Golden Set |
+| :----- | :-------- | :------------- | :--------------- | :------------------- |
+| v1.0.0 | \[datum\] | \[naam\]       | Initiële versie  | ☐ Ja / ☐ Nee         |
+| v1.1.0 | \[datum\] | \[naam\]       | \[omschrijving\] | ☐ Ja / ☐ Nee         |
+
+### Rollback Procedure
+
+1. Revert naar vorige prompt-versie in Git.
+1. Draai Golden Set opnieuw om regressie te bevestigen.
+1. Documenteer de regressie in de Kaizen Log.
+1. Informeer Guardian bij wijzigingen die Rode Lijnen raken.
+
+> Bewaar alle versies in Git met een tag per major-versie: `prompt-v1.0.0`.
+
+______________________________________________________________________
