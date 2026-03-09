@@ -4,9 +4,10 @@ site_description: Modulaire documentatie voor AI-projectmanagement (PMI-CPMAI & 
 site_author: AI Project Playbook Team
 copyright: '&copy; 2026 AI Project Blauwdruk. Gelicenseerd onder CC BY-NC-SA 4.0.'
 extra:
-  noindex: true
+  noindex: false
   url_nl: "https://vannifr.ovh/ai-project-blueprint/"
   url_en: "https://vannifr.ovh/ai-project-blueprint/en/"
+  og_image: "https://vannifr.ovh/ai-project-blueprint/assets/images/social-card.svg"
 
 extra_css:
   - stylesheets/extra.css

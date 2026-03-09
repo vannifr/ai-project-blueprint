@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#004d40"/>
+  <rect x="0" y="0" width="8" height="630" fill="#26a69a"/>
+  <text x="80" y="220" font-family="system-ui, sans-serif" font-size="72" font-weight="700" fill="#ffffff">AI Project</text>
+  <text x="80" y="310" font-family="system-ui, sans-serif" font-size="72" font-weight="700" fill="#26a69a">Blauwdruk</text>
+  <text x="80" y="400" font-family="system-ui, sans-serif" font-size="32" fill="#b2dfdb">Modulaire documentatie voor AI-projectmanagement</text>
+  <text x="80" y="450" font-family="system-ui, sans-serif" font-size="28" fill="#80cbc4">PMI-CPMAI · Agile-AI · EU AI Act</text>
+  <text x="80" y="560" font-family="system-ui, sans-serif" font-size="22" fill="#4db6ac">vannifr.ovh/ai-project-blueprint</text>
+</svg>

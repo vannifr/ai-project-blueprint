@@ -26,10 +26,45 @@
 {% endblock %}
 
 {% block extrahead %}
-{# Zoekmachine-indexering: stel noindex: true/false in via extra.noindex in mkdocs.yml #}
-{% if config.extra.get('noindex', false) %}<meta name="robots" content="noindex" />{% endif %}
-{# Open Graph tags voor sharing via Slack/Teams/LinkedIn #}
-<meta property="og:title" content="{% if page and page.title %}{{ page.title }} — {% endif %}{{ config.site_name }}" />
-<meta property="og:description" content="{{ config.site_description }}" />
+
+{# === Indexering === #}
+{# noindex instellen via extra.noindex: true/false in mkdocs.yml #}
+{% if config.extra.get('noindex', false) %}<meta name="robots" content="noindex, nofollow" />{% else %}<meta name="robots" content="index, follow" />{% endif %}
+
+{# === Meta description (page-specific via front matter, anders site-default) === #}
+{% set page_description = (page.meta.description if page and page.meta and page.meta.description else config.site_description) %}
+<meta name="description" content="{{ page_description }}" />
+
+{# === Canonical URL + hreflang NL/EN === #}
+{% if page %}
+  {% if page.url.startswith('en/') %}
+    {% set nl_url = config.site_url + page.url[3:] %}
+    {% set en_url = config.site_url + page.url %}
+  {% else %}
+    {% set nl_url = config.site_url + page.url %}
+    {% set en_url = config.site_url ~ 'en/' ~ page.url %}
+  {% endif %}
+<link rel="canonical" href="{{ nl_url if not page.url.startswith('en/') else en_url }}" />
+<link rel="alternate" hreflang="nl" href="{{ nl_url }}" />
+<link rel="alternate" hreflang="en" href="{{ en_url }}" />
+<link rel="alternate" hreflang="x-default" href="{{ nl_url }}" />
+{% endif %}
+
+{# === Open Graph === #}
+{% set og_title = (page.title ~ ' — ' ~ config.site_name) if page and page.title else config.site_name %}
+<meta property="og:title" content="{{ og_title }}" />
+<meta property="og:description" content="{{ page_description }}" />
 <meta property="og:type" content="article" />
+<meta property="og:site_name" content="{{ config.site_name }}" />
+{% if page %}<meta property="og:url" content="{{ nl_url if not page.url.startswith('en/') else en_url }}" />{% endif %}
+{% if config.extra.og_image %}<meta property="og:image" content="{{ config.extra.og_image }}" />{% endif %}
+<meta property="og:locale" content="{{ 'en_GB' if page and page.url.startswith('en/') else 'nl_BE' }}" />
+<meta property="og:locale:alternate" content="{{ 'nl_BE' if page and page.url.startswith('en/') else 'en_GB' }}" />
+
+{# === Twitter / X Card === #}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{{ og_title }}" />
+<meta name="twitter:description" content="{{ page_description }}" />
+{% if config.extra.og_image %}<meta name="twitter:image" content="{{ config.extra.og_image }}" />{% endif %}
+
 {% endblock %}
