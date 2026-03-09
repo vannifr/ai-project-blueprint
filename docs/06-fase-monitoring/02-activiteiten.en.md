@@ -38,7 +38,29 @@ Ongoing legal conformity.
 - **Post-Market Surveillance:** (EU AI Act requirement) Continuously scanning for unforeseen bias, discrimination or safety risks.
 - **Audit-ready Logging:** Retaining logs of decisions and human interventions for auditors.
 - **Transparency Reports:** Periodic reporting to stakeholders and CAIO on safety and performance.
-- **Fairness Check (Bias Audit):** Regular sampling by the Ethicist of the 'tone' and quality of outputs.
+- **Fairness Audit (Bias Audit):** Regular sampling by the Ethicist of the 'tone' and quality of outputs.
+
+### Decommissioning
+
+An AI system has a finite lifespan. Define in advance when shutdown is justified.
+
+**Decommissioning triggers:**
+
+| Category          | Trigger                                                                          | Action                                    |
+| :---------------- | :------------------------------------------------------------------------------- | :---------------------------------------- |
+| **Technical**     | Drift exceeds threshold and retraining does not improve performance              | System offline, root cause analysis       |
+| **Economic**      | Cost per Productive Outcome rises > 50% above baseline after 2 quarters          | CAIO review: stop or re-architect         |
+| **Ethical/Legal** | Critical fairness audit finding or new legislation renders system non-compliant  | Immediate stop, Guardian review mandatory |
+| **Strategic**     | Use case disappears due to organisational change or better alternative available | Controlled wind-down per handover plan    |
+
+**Decommissioning process:**
+
+1. **Announcement:** Inform users and stakeholders in advance (minimum 4 weeks).
+1. **Archiving:** Retain the technical dossier, validation reports and Kaizen Log per retention policy.
+1. **Knowledge transfer:** Document lessons learned in the [Lessons Learned](../11-project-afsluiting/01-lessons-learned.md) register.
+1. **Data deletion:** Delete or anonymise production data in accordance with GDPR \[so-49\].
+1. **Infrastructure:** Shut down compute, API keys and monitoring pipelines.
+1. **Guardian sign-off:** Guardian confirms all Red Lines obligations have been fulfilled.
 
 ## 2. Team & Roles
 

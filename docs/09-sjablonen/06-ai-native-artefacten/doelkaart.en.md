@@ -31,7 +31,7 @@ ______________________________________________________________________
 
 *What knowledge does the AI need to do this?*
 
-- **Primary Sources:** \[Company information/Manuals for the **Knowledge Coupling**.\]
+- **Primary Sources:** \[Company information/Manuals for the **RAG** knowledge base.\]
 - **Examples (Few-Shot):**
 - **Input:** \[Example of a vague clause.\]
 - **Desired Output:** \[How the AI should have interpreted/improved it.\]
@@ -56,6 +56,19 @@ ______________________________________________________________________
 - **Test prompt 1 (Success case):** \[Question the AI must answer correctly.\]
 - **Test prompt 2 (Adversarial):** \[Question that tries to make the AI hallucinate or cross the **Hard Boundaries**.\]
 - **Acceptance score:** \[Minimum score (e.g. 8 on relevance) or percentage.\]
+
+______________________________________________________________________
+
+### E. Green AI & Sustainability
+
+*How do we limit the ecological footprint of this system?*
+
+- **Is AI proportionate?** Does the value creation outweigh the energy cost? \[Yes / No / Explanation\]
+- **Smaller model possible?** Can a smaller, specialised model perform the task? \[Yes / No / Motivation\]
+- **Green infrastructure?** Does the system run on a cloud provider using renewable energy? \[Provider + certification\]
+- **E-waste plan?** Is there a plan for hardware lifecycle and replacement? \[Yes / No / Reference\]
+
+See: [Green AI & Sustainability](../../08-technische-standaarden/08-green-ai.en.md)
 
 ______________________________________________________________________
 

@@ -59,6 +59,19 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
+### E. Green AI & Duurzaamheid
+
+*Hoe beperken we de ecologische voetafdruk van dit systeem?*
+
+- **Is AI proportioneel?** Weegt de waardecreatie op tegen de energiekost? \[Ja / Nee / Toelichting\]
+- **Kleiner model mogelijk?** Kan een kleiner, gespecialiseerd model de taak uitvoeren? \[Ja / Nee / Motivatie\]
+- **Groene infrastructuur?** Draait het systeem op een cloudprovider met hernieuwbare energie? \[Provider + certificering\]
+- **E-waste plan?** Is er een plan voor hardware-lifecycle en vervanging? \[Ja / Nee / Verwijzing\]
+
+Zie: [Green AI & Duurzaamheid](../../08-technische-standaarden/08-green-ai.md)
+
+______________________________________________________________________
+
 ### Goedkeuring door Guardian
 
 **Naam:** \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]

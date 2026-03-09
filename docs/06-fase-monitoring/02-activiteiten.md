@@ -40,6 +40,28 @@ Blijvende wettelijke conformiteit.
 - **Transparantie Rapporten:** Periodieke rapportage aan stakeholders en CAIO over veiligheid en performance.
 - **Fairness audit (bias audit) (Bias Audit):** Regelmatige steekproeven door de Ethicist op de 'toon' en kwaliteit van outputs.
 
+### Stopzetting & Decommissioning
+
+Een AI-systeem heeft een eindige levensduur. Definieer vooraf wanneer stopzetting gerechtvaardigd is.
+
+**Stopzettingstriggers:**
+
+| Categorie             | Trigger                                                                           | Actie                                         |
+| :-------------------- | :-------------------------------------------------------------------------------- | :-------------------------------------------- |
+| **Technisch**         | Drift overschrijdt drempelwaarde en retraining verbetert niet                     | Systeem offline, analyse root cause           |
+| **Economisch**        | Cost per Productive Outcome stijgt > 50% boven baseline na 2 kwartalen            | Review door CAIO: stop of herarchitectuur     |
+| **Ethisch/Juridisch** | Kritieke Fairness audit-bevinding of nieuwe wetgeving maakt systeem non-compliant | Onmiddellijke stop, Guardian-review verplicht |
+| **Strategisch**       | Use case vervalt door organisatieverandering of betere alternatief beschikbaar    | Gecontroleerde afbouw conform overdrachtsplan |
+
+**Decommissioning-proces:**
+
+1. **Aankondiging:** Gebruikers en stakeholders tijdig informeren (minimaal 4 weken).
+1. **Archivering:** Bewaar het technisch dossier, validatierapporten en Kaizen Log conform bewaarbeleid.
+1. **Kennisoverdracht:** Documenteer geleerde lessen in het [Lessons Learned](../11-project-afsluiting/01-lessons-learned.md) register.
+1. **Data-verwijdering:** Verwijder of anonimiseer productiedata conform AVG/GDPR \[so-49\].
+1. **Infrastructuur:** Schakel compute, API-sleutels en monitoring-pipelines af.
+1. **Guardian-signoff:** Guardian bevestigt dat alle Rode Lijnen-verplichtingen zijn nagekomen.
+
 ## 2. Team & Rollen
 
 | Rol                         | Verantwoordelijkheid in Beheer & Optimalisatie                                     |
