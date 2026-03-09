@@ -97,7 +97,7 @@ jobs:
           dangerous-clean-slate: true
 
   pdf:
-    name: Build & Deploy PDF (${{ inputs.pdf_language || 'nl' }})
+    name: Build & Deploy PDF (${{ inputs.pdf_language }})
     runs-on: ubuntu-latest
     needs: quality
     if: github.event_name == 'workflow_dispatch' && inputs.build_pdf == true
@@ -127,17 +127,17 @@ jobs:
             cp "$en_file" "$nl_file"
           done
 
-      - name: Build PDF (${{ inputs.pdf_language || 'nl' }})
+      - name: Build PDF (${{ inputs.pdf_language }})
         env:
-          MKDOCS_LANG: ${{ inputs.pdf_language || 'nl' }}
+          MKDOCS_LANG: ${{ inputs.pdf_language }}
           MKDOCS_EXPORTER_PDF: "true"
           MKDOCS_PDF_OUTPUT: ${{ inputs.pdf_language == 'en' && 'pdf/ai-project-blueprint.pdf' || 'pdf/ai-project-blauwdruk.pdf' }}
           MKDOCS_BUILD_I18N: "false"
         run: mkdocs build --no-directory-urls
 
-      - name: PDF Post-process (${{ inputs.pdf_language || 'nl' }})
+      - name: PDF Post-process (${{ inputs.pdf_language }})
         env:
-          MKDOCS_LANG: ${{ inputs.pdf_language || 'nl' }}
+          MKDOCS_LANG: ${{ inputs.pdf_language }}
           MKDOCS_PDF_OUTPUT: ${{ inputs.pdf_language == 'en' && 'pdf/ai-project-blueprint.pdf' || 'pdf/ai-project-blauwdruk.pdf' }}
         run: python3 scripts/pdf_postprocess.py site
 
@@ -177,6 +177,6 @@ jobs:
       - name: Upload PDF als artifact
         uses: actions/upload-artifact@v4
         with:
-          name: pdf-${{ inputs.pdf_language || 'nl' }}
+          name: pdf-${{ inputs.pdf_language }}
           path: ${{ inputs.pdf_language == 'en' && 'site/pdf/ai-project-blueprint.pdf' || 'site/pdf/ai-project-blauwdruk.pdf' }}
           retention-days: 30
