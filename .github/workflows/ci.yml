@@ -81,7 +81,7 @@ jobs:
     if: >
       (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
       (github.event_name == 'workflow_dispatch' && inputs.build_pdf != true)
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: Download site artifact
         uses: actions/download-artifact@v4
