@@ -1,6 +1,6 @@
-# House Style & Writing Guide (Style Guide v2.1 — English)
+# House Style & Writing Guide (Style Guide v2.2 — English)
 
-This guide ensures that all modules in the Playbook remain consistent, readable, and uniform. Version 2.1 is adapted for English-speaking professionals working alongside the Flemish/Dutch source material.
+This guide ensures that all modules in the Playbook remain consistent, readable, and uniform. Version 2.2 is adapted for English-speaking professionals working alongside the Flemish/Dutch source material, and synchronises the terminology table with the current documentation standard.
 
 ______________________________________________________________________
 
@@ -21,20 +21,65 @@ ______________________________________________________________________
 
 We bridge the gap between technology and business. Use the table below for consistent terminology that is both technically accurate and accessible to a broad professional audience.
 
-| ❌ Avoid (Jargon / NL import) | ✅ Use (English Playbook Standard) | Notes                          |
-| :---------------------------- | :--------------------------------- | :----------------------------- |
-| Cost footprint                | **Cost overview**                  | More formal and businesslike   |
-| Shadow AI                     | **Uncontrolled AI use**            | Ungoverned usage               |
-| Intent Record                 | **Goal definition**                | The 'Why'                      |
-| Context Artifacts             | **Steering instructions**          | Prompts / configs              |
-| Guardrails                    | **Hard boundaries**                | Non-negotiable constraints     |
-| Proof of Value (PoV)          | **Validation pilot (PoV)**         | PoV abbreviation may be kept   |
-| Model Drift                   | **Performance degradation**        | Decline in model quality       |
-| Retrieval Augmented Gen (RAG) | **Knowledge coupling**             | Linking to internal documents  |
-| Hyperparameter Tuning         | **Model fine-tuning**              | Precision adjustment           |
-| Deployment                    | **Go-live / Release**              |                                |
-| Inference costs               | **Usage costs**                    | Cost per model call            |
-| Bias audit                    | **Fairness check**                 | Accessible to non-tech readers |
+> **Note v2.2:** The table below reflects the **current documentation standard**. Several terms have been deliberately updated from v2.1 to align with internationally recognised professional vocabulary.
+
+| ❌ Avoid (Jargon / NL import)                | ✅ Use (Current Playbook Standard)              | Notes                                                                 |
+| :------------------------------------------- | :---------------------------------------------- | :-------------------------------------------------------------------- |
+| Cost footprint                               | **Cost overview**                               | More formal and businesslike                                          |
+| Shadow AI                                    | **Uncontrolled AI use**                         | Ungoverned usage                                                      |
+| Intent Record                                | **Goal definition**                             | The 'Why'                                                             |
+| Context Artifacts / Steering instructions    | **Prompts**                                     | Use "Prompts" — internationally standard                              |
+| Guardrails                                   | **Hard boundaries / Red Lines**                 | Non-negotiable constraints                                            |
+| Proof of Value (PoV) / Validation pilot      | **Proof of Value (PoV)**                        | PoV is the standard abbreviation; spell out on first use              |
+| Model Drift / Performance degradation        | **Drift**                                       | Write as "Drift"; on first use add: "Drift (performance degradation)" |
+| Retrieval Augmented Gen / Knowledge coupling | **RAG**                                         | Write as "RAG" — no English paraphrase required                       |
+| Hyperparameter Tuning / Model fine-tuning    | **Fine-tuning**                                 | Standardised term in this playbook                                    |
+| Deployment                                   | **Go-live / Release**                           |                                                                       |
+| Inference costs                              | **Usage costs**                                 | Cost per model call                                                   |
+| Bias audit / Fairness check                  | **Fairness audit (bias audit)**                 | Use both terms on first mention                                       |
+| Benefits realisation                         | **Benefits realisation (benefits realization)** | Use full term on first mention per document                           |
+| Goal card                                    | **Goal card (Doelkaart)**                       | Include NL equivalent on first mention                                |
+
+______________________________________________________________________
+
+## Source Citations `[so-XX]`
+
+External claims, statistics, legislation, and research findings **always require** a source reference in the format `[so-XX]`.
+
+**When required:**
+
+- Statistics and quantitative claims ("40% of AI time savings are lost to rework")
+- References to legislation (EU AI Act, GDPR, PLD)
+- External frameworks (NIST, OWASP, ISACA)
+- Research findings (universities, consultancies, standards bodies)
+
+**When not required:**
+
+- Internal blueprint concepts (Red Lines, Golden Set, Goal Card)
+- Process descriptions that describe the blueprint's own methodology
+- Universally accepted definitions without a specific source
+
+**Format:** Place `Source: \[so-XX\]` or `Sources: \[so-XX\], \[so-YY\]` on a separate line after the relevant paragraph or table. See `docs/16-bronnen/index.en.md` for the full sources list.
+
+______________________________________________________________________
+
+## Admonitions (Information Boxes)
+
+Use MkDocs Material admonitions sparingly and consistently. Each type has a specific purpose:
+
+| Admonition    | Use for                                                             |
+| :------------ | :------------------------------------------------------------------ |
+| `!!! tip`     | Practical advice that helps the reader — not mandatory but valuable |
+| `!!! info`    | Contextual background information that deepens understanding        |
+| `!!! warning` | A risk or pitfall that requires active attention                    |
+| `!!! danger`  | A critical boundary or prohibition — do not ignore                  |
+| `!!! check`   | Checklists requiring action (preferred in gates and templates)      |
+
+**Guidelines:**
+
+- Maximum **2 admonitions per section** — more disrupts the reading flow
+- Admonition text is **concise** (max. 4 lines); longer explanation belongs in the running text
+- Use the **title syntax** for specific context: `!!! warning "Title of the warning"`
 
 ______________________________________________________________________
 
@@ -61,6 +106,7 @@ Consistency ensures readability.
     - 👥 = Roles (RACI)
     - ✅ = Checklists / Gates
 - **Lists:** Use bullet points for enumerations and numbered lists for step-by-step procedures.
+- **Separator lines:** Use `______________________________________________________________________` as a section separator between H2 sections. Not between H3 subsections.
 
 ______________________________________________________________________
 
@@ -93,7 +139,7 @@ Every Process Module must follow this anatomy:
 Read your draft through the eyes of a non-technical manager (e.g. a CFO).
 
 - Do they understand "Inference costs"? → No? Change to **"Usage costs"**.
-- Do they understand "Bias audit"? → No? Change to **"Fairness check"**.
+- Do they understand "Bias audit"? → Use **"Fairness audit (bias audit)"**.
 
 ### Version Control
 
@@ -113,6 +159,9 @@ ______________________________________________________________________
 - [ ] Have I checked for plagiarism (no copy-paste from sources)?
 - [ ] Is the tone active ("We do") and not passive ("It is done")?
 - [ ] Are the icons placed at the correct sections?
+- [ ] Are external claims supported by a source reference `[so-XX]`?
+- [ ] Is the corresponding NL source document synchronised?
+- [ ] Has the new source been added to `docs/16-bronnen/index.en.md`?
 
 ______________________________________________________________________
 

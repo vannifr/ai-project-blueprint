@@ -1,6 +1,6 @@
-# Huisstijl & Schrijfwijzer (Styleguide v2.1)
+# Huisstijl & Schrijfwijzer (Styleguide v2.2)
 
-Deze blauwdruk borgt dat alle modules in het Playbook consistent, begrijpelijk en uniform blijven. Versie 2.1 integreert de **Vlaamse taalgids-audit** voor een optimale aansluiting bij Belgisch Nederlandstalige professionals.
+Deze blauwdruk borgt dat alle modules in het Playbook consistent, begrijpelijk en uniform blijven. Versie 2.2 integreert de **Vlaamse taalgids-audit** voor een optimale aansluiting bij Belgisch Nederlandstalige professionals, en synchroniseert de terminologietabel met de huidige documentstandaard.
 
 ______________________________________________________________________
 
@@ -21,23 +21,67 @@ ______________________________________________________________________
 
 Wij slaan de brug tussen techniek en business. Gebruik de onderstaande tabel voor een consistente woordkeuze die zowel technisch accuraat als grammaticaal correct is voor een Vlaams publiek.
 
-| ❌ Vermijd (NL-Nederlands / Jargon) | ✅ Gebruik (Vlaamse IT-Standaard) | Toelichting                   |
-| :---------------------------------- | :-------------------------------- | :---------------------------- |
-| Het Kostenplaatje                   | **Het Kostenoverzicht**           | Zakelijker en formeler        |
-| Inregelen                           | **Instellen / Configureren**      | Standaard IT-taal             |
-| U pakt                              | **U raadpleegt**                  | Correcter taalgebruik         |
-| Gereedschapskist                    | **Toolkit**                       | Gangbare term in de sector    |
-| Wollige taal                        | **Onduidelijke taal**             | Directer                      |
-| De "loodgieter"                     | **Ruggengraat van de data**       | Professionele metafoor        |
-| Intent Record                       | **Doeldefinitie**                 | Het 'Waarom'                  |
-| Context Artifacts                   | **Sturingsinstructies**           | Prompts/Configs               |
-| Guardrails                          | **Rode Lijnen**                   | De harde grenzen              |
-| Proof of Value (PoV)                | **Praktijkproef**                 | Mag PoV blijven als afkorting |
-| Model Drift                         | **Prestatieverloop**              | Verslechtering over tijd      |
-| Retrieval Augmented Gen (RAG)       | **Kenniskoppeling**               | Verbinden aan eigen docs      |
-| Hyperparameter Tuning               | **Afstellen van het model**       | Fijn-afstelling               |
-| Shadow AI                           | **Wildgroei**                     | Ongecontroleerd gebruik       |
-| Deployment                          | **Ingebruikname / Livegang**      |                               |
+> **Opmerking v2.2:** De tabel hieronder reflecteert de **huidige documentstandaard**. Enkele termen zijn bewust aangepast ten opzichte van v2.1 om aansluiting te houden bij internationaal gangbaar vakjargon dat door de doelgroep herkend wordt.
+
+| ❌ Vermijd (NL-Nederlands / Jargon)             | ✅ Gebruik (Huidige Standaard)              | Toelichting                                                                                           |
+| :---------------------------------------------- | :------------------------------------------ | :---------------------------------------------------------------------------------------------------- |
+| Het Kostenplaatje                               | **Het Kostenoverzicht**                     | Zakelijker en formeler                                                                                |
+| Inregelen                                       | **Instellen / Configureren**                | Standaard IT-taal                                                                                     |
+| U pakt                                          | **U raadpleegt**                            | Correcter taalgebruik                                                                                 |
+| Gereedschapskist                                | **Toolkit**                                 | Gangbare term in de sector                                                                            |
+| Intent Record                                   | **Doeldefinitie**                           | Het 'Waarom'                                                                                          |
+| Context Artifacts / Sturingsinstructies         | **Prompts**                                 | Internationaal gangbaar; schrijf als "Prompts"                                                        |
+| Guardrails                                      | **Rode Lijnen**                             | De harde grenzen                                                                                      |
+| Proof of Value (PoV) / Praktijkproef            | **Proof of Value (PoV)**                    | PoV is de standaard; voeg bij eerste gebruik voluit toe                                               |
+| Model Drift / Prestatieverloop                  | **Drift**                                   | Schrijf als "Drift" — internationaal herkend; voeg bij eerste gebruik toe: "Drift (prestatieverloop)" |
+| Retrieval Augmented Gen / Kenniskoppeling       | **RAG**                                     | Schrijf als "RAG"; geen Nederlandse vertaling verplicht                                               |
+| Hyperparameter Tuning / Afstellen van het model | **Fine-tunen**                              | Fine-tunen is de gestandaardiseerde term in dit playbook                                              |
+| Shadow AI                                       | **Wildgroei**                               | Ongecontroleerd gebruik                                                                               |
+| Deployment                                      | **Ingebruikname / Livegang**                |                                                                                                       |
+| Fairness audit / Eerlijkheidstoets              | **Fairness audit (bias audit)**             | Gebruik beide termen bij eerste vermelding                                                            |
+| Batenrealisatie                                 | **Waarderealisatie (benefits realization)** | Gebruik volledige term bij eerste vermelding per document                                             |
+| Doelkaart                                       | **Doelkaart (goal card)**                   | Gebruik altijd met EN-equivalent bij eerste vermelding                                                |
+
+______________________________________________________________________
+
+## Bronvermeldingen `[so-XX]`
+
+Externe claims, statistieken, wetgeving en onderzoeksresultaten **vereisen altijd** een bronverwijzing in het formaat `[so-XX]`.
+
+**Wanneer verplicht:**
+
+- Statistieken en kwantitatieve claims ("40% van de tijdwinst gaat verloren aan rework")
+- Verwijzingen naar wetgeving (EU AI Act, GDPR, PLD)
+- Externe raamwerken (NIST, OWASP, ISACA)
+- Onderzoeksresultaten (universiteiten, consultancies, standaardinstellingen)
+
+**Wanneer niet verplicht:**
+
+- Interne blauwdruk-concepten (Rode Lijnen, Golden Set, Doelkaart)
+- Procesbeschrijvingen die eigen methodologie beschrijven
+- Algemeen gangbare definities zonder specifieke bron
+
+**Formaat:** Plaats `Bron: \[so-XX\]` of `Bronnen: \[so-XX\], \[so-YY\]` op een aparte regel na de relevante paragraaf of tabel. Zie `docs/16-bronnen/index.md` voor de volledige bronnenlijst.
+
+______________________________________________________________________
+
+## Admonitions (Informatieblokken)
+
+Gebruik MkDocs Material admonitions spaarzaam en consequent. Elk type heeft een specifiek doel:
+
+| Admonition    | Gebruik voor                                                        |
+| :------------ | :------------------------------------------------------------------ |
+| `!!! tip`     | Praktisch advies dat de lezer helpt — niet verplicht maar waardevol |
+| `!!! info`    | Contextuele achtergrondinfo die het begrip verdiept                 |
+| `!!! warning` | Risico of valkuil die actieve aandacht vraagt                       |
+| `!!! danger`  | Kritieke grens of verbod — niet negeren                             |
+| `!!! check`   | Checklists die actie vereisen (bij voorkeur in gates en sjablonen)  |
+
+**Richtlijnen:**
+
+- Maximaal **2 admonitions per sectie** — meer verstoort de leesstroom
+- Admonition-tekst is **bondig** (max. 4 regels); langere toelichting hoort in de lopende tekst
+- Gebruik de **title-syntax** voor specifieke context: `!!! warning "Titel van de waarschuwing"`
 
 ______________________________________________________________________
 
@@ -64,6 +108,7 @@ Consistentie zorgt voor leesbaarheid.
     - 👥 = Rollen (RACI)
     - ✅ = Checklists / Gates
 - **Lijsten:** Gebruik bullets voor opsommingen en genummerde lijsten voor stappenplannen.
+- **Scheidingslijnen:** Gebruik `______________________________________________________________________` als sectie-separator tussen H2-secties. Niet tussen H3-subsecties.
 
 ______________________________________________________________________
 
@@ -96,7 +141,7 @@ Elke Proces-Module moet de volgende anatomie hebben:
 Lees je concepttekst door met de bril van een niet-technische manager (bijv. een Financieel Directeur).
 
 - Snapt hij/zij wat "Inference costs" zijn? -> Nee? Verander in **"Gebruikskosten"**.
-- Snapt hij/zij wat "Bias audit" is? -> Nee? Verander in **"Eerlijkheidstoets"**.
+- Snapt hij/zij wat "Bias audit" is? -> Gebruik **"Fairness audit (bias audit)"**.
 
 ### Versiebeheer
 
@@ -116,6 +161,9 @@ ______________________________________________________________________
 - [ ] Heb ik gecontroleerd op plagiaat (geen copy-paste)?
 - [ ] Is de toon actief ("Wij doen") en niet passief ("Er wordt gedaan")?
 - [ ] Staan de icoontjes bij de juiste secties?
+- [ ] Zijn externe claims voorzien van een bronverwijzing `[so-XX]`?
+- [ ] Is de bijbehorende EN-vertaling gesynchroniseerd (of aangemaakt)?
+- [ ] Is de nieuwe bron toegevoegd aan `docs/16-bronnen/index.md`?
 
 ______________________________________________________________________
 
