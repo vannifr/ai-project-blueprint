@@ -186,6 +186,7 @@ plugins:
             "Changelog": "Changelog"
             "Feedback": "Feedback"
             "Guardian Review Checklist": "Guardian Review Checklist"
+            "RACI Matrix": "RACI Matrix"
   - search:
       lang: [nl, en]
   - git-revision-date-localized:
@@ -241,6 +242,7 @@ nav:
     - Governance & Organisatie:
       - Governance Model: 00-strategisch-kader/03-governance-model.md
       - Rollen & Verantwoordelijkheden: 08-rollen-en-verantwoordelijkheden/index.md
+      - RACI Matrix: 08-rollen-en-verantwoordelijkheden/02-raci-matrix.md
       - Risicoclassificatie: 01-ai-native-fundamenten/05-risicoclassificatie.md
       - AI-Samenwerkingsmodi: 00-strategisch-kader/06-has-h-niveaus.md
       - Organisatorische Heruitvinding: 00-strategisch-kader/07-organisatorische-heruitvinding.md
