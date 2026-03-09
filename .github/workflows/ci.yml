@@ -75,13 +75,13 @@ jobs:
           retention-days: 1
 
   deploy:
-    name: Deploy naar FTP (HTML)
+    name: Deploy via rsync (HTML)
     runs-on: ubuntu-latest
     needs: quality
     if: >
       (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
       (github.event_name == 'workflow_dispatch' && inputs.build_pdf != true)
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - name: Download site artifact
         uses: actions/download-artifact@v4
@@ -89,15 +89,19 @@ jobs:
           name: site-html
           path: site/
 
-      - name: Deploy naar FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./site/
-          server-dir: /public_html/ai-project-blueprint/
-          dangerous-clean-slate: false
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/id_ed25519 -p ${{ secrets.SSH_PORT || 22 }}" \
+            site/ \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}/
 
   pdf:
     name: Build & Deploy PDF (${{ inputs.pdf_language }})
@@ -170,15 +174,19 @@ jobs:
             cp /tmp/ai-project-pdf.pdf site/pdf/ai-project-blauwdruk.pdf
           fi
 
-      - name: Deploy naar FTP (met PDF)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./site/
-          server-dir: /public_html/ai-project-blueprint/
-          dangerous-clean-slate: false
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Deploy via rsync (met PDF)
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/id_ed25519 -p ${{ secrets.SSH_PORT || 22 }}" \
+            site/ \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}/
 
       - name: Upload PDF als artifact
         uses: actions/upload-artifact@v4
