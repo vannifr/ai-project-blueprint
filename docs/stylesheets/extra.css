@@ -77,3 +77,116 @@ html[lang="en"] .md-header__option .md-select > button.md-header__button::after 
     display: block;
     overflow-x: auto;
 }
+
+/* === Feedback strip: onderaan elke pagina === */
+.feedback-strip {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    padding: 0.9rem 1.2rem;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.feedback-strip__label {
+    flex: 1;
+}
+
+.feedback-strip__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.35rem 0.9rem;
+    border: 1.5px solid var(--md-primary-fg-color);
+    border-radius: 20px;
+    color: var(--md-primary-fg-color);
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: background-color 0.15s, color 0.15s;
+    white-space: nowrap;
+}
+
+.feedback-strip__link:hover {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+}
+
+/* === Feedback formulier === */
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    max-width: 640px;
+}
+
+.feedback-form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.feedback-form__field label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color);
+}
+
+.feedback-form__field input[type="text"],
+.feedback-form__field input[type="email"],
+.feedback-form__field textarea {
+    padding: 0.55rem 0.75rem;
+    border: 1.5px solid var(--md-default-fg-color--lighter);
+    border-radius: 6px;
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    font-size: 0.875rem;
+    font-family: inherit;
+    transition: border-color 0.15s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.feedback-form__field input:focus,
+.feedback-form__field textarea:focus {
+    outline: none;
+    border-color: var(--md-primary-fg-color);
+}
+
+.feedback-form__radios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.4rem;
+}
+
+.feedback-form__radios label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.feedback-form__required {
+    color: #e53e3e;
+}
+
+.feedback-form__submit {
+    align-self: flex-start;
+    padding: 0.55rem 1.4rem;
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    border: none;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.feedback-form__submit:hover {
+    opacity: 0.88;
+}
