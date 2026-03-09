@@ -9,9 +9,14 @@ on:
         description: 'PDF bouwen en deployen'
         type: boolean
         default: false
+      pdf_language:
+        description: 'Taal voor PDF (nl = blauwdruk, en = blueprint)'
+        type: choice
+        options: [nl, en]
+        default: nl
 
 concurrency:
-  group: ci-${{ github.event_name == 'workflow_dispatch' && inputs.build_pdf == true && 'pdf' || 'main' }}
+  group: ci-${{ github.event_name == 'workflow_dispatch' && inputs.build_pdf == true && format('pdf-{0}', inputs.pdf_language) || 'main' }}
   cancel-in-progress: true
 
 jobs:
@@ -56,8 +61,8 @@ jobs:
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
 
-      - name: Build MkDocs (Strict, NL + EN)
-        run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true HTMLPROOFER_ENABLED=false mkdocs build --strict
+      - name: Build MkDocs (Strict, NL)
+        run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=false HTMLPROOFER_ENABLED=false mkdocs build --strict
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
@@ -92,7 +97,7 @@ jobs:
           dangerous-clean-slate: true
 
   pdf:
-    name: Build & Deploy PDF (nl)
+    name: Build & Deploy PDF (${{ inputs.pdf_language || 'nl' }})
     runs-on: ubuntu-latest
     needs: quality
     if: github.event_name == 'workflow_dispatch' && inputs.build_pdf == true
@@ -114,22 +119,35 @@ jobs:
       - name: Install Playwright Chromium
         run: playwright install --with-deps chromium
 
-      - name: Build PDF (nl)
+      - name: Pre-process docs voor EN build
+        if: inputs.pdf_language == 'en'
+        run: |
+          find docs/ -name "*.en.md" | while read en_file; do
+            nl_file="${en_file%.en.md}.md"
+            cp "$en_file" "$nl_file"
+          done
+
+      - name: Build PDF (${{ inputs.pdf_language || 'nl' }})
         env:
-          MKDOCS_LANG: nl
+          MKDOCS_LANG: ${{ inputs.pdf_language || 'nl' }}
           MKDOCS_EXPORTER_PDF: "true"
-          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.pdf"
+          MKDOCS_PDF_OUTPUT: ${{ inputs.pdf_language == 'en' && 'pdf/ai-project-blueprint.pdf' || 'pdf/ai-project-blauwdruk.pdf' }}
           MKDOCS_BUILD_I18N: "false"
         run: mkdocs build --no-directory-urls
 
-      - name: PDF Post-process (nl)
+      - name: PDF Post-process (${{ inputs.pdf_language || 'nl' }})
         env:
-          MKDOCS_LANG: nl
-          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blauwdruk.pdf"
+          MKDOCS_LANG: ${{ inputs.pdf_language || 'nl' }}
+          MKDOCS_PDF_OUTPUT: ${{ inputs.pdf_language == 'en' && 'pdf/ai-project-blueprint.pdf' || 'pdf/ai-project-blauwdruk.pdf' }}
         run: python3 scripts/pdf_postprocess.py site
 
       - name: Bewaar verwerkte PDF
-        run: cp site/pdf/ai-project-blauwdruk.pdf /tmp/ai-project-blauwdruk.pdf
+        run: |
+          if [ "${{ inputs.pdf_language }}" = "en" ]; then
+            cp site/pdf/ai-project-blueprint.pdf /tmp/ai-project-pdf.pdf
+          else
+            cp site/pdf/ai-project-blauwdruk.pdf /tmp/ai-project-pdf.pdf
+          fi
 
       - name: Download HTML site artifact
         uses: actions/download-artifact@v4
@@ -138,7 +156,13 @@ jobs:
           path: site/
 
       - name: Voeg PDF toe aan site
-        run: mkdir -p site/pdf && cp /tmp/ai-project-blauwdruk.pdf site/pdf/ai-project-blauwdruk.pdf
+        run: |
+          mkdir -p site/pdf
+          if [ "${{ inputs.pdf_language }}" = "en" ]; then
+            cp /tmp/ai-project-pdf.pdf site/pdf/ai-project-blueprint.pdf
+          else
+            cp /tmp/ai-project-pdf.pdf site/pdf/ai-project-blauwdruk.pdf
+          fi
 
       - name: Deploy naar FTP (met PDF)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -153,6 +177,6 @@ jobs:
       - name: Upload PDF als artifact
         uses: actions/upload-artifact@v4
         with:
-          name: pdf-nl
-          path: site/pdf/ai-project-blauwdruk.pdf
+          name: pdf-${{ inputs.pdf_language || 'nl' }}
+          path: ${{ inputs.pdf_language == 'en' && 'site/pdf/ai-project-blueprint.pdf' || 'site/pdf/ai-project-blauwdruk.pdf' }}
           retention-days: 30
