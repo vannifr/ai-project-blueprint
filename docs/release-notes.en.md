@@ -1,11 +1,41 @@
 ---
-versie: '1.3'
+versie: '1.4'
 pdf: false
 ---
 
 # Changelog
 
 All significant changes to the AI Project Blueprint are tracked here, most recent first.
+
+______________________________________________________________________
+
+## v1.4 — 2026-03-09
+
+### Style Guide & Quality Assurance
+
+- **STYLE_GUIDE v2.2** (NL + EN): Terminology table updated (RAG, Drift, Fine-tuning, Prompts, PoV). New sections for source citations `[so-XX]` and admonition usage. Publication checklist extended with translation parity, citation, and source list checks.
+
+### NL Content
+
+- **Homepage**: Typo fixed ("Alle sjablonen op één plek").
+- **Objective Card template** (`docs/09-sjablonen/06-ai-native-artefacten/doelkaart.md`): Section E "Green AI & Sustainability" added — 4 fields: proportionality, model size, green infrastructure and e-waste plan.
+- **Monitoring Phase** (`docs/06-fase-monitoring/02-activiteiten.md`): Subsection "Decommissioning" added with trigger table (technical / economic / ethical-legal / strategic) and 6-step shutdown process.
+
+### EN Translation Parity
+
+- **Roles & Responsibilities** (`index.en.md`): Context Builder and AI Security Officer subsections added, including table rows in Supporting Roles. Citations: \[so-44\], \[so-45\].
+- **Red Teaming Playbook** (`07-red-teaming.en.md`): Section 3b OWASP Top 10 for LLM Applications 2025 (LLM01–LLM10) and section 3c attack patterns Deceptive Delight + HashJack added, with MTTD/MTTR table. Citations: \[so-42\], \[so-43\].
+- **Benefits Realisation** (`04-batenrealisatie.en.md`): AI Productivity Paradox warning box (Workday 2025) and full GAINS™ table added. Citation: \[so-46\].
+- **Green AI & Sustainability** (`08-green-ai.en.md`): New file — full translation of the Green AI module. Ecological footprint, reduction potential (Cornell 2025), practical measures per phase and decision framework. Citations: \[so-47\], \[so-48\].
+- **EU AI Act** (`01-eu-ai-act/index.en.md`): Section 8 "Additional Legislation & Belgian Context" added — AILD withdrawal \[so-40\], revised PLD \[so-41\], applicability table and Legal Fragmentation warning.
+- **Cloud vs On-Premise** (`06-cloud-vs-onpremise.en.md`): Cloud Cost Management subsection added with 4 cost categories.
+- **Cost Optimisation** (`07-kostenoptimalisatie.en.md`): Python routing example for model tiering added (Haiku / Sonnet / Opus).
+- **Objective Card template EN** (`doelkaart.en.md`): Section E Green AI added; "Knowledge Coupling" → "RAG" corrected.
+- **Monitoring Phase EN** (`02-activiteiten.en.md`): Decommissioning subsection added.
+
+### Sources
+
+- **Source list NL + EN**: 11 new primary sources added (\[so-40\] through \[so-50\]): GDPR, NIST AI RMF 1.0, AILD withdrawal, revised PLD, OWASP LLM Top 10 2025, Deceptive Delight/HashJack, Context Engineering, AAISM certification, AI Productivity Paradox, Cornell Carbon-Aware AI, IEA Datacenter Energy Reports.
 
 ______________________________________________________________________
 

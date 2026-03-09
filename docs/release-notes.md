@@ -1,10 +1,40 @@
 ---
-versie: '1.3'
+versie: '1.4'
 ---
 
 # Changelog
 
 Alle significante wijzigingen aan de AI Project Blauwdruk worden hier bijgehouden, nieuwste bovenaan.
+
+______________________________________________________________________
+
+## v1.4 — 2026-03-09
+
+### Stijlgids & Kwaliteitsborging
+
+- **STYLE_GUIDE v2.2** (NL + EN): Terminologietabel bijgewerkt (RAG, Drift, Fine-tunen, Prompts, PoV). Nieuwe secties voor bronvermeldingen `[so-XX]` en admonition-gebruik. Publicatiechecklist uitgebreid met vertaalpariteits-, bronvermeldings- en bronnenlijstcontrole.
+
+### NL Inhoud
+
+- **Homepage**: Typo hersteld ("Alle sjablonen op één plek").
+- **Doelkaart template** (`docs/09-sjablonen/06-ai-native-artefacten/doelkaart.md`): Sectie E "Green AI & Duurzaamheid" toegevoegd — 4 velden: proportionaliteit, modelgrootte, groene infrastructuur en e-waste plan.
+- **Fase Beheer & Optimalisatie** (`docs/06-fase-monitoring/02-activiteiten.md`): Subsectie "Stopzetting & Decommissioning" toegevoegd met triggertabel (technisch / economisch / ethisch-juridisch / strategisch) en 6-staps afsluitingsproces.
+
+### EN Vertaalpariteit
+
+- **Rollen & Verantwoordelijkheden** (`index.en.md`): Context Builder- en AI Security Officer-subsecties toegevoegd, inclusief tabelrijen in Supporting Roles. Citaties: \[so-44\], \[so-45\].
+- **Red Teaming Playbook** (`07-red-teaming.en.md`): Sectie 3b OWASP Top 10 for LLM Applications 2025 (LLM01–LLM10) en sectie 3c aanvalspatronen Deceptive Delight + HashJack toegevoegd, met MTTD/MTTR-tabel. Citaties: \[so-42\], \[so-43\].
+- **Batenrealisatie** (`04-batenrealisatie.en.md`): AI Productivity Paradox warning box (Workday 2025) en volledige GAINS™-tabel toegevoegd. Citatie: \[so-46\].
+- **Green AI & Sustainability** (`08-green-ai.en.md`): Nieuw bestand — volledige vertaling van de Green AI-module. Ecologische voetafdruk, reductiepotentieel (Cornell 2025), praktische maatregelen per fase en besliskader. Citaties: \[so-47\], \[so-48\].
+- **EU AI Act** (`01-eu-ai-act/index.en.md`): Sectie 8 "Additional Legislation & Belgian Context" toegevoegd — AILD-intrekking \[so-40\], herziene PLD \[so-41\], toepasselijkheidstabel en Legal Fragmentation-waarschuwing.
+- **Cloud vs On-Premise** (`06-cloud-vs-onpremise.en.md`): Cloud Cost Management-subsectie toegevoegd met 4 kostencategorieën.
+- **Kostenoptimalisatie** (`07-kostenoptimalisatie.en.md`): Python routeringsvoorbeeld voor model-tiering toegevoegd (Haiku / Sonnet / Opus).
+- **Doelkaart template EN** (`doelkaart.en.md`): Sectie E Green AI toegevoegd; "Knowledge Coupling" → "RAG" gecorrigeerd.
+- **Fase Beheer EN** (`02-activiteiten.en.md`): Decommissioning-subsectie toegevoegd.
+
+### Bronnen
+
+- **Bronnenlijst NL + EN**: 11 nieuwe primaire bronnen toegevoegd (\[so-40\] t/m \[so-50\]): GDPR, NIST AI RMF 1.0, AILD-intrekking, herziene PLD, OWASP LLM Top 10 2025, Deceptive Delight/HashJack, Context Engineering, AAISM-certificering, AI Productivity Paradox, Cornell Carbon-Aware AI, IEA Datacenter Energy Reports.
 
 ______________________________________________________________________
 
