@@ -48,11 +48,47 @@ ______________________________________________________________________
 
 These specialists are brought in when the specific phase requires them.
 
-| Role                 | Focus        | Task                                                               |
-| :------------------- | :----------- | :----------------------------------------------------------------- |
-| **Data Engineer**    | Data quality | The backbone of the data. Ensures data arrives clean at the model. |
-| **AI Tester (QA)**   | Reliability  | Specialist in 'breaking' AI via *Adversarial Testing*.             |
-| **Adoption Manager** | Change       | Ensures people actually use the tool (ADKAR model).                |
+| Role                    | Focus          | Task                                                                                    |
+| :---------------------- | :------------- | :-------------------------------------------------------------------------------------- |
+| **Data Engineer**       | Data quality   | The backbone of the data. Ensures data arrives clean at the model.                      |
+| **AI Tester (QA)**      | Reliability    | Specialist in 'breaking' AI via *Adversarial Testing*.                                  |
+| **Adoption Manager**    | Change         | Ensures people actually use the tool (ADKAR model).                                     |
+| **Context Builder**     | Knowledge mgmt | Manages what the model sees at every moment — see extension below.                      |
+| **AI Security Officer** | Security       | Focuses on LLM vulnerabilities, data poisoning and AI governance — see extension below. |
+
+______________________________________________________________________
+
+### Context Builder
+
+The industry is shifting from *prompt engineering* (writing instructions) to **context engineering** (managing what the model sees at every moment). The Context Builder acts as a digital librarian: gathering relevant information from hundreds of files and real-time data streams, summarising it, and archiving it in a hierarchical knowledge base that transcends the LLM's context limits.
+
+**Core responsibilities:**
+
+- Designing and maintaining the RAG architecture (Retrieval-Augmented Generation)
+- Preventing *context pollution* — more context is not always better; irrelevant information degrades model performance
+- Reducing inference costs through targeted information retrieval (up to 50× cheaper than full context)
+- Guarding the Context Development Lifecycle: which information is current, which is outdated?
+
+**When to deploy:** mandatory for RAG systems or when the model has access to more than one knowledge source. Can be a human role or an automated agentic component.
+
+Source: \[so-44\]
+
+______________________________________________________________________
+
+### AI Security Officer
+
+As AI systems become more critical, traditional security roles are no longer sufficient. The AI Security Officer focuses specifically on threats unique to ML systems.
+
+**Core responsibilities:**
+
+- Threat modelling based on the [OWASP Top 10 for LLMs](../07-compliance-hub/07-red-teaming.md)
+- Executing or coordinating Red Teaming sessions
+- Managing AI governance frameworks (EU AI Act Art. 9, NIST AI RMF \[so-50\])
+- Responding to AI-specific incidents: model poisoning, prompt injection, bias escalations
+
+**Certification:** ISACA introduced the **AAISM** (Advanced in AI Security Management) in August 2025 — the world's first AI-centred security management qualification, specifically focused on LLM vulnerabilities and AI governance.
+
+Source: \[so-45\]
 
 ______________________________________________________________________
 
