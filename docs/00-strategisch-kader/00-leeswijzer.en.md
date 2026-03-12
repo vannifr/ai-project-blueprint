@@ -34,7 +34,7 @@ Go to [Validation](../03-fase-validatie/01-doelstellingen.md). Here you will lea
 
 Go to [Realisation](../04-fase-ontwikkeling/01-doelstellingen.md) and [Risk Management](../07-compliance-hub/index.md). Make sure you complete the **Technical Model Card**.
 
-### I am from Legal or Compliance
+### I am from Legal or Compliance  
 
 Focus on [Risk Management & Compliance](../07-compliance-hub/index.md) and the [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md). Here you will find the frameworks for safety and legislation.
 
