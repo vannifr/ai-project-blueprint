@@ -43,7 +43,19 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4. About this Blueprint
+## 4. For AI Agents & LLM Ingestion
+
+| Format                 | URL                                       | Use                                                                                        |
+| :--------------------- | :---------------------------------------- | :----------------------------------------------------------------------------------------- |
+| **Index** (`llms.txt`) | <https://ai-delivery.io/llms.txt>         | Lightweight link index — compatible with Cursor, Perplexity, and other llmstxt-aware tools |
+| **Full content EN**    | <https://ai-delivery.io/llms-full.txt>    | All 130 pages concatenated, HTML/emoji stripped, typographic chars normalised to ASCII     |
+| **Full content NL**    | <https://ai-delivery.io/llms-full-nl.txt> | Idem in Dutch                                                                              |
+
+The full-text exports are regenerated on every push and follow the [llmstxt.org](https://llmstxt.org) convention.
+
+______________________________________________________________________
+
+## 5. About this Blueprint
 
 The AI Project Blueprint is a modular, normative methodology for setting up, executing and managing AI projects. The blueprint describes the full lifecycle — from strategic discovery to operational management — and provides concrete templates, checklists and evidence standards with which organisations can deploy AI systems in a controllable, traceable and responsible manner.
 

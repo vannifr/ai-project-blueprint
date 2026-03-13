@@ -42,7 +42,19 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4. Over deze Blauwdruk
+## 4. Voor AI-Agenten & LLM-Verwerking
+
+| Formaat                 | URL                                       | Gebruik                                                                                        |
+| :---------------------- | :---------------------------------------- | :--------------------------------------------------------------------------------------------- |
+| **Index** (`llms.txt`)  | <https://ai-delivery.io/llms.txt>         | Compacte linkindex — compatibel met Cursor, Perplexity en andere llmstxt-tools                 |
+| **Volledige inhoud EN** | <https://ai-delivery.io/llms-full.txt>    | Alle 130 pagina's samengevoegd, HTML/emoji verwijderd, typografische tekens omgezet naar ASCII |
+| **Volledige inhoud NL** | <https://ai-delivery.io/llms-full-nl.txt> | Idem in het Nederlands                                                                         |
+
+De volledige exports worden bij elke push opnieuw gegenereerd en volgen de [llmstxt.org](https://llmstxt.org) conventie.
+
+______________________________________________________________________
+
+## 5. Over deze Blauwdruk
 
 De AI Project Blauwdruk is een modulaire, normatieve werkwijze voor het opzetten, uitvoeren en beheren van AI‑projecten. De blauwdruk beschrijft de volledige levenscyclus — van strategische verkenning tot operationeel beheer — en biedt concrete sjablonen, checklists en bewijsstandaarden waarmee organisaties AI‑systemen controleerbaar, traceerbaar en verantwoord kunnen inzetten.
 
