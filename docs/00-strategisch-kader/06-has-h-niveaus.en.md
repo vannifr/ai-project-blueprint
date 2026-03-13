@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 ---
 
 # 1. AI Collaboration Modes
@@ -55,10 +55,10 @@ Here we reverse the process: we design the workflow so that AI does the 'heavy l
 
 - **Dynamic:** AI Execution → (Only on Error) → Human.
 - **Example:** A chatbot handling customer queries independently and only escalating with upset customers.
-- **Risk:** 'Silent failures' (errors not recognised as errors) and degradation of human expertise because they never do the work themselves.
+- **Risk:** 'Silent failures' (errors not recognised as errors) and degradation of human expertise because they never do the work themselves. Output becomes sterile and generic as not enough variation between existing AI models.
 - **Governance:** Strict automated monitoring and sampling (Audits).
 
-Human oversight in this context does not mean continuous manual checking, but clear agreements about when, how and by whom to intervene in the event of deviating behaviour or exceeding established hard boundaries.
+Human oversight in this context does not mean continuous manual checking, but clear agreements about when, how and by whom to intervene in the event of deviating behaviour or exceeding established hard boundaries. Need for sufficient creative thinking to prevent generic output.
 
 ### Mode 5: Autonomous (The Entity)
 
