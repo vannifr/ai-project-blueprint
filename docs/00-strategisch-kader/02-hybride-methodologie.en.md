@@ -1,5 +1,6 @@
 ---
 versie: '1.1'
+description: 'Hybrid Agile-AI methodology: how to combine iterative sprints with AI-specific validation cycles, golden sets, and model governance — avoiding the most common AI project anti-patterns.'
 ---
 
 # 1. Hybrid Methodology

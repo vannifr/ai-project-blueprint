@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'AI project charter sjabloon: definieer scope, doelstellingen, succescriteria, harde grenzen, stakeholders en budget voor jouw AI-project — gestructureerd voor PMI-CPMAI afstemming.'
 ---
 
 # 1. Het Project Charter

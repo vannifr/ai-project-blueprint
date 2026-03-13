@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: Blueprint Navigator — interactive guide to find the right module for your AI project phase, role, or challenge. Start here to orient yourself in the AI Project Blueprint.
 ---
 
 # Blueprint Navigator

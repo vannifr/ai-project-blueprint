@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'Hybride Agile-AI methodologie: iteratieve sprints combineren met AI-validatiecycli, golden sets en modelgovernance — de meest voorkomende AI-projectantipatronen voorkomen.'
 ---
 
 # 1. Hybride Methodologie

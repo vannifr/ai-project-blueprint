@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'Compliance Hub: alle wettelijke en ethische vereisten voor AI-projecten op één plek — EU AI Act, risicobeheer, ethische richtlijnen, incidentrespons, red teaming en veiligheidschecklists.'
 ---
 
 # 1. Risicobeheersing & Compliance

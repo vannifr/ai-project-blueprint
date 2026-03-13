@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'Compliance Hub: all regulatory and ethical requirements for AI projects in one place — EU AI Act, risk management, ethical guidelines, incident response, red teaming, and safety checklists.'
 ---
 
 # 1. Risk Management & Compliance

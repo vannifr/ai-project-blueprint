@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'AI Project Blauwdruk — een modulair open raamwerk voor AI-projectmanagement: strategie, governance, compliance en oplevering. Gebaseerd op PMI-CPMAI en Agile-AI principes.'
 ---
 
 # 1. Welkom bij de AI Project Blauwdruk

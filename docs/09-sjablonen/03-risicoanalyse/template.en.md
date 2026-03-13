@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'AI risk inventory template: systematically identify, classify, and mitigate technical, ethical, and compliance risks in your AI project — based on EU AI Act risk categories.'
 ---
 
 # 1. Template: Risk Inventory

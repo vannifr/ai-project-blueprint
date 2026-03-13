@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'Het AI-levenscyclusmodel: zeven opeenvolgende fasen van Verkenning tot Afsluiting. Leer hoe elke fase doelstellingen, afleveringen en governance gates verbindt in een AI-project.'
 ---
 
 # 1. AI Levenscyclus

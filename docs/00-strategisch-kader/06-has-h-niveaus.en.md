@@ -1,5 +1,6 @@
 ---
 versie: '1.1'
+description: 'HAS-H AI collaboration modes: four levels of human-AI autonomy — from Human-led to Delegated — with decision criteria for selecting the right mode per task and risk profile.'
 ---
 
 # 1. AI Collaboration Modes

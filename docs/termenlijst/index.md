@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'Termenlijst AI-projectmanagement: heldere definities die technologie en business overbruggen — van golden set en conceptdrift tot agentische AI, RAG en HAS-H samenwerkingsmodi.'
 ---
 
 # 1. Termenlijst (Glossary)

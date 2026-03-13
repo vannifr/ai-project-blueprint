@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: '90-dagen AI-transformatieroadmap: drie gestructureerde fasen — Focus, Pilot en Schaal — om van AI-ambitie naar productieklare inzet te gaan binnen één kwartaal.'
 ---
 
 # 1. Snelstart: AI-Project in 90 Dagen

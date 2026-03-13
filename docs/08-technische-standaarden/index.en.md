@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'Technical standards for AI systems: MLOps, data pipelines, model governance, test frameworks, AI architecture patterns, cloud vs. on-premise decisions, and green AI guidelines.'
 ---
 
 # 1. Technical Standards

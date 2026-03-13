@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'AI-volwassenheidsniveaus: ontdek of jouw organisatie een Verkenner, Bouwer of Visionair is — en krijg een op maat gemaakt stappenplan voor je volgende AI-transformatiestap.'
 ---
 
 # 1. Volwassenheidsniveaus

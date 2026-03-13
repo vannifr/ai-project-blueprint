@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'Fase Verkenning & Strategie: doelstellingen, kernactiviteiten en afleveringen voor de eerste fase van een AI-project — probleemdefiniëring, haalbaarheidsscoping en governance fundament.'
 ---
 
 # 1. Verkenning & Strategie

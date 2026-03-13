@@ -1,5 +1,6 @@
 ---
 versie: '1.0'
+description: 'Complete sjablonenbibliotheek voor AI-projecten: project charter, business case, risicoanalyse, gate reviews, validatierapporten, prompt engineering canvas en meer — direct inzetbaar.'
 ---
 
 # 1. Sjablonen

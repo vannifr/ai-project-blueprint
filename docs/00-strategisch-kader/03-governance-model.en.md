@@ -1,5 +1,6 @@
 ---
 versie: '1.1'
+description: 'AI governance model: decision rights, oversight structures, and accountability frameworks for responsible AI deployment — aligned with EU AI Act and PMI-CPMAI requirements.'
 ---
 
 # 1. Governance Model

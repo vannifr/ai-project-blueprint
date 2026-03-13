@@ -81,4 +81,69 @@
 <meta name="twitter:description" content="{{ page_description }}" />
 {% if config.extra.og_image %}<meta name="twitter:image" content="{{ config.extra.og_image }}" />{% endif %}
 
+{# === Schema.org JSON-LD === #}
+{% if page %}
+{% set is_en = page.url.startswith('en/') %}
+{% set page_url = en_url if is_en else nl_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ai-delivery.io/#organization",
+      "name": "AI Project Blueprint",
+      "url": "https://ai-delivery.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ai-delivery.io/assets/images/logo.svg"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ai-delivery.io/#website",
+      "url": "https://ai-delivery.io/",
+      "name": "AI Project Blueprint",
+      "publisher": { "@id": "https://ai-delivery.io/#organization" },
+      "inLanguage": ["nl", "en"]
+    },
+    {
+      "@type": "Article",
+      "@id": "{{ page_url }}#article",
+      "url": "{{ page_url }}",
+      "headline": "{{ page.title | e }}",
+      "description": "{{ page_description | e }}",
+      "inLanguage": "{{ 'en' if is_en else 'nl' }}",
+      "isPartOf": { "@id": "https://ai-delivery.io/#website" },
+      "publisher": { "@id": "https://ai-delivery.io/#organization" }{% if page.meta and page.meta.get('git_revision_date_localized') %},
+      "dateModified": "{{ page.meta.git_revision_date_localized }}"{% endif %}
+    }{% if page.ancestors and page.ancestors | length > 0 %},
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ page_url }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "{{ 'https://ai-delivery.io/en/' if is_en else 'https://ai-delivery.io/' }}"
+        }{% for ancestor in page.ancestors %},
+        {
+          "@type": "ListItem",
+          "position": {{ loop.index + 1 }},
+          "name": "{{ ancestor.title | e }}"
+        }{% endfor %},
+        {
+          "@type": "ListItem",
+          "position": {{ page.ancestors | length + 2 }},
+          "name": "{{ page.title | e }}",
+          "item": "{{ page_url }}"
+        }
+      ]
+    }{% endif %}
+  ]
+}
+</script>
+{% endif %}
+
 {% endblock %}

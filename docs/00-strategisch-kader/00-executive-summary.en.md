@@ -1,6 +1,7 @@
 ---
 versie: '1.0'
 pdf: false
+description: 'Executive summary of the AI Project Blueprint: why AI projects fail without governance, and how this modular methodology steers AI as behaviour — from objective definition to evidence and hard boundaries.'
 ---
 
 # 1. Executive Summary
