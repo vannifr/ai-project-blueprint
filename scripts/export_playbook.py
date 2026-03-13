@@ -28,6 +28,15 @@ RE_FRONTMATTER = re.compile(r"^---.*?---\s*\n?", re.DOTALL)
 RE_HTML_TAG = re.compile(r"<[^>]+>")
 RE_HTML_COMMENT = re.compile(r"<!--.*?-->", re.DOTALL)
 RE_BLANK_LINES = re.compile(r"\n{3,}")
+# Emoji and other non-BMP symbols (codepoints > U+FFFF are almost exclusively emoji/symbols)
+RE_EMOJI = re.compile(
+    "[\U0001F000-\U0001FFFF"   # Misc symbols, emoji, transport, etc.
+    "\U00002702-\U000027B0"    # Dingbats
+    "\U0000FE00-\U0000FE0F"    # Variation selectors (emoji modifiers)
+    "\U0001F1E0-\U0001F1FF"    # Regional indicator symbols (flags)
+    "]+",
+    flags=re.UNICODE,
+)
 
 
 class CustomLoader(yaml.SafeLoader):
@@ -69,10 +78,11 @@ def resolve_path(nav_path, lang):
 
 
 def clean_content(raw):
-    """Strip frontmatter, HTML tags/comments, and collapse excess blank lines."""
+    """Strip frontmatter, HTML, emoji, and collapse excess blank lines."""
     text = RE_FRONTMATTER.sub("", raw)
     text = RE_HTML_COMMENT.sub("", text)
     text = RE_HTML_TAG.sub("", text)
+    text = RE_EMOJI.sub("", text)
     text = RE_BLANK_LINES.sub("\n\n", text)
     return text.strip()
 

@@ -1,6 +1,6 @@
 # AI Project Delivery Blueprint — Full Export
 Source: https://ai-delivery.io/en/
-Generated: 2026-03-13T14:19:22Z
+Generated: 2026-03-13T14:29:50Z
 Language: en
 License: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -19,8 +19,8 @@ ______________________________________________________________________
 
 ## 2. Quick Start
 
-- 🧭 **[Blueprint Navigator](00-navigator/index.md):** Interactive wizard — find your starting point in 5 minutes.
-- 🚀 **[Explorer Kit (30 Days)](00-explorer-kit/index.md):** First AI prototype in 30 days — templates, scaffold code and day-by-day plan.
+-  **[Blueprint Navigator](00-navigator/index.md):** Interactive wizard — find your starting point in 5 minutes.
+-  **[Explorer Kit (30 Days)](00-explorer-kit/index.md):** First AI prototype in 30 days — templates, scaffold code and day-by-day plan.
 - **[Reader's Guide & Navigation](00-strategisch-kader/00-leeswijzer.md):** How to use this blueprint most effectively.
 - **[Roles & Responsibilities](08-rollen-en-verantwoordelijkheden/index.md):** Who does what in an AI team?
 - **[Quick Start: AI Project in 90 Days](12-90-dagen-roadmap/index.md):** Go directly from strategy to action.
@@ -198,25 +198,25 @@ Answer four steps — your role, your context, and ten maturity questions — an
   Your role determines which modules are most relevant for your personalised route.
 
 
-      📋
+
       AI Project Manager
       You manage AI projects and steer the team on progress and scope.
       Route A
 
 
-      ⚙️
+      ⚙
       Tech Lead / Developer
       You build and implement AI systems and technical infrastructure.
       Route B
 
 
-      🛡️
+
       AI Guardian / Compliance
       You oversee ethics, risk management and regulatory compliance.
       Route C
 
 
-      🎯
+
       CAIO / Management Team
       You drive AI strategy at board level and make investment decisions.
       Route D
@@ -259,9 +259,9 @@ Answer four steps — your role, your context, and ten maturity questions — an
 
       Risk tolerance
 
-         🟢 Low — Cautious, phased approach, strong governance
-         🟡 Medium — Balance between speed and control
-         🔴 High — Move fast, learn quickly, validate afterwards
+          Low — Cautious, phased approach, strong governance
+          Medium — Balance between speed and control
+          High — Move fast, learn quickly, validate afterwards
 
 
 
@@ -542,7 +542,7 @@ function bnScore(btn) {
       'Score: ' + total + '/40 (' + pct + '%) &nbsp;·&nbsp; Route ' + route.route + ': ' + route.name + '' +
     '' +
     '' +
-      '📍 Recommended starting point: ' + data.start.label + '' +
+      ' Recommended starting point: ' + data.start.label + '' +
       '' + data.start.desc + '' +
       'Start here →' +
     '' +
@@ -684,11 +684,11 @@ ______________________________________________________________________
 
 ## 4. Icon Legend
 
-- 🎯 **Goal:** Why are we doing this?
-- ⚙️ **Activity:** What needs to happen?
-- ✅ **Checklist:** Are we ready?
-- ⚠️ **Risk:** Watch out!
-- 👥 **Roles:** Who is involved?
+-  **Goal:** Why are we doing this?
+- ⚙ **Activity:** What needs to happen?
+-  **Checklist:** Are we ready?
+- ⚠ **Risk:** Watch out!
+-  **Roles:** Who is involved?
 
 ------------------------------------------------------------------------
 
@@ -892,9 +892,9 @@ Gebruik de scorecard hieronder. Score elke kandidaat-use case op 1 (laag) tot 3 
 - [ ] Selecteer de use case met de hoogste score (minimaal 18/30 aanbevolen)
 - [ ] Documenteer de keuze en de afgewezen alternatieven in het project charter
 - [ ] Kies de bijbehorende scaffold code template:
-    - 📄 **Document Q&A**: vragen over interne documenten, handleidingen, beleid
-    - 📧 **E-mailclassificatie**: sorteren en prioriteren van inkomende berichten
-    - ✍️ **Contentgeneratie**: gestructureerde tekst of rapportages genereren
+    -  **Document Q&A**: vragen over interne documenten, handleidingen, beleid
+    -  **E-mailclassificatie**: sorteren en prioriteren van inkomende berichten
+    -  **Contentgeneratie**: gestructureerde tekst of rapportages genereren
 
 **Gereed als:** Use case is gekozen, gedocumenteerd, en scaffold code template is geselecteerd.
 
@@ -1228,9 +1228,9 @@ ______________________________________________________________________
 
 | Totaalscore | Kleurcode     | Interpretatie                             | Actie                                                                                                     |
 | :---------- | :------------ | :---------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
-| 0–6         | 🟢 **Groen**  | Laag risico — ga door                     | Documenteer en ga naar dag 5                                                                              |
-| 7–15        | 🟡 **Oranje** | Verhoogd risico — aanvullende maatregelen | Voer volledige Pre-Scan uit; plan risicosessie met stakeholder                                            |
-| 16–30       | 🔴 **Rood**   | Hoog risico — stop of herdefinieer        | Voer [volledige Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md) uit; raadpleeg juridisch adviseur |
+| 0–6         |  **Groen**  | Laag risico — ga door                     | Documenteer en ga naar dag 5                                                                              |
+| 7–15        |  **Oranje** | Verhoogd risico — aanvullende maatregelen | Voer volledige Pre-Scan uit; plan risicosessie met stakeholder                                            |
+| 16–30       |  **Rood**   | Hoog risico — stop of herdefinieer        | Voer [volledige Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md) uit; raadpleeg juridisch adviseur |
 
 ______________________________________________________________________
 
@@ -1336,9 +1336,9 @@ ______________________________________________________________________
 
 | Categorie               | Aantal | Percentage                                     |
 | :---------------------- | :----- | :--------------------------------------------- |
-| ✅ Correct              |        |                                                |
-| ⚠️ Gedeeltelijk correct |        |                                                |
-| ❌ Fout                 |        |                                                |
+|  Correct              |        |                                                |
+| ⚠ Gedeeltelijk correct |        |                                                |
+|  Fout                 |        |                                                |
 | **Kwaliteitsscore**     |        | **(Correct + 0,5 × Gedeeltelijk) / 20 × 100%** |
 
 **Kwaliteitsscore:** \_\_\_%
@@ -1375,8 +1375,8 @@ ______________________________________________________________________
 
 *Kies één optie en motiveer in maximaal 3 zinnen.*
 
-- [ ] ✅ **Go** — Het prototype bewijst de waarde van de use case. We gaan door naar de Bouwer-fase met een volledig project charter.
-- [ ] 🔄 **Pivot** — De use case is haalbaar, maar we passen de scope/aanpak aan. \[Beschrijf de pivot.\]
+- [ ]  **Go** — Het prototype bewijst de waarde van de use case. We gaan door naar de Bouwer-fase met een volledig project charter.
+- [ ]  **Pivot** — De use case is haalbaar, maar we passen de scope/aanpak aan. \[Beschrijf de pivot.\]
 - [ ] ⛔ **No-Go** — Het prototype heeft de waarde niet aangetoond. We stoppen het project en documenteren de lessen.
 
 **Motivatie (max. 3 zinnen):**
@@ -1427,9 +1427,9 @@ Deze pagina bevat werkende Python-startcode voor de drie meest voorkomende AI us
 
 | Use Case                                       | Techniek                             | Geschikt voor                                           |
 | :--------------------------------------------- | :----------------------------------- | :------------------------------------------------------ |
-| [📄 Document Q&A](#document-qa)                | RAG (Retrieval-Augmented Generation) | Vragen over interne documenten, handleidingen, beleid   |
-| [📧 E-mailclassificatie](#email-classificatie) | LLM classificatie                    | Sorteren en prioriteren van inkomende berichten         |
-| [✍️ Contentgeneratie](#contentgeneratie)       | Gestructureerde prompting            | Rapportages, productbeschrijvingen, samengevatte inhoud |
+| [ Document Q&A](#document-qa)                | RAG (Retrieval-Augmented Generation) | Vragen over interne documenten, handleidingen, beleid   |
+| [ E-mailclassificatie](#email-classificatie) | LLM classificatie                    | Sorteren en prioriteren van inkomende berichten         |
+| [ Contentgeneratie](#contentgeneratie)       | Gestructureerde prompting            | Rapportages, productbeschrijvingen, samengevatte inhoud |
 
 !!! warning "Vereiste API-sleutel"
     Alle voorbeelden gebruiken de **Anthropic Claude API**. Vraag een API-sleutel aan via [console.anthropic.com](https://console.anthropic.com) en sla hem op in een `.env` bestand (zie sectie Installatie). Vervang `claude-haiku-4-5-20251001` door een ander model indien gewenst.
@@ -1524,7 +1524,7 @@ def laad_documenten(folder: str) -> list[dict]:
             chunk = tekst[i : i + CHUNK_SIZE]
             if len(chunk) > 100:  # Sla te kleine chunks over
                 chunks.append({"bron": pad.name, "tekst": chunk})
-    print(f"✅ {len(chunks)} chunks geladen uit {folder}")
+    print(f" {len(chunks)} chunks geladen uit {folder}")
     return chunks
 
 # ── Stap 2: Embeddings bouwen en opslaan in FAISS-index ─────────────────────
@@ -1577,16 +1577,16 @@ Geef een helder, beknopt antwoord. Vermeld de bronbestanden die u gebruikte.""",
 
 # ── Hoofdprogramma ────────────────────────────────────────────────────────────
 def main():
-    print("📚 Documenten laden...")
+    print(" Documenten laden...")
     chunks = laad_documenten(DOCS_FOLDER)
     if not chunks:
-        print(f"❌ Geen documenten gevonden in '{DOCS_FOLDER}'. Voeg PDF- of TXT-bestanden toe.")
+        print(f" Geen documenten gevonden in '{DOCS_FOLDER}'. Voeg PDF- of TXT-bestanden toe.")
         return
 
-    print("🔍 Index bouwen...")
+    print(" Index bouwen...")
     index, embed_model, chunks = bouw_index(chunks)
 
-    print("\n🤖 Document Q&A klaar! Type 'stop' om te beëindigen.\n")
+    print("\n Document Q&A klaar! Type 'stop' om te beëindigen.\n")
     while True:
         vraag = input("Uw vraag: ").strip()
         if vraag.lower() == "stop":
@@ -1596,7 +1596,7 @@ def main():
 
         relevante_chunks = zoek_relevante_chunks(vraag, index, embed_model, chunks)
         antwoord = beantwoord_vraag(vraag, relevante_chunks)
-        print(f"\n💬 Antwoord:\n{antwoord}\n")
+        print(f"\n Antwoord:\n{antwoord}\n")
         print("─" * 60)
 
 if __name__ == "__main__":
@@ -1689,17 +1689,17 @@ def verwerk_csv(invoerbestand: str, uitvoerbestand: str):
 
     resultaat_df = pd.DataFrame(resultaten)
     resultaat_df.to_csv(uitvoerbestand, index=False)
-    print(f"\n✅ Resultaten opgeslagen in '{uitvoerbestand}'")
+    print(f"\n Resultaten opgeslagen in '{uitvoerbestand}'")
 
     # Toon samenvatting
-    print("\n📊 Verdeling categorieën:")
+    print("\n Verdeling categorieën:")
     print(resultaat_df["categorie"].value_counts().to_string())
-    print("\n🚨 Urgentieverdeling:")
+    print("\n Urgentieverdeling:")
     print(resultaat_df["urgentie"].value_counts().to_string())
 
 # ── Interactieve modus (voor testen) ─────────────────────────────────────────
 def interactieve_modus():
-    print("📧 E-mail Classifier — type 'stop' om te beëindigen\n")
+    print(" E-mail Classifier — type 'stop' om te beëindigen\n")
     while True:
         onderwerp = input("Onderwerp: ").strip()
         if onderwerp.lower() == "stop":
@@ -1707,7 +1707,7 @@ def interactieve_modus():
         inhoud = input("Inhoud (of druk Enter voor leeg): ").strip()
 
         resultaat = classificeer_email(onderwerp, inhoud)
-        print(f"\n📋 Classificatie:")
+        print(f"\n Classificatie:")
         print(f"  Categorie:   {resultaat['categorie']}")
         print(f"  Urgentie:    {resultaat['urgentie']}")
         print(f"  Samenvatting: {resultaat['samenvatting']}")
@@ -1833,11 +1833,11 @@ def verwerk_batch(invoerbestand: str, uitvoermap: str):
         inhoud = genereer_content(taak["template"], taak["invoer"])
         uitvoerpad = Path(uitvoermap) / f"{taak.get('bestandsnaam', f'output_{i+1}')}.md"
         uitvoerpad.write_text(inhoud, encoding="utf-8")
-        print(f"  ✅ Opgeslagen: {uitvoerpad}")
+        print(f"   Opgeslagen: {uitvoerpad}")
 
 # ── Interactieve modus ────────────────────────────────────────────────────────
 def interactieve_modus():
-    print("✍️  Content Generator\n")
+    print("  Content Generator\n")
     print("Beschikbare templates:")
     for naam, info in TEMPLATES.items():
         print(f"  - {naam}: {info['beschrijving']}")
@@ -1845,7 +1845,7 @@ def interactieve_modus():
     print()
     template_naam = input("Kies een template: ").strip()
     if template_naam not in TEMPLATES:
-        print(f"❌ Onbekend template. Kies uit: {list(TEMPLATES.keys())}")
+        print(f" Onbekend template. Kies uit: {list(TEMPLATES.keys())}")
         return
 
     template = TEMPLATES[template_naam]
@@ -1857,12 +1857,12 @@ def interactieve_modus():
 
     print("\n⏳ Genereren...")
     resultaat = genereer_content(template_naam, invoer)
-    print(f"\n📝 Resultaat:\n{'─' * 60}\n{resultaat}\n{'─' * 60}")
+    print(f"\n Resultaat:\n{'─' * 60}\n{resultaat}\n{'─' * 60}")
 
     opslaan = input("\nOpslaan? (bestandsnaam zonder .md, of Enter om over te slaan): ").strip()
     if opslaan:
         Path(f"{opslaan}.md").write_text(resultaat, encoding="utf-8")
-        print(f"✅ Opgeslagen als '{opslaan}.md'")
+        print(f" Opgeslagen als '{opslaan}.md'")
 
 # ── Hoofdprogramma ────────────────────────────────────────────────────────────
 if __name__ == "__main__":
@@ -2740,7 +2740,7 @@ ______________________________________________________________________
 
 ### Discovery & Strategy
 
-**📍 Objective:** Identifying the right problem and verifying that we are ready to start.
+** Objective:** Identifying the right problem and verifying that we are ready to start.
 
 #### Core Activities
 
@@ -2752,7 +2752,7 @@ ______________________________________________________________________
 
 ### Validation
 
-**📍 Objective:** Proving that the idea works and is financially viable before making a major investment.
+** Objective:** Proving that the idea works and is financially viable before making a major investment.
 
 #### Core Activities
 
@@ -2764,7 +2764,7 @@ ______________________________________________________________________
 
 ### Development
 
-**📍 Objective:** Building a robust, production-ready solution.
+** Objective:** Building a robust, production-ready solution.
 
 #### Core Activities
 
@@ -2776,7 +2776,7 @@ ______________________________________________________________________
 
 ### Delivery
 
-**📍 Objective:** A safe **Go-live** and acceptance by the organisation.
+** Objective:** A safe **Go-live** and acceptance by the organisation.
 
 #### Core Activities
 
@@ -2788,7 +2788,7 @@ ______________________________________________________________________
 
 ### Monitoring & Optimisation
 
-**📍 Objective:** Retaining value and keeping the solution current.
+** Objective:** Retaining value and keeping the solution current.
 
 #### Core Activities
 
@@ -2965,7 +2965,7 @@ ______________________________________________________________________
 
 ### Assemble the Team
 
-- Assign clear roles (see **📍 4. Team & Roles**).
+- Assign clear roles (see ** 4. Team & Roles**).
 - Ensure multidisciplinary collaboration (Business, Data Science, IT/Guardians).
 
 ### Set Up Governance
@@ -3071,7 +3071,7 @@ ______________________________________________________________________
 - [Fast Lane](06-fast-lane.md)
 - [HAS-H Assessment](05-has-h-beoordeling.md)
 
-**Next step:** [➡ Phase 2: Validation](../03-fase-validatie/01-doelstellingen.md)
+**Next step:** [ Phase 2: Validation](../03-fase-validatie/01-doelstellingen.md)
 
 ------------------------------------------------------------------------
 
@@ -3403,7 +3403,7 @@ ______________________________________________________________________
 - [Deliverables](03-afleveringen.md)
 - [Risk Assessment](05-risicoclassificatie.md)
 
-**Next step:** [➡ Phase 3: Development](../04-fase-ontwikkeling/01-doelstellingen.md)
+**Next step:** [ Phase 3: Development](../04-fase-ontwikkeling/01-doelstellingen.md)
 
 ------------------------------------------------------------------------
 
@@ -3464,6 +3464,8 @@ A complete estimate of investment and operational costs.
 | **Stakeholders**       | **I**nformed: Receive updates on progress.                                       |
 
 ______________________________________________________________________
+
+\> Depending on the project requirements while roles are required.
 
 ## 5. Related Modules
 
@@ -3587,7 +3589,7 @@ ______________________________________________________________________
 - [Activities](02-activiteiten.md)
 - [Deliverables](03-afleveringen.md)
 
-**Next step:** [➡ Phase 4: Delivery](../05-fase-levering/01-doelstellingen.md)
+**Next step:** [ Phase 4: Delivery](../05-fase-levering/01-doelstellingen.md)
 
 ------------------------------------------------------------------------
 
@@ -3877,7 +3879,7 @@ ______________________________________________________________________
 - [Activities](02-activiteiten.md)
 - [Deliverables](03-afleveringen.md)
 
-**Next step:** [➡ Phase 5: Monitoring & Optimisation](../06-fase-monitoring/01-doelstellingen.md)
+**Next step:** [ Phase 5: Monitoring & Optimisation](../06-fase-monitoring/01-doelstellingen.md)
 
 ------------------------------------------------------------------------
 
@@ -4210,7 +4212,7 @@ ______________________________________________________________________
 - [EU AI Act](../07-compliance-hub/01-eu-ai-act/index.md)
 - [MLOps Standards](../08-technische-standaarden/01-mloops-standaarden.md)
 
-**Next step:** [➡ Phase 6: Continuous Improvement](../10-doorlopende-verbetering/index.md)
+**Next step:** [ Phase 6: Continuous Improvement](../10-doorlopende-verbetering/index.md)
 
 ------------------------------------------------------------------------
 
@@ -4808,9 +4810,9 @@ For each critical metric we define three levels:
 
 | Level                  | Action                                                                   |
 | :--------------------- | :----------------------------------------------------------------------- |
-| 🟡 **Warning**         | Notification to management team; investigation required within 48 hours  |
-| 🟠 **Critical**        | Immediate intervention required; Guardian is informed                    |
-| 🔴 **Circuit Breaker** | Automatic blocking or escalation; human approval required before restart |
+|  **Warning**         | Notification to management team; investigation required within 48 hours  |
+|  **Critical**        | Immediate intervention required; Guardian is informed                    |
+|  **Circuit Breaker** | Automatic blocking or escalation; human approval required before restart |
 
 **Example:** If accuracy drops below 85% (Warning), below 80% (Critical) or below 70% (Circuit Breaker).
 
@@ -5240,9 +5242,9 @@ We measure all benefit KPIs defined in the Business Case and compare:
 
 | KPI               | Baseline  | Target     | Final Measurement | Delta | Status       |
 | :---------------- | :-------- | :--------- | :---------------- | :---- | :----------- |
-| \[Time saving\]   | \[value\] | \[target\] | \[actual\]        |       | ✅ / ⚠️ / ❌ |
-| \[Error rate\]    | \[value\] | \[target\] | \[actual\]        |       | ✅ / ⚠️ / ❌ |
-| \[Quality score\] | \[value\] | \[target\] | \[actual\]        |       | ✅ / ⚠️ / ❌ |
+| \[Time saving\]   | \[value\] | \[target\] | \[actual\]        |       |  / ⚠ /  |
+| \[Error rate\]    | \[value\] | \[target\] | \[actual\]        |       |  / ⚠ /  |
+| \[Quality score\] | \[value\] | \[target\] | \[actual\]        |       |  / ⚠ /  |
 
 ### Closure of Business Case
 
@@ -5728,11 +5730,11 @@ ______________________________________________________________________
 
 | Regulation             | Applicable?                                   | Deadline              |
 | :--------------------- | :-------------------------------------------- | :-------------------- |
-| EU AI Act              | ✅ Yes — directly applicable as EU regulation | Phased until Aug 2027 |
-| GDPR / AVG             | ✅ Yes — additionally applicable              | Ongoing               |
-| PLD (revised)          | ✅ Yes — after transposition into Belgian law | Dec 2026              |
-| AI Liability Directive | ❌ Withdrawn — not in force                   | N/A                   |
-| Colorado AI Act (US)   | ❌ Not applicable to Belgian market           | N/A                   |
+| EU AI Act              |  Yes — directly applicable as EU regulation | Phased until Aug 2027 |
+| GDPR / AVG             |  Yes — additionally applicable              | Ongoing               |
+| PLD (revised)          |  Yes — after transposition into Belgian law | Dec 2026              |
+| AI Liability Directive |  Withdrawn — not in force                   | N/A                   |
+| Colorado AI Act (US)   |  Not applicable to Belgian market           | N/A                   |
 
 !!! warning "Legal Fragmentation"
     With the withdrawal of the AILD, organisations are now navigating a patchwork of national legislation. Document your AI systems thoroughly via the EU AI Act obligations: this also forms your PLD defence.
@@ -6007,10 +6009,10 @@ ______________________________________________________________________
 
 | Level         | Criteria                                                                        | Response time | Escalation                 | Communication                      |
 | :------------ | :------------------------------------------------------------------------------ | :------------ | :------------------------- | :--------------------------------- |
-| 🔴 **Red**    | Critical safety or compliance violation; potential legal liability              | 15 min        | CAIO, Legal, Guardian      | Immediate stakeholder notification |
-| 🟠 **Orange** | Significant functional disruption; affected parties impacted; reputational risk | 1 hour        | Tech Lead, AI PM, Guardian | Within 4 hours                     |
-| 🟡 **Yellow** | Limited degradation; no direct harm; user experience impaired                   | 4 hours       | Tech Lead, AI PM           | Within 24 hours                    |
-| 🟢 **Green**  | Minimal deviation; no direct impact; monitoring required                        | 24 hours      | Tech Lead                  | Next status update                 |
+|  **Red**    | Critical safety or compliance violation; potential legal liability              | 15 min        | CAIO, Legal, Guardian      | Immediate stakeholder notification |
+|  **Orange** | Significant functional disruption; affected parties impacted; reputational risk | 1 hour        | Tech Lead, AI PM, Guardian | Within 4 hours                     |
+|  **Yellow** | Limited degradation; no direct harm; user experience impaired                   | 4 hours       | Tech Lead, AI PM           | Within 24 hours                    |
+|  **Green**  | Minimal deviation; no direct impact; monitoring required                        | 24 hours      | Tech Lead                  | Next status update                 |
 
 ______________________________________________________________________
 
@@ -6020,10 +6022,10 @@ Four incident types each have their own step-by-step procedure in the [Incident 
 
 | Type                  | Signals                                                           | Typical level |
 | :-------------------- | :---------------------------------------------------------------- | :------------ |
-| **Model Drift**       | Declining quality scores, user complaints, monitoring anomalies   | 🟡–🟠         |
-| **Security Incident** | Unauthorised access, data leakage, abnormal usage                 | 🟠–🔴         |
-| **Bias Detection**    | Complaints about unequal treatment, fairness metrics out of range | 🟠–🔴         |
-| **System Outage**     | Unavailability, time-outs, errors at scale                        | 🟡–🔴         |
+| **Model Drift**       | Declining quality scores, user complaints, monitoring anomalies   | –         |
+| **Security Incident** | Unauthorised access, data leakage, abnormal usage                 | –         |
+| **Bias Detection**    | Complaints about unequal treatment, fairness metrics out of range | –         |
+| **System Outage**     | Unavailability, time-outs, errors at scale                        | –         |
 
 ______________________________________________________________________
 
@@ -6071,7 +6073,7 @@ ______________________________________________________________________
 
 ## 6. Post-Incident
 
-After every 🟠 Orange or 🔴 Red incident:
+After every  Orange or  Red incident:
 
 - [ ] Root cause analysis completed
 - [ ] Lessons Learned documented
@@ -6108,13 +6110,13 @@ ______________________________________________________________________
 
 - [ ] Check monitoring dashboard for trend (not a one-off spike)
 - [ ] Compare current scores to baseline (Golden Set or production sample)
-- [ ] Classify severity: 🟡 Yellow (score ≥ 80% baseline) / 🟠 Orange (60–80%) / 🔴 Red (\< 60%)
+- [ ] Classify severity:  Yellow (score ≥ 80% baseline) /  Orange (60–80%) /  Red (\< 60%)
 - [ ] Record timestamp of first deviation
 
 ### Step 2 — Containment (30–60 min)
 
 - [ ] Notify Tech Lead + AI PM
-- [ ] Notify Guardian at 🟠 Orange or higher
+- [ ] Notify Guardian at  Orange or higher
 - [ ] Consider rollback to previous model version if available
 - [ ] Temporarily increase monitoring frequency
 
@@ -8722,7 +8724,7 @@ ______________________________________________________________________
 | Objective-ID | Objective Definition (Intent) | System Prompt ID | Validation Report ID | Status       |
 | :----------- | :---------------------------- | :--------------- | :------------------- | :----------- |
 | **O-01**     | \[Summarise legal emails\]    | \[SYSTEM-04\]    | \[RPT-22\]           | Verified     |
-| **O-02**     | \[Generate draft response\]   | \[SYSTEM-05\]    | \[RPT-23\]           | 📍 In Review |
+| **O-02**     | \[Generate draft response\]   | \[SYSTEM-05\]    | \[RPT-23\]           |  In Review |
 | **...**      | ...                           | ...              | ...                  | ...          |
 
 ______________________________________________________________________
@@ -9888,10 +9890,10 @@ ______________________________________________________________________
 
 | Role      | Gate 1 | Gate 2 | Gate 3    | Gate 4 | Gate 5 |
 | :-------- | :----- | :----- | :-------- | :----- | :----- |
-| AI PM     | ✓      | ✓      | ✓         | ✓      | ✓      |
-| Guardian  | ✓      | ✓      | ✓         | ✓      | ✓      |
-| Tech Lead | ✓      | ✓      | ✓         | ✓      | —      |
-| Sponsor   | ✓      | —      | —         | ✓      | ✓      |
+| AI PM     |       |       |          |       |       |
+| Guardian  |       |       |          |       |       |
+| Tech Lead |       |       |          |       | —      |
+| Sponsor   |       | —      | —         |       |       |
 | CAIO      | —      | —      | High Risk | —      | —      |
 
 ______________________________________________________________________
@@ -10119,10 +10121,10 @@ ______________________________________________________________________
 
 | Severity      | Threshold                           | Action                                            | Who                   |
 | :------------ | :---------------------------------- | :------------------------------------------------ | :-------------------- |
-| 🔴 **Red**    | Direct harm or legal obligation     | Activate Circuit Breaker; CISO + Guardian + Legal | Tech Lead (commander) |
-| 🟠 **Orange** | Significant risk, no direct harm    | Increased monitoring; inform Guardian             | AI PM + Tech Lead     |
-| 🟡 **Yellow** | Quality degradation, limited impact | Monitor; recovery plan within 24h                 | AI PM                 |
-| 🟢 **Green**  | Deviation within bandwidth          | Document; no action needed                        | Automated             |
+|  **Red**    | Direct harm or legal obligation     | Activate Circuit Breaker; CISO + Guardian + Legal | Tech Lead (commander) |
+|  **Orange** | Significant risk, no direct harm    | Increased monitoring; inform Guardian             | AI PM + Tech Lead     |
+|  **Yellow** | Quality degradation, limited impact | Monitor; recovery plan within 24h                 | AI PM                 |
+|  **Green**  | Deviation within bandwidth          | Document; no action needed                        | Automated             |
 
 ______________________________________________________________________
 
@@ -11632,17 +11634,17 @@ These are the artefacts produced during a project. Together they form the **Lega
 
 | Code          | Document Name                                                                         | Phase       | Mandatory? |
 | :------------ | :------------------------------------------------------------------------------------ | :---------- | :--------- |
-| **TMP-09-01** | [Project Charter](../09-sjablonen/01-project-charter/template.md)                     | Initiation  | ✅         |
-| **TMP-09-02** | [Business Case](../09-sjablonen/02-business-case/template.md)                         | Validation  | ✅\*       |
-| **TMP-09-03** | [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)                         | Initiation  | ✅         |
-| **TMP-09-04** | [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md)                | Development | ✅         |
-| **TMP-09-05** | [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md)                 | All         | ✅         |
-| **TMP-09-06** | [Goal Definition (AI Artefact)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) | Development | ✅         |
-| **TMP-09-07** | [Validation Report](../09-sjablonen/07-validatie-bewijs/validatierapport.md)          | Validation  | ✅         |
-| **TMP-09-08** | [Traceability Matrix](../09-sjablonen/08-traceerbaarheid-links/template.md)           | Delivery    | ⚠️         |
-| **TMP-09-09** | [Risk Analysis (Full)](../09-sjablonen/03-risicoanalyse/template.md)                  | Validation  | ⚠️         |
-| **TMP-09-10** | [Prompt Template](../09-sjablonen/10-prompt-engineering/template.md)                  | Development | 💡         |
-| **TMP-09-11** | [Privacy & Data Sheet](../09-sjablonen/11-privacy-data/privacyblad.md)                | Discovery   | ✅         |
+| **TMP-09-01** | [Project Charter](../09-sjablonen/01-project-charter/template.md)                     | Initiation  |          |
+| **TMP-09-02** | [Business Case](../09-sjablonen/02-business-case/template.md)                         | Validation  | \*       |
+| **TMP-09-03** | [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)                         | Initiation  |          |
+| **TMP-09-04** | [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md)                | Development |          |
+| **TMP-09-05** | [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md)                 | All         |          |
+| **TMP-09-06** | [Goal Definition (AI Artefact)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) | Development |          |
+| **TMP-09-07** | [Validation Report](../09-sjablonen/07-validatie-bewijs/validatierapport.md)          | Validation  |          |
+| **TMP-09-08** | [Traceability Matrix](../09-sjablonen/08-traceerbaarheid-links/template.md)           | Delivery    | ⚠         |
+| **TMP-09-09** | [Risk Analysis (Full)](../09-sjablonen/03-risicoanalyse/template.md)                  | Validation  | ⚠         |
+| **TMP-09-10** | [Prompt Template](../09-sjablonen/10-prompt-engineering/template.md)                  | Development |          |
+| **TMP-09-11** | [Privacy & Data Sheet](../09-sjablonen/11-privacy-data/privacyblad.md)                | Discovery   |          |
 
 *\*Optional for Fast Lane projects.*
 
@@ -11773,7 +11775,7 @@ ______________________________________________________________________
 
 | #     | Topic                                             | Status    |
 | :---- | :------------------------------------------------ | :-------- |
-| TB-01 | Set `site_url` for canonical URL tags and sitemap | ✅ Closed |
+| TB-01 | Set `site_url` for canonical URL tags and sitemap |  Closed |
 
 ______________________________________________________________________
 
@@ -11811,9 +11813,9 @@ ______________________________________________________________________
 
 ### New Content
 
-- **Blueprint Navigator** (`🚀 Getting Started › Blueprint Navigator`): Interactive 4-step wizard guiding new users to their starting point within 5 minutes. Input: role (AI PM / Tech Lead / Guardian / CAIO), organisational context and a 10-question maturity scan. Output: personalised profile (Explorer / Builder / Visionary) + recommended starting module + first 3 actions with direct links. 12 unique routes (4 personas × 3 profiles). Works in light and dark mode.
+- **Blueprint Navigator** (` Getting Started › Blueprint Navigator`): Interactive 4-step wizard guiding new users to their starting point within 5 minutes. Input: role (AI PM / Tech Lead / Guardian / CAIO), organisational context and a 10-question maturity scan. Output: personalised profile (Explorer / Builder / Visionary) + recommended starting module + first 3 actions with direct links. 12 unique routes (4 personas × 3 profiles). Works in light and dark mode.
 
-- **Explorer Kit — 30-Day Starter Programme** (`🚀 Getting Started › Explorer Kit`): Complete package for organisations without AI experience:
+- **Explorer Kit — 30-Day Starter Programme** (` Getting Started › Explorer Kit`): Complete package for organisations without AI experience:
 
     - **30-Day Day-by-Day Plan**: Daily checklist structured by week (Foundation → Discovery → Validation → Decision).
     - **Project Charter Light**: Simplified 1-page project framework (vs. the full 3-page charter).
@@ -11824,7 +11826,7 @@ ______________________________________________________________________
 ### Navigation & Structure
 
 - Home page updated: Blueprint Navigator and Explorer Kit are now the first two items in "Quick Start".
-- `mkdocs.yml`: new navigation block `Explorer Kit (30 Days)` added under `🚀 Getting Started`, including English nav translations.
+- `mkdocs.yml`: new navigation block `Explorer Kit (30 Days)` added under ` Getting Started`, including English nav translations.
 
 ______________________________________________________________________
 
