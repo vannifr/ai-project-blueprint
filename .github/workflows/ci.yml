@@ -39,22 +39,29 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt pre-commit
 
+      - name: Cache pre-commit environments
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
+
       - name: Patch mkdocs-static-i18n (fix infinite loop bug)
         run: python3 scripts/patch_i18n.py
 
-      - name: Run Pre-commit hooks
-        run: SKIP=no-commit-to-branch,mdformat pre-commit run --all-files
-
-      - name: Auto-format markdown (mdformat)
+      - name: Auto-fix trailing whitespace & markdown (mdformat)
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          find docs/ -name "*.md" -exec sed -i 's/[[:space:]]*$//' {} +
           mdformat docs/
           if ! git diff --quiet; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add docs/
-            git commit -m "style: auto-format markdown [skip ci]"
+            git commit -m "style: auto-fix whitespace & format markdown [skip ci]"
             git push
           fi
+
+      - name: Run Pre-commit hooks
+        run: SKIP=no-commit-to-branch,mdformat,trailing-whitespace pre-commit run --all-files
 
       - name: Re-checkout (shallow, for fast git-revision-date)
         uses: actions/checkout@v4
