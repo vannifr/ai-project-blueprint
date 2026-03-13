@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 ---
 
 # 1. Deliverables & Gate 4 (Go-live) (Delivery)
