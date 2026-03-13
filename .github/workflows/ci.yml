@@ -63,11 +63,6 @@ jobs:
       - name: Run Pre-commit hooks
         run: SKIP=no-commit-to-branch,mdformat,trailing-whitespace pre-commit run --all-files
 
-      - name: Re-checkout (shallow, for fast git-revision-date)
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
 
