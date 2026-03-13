@@ -8,7 +8,7 @@ Your feedback makes the AI Project Blueprint better. Let us know what is missing
 
 ______________________________________________________________________
 
-<form class="feedback-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<form class="feedback-form" action="https://formspree.io/f/xbdzkrpn" method="POST">
 
 <div class="feedback-form__field">
     <label for="fb-page">Page or module</label>
