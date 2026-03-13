@@ -78,3 +78,20 @@ Follow the week-by-week planning in section 1 above.
 - Independent Guardian review at every Gate
 - Quantitative Fairness Check with mitigation plan
 - 100% input/output logging with 12-month retention
+
+______________________________________________________________________
+
+## Fast Lane
+
+For systems with **Minimal Risk**, the 13-week roadmap can be shortened to **6–8 weeks**:
+
+| Week | Fast Lane activity                                                     |
+| :--- | :--------------------------------------------------------------------- |
+| 1–2  | Project Charter + Risk Pre-Scan (no extended business case)            |
+| 3–4  | Prototype + quick Validation Pilot (minimal Golden Set: 20 test cases) |
+| 5–6  | Validation + direct go-live (Gate 1 + Gate 3 combined)                 |
+| 7–8  | Set up monitoring + first drift measurement                            |
+
+> **Fast Lane criteria:** Minimal Risk, Mode 1–2, no personal data, internal users only.
+
+______________________________________________________________________

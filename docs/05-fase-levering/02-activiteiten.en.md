@@ -64,3 +64,9 @@ ______________________________________________________________________
 - [Incident Response](../07-compliance-hub/05-incidentrespons.md)
 
 **See also:** [Phase 4 Overview](01-doelstellingen.md) · [Deliverables](03-afleveringen.md)
+
+______________________________________________________________________
+
+**Next step:** Complete the handover checklist and activate the monitoring dashboard.
+→ Use the [Gate 3 Checklist](../09-sjablonen/04-gate-reviews/checklist.md) as your starting point.
+→ See also: [Monitoring & Optimisation](../06-fase-monitoring/01-doelstellingen.md)

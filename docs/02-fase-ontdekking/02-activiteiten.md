@@ -63,3 +63,9 @@ ______________________________________________________________________
 - [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 
 **Zie ook:** [Overzicht Fase 1](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Vul de Doelkaart in en voer de Moduskeuze Beoordeling uit.
+→ Gebruik het [Project Charter](../09-sjablonen/01-project-charter/template.md) als startpunt.
+→ Zie ook: [Moduskeuze Beoordeling](05-has-h-beoordeling.md) | [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)

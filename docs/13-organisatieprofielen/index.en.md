@@ -44,6 +44,45 @@ Organisations in the Explorer phase have just started with AI. There is enthusia
 
 ______________________________________________________________________
 
+## Growth Guide for the Explorer
+
+### Entry criteria
+
+Score yourself. 4 or more "yes" = you are in this profile.
+
+- [ ] Fewer than 3 AI projects in production
+- [ ] No formal AI governance process established
+- [ ] AI decisions are made ad hoc without fixed criteria
+- [ ] No designated AI PM or Guardian
+- [ ] Most AI applications are SaaS tools without customisation (Copilot, ChatGPT)
+
+### Exit criteria (ready for Builder level)
+
+- [ ] At least 2 use cases fully documented (Goal card + Validation report)
+- [ ] Designated AI PM (even part-time)
+- [ ] Guardian or compliance officer appointed
+- [ ] Red Lines established for all active systems
+- [ ] At least 1 Gate Review completed in accordance with the Blueprint
+
+### Top-5 Actions for the Explorer
+
+1. **Start with the Explorer Kit** — 30-day plan with minimal overhead
+1. **Appoint an AI PM** — even part-time; creates ownership
+1. **Document 1 existing use case** using the Goal card
+1. **Conduct a Risk Pre-Scan** for every active AI system
+1. **Establish Red Lines** for your most-used AI tool
+
+### Metrics
+
+| KPI                                   | Target                    |
+| :------------------------------------ | :------------------------ |
+| % use cases with Goal card            | > 50% of active use cases |
+| Number of Gate Reviews                | ≥ 1                       |
+| Incidents without documented response | 0                         |
+| % employees with basic AI training    | > 25%                     |
+
+______________________________________________________________________
+
 ## 3. The Builder
 
 Organisations in the Builder phase have proven that AI works, but struggle with the transition to stable production.
@@ -74,6 +113,43 @@ Organisations in the Builder phase have proven that AI works, but struggle with 
 1. Formalise governance: define Hard Boundaries
 1. Invest in MLOps training for the team
 1. Document System Prompts (prompts, context) in version control
+
+______________________________________________________________________
+
+## Growth Guide for the Builder
+
+### Entry criteria
+
+- [ ] 3–10 AI projects in production
+- [ ] AI PM and at least one Guardian appointed
+- [ ] Gate Reviews are conducted but not always consistently
+- [ ] Validation reports exist for most systems
+- [ ] Basic drift monitoring process in place
+
+### Exit criteria (ready for Visionary level)
+
+- [ ] All active AI systems have a complete documentation set (Charter, Goal card, Red Lines, Validation report)
+- [ ] Gate Reviews mandatory and always completed before go-live
+- [ ] Formal incident response process tested
+- [ ] Collaboration Mode recorded for each system
+- [ ] AI governance committee or equivalent decision-making body active
+
+### Top-5 Actions for the Builder
+
+1. **Standardise the 90-day roadmap** as a mandatory starting point for every project
+1. **Implement continuous drift monitoring** for all Mode 3+ systems
+1. **Train all AI PMs and Tech Leads** in the Blueprint methodology
+1. **Conduct a portfolio review** — stop zombie projects
+1. **Establish an AI governance committee** with Sponsor, Guardian and AI PM
+
+### Metrics
+
+| KPI                                         | Target                     |
+| :------------------------------------------ | :------------------------- |
+| % use cases with complete documentation set | > 80%                      |
+| Average time Gate 1 → production            | \< 13 weeks (Limited Risk) |
+| Drift incidents without prior warning       | \< 10%                     |
+| % Mode 4+ systems with active monitoring    | 100%                       |
 
 ______________________________________________________________________
 
@@ -108,6 +184,43 @@ Organisations in the Visionary phase have fully integrated AI into their strateg
 1. Develop reusable accelerators and templates
 1. Invest in energy efficiency (ESG goals)
 1. Build an AI Center of Excellence
+
+______________________________________________________________________
+
+## Growth Guide for the Visionary
+
+### Entry criteria
+
+- [ ] More than 10 AI systems in production
+- [ ] Full AI governance committee active
+- [ ] AI PM recognised as a formal discipline
+- [ ] Standardised documentation for all systems
+- [ ] AI integrated into core strategy
+
+### Exit criteria (mature AI organisation)
+
+- [ ] AI governance is a boardroom topic with formal mandate
+- [ ] External audits conducted annually (compliance, fairness)
+- [ ] Organisation actively contributes to sector standards or policy
+- [ ] AI risk management integrated into enterprise risk management (ERM)
+- [ ] External knowledge sharing (publications, conferences, open source)
+
+### Top-5 Actions for the Visionary
+
+1. **Build an AI platform** — shared infrastructure for monitoring and governance
+1. **Integrate AI risks into ERM** — AI incidents are a boardroom KPI
+1. **Launch an internal AI centre of excellence** with a permanent Guardian role
+1. **Participate in sector standards** (e.g. ISO/IEC 42001, NIST AI RMF)
+1. **Publish lessons learned** — strengthens reputation and ecosystem
+
+### Metrics
+
+| KPI                                      | Target       |
+| :--------------------------------------- | :----------- |
+| % High Risk systems with external audit  | 100%         |
+| Average MTTR for AI incident             | \< 4 hours   |
+| AI ROI reported to board                 | Quarterly    |
+| External knowledge-sharing contributions | ≥ 2 per year |
 
 ______________________________________________________________________
 

@@ -128,7 +128,7 @@ First release of the standardised AI Project Blueprint. Version set to **1.0** u
 
 ### Content
 
-- **Strategic Framework**: Executive summary, AI lifecycle, hybrid Agile-AI methodology, governance model, AI collaboration modes (HAS-H levels), organisational reinvention.
+- **Strategic Framework**: Executive summary, AI lifecycle, hybrid Agile-AI methodology, governance model, AI collaboration modes, organisational reinvention.
 - **AI-Native Foundations**: Definition, normative criteria, artefact model, validation model, risk classification, SDD pattern, evidence standards.
 - **Lifecycle Phases**: All 5 phases elaborated (Discovery & Strategy, Validation, Development, Delivery, Monitoring & Optimisation).
 - **Compliance Hub**: EU AI Act, risk management, ethical guidelines, validation requirements, incident response.

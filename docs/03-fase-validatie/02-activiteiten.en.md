@@ -69,3 +69,9 @@ ______________________________________________________________________
 - [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 
 **See also:** [Phase 2 Overview](01-doelstellingen.md) · [Deliverables](03-afleveringen.md)
+
+______________________________________________________________________
+
+**Next step:** Run the Validation Pilot and document the results in the Validation report.
+→ Use the [Validation Report](../09-sjablonen/07-validatie-bewijs/validatierapport.md) as your starting point.
+→ See also: [Business Case](../09-sjablonen/02-business-case/template.md) | [Gate 2 Checklist](../09-sjablonen/04-gate-reviews/checklist.md)

@@ -44,6 +44,16 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
+### Collaboration Mode
+
+| Intended mode         | Rationale                   | Validation intensity                                                           |
+| :-------------------- | :-------------------------- | :----------------------------------------------------------------------------- |
+| Mode \[X\] — \[name\] | \[Why does this mode fit?\] | → [Evidence Standards](../../01-ai-native-fundamenten/07-bewijsstandaarden.md) |
+
+> Run the [Collaboration Mode Assessment](../../02-fase-ontdekking/05-has-h-beoordeling.md) to determine the appropriate mode. Modes 4 and 5 require explicit Guardian approval.
+
+______________________________________________________________________
+
 ### Strategic Fit & Data
 
 *Why now and is it feasible?*

@@ -38,7 +38,7 @@ Organise one structured closing session of 3 to 4 hours with the full project te
 - Was the Golden Set representative enough? What would we compose differently?
 - How effective was the Guardian role in practice?
 - Which Hard Boundaries turned out to be too narrow or too broad in retrospect?
-- Were the chosen Collaboration Modes (HAS-H) correctly estimated?
+- Were the chosen Collaboration Modes correctly estimated?
 
 ### Documentation and Dissemination
 

@@ -11,13 +11,13 @@ ______________________________________________________________________
 
 ## Overview 5 Gates
 
-| Gate       | After phase      | Core question                                | Minimum deliverables                         |
-| :--------- | :--------------- | :------------------------------------------- | :------------------------------------------- |
-| **Gate 1** | Discovery        | Is the use case feasible and worth pursuing? | Project Charter, Risk Pre-Scan, HAS-H level  |
-| **Gate 2** | Validation (PoV) | Has it been proven to work on real data?     | Golden Set results, PoV report, Go/No-Go     |
-| **Gate 3** | Development      | Is the system production-ready?              | AI Safety Checklist, Red Teaming, Model Card |
-| **Gate 4** | Delivery         | Is the handover complete?                    | Handover checklist, SLA, monitoring plan     |
-| **Gate 5** | Closure          | Have the benefits been realised?             | Lessons Learned, benefits report             |
+| Gate       | After phase      | Core question                                | Minimum deliverables                               |
+| :--------- | :--------------- | :------------------------------------------- | :------------------------------------------------- |
+| **Gate 1** | Discovery        | Is the use case feasible and worth pursuing? | Project Charter, Risk Pre-Scan, Collaboration mode |
+| **Gate 2** | Validation (PoV) | Has it been proven to work on real data?     | Golden Set results, PoV report, Go/No-Go           |
+| **Gate 3** | Development      | Is the system production-ready?              | AI Safety Checklist, Red Teaming, Model Card       |
+| **Gate 4** | Delivery         | Is the handover complete?                    | Handover checklist, SLA, monitoring plan           |
+| **Gate 5** | Closure          | Have the benefits been realised?             | Lessons Learned, benefits report                   |
 
 ______________________________________________________________________
 

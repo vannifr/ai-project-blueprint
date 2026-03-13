@@ -127,7 +127,7 @@ Eerste release van de gestandaardiseerde AI Project Blauwdruk. Versie op **1.0**
 
 ### Inhoud
 
-- **Strategisch Kader**: Managementsamenvatting, AI-levenscyclus, hybride Agile-AI methodologie, governance model, AI-samenwerkingsmodi (HAS-H niveaus), organisatorische heruitvinding.
+- **Strategisch Kader**: Managementsamenvatting, AI-levenscyclus, hybride Agile-AI methodologie, governance model, AI-samenwerkingsmodi, organisatorische heruitvinding.
 - **AI-Native Fundamenten**: Definitie, normatieve criteria, artefact model, validatie model, risicoclassificatie, SDD-patroon, bewijsstandaarden.
 - **Levenscyclusfasen**: Alle 5 fases uitgewerkt (Verkenning & Strategie, Validatie, Realisatie, Levering, Beheer & Optimalisatie).
 - **Compliance Hub**: EU AI Act, risicobeheer, ethische richtlijnen, validatie-eisen, incident respons.

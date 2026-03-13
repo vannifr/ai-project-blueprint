@@ -44,6 +44,45 @@ Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme e
 
 ______________________________________________________________________
 
+## Groeigids voor de Verkenner
+
+### Instapcriteria
+
+Scoor uzelf. 4 of meer "ja" = u zit in dit profiel.
+
+- [ ] Minder dan 3 AI-projecten in productie
+- [ ] Geen formeel AI-governanceproces vastgesteld
+- [ ] AI-beslissingen worden ad hoc genomen zonder vaste criteria
+- [ ] Geen toegewezen AI PM of Guardian
+- [ ] Meeste AI-toepassingen zijn SaaS-tools zonder maatwerk (Copilot, ChatGPT)
+
+### Exitcriteria (gereed voor Bouwer-niveau)
+
+- [ ] Minimaal 2 use cases volledig gedocumenteerd (Doelkaart + Validatierapport)
+- [ ] Toegewezen AI PM (ook parttime)
+- [ ] Guardian of compliance-verantwoordelijke benoemd
+- [ ] Rode Lijnen vastgesteld voor alle actieve systemen
+- [ ] Minimaal 1 Gate Review uitgevoerd conform de Blauwdruk
+
+### Top-5 Acties voor de Verkenner
+
+1. **Start met de Explorer Kit** — 30-dagenplan met minimale overhead
+1. **Benoem een AI PM** — ook parttime; geeft eigenaarschap
+1. **Documenteer 1 bestaande use case** met de Doelkaart
+1. **Voer een Risk Pre-Scan uit** voor elk actief AI-systeem
+1. **Stel Rode Lijnen vast** voor uw meest gebruikte AI-tool
+
+### Meetpunten
+
+| KPI                                       | Streefwaarde                |
+| :---------------------------------------- | :-------------------------- |
+| % use cases met Doelkaart                 | > 50% van actieve use cases |
+| Aantal Gate Reviews                       | ≥ 1                         |
+| Incidenten zonder gedocumenteerde respons | 0                           |
+| % medewerkers met AI-basistraining        | > 25%                       |
+
+______________________________________________________________________
+
 ## 3. De Bouwer
 
 Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met de overgang naar stabiele productie.
@@ -74,6 +113,43 @@ Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met d
 1. Formaliseer governance: definieer Rode Lijnen
 1. Investeer in MLOps training voor het team
 1. Documenteer Stuurinformatie (prompts, context) in version control
+
+______________________________________________________________________
+
+## Groeigids voor de Bouwer
+
+### Instapcriteria
+
+- [ ] 3–10 AI-projecten in productie
+- [ ] AI PM en minimaal een Guardian aangesteld
+- [ ] Gate Reviews worden uitgevoerd maar niet altijd consequent
+- [ ] Validatierapporten bestaan voor de meeste systemen
+- [ ] Basisproces voor drift-monitoring aanwezig
+
+### Exitcriteria (gereed voor Visionair-niveau)
+
+- [ ] Alle actieve AI-systemen hebben een volledige documentatieset (Charter, Doelkaart, Rode Lijnen, Validatierapport)
+- [ ] Gate Reviews verplicht en altijd uitgevoerd vóór livegang
+- [ ] Formeel incidentresponse-proces getest
+- [ ] Samenwerkingsmodus vastgelegd voor elk systeem
+- [ ] AI-governancecomité of equivalent besluitvormingsorgaan actief
+
+### Top-5 Acties voor de Bouwer
+
+1. **Standaardiseer de 90-dagenroadmap** als verplicht startpunt voor elk project
+1. **Implementeer continue drift-monitoring** voor alle Modus 3+ systemen
+1. **Train alle AI PM's en Tech Leads** in de Blauwdruk-methodologie
+1. **Voer een portfolio-review uit** — stop zombie-projecten
+1. **Stel een AI-governancecomité in** met Sponsor, Guardian en AI PM
+
+### Meetpunten
+
+| KPI                                               | Streefwaarde                 |
+| :------------------------------------------------ | :--------------------------- |
+| % use cases met volledige documentatieset         | > 80%                        |
+| Gemiddelde tijd Gate 1 → productie                | \< 13 weken (Beperkt Risico) |
+| Drift-incidenten zonder voorafgaande waarschuwing | \< 10%                       |
+| % Modus 4+ systemen met actieve monitoring        | 100%                         |
 
 ______________________________________________________________________
 
@@ -108,6 +184,43 @@ Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strate
 1. Ontwikkel herbruikbare accelerators en sjablonen
 1. Investeer in energie-efficiëntie (ESG doelen)
 1. Bouw een AI Center of Excellence
+
+______________________________________________________________________
+
+## Groeigids voor de Visionair
+
+### Instapcriteria
+
+- [ ] Meer dan 10 AI-systemen in productie
+- [ ] Volledig AI-governancecomité actief
+- [ ] AI PM als formele discipline erkend
+- [ ] Gestandaardiseerde documentatie voor alle systemen
+- [ ] AI geïntegreerd in de kernstrategie
+
+### Exitcriteria (volwassen AI-organisatie)
+
+- [ ] AI-governance is een boardroom-onderwerp met formeel mandaat
+- [ ] Externe audits jaarlijks uitgevoerd (compliance, fairness)
+- [ ] Organisatie draagt actief bij aan sectorstandaarden of -beleid
+- [ ] AI-risicobeheer geïntegreerd in enterprise risk management (ERM)
+- [ ] Kennisdeling naar buiten (publicaties, conferenties, open source)
+
+### Top-5 Acties voor de Visionair
+
+1. **Bouw een AI-platform** — gedeelde infrastructuur voor monitoring en governance
+1. **Integreer AI-risico's in het ERM** — AI-incidenten zijn een boardroom-KPI
+1. **Lanceer een intern AI-center of excellence** met permanente Guardian-rol
+1. **Participeer in sectorstandaarden** (bijv. ISO/IEC 42001, NIST AI RMF)
+1. **Publiceer lessons learned** — versterkt reputatie en ecosysteem
+
+### Meetpunten
+
+| KPI                                      | Streefwaarde  |
+| :--------------------------------------- | :------------ |
+| % Hoog Risico systemen met externe audit | 100%          |
+| Gemiddelde MTTR bij AI-incident          | \< 4 uur      |
+| AI ROI gerapporteerd aan board           | Kwartaalbasis |
+| Externe kennisdeelbijdragen              | ≥ 2 per jaar  |
 
 ______________________________________________________________________
 

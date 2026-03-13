@@ -128,4 +128,4 @@ ______________________________________________________________________
 - [Incident Respons](05-incidentrespons.md)
 - [EU AI Act](01-eu-ai-act/index.md)
 - [Ethische Richtlijnen](03-ethische-richtlijnen.md)
-- [AI-Samenwerkingsmodi (HAS-H)](../00-strategisch-kader/06-has-h-niveaus.md)
+- [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)

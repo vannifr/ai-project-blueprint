@@ -19,6 +19,9 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Er is een testset beschikbaar met representatieve voorbeelden.
 - Het team heeft toegang tot de benodigde tools en data.
 
+!!! info "Praktijkvoorbeeld"
+    Zie [Praktijkvoorbeelden — Voorbeeld 2: Klantenservice-automatisering](../17-bijlagen/praktijkvoorbeelden.md) voor een uitgewerkt voorbeeld van een Validatiefase in de praktijk.
+
 ______________________________________________________________________
 
 ## 3. Gerelateerde Modules

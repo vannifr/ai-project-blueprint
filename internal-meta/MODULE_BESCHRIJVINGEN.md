@@ -36,7 +36,7 @@ Dit document geeft een gedetailleerd overzicht van wat er in elke module en elk 
 - **02-activiteiten.md**: Kernstappen, workshops en data-exploratie.
 - **03-afleveringen.md**: De tastbare outputs van deze fase.
 - **04-sjablonen/**: Mappenstructuur voor relevante templates.
-- **05-has-h-beoordeling.md**: Nulmeting van het HAS H-niveau voor het specifieke project.
+- **05-has-h-beoordeling.md**: Nulmeting van het samenwerkingsniveau voor het specifieke project.
 
 ### Fase Validatie (Validation)
 

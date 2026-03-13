@@ -11,13 +11,13 @@ ______________________________________________________________________
 
 ## Overzicht 5 Gates
 
-| Gate       | Na fase         | Kernvraag                                   | Minimale afleveringen                        |
-| :--------- | :-------------- | :------------------------------------------ | :------------------------------------------- |
-| **Gate 1** | Verkenning      | Is de use case haalbaar en de kans waardig? | Project Charter, Risk Pre-Scan, HAS-H niveau |
-| **Gate 2** | Validatie (PoV) | Werkt het bewezen op echte data?            | Golden Set resultaten, PoV-rapport, Go/No-Go |
-| **Gate 3** | Realisatie      | Is het systeem productiewaardig?            | AI Safety Checklist, Red Teaming, Model Card |
-| **Gate 4** | Levering        | Is de overdracht volledig?                  | Overdracht checklist, SLA, monitoringplan    |
-| **Gate 5** | Afsluiting      | Zijn de baten gerealiseerd?                 | Lessons Learned, batenrapport                |
+| Gate       | Na fase         | Kernvraag                                   | Minimale afleveringen                              |
+| :--------- | :-------------- | :------------------------------------------ | :------------------------------------------------- |
+| **Gate 1** | Verkenning      | Is de use case haalbaar en de kans waardig? | Project Charter, Risk Pre-Scan, Samenwerkingsmodus |
+| **Gate 2** | Validatie (PoV) | Werkt het bewezen op echte data?            | Golden Set resultaten, PoV-rapport, Go/No-Go       |
+| **Gate 3** | Realisatie      | Is het systeem productiewaardig?            | AI Safety Checklist, Red Teaming, Model Card       |
+| **Gate 4** | Levering        | Is de overdracht volledig?                  | Overdracht checklist, SLA, monitoringplan          |
+| **Gate 5** | Afsluiting      | Zijn de baten gerealiseerd?                 | Lessons Learned, batenrapport                      |
 
 ______________________________________________________________________
 

@@ -67,3 +67,9 @@ ______________________________________________________________________
 - [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 
 **Zie ook:** [Overzicht Fase 2](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Voer de Proof of Value uit en documenteer de resultaten in het Validatierapport.
+→ Gebruik het [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md) als startpunt.
+→ Zie ook: [Business Case](../09-sjablonen/02-business-case/template.md) | [Gate 2 Checklist](../09-sjablonen/04-gate-reviews/checklist.md)

@@ -64,3 +64,9 @@ ______________________________________________________________________
 - [Incident Respons](../07-compliance-hub/05-incidentrespons.md)
 
 **Zie ook:** [Overzicht Fase 4](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Voer de overdrachtschecklist uit en activeer de monitoring-dashboard.
+→ Gebruik de [Gate 3 Checklist](../09-sjablonen/04-gate-reviews/checklist.md) als startpunt.
+→ Zie ook: [Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md)

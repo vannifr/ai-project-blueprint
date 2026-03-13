@@ -94,3 +94,9 @@ ______________________________________________________________________
 - [SDD Patroon](05-sdd-patroon.md)
 
 **Zie ook:** [Overzicht Fase 3](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Start de SDD-cyclus: schrijf de spec, leid de Golden Set af, bouw en valideer.
+→ Gebruik de [Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md) als startpunt.
+→ Zie ook: [SDD Patroon](05-sdd-patroon.md) | [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)

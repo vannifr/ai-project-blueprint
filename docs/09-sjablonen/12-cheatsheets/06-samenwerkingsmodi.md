@@ -3,9 +3,9 @@ versie: '1.0'
 pdf: false
 ---
 
-# Cheatsheet — AI-Samenwerkingsmodi (HAS-H)
+# Cheatsheet — AI-Samenwerkingsmodi
 
-**Bron:** [HAS-H Niveaus](../../00-strategisch-kader/06-has-h-niveaus.md)
+**Bron:** [Samenwerkingsmodi](../../00-strategisch-kader/06-has-h-niveaus.md)
 
 ______________________________________________________________________
 
@@ -59,4 +59,4 @@ ______________________________________________________________________
 | 4     | Verplicht               | Alert-based             | Verplicht                   |
 | 5     | Verplicht + audit trail | Periodiek (maandelijks) | Verplicht + hercertificatie |
 
-**Bron:** [HAS-H Niveaus](../../00-strategisch-kader/06-has-h-niveaus.md) | [AI Safety Checklist](../../07-compliance-hub/08-ai-safety-checklist.md)
+**Bron:** [Samenwerkingsmodi](../../00-strategisch-kader/06-has-h-niveaus.md) | [AI Safety Checklist](../../07-compliance-hub/08-ai-safety-checklist.md)

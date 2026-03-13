@@ -1,7 +1,7 @@
 ---
 versie: '1.0'
 pdf: false
-description: 'Glossary of AI project management terms: clear definitions bridging technology and business — from golden set and concept drift to agentic AI, RAG, and HAS-H collaboration modes.'
+description: 'Glossary of AI project management terms: clear definitions bridging technology and business — from golden set and concept drift to agentic AI, RAG, and collaboration modes.'
 ---
 
 # 1. Glossary

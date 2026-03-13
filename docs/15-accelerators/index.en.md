@@ -1,19 +1,25 @@
 ---
 versie: '1.0'
+description: Accelerators for rapid AI implementation per transformation track — coming soon.
 ---
 
-# 1. Accelerators
+# Accelerators
 
-## 1. Purpose
+!!! info "Coming soon — expected Q2 2026"
+    The Accelerators module is under development. This section will contain practical quick-start tools per transformation track:
 
-Accelerators are tools, frameworks and templates that speed up the execution of AI projects within the different tracks.
+    - **Strategic:** Rapid strategic reinvention for AI leaders
+    - **Operational:** Process optimisation toolkit per business function
+    - **AI-First:** Building an AI-native business model
+
+    In the meantime:
+
+    - Use the [90-Day Roadmap](../12-90-dagen-roadmap/index.md) as an accelerated starting point
+    - Consult the [Organisational Profiles](../13-organisatieprofielen/index.md) for your growth profile
+    - Start with the [Explorer Kit](../00-explorer-kit/index.md) for a 30-day plan
 
 ______________________________________________________________________
 
-## 2. Accelerators per Track
-
-- **[Strategic Reinvention Accelerators](01-strategische-heruitvinding-accelerators.md):** Tools for strategic transformation.
-- **[Operational Redesign Accelerators](02-operationele-herontwerp-accelerators.md):** Process optimisation tools.
-- **[Business Model Accelerators](03-bedrijfsmodel-accelerators.md):** Innovation frameworks.
-
-______________________________________________________________________
+**Version:** 1.0
+**Date:** 13 March 2026
+**Status:** Under development

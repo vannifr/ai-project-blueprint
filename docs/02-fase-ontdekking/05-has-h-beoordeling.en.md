@@ -2,7 +2,7 @@
 versie: '1.1'
 ---
 
-# 5. HAS-H Assessment
+# 5. Collaboration Mode Assessment
 
 ## 1. Objective
 
@@ -14,7 +14,7 @@ ______________________________________________________________________
 
 ## 2. Assessment Process
 
-The HAS-H assessment consists of three steps:
+The collaboration mode assessment consists of three steps:
 
 1. **Risk Analysis** — What are the consequences if the system makes an error?
 1. **Decision Analysis** — Who makes the final decision?
@@ -85,7 +85,7 @@ ______________________________________________________________________
 
 ## 6. Recording
 
-The outcome of the HAS-H assessment is recorded in:
+The outcome of the collaboration mode assessment is recorded in:
 
 1. **Project Charter** — Section 'Collaboration Mode': record the chosen mode and the rationale.
 1. **Hard Boundaries** — Define the boundaries appropriate to the chosen mode.

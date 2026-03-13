@@ -83,3 +83,9 @@ ______________________________________________________________________
 - [EU AI Act compliance](../07-compliance-hub/01-eu-ai-act/index.md)
 
 **See also:** [Phase 5 Overview](01-doelstellingen.md) · [Deliverables](03-afleveringen.md)
+
+______________________________________________________________________
+
+**Next step:** Set drift thresholds and schedule the first quarterly review (Gate 4).
+→ Use the [Gate 4 Checklist](../09-sjablonen/04-gate-reviews/checklist.md) as your starting point.
+→ See also: [Continuous Improvement](../10-doorlopende-verbetering/index.md) | [Evidence Standards](../01-ai-native-fundamenten/07-bewijsstandaarden.md)

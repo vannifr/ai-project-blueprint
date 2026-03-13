@@ -78,3 +78,20 @@ Volg de week-voor-week planning in sectie 1 hierboven.
 - Onafhankelijke Guardian review bij elke Gate
 - Kwantitatieve Fairness audit (bias audit) met mitigatieplan
 - 100% input/output logging met 12 maanden retentie
+
+______________________________________________________________________
+
+## Versneld Traject (Fast Lane)
+
+Voor systemen met **Minimaal Risico** kan de 13-weken roadmap worden ingekort tot **6–8 weken**:
+
+| Week | Fast Lane activiteit                                             |
+| :--- | :--------------------------------------------------------------- |
+| 1–2  | Project Charter + Risk Pre-Scan (geen uitgebreide business case) |
+| 3–4  | Prototype + snelle PoV (minimale Golden Set: 20 testcases)       |
+| 5–6  | Validatie + directe livegang (Gate 1 + Gate 3 gecombineerd)      |
+| 7–8  | Monitoring opzetten + eerste driftmeting                         |
+
+> **Criteria voor Fast Lane:** Minimaal Risico, Modus 1–2, geen persoonsgegevens, interne gebruikers only.
+
+______________________________________________________________________

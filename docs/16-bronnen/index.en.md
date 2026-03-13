@@ -80,3 +80,44 @@ The following sources provide additional context and interpretation, but do not 
 
 - MayerBrown — EU AI Act analysis and commentary
 - Other secondary interpretation only after review by Guardian
+
+______________________________________________________________________
+
+## Practical References
+
+### EU AI Act — Article Level
+
+| Reference           | Content                                                                  | Relevant for                      |
+| :------------------ | :----------------------------------------------------------------------- | :-------------------------------- |
+| EU AI Act Annex III | Classification of high-risk AI systems (14 categories)                   | Risk classification, Gate 1       |
+| EU AI Act Art. 9    | Risk management system — mandatory for high-risk systems                 | Compliance Hub, Phase 1–3         |
+| EU AI Act Art. 13   | Transparency requirements — logging, explainability                      | Operations, Mode 3–4              |
+| EU AI Act Art. 17   | Quality management system — procedures and documentation                 | Governance Model, Gate 3          |
+| EU AI Act Art. 61   | Post-market monitoring — mandatory drift and incident reporting          | Phase 5, Operations               |
+| EU AI Act Art. 72   | Incident reporting to national supervisory authority (serious incidents) | Compliance Hub, Incident Response |
+
+### Data Governance & Privacy
+
+| Reference                                    | Content                                                 | Relevant for                       |
+| :------------------------------------------- | :------------------------------------------------------ | :--------------------------------- |
+| ISO/IEC 27701:2019                           | Privacy Information Management — extension to ISO 27001 | Privacy-by-Design, Guardian Review |
+| EDPB Guidelines 02/2022                      | GDPR application to LLM systems (ChatGPT and similar)   | Compliance Hub, Phase 1            |
+| NIST Privacy Framework v1.0                  | Framework for privacy risk management                   | Risk Pre-Scan, Phase 1             |
+| DPIA Model (Dutch Data Protection Authority) | Dutch-language DPIA model for high-risk processing      | Phase 2, Guardian Review           |
+
+### MLOps & Monitoring
+
+| Reference                               | Content                                                     | Relevant for                     |
+| :-------------------------------------- | :---------------------------------------------------------- | :------------------------------- |
+| Google MLOps Whitepaper (2021)          | MLOps maturity model: levels 0, 1, 2                        | Technical Standards, Phase 5     |
+| Microsoft MLOps Maturity Model          | Practical framework for CI/CD in ML systems                 | Technical Standards              |
+| OECD AI Principles (2019, revised 2024) | Five principles for responsible AI (including monitoring)   | Governance Model, Compliance Hub |
+| NIST AI RMF 1.0 (2023)                  | AI Risk Management Framework — Govern, Map, Measure, Manage | Risk Pre-Scan, Gate Reviews      |
+
+### Sustainability
+
+| Reference                            | Content                                                     | Relevant for                           |
+| :----------------------------------- | :---------------------------------------------------------- | :------------------------------------- |
+| Green Software Foundation — SCI Spec | Software Carbon Intensity — CO₂ per software unit           | Green AI, Business Case                |
+| IEA Energy & AI Report (2024)        | Energy consumption of AI data centres worldwide             | Business Case, Environmental footprint |
+| EU Green Deal Digital Strategy       | European sustainability goals for the digital sector (2030) | Governance Model, Operations           |

@@ -1,6 +1,6 @@
 ---
 versie: '1.0'
-description: 'HAS-H AI-samenwerkingsmodi: vier niveaus van mens-AI autonomie — van Mensgeleid tot Gedelegeerd — met besliscriteria voor de juiste modus per taak en risicoprofiel.'
+description: 'AI-Samenwerkingsmodi: vijf niveaus van mens-AI autonomie — van Instrumenteel tot Autonoom — met besliscriteria voor de juiste modus per taak en risicoprofiel.'
 ---
 
 # 1. AI-Samenwerkingsmodi

@@ -14,6 +14,9 @@ ______________________________________________________________________
 
 !!! check "Gate 1 (Go/No-Go Ontdekking): Van Verkenning naar Validatie"
 
+**Samenwerkingsmodus:** \[Modus X — naam invullen\]
+**Bewijsvereisten voor deze modus:** → Zie [Bewijsstandaarden](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+
 - [ ] **Doeldefinitie** is vastgelegd.
 - [ ] **Data-Evaluatie** is positief (Score Groen/Oranje).
 - [ ] **Samenwerkingsmodus** is gekozen.
@@ -21,11 +24,17 @@ ______________________________________________________________________
 
 !!! check "Gate 2 (Investering PoV): Van Validatie naar Realisatie"
 
+**Samenwerkingsmodus:** \[Modus X — naam invullen\]
+**Bewijsvereisten voor deze modus:** → Zie [Bewijsstandaarden](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+
 - [ ] **Proof of Value (PoV)** is succesvol afgerond (>90% score).
 - [ ] **Het Kostenoverzicht** is goedgekeurd.
 - [ ] **Rode Lijnen** zijn gedefinieerd door the Guardian.
 
 !!! check "Gate 3 (Productie-klaar): Van Realisatie naar Levering"
+
+**Samenwerkingsmodus:** \[Modus X — naam invullen\]
+**Bewijsvereisten voor deze modus:** → Zie [Bewijsstandaarden](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 
 - [ ] **Validatierapport** is beschikbaar en goedgekeurd.
 - [ ] **Prompts** zijn geversioneerd en gedocumenteerd.
@@ -35,6 +44,9 @@ ______________________________________________________________________
     - [ ] Het toezicht‑ en escalatiepad is duidelijk beschreven.
 
 !!! check "Gate 4 (Livegang): Ingebruikname & Beheer"
+
+**Samenwerkingsmodus:** \[Modus X — naam invullen\]
+**Bewijsvereisten voor deze modus:** → Zie [Bewijsstandaarden](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 
 - [ ] Monitoring op **Drift** is actief.
 - [ ] Incident procedure is bekend.

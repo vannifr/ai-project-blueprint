@@ -19,7 +19,7 @@ In this first sprint we create space and insight. We stop what is not working an
 1. **Audit of running initiatives:** Which AI projects are running? Which deliver nothing? -> *Action: Kill/Pause decision*.
 1. **Cost analysis:** Collect invoices from SaaS and Cloud. Where is money leaking?
 1. **Quick Win Workshop:** Identify processes that can be immediately improved with standard tools (Copilot, ChatGPT) — no development needed.
-1. **Capability Scan:** Do we have the people and data for our ambitions? ([HAS H Assessment](../00-strategisch-kader/06-has-h-niveaus.md)).
+1. **Capability Scan:** Do we have the people and data for our ambitions? ([Collaboration Mode Assessment](../00-strategisch-kader/06-has-h-niveaus.md)).
 
 ## 3. Deliverables (Day 30)
 

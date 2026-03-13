@@ -2,7 +2,7 @@
 versie: '1.0'
 ---
 
-# 5. HAS-H Beoordeling
+# 5. Moduskeuze Beoordeling
 
 ## 1. Doelstelling
 
@@ -14,7 +14,7 @@ ______________________________________________________________________
 
 ## 2. Beoordelingsproces
 
-De HAS-H beoordeling bestaat uit drie stappen:
+De moduskeuze beoordeling bestaat uit drie stappen:
 
 1. **Risicoanalyse** — Wat zijn de gevolgen als het systeem een fout maakt?
 1. **Beslisanalyse** — Wie neemt de uiteindelijke beslissing?
@@ -85,7 +85,7 @@ ______________________________________________________________________
 
 ## 6. Vastlegging
 
-De uitkomst van de HAS-H beoordeling wordt vastgelegd in:
+De uitkomst van de moduskeuze beoordeling wordt vastgelegd in:
 
 1. **Project Charter** — Sectie 'Samenwerkingsmodus': noteer de gekozen modus en de motivatie.
 1. **Rode Lijnen** — Definieer de grenzen die passen bij de gekozen modus.

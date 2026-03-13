@@ -33,7 +33,7 @@ ______________________________________________________________________
 
 *Focus: AI-Native discipline en volwassenheidsniveaus.*
 
-### \[x\] Module 00.06: Samenwerkingsmodi (HAS H Niveaus)
+### \[x\] Module 00.06: Samenwerkingsmodi
 
 - [x] **Waarom:** Biedt context voor project maturity en AI-integratie niveaus.
 - [x] **Output:** Module 00.06 (Samenwerkingsmodi 1-5).

@@ -114,6 +114,8 @@ Geen livegang zonder:
 
 ______________________________________________________________________
 
+______________________________________________________________________
+
 ## 8. Agentic AI & Constitutional AI
 
 Wanneer AI-systemen autonoom acties uitvoeren (Modus 4 & 5), verschuift de focus naar **Constitutional AI**:
@@ -122,3 +124,9 @@ Wanneer AI-systemen autonoom acties uitvoeren (Modus 4 & 5), verschuift de focus
 - **Rode-Lijnen-bewaking:** Real-time monitoring die acties blokkeert als deze de **Rode Lijnen** dreigen te overschrijden.
 
 Wanneer een AI‑systeem handelingen kan uitvoeren in andere systemen, wordt expliciet vastgelegd welke systemen en functies toegankelijk zijn, onder welke voorwaarden dit mag plaatsvinden en hoe toegang direct kan worden beperkt of ingetrokken bij afwijkingen of incidenten.
+
+______________________________________________________________________
+
+**Volgende stap:** Bepaal de risicoklasse van uw systeem en kies het bijbehorende compliance-pad.
+→ Gebruik de [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md) als startpunt.
+→ Zie ook: [Risicoclassificatie](../01-ai-native-fundamenten/05-risicoclassificatie.md) | [Besluitvormingsmatrix](../08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.md)

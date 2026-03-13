@@ -15,15 +15,15 @@ ______________________________________________________________________
 
 ## Phase 1 — Discovery & Strategy
 
-| Core Activity                               | AI PM | Tech Lead | Data Scientist | Guardian | CAIO | Data Engineer | Adoption Mgr |
-| :------------------------------------------ | :---: | :-------: | :------------: | :------: | :--: | :-----------: | :----------: |
-| Use case selection & prioritisation         |   A   |     C     |       C        |    C     |  I   |       —       |      —       |
-| Stakeholder interviews & problem definition |   R   |     C     |       —        |    I     |  I   |       —       |      C       |
-| HAS-H assessment (autonomy level)           |   R   |     C     |       —        |    C     |  I   |       —       |      —       |
-| Risk Pre-Scan                               |   R   |     C     |       C        |    A     |  I   |       —       |      —       |
-| Objective Card (goal card) creation         |   A   |     C     |       —        |    R     |  I   |       —       |      —       |
-| Define Hard Boundaries                      |   R   |     C     |       —        |    A     |  I   |       —       |      —       |
-| Fast Lane decision                          |   A   |     R     |       —        |    C     |  C   |       —       |      —       |
+| Core Activity                                  | AI PM | Tech Lead | Data Scientist | Guardian | CAIO | Data Engineer | Adoption Mgr |
+| :--------------------------------------------- | :---: | :-------: | :------------: | :------: | :--: | :-----------: | :----------: |
+| Use case selection & prioritisation            |   A   |     C     |       C        |    C     |  I   |       —       |      —       |
+| Stakeholder interviews & problem definition    |   R   |     C     |       —        |    I     |  I   |       —       |      C       |
+| Collaboration mode assessment (autonomy level) |   R   |     C     |       —        |    C     |  I   |       —       |      —       |
+| Risk Pre-Scan                                  |   R   |     C     |       C        |    A     |  I   |       —       |      —       |
+| Objective Card (goal card) creation            |   A   |     C     |       —        |    R     |  I   |       —       |      —       |
+| Define Hard Boundaries                         |   R   |     C     |       —        |    A     |  I   |       —       |      —       |
+| Fast Lane decision                             |   A   |     R     |       —        |    C     |  C   |       —       |      —       |
 
 ______________________________________________________________________
 

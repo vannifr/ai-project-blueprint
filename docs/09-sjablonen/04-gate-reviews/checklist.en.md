@@ -14,6 +14,9 @@ ______________________________________________________________________
 
 !!! check "Gate 1 (Go/No-Go Discovery): From Discovery to Validation"
 
+**Collaboration mode:** \[Mode X — fill in name\]
+**Evidence requirements for this mode:** → See [Evidence Standards](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+
 - [ ] **Objective Definition** is recorded.
 - [ ] **Data Evaluation** is positive (Score Green/Orange).
 - [ ] **Collaboration Mode** is chosen.
@@ -21,11 +24,17 @@ ______________________________________________________________________
 
 !!! check "Gate 2 (Validation Pilot Investment): From Validation to Development"
 
+**Collaboration mode:** \[Mode X — fill in name\]
+**Evidence requirements for this mode:** → See [Evidence Standards](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+
 - [ ] **Validation Pilot** has been completed successfully (>90% score).
 - [ ] **The Cost Overview** has been approved.
 - [ ] **Hard Boundaries** are defined by the Guardian.
 
 !!! check "Gate 3 (Production-Ready): From Development to Delivery"
+
+**Collaboration mode:** \[Mode X — fill in name\]
+**Evidence requirements for this mode:** → See [Evidence Standards](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 
 - [ ] **Validation Report** is available and approved.
 - [ ] **System Prompts** are versioned and documented.
@@ -35,6 +44,9 @@ ______________________________________________________________________
     - [ ] The oversight and escalation path is clearly described.
 
 !!! check "Gate 4 (Go-Live): Deployment & Management"
+
+**Collaboration mode:** \[Mode X — fill in name\]
+**Evidence requirements for this mode:** → See [Evidence Standards](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 
 - [ ] Monitoring on **Performance Degradation** is active.
 - [ ] Incident procedure is known.

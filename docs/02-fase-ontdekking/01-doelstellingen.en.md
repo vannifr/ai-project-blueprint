@@ -23,6 +23,9 @@ Before this phase starts, the following conditions must be met:
 - The problem cannot be trivially solved with existing tools or processes.
 - There is willingness to share data and processes for analysis.
 
+!!! info "Case study"
+    See [Case Studies — Example 1: Internal Knowledge Bot](../17-bijlagen/praktijkvoorbeelden.en.md) for a worked example of the Discovery phase in practice.
+
 ______________________________________________________________________
 
 ## 3. Related Modules
@@ -39,6 +42,6 @@ ______________________________________________________________________
 - [Activities](02-activiteiten.md)
 - [Deliverables](03-afleveringen.md)
 - [Fast Lane](06-fast-lane.md)
-- [HAS-H Assessment](05-has-h-beoordeling.md)
+- [Collaboration Mode Assessment](05-has-h-beoordeling.md)
 
 **Next step:** [➡ Phase 2: Validation](../03-fase-validatie/01-doelstellingen.md)

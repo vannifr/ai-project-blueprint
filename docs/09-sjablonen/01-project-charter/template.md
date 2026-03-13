@@ -44,6 +44,16 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
+### Samenwerkingsmodus
+
+| Beoogde modus          | Motivatie                   | Validatie-intensiteit                                                         |
+| :--------------------- | :-------------------------- | :---------------------------------------------------------------------------- |
+| Modus \[X\] — \[naam\] | \[Waarom past deze modus?\] | → [Bewijsstandaarden](../../01-ai-native-fundamenten/07-bewijsstandaarden.md) |
+
+> Voer de [Moduskeuze Beoordeling](../../02-fase-ontdekking/05-has-h-beoordeling.md) uit om de juiste modus te bepalen. Modus 4 en 5 vereisen expliciete goedkeuring van de Guardian.
+
+______________________________________________________________________
+
 ### Strategische Fit & Data
 
 *Waarom nu en is het haalbaar?*

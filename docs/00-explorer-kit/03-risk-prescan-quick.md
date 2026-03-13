@@ -128,5 +128,5 @@ ______________________________________________________________________
 - [Volledige Risico Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)
 - [EU AI Act Overzicht](../07-compliance-hub/01-eu-ai-act/index.md)
 - [Risicoclassificatie Framework](../01-ai-native-fundamenten/05-risicoclassificatie.md)
-- [AI-Samenwerkingsmodi (HAS-H)](../00-strategisch-kader/06-has-h-niveaus.md)
+- [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
 - [Privacy & Data Blad](../09-sjablonen/11-privacy-data/privacyblad.md)

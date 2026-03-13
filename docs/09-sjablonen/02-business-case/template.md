@@ -40,3 +40,20 @@ ______________________________________________________________________
 - **Terugverdientijd:** \[Maanden tot break-even\].
 
 ______________________________________________________________________
+
+## Ecologische Voetafdruk
+
+> **Verplicht veld** voor alle systemen met continue inferentie of schaalbare uitrol.
+
+| Aspect                        | Schatting / Toelichting                                  |
+| :---------------------------- | :------------------------------------------------------- |
+| Inferentie-intensiteit        | \[Laag / Middel / Hoog — aantal calls/dag + model-type\] |
+| CO₂-schatting inferentie      | \[kg CO₂eq/maand — gebruik provider dashboard of tool\]  |
+| Trainingskosten (indien nvt.) | \[Niet van toepassing / kg CO₂eq eenmalig\]              |
+| Vergelijking met baseline     | \[Huidig proces vs. AI-systeem — netto impact\]          |
+| Optimalisatiemaatregelen      | \[Bijv. model-quantisatie, batch-inferentie, caching\]   |
+
+!!! info "Richtlijn Green AI"
+    Raadpleeg de [Green AI-standaard](../../08-technische-standaarden/index.md) voor rekentools en drempelwaarden. Bij systemen met >1.000 calls/dag is een gedetailleerde berekening verplicht.
+
+______________________________________________________________________

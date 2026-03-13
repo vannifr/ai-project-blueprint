@@ -23,6 +23,9 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Het probleem is niet triviaal oplosbaar met bestaande tools of processen.
 - Er is bereidheid om data en processen te delen voor analyse.
 
+!!! info "Praktijkvoorbeeld"
+    Zie [Praktijkvoorbeelden — Voorbeeld 1: Interne Kennisbot](../17-bijlagen/praktijkvoorbeelden.md) voor een uitgewerkt voorbeeld van een Verkenningsfase in de praktijk.
+
 ______________________________________________________________________
 
 ## 3. Gerelateerde Modules
@@ -39,6 +42,6 @@ ______________________________________________________________________
 - [Activiteiten](02-activiteiten.md)
 - [Afleveringen](03-afleveringen.md)
 - [Fast Lane (Snelle Route)](06-fast-lane.md)
-- [HAS-H Beoordeling](05-has-h-beoordeling.md)
+- [Moduskeuze Beoordeling](05-has-h-beoordeling.md)
 
 **Volgende stap:** [➡ Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)

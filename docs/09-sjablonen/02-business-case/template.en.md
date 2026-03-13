@@ -40,3 +40,20 @@ ______________________________________________________________________
 - **Payback period:** \[Months to break-even\].
 
 ______________________________________________________________________
+
+## Environmental Footprint
+
+> **Mandatory field** for all systems with continuous inference or scalable rollout.
+
+| Aspect                         | Estimate / Notes                                      |
+| :----------------------------- | :---------------------------------------------------- |
+| Inference intensity            | \[Low / Medium / High — calls/day + model type\]      |
+| CO₂ estimate (inference)       | \[kg CO₂eq/month — use provider dashboard or tool\]   |
+| Training costs (if applicable) | \[Not applicable / kg CO₂eq one-time\]                |
+| Comparison with baseline       | \[Current process vs. AI system — net impact\]        |
+| Optimisation measures          | \[E.g. model quantisation, batch inference, caching\] |
+
+!!! info "Green AI Guideline"
+    Refer to the [Green AI standard](../../08-technische-standaarden/index.md) for calculation tools and thresholds. For systems with >1,000 calls/day, a detailed calculation is required.
+
+______________________________________________________________________

@@ -56,30 +56,30 @@ ______________________________________________________________________
 
 ### 4.1 Section Overview
 
-| Section                  | Directory                                  | Layer | Contains                                    |
-| ------------------------ | ------------------------------------------ | ----- | ------------------------------------------- |
-| Navigator                | `docs/00-navigator/`                       | 1     | Interactive wizard — NO new modules         |
-| Explorer Kit             | `docs/00-explorer-kit/`                    | 2     | Accelerated onboarding for Explorers        |
-| Strategic Framework      | `docs/00-strategisch-kader/`               | 1     | Lifecycle, governance, roles, methodology   |
-| AI-Native Foundations    | `docs/01-ai-native-fundamenten/`           | 1     | Normative principles, validation model, SDD |
-| Phase 1 — Discovery      | `docs/02-fase-ontdekking/`                 | 2     | Discovery activities, HAS-H, Fast Lane      |
-| Phase 2 — Validation     | `docs/03-fase-validatie/`                  | 2     | PoV, risk assessment, business case         |
-| Phase 3 — Development    | `docs/04-fase-ontwikkeling/`               | 2     | Development, SDD, testing                   |
-| Phase 4 — Delivery       | `docs/05-fase-levering/`                   | 2     | Deployment, traceability, handover          |
-| Phase 5 — Monitoring     | `docs/06-fase-monitoring/`                 | 2     | Drift, monitoring, optimisation             |
-| Continuous Improvement   | `docs/10-doorlopende-verbetering/`         | 2     | Retrospective, Kaizen, KPI                  |
-| Project Closure          | `docs/11-project-afsluiting/`              | 2     | Lessons learned, decommissioning            |
-| Compliance Hub           | `docs/07-compliance-hub/`                  | 3     | EU AI Act, Red Teaming, Safety Checklist    |
-| Technical Standards      | `docs/08-technische-standaarden/`          | 3     | MLOps, architecture, costs, Green AI        |
-| Roles & Responsibilities | `docs/08-rollen-en-verantwoordelijkheden/` | 1     | Role definitions, RACI                      |
-| Toolkit & Templates      | `docs/09-sjablonen/`                       | 3     | All fillable templates                      |
-| 90-Day Roadmap           | `docs/12-90-dagen-roadmap/`                | 2     | Week-by-week execution guide                |
-| Organisation Profiles    | `docs/13-organisatieprofielen/`            | 1     | Explorer / Builder / Visionary              |
-| Three Tracks             | `docs/14-drie-tracks/`                     | 1     | Transformation directions                   |
-| Accelerators             | `docs/15-accelerators/`                    | 2     | Fast-start tools per track                  |
-| Sources                  | `docs/16-bronnen/`                         | 3     | Bibliography `[so-XX]`                      |
-| Appendices               | `docs/17-bijlagen/`                        | 3     | External research integration               |
-| Glossary                 | `docs/termenlijst/`                        | 3     | Central terminology                         |
+| Section                  | Directory                                  | Layer | Contains                                             |
+| ------------------------ | ------------------------------------------ | ----- | ---------------------------------------------------- |
+| Navigator                | `docs/00-navigator/`                       | 1     | Interactive wizard — NO new modules                  |
+| Explorer Kit             | `docs/00-explorer-kit/`                    | 2     | Accelerated onboarding for Explorers                 |
+| Strategic Framework      | `docs/00-strategisch-kader/`               | 1     | Lifecycle, governance, roles, methodology            |
+| AI-Native Foundations    | `docs/01-ai-native-fundamenten/`           | 1     | Normative principles, validation model, SDD          |
+| Phase 1 — Discovery      | `docs/02-fase-ontdekking/`                 | 2     | Discovery activities, Collaboration Modes, Fast Lane |
+| Phase 2 — Validation     | `docs/03-fase-validatie/`                  | 2     | PoV, risk assessment, business case                  |
+| Phase 3 — Development    | `docs/04-fase-ontwikkeling/`               | 2     | Development, SDD, testing                            |
+| Phase 4 — Delivery       | `docs/05-fase-levering/`                   | 2     | Deployment, traceability, handover                   |
+| Phase 5 — Monitoring     | `docs/06-fase-monitoring/`                 | 2     | Drift, monitoring, optimisation                      |
+| Continuous Improvement   | `docs/10-doorlopende-verbetering/`         | 2     | Retrospective, Kaizen, KPI                           |
+| Project Closure          | `docs/11-project-afsluiting/`              | 2     | Lessons learned, decommissioning                     |
+| Compliance Hub           | `docs/07-compliance-hub/`                  | 3     | EU AI Act, Red Teaming, Safety Checklist             |
+| Technical Standards      | `docs/08-technische-standaarden/`          | 3     | MLOps, architecture, costs, Green AI                 |
+| Roles & Responsibilities | `docs/08-rollen-en-verantwoordelijkheden/` | 1     | Role definitions, RACI                               |
+| Toolkit & Templates      | `docs/09-sjablonen/`                       | 3     | All fillable templates                               |
+| 90-Day Roadmap           | `docs/12-90-dagen-roadmap/`                | 2     | Week-by-week execution guide                         |
+| Organisation Profiles    | `docs/13-organisatieprofielen/`            | 1     | Explorer / Builder / Visionary                       |
+| Three Tracks             | `docs/14-drie-tracks/`                     | 1     | Transformation directions                            |
+| Accelerators             | `docs/15-accelerators/`                    | 2     | Fast-start tools per track                           |
+| Sources                  | `docs/16-bronnen/`                         | 3     | Bibliography `[so-XX]`                               |
+| Appendices               | `docs/17-bijlagen/`                        | 3     | External research integration                        |
+| Glossary                 | `docs/termenlijst/`                        | 3     | Central terminology                                  |
 
 ### 4.2 Decision Tree for New Content
 

@@ -56,30 +56,30 @@ ______________________________________________________________________
 
 ### 4.1 Sectie-overzicht
 
-| Sectie                         | Map                                        | Laag | Bevat                                       |
-| ------------------------------ | ------------------------------------------ | ---- | ------------------------------------------- |
-| Navigator                      | `docs/00-navigator/`                       | 1    | Interactieve wizard — GEEN nieuwe modules   |
-| Explorer Kit                   | `docs/00-explorer-kit/`                    | 2    | Versneld instappad voor Verkenners          |
-| Strategisch Kader              | `docs/00-strategisch-kader/`               | 1    | Lifecycle, governance, rollen, methodologie |
-| AI-Native Fundamenten          | `docs/01-ai-native-fundamenten/`           | 1    | Normatieve principes, validatiemodel, SDD   |
-| Fase 1 — Verkenning            | `docs/02-fase-ontdekking/`                 | 2    | Discovery-activiteiten, HAS-H, Fast Lane    |
-| Fase 2 — Validatie             | `docs/03-fase-validatie/`                  | 2    | PoV, risicotoets, business case             |
-| Fase 3 — Realisatie            | `docs/04-fase-ontwikkeling/`               | 2    | Development, SDD, test                      |
-| Fase 4 — Levering              | `docs/05-fase-levering/`                   | 2    | Deployment, traceerbaarheid, overdracht     |
-| Fase 5 — Beheer                | `docs/06-fase-monitoring/`                 | 2    | Drift, monitoring, optimalisatie            |
-| Doorlopende Verbetering        | `docs/10-doorlopende-verbetering/`         | 2    | Retrospective, Kaizen, KPI                  |
-| Project Afsluiting             | `docs/11-project-afsluiting/`              | 2    | Lessons learned, decommissioning            |
-| Compliance Hub                 | `docs/07-compliance-hub/`                  | 3    | EU AI Act, Red Teaming, Safety Checklist    |
-| Technische Standaarden         | `docs/08-technische-standaarden/`          | 3    | MLOps, architectuur, kosten, Green AI       |
-| Rollen & Verantwoordelijkheden | `docs/08-rollen-en-verantwoordelijkheden/` | 1    | Roldefinities, RACI                         |
-| Toolkit & Sjablonen            | `docs/09-sjablonen/`                       | 3    | Alle invulbare sjablonen                    |
-| 90-Dagen Roadmap               | `docs/12-90-dagen-roadmap/`                | 2    | Week-voor-week uitvoergids                  |
-| Organisatieprofielen           | `docs/13-organisatieprofielen/`            | 1    | Verkenner / Bouwer / Visionair              |
-| Drie Tracks                    | `docs/14-drie-tracks/`                     | 1    | Transformatierichtingen                     |
-| Accelerators                   | `docs/15-accelerators/`                    | 2    | Snelstarttools per track                    |
-| Bronnen                        | `docs/16-bronnen/`                         | 3    | Bibliografie `[so-XX]`                      |
-| Bijlagen                       | `docs/17-bijlagen/`                        | 3    | Externe onderzoeksintegratie                |
-| Termenlijst                    | `docs/termenlijst/`                        | 3    | Centraal glossarium                         |
+| Sectie                         | Map                                        | Laag | Bevat                                                |
+| ------------------------------ | ------------------------------------------ | ---- | ---------------------------------------------------- |
+| Navigator                      | `docs/00-navigator/`                       | 1    | Interactieve wizard — GEEN nieuwe modules            |
+| Explorer Kit                   | `docs/00-explorer-kit/`                    | 2    | Versneld instappad voor Verkenners                   |
+| Strategisch Kader              | `docs/00-strategisch-kader/`               | 1    | Lifecycle, governance, rollen, methodologie          |
+| AI-Native Fundamenten          | `docs/01-ai-native-fundamenten/`           | 1    | Normatieve principes, validatiemodel, SDD            |
+| Fase 1 — Verkenning            | `docs/02-fase-ontdekking/`                 | 2    | Discovery-activiteiten, Samenwerkingsmodi, Fast Lane |
+| Fase 2 — Validatie             | `docs/03-fase-validatie/`                  | 2    | PoV, risicotoets, business case                      |
+| Fase 3 — Realisatie            | `docs/04-fase-ontwikkeling/`               | 2    | Development, SDD, test                               |
+| Fase 4 — Levering              | `docs/05-fase-levering/`                   | 2    | Deployment, traceerbaarheid, overdracht              |
+| Fase 5 — Beheer                | `docs/06-fase-monitoring/`                 | 2    | Drift, monitoring, optimalisatie                     |
+| Doorlopende Verbetering        | `docs/10-doorlopende-verbetering/`         | 2    | Retrospective, Kaizen, KPI                           |
+| Project Afsluiting             | `docs/11-project-afsluiting/`              | 2    | Lessons learned, decommissioning                     |
+| Compliance Hub                 | `docs/07-compliance-hub/`                  | 3    | EU AI Act, Red Teaming, Safety Checklist             |
+| Technische Standaarden         | `docs/08-technische-standaarden/`          | 3    | MLOps, architectuur, kosten, Green AI                |
+| Rollen & Verantwoordelijkheden | `docs/08-rollen-en-verantwoordelijkheden/` | 1    | Roldefinities, RACI                                  |
+| Toolkit & Sjablonen            | `docs/09-sjablonen/`                       | 3    | Alle invulbare sjablonen                             |
+| 90-Dagen Roadmap               | `docs/12-90-dagen-roadmap/`                | 2    | Week-voor-week uitvoergids                           |
+| Organisatieprofielen           | `docs/13-organisatieprofielen/`            | 1    | Verkenner / Bouwer / Visionair                       |
+| Drie Tracks                    | `docs/14-drie-tracks/`                     | 1    | Transformatierichtingen                              |
+| Accelerators                   | `docs/15-accelerators/`                    | 2    | Snelstarttools per track                             |
+| Bronnen                        | `docs/16-bronnen/`                         | 3    | Bibliografie `[so-XX]`                               |
+| Bijlagen                       | `docs/17-bijlagen/`                        | 3    | Externe onderzoeksintegratie                         |
+| Termenlijst                    | `docs/termenlijst/`                        | 3    | Centraal glossarium                                  |
 
 ### 4.2 Beslisboom voor nieuwe content
 

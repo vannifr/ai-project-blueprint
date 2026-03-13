@@ -109,6 +109,7 @@ plugins:
             "Organisatorische Heruitvinding": "Organisational Reinvention"
             "Methodologie": "Methodology"
             "De AI Levenscyclus": "The AI Lifecycle"
+            "AI-Levenscyclus — Snelle Referentie": "AI Lifecycle — Quick Reference"
             "Hybride (Agile-AI)": "Hybrid (Agile-AI)"
             "Agile Antipatronen": "Agile Anti-patterns"
             "Project Initiatie": "Project Initiation"
@@ -119,7 +120,7 @@ plugins:
             "Activiteiten": "Activities"
             "Afleveringen": "Deliverables"
             "Fast Lane (Snelle Route)": "Fast Lane"
-            "HAS-H Beoordeling": "HAS-H Assessment"
+            "Moduskeuze Beoordeling": "Collaboration Mode Assessment"
             "2. Validatie (PoV)": "2. Validation (PoV)"
             "Risicotoets": "Risk Assessment"
             "3. Realisatie": "3. Development"
@@ -192,6 +193,8 @@ plugins:
             "Feedback": "Feedback"
             "Guardian Review Checklist": "Guardian Review Checklist"
             "RACI Matrix": "RACI Matrix"
+            "Besluitvormingsmatrix": "Decision Authority Matrix"
+            "Praktijkvoorbeelden": "Case Studies"
             "RAG Design Canvas": "RAG Design Canvas"
   - search:
       lang: [nl, en]
@@ -249,11 +252,13 @@ nav:
       - Governance Model: 00-strategisch-kader/03-governance-model.md
       - Rollen & Verantwoordelijkheden: 08-rollen-en-verantwoordelijkheden/index.md
       - RACI Matrix: 08-rollen-en-verantwoordelijkheden/02-raci-matrix.md
+      - Besluitvormingsmatrix: 08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.md
       - Risicoclassificatie: 01-ai-native-fundamenten/05-risicoclassificatie.md
       - AI-Samenwerkingsmodi: 00-strategisch-kader/06-has-h-niveaus.md
       - Organisatorische Heruitvinding: 00-strategisch-kader/07-organisatorische-heruitvinding.md
     - Methodologie:
       - De AI Levenscyclus: 00-strategisch-kader/01-ai-levenscyclus.md
+      - AI-Levenscyclus — Snelle Referentie: 00-strategisch-kader/00-levenscyclus-referentie.md
       - Hybride (Agile-AI): 00-strategisch-kader/02-hybride-methodologie.md
       - Agile Antipatronen: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
       - Project Initiatie: 00-strategisch-kader/05-project-initiatie.md
@@ -264,7 +269,7 @@ nav:
       - Activiteiten: 02-fase-ontdekking/02-activiteiten.md
       - Afleveringen: 02-fase-ontdekking/03-afleveringen.md
       - Fast Lane (Snelle Route): 02-fase-ontdekking/06-fast-lane.md
-      - HAS-H Beoordeling: 02-fase-ontdekking/05-has-h-beoordeling.md
+      - Moduskeuze Beoordeling: 02-fase-ontdekking/05-has-h-beoordeling.md
     - 2. Validatie (PoV):
       - Overzicht: 03-fase-validatie/01-doelstellingen.md
       - Activiteiten: 03-fase-validatie/02-activiteiten.md
@@ -384,3 +389,4 @@ nav:
     - Changelog: release-notes.md
     - Feedback: feedback.md
     - Externe Evidence (DORA): 17-bijlagen/externe-evidence-dora.md
+    - Praktijkvoorbeelden: 17-bijlagen/praktijkvoorbeelden.md

@@ -40,3 +40,11 @@ ______________________________________________________________________
 - **Procedureel:** \[Bijv. De Guardian voert steekproeven uit\].
 
 ______________________________________________________________________
+
+### Duurzaamheidstrigger
+
+- [ ] **Schaaltrigger:** Vereist het systeem continue inferentie op grote schaal (>1.000 calls/dag)?
+    - Ja → verwijs naar [Green AI-standaard](../../08-technische-standaarden/index.md) en vul het Ecologische Voetafdruk-veld in de Business Case verplicht in.
+    - Nee → geen aanvullende actie vereist.
+
+______________________________________________________________________

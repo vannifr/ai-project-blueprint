@@ -40,3 +40,11 @@ ______________________________________________________________________
 - **Procedural:** \[E.g. The Guardian performs spot checks\].
 
 ______________________________________________________________________
+
+### Sustainability trigger
+
+- [ ] **Scale trigger:** Does the system require continuous large-scale inference (>1,000 calls/day)?
+    - Yes → refer to the [Green AI standard](../../08-technische-standaarden/index.md) and complete the Environmental Footprint field in the Business Case as mandatory.
+    - No → no further action required.
+
+______________________________________________________________________

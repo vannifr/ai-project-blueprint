@@ -94,3 +94,9 @@ ______________________________________________________________________
 - [SDD Pattern](05-sdd-patroon.md)
 
 **See also:** [Phase 3 Overview](01-doelstellingen.md) · [Deliverables](03-afleveringen.md)
+
+______________________________________________________________________
+
+**Next step:** Start the SDD cycle: write the spec, derive the Golden Set, build and validate.
+→ Use the [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md) as your starting point.
+→ See also: [SDD Pattern](05-sdd-patroon.md) | [Validation Report](../09-sjablonen/07-validatie-bewijs/validatierapport.md)

@@ -80,3 +80,44 @@ De volgende bronnen bieden aanvullende context en interpretatie, maar gelden nie
 
 - MayerBrown — EU AI Act analysis and commentary
 - Overige secundaire duiding enkel na review door Guardian
+
+______________________________________________________________________
+
+## Praktische Referenties
+
+### EU AI Act — Artikelniveau
+
+| Referentie            | Inhoud                                                                | Relevant voor                     |
+| :-------------------- | :-------------------------------------------------------------------- | :-------------------------------- |
+| EU AI Act Bijlage III | Classificatie van hoog-risico AI-systemen (14 categorieën)            | Risicoclassificatie, Gate 1       |
+| EU AI Act Art. 9      | Risk management system — verplicht voor hoog-risico systemen          | Compliance Hub, Fase 1–3          |
+| EU AI Act Art. 13     | Transparantievereisten — logboek, uitlegbaarheid                      | Beheer, Modus 3–4                 |
+| EU AI Act Art. 17     | Quality management system — procedures en documentatie                | Governance Model, Gate 3          |
+| EU AI Act Art. 61     | Post-market monitoring — verplichte drift- en incidentrapportage      | Fase 5, Beheer                    |
+| EU AI Act Art. 72     | Incidentrapportage aan nationale toezichthouder (ernstige incidenten) | Compliance Hub, Incident Response |
+
+### Data Governance & Privacy
+
+| Referentie                               | Inhoud                                                    | Relevant voor                      |
+| :--------------------------------------- | :-------------------------------------------------------- | :--------------------------------- |
+| ISO/IEC 27701:2019                       | Privacy Information Management — uitbreiding op ISO 27001 | Privacy-by-Design, Guardian Review |
+| EDPB Guidelines 02/2022                  | AVG-toepassing op LLM-systemen (ChatGPT en vergelijkbaar) | Compliance Hub, Fase 1             |
+| NIST Privacy Framework v1.0              | Raamwerk voor privacyrisicobeheer                         | Risk Pre-Scan, Fase 1              |
+| DPIA Model (Autoriteit Persoonsgegevens) | Nederlandstalig DPIA-model voor hoog-risico verwerkingen  | Fase 2, Guardian Review            |
+
+### MLOps & Monitoring
+
+| Referentie                              | Inhoud                                                      | Relevant voor                    |
+| :-------------------------------------- | :---------------------------------------------------------- | :------------------------------- |
+| Google MLOps Whitepaper (2021)          | MLOps volwassenheidsmodel: niveaus 0, 1, 2                  | Technische Standaarden, Fase 5   |
+| Microsoft MLOps Maturity Model          | Praktisch raamwerk voor CI/CD in ML-systemen                | Technische Standaarden           |
+| OECD AI Principles (2019, herzien 2024) | Vijf principes voor verantwoorde AI (inclusief monitoring)  | Governance Model, Compliance Hub |
+| NIST AI RMF 1.0 (2023)                  | AI Risk Management Framework — Govern, Map, Measure, Manage | Risk Pre-Scan, Gate Reviews      |
+
+### Duurzaamheid
+
+| Referentie                           | Inhoud                                                   | Relevant voor                         |
+| :----------------------------------- | :------------------------------------------------------- | :------------------------------------ |
+| Green Software Foundation — SCI Spec | Software Carbon Intensity — CO₂ per softwareeenheid      | Green AI, Business Case               |
+| IEA Energy & AI Report (2024)        | Energieverbruik van AI-datacenters wereldwijd            | Business Case, Ecologische voetafdruk |
+| EU Green Deal Digital Strategy       | Europese duurzaamheidsdoelen voor digitale sector (2030) | Governance Model, Beheer              |

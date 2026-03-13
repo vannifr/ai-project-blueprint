@@ -3,9 +3,9 @@ versie: '1.0'
 pdf: false
 ---
 
-# Cheatsheet — AI Collaboration Modes (HAS-H)
+# Cheatsheet — AI Collaboration Modes
 
-**Source:** [HAS-H Levels](../../00-strategisch-kader/06-has-h-niveaus.md)
+**Source:** [Collaboration Modes](../../00-strategisch-kader/06-has-h-niveaus.md)
 
 ______________________________________________________________________
 
@@ -59,4 +59,4 @@ ______________________________________________________________________
 | 4    | Mandatory               | Alert-based        | Required                   |
 | 5    | Mandatory + audit trail | Periodic (monthly) | Required + recertification |
 
-**Source:** [HAS-H Levels](../../00-strategisch-kader/06-has-h-niveaus.md) | [AI Safety Checklist](../../07-compliance-hub/08-ai-safety-checklist.md)
+**Source:** [Collaboration Modes](../../00-strategisch-kader/06-has-h-niveaus.md) | [AI Safety Checklist](../../07-compliance-hub/08-ai-safety-checklist.md)

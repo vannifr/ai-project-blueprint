@@ -19,6 +19,9 @@ Before this phase starts, the following conditions must be met:
 - A test set is available with representative examples.
 - The team has access to the required tools and data.
 
+!!! info "Case study"
+    See [Case Studies — Example 2: Customer Service Automation](../17-bijlagen/praktijkvoorbeelden.en.md) for a worked example of the Validation phase in practice.
+
 ______________________________________________________________________
 
 ## 3. Related Modules

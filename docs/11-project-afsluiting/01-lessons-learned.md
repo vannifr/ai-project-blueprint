@@ -38,7 +38,7 @@ Organiseer één gestructureerde afsluitsessie van 3 tot 4 uur met het volledige
 - Was de Golden Set representatief genoeg? Wat zouden we anders samenstellen?
 - Hoe effectief was de Guardian-rol in de praktijk?
 - Welke Rode Lijnen bleken achteraf te eng of te ruim geformuleerd?
-- Waren de gekozen Samenwerkingsmodi (HAS-H) correct ingeschat?
+- Waren de gekozen Samenwerkingsmodi correct ingeschat?
 
 ### Documentatie en verspreiding
 

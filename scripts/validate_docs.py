@@ -277,6 +277,43 @@ def check_terminology(filepath: str, content: List[str]) -> List[ValidationError
     return errors
 
 
+def check_cta_blocks(filepath: str, content: str) -> list[str]:
+    """Warn if a Layer 2 module file lacks a CTA block."""
+    warnings = []
+    layer2_patterns = [
+        '/02-fase-', '/03-fase-', '/04-fase-', '/05-fase-', '/06-fase-',
+        '/10-doorlopende-', '/11-project-', '/12-90-dagen-'
+    ]
+    is_layer2 = any(p in filepath for p in layer2_patterns)
+    if is_layer2 and filepath.endswith('.md') and not filepath.endswith('.en.md'):
+        if '**Volgende stap:**' not in content and '**Next step:**' not in content:
+            warnings.append(f"WARN [v2.3-CTA] Missing CTA block ('Volgende stap:') in: {filepath}")
+    return warnings
+
+
+def check_collaboration_mode_in_gates(filepath: str, content: str) -> list[str]:
+    """Warn if a gate review file lacks a Collaboration Mode field."""
+    warnings = []
+    if '08-gate-reviews' in filepath and filepath.endswith('.md'):
+        if 'Samenwerkingsmodus' not in content and 'Collaboration mode' not in content:
+            warnings.append(f"WARN [v2.3-MODE] Gate file missing 'Samenwerkingsmodus' field: {filepath}")
+    return warnings
+
+
+def check_no_lifecycle_redundancy(filepath: str, content: str) -> list[str]:
+    """Warn if a phase module re-explains the full lifecycle."""
+    warnings = []
+    phase_patterns = ['/02-fase-', '/03-fase-', '/04-fase-', '/05-fase-', '/06-fase-']
+    is_phase = any(p in filepath for p in phase_patterns)
+    if is_phase and filepath.endswith('.md'):
+        redundancy_markers = ['bestaat uit 5 fasen', 'vijf fasen zijn', 'five phases are', 'bestaat uit vijf fasen']
+        for marker in redundancy_markers:
+            if marker in content.lower():
+                warnings.append(f"WARN [v2.3-REDUNDANCY] Possible lifecycle re-explanation in: {filepath}")
+                break
+    return warnings
+
+
 def check_heading_hierarchy(filepath: str, content: List[str]) -> List[ValidationError]:
     """Detect skipped heading levels (e.g. H1 → H3 without H2).
 
@@ -403,6 +440,15 @@ def validate_file(filepath: str) -> List[ValidationError]:
     errors.extend(check_terminology(filepath, content))
     errors.extend(check_heading_hierarchy(filepath, content))
 
+    # v2.3 checks (operate on full content string)
+    content_str = ''.join(content)
+    for warning_msg in check_cta_blocks(filepath, content_str):
+        errors.append(ValidationError("WARNING", filepath, 0, warning_msg))
+    for warning_msg in check_collaboration_mode_in_gates(filepath, content_str):
+        errors.append(ValidationError("WARNING", filepath, 0, warning_msg))
+    for warning_msg in check_no_lifecycle_redundancy(filepath, content_str):
+        errors.append(ValidationError("WARNING", filepath, 0, warning_msg))
+
     return errors
 
 
@@ -469,6 +515,10 @@ def main():
             print(f"\n{severity}S ({len(errors_by_severity[severity])}):")
             for error in errors_by_severity[severity]:
                 print(f"  {error}")
+
+    # v2.3 checks summary
+    v23_warnings = [e for e in all_errors if 'v2.3-' in e.message]
+    print(f"v2.3 checks: {len(v23_warnings)} warnings")
 
     print(f"\n{'='*70}")
     print(f"Total issues: {len(all_errors)}")

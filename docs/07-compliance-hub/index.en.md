@@ -122,3 +122,13 @@ When AI systems perform actions autonomously (Mode 4 & 5), the focus shifts to *
 - **Hard Boundary Monitoring:** Real-time monitoring that blocks actions if they risk crossing the **Hard Boundaries**.
 
 When an AI system can perform actions in other systems, it is explicitly documented which systems and functions are accessible, under what conditions this may occur and how access can be immediately restricted or revoked in the event of deviations or incidents.
+
+______________________________________________________________________
+
+**Next step:** Determine the risk class of your system and select the corresponding compliance path.
+→ Use the [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md) as your starting point.
+→ See also: [Risk Classification](../01-ai-native-fundamenten/05-risicoclassificatie.md) | [Decision Matrix](../08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.en.md)
+
+______________________________________________________________________
+
+**Version:** 1.0 / **Date:** 13 March 2026 / **Status:** Draft

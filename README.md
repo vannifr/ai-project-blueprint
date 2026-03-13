@@ -14,7 +14,7 @@ Deze blauwdruk (v1.0) biedt een gestandaardiseerde, modulaire aanpak om AI-proje
 ### Kernmodules
 
 - **Executive Summary (MOD-00.01):** Snelle blik op de methodiek en implementatiepaden.
-- **Strategisch Kader:** Hybride waterval/agile methodiek en governance (HAS H niveaus).
+- **Strategisch Kader:** Hybride waterval/agile methodiek en governance (Samenwerkingsmodi 1–5).
 - **Snelle Route (Fast Lane):** Versnelde procedure voor AI-experimenten met laag risico.
 - **AI-Native Fundamenten:** Doelkaarten, bewijsstandaarden en specificatie-gedreven validatie.
 - **Levenscyclus:** 5 fasen van Discovery tot Monitoring met Gate Reviews.

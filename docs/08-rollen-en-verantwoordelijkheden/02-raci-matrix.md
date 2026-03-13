@@ -19,7 +19,7 @@ ______________________________________________________________________
 | :----------------------------------------- | :---: | :-------: | :------------: | :------: | :--: | :-----------: | :----------: |
 | Use case selectie & prioritering           |   A   |     C     |       C        |    C     |  I   |       —       |      —       |
 | Stakeholder interviews & probleemdefinitie |   R   |     C     |       —        |    I     |  I   |       —       |      C       |
-| HAS-H beoordeling (autonomieniveau)        |   R   |     C     |       —        |    C     |  I   |       —       |      —       |
+| Moduskeuze beoordeling (autonomieniveau)   |   R   |     C     |       —        |    C     |  I   |       —       |      —       |
 | Risk Pre-Scan                              |   R   |     C     |       C        |    A     |  I   |       —       |      —       |
 | Doelkaart (goal card) opstellen            |   A   |     C     |       —        |    R     |  I   |       —       |      —       |
 | Rode Lijnen definiëren                     |   R   |     C     |       —        |    A     |  I   |       —       |      —       |

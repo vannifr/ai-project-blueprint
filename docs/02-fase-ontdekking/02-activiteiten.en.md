@@ -63,3 +63,9 @@ ______________________________________________________________________
 - [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 
 **See also:** [Phase 1 Overview](01-doelstellingen.md) · [Deliverables](03-afleveringen.md)
+
+______________________________________________________________________
+
+**Next step:** Complete the Goal card and run the Collaboration Mode Assessment.
+→ Use the [Project Charter](../09-sjablonen/01-project-charter/template.md) as your starting point.
+→ See also: [Collaboration Mode Assessment](05-has-h-beoordeling.md) | [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)
