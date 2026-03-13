@@ -8,7 +8,7 @@ Jouw feedback maakt de AI Project Blauwdruk beter. Laat ons weten wat er ontbree
 
 ______________________________________________________________________
 
-<form class="feedback-form" action="https://formspree.io/f/xbdzkrpn" method="POST">
+<form class="feedback-form" action="https://formspree.io/f/xpqylakk" method="POST">
 
 <div class="feedback-form__field">
     <label for="fb-page">Pagina of module</label>
