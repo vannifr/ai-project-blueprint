@@ -20,7 +20,7 @@ ______________________________________________________________________
 - **[Roles & Responsibilities](08-rollen-en-verantwoordelijkheden/index.md):** Who does what in an AI team?
 - **[Quick Start: AI Project in 90 Days](12-90-dagen-roadmap/index.md):** Go directly from strategy to action.
 - **[The Toolkit](09-sjablonen/index.md):** All templates and checklists in one place.
-- **<a href="pdf/ai-project-blauwdruk.pdf">Download full blueprint (PDF)</a>:** The complete AI Project Blueprint as a single PDF file.
+- **<a href="pdf/ai-project-blueprint.pdf">Download full blueprint (PDF)</a>:** The complete AI Project Blueprint as a single PDF file.
 
 ______________________________________________________________________
 
