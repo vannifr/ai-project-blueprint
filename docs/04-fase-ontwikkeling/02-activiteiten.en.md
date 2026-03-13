@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 ---
 
 # 1. Core Activities & Roles (Development)
@@ -18,7 +18,7 @@ Setting up pipelines that automatically clean and supply data (no more manual wo
 
 Connecting the AI to internal documents and **model fine-tuning** for optimal performance.
 
-- **Knowledge Coupling:** Connecting the AI to internal documents, FAQs, procedures.
+- **Knowledge Coupling:** Connecting the AI to internal documents, FAQs, procedures. Like this whole ai-delivery.io blueprint
 - **Prompt Engineering:** Optimising the **Steering Instructions**.
 - **Model Fine-Tuning:** Adjusting parameters for the specific use case.
 
