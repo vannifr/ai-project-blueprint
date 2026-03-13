@@ -1,16 +1,17 @@
 <div class="md-copyright">
+  {% set is_en = page and page.url and page.url.startswith('en/') %}
   {% if config.copyright %}
     <div class="md-copyright__highlight">
       {% if page and page.meta and page.meta.versie %}
-        Versie {{ page.meta.versie }} |
-        Laatst herzien: {{ page.meta.git_revision_date_localized }} |
+        {% if is_en %}Version{% else %}Versie{% endif %} {{ page.meta.versie }} |
+        {% if is_en %}Last updated{% else %}Laatst herzien{% endif %}: {{ page.meta.git_revision_date_localized }} |
       {% endif %}
       {{ config.copyright }}
     </div>
   {% endif %}
   {% if not config.extra.generator == false %}
     <div class="md-copyright__generator">
-      Gemaakt met
+      {% if is_en %}Made with{% else %}Gemaakt met{% endif %}
       <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
         Material for MkDocs
       </a>
