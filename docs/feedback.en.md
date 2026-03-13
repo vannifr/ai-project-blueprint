@@ -40,6 +40,40 @@ ______________________________________________________________________
 
 </form>
 
+<div id="feedback-thanks" style="display:none;padding:1.5rem;border-left:4px solid var(--md-primary-fg-color);background:var(--md-code-bg-color);border-radius:4px;margin-top:1rem">
+  <strong>Thank you for your feedback!</strong><br>
+  We have received your message and will incorporate it into the further development of the Blueprint.
+</div>
+
+<div id="feedback-error" style="display:none;padding:1.5rem;border-left:4px solid #c0392b;background:var(--md-code-bg-color);border-radius:4px;margin-top:1rem">
+  Something went wrong while submitting. Please try again or send an email.
+</div>
+
+<script>
+document.querySelector('.feedback-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var form = e.target;
+  var btn = form.querySelector('button[type="submit"]');
+  btn.disabled = true;
+  fetch(form.action, {
+    method: 'POST',
+    body: new FormData(form),
+    headers: { 'Accept': 'application/json' }
+  }).then(function(r) {
+    if (r.ok) {
+      form.style.display = 'none';
+      document.getElementById('feedback-thanks').style.display = 'block';
+    } else {
+      btn.disabled = false;
+      document.getElementById('feedback-error').style.display = 'block';
+    }
+  }).catch(function() {
+    btn.disabled = false;
+    document.getElementById('feedback-error').style.display = 'block';
+  });
+});
+</script>
+
 ______________________________________________________________________
 
 !!! info "Privacy"
