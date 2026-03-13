@@ -1,10 +1,35 @@
 ---
-versie: '1.4'
+versie: '1.5'
 ---
 
 # Changelog
 
 Alle significante wijzigingen aan de AI Project Blauwdruk worden hier bijgehouden, nieuwste bovenaan.
+
+______________________________________________________________________
+
+## v1.5 — 2026-03-13
+
+### Migratie naar ai-delivery.io & SEO
+
+- **Nieuwe productie-URL**: Site verhuisd naar <https://ai-delivery.io/>. Alle interne URL-referenties bijgewerkt (`site_url`, `url_nl`, `url_en`, `og_image`, sitemap).
+- **Engels als primaire taal**: Bezoekers met een niet-Nederlandstalige browser worden automatisch doorgestuurd naar `/en/`. `x-default` hreflang wijst nu naar de Engelstalige versie.
+- **robots.txt**: Sitemap-URL bijgewerkt naar `https://ai-delivery.io/sitemap.xml`.
+- **Schema.org JSON-LD**: Elke pagina bevat nu gestructureerde data (`Organization`, `WebSite`, `Article`, `BreadcrumbList`) voor rich snippets in zoekmachines.
+- **Per-pagina meta descriptions**: Unieke beschrijvingen toegevoegd aan de 20 belangrijkste pagina's in zowel NL als EN.
+- **site_name / copyright**: Primaire site-identiteit bijgewerkt naar "AI Project Blueprint" (EN); het NL-taalblok behoudt "AI Project Blauwdruk".
+
+### Stijlgids & Terminologie
+
+- **STYLE_GUIDE v2.3** (NL + EN): Terminologietabellen uitgebreid met twee nieuwe kennisdomeinen: Agentische AI (14 termen) en AI-Projectmanagement als discipline (11 termen). Plaatsingsregels voor nieuwe content toegevoegd met verwijzingen naar INFORMATION_ARCHITECTURE en AI_COPYWRITER_CONSTITUTION.
+- **INFORMATION_ARCHITECTURE.md / .en.md**: Nieuw bestand — beslisboom voor plaatsing van nieuwe content binnen de modulaire structuur.
+- **AI_COPYWRITER_CONSTITUTION.md / .en.md**: Nieuw bestand — redactionele principes, toonrichtlijnen en eindtoets voor alle nieuwe content.
+
+### Technische Backlog
+
+| #     | Onderwerp                                               | Status      |
+| :---- | :------------------------------------------------------ | :---------- |
+| TB-01 | `site_url` instellen voor canonical URL-tags en sitemap | ✅ Gesloten |
 
 ______________________________________________________________________
 

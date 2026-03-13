@@ -1,11 +1,36 @@
 ---
-versie: '1.4'
+versie: '1.5'
 pdf: false
 ---
 
 # Changelog
 
 All significant changes to the AI Project Blueprint are tracked here, most recent first.
+
+______________________________________________________________________
+
+## v1.5 — 2026-03-13
+
+### Migration to ai-delivery.io & SEO
+
+- **New production URL**: Site migrated to <https://ai-delivery.io/>. All internal URL references updated (`site_url`, `url_nl`, `url_en`, `og_image`, sitemap).
+- **English as primary language**: Visitors with a non-Dutch browser are automatically redirected to `/en/`. The `x-default` hreflang now points to the English version.
+- **robots.txt**: Sitemap URL updated to `https://ai-delivery.io/sitemap.xml`.
+- **Schema.org JSON-LD**: Every page now includes structured data (`Organization`, `WebSite`, `Article`, `BreadcrumbList`) for rich snippets in search engines.
+- **Per-page meta descriptions**: Unique descriptions added to the 20 most important pages in both NL and EN.
+- **site_name / copyright**: Primary site identity updated to "AI Project Blueprint" (EN); the NL language block retains "AI Project Blauwdruk".
+
+### Style Guide & Terminology
+
+- **STYLE_GUIDE v2.3** (NL + EN): Terminology tables extended with two new knowledge domains: Agentic AI (14 terms) and AI Project Management as a discipline (11 terms). Placement rules for new content added, referencing INFORMATION_ARCHITECTURE and AI_COPYWRITER_CONSTITUTION.
+- **INFORMATION_ARCHITECTURE.md / .en.md**: New file — decision tree for placing new content within the modular structure.
+- **AI_COPYWRITER_CONSTITUTION.md / .en.md**: New file — editorial principles, tone guidelines and final test for all new content.
+
+### Technical Backlog
+
+| #     | Topic                                             | Status    |
+| :---- | :------------------------------------------------ | :-------- |
+| TB-01 | Set `site_url` for canonical URL tags and sitemap | ✅ Closed |
 
 ______________________________________________________________________
 
