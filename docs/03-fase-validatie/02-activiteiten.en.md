@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 ---
 
 # 1. Core Activities & Roles (Validation)
@@ -56,6 +56,8 @@ A complete estimate of investment and operational costs.
 | **Stakeholders**       | **I**nformed: Receive updates on progress.                                       |
 
 ______________________________________________________________________
+
+<<!>> Depending on the project requirements while roles are required.
 
 ## 5. Related Modules
 
