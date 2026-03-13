@@ -15,6 +15,9 @@ on:
         options: [nl, en]
         default: nl
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: ci-${{ github.event_name == 'workflow_dispatch' && inputs.build_pdf == true && format('pdf-{0}', inputs.pdf_language) || 'main' }}
   cancel-in-progress: true
