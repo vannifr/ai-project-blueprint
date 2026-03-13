@@ -155,6 +155,59 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
+## Nieuwe inhoudsgebieden: uitgebreide terminologie
+
+De Blauwdruk breidt uit naar twee nieuwe kennisdomeinen: **Agentische AI** en **AI-projectmanagement als discipline**. Gebruik de onderstaande tabellen voor consistente terminologie in alle nieuwe content.
+
+### Agentische AI
+
+| ❌ Vermijd                         | ✅ Gebruik (Blauwdruk-standaard) | Toelichting                                                                                                                   |
+| ---------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| AI-agent / bot                     | **Agent**                        | Schrijf zonder lidwoord-koppeling; "de agent" is correct                                                                      |
+| Multi-agent systeem                | **Multi-agentsysteem**           | Aaneengeschreven; gebruik bij eerste vermelding: "multi-agentsysteem (meerdere samenwerkende agents)"                         |
+| Orchestrator / dirigent            | **Orchestrator**                 | Internationaal gangbaar; geen vertaling                                                                                       |
+| Tool calls / gereedschapsaanroepen | **Tool-aanroepen**               | Met koppelteken; enkelvoud: "tool-aanroep"                                                                                    |
+| Memory / geheugen                  | **Agent-geheugen**               | Specificeer altijd type bij eerste vermelding: korte-termijngeheugen (contextvenster) of lange-termijngeheugen (vectoropslag) |
+| ReAct / Reason + Act               | **ReAct-patroon**                | Met koppelteken; voeg bij eerste gebruik toe: "ReAct-patroon (redeneren en handelen in afwisselende stappen)"                 |
+| Human-in-the-loop                  | **Mens-in-de-lus**               | Alternatief: "menselijk controlepunt" bij niet-technische tekst                                                               |
+| Human-on-the-loop                  | **Mens-op-de-lus**               | Gebruik uitsluitend bij Modus 4 (Gedelegeerd) context                                                                         |
+| Agentic workflow                   | **Agentische workflow**          | Met -ische suffix; "agentisch" als bijvoeglijk naamwoord                                                                      |
+| Tool allowlist / whitelist         | **Toegestane toollijst**         | Vermijd "whitelist" — gebruik "toegestane toollijst" of "toolallowlist"                                                       |
+| Circuit breaker                    | **Noodrem**                      | Bij eerste gebruik: "noodrem (circuit breaker)"                                                                               |
+| Excessive Agency (OWASP LLM06)     | **Buitensporige autonomie**      | Bij eerste gebruik volledige OWASP-referentie opnemen                                                                         |
+| Sandboxed execution                | **Geïsoleerde uitvoering**       | Alternatief: "sandbox-uitvoering" bij technische context                                                                      |
+| Task decomposition                 | **Taakverdeling**                | Specifiek voor agentische planning; niet verwarren met werkpakketten                                                          |
+
+### AI-Projectmanagement als discipline
+
+| ❌ Vermijd             | ✅ Gebruik (Blauwdruk-standaard)             | Toelichting                                                                                                                  |
+| ---------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Onzekerheid managen    | **Productieve onzekerheid**                  | De kern van AI-PM: weten wanneer door te gaan en wanneer te stoppen                                                          |
+| Experiment mislukt     | **Experiment zonder convergerend resultaat** | Neutraler; voorkomt blame-cultuur rondom iteraties                                                                           |
+| Model werkt niet       | **Model haalt de succescriteria niet**       | Koppelt altijd terug aan de Golden Set; vermijd vage negatieve uitspraken                                                    |
+| Sprint velocity        | **Iteratiesnelheid**                         | In AI-context; koppel altijd aan experimentbudget, niet alleen aan story points                                              |
+| Stakeholder management | **Verwachtingsbeheer**                       | In AI-PM context specifieker dan generiek stakeholder management                                                             |
+| Model accuracy         | **Modelnauwkeurigheid**                      | Schrijf voluit; voeg bij eerste gebruik de gebruikte metriek toe (bijv. F1, precision@K)                                     |
+| Retraining             | **Hertraining**                              | Schrijf als één woord; bij eerste gebruik: "hertraining (het opnieuw trainen van het model op nieuwe of gecorrigeerde data)" |
+| Concept drift          | **Conceptdrift**                             | Aaneengeschreven; onderscheid van datadrift en modeldrift                                                                    |
+| Cone of uncertainty    | **Onzekerheidskegel**                        | Bij eerste gebruik: "onzekerheidskegel (de toenemende onzekerheid naarmate de planningshorizon verder weg ligt)"             |
+| Build vs. buy          | **Bouwen of inkopen**                        | Schrijf voluit in lopende tekst                                                                                              |
+| Foundation model       | **Basismodel**                               | Alternatief: gebruik "LLM" als het specifiek over taalmodellen gaat                                                          |
+
+______________________________________________________________________
+
+## Plaatsingsregels voor nieuwe content
+
+Voordat je een nieuw document aanmaakt, raadpleeg altijd:
+
+1. **[INFORMATION_ARCHITECTURE.md](INFORMATION_ARCHITECTURE.md)** — beslisboom voor waar nieuwe content thuishoort
+1. **[AI_COPYWRITER_CONSTITUTION.md](AI_COPYWRITER_CONSTITUTION.md)** — inhoudsprincipes en eindtoets
+1. **[BACKLOG.md](BACKLOG.md)** — controleer of het onderwerp al gepland staat
+
+**Stelregel:** Eén nieuw concept = één bestaand document uitbreiden. Alleen bij een echt nieuw thema dat nergens past: een nieuw bestand aanmaken.
+
+______________________________________________________________________
+
 ## Checklist voor Publicatie
 
 - [ ] Heb ik alle Engelse jargon-termen vertaald naar de Playbook-standaard?

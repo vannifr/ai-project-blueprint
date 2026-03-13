@@ -153,6 +153,59 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
+## New Content Areas: Extended Terminology
+
+The Blueprint is expanding into two new knowledge domains: **Agentic AI** and **AI project management as a discipline**. Use the tables below for consistent terminology in all new content.
+
+### Agentic AI
+
+| ❌ Avoid                       | ✅ Use (Blueprint standard) | Notes                                                                                                         |
+| ------------------------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| AI agent / bot                 | **Agent**                   | Write without qualifier; "the agent" is correct                                                               |
+| Multi-agent system             | **Multi-agent system**      | On first mention add: "multi-agent system (multiple collaborating agents)"                                    |
+| Orchestrator / conductor       | **Orchestrator**            | Internationally standard; no paraphrase needed                                                                |
+| Tool calls / function calls    | **Tool calls**              | Use consistently; singular: "tool call"                                                                       |
+| Memory                         | **Agent memory**            | Always specify type on first mention: short-term memory (context window) or long-term memory (vector storage) |
+| ReAct / Reason + Act           | **ReAct pattern**           | On first use add: "ReAct pattern (alternating reasoning and action steps)"                                    |
+| Human-in-the-loop              | **Human in the loop**       | Alternative: "human checkpoint" in non-technical text                                                         |
+| Human-on-the-loop              | **Human on the loop**       | Use only in Mode 4 (Delegated) context                                                                        |
+| Agentic workflow               | **Agentic workflow**        | Standard; "agentic" as adjective throughout                                                                   |
+| Tool allowlist / whitelist     | **Tool allowlist**          | Avoid "whitelist" — use "tool allowlist"                                                                      |
+| Circuit breaker                | **Circuit breaker**         | On first use add: "circuit breaker (automatic stop triggered by anomalous behaviour)"                         |
+| Excessive Agency (OWASP LLM06) | **Excessive agency**        | Always include full OWASP reference on first mention                                                          |
+| Sandboxed execution            | **Sandboxed execution**     | Alternative: "isolated execution" in non-technical text                                                       |
+| Task decomposition             | **Task decomposition**      | Specific to agentic planning; do not confuse with work packages                                               |
+
+### AI Project Management as a Discipline
+
+| ❌ Avoid               | ✅ Use (Blueprint standard)              | Notes                                                                                            |
+| ---------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Managing uncertainty   | **Productive uncertainty**               | The core of AI-PM: knowing when to continue and when to stop                                     |
+| Failed experiment      | **Experiment without converging result** | More neutral; avoids blame culture around iterations                                             |
+| Model doesn't work     | **Model does not meet success criteria** | Always links back to the Golden Set; avoid vague negatives                                       |
+| Sprint velocity        | **Iteration velocity**                   | In AI context; always link to experiment budget, not only story points                           |
+| Stakeholder management | **Expectation management**               | More specific in AI-PM context than generic stakeholder management                               |
+| Model accuracy         | **Model accuracy**                       | Write in full; add the metric used on first mention (e.g. F1, Precision@K)                       |
+| Retraining             | **Retraining**                           | On first use add: "retraining (re-training the model on new or corrected data)"                  |
+| Concept drift          | **Concept drift**                        | Distinguish explicitly from data drift and model drift                                           |
+| Cone of uncertainty    | **Cone of uncertainty**                  | On first use add: "cone of uncertainty (increasing uncertainty as the planning horizon extends)" |
+| Build vs. buy          | **Build or buy**                         | Write out in full in running text                                                                |
+| Foundation model       | **Foundation model**                     | Use "LLM" only when referring specifically to language models                                    |
+
+______________________________________________________________________
+
+## Placement Rules for New Content
+
+Before creating a new document, always consult:
+
+1. **[INFORMATION_ARCHITECTURE.en.md](INFORMATION_ARCHITECTURE.en.md)** — decision tree for where new content belongs
+1. **[AI_COPYWRITER_CONSTITUTION.en.md](AI_COPYWRITER_CONSTITUTION.en.md)** — content principles and final test
+1. **[BACKLOG.md](BACKLOG.md)** — check whether the topic is already planned
+
+**Rule of thumb:** One new concept = extend one existing document. Only when a genuinely new theme fits nowhere: create a new file.
+
+______________________________________________________________________
+
 ## Publication Checklist
 
 - [ ] Have I replaced all jargon terms with the Playbook standard equivalents?
