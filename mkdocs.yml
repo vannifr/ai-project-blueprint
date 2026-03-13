@@ -1,13 +1,13 @@
-site_name: AI Project Blauwdruk
-site_url: https://vannifr.ovh/ai-project-blueprint/
-site_description: Modulaire documentatie voor AI-projectmanagement (PMI-CPMAI & Agile-AI).
+site_name: AI Project Blueprint
+site_url: https://ai-delivery.io/
+site_description: Modular framework for AI project management — covering strategy, governance, compliance, and delivery (PMI-CPMAI & Agile-AI).
 site_author: AI Project Playbook Team
-copyright: '&copy; 2026 AI Project Blauwdruk. Gelicenseerd onder CC BY-NC-SA 4.0.'
+copyright: '&copy; 2026 AI Project Blueprint. Licensed under CC BY-NC-SA 4.0.'
 extra:
   noindex: false
-  url_nl: "https://vannifr.ovh/ai-project-blueprint/"
-  url_en: "https://vannifr.ovh/ai-project-blueprint/en/"
-  og_image: "https://vannifr.ovh/ai-project-blueprint/assets/images/social-card.svg"
+  url_nl: "https://ai-delivery.io/"
+  url_en: "https://ai-delivery.io/en/"
+  og_image: "https://ai-delivery.io/assets/images/social-card.svg"
 
 extra_css:
   - stylesheets/extra.css
@@ -77,6 +77,9 @@ plugins:
           default: true
           name: Nederlands
           build: true
+          site_name: AI Project Blauwdruk
+          site_description: Modulaire documentatie voor AI-projectmanagement (PMI-CPMAI & Agile-AI).
+          copyright: '&copy; 2026 AI Project Blauwdruk. Gelicenseerd onder CC BY-NC-SA 4.0.'
         - locale: en
           name: English
           build: !ENV [MKDOCS_BUILD_I18N, true]

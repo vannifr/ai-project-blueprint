@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vannifr.ovh/ai-project-blueprint/sitemap.xml
+Sitemap: https://ai-delivery.io/sitemap.xml
