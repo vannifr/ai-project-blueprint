@@ -25,8 +25,10 @@ LEGACY_OUTPUT = os.path.join(REPO_ROOT, "FULL_PLAYBOOK_EXPORT.md")
 
 # Patterns to strip
 RE_FRONTMATTER = re.compile(r"^---.*?---\s*\n?", re.DOTALL)
-RE_HTML_TAG = re.compile(r"<[^>]+>")
+RE_STYLE_BLOCK = re.compile(r"<style[^>]*>.*?</style>", re.DOTALL | re.IGNORECASE)
+RE_SCRIPT_BLOCK = re.compile(r"<script[^>]*>.*?</script>", re.DOTALL | re.IGNORECASE)
 RE_HTML_COMMENT = re.compile(r"<!--.*?-->", re.DOTALL)
+RE_HTML_TAG = re.compile(r"<[^>]+>")
 RE_BLANK_LINES = re.compile(r"\n{3,}")
 # Emoji and other non-BMP symbols (codepoints > U+FFFF are almost exclusively emoji/symbols)
 RE_EMOJI = re.compile(
@@ -78,11 +80,15 @@ def resolve_path(nav_path, lang):
 
 
 def clean_content(raw):
-    """Strip frontmatter, HTML, emoji, and collapse excess blank lines."""
+    """Strip frontmatter, HTML blocks/tags, emoji, and collapse excess blank lines."""
     text = RE_FRONTMATTER.sub("", raw)
+    text = RE_STYLE_BLOCK.sub("", text)
+    text = RE_SCRIPT_BLOCK.sub("", text)
     text = RE_HTML_COMMENT.sub("", text)
     text = RE_HTML_TAG.sub("", text)
     text = RE_EMOJI.sub("", text)
+    # Strip trailing whitespace on every line (left after HTML removal)
+    text = "\n".join(line.rstrip() for line in text.splitlines())
     text = RE_BLANK_LINES.sub("\n\n", text)
     return text.strip()
 
@@ -98,42 +104,50 @@ def export(lang, nav_files, output_path):
     site_name = "AI Project Delivery Blueprint" if lang == "en" else "AI Project Blauwdruk"
     url = "https://ai-delivery.io/en/" if lang == "en" else "https://ai-delivery.io/"
 
+    parts = [
+        f"# {site_name} — Full Export",
+        f"Source: {url}",
+        f"Generated: {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}",
+        f"Language: {lang}",
+        "License: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "",
+        "=" * 72,
+        "",
+    ]
+
+    written = 0
+    for nav_path in nav_files:
+        abs_path = resolve_path(nav_path, lang)
+        if not os.path.exists(abs_path):
+            print(f"  SKIP (not found): {nav_path}")
+            continue
+
+        with open(abs_path, "r", encoding="utf-8") as f:
+            raw = f.read()
+
+        content = clean_content(raw)
+        if not content:
+            continue
+
+        stem = os.path.splitext(os.path.basename(abs_path))[0]
+        stem = re.sub(r"\.en$", "", stem)
+        label = stem.replace("-", " ").title()
+
+        parts.append(f"## {label}")
+        parts.append(f"<!-- source: {nav_path} -->")
+        parts.append("")
+        parts.append(content)
+        parts.append("")
+        parts.append("-" * 72)
+        parts.append("")
+        written += 1
+
+    # Join and ensure exactly one trailing newline
+    output = "\n".join(parts).rstrip("\n") + "\n"
     with open(output_path, "w", encoding="utf-8") as out:
-        out.write(f"# {site_name} — Full Export\n")
-        out.write(f"Source: {url}\n")
-        out.write(f"Generated: {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}\n")
-        out.write(f"Language: {lang}\n")
-        out.write(
-            "License: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/\n"
-        )
-        out.write("\n" + "=" * 72 + "\n\n")
+        out.write(output)
 
-        written = 0
-        for nav_path in nav_files:
-            abs_path = resolve_path(nav_path, lang)
-            if not os.path.exists(abs_path):
-                print(f"  SKIP (not found): {nav_path}")
-                continue
-
-            with open(abs_path, "r", encoding="utf-8") as f:
-                raw = f.read()
-
-            content = clean_content(raw)
-            if not content:
-                continue
-
-            # Derive a human-readable section header from the file path
-            stem = os.path.splitext(os.path.basename(abs_path))[0]
-            stem = re.sub(r"\.en$", "", stem)
-            label = stem.replace("-", " ").title()
-
-            out.write(f"## {label}\n")
-            out.write(f"<!-- source: {nav_path} -->\n\n")
-            out.write(content)
-            out.write("\n\n" + "-" * 72 + "\n\n")
-            written += 1
-
-        print(f"  [{lang.upper()}] {written} pages → {output_path}")
+    print(f"  [{lang.upper()}] {written} pages → {output_path}")
 
 
 def export_legacy(nav_files):
