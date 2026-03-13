@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 ---
 
 # 1. Core Activities & Roles (Delivery)
@@ -32,7 +32,7 @@ Training users not only in the buttons, but in the new way of working.
 
 ### Compliance Dossier
 
-Completing all documentation for laws and regulations (including CE marking where required).
+Completing all documentation for laws and regulations.
 
 - **Legal Dossier:** Collecting all reports for e.g. the EU AI Act.
 - **Accountability Evidence:** Demonstrating that the **Hard Boundaries** have been maintained during the testing phase.
