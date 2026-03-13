@@ -1,0 +1,67 @@
+# AI Project Delivery Blueprint
+
+> Practical end-to-end framework for managing AI projects in organisations — covering strategy,
+> lifecycle, governance, compliance (EU AI Act), technical standards, and delivery.
+> Designed for AI Project Managers, Tech Leads, Guardians, and CAIOs.
+> Aligned with PMI-CPMAI, Agile-AI, and EU AI Act requirements.
+
+## Getting Started
+
+- [Home](https://ai-delivery.io/en/): Overview and navigation guide for the AI Project Delivery Blueprint
+- [Blueprint Navigator](https://ai-delivery.io/en/00-navigator/): Interactive wizard — find your starting point based on role and maturity (12 unique routes)
+- [Executive Summary](https://ai-delivery.io/en/00-strategisch-kader/00-executive-summary/): Management summary of the complete framework
+- [Explorer Kit — 30-Day Plan](https://ai-delivery.io/en/00-explorer-kit/): Starter programme for organisations new to AI, including scaffold code and lightweight templates
+
+## Strategic Framework
+
+- [AI Lifecycle](https://ai-delivery.io/en/00-strategisch-kader/01-ai-levenscyclus/): The end-to-end AI project lifecycle with 7 phases and gate reviews
+- [Hybrid Agile-AI Methodology](https://ai-delivery.io/en/00-strategisch-kader/02-hybride-methodologie/): Combining Agile sprints with AI-specific decision gates
+- [Governance Model](https://ai-delivery.io/en/00-strategisch-kader/03-governance-model/): Decision authority, oversight layers, and escalation paths
+- [AI Collaboration Modes (HAS-H)](https://ai-delivery.io/en/00-strategisch-kader/06-has-h-niveaus/): Human-AI interaction spectrum from full human control to full automation
+- [Roles & Responsibilities](https://ai-delivery.io/en/08-rollen-en-verantwoordelijkheden/): RACI, AI PM, Tech Lead, Context Builder, AI Security Officer, Guardian, CAIO
+- [Spec-Driven Development](https://ai-delivery.io/en/01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling/): SDD pattern for AI systems
+
+## Lifecycle Phases
+
+- [Phase 1 — Discovery & Strategy](https://ai-delivery.io/en/02-fase-ontdekking/01-doelstellingen/): Problem framing, feasibility, HAS-H assessment, fast-lane option
+- [Phase 2 — Validation (PoV)](https://ai-delivery.io/en/03-fase-validatie/01-doelstellingen/): Proof of Value, risk assessment, Gate 1 review
+- [Phase 3 — Development](https://ai-delivery.io/en/04-fase-ontwikkeling/01-doelstellingen/): Build, SDD pattern, sprint cadence, Gate 2 review
+- [Phase 4 — Delivery](https://ai-delivery.io/en/05-fase-levering/01-doelstellingen/): Go-live, traceability matrix, Gate 3 review
+- [Phase 5 — Monitoring & Optimisation](https://ai-delivery.io/en/06-fase-monitoring/01-doelstellingen/): Drift detection, performance tracking, decommissioning
+- [Phase 6 — Continuous Improvement](https://ai-delivery.io/en/10-doorlopende-verbetering/): Retrospectives, Kaizen logs, benefits realisation
+- [Phase 7 — Project Closure](https://ai-delivery.io/en/11-project-afsluiting/): Lessons learned, handover procedures, final benefits report
+
+## Compliance & Technical Standards
+
+- [Compliance Hub](https://ai-delivery.io/en/07-compliance-hub/): Overview of all compliance modules
+- [EU AI Act](https://ai-delivery.io/en/07-compliance-hub/01-eu-ai-act/): Risk classification, obligations by tier, Belgian context, AILD & revised PLD
+- [Risk Management](https://ai-delivery.io/en/07-compliance-hub/02-risicobeheer/): Risk register, mitigation strategies, residual risk acceptance
+- [Ethical Guidelines](https://ai-delivery.io/en/07-compliance-hub/03-ethische-richtlijnen/): Fairness, transparency, accountability principles
+- [Red Teaming Playbook](https://ai-delivery.io/en/07-compliance-hub/07-red-teaming/): OWASP LLM Top 10 (2025), adversarial testing, MTTD/MTTR table
+- [Technical Standards](https://ai-delivery.io/en/08-technische-standaarden/): MLOps, data pipelines, model governance, test frameworks, AI architecture
+- [Green AI & Sustainability](https://ai-delivery.io/en/08-technische-standaarden/08-green-ai/): Ecological footprint, carbon-aware AI, reduction measures per phase
+
+## Toolkit & Templates
+
+- [All Templates](https://ai-delivery.io/en/09-sjablonen/): Index of all 16+ templates with usage guidance
+- [Project Charter](https://ai-delivery.io/en/09-sjablonen/01-project-charter/template/): Full 3-page project charter template
+- [Risk Analysis](https://ai-delivery.io/en/09-sjablonen/03-risicoanalyse/template/): Risk assessment and pre-scan templates
+- [Gate Review Checklist](https://ai-delivery.io/en/09-sjablonen/04-gate-reviews/checklist/): Gate 1/2/3 criteria and sign-off requirements
+- [Objective Card (Doelkaart)](https://ai-delivery.io/en/09-sjablonen/06-ai-native-artefacten/doelkaart/): AI-native artefact for goal validation incl. Green AI section
+- [RAG Design Canvas](https://ai-delivery.io/en/09-sjablonen/16-rag-design-canvas/template/): Design template for Retrieval-Augmented Generation systems
+
+## Transformation & Growth
+
+- [90-Day Roadmap](https://ai-delivery.io/en/12-90-dagen-roadmap/): Quick-start programme: Focus → Pilot → Scale
+- [Organisation Profiles](https://ai-delivery.io/en/13-organisatieprofielen/): Explorer / Builder / Visionary maturity model with assessment
+- [Three Tracks](https://ai-delivery.io/en/14-drie-tracks/): Strategic reinvention, operational redesign, AI-first business model
+
+## Reference
+
+- [Glossary](https://ai-delivery.io/en/termenlijst/): All key AI project management terms (NL + EN, incl. Agentic AI & AI-PM discipline)
+- [Sources & Inspiration](https://ai-delivery.io/en/16-bronnen/): 50+ primary sources including EU AI Act, NIST AI RMF, OWASP LLM Top 10
+
+## Optional
+
+- [Full content EN](https://ai-delivery.io/llms-full.txt): Complete Blueprint text for AI ingestion (English, all pages concatenated)
+- [Full content NL](https://ai-delivery.io/llms-full-nl.txt): Volledige Blauwdruk voor AI-verwerking (Nederlands, alle pagina's samengevoegd)

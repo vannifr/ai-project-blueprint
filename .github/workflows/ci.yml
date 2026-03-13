@@ -69,6 +69,9 @@ jobs:
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
 
+      - name: Generate llms-full.txt exports
+        run: python3 scripts/export_playbook.py
+
       - name: Build MkDocs (Strict, NL + EN)
         run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true HTMLPROOFER_ENABLED=false mkdocs build --strict
 
