@@ -31,3 +31,9 @@ repos:
         language: system
         pass_filenames: false
         always_run: true
+      - id: validate-frontmatter
+        name: Validate frontmatter consistency
+        entry: python3 scripts/validate_frontmatter.py
+        language: system
+        pass_filenames: false
+        always_run: true

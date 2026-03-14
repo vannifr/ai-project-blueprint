@@ -27,11 +27,16 @@ def check_duplicate_parenthetical_text(filepath: str, content: List[str]) -> Lis
     errors = []
 
     for i, line in enumerate(content, 1):
+        # Skip table rows (common to have repeated short terms)
+        if line.strip().startswith('|'):
+            continue
         # Find all parenthetical text
         matches = re.findall(r'\(([^)]+)\)', line)
         if matches:
-            # Check for duplicates
+            # Check for duplicates (ignore short abbreviations)
             for text in set(matches):
+                if len(text) <= 5:
+                    continue
                 count = matches.count(text)
                 if count >= 3:  # 3 or more repetitions is suspicious
                     errors.append(ValidationError(
@@ -227,7 +232,7 @@ def check_merge_conflict_markers(filepath: str, content: List[str]) -> List[Vali
 
 # Forbidden terms from the STYLE_GUIDE lexicon.
 # Format: (regex_pattern, suggested_replacement)
-_FORBIDDEN_TERMS = [
+_FORBIDDEN_TERMS_NL = [
     (r'\bkostenplaatje\b', 'kostenoverzicht'),
     (r'\binregelen\b', 'instellen/configureren'),
     (r'\bgereedschapskist\b', 'toolkit'),
@@ -241,16 +246,32 @@ _FORBIDDEN_TERMS = [
     (r'\binference\s+costs?\b', 'gebruikskosten'),
 ]
 
+# English style guide: forbidden terms in EN content
+_FORBIDDEN_TERMS_EN = [
+    (r'\bguardrails\b', 'hard boundaries'),
+    (r'\bmodel\s+drift\b', 'performance degradation'),
+    (r'\bshadow\s+ai\b', 'AI sprawl'),
+    (r'\bproof\s+of\s+concept\b', 'validation pilot'),
+    (r'\bhyperparameter\s+tuning\b', 'model tuning'),
+    (r'\binference\s+costs?\b', 'usage costs'),
+]
+
+# Keep backward compat alias
+_FORBIDDEN_TERMS = _FORBIDDEN_TERMS_NL
+
 
 def check_terminology(filepath: str, content: List[str]) -> List[ValidationError]:
     """Flag forbidden terms from the STYLE_GUIDE lexicon (case-insensitive).
 
-    Only flags terms that are in the NL content (not inside code blocks or URLs).
+    Applies NL terms to .md files and EN terms to .en.md files.
     Skips the termenlijst (glossary) where forbidden terms are explicitly defined.
     """
     # The termenlijst is the reference that explains these terms — skip it
     if "termenlijst" in filepath:
         return []
+
+    is_en = filepath.endswith('.en.md')
+    forbidden = _FORBIDDEN_TERMS_EN if is_en else _FORBIDDEN_TERMS_NL
 
     errors = []
     in_code_block = False
@@ -266,13 +287,14 @@ def check_terminology(filepath: str, content: List[str]) -> List[ValidationError
         if stripped.startswith("    ") or stripped.startswith("---"):
             continue
 
-        for pattern, suggestion in _FORBIDDEN_TERMS:
+        for pattern, suggestion in forbidden:
             if re.search(pattern, line, re.IGNORECASE):
+                label = "Style guide" if is_en else "Stijlgids"
                 errors.append(ValidationError(
                     "WARNING",
                     filepath,
                     i,
-                    f"Stijlgids: gebruik '{suggestion}' in plaats van de gevonden term (patroon: {pattern})"
+                    f"{label}: use '{suggestion}' instead (pattern: {pattern})"
                 ))
     return errors
 
@@ -312,6 +334,202 @@ def check_no_lifecycle_redundancy(filepath: str, content: str) -> list[str]:
                 warnings.append(f"WARN [v2.3-REDUNDANCY] Possible lifecycle re-explanation in: {filepath}")
                 break
     return warnings
+
+
+def check_role_consistency(filepath: str, content: List[str]) -> List[ValidationError]:
+    """Flag inconsistent role name variants (e.g. 'AI PM' vs 'AI Product Manager')."""
+    errors = []
+    # Canonical names → forbidden abbreviations/variants
+    role_variants = {
+        r'\bAI\s+PM\b': 'AI Product Manager',
+        r'\bGuardian\s*\(Ethicist\)': 'Guardian',
+        r'\bGuardian\s*\(Ethicus\)': 'Guardian',
+    }
+    in_code_block = False
+    for i, line in enumerate(content, 1):
+        stripped = line.strip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_code_block = not in_code_block
+        if in_code_block:
+            continue
+        for pattern, canonical in role_variants.items():
+            if re.search(pattern, line):
+                errors.append(ValidationError(
+                    "INFO",
+                    filepath,
+                    i,
+                    f"Role variant: use '{canonical}' consistently (found: {pattern})"
+                ))
+    return errors
+
+
+# Regex to extract markdown links: [text](path)
+_RE_MD_LINK = re.compile(r'\[([^\]]*)\]\(([^)]+)\)')
+
+
+def check_link_integrity(filepath: str, content: List[str], docs_dir: Path) -> List[ValidationError]:
+    """Validate all internal markdown links resolve to existing files.
+
+    Also checks cross-language correctness: .en.md files should link to .en.md targets.
+    """
+    errors = []
+    file_path = Path(filepath)
+    file_dir = file_path.parent
+    is_en = filepath.endswith('.en.md')
+
+    in_code_block = False
+    for i, line in enumerate(content, 1):
+        stripped = line.strip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_code_block = not in_code_block
+        if in_code_block:
+            continue
+
+        for _text, link in _RE_MD_LINK.findall(line):
+            # Skip external links, anchors-only, mailto, images
+            if link.startswith(('http://', 'https://', '#', 'mailto:')):
+                continue
+            # Skip image references and special protocols
+            if link.startswith(('..', '.')) or not link.startswith('/'):
+                pass  # relative links — we check these
+            else:
+                continue  # absolute or special
+
+            # Strip anchor from link
+            link_path = link.split('#')[0]
+            if not link_path:
+                continue  # anchor-only link
+
+            # Resolve relative to file's directory
+            target = (file_dir / link_path).resolve()
+
+            # Check if target exists
+            # MkDocs allows directory links (e.g. ../foo/) which resolve to foo/index.md
+            target_exists = target.exists()
+            if not target_exists and link_path.endswith('/'):
+                # Try as directory with index.md
+                index_target = target / 'index.md'
+                target_exists = index_target.exists()
+            if not target_exists and not link_path.endswith('.md'):
+                # Try adding .md extension
+                target_exists = Path(str(target) + '.md').exists()
+            if not target_exists:
+                errors.append(ValidationError(
+                    "ERROR",
+                    filepath,
+                    i,
+                    f"Broken link: '{link_path}' (resolved to {target})"
+                ))
+            elif is_en and link_path.endswith('.md') and not link_path.endswith('.en.md'):
+                # EN file linking to NL file — check if .en.md version exists
+                en_target = target.parent / target.name.replace('.md', '.en.md')
+                if en_target.exists():
+                    errors.append(ValidationError(
+                        "INFO",
+                        filepath,
+                        i,
+                        f"EN file links to NL version: '{link_path}' — "
+                        f"consider using '{link_path.replace('.md', '.en.md')}'"
+                    ))
+
+    return errors
+
+
+def check_content_parity(docs_dir: Path) -> List[ValidationError]:
+    """Compare NL and EN files structurally: headings, tables, checkboxes.
+
+    Reports significant structural differences that suggest content is out of sync.
+    """
+    errors = []
+
+    for nl_file in sorted(docs_dir.rglob('*.md')):
+        if 'site' in nl_file.parts:
+            continue
+        if nl_file.name.endswith('.en.md'):
+            continue
+
+        en_file = nl_file.parent / nl_file.name.replace('.md', '.en.md')
+        if not en_file.exists():
+            continue  # Missing translation — handled by check_translation_coverage
+
+        try:
+            nl_content = nl_file.read_text(encoding='utf-8')
+            en_content = en_file.read_text(encoding='utf-8')
+        except Exception:
+            continue
+
+        rel_path = str(nl_file.relative_to(docs_dir.parent))
+
+        # Compare heading structure
+        nl_headings = re.findall(r'^(#{1,6})\s+', nl_content, re.MULTILINE)
+        en_headings = re.findall(r'^(#{1,6})\s+', en_content, re.MULTILINE)
+        if len(nl_headings) != len(en_headings):
+            errors.append(ValidationError(
+                "WARNING",
+                rel_path,
+                0,
+                f"Heading count mismatch: NL has {len(nl_headings)}, "
+                f"EN has {len(en_headings)} headings"
+            ))
+
+        # Compare table count
+        nl_tables = len(re.findall(r'^\|.*\|.*\|', nl_content, re.MULTILINE))
+        en_tables = len(re.findall(r'^\|.*\|.*\|', en_content, re.MULTILINE))
+        if abs(nl_tables - en_tables) > 2:  # Allow small differences
+            errors.append(ValidationError(
+                "WARNING",
+                rel_path,
+                0,
+                f"Table row count mismatch: NL has {nl_tables}, "
+                f"EN has {en_tables} table rows"
+            ))
+
+        # Compare checkbox count
+        nl_checkboxes = len(re.findall(r'- \[[ x]\]', nl_content))
+        en_checkboxes = len(re.findall(r'- \[[ x]\]', en_content))
+        if abs(nl_checkboxes - en_checkboxes) > 2:
+            errors.append(ValidationError(
+                "WARNING",
+                rel_path,
+                0,
+                f"Checkbox count mismatch: NL has {nl_checkboxes}, "
+                f"EN has {en_checkboxes} checkboxes"
+            ))
+
+    return errors
+
+
+def check_related_modules_section(filepath: str, content: List[str]) -> List[ValidationError]:
+    """Check that layer 2 operational files have a Related Modules section."""
+    errors = []
+    # Only check layer 2 phase files and operational modules
+    layer2_dirs = [
+        '/02-fase-', '/03-fase-', '/04-fase-', '/05-fase-', '/06-fase-',
+        '/10-doorlopende-', '/11-project-',
+    ]
+    is_layer2 = any(d in filepath for d in layer2_dirs)
+    if not is_layer2:
+        return errors
+
+    # Skip index files
+    if os.path.basename(filepath).startswith('index'):
+        return errors
+
+    content_str = ''.join(content)
+    has_related = (
+        'Gerelateerde Modules' in content_str
+        or 'Related Modules' in content_str
+        or 'Zie ook' in content_str
+        or 'See also' in content_str
+    )
+    if not has_related:
+        errors.append(ValidationError(
+            "INFO",
+            filepath,
+            0,
+            "Missing 'Related Modules' section — consider adding cross-references"
+        ))
+    return errors
 
 
 def check_heading_hierarchy(filepath: str, content: List[str]) -> List[ValidationError]:
@@ -420,7 +638,7 @@ def check_nav_completeness(docs_dir: Path) -> List[ValidationError]:
     return errors
 
 
-def validate_file(filepath: str) -> List[ValidationError]:
+def validate_file(filepath: str, docs_dir: Path = None) -> List[ValidationError]:
     """Run all per-file validation checks on a single file."""
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
@@ -439,6 +657,12 @@ def validate_file(filepath: str) -> List[ValidationError]:
     errors.extend(check_stub_pdf_exclusion(filepath, content))
     errors.extend(check_terminology(filepath, content))
     errors.extend(check_heading_hierarchy(filepath, content))
+    errors.extend(check_role_consistency(filepath, content))
+    errors.extend(check_related_modules_section(filepath, content))
+
+    # Link integrity (needs docs_dir for resolution)
+    if docs_dir is not None:
+        errors.extend(check_link_integrity(filepath, content, docs_dir))
 
     # v2.3 checks (operate on full content string)
     content_str = ''.join(content)
@@ -471,20 +695,18 @@ def main():
     all_errors = []
     files_checked = 0
 
-    # Per-file checks (skip i18n translation files — stubs are checked separately)
-    i18n_suffixes = ('.en.md',)
     # Directories excluded from all checks (internal/meta files, not content)
     excluded_dirs = {'admin'}
+
+    # Per-file checks: validate ALL markdown files (NL and EN)
     for md_file in sorted(docs_dir.rglob('*.md')):
         if 'site' in md_file.parts:
             continue
         if any(part in excluded_dirs for part in md_file.parts):
             continue
-        if md_file.name.endswith(i18n_suffixes):
-            continue
 
         files_checked += 1
-        errors = validate_file(str(md_file))
+        errors = validate_file(str(md_file), docs_dir=docs_dir)
         all_errors.extend(errors)
 
     # Global checks (cross-file)
@@ -492,6 +714,7 @@ def main():
     all_errors.extend(check_translation_coverage(
         docs_dir, languages=["en"], strict=args.strict_i18n
     ))
+    all_errors.extend(check_content_parity(docs_dir))
 
     # Print results
     print(f"\n{'='*70}")

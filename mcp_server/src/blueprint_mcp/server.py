@@ -388,8 +388,17 @@ def get_glossary() -> str:
 
 
 def main():
-    """Run the Blueprint MCP server."""
-    mcp.run()
+    """Run the Blueprint MCP server.
+
+    Transport is selected via BLUEPRINT_TRANSPORT env var:
+        - stdio (default): for Claude Desktop / Claude Code
+        - streamable-http: for web hosting (runs on host:port)
+    """
+    transport = os.environ.get("BLUEPRINT_TRANSPORT", "stdio")
+    if transport == "streamable-http":
+        mcp.settings.host = os.environ.get("BLUEPRINT_HOST", "0.0.0.0")
+        mcp.settings.port = int(os.environ.get("BLUEPRINT_PORT", "8080"))
+    mcp.run(transport=transport)
 
 
 if __name__ == "__main__":
