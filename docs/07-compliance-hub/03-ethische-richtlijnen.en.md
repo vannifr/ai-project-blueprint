@@ -31,6 +31,7 @@ It must be clear to a user when they are communicating with an AI. Decisions mad
 ### Privacy & Data Protection
 
 Strict compliance with GDPR. Data is only used for the intended purpose and in accordance with the established **Hard Boundaries**.
+Source: \[so-49\]
 
 ### Societal & Environmental Wellbeing
 

@@ -34,6 +34,7 @@ The following sources form the legal and technical backbone of this blueprint an
 | **\[so-48\]** | IEA / Datacenter Energy Reports (2025)                          | Data centre energy consumption, water usage and projections to 2030                                       | Published    |
 | **\[so-49\]** | Regulation (EU) 2016/679 — GDPR                                 | General Data Protection Regulation; directly applicable in all EU member states                           | Final        |
 | **\[so-50\]** | NIST AI 100-1 — AI Risk Management Framework (RMF) 1.0          | NIST AI RMF: framework for managing AI system risks; four core functions: Govern, Map, Measure, Manage    | Final        |
+| **\[so-51\]** | Gartner — AI in Production Survey (2024)                        | Industry benchmark: failure rates of AI projects reaching production                                      | Published    |
 
 ______________________________________________________________________
 

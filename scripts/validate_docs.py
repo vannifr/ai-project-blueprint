@@ -439,6 +439,104 @@ def check_link_integrity(filepath: str, content: List[str], docs_dir: Path) -> L
     return errors
 
 
+def check_source_citations(docs_dir: Path) -> List[ValidationError]:
+    """Validate source citations ([so-XX]) across all documentation.
+
+    Checks:
+    1. All cited [so-XX] IDs exist in the sources registry (16-bronnen/)
+    2. NL/EN pairs have matching citation sets
+    3. Consistent formatting (no zero-padded IDs like [so-01] vs [so-1])
+    """
+    errors = []
+    registry_pattern = re.compile(r'\*\*\\\[so-(\d+)\\\]\*\*')
+    cite_pattern = re.compile(r'\[so-(\d+)\]', re.IGNORECASE)
+
+    # Step 1: Build set of registered source IDs from 16-bronnen/
+    registered_ids = set()
+    for registry_file in sorted(docs_dir.glob('16-bronnen/index*.md')):
+        try:
+            text = registry_file.read_text(encoding='utf-8')
+            for m in registry_pattern.finditer(text):
+                registered_ids.add(int(m.group(1)))
+        except Exception:
+            pass
+
+    if not registered_ids:
+        errors.append(ValidationError(
+            "WARNING", "16-bronnen/", 0,
+            "No source registry found — cannot validate citations"
+        ))
+        return errors
+
+    # Step 2: Scan all docs for [so-XX] citations
+    citations_by_file = {}  # {relative_path: {(line, so_id), ...}}
+    excluded = {'16-bronnen', 'site', 'admin'}
+
+    for md_file in sorted(docs_dir.rglob('*.md')):
+        if any(part in excluded for part in md_file.parts):
+            continue
+        # Skip release notes (they describe citations, not make claims)
+        if md_file.name.startswith('release-notes'):
+            continue
+
+        try:
+            lines = md_file.read_text(encoding='utf-8').splitlines()
+        except Exception:
+            continue
+
+        rel_path = str(md_file.relative_to(docs_dir))
+        file_cites = set()
+
+        for i, line in enumerate(lines, 1):
+            for m in cite_pattern.finditer(line):
+                so_id = int(m.group(1))
+                raw_id = m.group(1)
+                file_cites.add((i, so_id))
+
+                # Check: ID exists in registry
+                if so_id not in registered_ids:
+                    errors.append(ValidationError(
+                        "ERROR", rel_path, i,
+                        f"Source citation [so-{so_id}] not found in "
+                        f"16-bronnen/ registry (registered: "
+                        f"{sorted(registered_ids)})"
+                    ))
+
+                # Check: consistent formatting (no leading zeros)
+                if raw_id != str(so_id):
+                    errors.append(ValidationError(
+                        "WARNING", rel_path, i,
+                        f"Inconsistent citation format: [so-{raw_id}] "
+                        f"should be [so-{so_id}]"
+                    ))
+
+        if file_cites:
+            citations_by_file[rel_path] = {so_id for _, so_id in file_cites}
+
+    # Step 3: Check NL/EN citation parity
+    for rel_path, nl_cites in citations_by_file.items():
+        if rel_path.endswith('.en.md'):
+            continue
+        en_path = rel_path.replace('.md', '.en.md')
+        en_cites = citations_by_file.get(en_path, set())
+
+        missing_in_en = nl_cites - en_cites
+        missing_in_nl = en_cites - nl_cites
+
+        for so_id in sorted(missing_in_en):
+            errors.append(ValidationError(
+                "WARNING", en_path or rel_path, 0,
+                f"EN file missing citation [so-{so_id}] that NL has"
+            ))
+        for so_id in sorted(missing_in_nl):
+            errors.append(ValidationError(
+                "WARNING", rel_path, 0,
+                f"NL file missing citation [so-{so_id}] that EN has"
+            ))
+
+    return errors
+
+
 def check_content_parity(docs_dir: Path) -> List[ValidationError]:
     """Compare NL and EN files structurally: headings, tables, checkboxes.
 
@@ -719,6 +817,7 @@ def main():
         docs_dir, languages=["en"], strict=args.strict_i18n
     ))
     all_errors.extend(check_content_parity(docs_dir))
+    all_errors.extend(check_source_citations(docs_dir))
 
     # Print results
     print(f"\n{'='*70}")

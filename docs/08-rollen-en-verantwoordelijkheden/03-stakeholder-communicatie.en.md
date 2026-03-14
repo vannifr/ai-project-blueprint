@@ -66,7 +66,7 @@ ______________________________________________________________________
 
 ## 4. Escalation Procedure
 
-The escalation procedure is aligned with the existing governance model, including the 48-hour cooling-off period for disagreements \[so-02\].
+The escalation procedure is aligned with the existing governance model, including the 48-hour cooling-off period for disagreements.
 
 ### Escalation levels
 

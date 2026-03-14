@@ -47,7 +47,7 @@ ______________________________________________________________________
 
 ## 4. Succescriteria
 
-Definieer meetbare criteria die aansluiten bij de Evidence Standards van de AI Project Blueprint \[so-01\].
+Definieer meetbare criteria die aansluiten bij de Evidence Standards van de AI Project Blueprint \[so-1\].
 
 | Criterium               | Metric                    | Minimumdrempel     | Streefwaarde       |
 | :---------------------- | :------------------------ | :----------------- | :----------------- |

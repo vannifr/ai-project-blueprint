@@ -66,7 +66,7 @@ ______________________________________________________________________
 
 ## 4. Escalatieprocedure
 
-De escalatieprocedure is afgestemd op het bestaande governance-model, inclusief de 48-uur cooling-off periode bij meningsverschillen \[so-02\].
+De escalatieprocedure is afgestemd op het bestaande governance-model, inclusief de 48-uur cooling-off periode bij meningsverschillen.
 
 ### Escalatieniveaus
 

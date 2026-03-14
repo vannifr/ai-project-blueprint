@@ -34,6 +34,7 @@ De volgende bronnen vormen de juridische en technische ruggengraat van deze blau
 | **\[so-48\]** | IEA / Datacenter Energy Reports (2025)                          | Energieverbruik datacenters, waterconsumptie en projecties tot 2030                                                 | Gepubliceerd |
 | **\[so-49\]** | Verordening (EU) 2016/679 — AVG/GDPR                            | Algemene Verordening Gegevensbescherming; rechtstreeks van toepassing in alle EU-lidstaten                          | Definitief   |
 | **\[so-50\]** | NIST AI 100-1 — AI Risk Management Framework (RMF) 1.0          | NIST AI RMF: raamwerk voor risicobeheer van AI-systemen; vier kernfuncties: Govern, Map, Measure, Manage            | Definitief   |
+| **\[so-51\]** | Gartner — AI in Production Survey (2024)                        | Industriebenchmark: faalpercentages van AI-projecten die productie bereiken                                         | Gepubliceerd |
 
 ______________________________________________________________________
 

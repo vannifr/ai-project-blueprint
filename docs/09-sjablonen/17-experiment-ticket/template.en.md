@@ -47,7 +47,7 @@ ______________________________________________________________________
 
 ## 4. Success Criteria
 
-Define measurable criteria aligned with the AI Project Blueprint Evidence Standards \[so-01\].
+Define measurable criteria aligned with the AI Project Blueprint Evidence Standards \[so-1\].
 
 | Criterion           | Metric                     | Minimum threshold | Target value      |
 | :------------------ | :------------------------- | :---------------- | :---------------- |

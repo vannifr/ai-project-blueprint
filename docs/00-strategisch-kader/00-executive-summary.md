@@ -10,7 +10,7 @@ roles: [Business Sponsor]
 
 ## 1. Wat is deze Blauwdruk?
 
-**70% van AI-projecten bereikt nooit productie.** Niet door technisch falen, maar door ontbrekende governance, vage doelstellingen en oncontroleerbare modellen. De AI Project Blauwdruk is gebouwd om precies dat te voorkomen: een **modulaire werkwijze** (van idee tot beheer) waarin AI wordt benaderd als **gedragssturing** — we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Prompts* en *Bewijs*.
+**70% van AI-projecten bereikt nooit productie.** \[so-51\] Niet door technisch falen, maar door ontbrekende governance, vage doelstellingen en oncontroleerbare modellen. De AI Project Blauwdruk is gebouwd om precies dat te voorkomen: een **modulaire werkwijze** (van idee tot beheer) waarin AI wordt benaderd als **gedragssturing** — we beheren niet alleen code, maar ook *Doeldefinitie*, *Rode Lijnen*, *Prompts* en *Bewijs*.
 
 De Blauwdruk is toepasbaar op zowel AI-systemen die ondersteunen (zoals advies, analyse of contentgeneratie) als op systemen die binnen vooraf vastgestelde kaders zelfstandig taken uitvoeren. Naarmate een systeem meer zelfstandigheid krijgt, gelden aanvullende eisen voor vastlegging, toezicht en bewijs, zodat menselijk eigenaarschap, controleerbaarheid en verantwoording behouden blijven.
 
