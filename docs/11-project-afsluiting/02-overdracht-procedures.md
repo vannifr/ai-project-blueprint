@@ -96,3 +96,8 @@ ______________________________________________________________________
 - [Gate Reviews Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 - [Lessons Learned](01-lessons-learned.md)
 - [Waarderealisatie (benefits realization)](03-batenrealisatie.md)
+
+______________________________________________________________________
+
+**Volgende stap:** [Meet de definitieve baten via Waarderealisatie](03-batenrealisatie.md)
+→ Zie ook: [Overdracht Checklist](../05-fase-levering/04-sjablonen/overdracht-checklist.md)

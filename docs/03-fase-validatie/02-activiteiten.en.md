@@ -57,8 +57,6 @@ A complete estimate of investment and operational costs.
 
 ______________________________________________________________________
 
-\<\<!>> Depending on the project requirements while roles are required.
-
 ## 5. Related Modules
 
 **Templates:**

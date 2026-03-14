@@ -97,3 +97,8 @@ ______________________________________________________________________
 - [Benefits Realisation](03-batenrealisatie.md)
 - [Gate Reviews Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 - [Retrospectives](../10-doorlopende-verbetering/01-retrospectives.md)
+
+______________________________________________________________________
+
+**Next step:** [Prepare the formal handover via Handover Procedures](02-overdracht-procedures.md)
+→ See also: [Retrospectives](../10-doorlopende-verbetering/01-retrospectives.md)

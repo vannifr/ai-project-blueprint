@@ -10,7 +10,7 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
 
 ## 1. Doelstellingen
 
-- **Proof of Value (PoV):** Bewijs dat de gekozen gebruikscasus werkt in de praktijk.
+- **Validatiepilot (PoV):** Bewijs dat de gekozen gebruikscasus werkt in de praktijk.
 - **Proces Redesign:** Pas het werkproces aan. AI toevoegen aan een slecht proces maakt het alleen maar sneller slecht.
 - **Eerste winst:** Realiseer meetbare besparing of omzetgroei.
 
@@ -29,3 +29,8 @@ We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen
 - [ ] Aangepaste procesbeschrijving (SOPs).
 - [ ] Eerste resultatenrapportage (bijv. "30% tijdwinst op taak X").
 - [ ] Go/No-Go besluit voor opschaling.
+
+______________________________________________________________________
+
+**Volgende stap:** [Ga naar Fase 3 — Codificeer & Schaal (Dagen 61-90)](03-fase-3-codificeer-schaal.md)
+→ Zie ook: [Validatie fase](../03-fase-validatie/01-doelstellingen.md)

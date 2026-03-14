@@ -35,7 +35,7 @@ ______________________________________________________________________
 ### De AI Levenscyclus (Fase Modules)
 
 1. **[Verkenning & Strategie](02-fase-ontdekking/01-doelstellingen.md):** Het probleem doorgronden.
-1. **[Validatie](03-fase-validatie/01-doelstellingen.md):** Bewijzen dat het werkt (**Proof of Value (PoV)**).
+1. **[Validatie](03-fase-validatie/01-doelstellingen.md):** Bewijzen dat het werkt (**Validatiepilot**).
 1. **[Realisatie](04-fase-ontwikkeling/01-doelstellingen.md):** De oplossing bouwen (**Specificatie-eerst**).
 1. **[Levering](05-fase-levering/01-doelstellingen.md):** Veilige **Ingebruikname**.
 1. **[Beheer & Optimalisatie](06-fase-monitoring/01-doelstellingen.md):** Waarde behouden (**Drift**).

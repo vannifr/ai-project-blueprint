@@ -97,3 +97,8 @@ ______________________________________________________________________
 - [Waarderealisatie (benefits realization)](03-batenrealisatie.md)
 - [Gate Reviews Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 - [Retrospectives](../10-doorlopende-verbetering/01-retrospectives.md)
+
+______________________________________________________________________
+
+**Volgende stap:** [Bereid de formele overdracht voor via Overdracht Procedures](02-overdracht-procedures.md)
+→ Zie ook: [Retrospectives](../10-doorlopende-verbetering/01-retrospectives.md)

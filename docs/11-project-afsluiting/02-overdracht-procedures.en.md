@@ -96,3 +96,8 @@ ______________________________________________________________________
 - [Gate Reviews Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 - [Lessons Learned](01-lessons-learned.md)
 - [Benefits Realisation](03-batenrealisatie.md)
+
+______________________________________________________________________
+
+**Next step:** [Measure definitive benefits via Benefits Realisation](03-batenrealisatie.md)
+→ See also: [Handover Checklist](../05-fase-levering/04-sjablonen/overdracht-checklist.md)

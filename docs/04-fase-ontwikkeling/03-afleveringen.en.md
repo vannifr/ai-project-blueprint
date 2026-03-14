@@ -31,3 +31,8 @@ The results of the Development phase for a safe **Go-live**:
 - **01.07 Evidence Standards:** [Module](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - **09.06 Validation Report:** [Template](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 - **04-01 Gate Review:** [Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
+
+______________________________________________________________________
+
+**Next step:** After Gate 3 approval, proceed to [Phase 4 — Delivery](../05-fase-levering/01-doelstellingen.md).
+→ See also: [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md)

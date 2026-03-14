@@ -23,3 +23,8 @@ Verify whether the *use case* still falls within the same category after the PoC
 - **Unacceptable Risk:** Stop the project immediately.
 - **High Risk:** Start the full conformity process (see Compliance Hub).
 - **Limited/Minimal Risk:** Continue with standard quality assurance.
+
+______________________________________________________________________
+
+**Next step:** Refine the risk profile and document it in the [Risk Analysis](../09-sjablonen/03-risicoanalyse/template.md)
+→ See also: [EU AI Act classification](../07-compliance-hub/01-eu-ai-act/index.md)

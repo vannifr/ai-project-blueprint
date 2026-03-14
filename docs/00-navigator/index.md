@@ -553,7 +553,7 @@ var BN_ROUTES = {
       ]
     },
     Builder: {
-      start: { label: 'MLOps Standaarden', url: '../08-technische-standaarden/01-mloops-standaarden/', desc: 'Production-grade monitoring, deployment en model lifecycle management' },
+      start: { label: 'MLOps Standaarden', url: '../08-technische-standaarden/01-mloops-standaarden/', desc: 'Production-grade monitoring, ingebruikname en model lifecycle management' },
       actions: [
         { label: 'Drift Detectie', url: '../06-fase-monitoring/05-drift-detectie/', desc: 'Detecteer prestatieverschuiving vroeg en geautomatiseerd' },
         { label: 'Model Governance', url: '../08-technische-standaarden/03-model-governance/', desc: 'Versiebeheer, reproducibility en audit trails voor modellen' },

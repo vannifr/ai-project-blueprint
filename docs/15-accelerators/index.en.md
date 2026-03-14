@@ -1,25 +1,33 @@
 ---
 versie: '1.0'
-description: Accelerators for rapid AI implementation per transformation track — coming soon.
+description: Accelerators for rapid AI implementation per transformation track.
 ---
 
 # Accelerators
 
-!!! info "Coming soon — expected Q2 2026"
-    The Accelerators module is under development. This section will contain practical quick-start tools per transformation track:
+Practical quick-start tools that accelerate your AI transformation. Each accelerator provides ready-to-use canvases, checklists and sprint plans — aligned to one of the three transformation tracks.
 
-    - **Strategic:** Rapid strategic reinvention for AI leaders
-    - **Operational:** Process optimisation toolkit per business function
-    - **AI-First:** Building an AI-native business model
+## Available Tracks
 
-    In the meantime:
+- **[Strategic Reinvention](01-strategische-heruitvinding-accelerators.md)** — AI Strategy Canvas, value chain analysis, scenario planning and competency roadmap
+- **[Operational Redesign](02-operationele-herontwerp-accelerators.md)** — Process Scorecard, AI process redesign, implementation sprint and adoption plan
+- **[AI-First Business Model](03-bedrijfsmodel-accelerators.md)** — AI-First Canvas, validation checklist, go-to-market plan and risk radar
 
-    - Use the [90-Day Roadmap](../12-90-dagen-roadmap/index.md) as an accelerated starting point
-    - Consult the [Organisational Profiles](../13-organisatieprofielen/index.md) for your growth profile
-    - Start with the [Explorer Kit](../00-explorer-kit/index.md) for a 30-day plan
+## How to Use
+
+1. Determine your transformation track via the [Organisation Profiles](../13-organisatieprofielen/index.md)
+1. Select the matching accelerator above
+1. Use the canvases as working documents in your sprint planning
+
+**See also:** [90-Day Roadmap](../12-90-dagen-roadmap/index.md) · [Three Tracks](../14-drie-tracks/index.md)
+
+______________________________________________________________________
+
+**Next step:** Choose the accelerator that matches your transformation track and use the canvas as starting point for your next sprint.
+→ Start with the [Organisation Profiles](../13-organisatieprofielen/index.md) if you are unsure which track fits your organisation.
 
 ______________________________________________________________________
 
 **Version:** 1.0
-**Date:** 13 March 2026
-**Status:** Under development
+**Date:** 14 March 2026
+**Status:** Final

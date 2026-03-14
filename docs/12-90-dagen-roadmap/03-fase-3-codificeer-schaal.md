@@ -29,3 +29,8 @@ Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor d
 - [ ] Operationeel en getraind team/afdeling.
 - [ ] Schaalbare technische architectuur.
 - [ ] Stappenplan voor de komende 12 maanden.
+
+______________________________________________________________________
+
+**Volgende stap:** [Bekijk de Capaciteits-uitkomsten na 90 dagen](04-capaciteits-uitkomsten.md)
+→ Zie ook: [Drie Tracks](../14-drie-tracks/index.md)

@@ -30,3 +30,8 @@ De resultaten van de Verkenningsfase voor een gefundeerde start:
 - **09-01 Project Charter:** [Sjabloon](../09-sjablonen/01-project-charter/template.md)
 - **09-02 Business Case:** [Sjabloon](../09-sjablonen/02-business-case/template.md)
 - **09-03 Risicoanalyse:** [Sjabloon](../09-sjablonen/03-risicoanalyse/template.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Na Gate 1 goedkeuring, ga naar [Fase 2 — Validatie](../03-fase-validatie/01-doelstellingen.md).
+→ Zie ook: [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md)

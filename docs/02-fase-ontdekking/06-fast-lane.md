@@ -75,3 +75,8 @@ Fast Lane stopt direct en je stapt over op standaard lifecycle als:
 - De tool extern gebruikt gaat worden met impact op klanten
 - Het datagebruik uitbreidt naar (bijzondere) persoonsgegevens
 - Er 1 Kritieke fout optreedt (Rode Lijnen geraakt)
+
+______________________________________________________________________
+
+**Volgende stap:** Als u in de Fast Lane past, start direct met [Fase 2 — Validatie](../03-fase-validatie/01-doelstellingen.md)
+→ Zie ook: [Explorer Kit](../00-explorer-kit/index.md)

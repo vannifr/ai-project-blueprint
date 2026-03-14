@@ -15,7 +15,7 @@ Het primaire doel van de Realisatiefase is het bouwen van een robuuste, producti
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
 - Gate 2 (Investering PoV) is goedgekeurd.
-- De Proof of Value (PoV) heeft aangetoond dat de oplossing werkt (>90% score).
+- De Validatiepilot (PoV) heeft aangetoond dat de oplossing werkt (>90% score).
 - Het Kostenoverzicht is positief en goedgekeurd.
 - Het ontwikkelteam is compleet en heeft toegang tot alle benodigde resources.
 

@@ -15,12 +15,12 @@ ______________________________________________________________________
 
 ### Samenstelling
 
-| Rol               | Taken                           | Vereiste onafhankelijkheid         |
-| :---------------- | :------------------------------ | :--------------------------------- |
-| **Red Team Lead** | Coördinatie, scope, eindrapport | Buiten het ontwikkelteam           |
-| **Aanvaller(s)**  | Uitvoeren van oefeningen        | Geen kennis van interne guardrails |
-| **Observer**      | Documenteert elk aanvalspad     | Aanwezig bij alle sessies          |
-| **Guardian**      | Beoordeelt bevindingen          | Onafhankelijk veto-recht           |
+| Rol               | Taken                           | Vereiste onafhankelijkheid          |
+| :---------------- | :------------------------------ | :---------------------------------- |
+| **Red Team Lead** | Coördinatie, scope, eindrapport | Buiten het ontwikkelteam            |
+| **Aanvaller(s)**  | Uitvoeren van oefeningen        | Geen kennis van interne rode lijnen |
+| **Observer**      | Documenteert elk aanvalspad     | Aanwezig bij alle sessies           |
+| **Guardian**      | Beoordeelt bevindingen          | Onafhankelijk veto-recht            |
 
 ### Scope vastleggen
 

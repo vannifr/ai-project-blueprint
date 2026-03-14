@@ -107,3 +107,8 @@ ______________________________________________________________________
 - [Project Charter Sjabloon](../09-sjablonen/01-project-charter/template.md)
 - [Validatie Model](../01-ai-native-fundamenten/04-validatie-model.md)
 - [Risicobeheer](../07-compliance-hub/02-risicobeheer/index.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Bepaal de samenwerkingsmodus en leg deze vast in het [Project Charter](../09-sjablonen/01-project-charter/template.md)
+→ Zie ook: [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)

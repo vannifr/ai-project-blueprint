@@ -95,3 +95,6 @@ For systems with **Minimal Risk**, the 13-week roadmap can be shortened to **6�
 > **Fast Lane criteria:** Minimal Risk, Mode 1–2, no personal data, internal users only.
 
 ______________________________________________________________________
+
+**Next step:** Start with [Phase 1: Set Focus & Rationalise](01-fase-1-richt-focus-rationaliseer.md)
+→ See also: [Explorer Kit](../00-explorer-kit/index.md) | [Organisation Profiles](../13-organisatieprofielen/index.md)

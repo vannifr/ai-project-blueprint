@@ -240,3 +240,8 @@ ______________________________________________________________________
 - [Beheer & Optimalisatie](01-doelstellingen.md)
 - [Incidentrespons](../07-compliance-hub/05-incidentrespons.md)
 - [Metrics Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Richt het monitoring-dashboard in en definieer drempelwaarden voor uw productie-omgeving
+→ Zie ook: [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)

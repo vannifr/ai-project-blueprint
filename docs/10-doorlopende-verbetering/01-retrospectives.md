@@ -94,3 +94,8 @@ ______________________________________________________________________
 - [Metrics & Dashboards](03-metrics-dashboards.md)
 - [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
 - [Lessons Learned](../11-project-afsluiting/01-lessons-learned.md)
+
+______________________________________________________________________
+
+**Volgende stap:** [Registreer verbeteringen in het Kaizen Log](02-kaizen-logs.md)
+→ Zie ook: [Metrics & Dashboards](03-metrics-dashboards.md)

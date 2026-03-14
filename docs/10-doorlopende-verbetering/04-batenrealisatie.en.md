@@ -116,3 +116,8 @@ ______________________________________________________________________
 - [Metrics & Dashboards](03-metrics-dashboards.md)
 - [Project Closure — Benefits Realisation](../11-project-afsluiting/03-batenrealisatie.md)
 - [Business Case template](../09-sjablonen/02-business-case/template.md)
+
+______________________________________________________________________
+
+**Next step:** [Formally close the project via Project Closure](../11-project-afsluiting/index.md)
+→ See also: [Lessons Learned](../11-project-afsluiting/01-lessons-learned.md)

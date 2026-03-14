@@ -112,7 +112,7 @@ ______________________________________________________________________
 
 ### Infrastructuur
 
-- **Netlify deployment**: Hosting overgestapt van FTP naar Netlify via GitHub Actions.
+- **Netlify livegang**: Hosting overgestapt van FTP naar Netlify via GitHub Actions.
 - **PDF-export**: PDF automatisch gegenereerd bij handmatige CI-trigger.
 - **CMS**: Decap CMS-configuratie verbeterd (bestandsnamen als weergavenaam).
 - Auto-format Markdown via CI verwijderd (mdformat niet compatibel met CMS-output).

@@ -90,3 +90,8 @@ ______________________________________________________________________
 - [Retrospectives](01-retrospectives.md)
 - [Metrics & Dashboards](03-metrics-dashboards.md)
 - [Beheer & Optimalisatie — Activiteiten](../06-fase-monitoring/02-activiteiten.md)
+
+______________________________________________________________________
+
+**Volgende stap:** [Stel KPI's en dashboards in via Metrics & Dashboards](03-metrics-dashboards.md)
+→ Zie ook: [Retrospectives](01-retrospectives.md)

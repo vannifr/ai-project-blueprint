@@ -57,13 +57,13 @@ ______________________________________________________________________
 
 ## Fase 4 — Levering
 
-| Kernactiviteit                        | AI PM | Tech Lead | Data Scientist | Guardian | CAIO | Data Engineer | Adoption Mgr |
-| :------------------------------------ | :---: | :-------: | :------------: | :------: | :--: | :-----------: | :----------: |
-| Go-live planning & coördinatie        |   A   |     R     |       —        |    C     |  I   |       C       |      C       |
-| Technische implementatie (deployment) |   C   |     A     |       —        |    —     |  —   |       R       |      —       |
-| Traceerbaarheidsrapport               |   A   |     C     |       R        |    C     |  —   |       —       |      —       |
-| Gebruikerstraining & adoptie          |   C   |     —     |       —        |    —     |  I   |       —       |      A       |
-| Overdracht aan beheerorganisatie      |   A   |     R     |       C        |    C     |  C   |       C       |      C       |
+| Kernactiviteit                      | AI PM | Tech Lead | Data Scientist | Guardian | CAIO | Data Engineer | Adoption Mgr |
+| :---------------------------------- | :---: | :-------: | :------------: | :------: | :--: | :-----------: | :----------: |
+| Go-live planning & coördinatie      |   A   |     R     |       —        |    C     |  I   |       C       |      C       |
+| Technische implementatie (livegang) |   C   |     A     |       —        |    —     |  —   |       R       |      —       |
+| Traceerbaarheidsrapport             |   A   |     C     |       R        |    C     |  —   |       —       |      —       |
+| Gebruikerstraining & adoptie        |   C   |     —     |       —        |    —     |  I   |       —       |      A       |
+| Overdracht aan beheerorganisatie    |   A   |     R     |       C        |    C     |  C   |       C       |      C       |
 
 ______________________________________________________________________
 

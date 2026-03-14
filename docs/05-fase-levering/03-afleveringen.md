@@ -30,3 +30,8 @@ De resultaten van de Levering-fase die een veilige operatie garanderen:
 - **Traceerbaarheid & Links:** [Sjabloon](../09-sjablonen/08-traceerbaarheid-links/template.md)
 - **Gate Reviews:** [Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 - **Incident Respons:** [Module](../07-compliance-hub/05-incidentrespons.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Na Gate 4 goedkeuring, ga naar [Fase 5 — Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md).
+→ Zie ook: [Overdracht Checklist](04-sjablonen/overdracht-checklist.md)

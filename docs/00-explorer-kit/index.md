@@ -92,6 +92,6 @@ ______________________________________________________________________
 - [Blueprint Navigator](../00-navigator/index.md) — Bepaal of dit pakket bij u past
 - [Organisatieprofiel: De Verkenner](../13-organisatieprofielen/01-ai-verkenner.md)
 - [Fase 1: Verkenning & Strategie](../02-fase-ontdekking/01-doelstellingen.md)
-- [Fase 2: Validatie (Proof of Value (PoV))](../03-fase-validatie/01-doelstellingen.md)
+- [Fase 2: Validatie (Validatiepilot)](../03-fase-validatie/01-doelstellingen.md)
 - [Volledige Project Charter](../09-sjablonen/01-project-charter/template.md)
 - [Volledige Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)

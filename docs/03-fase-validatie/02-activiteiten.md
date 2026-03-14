@@ -6,7 +6,7 @@ versie: '1.0'
 
 ## 1. Kernactiviteiten
 
-### Proof of Value (PoV)
+### Validatiepilot (PoV)
 
 Een kleinschalig experiment om te testen of de AI de specifieke bedrijfscontext begrijpt.
 
@@ -49,7 +49,7 @@ Een volledige raming van investering en operationele kosten.
 
 | Rol                    | Verantwoordelijkheid in Validatie                                                       |
 | :--------------------- | :-------------------------------------------------------------------------------------- |
-| **Data Scientist**     | **R**esponsible: Uitvoeren van de Proof of Value (PoV) en betrouwbaarheidstesten.       |
+| **Data Scientist**     | **R**esponsible: Uitvoeren van de Validatiepilot (PoV) en betrouwbaarheidstesten.       |
 | **AI Product Manager** | **A**ccountable: Eigenaar van de business case en ROI-berekening (Het Kostenoverzicht). |
 | **Business Sponsor**   | **C**onsulted: Valideert de testset en succescriteria.                                  |
 | **Finance**            | **C**onsulted: Controleert de kostenraming en ROI-berekening.                           |
@@ -70,6 +70,6 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-**Volgende stap:** Voer de Proof of Value uit en documenteer de resultaten in het Validatierapport.
+**Volgende stap:** Voer de Validatiepilot uit en documenteer de resultaten in het Validatierapport.
 → Gebruik het [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md) als startpunt.
 → Zie ook: [Business Case](../09-sjablonen/02-business-case/template.md) | [Gate 2 Checklist](../09-sjablonen/04-gate-reviews/checklist.md)

@@ -240,3 +240,8 @@ ______________________________________________________________________
 - [Monitoring & Optimisation](01-doelstellingen.md)
 - [Incident Response](../07-compliance-hub/05-incidentrespons.md)
 - [Metrics Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
+
+______________________________________________________________________
+
+**Next step:** Set up the monitoring dashboard and define thresholds for your production environment
+→ See also: [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)

@@ -27,7 +27,7 @@ ______________________________________________________________________
 
     Aanvullend: AI-codingassistenten vergroten pull requests gemiddeld met **154%**, wat nieuwe knelpunten in de reviewfase creëert.
 
-    **Conclusie:** meet realisatie op organisatieniveau, niet op individueel gevoel. Splits AI-gegenereerd werk op in kleinere brokken. Investeer in platformvolwassenheid en centrale sturing — louter bottom-up experimenteren leidt tot Shadow AI en inconsistentie.
+    **Conclusie:** meet realisatie op organisatieniveau, niet op individueel gevoel. Splits AI-gegenereerd werk op in kleinere brokken. Investeer in platformvolwassenheid en centrale sturing — louter bottom-up experimenteren leidt tot wildgroei en inconsistentie.
 
 Bron: \[so-46\]
 
@@ -116,3 +116,8 @@ ______________________________________________________________________
 - [Metrics & Dashboards](03-metrics-dashboards.md)
 - [Project Afsluiting — Waarderealisatie (benefits realization)](../11-project-afsluiting/03-batenrealisatie.md)
 - [Business Case sjabloon](../09-sjablonen/02-business-case/template.md)
+
+______________________________________________________________________
+
+**Volgende stap:** [Sluit het project formeel af via Project Afsluiting](../11-project-afsluiting/index.md)
+→ Zie ook: [Lessons Learned](../11-project-afsluiting/01-lessons-learned.md)

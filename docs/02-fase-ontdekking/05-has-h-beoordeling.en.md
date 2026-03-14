@@ -107,3 +107,8 @@ ______________________________________________________________________
 - [Project Charter Template](../09-sjablonen/01-project-charter/template.md)
 - [Validation Model](../01-ai-native-fundamenten/04-validatie-model.md)
 - [Risk Management](../07-compliance-hub/02-risicobeheer/index.md)
+
+______________________________________________________________________
+
+**Next step:** Determine the collaboration mode and record it in the [Project Charter](../09-sjablonen/01-project-charter/template.md)
+→ See also: [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md)

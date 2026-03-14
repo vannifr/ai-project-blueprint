@@ -95,3 +95,6 @@ Voor systemen met **Minimaal Risico** kan de 13-weken roadmap worden ingekort to
 > **Criteria voor Fast Lane:** Minimaal Risico, Modus 1–2, geen persoonsgegevens, interne gebruikers only.
 
 ______________________________________________________________________
+
+**Volgende stap:** Begin met [Fase 1: Richt Focus & Rationaliseer](01-fase-1-richt-focus-rationaliseer.md)
+→ Zie ook: [Explorer Kit](../00-explorer-kit/index.md) | [Organisatieprofielen](../13-organisatieprofielen/index.md)

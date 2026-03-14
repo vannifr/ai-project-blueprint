@@ -27,7 +27,7 @@ ______________________________________________________________________
 ### Validatie & Beheer
 
 - **[Gate Reviews](04-gate-reviews/checklist.md):** Checklists voor de harde stop/go beslismomenten.
-- **[Validatierapport](07-validatie-bewijs/validatierapport.md):** Documentatie van de resultaten van de **Proof of Value (PoV)**.
+- **[Validatierapport](07-validatie-bewijs/validatierapport.md):** Documentatie van de resultaten van de **Validatiepilot (PoV)**.
 - **[Traceerbaarheid](08-traceerbaarheid-links/template.md):** Verbinding tussen Doel Instructie Bewijs.
 
 ### Levering & Afsluiting

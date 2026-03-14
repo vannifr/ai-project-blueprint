@@ -29,3 +29,8 @@ We are going to build and test. Not in isolation, but in operations. We redesign
 - [ ] Adapted process description (SOPs).
 - [ ] First results report (e.g. "30% time saving on task X").
 - [ ] Go/No-Go decision for scaling.
+
+______________________________________________________________________
+
+**Next step:** [Proceed to Phase 3 — Codify & Scale (Days 61-90)](03-fase-3-codificeer-schaal.en.md)
+→ See also: [Validation phase](../03-fase-validatie/01-doelstellingen.en.md)

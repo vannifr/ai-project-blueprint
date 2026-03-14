@@ -27,7 +27,7 @@ ______________________________________________________________________
 **Samenwerkingsmodus:** \[Modus X — naam invullen\]
 **Bewijsvereisten voor deze modus:** → Zie [Bewijsstandaarden](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 
-- [ ] **Proof of Value (PoV)** is succesvol afgerond (>90% score).
+- [ ] **Validatiepilot (PoV)** is succesvol afgerond (>90% score).
 - [ ] **Het Kostenoverzicht** is goedgekeurd.
 - [ ] **Rode Lijnen** zijn gedefinieerd door the Guardian.
 

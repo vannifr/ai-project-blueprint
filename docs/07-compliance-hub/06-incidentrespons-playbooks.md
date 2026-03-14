@@ -8,7 +8,7 @@ Vier gedetailleerde stappenplannen voor de meest voorkomende AI-incidenten. Gebr
 
 ______________________________________________________________________
 
-## Playbook 1 — Model Drift
+## Playbook 1 — Prestatieverloop
 
 **Wanneer activeren:** kwaliteitsscores dalen structureel, gebruikersklachten nemen toe, monitoring-alerts op outputkwaliteit.
 
@@ -115,12 +115,12 @@ ______________________________________________________________________
 
 Bepaal de bron:
 
-| Bron                | Indicatie                                    | Aanpak                              |
-| :------------------ | :------------------------------------------- | :---------------------------------- |
-| **Data-bias**       | Trainingsdata oververtegenwoordigt een groep | Herbalanceren dataset + hertraining |
-| **Model-bias**      | Model versterkt bias onafhankelijk van data  | Fine-tuning of modelwissel          |
-| **Prompt-bias**     | Instructies leiden tot ongelijke behandeling | Promptherziening + testen           |
-| **Deployment-bias** | Systeem anders ingezet dan gevalideerd       | Scope aanpassen                     |
+| Bron                   | Indicatie                                    | Aanpak                              |
+| :--------------------- | :------------------------------------------- | :---------------------------------- |
+| **Data-bias**          | Trainingsdata oververtegenwoordigt een groep | Herbalanceren dataset + hertraining |
+| **Model-bias**         | Model versterkt bias onafhankelijk van data  | Fine-tuning of modelwissel          |
+| **Prompt-bias**        | Instructies leiden tot ongelijke behandeling | Promptherziening + testen           |
+| **Ingebruikname-bias** | Systeem anders ingezet dan gevalideerd       | Scope aanpassen                     |
 
 ### Stap 4 — Mitigatie & Herstel (48–168 uur)
 
@@ -156,13 +156,13 @@ Doorloop in volgorde:
 1. **Infrastructuur** — cloud provider status, servers, netwerk
 1. **Afhankelijkheden** — externe API's (LLM provider, databases)
 1. **Applicatie** — logs, memory/CPU, foutcodes
-1. **Recent gewijzigd** — laatste deployment, config-wijziging, data-update
+1. **Recent gewijzigd** — laatste livegang, config-wijziging, data-update
 
 ### Stap 3 — Herstel (2–8 uur)
 
 - [ ] Ontwikkel fix op basis van diagnose
 - [ ] Test in staging-omgeving vóór productie
-- [ ] Documenteer rollback-plan vóór deployment
+- [ ] Documenteer rollback-plan vóór livegang
 - [ ] Deploy fix met graduele uitrol (canary of blue-green indien mogelijk)
 
 ### Stap 4 — Validatie & Herstart

@@ -104,3 +104,8 @@ ______________________________________________________________________
 - [Waarderealisatie (benefits realization)](04-batenrealisatie.md)
 - [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
 - [Beheer & Optimalisatie — Activiteiten](../06-fase-monitoring/02-activiteiten.md)
+
+______________________________________________________________________
+
+**Volgende stap:** [Meet de gerealiseerde baten via Waarderealisatie](04-batenrealisatie.md)
+→ Zie ook: [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)

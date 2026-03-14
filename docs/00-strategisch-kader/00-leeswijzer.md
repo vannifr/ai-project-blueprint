@@ -27,7 +27,7 @@ Ga naar [Verkenning & Strategie](../02-fase-ontdekking/01-doelstellingen.md). Ge
 
 ### Ik wil geld of budget aanvragen
 
-Ga naar [Validatie](../03-fase-validatie/01-doelstellingen.md). Hier leert u hoe u een **Proof of Value (PoV)** opzet en **Het Kostenoverzicht** berekent.
+Ga naar [Validatie](../03-fase-validatie/01-doelstellingen.md). Hier leert u hoe u een **Validatiepilot (PoV)** opzet en **Het Kostenoverzicht** berekent.
 
 ### Ik ga bouwen of ontwikkelen
 

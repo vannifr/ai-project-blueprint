@@ -35,7 +35,7 @@ We schrijven eerst de verwachte uitkomst (de test), dan pas de implementatie. Zo
 Niet alle AI-oplossingen worden zelf gebouwd. Bij aanschaf van standaard AI-software (SaaS) verandert de focus van de Realisatie-fase:
 
 - **Van Bouwen naar Configureren:** Focus op het instellen van de juiste systeem-prompts, RAG-kennisbronnen en veiligheidsfilters binnen de leveranciersomgeving.
-- **Validatie blijft Identiek:** Ook een gekochte tool moet slagen voor de **Proof of Value (PoV)** en de **Golden Set** test voordat deze live gaat. Vertrouw niet blind op de "demo" van de leverancier.
+- **Validatie blijft Identiek:** Ook een gekochte tool moet slagen voor de **Validatiepilot (PoV)** en de **Golden Set** test voordat deze live gaat. Vertrouw niet blind op de "demo" van de leverancier.
 - **Modelkaart wordt Configuratiekaart:** Documenteer welke instellingen, plugins en data-connecties actief zijn.
 - **Vendor Lock-in Check:** Controleer of data en logs exporteerbaar zijn voor compliance (EU AI Act).
 

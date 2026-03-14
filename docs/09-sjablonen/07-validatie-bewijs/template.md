@@ -9,7 +9,7 @@ versie: '1.0'
 
 ## 1. Doel
 
-Dit sjabloon dient voor het vastleggen van de testresultaten van de **Proof of Value (PoV)**. Het vormt het objectieve bewijs dat de AI-oplossing voldoet aan de gestelde criteria en veiligheidsgrenzen.
+Dit sjabloon dient voor het vastleggen van de testresultaten van de **Validatiepilot (PoV)**. Het vormt het objectieve bewijs dat de AI-oplossing voldoet aan de gestelde criteria en veiligheidsgrenzen.
 
 ______________________________________________________________________
 

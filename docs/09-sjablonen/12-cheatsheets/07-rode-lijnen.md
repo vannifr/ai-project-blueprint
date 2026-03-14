@@ -60,4 +60,4 @@ ______________________________________________________________________
 - [ ] Guardian heeft Rode Lijnen goedgekeurd
 - [ ] Procedure bij overtreding is gedocumenteerd
 
-**Bron:** [Red Teaming Playbook](../../07-compliance-hub/07-red-teaming.md) | [Deployment Safety](../../07-compliance-hub/08-ai-safety-checklist.md)
+**Bron:** [Red Teaming Playbook](../../07-compliance-hub/07-red-teaming.md) | [Ingebruikname Safety](../../07-compliance-hub/08-ai-safety-checklist.md)

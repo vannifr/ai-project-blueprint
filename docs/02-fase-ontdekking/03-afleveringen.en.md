@@ -30,3 +30,8 @@ The results of the Discovery phase for a substantiated start:
 - **09-01 Project Charter:** [Template](../09-sjablonen/01-project-charter/template.md)
 - **09-02 Business Case:** [Template](../09-sjablonen/02-business-case/template.md)
 - **09-03 Risk Analysis:** [Template](../09-sjablonen/03-risicoanalyse/template.md)
+
+______________________________________________________________________
+
+**Next step:** After Gate 1 approval, proceed to [Phase 2 — Validation](../03-fase-validatie/01-doelstellingen.md).
+→ See also: [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md)

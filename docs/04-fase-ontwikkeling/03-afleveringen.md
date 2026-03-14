@@ -31,3 +31,8 @@ De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 - **01.07 Bewijsstandaarden:** [Module](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - **09.06 Validatierapport:** [Sjabloon](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 - **04-01 Gate Review:** [Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Na Gate 3 goedkeuring, ga naar [Fase 4 — Levering](../05-fase-levering/01-doelstellingen.md).
+→ Zie ook: [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md)

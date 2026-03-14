@@ -188,3 +188,8 @@ ______________________________________________________________________
 - [Evidence Standards](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - [Test Frameworks](../08-technische-standaarden/04-test-frameworks.md)
 - [Specification-First Method](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
+
+______________________________________________________________________
+
+**Next step:** Apply the SDD pattern in your next sprint and document specifications in the [Project Journal](../09-sjablonen/13-project-dagboek/template.md)
+→ See also: [Gate 3 Checklist](../09-sjablonen/04-gate-reviews/checklist.md)

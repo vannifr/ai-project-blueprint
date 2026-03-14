@@ -75,3 +75,8 @@ The Fast Lane stops immediately and we switch to the standard lifecycle if:
 - The tool will be used externally with impact on customers
 - Data usage expands to (special categories of) personal data
 - 1 Critical error occurs (Hard Boundaries breached)
+
+______________________________________________________________________
+
+**Next step:** If you qualify for the Fast Lane, start directly with [Phase 2 — Validation](../03-fase-validatie/01-doelstellingen.md)
+→ See also: [Explorer Kit](../00-explorer-kit/index.md)

@@ -32,3 +32,8 @@ ______________________________________________________________________
 - [Verkenning & Strategie — Overzicht](../01-doelstellingen.md)
 - [Kernactiviteiten](../02-activiteiten.md)
 - [Alle Sjablonen](../../09-sjablonen/index.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Start met het invullen van het [Project Charter](../../09-sjablonen/01-project-charter/template.md)
+→ Zie ook: [Risico Pre-Scan](../../09-sjablonen/03-risicoanalyse/pre-scan.md) | [Business Case](../../09-sjablonen/02-business-case/template.md)

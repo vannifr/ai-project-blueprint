@@ -32,3 +32,8 @@ In this phase there is no hard 'exit', but periodic reviews (e.g. quarterly). Po
 - **10-03 Metrics dashboards:** [Template](../09-sjablonen/index.md)
 - **08-01 MLOps standards:** [Link](../08-technische-standaarden/01-mloops-standaarden.md)
 - **06-05 Performance degradation detection:** [Details](05-drift-detectie.md)
+
+______________________________________________________________________
+
+**Next step:** Start the [Continuous Improvement](../10-doorlopende-verbetering/index.md) process to keep optimising the system.
+→ See also: [Performance Degradation Detection](05-drift-detectie.md)

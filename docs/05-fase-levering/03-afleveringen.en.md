@@ -30,3 +30,8 @@ The results of the Delivery phase that guarantee safe operation:
 - **Traceability & Links:** [Template](../09-sjablonen/08-traceerbaarheid-links/template.md)
 - **Gate Reviews:** [Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 - **Incident Response:** [Module](../07-compliance-hub/05-incidentrespons.md)
+
+______________________________________________________________________
+
+**Next step:** After Gate 4 approval, proceed to [Phase 5 — Operations & Optimisation](../06-fase-monitoring/01-doelstellingen.md).
+→ See also: [Operational Handover Checklist](04-sjablonen/overdracht-checklist.md)

@@ -4,7 +4,7 @@ versie: '1.0'
 
 # AI Safety Checklist
 
-Gestructureerde veiligheidschecks over vier dimensies: training, deployment, monitoring en governance. Gebruik deze checklist bij elke Gate Review voor Hoog Risico en Beperkt Risico systemen.
+Gestructureerde veiligheidschecks over vier dimensies: training, ingebruikname, monitoring en governance. Gebruik deze checklist bij elke Gate Review voor Hoog Risico en Beperkt Risico systemen.
 
 !!! tip "Risico-proportioneel gebruik"
     Minimaal Risico systemen: voer sectie 4 (Governance) uit. Beperkt Risico: sectie 2 + 4. Hoog Risico: alle vier secties verplicht.
@@ -26,7 +26,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Sectie 2 — Deployment Safety
+## Sectie 2 — Ingebruikname Safety
 
 | Check                                                                              | Status | Notitie |
 | :--------------------------------------------------------------------------------- | :----- | :------ |
@@ -109,7 +109,7 @@ Tel het aantal afgevinkte items per sectie en bereken de veiligheidsscore:
 | Sectie                          | Afgevinkt | Totaal | %   |
 | :------------------------------ | :-------- | :----- | :-- |
 | 1 — Trainings- & Dataveiligheid |           | 6      |     |
-| 2 — Deployment Safety           |           | 10     |     |
+| 2 — Ingebruikname Safety        |           | 10     |     |
 | 3 — Monitoring Safety           |           | 8      |     |
 | 4 — Governance Safety           |           | 8      |     |
 | **Totaal**                      |           | **32** |     |

@@ -74,3 +74,8 @@ ______________________________________________________________________
 - [Gate Reviews Checklist](../../09-sjablonen/04-gate-reviews/checklist.md)
 - [Lessons Learned](../../11-project-afsluiting/01-lessons-learned.md)
 - [Incident Response](../../07-compliance-hub/05-incidentrespons.md)
+
+______________________________________________________________________
+
+**Next step:** Complete this checklist together with the operations team before the formal handover
+→ See also: [Gate 4](../../09-sjablonen/04-gate-reviews/checklist.md) | [Phase 5 Monitoring](../../06-fase-monitoring/01-doelstellingen.md)

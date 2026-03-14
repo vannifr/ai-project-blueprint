@@ -23,3 +23,8 @@ Controleer of de *gebruikscasus* na de PoC nog steeds in dezelfde categorie valt
 - **Unacceptable Risk:** Stop het project onmiddellijk.
 - **High Risk:** Start het volledige conformiteitstraject (zie Compliance Hub).
 - **Limited/Minimal Risk:** Ga door met standaard kwaliteitsborging.
+
+______________________________________________________________________
+
+**Volgende stap:** Verfijn het risicoprofiel en documenteer het in de [Risicoanalyse](../09-sjablonen/03-risicoanalyse/template.md)
+→ Zie ook: [EU AI Act classificatie](../07-compliance-hub/01-eu-ai-act/index.md)

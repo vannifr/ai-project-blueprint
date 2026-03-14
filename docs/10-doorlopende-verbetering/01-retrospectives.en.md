@@ -94,3 +94,8 @@ ______________________________________________________________________
 - [Metrics & Dashboards](03-metrics-dashboards.md)
 - [Performance Degradation Detection](../06-fase-monitoring/05-drift-detectie.md)
 - [Lessons Learned](../11-project-afsluiting/01-lessons-learned.md)
+
+______________________________________________________________________
+
+**Next step:** [Record improvements in the Kaizen Log](02-kaizen-logs.md)
+→ See also: [Metrics & Dashboards](03-metrics-dashboards.md)

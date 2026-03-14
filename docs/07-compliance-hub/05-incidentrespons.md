@@ -25,7 +25,7 @@ Vier incidenttypes hebben elk een eigen stappenplan in de [Incident Playbooks](0
 
 | Type                     | Signalen                                                                 | Typisch niveau |
 | :----------------------- | :----------------------------------------------------------------------- | :------------- |
-| **Model Drift**          | Dalende kwaliteitsscores, gebruikersklachten, anomalieën in monitoring   | 🟡–🟠          |
+| **Prestatieverloop**     | Dalende kwaliteitsscores, gebruikersklachten, anomalieën in monitoring   | 🟡–🟠          |
 | **Beveiligingsincident** | Ongeautoriseerde toegang, datalekkage, abnormaal gebruik                 | 🟠–🔴          |
 | **Bias-detectie**        | Klachten over ongelijke behandeling, fairness-metrics buiten bandbreedte | 🟠–🔴          |
 | **Systeemuitval**        | Onbeschikbaarheid, time-outs, foutmeldingen op schaal                    | 🟡–🔴          |

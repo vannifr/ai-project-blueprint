@@ -38,7 +38,7 @@ ______________________________________________________________________
 
 > \[!TIP\]
 > **De Fast Lane (De Innovatie-route)**
-> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Proof of Value (PoV)**, zonder uitgebreide business case.
+> Voor projecten met een **Minimaal/Beperkt Risico** en een **Instrumentele/Adviserende modus** (Modus 1 & 2) bieden we een versnelde route. Hierbij kan na een positieve **Risico Pre-Scan** (Gate 1) direct worden gestart met een beperkte **Validatiepilot (PoV)**, zonder uitgebreide business case.
 
 ### Verkenning & Strategie
 
@@ -58,7 +58,7 @@ ______________________________________________________________________
 
 #### Kernactiviteiten
 
-- **Proof of Value (PoV) (PoV):** Kleinschalig experiment om de hypothese te testen.
+- **Validatiepilot (PoV):** Kleinschalig experiment om de hypothese te testen.
 - **Het Kostenoverzicht:** Schatten van investering versus ROI.
 - **Fairness audit (bias audit) (Bias Detectie):** Eerste scan op ongewenste vooroordelen in het model.
 

@@ -4,7 +4,7 @@ versie: '1.0'
 
 # Cloud vs. On-Premise
 
-Beslissingsraamwerk voor de keuze tussen cloud-deployment, on-premise infrastructuur of een hybride aanpak. Gebruik dit in de **Verkenning & Strategie**-fase voordat architectuurkeuzes worden vastgelegd.
+Beslissingsraamwerk voor de keuze tussen cloud-ingebruikname, on-premise infrastructuur of een hybride aanpak. Gebruik dit in de **Verkenning & Strategie**-fase voordat architectuurkeuzes worden vastgelegd.
 
 ______________________________________________________________________
 
@@ -57,7 +57,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3. Cloud Deployment
+## 3. Cloud Ingebruikname
 
 ### Aanbieders — Vergelijking
 
@@ -92,7 +92,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 4. On-Premise Deployment
+## 4. On-Premise Ingebruikname
 
 ### Infrastructuurvereisten
 

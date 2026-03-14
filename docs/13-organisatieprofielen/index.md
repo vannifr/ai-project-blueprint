@@ -39,7 +39,7 @@ Organisaties in de Verkenner-fase zijn net begonnen met AI. Er is enthousiasme e
 
 1. Kies 1-2 use cases met hoge impact en lage complexiteit
 1. Voer Data-Evaluatie uit (Toegang, Kwaliteit, Relevantie)
-1. Bouw een Proof of Value (PoV) binnen 30 dagen
+1. Bouw een Validatiepilot (PoV) binnen 30 dagen
 1. Documenteer wat je leert in een eenvoudige Blauwdruk
 
 ______________________________________________________________________

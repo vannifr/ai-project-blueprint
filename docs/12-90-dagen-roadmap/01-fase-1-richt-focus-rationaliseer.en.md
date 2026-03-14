@@ -29,3 +29,8 @@ In this first sprint we create space and insight. We stop what is not working an
 - [ ] Cost overview of current AI stack.
 - [ ] Selection of top 2 use cases for Phase 2.
 - [ ] Project team assembled for the pilot.
+
+______________________________________________________________________
+
+**Next step:** [Start Phase 2 — Redesign & Pilot (Days 31-60)](02-fase-2-herontwerp-pilot.en.md)
+→ See also: [Explorer Kit](../00-explorer-kit/index.md)

@@ -104,3 +104,8 @@ ______________________________________________________________________
 - [Benefits Realisation](04-batenrealisatie.md)
 - [Performance Degradation Detection](../06-fase-monitoring/05-drift-detectie.md)
 - [Management & Optimisation — Activities](../06-fase-monitoring/02-activiteiten.md)
+
+______________________________________________________________________
+
+**Next step:** [Measure realised benefits via Benefits Realisation](04-batenrealisatie.md)
+→ See also: [Performance Degradation Detection](../06-fase-monitoring/05-drift-detectie.md)

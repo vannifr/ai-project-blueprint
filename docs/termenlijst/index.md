@@ -74,7 +74,7 @@ ______________________________________________________________________
 
 ## 12. P
 
-- **Proof of Value (PoV):** Een kleinschalig, gecontroleerd experiment om te bewijzen dat een AI-oplossing werkt in de beoogde context (*Proof of Value / PoV*). → [Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)
+- **Validatiepilot (PoV):** Een kleinschalig, gecontroleerd experiment om te bewijzen dat een AI-oplossing werkt in de beoogde context. → [Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)
 - **Drift:** Het fenomeen waarbij de nauwkeurigheid of relevantie van een model over tijd afneemt door veranderingen in data of de wereld (*Model Drift / Data Drift*). → [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
 
 ## 13. R

@@ -29,3 +29,8 @@ In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet wer
 - [ ] Kostenoverzicht huidige AI-stack.
 - [ ] Selectie van top 2 Use Cases voor Fase 2.
 - [ ] Projectteam samengesteld voor de pilot.
+
+______________________________________________________________________
+
+**Volgende stap:** [Start Fase 2 — Herontwerp & Pilot (Dagen 31-60)](02-fase-2-herontwerp-pilot.md)
+→ Zie ook: [Explorer Kit](../00-explorer-kit/index.md)

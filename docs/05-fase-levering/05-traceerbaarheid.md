@@ -186,3 +186,8 @@ ______________________________________________________________________
 - [Traceerbaarheid Sjabloon](../09-sjablonen/08-traceerbaarheid-links/template.md)
 - [Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 - [Incidentrespons](../07-compliance-hub/05-incidentrespons.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Stel de traceerbaarheidsmatrix op en koppel deze aan de [Gate 4 Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
+→ Zie ook: [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)

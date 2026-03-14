@@ -26,7 +26,7 @@ De modules vormen de navigatiestructuur van de AI-levenscyclus.
 | **MOD-00** | [Strategisch Kader](../index.md)                                                 | Fundering, leeswijzer en samenvatting.           |
 | **MOD-01** | [AI-Native Fundamenten](../01-ai-native-fundamenten/01-definitie.md)             | De 7 normatieve criteria voor AI-projecten.      |
 | **MOD-02** | [Fase 1: Verkenning](../02-fase-ontdekking/01-doelstellingen.md)                 | Probleemdefinitie en data-evaluatie.             |
-| **MOD-03** | [Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)                   | Proof of Value (PoV) (PoV) en Business Case.     |
+| **MOD-03** | [Fase 2: Validatie](../03-fase-validatie/01-doelstellingen.md)                   | Validatiepilot (PoV) en Business Case.           |
 | **MOD-04** | [Fase 3: Realisatie](../04-fase-ontwikkeling/01-doelstellingen.md)               | Ontwikkeling via de SDD-methode.                 |
 | **MOD-05** | [Fase 4: Levering](../05-fase-levering/01-doelstellingen.md)                     | Ingebruikname en menselijk toezicht.             |
 | **MOD-06** | [Fase 5: Monitoring](../06-fase-monitoring/01-doelstellingen.md)                 | Beheer, drift-detectie en optimalisatie.         |

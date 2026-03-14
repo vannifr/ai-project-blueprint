@@ -30,3 +30,8 @@ The results of the Validation phase for a substantiated go/no-go decision:
 - **09.06 Validation Report:** [Template](../09-sjablonen/07-validatie-bewijs/validatierapport.md)
 - **01.07 Evidence Standards:** [Module](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - **09.02 Business Case:** [Update](../09-sjablonen/02-business-case/template.md)
+
+______________________________________________________________________
+
+**Next step:** After Gate 2 approval, proceed to [Phase 3 — Development](../04-fase-ontwikkeling/01-doelstellingen.md).
+→ See also: [Gate Review Checklist](../09-sjablonen/04-gate-reviews/checklist.md)

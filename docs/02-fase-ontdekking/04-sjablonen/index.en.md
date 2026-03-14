@@ -32,3 +32,8 @@ ______________________________________________________________________
 - [Discovery & Strategy — Overview](../01-doelstellingen.md)
 - [Core Activities](../02-activiteiten.md)
 - [All Templates](../../09-sjablonen/index.md)
+
+______________________________________________________________________
+
+**Next step:** Start by filling in the [Project Charter](../../09-sjablonen/01-project-charter/template.md)
+→ See also: [Risk Pre-Scan](../../09-sjablonen/03-risicoanalyse/pre-scan.md) | [Business Case](../../09-sjablonen/02-business-case/template.md)

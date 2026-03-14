@@ -1,25 +1,33 @@
 ---
 versie: '1.0'
-description: Accelerators voor snelle AI-implementatie per transformatietrack — binnenkort beschikbaar.
+description: Accelerators voor snelle AI-implementatie per transformatietrack.
 ---
 
 # Accelerators
 
-!!! info "Binnenkort beschikbaar — verwacht Q2 2026"
-    De Accelerators-module is in ontwikkeling. Deze sectie zal praktische snelstarttools bevatten per transformatietrack:
+Praktische snelstarttools die uw AI-transformatie versnellen. Elke accelerator biedt kant-en-klare canvassen, checklists en sprintplannen — afgestemd op één van de drie transformatietracks.
 
-    - **Strategisch:** Snelle strategische heruitvinding voor AI-leiders
-    - **Operationeel:** Procesoptimalisatie-toolkit per bedrijfsfunctie
-    - **AI-First:** Bouwen van een AI-native bedrijfsmodel
+## Beschikbare Tracks
 
-    In de tussentijd:
+- **[Strategische Heruitvinding](01-strategische-heruitvinding-accelerators.md)** — AI Strategy Canvas, waardeketenanalyse, scenarioplanning en competentie-roadmap
+- **[Operationeel Herontwerp](02-operationele-herontwerp-accelerators.md)** — Process Scorecard, AI-procesherontwerp, implementatiesprint en adoptieplan
+- **[AI-First Bedrijfsmodel](03-bedrijfsmodel-accelerators.md)** — AI-First Canvas, validatiechecklist, go-to-marketplan en risicoradar
 
-    - Gebruik de [90-Dagen Roadmap](../12-90-dagen-roadmap/index.md) als versneld startpunt
-    - Raadpleeg de [Organisatieprofielen](../13-organisatieprofielen/index.md) voor uw groeiprofiel
-    - Start met de [Explorer Kit](../00-explorer-kit/index.md) voor een 30-dagenplan
+## Hoe te Gebruiken
+
+1. Bepaal uw transformatietrack via de [Organisatieprofielen](../13-organisatieprofielen/index.md)
+1. Selecteer de bijpassende accelerator hierboven
+1. Gebruik de canvassen als werkdocumenten in uw sprintplanning
+
+**Zie ook:** [90-Dagen Roadmap](../12-90-dagen-roadmap/index.md) · [Drie Tracks](../14-drie-tracks/index.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Kies de accelerator die past bij uw transformatietrack en gebruik het canvas als startpunt voor uw eerstvolgende sprint.
+→ Start met de [Organisatieprofielen](../13-organisatieprofielen/index.md) als u nog niet weet welk track bij u past.
 
 ______________________________________________________________________
 
 **Versie:** 1.0
-**Datum:** 13 maart 2026
-**Status:** In ontwikkeling
+**Datum:** 14 maart 2026
+**Status:** Definitief

@@ -32,3 +32,8 @@ In deze fase is er geen harde 'exit', maar periodieke reviews (bv. per kwartaal)
 - **10-03 Metrics-dashboards:** [Sjabloon](../09-sjablonen/index.md)
 - **08-01 MLOps-standaarden:** [Link](../08-technische-standaarden/01-mloops-standaarden.md)
 - **06-05 Drift-detectie:** [Details](05-drift-detectie.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Start het proces van [Doorlopende Verbetering](../10-doorlopende-verbetering/index.md) om het systeem continu te optimaliseren.
+→ Zie ook: [Drift Detectie](05-drift-detectie.md)

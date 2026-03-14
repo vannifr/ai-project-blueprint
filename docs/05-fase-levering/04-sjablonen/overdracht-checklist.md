@@ -74,3 +74,8 @@ ______________________________________________________________________
 - [Gate Reviews Checklist](../../09-sjablonen/04-gate-reviews/checklist.md)
 - [Lessons Learned](../../11-project-afsluiting/01-lessons-learned.md)
 - [Incident Respons](../../07-compliance-hub/05-incidentrespons.md)
+
+______________________________________________________________________
+
+**Volgende stap:** Vul deze checklist in samen met het beheerteam vóór de formele overdracht
+→ Zie ook: [Gate 4](../../09-sjablonen/04-gate-reviews/checklist.md) | [Fase 5 Monitoring](../../06-fase-monitoring/01-doelstellingen.md)

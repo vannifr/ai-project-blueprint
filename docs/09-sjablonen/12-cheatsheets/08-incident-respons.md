@@ -45,12 +45,12 @@ ______________________________________________________________________
 
 ## Playbook per Type
 
-| Type incident            | Playbook                                                                            |
-| :----------------------- | :---------------------------------------------------------------------------------- |
-| Kwaliteitsdaling / drift | [Playbook 1 — Model Drift](../../07-compliance-hub/06-incidentrespons-playbooks.md) |
-| Beveiligingsincident     | [Playbook 2 — Security](../../07-compliance-hub/06-incidentrespons-playbooks.md)    |
-| Ongelijke behandeling    | [Playbook 3 — Bias](../../07-compliance-hub/06-incidentrespons-playbooks.md)        |
-| Systeem onbereikbaar     | [Playbook 4 — Uitval](../../07-compliance-hub/06-incidentrespons-playbooks.md)      |
+| Type incident            | Playbook                                                                                 |
+| :----------------------- | :--------------------------------------------------------------------------------------- |
+| Kwaliteitsdaling / drift | [Playbook 1 — Prestatieverloop](../../07-compliance-hub/06-incidentrespons-playbooks.md) |
+| Beveiligingsincident     | [Playbook 2 — Security](../../07-compliance-hub/06-incidentrespons-playbooks.md)         |
+| Ongelijke behandeling    | [Playbook 3 — Bias](../../07-compliance-hub/06-incidentrespons-playbooks.md)             |
+| Systeem onbereikbaar     | [Playbook 4 — Uitval](../../07-compliance-hub/06-incidentrespons-playbooks.md)           |
 
 ______________________________________________________________________
 

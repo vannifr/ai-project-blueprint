@@ -50,7 +50,7 @@ Gebruik een gestructureerd kader om het nieuwe model te ontwerpen:
 Valideer het model in kleine iteraties vóór significante investering:
 
 1. **Probleem-validatie:** Bevestig dat de klant het probleem als pijnlijk ervaart.
-1. **Oplossings-validatie:** Test de waardepropositie met een vroege versie (Proof of Value (PoV)).
+1. **Oplossings-validatie:** Test de waardepropositie met een vroege versie (Validatiepilot).
 1. **Business-validatie:** Bevestig betalingsbereidheid en schaalbaar inkomstenmodel.
 1. **Technische validatie:** Bewijs dat de AI-kern de vereiste kwaliteit haalt (zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)).
 
