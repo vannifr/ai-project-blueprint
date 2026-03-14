@@ -115,4 +115,4 @@ Use the scripts below as guidance when communicating sensitive topics to stakeho
 
 ______________________________________________________________________
 
-**Next step:** Consult the [Drift Detection module](../../05-beheer-optimalisatie/05-drift-detectie.md) for detailed monitoring guidelines and the [Metrics & Dashboards overview](../../05-beheer-optimalisatie/03-afleveringen.md) for KPI configuration.
+**Next step:** Consult the [Drift Detection module](../../06-fase-monitoring/05-drift-detectie.md) for detailed monitoring guidelines and the [Metrics & Dashboards overview](../../06-fase-monitoring/03-afleveringen.md) for KPI configuration.

@@ -115,4 +115,4 @@ Gebruik de onderstaande scripts als leidraad bij het communiceren van gevoelige 
 
 ______________________________________________________________________
 
-**Volgende stap:** Raadpleeg de [Drift Detectie module](../../05-beheer-optimalisatie/05-drift-detectie.md) voor gedetailleerde monitoring-richtlijnen en het [Metrics & Dashboards overzicht](../../05-beheer-optimalisatie/03-afleveringen.md) voor KPI-configuratie.
+**Volgende stap:** Raadpleeg de [Drift Detectie module](../../06-fase-monitoring/05-drift-detectie.md) voor gedetailleerde monitoring-richtlijnen en het [Metrics & Dashboards overzicht](../../06-fase-monitoring/03-afleveringen.md) voor KPI-configuratie.
