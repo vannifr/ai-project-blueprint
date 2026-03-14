@@ -8,7 +8,7 @@ versie: '1.1'
 
 - **Safe Go-live:** Controlled transition to production.
 - **Human Oversight:** Ensuring that users understand the system and can intervene.
-- **Human-in-the-Loop Culture:**
+- **Human-in-the-Loop Culture:** Embed structured human review points at critical stages — from data labelling through model validation to production monitoring. Teams integrate human judgement where AI confidence is low or stakes are high, following the Collaboration Mode assigned to the project.
 - **Red Button Culture:** Employees are rewarded for reporting errors; psychological safety is central.
 - **Expert Oversight:** The AI assists, but the human retains final responsibility.
 

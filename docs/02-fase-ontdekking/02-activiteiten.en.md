@@ -42,6 +42,24 @@ An initial scan for legal and ethical obstacles.
 - **Ethical Questions:** Can the system discriminate or cause harm?
 - **Organisational Risks:** Do we have the right people and resources?
 
+______________________________________________________________________
+
+## 1b. Project Type Classification
+
+Before proceeding with the core activities, determine the type of AI project. The Blueprint distinguishes two fundamentally different project types:
+
+| Characteristic         | Type A — Building *with* AI                                                                                                                                               | Type B — AI *in* the product                                                                                            |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------- |
+| **Description**        | AI/agents are used as development tools (code assistants, test generation, documentation automation)                                                                      | The end product contains AI capabilities for end users (recommendations, classification, generation, agentic workflows) |
+| **Risk profile**       | Standard software risks; AI errors affect the development process, not the end user                                                                                       | AI-specific risks; errors directly affect end users, customers or business processes                                    |
+| **Collaboration Mode** | Typically Mode 1–2 (the developer reviews AI output)                                                                                                                      | Mode 2–5 depending on risk and volume (full lifecycle required)                                                         |
+| **Blueprint scope**    | Selective: use [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md), [Governance Model](../00-strategisch-kader/03-governance-model.md) and relevant cheatsheets | Full: all phases, Gate Reviews, Collaboration Modes and monitoring apply                                                |
+
+!!! warning "This Blueprint is primarily designed for Type B projects"
+    Type A projects (building *with* AI) may use selected modules but do not require the full lifecycle. Classify your project deliberately — a wrong classification leads to either unnecessarily heavy governance or insufficient safeguards.
+
+**Not sure?** If the AI system generates output that is directly seen or used by end users without human intervention, it is a Type B project.
+
 ## 2. Team & Roles
 
 | Role                    | Responsibility in Discovery                                           |

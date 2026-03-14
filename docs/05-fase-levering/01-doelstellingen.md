@@ -8,7 +8,7 @@ versie: '1.0'
 
 - **Veilige Ingebruikname:** Gecontroleerde overgang naar productie.
 - **Menselijke Regie:** Waarborgen dat gebruikers het systeem begrijpen en kunnen bijsturen.
-- **Human-in-the-Loop Cultuur:**
+- **Human-in-the-Loop Cultuur:** Integreer gestructureerde menselijke beoordelingsmomenten op kritieke punten — van datalabeling tot modelvalidatie en productiemonitoring. Teams schakelen menselijk oordeelsvermogen in wanneer AI-vertrouwen laag is of de impact hoog, in lijn met de toegewezen Samenwerkingsmodus.
 - **Rode Knop Cultuur:** Medewerkers worden beloond voor het melden van fouten; psychologische veiligheid staat centraal.
 - **Expert Oversight:** De AI assisteert, maar de mens behoudt de finale verantwoordelijkheid.
 

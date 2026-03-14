@@ -199,6 +199,7 @@ plugins:
             "AI PM Onboarding": "AI PM Onboarding"
             "Experiment Ticket": "Experiment Ticket"
             "Modelgezondheid Review": "Model Health Review"
+            "Veelgestelde Vragen (FAQ)": "Frequently Asked Questions (FAQ)"
             "RAG Design Canvas": "RAG Design Canvas"
   - search:
       lang: [nl, en]
@@ -238,6 +239,7 @@ nav:
     - Blueprint Navigator: 00-navigator/index.md
     - Management Samenvatting: 00-strategisch-kader/00-executive-summary.md
     - Leeswijzer & Navigatie: 00-strategisch-kader/00-leeswijzer.md
+    - Veelgestelde Vragen (FAQ): 00-navigator/faq.md
     - Verkenner Kit (30 Dagen):
       - Overzicht: 00-explorer-kit/index.md
       - 30-Dagen Plan: 00-explorer-kit/01-30-dagen-plan.md
