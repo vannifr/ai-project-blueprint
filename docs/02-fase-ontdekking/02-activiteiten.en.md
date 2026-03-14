@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: activities
+layer: 2
+phase: [1]
+roles: [AI Product Manager]
 ---
 
 # 1. Core Activities & Roles (Discovery & Strategy)

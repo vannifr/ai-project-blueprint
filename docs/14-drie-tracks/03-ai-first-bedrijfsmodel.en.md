@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: strategic
+layer: 1
+roles: [Data Scientist]
+tags: [governance]
 ---
 
 # 3. AI-First Business Model

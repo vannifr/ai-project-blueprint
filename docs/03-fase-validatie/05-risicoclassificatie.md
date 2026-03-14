@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+phase: [2]
+roles: [AI Product Manager, Data Scientist, Guardian]
+tags: [risk, validation]
 ---
 
 # 1. Risicoclassificatie in Validatie

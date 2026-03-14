@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: deliverables
+layer: 2
+phase: [4]
+roles: [AI Product Manager]
 ---
 
 # 1. Opleveringen & Gate 4 (Livegang) (Levering)

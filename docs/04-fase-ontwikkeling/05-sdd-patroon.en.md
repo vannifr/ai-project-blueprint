@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: pattern
+layer: 2
+phase: [3]
+roles: [AI Product Manager, Tech Lead]
 ---
 
 # 1. Specification-First Pattern (SDD)

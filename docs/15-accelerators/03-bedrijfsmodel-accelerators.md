@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: strategic
+layer: 2
+roles: [Data Scientist]
+tags: [governance]
 ---
 
 # 3. Bedrijfsmodel Accelerators

@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+tags: [onboarding]
 ---
 
 # Scaffold Code — Startcode voor 3 Use Cases

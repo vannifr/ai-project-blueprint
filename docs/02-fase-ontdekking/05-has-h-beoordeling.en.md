@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: assessment
+layer: 2
+phase: [1]
+roles: [AI Product Manager]
 ---
 
 # 5. Collaboration Mode Assessment

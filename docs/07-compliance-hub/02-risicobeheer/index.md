@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: index
+layer: 3
+roles: [Guardian]
+tags: [eu-ai-act, risk]
 ---
 
 # 1. Risicobeheer

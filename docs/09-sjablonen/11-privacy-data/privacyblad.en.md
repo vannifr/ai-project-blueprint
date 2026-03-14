@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [1, 2]
+roles: [Data Scientist, Guardian]
+tags: [data, template]
 ---
 
 # 1. Template 09.07: Data & Privacy Sheet (GDPR)

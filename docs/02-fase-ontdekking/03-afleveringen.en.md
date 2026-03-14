@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: deliverables
+layer: 2
+phase: [1]
+roles: [AI Product Manager]
 ---
 
 # 1. Deliverables & Gate 1 (Go/No-Go Discovery) (Discovery & Strategy)

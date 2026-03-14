@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [1, 2]
+roles: [Guardian]
+tags: [risk, template]
 ---
 
 # 1. Risk Pre-Scan (Gate 1 Checklist)

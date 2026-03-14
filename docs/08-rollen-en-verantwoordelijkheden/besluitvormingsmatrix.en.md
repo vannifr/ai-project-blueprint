@@ -1,6 +1,9 @@
 ---
 versie: '1.0'
 description: 'Decision matrix: who decides what at each gate, who has veto rights, and who is informed — clear authority structure for AI projects.'
+type: template
+layer: 1
+tags: [governance, template]
 ---
 
 # Decision Matrix

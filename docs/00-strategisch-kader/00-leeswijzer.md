@@ -1,5 +1,7 @@
 ---
 versie: '1.0'
+type: guide
+layer: 1
 ---
 
 # 1. Leeswijzer & Navigatie

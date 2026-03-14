@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: objectives
+layer: 2
+phase: [5]
+roles: [AI Product Manager]
+tags: [monitoring]
 ---
 
 # 1. Beheer & Optimalisatie

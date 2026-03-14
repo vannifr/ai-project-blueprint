@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: strategic
+layer: 2
+roles: [Business Sponsor]
 ---
 
 # 1. Focus, Direct & Rationalise (Days 1-30)

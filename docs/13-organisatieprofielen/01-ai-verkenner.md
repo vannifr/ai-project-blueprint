@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: strategic
+layer: 1
+tags: [onboarding]
 ---
 
 # 1. De Verkenner

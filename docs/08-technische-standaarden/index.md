@@ -1,6 +1,9 @@
 ---
 versie: '1.0'
 description: 'Technische standaarden voor AI-systemen: MLOps, datapipelines, modelgovernance, testframeworks, AI-architectuurpatronen, cloud versus on-premise en green AI richtlijnen.'
+type: index
+layer: 3
+roles: [Tech Lead]
 ---
 
 # 1. Technische Standaarden

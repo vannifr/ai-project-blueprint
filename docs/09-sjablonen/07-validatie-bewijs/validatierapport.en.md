@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [2, 3]
+roles: [Data Scientist]
+tags: [template, validation]
 ---
 
 # 1. Template 09.06: Validation Report (Evidence Package)

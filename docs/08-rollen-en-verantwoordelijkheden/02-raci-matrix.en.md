@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: template
+layer: 1
+tags: [stakeholder, template]
 ---
 
 # RACI Matrix — Roles per Phase

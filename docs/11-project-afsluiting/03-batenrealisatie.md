@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+phase: [5]
+roles: [Business Sponsor]
 ---
 
 # 3. Waarderealisatie (benefits realization) (Projectafsluiting)

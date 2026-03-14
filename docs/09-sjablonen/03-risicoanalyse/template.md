@@ -1,6 +1,11 @@
 ---
 versie: '1.0'
 description: "AI risico-inventarisatie sjabloon: systematisch technische, ethische en compliancerisico's identificeren, classificeren en mitigeren — gebaseerd op EU AI Act risicocategorieën."
+type: template
+layer: 3
+phase: [1, 2]
+roles: [Guardian]
+tags: [risk, template]
 ---
 
 # 1. Sjabloon: Risico-Inventarisatie

@@ -1,6 +1,10 @@
 ---
 versie: '1.0'
 pdf: false
+type: cheatsheet
+layer: 3
+phase: [1, 2, 3, 4, 5]
+tags: [quick-reference]
 ---
 
 # Cheatsheet — AI Collaboration Modes

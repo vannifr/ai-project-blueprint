@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: compliance
+layer: 3
+roles: [Guardian]
+tags: [ethics, eu-ai-act]
 ---
 
 # 1. Ethische Richtlijnen

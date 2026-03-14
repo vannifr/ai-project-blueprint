@@ -1,5 +1,7 @@
 ---
 versie: '1.0'
+type: foundation
+layer: 1
 ---
 
 # 1. Specificatie-eerst Methode

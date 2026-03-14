@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+phase: [1, 2, 3, 4, 5]
+roles: [Business Sponsor]
 ---
 
 # 4. Waarderealisatie (benefits realization) (Operationeel)

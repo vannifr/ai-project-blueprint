@@ -1,6 +1,10 @@
 ---
 versie: '1.0'
 pdf: false
+type: technical
+layer: 3
+roles: [Tech Lead]
+tags: [cost]
 ---
 
 # Cost Optimisation

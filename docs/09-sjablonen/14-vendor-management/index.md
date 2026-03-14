@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: index
+layer: 3
+phase: [2, 3]
+tags: [vendor]
 ---
 
 # Vendor Management — Overzicht

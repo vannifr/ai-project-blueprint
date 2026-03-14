@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+tags: [onboarding]
 ---
 
 # 30-Dagen Dag-tot-Dag Plan

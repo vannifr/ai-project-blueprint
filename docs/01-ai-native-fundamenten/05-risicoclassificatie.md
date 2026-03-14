@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: foundation
+layer: 1
+roles: [Guardian]
+tags: [risk]
 ---
 
 # 1. Risicoclassificatie

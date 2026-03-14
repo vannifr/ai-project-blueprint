@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: technical
+layer: 3
+roles: [Tech Lead]
+tags: [cost]
 ---
 
 # Green AI & Sustainability

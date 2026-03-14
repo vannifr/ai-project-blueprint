@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: foundation
+layer: 1
+roles: [Data Scientist]
+tags: [governance, validation]
 ---
 
 # 1. Validation Model

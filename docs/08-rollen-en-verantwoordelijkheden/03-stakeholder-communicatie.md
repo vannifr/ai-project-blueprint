@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: playbook
+layer: 1
+tags: [playbook, stakeholder]
 ---
 
 # Stakeholder Communicatie Playbook

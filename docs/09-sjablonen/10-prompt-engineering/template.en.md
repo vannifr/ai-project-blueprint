@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [3, 5]
+roles: [Data Scientist]
+tags: [prompt-engineering, template]
 ---
 
 # 1. Prompt Engineering Template

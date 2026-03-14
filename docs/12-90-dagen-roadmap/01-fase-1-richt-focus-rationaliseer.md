@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: strategic
+layer: 2
+roles: [Business Sponsor]
 ---
 
 # 1. Richt Focus & Rationaliseer (Dagen 1-30)

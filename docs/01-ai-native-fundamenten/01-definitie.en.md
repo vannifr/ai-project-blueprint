@@ -1,6 +1,8 @@
 ---
 versie: '1.1'
 description: 'Core principles of AI-native project management: behavioural steering, traceability, human oversight, and evidence standards that distinguish AI projects from traditional software development.'
+type: foundation
+layer: 1
 ---
 
 # 1. Core Principles

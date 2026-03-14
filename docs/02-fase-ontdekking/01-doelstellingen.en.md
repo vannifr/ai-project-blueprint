@@ -1,6 +1,10 @@
 ---
 versie: '1.1'
 description: 'Discovery & Strategy phase: objectives, key activities, and deliverables for the first phase of an AI project — defining the problem, scoping feasibility, and setting governance foundations.'
+type: objectives
+layer: 2
+phase: [1]
+roles: [AI Product Manager]
 ---
 
 # 1. Discovery & Strategy

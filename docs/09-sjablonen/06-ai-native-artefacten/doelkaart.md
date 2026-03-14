@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [1, 2, 3]
+tags: [template]
 ---
 
 # 1. De Doelkaart (goal card) (Intent Map)

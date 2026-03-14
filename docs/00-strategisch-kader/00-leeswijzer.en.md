@@ -1,6 +1,8 @@
 ---
 versie: '1.0'
 pdf: false
+type: guide
+layer: 1
 ---
 
 # 1. Reader's Guide & Navigation

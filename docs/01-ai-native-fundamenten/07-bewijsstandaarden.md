@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: foundation
+layer: 1
+tags: [validation]
 ---
 
 # 1. Bewijsstandaarden

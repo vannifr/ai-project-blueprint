@@ -1,6 +1,8 @@
 ---
 versie: '1.0'
 description: 'Roles and responsibilities in AI projects: AI Project Manager, Data Scientist, Domain Expert, Guardian, and more — with RACI matrix and accountability per lifecycle phase.'
+type: index
+layer: 1
 ---
 
 # 1. Roles & Responsibilities

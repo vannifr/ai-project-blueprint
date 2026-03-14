@@ -1,5 +1,7 @@
 ---
 versie: '1.0'
+type: assessment
+layer: 1
 ---
 
 # 4. Profile Assessment

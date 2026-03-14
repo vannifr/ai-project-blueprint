@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: index
+layer: 2
+phase: [5]
 ---
 
 # 1. Project Closure

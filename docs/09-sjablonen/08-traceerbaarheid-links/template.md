@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [3, 4]
+tags: [template, traceability]
 ---
 
 # 1. Sjabloon: Traceerbaarheid (Traceability)

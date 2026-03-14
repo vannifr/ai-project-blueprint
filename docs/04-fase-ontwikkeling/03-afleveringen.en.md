@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: deliverables
+layer: 2
+phase: [3]
+roles: [AI Product Manager]
 ---
 
 # 1. Deliverables & Gate 3 (Production-Ready) (Development)

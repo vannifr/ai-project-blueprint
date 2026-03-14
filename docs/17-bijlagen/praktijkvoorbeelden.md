@@ -1,6 +1,8 @@
 ---
 versie: '1.0'
 description: Drie geanonimiseerde praktijkvoorbeelden van AI-projecten op verschillende risiconiveaus — van interne kennisbot tot hoog-risico kredietbeoordeling.
+type: reference
+layer: 3
 ---
 
 # Praktijkvoorbeelden

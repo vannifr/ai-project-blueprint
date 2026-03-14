@@ -1,6 +1,9 @@
 ---
 versie: '1.0'
 description: Verkenner Kit — 30-dagen startprogramma voor je eerste AI-project. Inclusief dag-voor-dag plan, lichtgewicht project charter, risico pre-scan en minimaal validatierapport.
+type: index
+layer: 2
+tags: [onboarding]
 ---
 
 # Verkenner Kit — 30-Dagen Startprogramma

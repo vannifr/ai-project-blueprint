@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: deliverables
+layer: 2
+phase: [2]
+roles: [AI Product Manager, Data Scientist]
+tags: [validation]
 ---
 
 # 1. Opleveringen & Gate 2 (Investering PoV) (Validatie)

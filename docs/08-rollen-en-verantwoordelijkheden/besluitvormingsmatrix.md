@@ -1,6 +1,9 @@
 ---
 versie: '1.0'
 description: 'Besluitvormingsmatrix: wie beslist wat bij elke gate, wie heeft veto-recht, en wie wordt geïnformeerd — duidelijke autoriteitsstructuur voor AI-projecten.'
+type: template
+layer: 1
+tags: [governance, template]
 ---
 
 # Besluitvormingsmatrix

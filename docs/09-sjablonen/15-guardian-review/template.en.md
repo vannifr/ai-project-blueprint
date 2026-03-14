@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [1, 2, 3, 4, 5]
+roles: [Guardian]
+tags: [ethics, gate-review, template]
 ---
 
 # Guardian Review Checklist

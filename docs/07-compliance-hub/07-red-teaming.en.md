@@ -1,6 +1,10 @@
 ---
 versie: '1.0'
 pdf: false
+type: playbook
+layer: 3
+roles: [Guardian]
+tags: [eu-ai-act, playbook, security]
 ---
 
 # Red Teaming Playbook

@@ -1,6 +1,9 @@
 ---
 versie: '1.0'
 description: '90-day AI transformation roadmap: three structured phases — Focus, Pilot, and Scale — to move from AI ambition to production-ready deployment within a quarter.'
+type: index
+layer: 2
+roles: [Business Sponsor]
 ---
 
 # 1. Quick Start: AI Project in 90 Days

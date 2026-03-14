@@ -1,5 +1,7 @@
 ---
 versie: '1.2'
+type: foundation
+layer: 1
 ---
 
 # 1. What are Core Principles?

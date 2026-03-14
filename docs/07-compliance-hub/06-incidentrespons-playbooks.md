@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: playbook
+layer: 3
+roles: [Guardian]
+tags: [eu-ai-act, playbook, security]
 ---
 
 # Incident Playbooks

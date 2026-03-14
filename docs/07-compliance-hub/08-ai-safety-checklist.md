@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+roles: [Guardian]
+tags: [eu-ai-act, gate-review, security, template]
 ---
 
 # AI Safety Checklist

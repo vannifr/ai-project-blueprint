@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: technical
+layer: 3
+roles: [Data Scientist, Tech Lead]
+tags: [data, mlops]
 ---
 
 # 1. Data Pipelines

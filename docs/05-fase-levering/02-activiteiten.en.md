@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: activities
+layer: 2
+phase: [4]
+roles: [AI Product Manager]
 ---
 
 # 1. Core Activities & Roles (Delivery)

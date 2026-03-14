@@ -1,5 +1,7 @@
 ---
 versie: '1.1'
+type: strategic
+layer: 1
 ---
 
 # 1. Blueprint & Methodology Index

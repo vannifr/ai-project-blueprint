@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: activities
+layer: 2
+phase: [3]
+roles: [AI Product Manager]
 ---
 
 # 1. Kernactiviteiten & Rollen (Realisatie)

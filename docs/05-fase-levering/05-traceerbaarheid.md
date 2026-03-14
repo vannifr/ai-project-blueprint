@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+phase: [4]
+roles: [AI Product Manager]
+tags: [traceability]
 ---
 
 # 1. Traceerbaarheid

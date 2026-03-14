@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: compliance
+layer: 3
+roles: [Guardian]
+tags: [eu-ai-act, security]
 ---
 
 # Incident Respons

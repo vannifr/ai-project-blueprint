@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: deliverables
+layer: 2
+phase: [5]
+roles: [AI Product Manager]
+tags: [monitoring]
 ---
 
 # 1. Opleveringen & Gate 5 (Monitoring)

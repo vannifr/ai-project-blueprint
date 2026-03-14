@@ -1,5 +1,10 @@
 ---
 versie: '1.1'
+type: activities
+layer: 2
+phase: [2]
+roles: [AI Product Manager, Data Scientist]
+tags: [validation]
 ---
 
 # 1. Core Activities & Roles (Validation)

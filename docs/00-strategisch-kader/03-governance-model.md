@@ -1,6 +1,10 @@
 ---
 versie: '1.0'
 description: 'AI-governancemodel: beslissingsbevoegdheden, toezichtstructuren en verantwoordingskaders voor verantwoorde AI-inzet — afgestemd op EU AI Act en PMI-CPMAI vereisten.'
+type: strategic
+layer: 1
+roles: [Data Scientist]
+tags: [governance]
 ---
 
 # 1. Governance Model

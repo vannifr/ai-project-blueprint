@@ -1,5 +1,8 @@
 ---
 versie: '1.1'
+type: strategic
+layer: 1
+tags: [agile]
 ---
 
 # 1. Agile Anti-patterns

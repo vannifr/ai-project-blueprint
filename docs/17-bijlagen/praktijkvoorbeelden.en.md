@@ -1,6 +1,8 @@
 ---
 versie: '1.0'
 description: Three anonymised case studies of AI projects at different risk levels — from an internal knowledge bot to high-risk credit assessment.
+type: reference
+layer: 3
 ---
 
 # Case Studies

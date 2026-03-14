@@ -1,6 +1,11 @@
 ---
 versie: '1.0'
 description: 'AI project charter template: define scope, objectives, success criteria, hard boundaries, stakeholders, and budget for your AI project — structured for PMI-CPMAI alignment.'
+type: template
+layer: 3
+phase: [1]
+roles: [AI Product Manager]
+tags: [template]
 ---
 
 # 1. The Project Charter

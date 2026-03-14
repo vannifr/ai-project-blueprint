@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: reference
+layer: 3
+tags: [validation]
 ---
 
 # 1. Externe Evidence: DORA (DevOps Research & Assessment)

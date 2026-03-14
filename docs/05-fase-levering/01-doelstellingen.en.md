@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: objectives
+layer: 2
+phase: [4]
+roles: [AI Product Manager]
 ---
 
 # 1. Delivery

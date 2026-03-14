@@ -1,6 +1,9 @@
 ---
 versie: '1.0'
 description: Explorer Kit — 30-day starter programme to launch your first AI project. Includes a day-by-day plan, a lightweight project charter, risk pre-scan, and minimal validation report.
+type: index
+layer: 2
+tags: [onboarding]
 ---
 
 # Explorer Kit — 30-Day Starter Programme

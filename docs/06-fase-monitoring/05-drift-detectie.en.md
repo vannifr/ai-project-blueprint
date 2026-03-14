@@ -1,5 +1,10 @@
 ---
 versie: '1.1'
+type: guide
+layer: 2
+phase: [5]
+roles: [AI Product Manager, Data Scientist]
+tags: [monitoring]
 ---
 
 # 1. Performance Degradation Detection (Drift Detection)

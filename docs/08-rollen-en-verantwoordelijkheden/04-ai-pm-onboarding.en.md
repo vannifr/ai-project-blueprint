@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: playbook
+layer: 1
+roles: [AI Product Manager]
+tags: [onboarding, playbook]
 ---
 
 # AI PM Onboarding Playbook

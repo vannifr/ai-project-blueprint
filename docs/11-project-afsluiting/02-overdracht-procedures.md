@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+phase: [5]
 ---
 
 # 2. Overdracht Procedures

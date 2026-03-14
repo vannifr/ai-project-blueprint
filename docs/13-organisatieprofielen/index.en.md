@@ -1,6 +1,8 @@
 ---
 versie: '1.0'
 description: 'AI maturity profiles: discover whether your organisation is an Explorer, Builder, or Visionary — and get a tailored roadmap for your next AI transformation step.'
+type: index
+layer: 1
 ---
 
 # 1. Maturity Levels

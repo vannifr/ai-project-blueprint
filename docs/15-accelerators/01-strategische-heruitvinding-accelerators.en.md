@@ -1,5 +1,7 @@
 ---
 versie: '1.0'
+type: strategic
+layer: 2
 ---
 
 # 1. Strategic Reinvention Accelerators

@@ -1,5 +1,9 @@
 ---
 versie: '1.1'
+type: activities
+layer: 2
+phase: [3]
+roles: [AI Product Manager]
 ---
 
 # 1. Core Activities & Roles (Development)

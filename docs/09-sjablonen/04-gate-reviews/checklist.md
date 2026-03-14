@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [1, 2, 3, 4, 5]
+roles: [AI Product Manager]
+tags: [gate-review, template]
 ---
 
 # 1. Checklist: Gate Reviews

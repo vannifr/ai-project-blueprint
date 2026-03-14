@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [3]
+roles: [Data Scientist]
+tags: [rag, template]
 ---
 
 # RAG Design Canvas

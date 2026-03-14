@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+phase: [5]
+roles: [AI Product Manager, Data Scientist]
+tags: [monitoring]
 ---
 
 # 1. Drift Detectie (Drift Detection)

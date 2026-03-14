@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: compliance
+layer: 3
+roles: [Data Scientist, Guardian]
+tags: [eu-ai-act, validation]
 ---
 
 # 1. Validatie Eisen (Compliance)

@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: assessment
+layer: 2
+phase: [1]
+roles: [AI Product Manager]
 ---
 
 # 5. Moduskeuze Beoordeling

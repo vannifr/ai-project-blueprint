@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+phase: [1]
+roles: [AI Product Manager]
 ---
 
 # 1. Snelle Route (Fast Lane)

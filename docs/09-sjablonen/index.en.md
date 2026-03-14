@@ -1,6 +1,8 @@
 ---
 versie: '1.0'
 description: 'Complete template library for AI projects: project charter, business case, risk analysis, gate reviews, validation reports, prompt engineering canvas, and more — ready to use.'
+type: index
+layer: 3
 ---
 
 # 1. Templates

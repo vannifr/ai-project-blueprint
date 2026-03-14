@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: index
+layer: 2
+phase: [1, 2, 3, 4, 5]
 ---
 
 # 1. Continuous Improvement

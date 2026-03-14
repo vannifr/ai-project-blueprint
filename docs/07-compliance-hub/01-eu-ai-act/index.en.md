@@ -1,6 +1,10 @@
 ---
 versie: '1.0'
 description: 'EU AI Act compliance guide: risk classification, obligations per AI system category, and practical steps to align your AI project with the European AI regulation.'
+type: index
+layer: 3
+roles: [Guardian]
+tags: [eu-ai-act]
 ---
 
 # 1. EU AI Act

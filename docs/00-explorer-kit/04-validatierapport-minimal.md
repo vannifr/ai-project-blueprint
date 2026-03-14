@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+roles: [Data Scientist]
+tags: [onboarding, validation]
 ---
 
 # Validatierapport Minimaal

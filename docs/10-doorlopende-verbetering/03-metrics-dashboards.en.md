@@ -1,5 +1,8 @@
 ---
 versie: '1.0'
+type: guide
+layer: 2
+phase: [1, 2, 3, 4, 5]
 ---
 
 # 3. Metrics & Dashboards

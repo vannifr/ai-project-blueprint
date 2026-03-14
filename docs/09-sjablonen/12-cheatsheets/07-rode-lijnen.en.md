@@ -1,6 +1,11 @@
 ---
 versie: '1.0'
 pdf: false
+type: cheatsheet
+layer: 3
+phase: [1, 2, 3, 4, 5]
+roles: [Guardian]
+tags: [ethics, quick-reference]
 ---
 
 # Cheatsheet — Red Lines

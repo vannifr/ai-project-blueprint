@@ -1,6 +1,10 @@
 ---
 versie: '1.0'
 description: 'Fase Verkenning & Strategie: doelstellingen, kernactiviteiten en afleveringen voor de eerste fase van een AI-project — probleemdefiniëring, haalbaarheidsscoping en governance fundament.'
+type: objectives
+layer: 2
+phase: [1]
+roles: [AI Product Manager]
 ---
 
 # 1. Verkenning & Strategie

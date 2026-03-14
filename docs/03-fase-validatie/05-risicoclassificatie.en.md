@@ -1,5 +1,10 @@
 ---
 versie: '1.1'
+type: guide
+layer: 2
+phase: [2]
+roles: [AI Product Manager, Data Scientist, Guardian]
+tags: [risk, validation]
 ---
 
 # 1. Risk Classification in Validation

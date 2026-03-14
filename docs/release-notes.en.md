@@ -1,6 +1,8 @@
 ---
 versie: '1.6'
 pdf: false
+type: meta
+layer: 3
 ---
 
 # Changelog

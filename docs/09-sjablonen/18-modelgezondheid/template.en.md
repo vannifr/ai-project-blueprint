@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [5]
+roles: [Data Scientist]
+tags: [governance, monitoring, template]
 ---
 
 # Monthly Model Health Review

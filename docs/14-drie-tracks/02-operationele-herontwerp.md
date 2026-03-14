@@ -1,5 +1,7 @@
 ---
 versie: '1.0'
+type: strategic
+layer: 1
 ---
 
 # 2. Operationele Herontwerp

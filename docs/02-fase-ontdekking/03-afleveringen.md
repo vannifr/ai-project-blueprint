@@ -1,5 +1,9 @@
 ---
 versie: '1.0'
+type: deliverables
+layer: 2
+phase: [1]
+roles: [AI Product Manager]
 ---
 
 # 1. Opleveringen & Gate 1 (Go/No-Go Ontdekking) (Verkenning & Strategie)

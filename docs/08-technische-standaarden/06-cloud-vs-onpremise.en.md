@@ -1,6 +1,9 @@
 ---
 versie: '1.0'
 pdf: false
+type: technical
+layer: 3
+roles: [Tech Lead]
 ---
 
 # Cloud vs. On-Premise

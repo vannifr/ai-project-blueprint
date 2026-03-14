@@ -1,6 +1,9 @@
 ---
 versie: '1.0'
 description: 'Managementsamenvatting van de AI Project Blauwdruk: waarom AI-projecten mislukken zonder governance en hoe deze modulaire methodiek AI stuurt als gedrag — van doeldefinitie tot bewijs en harde grenzen.'
+type: strategic
+layer: 1
+roles: [Business Sponsor]
 ---
 
 # 1. Managementsamenvatting

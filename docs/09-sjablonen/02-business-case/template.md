@@ -1,5 +1,10 @@
 ---
 versie: '1.0'
+type: template
+layer: 3
+phase: [2]
+roles: [AI Product Manager, Business Sponsor]
+tags: [template]
 ---
 
 # 1. Sjabloon: Business Case & Het Kostenoverzicht

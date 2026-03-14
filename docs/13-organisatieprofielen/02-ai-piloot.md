@@ -1,5 +1,7 @@
 ---
 versie: '1.0'
+type: strategic
+layer: 1
 ---
 
 # 1. De Bouwer
