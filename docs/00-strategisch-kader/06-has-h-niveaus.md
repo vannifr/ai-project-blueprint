@@ -104,6 +104,41 @@ Probeer niet direct naar Modus 4 of 5 te springen zonder de tussenliggende leerf
 
 ______________________________________________________________________
 
+## 4b. Acceptatiecriteria voor Modus 4-5 (Agentisch)
+
+Wanneer een systeem in Modus 4 (Gedelegeerd) of Modus 5 (Autonoom) opereert, gelden aanvullende acceptatiecriteria bovenop de standaard Gate-eisen:
+
+**Functionele Criteria:**
+
+- [ ] Agent classificeert taken correct in ≥ \[X%\] van de gevallen
+- [ ] Agent roept de juiste tools/API's aan voor \[specifieke taken\]
+- [ ] Agent genereert output in het juiste formaat en de juiste toon
+
+**Veiligheid & Escalatie:**
+
+- [ ] Agent escaleert ambigue gevallen naar een mens bij \[drempelwaarde vertrouwen\]
+- [ ] Escalatiepad is gedefinieerd: agent → \[menselijke rol\] → oplossing
+- [ ] Mens kan agentbeslissingen overschrijven via \[mechanisme\]
+- [ ] Tijd tot menselijke review is ≤ \[X minuten\] voor kritieke escalaties
+
+**Controleerbaarheid:**
+
+- [ ] Elke agentbeslissing wordt gelogd met: invoer, aangeroepen tools, beslissing, vertrouwensscore, eventuele menselijke override
+- [ ] Audittrail is doorzoekbaar door: AI PM, compliance, supportteam
+
+**Scopegrenzen (Kritiek):**
+
+- [ ] Agent handelt: \[specifieke takenlijst\]
+- [ ] Agent handelt NIET: \[uitgesloten taken\]
+- [ ] Scope is gedocumenteerd in: systeemprompts, rode lijnen, tool-toegang
+
+**Governance:**
+
+- [ ] Cross-functionele goedkeuring: Business ☑ | Compliance ☑ | Techniek ☑
+- [ ] Monitoring-dashboard toont: beslissingsvolume, escalatiepercentage, override-percentage
+
+______________________________________________________________________
+
 ## 5. Gerelateerde Modules
 
 - [Kernprincipes](../01-ai-native-fundamenten/01-definitie.md)

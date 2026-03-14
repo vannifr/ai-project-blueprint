@@ -83,6 +83,21 @@ Combineer de risicoscore met de beslisanalyse om de aanbevolen modus te bepalen:
 
 ______________________________________________________________________
 
+## 5b. Architectuurspecifieke Overwegingen
+
+De moduskeuze hangt mede af van het type AI-architectuur. Elk type heeft specifieke aandachtspunten bij de beoordeling:
+
+| Architectuur                             | Primair Aandachtspunt              | Sleutelvragen                                                                                     |
+| :--------------------------------------- | :--------------------------------- | :------------------------------------------------------------------------------------------------ |
+| **RAG (Retrieval-Augmented Generation)** | Documentdekking & ophaalrelevantie | Beschikt u over ≥100 kwalitatieve brondocumenten? Kunt u ophaalrelevantie meten?                  |
+| **Fine-tuning**                          | Labelbudget & datakwaliteit        | Beschikt u over 5k–50k gelabelde voorbeelden? Is de data representatief voor de productiecontext? |
+| **Agentisch (Modus 4-5)**                | Toolbetrouwbaarheid & rode lijnen  | Zijn de aangeroepen tools betrouwbaar? Wat is de ergst denkbare actie die de agent kan uitvoeren? |
+
+!!! tip "Architectuurkeuze beïnvloedt moduskeuze"
+    Een RAG-systeem met beperkte brondocumenten start doorgaans in Modus 2. Een agentisch systeem met financiële tools vereist minimaal Modus 4 governance — ongeacht de risicoscore.
+
+______________________________________________________________________
+
 ## 6. Vastlegging
 
 De uitkomst van de moduskeuze beoordeling wordt vastgelegd in:

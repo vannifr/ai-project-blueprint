@@ -195,6 +195,10 @@ plugins:
             "RACI Matrix": "RACI Matrix"
             "Besluitvormingsmatrix": "Decision Authority Matrix"
             "Praktijkvoorbeelden": "Case Studies"
+            "Stakeholder Communicatie": "Stakeholder Communication"
+            "AI PM Onboarding": "AI PM Onboarding"
+            "Experiment Ticket": "Experiment Ticket"
+            "Modelgezondheid Review": "Model Health Review"
             "RAG Design Canvas": "RAG Design Canvas"
   - search:
       lang: [nl, en]
@@ -253,6 +257,8 @@ nav:
       - Rollen & Verantwoordelijkheden: 08-rollen-en-verantwoordelijkheden/index.md
       - RACI Matrix: 08-rollen-en-verantwoordelijkheden/02-raci-matrix.md
       - Besluitvormingsmatrix: 08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.md
+      - Stakeholder Communicatie: 08-rollen-en-verantwoordelijkheden/03-stakeholder-communicatie.md
+      - AI PM Onboarding: 08-rollen-en-verantwoordelijkheden/04-ai-pm-onboarding.md
       - Risicoclassificatie: 01-ai-native-fundamenten/05-risicoclassificatie.md
       - AI-Samenwerkingsmodi: 00-strategisch-kader/06-has-h-niveaus.md
       - Organisatorische Heruitvinding: 00-strategisch-kader/07-organisatorische-heruitvinding.md
@@ -348,6 +354,8 @@ nav:
       - Selectie Framework: 09-sjablonen/14-vendor-management/01-selectie-framework.md
       - RFP Template: 09-sjablonen/14-vendor-management/02-rfp-template.md
       - Contract Checklist: 09-sjablonen/14-vendor-management/03-contract-checklist.md
+    - Experiment Ticket: 09-sjablonen/17-experiment-ticket/template.md
+    - Modelgezondheid Review: 09-sjablonen/18-modelgezondheid/template.md
     - Cheatsheets:
       - Overzicht: 09-sjablonen/12-cheatsheets/index.md
       - Project Charter: 09-sjablonen/12-cheatsheets/01-project-charter.md

@@ -83,6 +83,21 @@ Combine the risk score with the decision analysis to determine the recommended m
 
 ______________________________________________________________________
 
+## 5b. Architecture-Specific Considerations
+
+The mode selection also depends on the type of AI architecture. Each type has specific considerations during the assessment:
+
+| Architecture                             | Primary Concern                         | Key Questions                                                                               |
+| :--------------------------------------- | :-------------------------------------- | :------------------------------------------------------------------------------------------ |
+| **RAG (Retrieval-Augmented Generation)** | Document coverage & retrieval relevance | Do you have ≥100 quality source documents? Can you measure retrieval relevance?             |
+| **Fine-tuning**                          | Labelling budget & data quality         | Do you have 5k–50k labelled examples? Is the data representative of the production context? |
+| **Agentic (Mode 4-5)**                   | Tool reliability & Hard Boundaries      | Are the called tools reliable? What is the worst action the agent could take?               |
+
+!!! tip "Architecture choice influences mode selection"
+    A RAG system with limited source documents typically starts in Mode 2. An agentic system with financial tools requires at least Mode 4 governance — regardless of the risk score.
+
+______________________________________________________________________
+
 ## 6. Recording
 
 The outcome of the collaboration mode assessment is recorded in:

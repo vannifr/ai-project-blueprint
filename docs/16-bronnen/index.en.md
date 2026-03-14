@@ -71,6 +71,7 @@ ______________________________________________________________________
 
 - **Stanford Digital Economy Lab - Future of Work:** Research into the impact of AI on work and the economy.
 - **MIT NANDA - The GenAI Divide (2025):** Report on the gap in AI execution within the business world.
+- **Writer — AI Governance & Communication (2025):** Practical guidelines for stakeholder communication in AI projects and expectation management.
 
 ______________________________________________________________________
 
@@ -111,6 +112,7 @@ ______________________________________________________________________
 | :-------------------------------------- | :---------------------------------------------------------- | :------------------------------- |
 | Google MLOps Whitepaper (2021)          | MLOps maturity model: levels 0, 1, 2                        | Technical Standards, Phase 5     |
 | Microsoft MLOps Maturity Model          | Practical framework for CI/CD in ML systems                 | Technical Standards              |
+| Monte Carlo — ML Observability (2024)   | Data observability and model health monitoring framework    | Model Health Review, Phase 5     |
 | OECD AI Principles (2019, revised 2024) | Five principles for responsible AI (including monitoring)   | Governance Model, Compliance Hub |
 | NIST AI RMF 1.0 (2023)                  | AI Risk Management Framework — Govern, Map, Measure, Manage | Risk Pre-Scan, Gate Reviews      |
 

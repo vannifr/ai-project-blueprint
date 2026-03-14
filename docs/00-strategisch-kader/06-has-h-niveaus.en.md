@@ -104,6 +104,41 @@ Do not try to jump directly to Mode 4 or 5 without the intermediate learning pha
 
 ______________________________________________________________________
 
+## 4b. Acceptance Criteria for Mode 4-5 (Agentic)
+
+When a system operates in Mode 4 (Delegated) or Mode 5 (Autonomous), additional acceptance criteria apply on top of the standard Gate requirements:
+
+**Functional Criteria:**
+
+- [ ] Agent correctly classifies tasks in ≥ \[X%\] of cases
+- [ ] Agent calls the correct tools/APIs for \[specific tasks\]
+- [ ] Agent generates output in the correct format and tone
+
+**Safety & Escalation:**
+
+- [ ] Agent escalates ambiguous cases to a human at \[confidence threshold\]
+- [ ] Escalation path is defined: agent → \[human role\] → resolution
+- [ ] Humans can override agent decisions via \[mechanism\]
+- [ ] Time to human review is ≤ \[X minutes\] for critical escalations
+
+**Auditability:**
+
+- [ ] Every agent decision is logged with: input, tools called, decision, confidence score, any human override
+- [ ] Audit trail is queryable by: AI PM, compliance, support team
+
+**Scope Boundaries (Critical):**
+
+- [ ] Agent handles: \[specific task list\]
+- [ ] Agent does NOT handle: \[excluded tasks\]
+- [ ] Scope is documented in: system prompts, Hard Boundaries, tool access
+
+**Governance:**
+
+- [ ] Cross-functional approval: Business ☑ | Compliance ☑ | Tech ☑
+- [ ] Monitoring dashboard shows: decision volume, escalation rate, override rate
+
+______________________________________________________________________
+
 ## 5. Related Modules
 
 - [Core Principles](../01-ai-native-fundamenten/01-definitie.md)
