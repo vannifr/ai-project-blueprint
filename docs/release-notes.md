@@ -1,10 +1,44 @@
 ---
-versie: '1.5'
+versie: '1.6'
 ---
 
 # Changelog
 
 Alle significante wijzigingen aan de AI Project Blauwdruk worden hier bijgehouden, nieuwste bovenaan.
+
+______________________________________________________________________
+
+## v1.6 — 2026-03-14
+
+### Nieuwe Modules
+
+- **Experiment Ticket** (`09-sjablonen/17-experiment-ticket/`): Time-boxed spike-sjabloon met hypothese, succes/faalcriteria en formeel beslispunt (Doorgaan / Pivoteren / Stoppen).
+- **Modelgezondheid Review** (`09-sjablonen/18-modelgezondheid/`): Maandelijkse 1-uur review-agenda met statusniveaus afgestemd op Drift Detectie en communicatiescripts.
+- **Stakeholder Communicatie Playbook** (`08-rollen/03-stakeholder-communicatie`): Communicatiecadans per rol, "Misschien-probleem"-framing, escalatieprocedure en trust-building technieken.
+- **AI PM Onboarding Playbook** (`08-rollen/04-ai-pm-onboarding`): Week-voor-week opbouwplan met dagindeling en deliverable-checklist.
+- **FAQ** (`00-navigator/faq`): Veelgestelde vragen — metrics per fase en story points bij AI-projecten.
+
+### Inhoudelijke Uitbreidingen
+
+- **Moduskeuze Beoordeling**: Architectuurspecifieke overwegingen toegevoegd (RAG, Fine-tuning, Agentisch) met sleutelvragen per architectuurtype.
+- **AI-Samenwerkingsmodi**: Acceptatiecriteria voor Modus 4–5 toegevoegd (functioneel, veiligheid, audit, scope, governance).
+- **Verkenning Activiteiten**: Projecttype Classificatie (Type A: bouwen *met* AI vs. Type B: AI *in* het product) met beslisheuristiek.
+- **Levering Doelstellingen**: Ontbrekende tekst bij "Human-in-the-Loop Cultuur" aangevuld.
+- **Normatieve Criteria EN**: Lege EN-pagina gevuld met vertaling van de kwalificatietabel.
+
+### Kwaliteitsverbetering
+
+- 68 validatiewaarschuwingen opgelost: CTA-blokken toegevoegd aan 36 bestanden, terminologie-overtredingen gecorrigeerd in 41 NL-bestanden, stale "in ontwikkeling"-banners vervangen door inhoud.
+- Terminologie-naleving projectbreed doorgevoerd conform Stijlgids v2.3 — alle verouderde Engelstalige termen vervangen door de voorgeschreven Nederlandse equivalenten.
+- Module 10 (Doorlopende Verbetering), Module 11 (Project Afsluiting) en Module 15 (Accelerators) uitgebreid van stubs naar volledige index-pagina's.
+
+### Bronnen
+
+- Monte Carlo — ML Observability (2024) en Writer — AI Governance & Communication (2025) toegevoegd aan bronnenlijst.
+
+### README
+
+- Bijgewerkt naar huidige staat: badges gecorrigeerd, moduletabel, 3-lagenarchitectuur, LLM-toegang (llms.txt) en validatiescript v2.3.
 
 ______________________________________________________________________
 

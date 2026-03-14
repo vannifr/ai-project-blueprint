@@ -1,11 +1,45 @@
 ---
-versie: '1.5'
+versie: '1.6'
 pdf: false
 ---
 
 # Changelog
 
 All significant changes to the AI Project Blueprint are tracked here, most recent first.
+
+______________________________________________________________________
+
+## v1.6 — 2026-03-14
+
+### New Modules
+
+- **Experiment Ticket** (`09-sjablonen/17-experiment-ticket/`): Time-boxed spike template with hypothesis, success/fail criteria and formal decision point (Continue / Pivot / Stop).
+- **Model Health Review** (`09-sjablonen/18-modelgezondheid/`): Monthly 1-hour review agenda with status levels aligned to Drift Detection and communication scripts.
+- **Stakeholder Communication Playbook** (`08-rollen/03-stakeholder-communicatie`): Communication cadence by role, "Maybe Problem" framing, escalation procedure and trust-building techniques.
+- **AI PM Onboarding Playbook** (`08-rollen/04-ai-pm-onboarding`): Week-by-week ramp-up plan with daily breakdown and deliverable checklist.
+- **FAQ** (`00-navigator/faq`): Frequently asked questions — metrics per phase and story points in AI projects.
+
+### Content Additions
+
+- **Collaboration Mode Assessment**: Architecture-specific considerations added (RAG, Fine-tuning, Agentic) with key questions per architecture type.
+- **AI Collaboration Modes**: Acceptance criteria for Mode 4–5 added (functional, safety, audit, scope, governance).
+- **Discovery Activities**: Project Type Classification (Type A: building *with* AI vs. Type B: AI *in* the product) with decision heuristic.
+- **Delivery Objectives**: Missing "Human-in-the-Loop Culture" text filled in.
+- **Normative Criteria EN**: Empty EN page populated with translated qualification table.
+
+### Quality Improvements
+
+- 68 validation warnings resolved: CTA blocks added to 36 files, terminology violations corrected across 41 NL files, stale "under development" banners replaced with substantive content.
+- Terminology compliance: "Proof of Value" → "Validatiepilot (PoV)", "deployment" → "ingebruikname/livegang", "model drift" → "prestatieverloop", "guardrails" → "rode lijnen" project-wide.
+- Module 10 (Continuous Improvement), Module 11 (Project Closure) and Module 15 (Accelerators) expanded from stubs to full index pages.
+
+### Sources
+
+- Monte Carlo — ML Observability (2024) and Writer — AI Governance & Communication (2025) added to source list.
+
+### README
+
+- Updated to current state: badges corrected, module table, 3-layer architecture, LLM access (llms.txt) and validation script v2.3.
 
 ______________________________________________________________________
 
