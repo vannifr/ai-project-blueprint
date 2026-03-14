@@ -49,12 +49,12 @@ ______________________________________________________________________
 
 ## Playbook per Type
 
-| Incident type               | Playbook                                                                            |
-| :-------------------------- | :---------------------------------------------------------------------------------- |
-| Quality degradation / drift | [Playbook 1 — Model Drift](../../07-compliance-hub/06-incidentrespons-playbooks.md) |
-| Security incident           | [Playbook 2 — Security](../../07-compliance-hub/06-incidentrespons-playbooks.md)    |
-| Unequal treatment           | [Playbook 3 — Bias](../../07-compliance-hub/06-incidentrespons-playbooks.md)        |
-| System unavailable          | [Playbook 4 — Outage](../../07-compliance-hub/06-incidentrespons-playbooks.md)      |
+| Incident type               | Playbook                                                                                        |
+| :-------------------------- | :---------------------------------------------------------------------------------------------- |
+| Quality degradation / drift | [Playbook 1 — Performance Degradation](../../07-compliance-hub/06-incidentrespons-playbooks.md) |
+| Security incident           | [Playbook 2 — Security](../../07-compliance-hub/06-incidentrespons-playbooks.md)                |
+| Unequal treatment           | [Playbook 3 — Bias](../../07-compliance-hub/06-incidentrespons-playbooks.md)                    |
+| System unavailable          | [Playbook 4 — Outage](../../07-compliance-hub/06-incidentrespons-playbooks.md)                  |
 
 ______________________________________________________________________
 

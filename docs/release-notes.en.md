@@ -32,7 +32,7 @@ ______________________________________________________________________
 ### Quality Improvements
 
 - 68 validation warnings resolved: CTA blocks added to 36 files, terminology violations corrected across 41 NL files, stale "under development" banners replaced with substantive content.
-- Terminology compliance: "Proof of Value" → "Validatiepilot (PoV)", "deployment" → "ingebruikname/livegang", "model drift" → "prestatieverloop", "guardrails" → "rode lijnen" project-wide.
+- Terminology compliance: "Proof of Value" → "Validatiepilot (PoV)", "deployment" → "ingebruikname/livegang", "performance degradation" → "prestatieverloop", "hard boundaries" → "rode lijnen" project-wide.
 - Module 10 (Continuous Improvement), Module 11 (Project Closure) and Module 15 (Accelerators) expanded from stubs to full index pages.
 
 ### Sources

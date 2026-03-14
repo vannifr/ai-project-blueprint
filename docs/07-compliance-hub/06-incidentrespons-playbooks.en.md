@@ -13,7 +13,7 @@ Four detailed step-by-step procedures for the most common AI incidents. Use thes
 
 ______________________________________________________________________
 
-## Playbook 1 — Model Drift
+## Playbook 1 — Performance Degradation
 
 **When to activate:** quality scores decline structurally, user complaints increase, monitoring alerts on output quality.
 

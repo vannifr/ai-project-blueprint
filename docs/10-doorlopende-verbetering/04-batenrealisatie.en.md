@@ -31,7 +31,7 @@ ______________________________________________________________________
 
     Additionally: AI coding assistants increase pull requests by an average of **154%**, creating new bottlenecks in the review phase.
 
-    **Conclusion:** measure realisation at organisational level, not on individual perception. Split AI-generated work into smaller chunks. Invest in platform maturity and central governance — purely bottom-up experimentation leads to Shadow AI and inconsistency.
+    **Conclusion:** measure realisation at organisational level, not on individual perception. Split AI-generated work into smaller chunks. Invest in platform maturity and central governance — purely bottom-up experimentation leads to AI sprawl and inconsistency.
 
 Source: \[so-46\]
 

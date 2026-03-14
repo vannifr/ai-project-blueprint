@@ -289,6 +289,10 @@ def check_terminology(filepath: str, content: List[str]) -> List[ValidationError
 
         for pattern, suggestion in forbidden:
             if re.search(pattern, line, re.IGNORECASE):
+                # Skip "not X" contexts where the forbidden term is cited as
+                # an example of what NOT to use (e.g. '(not "guardrails")')
+                if re.search(r'(?:not|niet)\s+["\u201c]?' + pattern, line, re.IGNORECASE):
+                    continue
                 label = "Style guide" if is_en else "Stijlgids"
                 errors.append(ValidationError(
                     "WARNING",

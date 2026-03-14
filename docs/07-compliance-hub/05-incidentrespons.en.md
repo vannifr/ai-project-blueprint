@@ -28,12 +28,12 @@ ______________________________________________________________________
 
 Four incident types each have their own step-by-step procedure in the [Incident Playbooks](06-incidentrespons-playbooks.md):
 
-| Type                  | Signals                                                           | Typical level |
-| :-------------------- | :---------------------------------------------------------------- | :------------ |
-| **Model Drift**       | Declining quality scores, user complaints, monitoring anomalies   | 🟡–🟠         |
-| **Security Incident** | Unauthorised access, data leakage, abnormal usage                 | 🟠–🔴         |
-| **Bias Detection**    | Complaints about unequal treatment, fairness metrics out of range | 🟠–🔴         |
-| **System Outage**     | Unavailability, time-outs, errors at scale                        | 🟡–🔴         |
+| Type                        | Signals                                                           | Typical level |
+| :-------------------------- | :---------------------------------------------------------------- | :------------ |
+| **Performance Degradation** | Declining quality scores, user complaints, monitoring anomalies   | 🟡–🟠         |
+| **Security Incident**       | Unauthorised access, data leakage, abnormal usage                 | 🟠–🔴         |
+| **Bias Detection**          | Complaints about unequal treatment, fairness metrics out of range | 🟠–🔴         |
+| **System Outage**           | Unavailability, time-outs, errors at scale                        | 🟡–🔴         |
 
 ______________________________________________________________________
 

@@ -119,6 +119,23 @@ ______________________________________________________________________
 | **Monitoring**    | Prometheus + Grafana       | Apache 2.0       |
 | **Vector store**  | Qdrant, Weaviate, pgvector | Apache 2.0 / BSD |
 
+### TCO Calculation (simplified)
+
+```
+CapEx (one-off):
+  Hardware:            €_______
+  Installation/setup:  €_______
+
+OpEx (annual):
+  Energy:              €_______ /year
+  Maintenance/admin:   €_______ /year  (1–2 FTE × rate)
+  Licences:            €_______ /year
+
+Compare with Cloud:
+  Expected cloud costs:  €_______ /year
+  Break-even point:      _______ years
+```
+
 ______________________________________________________________________
 
 ## 5. Hybrid Architecture

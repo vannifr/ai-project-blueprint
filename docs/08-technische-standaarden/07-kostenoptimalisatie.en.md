@@ -46,6 +46,15 @@ Total API costs/month = input costs + output costs
 | Development/maintenance (internal)      |             |
 | **Total**                               |             |
 
+**Scenarios:**
+
+| Scenario                    | Volume          | Estimated costs |
+| :-------------------------- | :-------------- | :-------------- |
+| Best case (low volume)      | 20% of expected |                 |
+| Expected                    | 100%            |                 |
+| Worst case (high volume)    | 300%            |                 |
+| Scale scenario (10× growth) | 1000%           |                 |
+
 ______________________________________________________________________
 
 ## 2. Optimisation Techniques
@@ -146,6 +155,10 @@ Always configure budget alerts at:
 - **70%** of monthly budget → warning notification
 - **90%** of monthly budget → escalation to AI PM + CAIO
 - **100%** of monthly budget → automatic rate limiting or stop
+
+### Cost Allocation
+
+Allocate costs per system, team or use case via tags/labels in your cloud environment. This enables ROI calculation per project (see [Benefits Realisation](../10-doorlopende-verbetering/04-batenrealisatie.md)).
 
 ______________________________________________________________________
 

@@ -59,48 +59,49 @@ ______________________________________________________________________
 
 - **Knowledge Coupling:** Connecting an AI model to specific business information or documents to make answers more relevant and accurate (*Retrieval-Augmented Generation / RAG*).
 
-## 10. L
+## 10. M
 
 - **LLM (Large Language Model):** A large-scale language model trained on extensive text corpora, capable of generating, summarising and reasoning about text. Examples include models in the GPT, Claude and Gemini families.
 
-## 11. M
-
 - **MLOps (Machine Learning Operations):** The combination of practices, processes and tools for reliably building, testing, deploying and monitoring ML models in production. It is the ML counterpart of DevOps.
+
 - **Model Card:** Short name for **Technical Model Card**. The technical accountability document for developers and auditors. → [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md)
+
 - **Mode 1–5 (AI Collaboration Modes):** The five collaboration levels between human and AI: Mode 1 (Instrumental), Mode 2 (Advisory), Mode 3 (Collaborative), Mode 4 (Delegating), Mode 5 (Autonomous). → [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md)
+
 - **Monitoring & Optimisation:** The phase after go-live focused on monitoring performance, costs and compliance.
 
-## 12. O
+## 11. O
 
 - **Objective Card:** The AI-specific steering document that combines the **Objective Definition** (what do we want to achieve), **Hard Boundaries** (what must never happen) and **System Prompts** (how do we steer behaviour). Core artefact for every AI solution (*Intent Map*). → [Objective Card template](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 
-## 13. P
+## 12. P
 
 - **Performance degradation:** The phenomenon in which the accuracy or relevance of a model decreases over time due to changes in data or the world (*Model Drift / Data Drift*). → [Drift Detection](../06-fase-monitoring/05-drift-detectie.md)
 
-## 14. R
+## 13. R
 
 - **RACI:** A matrix for assigning roles: **R**esponsible (executor), **A**ccountable (final responsible), **C**onsulted (consulted), **I**nformed (informed). Each activity has exactly one A.
 - **Realisation:** The phase in which the AI solution is technically built and extensively tested.
 - **ROI (Return on Investment):** The ratio between the return and the investment of a project or system, expressed as a percentage or absolute value.
 
-## 15. S
+## 14. S
 
 - **SLO (Service Level Objective):** A measurable target for the quality or availability of a service, such as "latency P95 \< 2 seconds" or "uptime > 99.5%". Lower than an SLA but internally binding for the team.
 - **Specification-Driven Development (SDD):** A method in which tests and specifications are drawn up before implementation. First define what the system must do and what it must never do, then build (*Spec-First / Test-Driven Development*). → [Spec-Driven Development](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
 - **System Prompts:** The collection of information, instructions and configurations that determine how the AI behaves (*Prompts / Context Artifacts*). → [Prompt Engineering template](../09-sjablonen/10-prompt-engineering/template.md)
 
-## 16. T
+## 15. T
 
 - **Technical Model Card:** The technical accountability document for developers and auditors. Describes model version, architecture, data sources and configuration. → [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md)
 - **Total Cost of Ownership:** An integral calculation of all costs (investment + operations) and expected returns (ROI).
 
-## 17. U
+## 16. U
 
 - **Uncontrolled AI use:** The uncontrolled or unmanaged use of AI tools within an organisation (*Shadow AI*).
 - **Usage costs:** The variable costs of running an AI system, such as API tokens or cloud computing time (*Inference costs*).
 
-## 18. V
+## 17. V
 
 - **Validation Pilot (PoV):** A small-scale, controlled experiment to prove that an AI solution works in the intended context (*Proof of Value / PoV*). → [Phase 2: Validation](../03-fase-validatie/01-doelstellingen.md)
 - **Validation Report:** The evidence document that, using objective test data, demonstrates that an AI system meets the stated objectives and the standards from the Evidence Standards. Contains test results, metrics and conclusions (*Evidence Report*). Note: this is a different document from the Data & Privacy Sheet (GDPR-related). → [Validation Report template](../09-sjablonen/07-validatie-bewijs/validatierapport.md)

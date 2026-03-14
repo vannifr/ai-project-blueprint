@@ -20,12 +20,12 @@ ______________________________________________________________________
 
 ### Composition
 
-| Role              | Tasks                             | Required independence               |
-| :---------------- | :-------------------------------- | :---------------------------------- |
-| **Red Team Lead** | Coordination, scope, final report | Outside the development team        |
-| **Attacker(s)**   | Execute exercises                 | No knowledge of internal guardrails |
-| **Observer**      | Documents each attack path        | Present at all sessions             |
-| **Guardian**      | Assesses findings                 | Independent veto right              |
+| Role              | Tasks                             | Required independence                    |
+| :---------------- | :-------------------------------- | :--------------------------------------- |
+| **Red Team Lead** | Coordination, scope, final report | Outside the development team             |
+| **Attacker(s)**   | Execute exercises                 | No knowledge of internal hard boundaries |
+| **Observer**      | Documents each attack path        | Present at all sessions                  |
+| **Guardian**      | Assesses findings                 | Independent veto right                   |
 
 ### Define Scope
 
