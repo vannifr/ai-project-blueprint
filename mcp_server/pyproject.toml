@@ -1,0 +1,19 @@
+[project]
+name = "blueprint-mcp"
+version = "0.1.0"
+description = "MCP server exposing AI Project Blueprint guidance, templates, and checklists"
+requires-python = ">=3.11"
+dependencies = ["mcp[cli]>=1.2.0"]
+
+[project.scripts]
+blueprint-mcp = "blueprint_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/blueprint_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
