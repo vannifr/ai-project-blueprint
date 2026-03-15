@@ -21,8 +21,8 @@ ______________________________________________________________________
 
 ### Energy
 
-- An average ChatGPT query consumes approximately **0.34 Wh** of electricity — 5 to 10 times more than a standard search query (June 2025).
-- Training a large language model emits more than **493 tonnes of CO₂** — equivalent to hundreds of flights.
+- A single AI query consumes an estimated **0.3–0.8 Wh** of electricity — up to 10 times more than a standard search query. The exact value depends on model size and modality.
+- Training a large language model can emit **hundreds to thousands of tonnes of CO₂**, depending on model size and infrastructure — equivalent to hundreds or thousands of transatlantic flights.
 - Data centres are responsible for approximately **2% of global greenhouse gas emissions**.
 
 ### Water
@@ -57,7 +57,7 @@ ______________________________________________________________________
 
 **Model selection as a sustainability consideration:**
 
-- Choose "lean" models or *knowledge distillation* (transferring knowledge from a large to a small model) when the task allows. This can reduce operational emissions by **up to 80%**.
+- Choose "lean" models or *knowledge distillation* (transferring knowledge from a large to a small model) when the task allows. According to compression research (Polino et al.), this can reduce operational emissions by **up to 80%**, though actual savings are task-dependent.
 - Document the choice of a specific model including the motivation for the model size in the [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md).
 
 **Questions at model selection:**

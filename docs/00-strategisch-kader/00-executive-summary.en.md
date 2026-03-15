@@ -11,7 +11,7 @@ roles: [Business Sponsor]
 
 ## 1. What is this Blueprint?
 
-**As of now, there is high risk that AI projects will never reach production.** \[so-51\] Not through technical failure, but through missing governance, vague objectives and uncontrollable models. The AI Project Blueprint is built to prevent exactly that: a **modular methodology** (from idea to management) that approaches AI as **behavioural steering** — managing not only code, but also *Objective Definition*, *Hard Boundaries*, *System Prompts* and *Evidence*.
+**A large proportion of AI projects never reach production** — estimates range from 30% to over 80%, depending on organisational maturity \[so-51\]. Not through technical failure, but through missing governance, vague objectives and uncontrollable models. The AI Project Blueprint is built to prevent exactly that: a **modular methodology** (from idea to management) that approaches AI as **behavioural steering** — managing not only code, but also *Objective Definition*, *Hard Boundaries*, *System Prompts* and *Evidence*.
 
 The Blueprint applies to both AI systems that support (such as advice, analysis or content generation) and systems that independently execute tasks within pre-established frameworks. As a system gains more autonomy, additional requirements apply for documentation, oversight and evidence, so that human ownership, controllability and accountability are maintained.
 

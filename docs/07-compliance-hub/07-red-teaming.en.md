@@ -217,14 +217,14 @@ ______________________________________________________________________
 
 ### Detection Metrics
 
-For production systems with continuous monitoring, the following thresholds are the industry standard:
+For production systems with continuous monitoring, the Blueprint recommends the following operational targets:
 
 | Metric                      | Target value  | Explanation                                  |
 | :-------------------------- | :------------ | :------------------------------------------- |
 | Mean Time to Detect (MTTD)  | \< 15 minutes | Time from attack attempt to detection        |
 | Mean Time to Respond (MTTR) | \< 5 minutes  | Time from detection to automated containment |
 
-Source: \[so-43\]
+These targets are Blueprint-defined SLAs, not externally prescribed norms.
 
 ______________________________________________________________________
 

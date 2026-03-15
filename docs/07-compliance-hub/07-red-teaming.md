@@ -216,14 +216,14 @@ ______________________________________________________________________
 
 ### Detectie-metrieken
 
-Voor productiesystemen met continue monitoring zijn de volgende drempelwaarden de industrie-norm:
+Voor productiesystemen met continue monitoring adviseert de Blueprint de volgende operationele doelwaarden:
 
 | Metriek                     | Doelwaarde    | Toelichting                                        |
 | :-------------------------- | :------------ | :------------------------------------------------- |
 | Mean Time to Detect (MTTD)  | \< 15 minuten | Tijd van aanvalspoging tot detectie                |
 | Mean Time to Respond (MTTR) | \< 5 minuten  | Tijd van detectie tot geautomatiseerde containment |
 
-Bron: \[so-43\]
+Deze doelwaarden zijn Blueprint-eigen SLA's, geen extern voorgeschreven normen.
 
 ______________________________________________________________________
 

@@ -29,7 +29,7 @@ ______________________________________________________________________
 !!! warning "Rework Pitfall"
     Research (Workday, 2025) shows that on average **40% of time savings from AI** are lost to *rework*: correcting errors, rewriting AI-generated content and double-checking outputs. At organisational level the actual productivity gain is **5–15%**, compared to the perceived 50–100% at individual level.
 
-    Additionally: AI coding assistants increase pull requests by an average of **154%**, creating new bottlenecks in the review phase.
+    Additionally: in specific case studies AI coding assistants increased pull requests by up to **154%** (GitHub Copilot), creating new bottlenecks in the review phase.
 
     **Conclusion:** measure realisation at organisational level, not on individual perception. Split AI-generated work into smaller chunks. Invest in platform maturity and central governance — purely bottom-up experimentation leads to AI sprawl and inconsistency.
 

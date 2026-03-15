@@ -69,7 +69,7 @@ De industrie verschuift van *prompt engineering* (instructies schrijven) naar **
 
 - Ontwerpen en onderhouden van de RAG-architectuur (Retrieval-Augmented Generation)
 - Voorkomen van *contextvervuiling* — meer context is niet altijd beter; irrelevante informatie schaadt de modelprestaties
-- Verlagen van inferentiekosten via gerichte informatieophaling (tot 50× goedkoper dan volledige context)
+- Verlagen van gebruikskosten via gerichte informatieophaling (aanzienlijk goedkoper dan volledige context naar het model sturen)
 - Bewaken van de Context Development Lifecycle: welke informatie is actueel, welke verouderd?
 
 **Wanneer inzetten:** verplicht bij RAG-systemen of wanneer het model toegang heeft tot meer dan één kennisbron. Kan een menselijke rol zijn of een geautomatiseerde agentic component.

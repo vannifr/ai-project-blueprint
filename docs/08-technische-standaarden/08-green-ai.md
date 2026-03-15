@@ -21,8 +21,8 @@ ______________________________________________________________________
 
 ### Energie
 
-- Een gemiddelde ChatGPT-query verbruikt circa **0,34 Wh** elektriciteit — 5 tot 10 keer meer dan een standaard zoekopdracht (juni 2025).
-- Het trainen van een groot taalmodel stoot meer dan **493 ton CO₂** uit — vergelijkbaar met honderden vluchten.
+- Een enkele AI-query verbruikt naar schatting **0,3–0,8 Wh** elektriciteit — tot 10 keer meer dan een standaard zoekopdracht. De exacte waarde hangt af van modelgrootte en modaliteit.
+- Het trainen van een groot taalmodel kan **honderden tot duizenden tonnen CO₂** uitstoten, afhankelijk van modelgrootte en infrastructuur — vergelijkbaar met honderden tot duizenden transatlantische vluchten.
 - Datacenters zijn verantwoordelijk voor circa **2% van de wereldwijde broeikasgasuitstoot**.
 
 ### Water
@@ -57,7 +57,7 @@ ______________________________________________________________________
 
 **Modelselectie als duurzaamheidsoverweging:**
 
-- Kies voor "lean" modellen of *knowledge distillation* (kennis overdragen van een groot naar een klein model) wanneer de taak dit toelaat. Dit kan de operationele uitstoot met **tot 80%** verlagen.
+- Kies voor "lean" modellen of *knowledge distillation* (kennis overdragen van een groot naar een klein model) wanneer de taak dit toelaat. Volgens compressie-onderzoek (Polino et al.) kan dit de operationele uitstoot met **tot 80%** verlagen, al zijn werkelijke besparingen taakafhankelijk.
 - Documenteer de keuze voor een specifiek model inclusief de motivatie voor de modelgrootte in de [Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md).
 
 **Vragen bij modelselectie:**

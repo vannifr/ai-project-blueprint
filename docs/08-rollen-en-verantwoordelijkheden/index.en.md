@@ -69,7 +69,7 @@ The industry is shifting from *prompt engineering* (writing instructions) to **c
 
 - Designing and maintaining the RAG architecture (Retrieval-Augmented Generation)
 - Preventing *context pollution* — more context is not always better; irrelevant information degrades model performance
-- Reducing usage costs through targeted information retrieval (up to 50× cheaper than full context)
+- Reducing usage costs through targeted information retrieval (significantly cheaper than sending full context to the model)
 - Guarding the Context Development Lifecycle: which information is current, which is outdated?
 
 **When to deploy:** mandatory for RAG systems or when the model has access to more than one knowledge source. Can be a human role or an automated agentic component.

@@ -29,7 +29,7 @@ ______________________________________________________________________
 !!! warning "Rework-valkuil"
     Onderzoek (Workday, 2025) toont aan dat gemiddeld **40% van de tijdwinst door AI** verloren gaat aan *rework*: het corrigeren van fouten, herschrijven van AI-gegenereerde content en dubbelchecken van outputs. Op organisatieniveau bedraagt de werkelijke productiviteitsboost **5–15%**, tegenover de gepercipieerde 50–100% op individueel niveau.
 
-    Aanvullend: AI-codingassistenten vergroten pull requests gemiddeld met **154%**, wat nieuwe knelpunten in de reviewfase creëert.
+    Aanvullend: in specifieke case studies vergrootten AI-codingassistenten pull requests met tot **154%** (GitHub Copilot), wat nieuwe knelpunten in de reviewfase creëert.
 
     **Conclusie:** meet realisatie op organisatieniveau, niet op individueel gevoel. Splits AI-gegenereerd werk op in kleinere brokken. Investeer in platformvolwassenheid en centrale sturing — louter bottom-up experimenteren leidt tot wildgroei en inconsistentie.
 
