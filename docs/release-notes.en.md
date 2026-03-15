@@ -1,5 +1,5 @@
 ---
-versie: '1.6'
+versie: '1.7'
 pdf: false
 type: meta
 layer: 3
@@ -37,6 +37,12 @@ ______________________________________________________________________
 # Version History
 
 Summary of key changes per version.
+
+______________________________________________________________________
+
+## v1.7 — 2026-03-15
+
+Three expansions: (1) Agentic AI Engineering — 8 new modules (NL + EN) covering orchestration patterns, MCP/A2A protocols, agent failure modes, observability and cost management. Engineering Patterns, Pitfalls Catalogue (21 pitfalls) and Experimental Coordination Models. (2) Assumption management integrated into existing artefacts — Objective Card section E with 6 AI-specific assumption categories and Riskiest Assumption Test (RAT) in the Experiment Ticket. Gate Reviews extended with assumption validation per gate. Assumption drift added as new drift type in Drift Detection. (3) Cross-links strengthened across 26 existing modules, About page and release notes as summary. DORA + AI-specific metrics added to Metrics & Dashboards. 30 frontmatter errors resolved. 7 new glossary entries.
 
 ______________________________________________________________________
 

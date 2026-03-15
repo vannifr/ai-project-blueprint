@@ -14,6 +14,8 @@ ______________________________________________________________________
 
 ## 1. A
 
+- **Assumptions:** Unproven suppositions on which an AI project is based. Assumptions are explicitly documented in the Objective Card (section E) and validated via the Riskiest Assumption Test (RAT). Invalidated assumptions become risks. → [Objective Card](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- **Assumption drift:** The phenomenon where the assumptions on which an AI system was built no longer hold due to changes in the environment, usage patterns or regulations. → [Drift Detection](../06-fase-monitoring/05-drift-detectie.md)
 - **A2A (Agent-to-Agent Protocol):** Open standard (Google/Linux Foundation, 2025) for communication between agents from different frameworks or vendors. Agents publish their capabilities and negotiate interaction modalities.
 - **Acceptance Rate:** The percentage of AI suggestions actually adopted by the team. A declining rate signals that context or model needs improvement. → [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
 - **Agent orchestration:** Configuring and steering one or more AI agents, including tool sets, iteration limits and escalation paths. → [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)

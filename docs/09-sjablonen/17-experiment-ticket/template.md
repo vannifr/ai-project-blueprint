@@ -15,11 +15,20 @@ Dit sjabloon begeleidt uw team bij het opzetten, uitvoeren en evalueren van een 
 
 ______________________________________________________________________
 
-## 1. Hypothese
+## 1. Hypothese & Aannames
 
 - **Hypothesenaam:** \[Korte, herkenbare naam\]
 - **Beschrijving:** \[Wat verwacht u dat het model/systeem zal bereiken? Formuleer als: "Wij verwachten dat \[interventie\] leidt tot \[meetbaar resultaat\] voor \[doelgroep\]."\]
 - **Rationale:** \[Waarom verwacht u dit resultaat? Verwijs naar eerdere data, literatuur of stakeholder-inzichten.\]
+
+### Riskantste Aanname Test (RAT)
+
+*Welke aanname onder deze hypothese is het riskantst? Test deze eerst — niet de makkelijkste, maar de aanname die het experiment zinloos maakt als ze niet klopt.*
+
+- **Riskantste aanname:** \[Beschrijf de aanname die het meeste risico draagt\]
+- **Validatiemethode:** \[Hoe testen we deze aanname zo goedkoop en snel mogelijk? Bijv. data-analyse, interviews, concierge-test, technische spike\]
+- **Slaag/faalcriterium:** \[Wanneer is de aanname gevalideerd? Wanneer ontkracht?\]
+- **Eigenaar:** \[Wie voert de test uit?\]
 
 ______________________________________________________________________
 

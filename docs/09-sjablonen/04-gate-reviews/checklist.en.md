@@ -26,6 +26,7 @@ ______________________________________________________________________
 - [ ] **Data Evaluation** is positive (Score Green/Orange).
 - [ ] **Collaboration Mode** is chosen.
 - [ ] Initial risk scan performed.
+- [ ] Critical **assumptions** are identified in the Objective Card (section E).
 
 !!! check "Gate 2 (Validation Pilot Investment): From Validation to Development"
 
@@ -35,6 +36,7 @@ ______________________________________________________________________
 - [ ] **Validation Pilot** has been completed successfully (>90% score).
 - [ ] **The Cost Overview** has been approved.
 - [ ] **Hard Boundaries** are defined by the Guardian.
+- [ ] Riskiest **assumption** has been tested and validated or consciously accepted.
 
 !!! check "Gate 3 (Production-Ready): From Development to Delivery"
 
@@ -47,6 +49,7 @@ ______________________________________________________________________
     - [ ] Behavioural guidance and permitted actions are explicitly recorded and reviewed.
     - [ ] Changes since the previous release are demonstrably tested and documented.
     - [ ] The oversight and escalation path is clearly described.
+- [ ] All open **assumptions** are validated or have a monitoring plan.
 
 !!! check "Gate 4 (Go-Live): Deployment & Management"
 
@@ -56,6 +59,7 @@ ______________________________________________________________________
 - [ ] Monitoring on **Performance Degradation** is active.
 - [ ] Incident procedure is known.
 - [ ] Ownership in the management phase is documented.
+- [ ] **Assumptions** in Objective Card are re-assessed based on production data.
 
 ______________________________________________________________________
 

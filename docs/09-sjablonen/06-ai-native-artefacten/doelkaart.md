@@ -63,7 +63,27 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### E. Green AI & Duurzaamheid
+### E. Aannames
+
+*Welke aannames liggen onder dit project? Documenteer de belangrijkste aannames en hun validatiestatus. Test de riskantste aanname eerst.*
+
+| Categorie      | Aanname                                                 | Impact als onjuist      | Bewijs                 | Status                             |
+| :------------- | :------------------------------------------------------ | :---------------------- | :--------------------- | :--------------------------------- |
+| **Data**       | \[Bijv. Voldoende representatieve data is beschikbaar\] | \[Hoog/Gemiddeld/Laag\] | \[Welk bewijs is er?\] | \[Open / Gevalideerd / Ontkracht\] |
+| **Model**      | \[Bijv. Model generaliseert naar productiedata\]        | \[Hoog/Gemiddeld/Laag\] | \[Welk bewijs is er?\] | \[Open / Gevalideerd / Ontkracht\] |
+| **Adoptie**    | \[Bijv. Gebruikers vertrouwen de output\]               | \[Hoog/Gemiddeld/Laag\] | \[Welk bewijs is er?\] | \[Open / Gevalideerd / Ontkracht\] |
+| **Kosten**     | \[Bijv. Gebruikskosten blijven beheersbaar bij schaal\] | \[Hoog/Gemiddeld/Laag\] | \[Welk bewijs is er?\] | \[Open / Gevalideerd / Ontkracht\] |
+| **Ethiek**     | \[Bijv. Trainingsdata bevat geen systematische bias\]   | \[Hoog/Gemiddeld/Laag\] | \[Welk bewijs is er?\] | \[Open / Gevalideerd / Ontkracht\] |
+| **Regulering** | \[Bijv. Aanpak blijft compliant met EU AI Act\]         | \[Hoog/Gemiddeld/Laag\] | \[Welk bewijs is er?\] | \[Open / Gevalideerd / Ontkracht\] |
+
+- **Riskantste aanname:** \[Welke aanname doodt het project als deze niet klopt?\]
+- **Validatieaanpak:** \[Hoe gaan we deze testen? Verwijs naar een Experiment Ticket indien nodig.\]
+- **Eigenaar:** \[Wie is verantwoordelijk voor het valideren van de kritieke aannames?\]
+- **Herbeoordelingsdatum:** \[Wanneer worden de aannames opnieuw getoetst?\]
+
+______________________________________________________________________
+
+### F. Green AI & Duurzaamheid
 
 *Hoe beperken we de ecologische voetafdruk van dit systeem?*
 

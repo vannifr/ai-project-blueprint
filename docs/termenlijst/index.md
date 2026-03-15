@@ -13,6 +13,8 @@ ______________________________________________________________________
 
 ## 1. A
 
+- **Aannames (Assumptions):** Onbewezen veronderstellingen waarop een AI-project is gebaseerd. Aannames worden expliciet gedocumenteerd in de Doelkaart (sectie E) en gevalideerd via de Riskantste Aanname Test (RAT). Ontkrachte aannames worden risico's. → [Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- **Aanname-drift:** Het fenomeen waarbij de aannames waarop een AI-systeem is gebouwd niet meer kloppen door veranderingen in de omgeving, het gebruik of de regelgeving. → [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
 - **A2A (Agent-to-Agent Protocol):** Open standaard (Google/Linux Foundation, 2025) voor communicatie tussen agents van verschillende frameworks of leveranciers. Agents publiceren hun capaciteiten en onderhandelen over interactiemodaliteiten.
 - **Acceptance Rate:** Het percentage AI-suggesties dat daadwerkelijk door het team wordt overgenomen. Een dalende rate signaleert dat de context of het model verbeterd moet worden. → [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
 - **Agent-orkestratie:** Het configureren en aansturen van een of meerdere AI-agents, inclusief tool-sets, iteratielimieten en escalatiepaden. → [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)

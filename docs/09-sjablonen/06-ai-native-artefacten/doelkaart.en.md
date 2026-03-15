@@ -63,7 +63,27 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### E. Green AI & Sustainability
+### E. Assumptions
+
+*What assumptions underlie this project? Document the key assumptions and their validation status. Test the riskiest assumption first.*
+
+| Category       | Assumption                                           | Impact if wrong     | Evidence                  | Status                             |
+| :------------- | :--------------------------------------------------- | :------------------ | :------------------------ | :--------------------------------- |
+| **Data**       | \[E.g. Sufficient representative data is available\] | \[High/Medium/Low\] | \[What evidence exists?\] | \[Open / Validated / Invalidated\] |
+| **Model**      | \[E.g. Model generalises to production data\]        | \[High/Medium/Low\] | \[What evidence exists?\] | \[Open / Validated / Invalidated\] |
+| **Adoption**   | \[E.g. Users trust and use the output correctly\]    | \[High/Medium/Low\] | \[What evidence exists?\] | \[Open / Validated / Invalidated\] |
+| **Cost**       | \[E.g. Usage costs remain manageable at scale\]      | \[High/Medium/Low\] | \[What evidence exists?\] | \[Open / Validated / Invalidated\] |
+| **Ethics**     | \[E.g. Training data contains no systematic bias\]   | \[High/Medium/Low\] | \[What evidence exists?\] | \[Open / Validated / Invalidated\] |
+| **Regulatory** | \[E.g. Approach remains EU AI Act compliant\]        | \[High/Medium/Low\] | \[What evidence exists?\] | \[Open / Validated / Invalidated\] |
+
+- **Riskiest assumption:** \[Which assumption kills the project if it turns out to be wrong?\]
+- **Validation approach:** \[How will we test this? Reference an Experiment Ticket if applicable.\]
+- **Owner:** \[Who is responsible for validating the critical assumptions?\]
+- **Re-assessment date:** \[When will assumptions be re-evaluated?\]
+
+______________________________________________________________________
+
+### F. Green AI & Sustainability
 
 *How do we limit the ecological footprint of this system?*
 

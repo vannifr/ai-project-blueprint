@@ -65,6 +65,25 @@ ______________________________________________________________________
 - Changed latency or token usage
 - Regression on previously working scenarios
 
+### Assumption Drift
+
+**What:** The assumptions on which the AI system was built no longer hold due to changes in the environment, usage patterns or regulations.
+
+**Examples:**
+
+- User volume grows beyond assumed capacity
+- Data distribution shifts compared to the original assumption
+- New regulations (e.g. EU AI Act enforcement) make the current approach non-compliant
+- Costs scale differently than assumed
+
+**Signals:**
+
+- Discrepancy between assumed and actual user profile
+- Cost overruns without changes in functionality
+- Compliance findings during audits
+
+**Action:** Re-assess the assumptions in the [Objective Card (section E)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) at every quarterly review or after significant changes in the operational landscape.
+
 ______________________________________________________________________
 
 ## 3. Detection Methods

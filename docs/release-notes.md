@@ -1,5 +1,5 @@
 ---
-versie: '1.6'
+versie: '1.7'
 type: meta
 layer: 3
 ---
@@ -36,6 +36,12 @@ ______________________________________________________________________
 # Versiegeschiedenis
 
 Samenvatting van de belangrijkste wijzigingen per versie.
+
+______________________________________________________________________
+
+## v1.7 — 2026-03-15
+
+Drie uitbreidingen: (1) Agentic AI Engineering — 8 nieuwe modules (NL + EN) voor orkestratiepatronen, MCP/A2A-protocollen, agent-faalpatronen, observeerbaarheid en kostenbeheersing. Engineering Patterns, Valkuilencatalogus (21 valkuilen) en Experimentele Coördinatiemodellen. (2) Aanname-management geïntegreerd in bestaande artefacten — Doelkaart sectie E met 6 AI-specifieke assumptiecategorieën en Riskantste Aanname Test (RAT) in het Experiment Ticket. Gate Reviews uitgebreid met aanname-validatie per gate. Aanname-drift als nieuw drifttype in Drift Detectie. (3) Cross-links versterkt over 26 bestaande modules, About-pagina en release notes als samenvatting. DORA + AI-specifieke metrics toegevoegd aan Metrics & Dashboards. 30 frontmatter-fouten opgelost. 7 nieuwe termenlijst-items.
 
 ______________________________________________________________________
 

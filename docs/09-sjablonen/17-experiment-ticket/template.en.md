@@ -15,11 +15,20 @@ This template guides your team through setting up, executing and evaluating a ti
 
 ______________________________________________________________________
 
-## 1. Hypothesis
+## 1. Hypothesis & Assumptions
 
 - **Hypothesis name:** \[Short, recognisable name\]
 - **Description:** \[What do you expect the model/system will achieve? Formulate as: "We expect that \[intervention\] will lead to \[measurable outcome\] for \[target group\]."\]
 - **Rationale:** \[Why do you expect this outcome? Reference prior data, literature or stakeholder insights.\]
+
+### Riskiest Assumption Test (RAT)
+
+*Which assumption underlying this hypothesis carries the most risk? Test this one first — not the easiest, but the one that makes the experiment pointless if it turns out to be wrong.*
+
+- **Riskiest assumption:** \[Describe the assumption that carries the most risk\]
+- **Validation method:** \[How will we test this assumption as cheaply and quickly as possible? E.g. data analysis, interviews, concierge test, technical spike\]
+- **Pass/fail criterion:** \[When is the assumption validated? When invalidated?\]
+- **Owner:** \[Who will execute the test?\]
 
 ______________________________________________________________________
 

@@ -26,6 +26,7 @@ ______________________________________________________________________
 - [ ] **Data-Evaluatie** is positief (Score Groen/Oranje).
 - [ ] **Samenwerkingsmodus** is gekozen.
 - [ ] Initiële risico-scan uitgevoerd.
+- [ ] Kritieke **aannames** zijn geïdentificeerd in de Doelkaart (sectie E).
 
 !!! check "Gate 2 (Investering PoV): Van Validatie naar Realisatie"
 
@@ -35,6 +36,7 @@ ______________________________________________________________________
 - [ ] **Validatiepilot (PoV)** is succesvol afgerond (>90% score).
 - [ ] **Het Kostenoverzicht** is goedgekeurd.
 - [ ] **Rode Lijnen** zijn gedefinieerd door the Guardian.
+- [ ] Riskantste **aanname** is getest en gevalideerd of bewust geaccepteerd.
 
 !!! check "Gate 3 (Productie-klaar): Van Realisatie naar Levering"
 
@@ -47,6 +49,7 @@ ______________________________________________________________________
     - [ ] Gedragssturing en toegestane acties zijn expliciet vastgelegd en beoordeeld.
     - [ ] Wijzigingen sinds de vorige release zijn aantoonbaar getoetst en vastgelegd.
     - [ ] Het toezicht‑ en escalatiepad is duidelijk beschreven.
+- [ ] Alle open **aannames** zijn gevalideerd of hebben een monitoringplan.
 
 !!! check "Gate 4 (Livegang): Ingebruikname & Beheer"
 
@@ -56,6 +59,7 @@ ______________________________________________________________________
 - [ ] Monitoring op **Drift** is actief.
 - [ ] Incident procedure is bekend.
 - [ ] Eigenaarschap in de beheerfase is vastgelegd.
+- [ ] **Aannames** in Doelkaart zijn herbeoordeeld op basis van productiedata.
 
 ______________________________________________________________________
 

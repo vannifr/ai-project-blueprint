@@ -65,6 +65,25 @@ ______________________________________________________________________
 - Veranderde latency of tokengebruik
 - Regressie op eerder werkende scenario's
 
+### Aanname-drift
+
+**Wat:** De aannames waarop het AI-systeem is gebouwd kloppen niet meer door veranderingen in de omgeving, het gebruik of de regelgeving.
+
+**Voorbeelden:**
+
+- Gebruikersvolume groeit voorbij de aangenomen capaciteit
+- Datadistributie verschuift t.o.v. de oorspronkelijke aanname
+- Nieuwe regelgeving (bijv. EU AI Act-handhaving) maakt de huidige aanpak non-compliant
+- Kosten schalen anders dan aangenomen
+
+**Signalen:**
+
+- Discrepantie tussen aangenomen en werkelijk gebruikersprofiel
+- Kostenoverschrijding zonder verandering in functionaliteit
+- Compliance-bevindingen bij audits
+
+**Actie:** Herbeoordeel de aannames in de [Doelkaart (sectie E)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) bij elke kwartaalreview of na significante wijzigingen in het operationele landschap.
+
 ______________________________________________________________________
 
 ## 3. Detectiemethoden
