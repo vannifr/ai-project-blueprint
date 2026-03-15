@@ -180,3 +180,5 @@ ______________________________________________________________________
 - [MLOps Standards](01-mloops-standaarden.md)
 - [Benefits Realisation](../10-doorlopende-verbetering/04-batenrealisatie.md)
 - [Business Case Template](../09-sjablonen/02-business-case/template.md)
+- [Agentic AI Engineering — Cost Management](09-agentic-ai-engineering.md)
+- [Engineering Patterns](../04-fase-ontwikkeling/06-engineering-patterns.md)

@@ -20,3 +20,12 @@ Not every change requires the same depth of validation. We classify changes base
 | **Low**      | No **Hard Boundaries** affected                 | Syntactic + Minimal Behavioural check            | **Minimal Risk**  |
 
 ______________________________________________________________________
+
+## 2. Related Modules
+
+- [Validation Model](04-validatie-model.md)
+- [Evidence Standards](07-bewijsstandaarden.md)
+- [Pitfalls Catalogue](../17-bijlagen/valkuilen-catalogus.md)
+- [EU AI Act](../07-compliance-hub/01-eu-ai-act/index.md)
+
+______________________________________________________________________

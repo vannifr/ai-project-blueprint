@@ -20,3 +20,5 @@ ______________________________________________________________________
 - **[Feedback](../feedback.md):** Provide feedback on the Blueprint.
 - **[External Evidence (DORA)](externe-evidence-dora.md):** DORA GenAI report — external evidence.
 - **[Case Studies](praktijkvoorbeelden.md):** Practical examples and case studies.
+- **[Pitfalls Catalogue](valkuilen-catalogus.md):** Common pitfalls in AI projects with mitigation references.
+- **[Experimental Coordination Models](experimentele-coordinatiemodellen.md):** Stigmergic coordination, prediction markets and other experimental models for highly mature teams.

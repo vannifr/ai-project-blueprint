@@ -192,6 +192,7 @@ ______________________________________________________________________
 - [Evidence Standards](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - [Test Frameworks](../08-technische-standaarden/04-test-frameworks.md)
 - [Specification-First Method](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
+- [Engineering Patterns](06-engineering-patterns.md)
 
 ______________________________________________________________________
 

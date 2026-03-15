@@ -216,3 +216,5 @@ ______________________________________________________________________
 - [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
 - [AI Safety Checklist](08-ai-safety-checklist.md)
 - [Risicobeheer](02-risicobeheer/index.md)
+- [Agentic AI Engineering — Faalpatronen](../08-technische-standaarden/09-agentic-ai-engineering.md)
+- [Valkuilencatalogus](../17-bijlagen/valkuilen-catalogus.md)

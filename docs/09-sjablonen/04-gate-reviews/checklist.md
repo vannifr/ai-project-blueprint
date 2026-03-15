@@ -56,3 +56,11 @@ ______________________________________________________________________
 - [ ] Monitoring op **Drift** is actief.
 - [ ] Incident procedure is bekend.
 - [ ] Eigenaarschap in de beheerfase is vastgelegd.
+
+______________________________________________________________________
+
+## 3. Hulpmiddelen bij Gate Reviews
+
+- [Valkuilencatalogus](../../17-bijlagen/valkuilen-catalogus.md) — Gebruik als checklist om veelvoorkomende risico's te identificeren
+- [Bewijsstandaarden](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+- [Agentic AI Engineering](../../08-technische-standaarden/09-agentic-ai-engineering.md) — Extra criteria bij Modus 4-5

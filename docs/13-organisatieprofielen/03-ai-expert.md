@@ -44,3 +44,6 @@ Organisaties in de Visionair-fase hebben AI volledig geïntegreerd in hun strate
 - [Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md)
 - [Accelerators](../15-accelerators/index.md)
 - [Governance Model](../00-strategisch-kader/03-governance-model.md)
+- [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
+- [Experimentele Coordinatiemodellen](../17-bijlagen/experimentele-coordinatiemodellen.md)
+- [Valkuilencatalogus](../17-bijlagen/valkuilen-catalogus.md)

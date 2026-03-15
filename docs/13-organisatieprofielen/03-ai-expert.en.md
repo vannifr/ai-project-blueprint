@@ -44,3 +44,6 @@ Organisations in the Visionary phase have fully integrated AI into their strateg
 - [Management & Optimisation](../06-fase-monitoring/01-doelstellingen.md)
 - [Accelerators](../15-accelerators/index.md)
 - [Governance Model](../00-strategisch-kader/03-governance-model.md)
+- [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
+- [Experimental Coordination Models](../17-bijlagen/experimentele-coordinatiemodellen.md)
+- [Pitfalls Catalogue](../17-bijlagen/valkuilen-catalogus.md)

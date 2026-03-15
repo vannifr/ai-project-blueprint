@@ -56,3 +56,11 @@ ______________________________________________________________________
 - [ ] Monitoring on **Performance Degradation** is active.
 - [ ] Incident procedure is known.
 - [ ] Ownership in the management phase is documented.
+
+______________________________________________________________________
+
+## 3. Gate Review Resources
+
+- [Pitfalls Catalogue](../../17-bijlagen/valkuilen-catalogus.md) — Use as checklist to identify common risks
+- [Evidence Standards](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
+- [Agentic AI Engineering](../../08-technische-standaarden/09-agentic-ai-engineering.md) — Additional criteria for Mode 4-5

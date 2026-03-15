@@ -134,3 +134,5 @@ ______________________________________________________________________
 - [EU AI Act](01-eu-ai-act/index.md)
 - [Ethical Guidelines](03-ethische-richtlijnen.md)
 - [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md)
+- [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
+- [Pitfalls Catalogue](../17-bijlagen/valkuilen-catalogus.md)

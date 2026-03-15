@@ -82,5 +82,12 @@ Fast Lane stopt direct en je stapt over op standaard lifecycle als:
 
 ______________________________________________________________________
 
+## 6. Gerelateerde Modules
+
+- [Valkuilencatalogus — G-05: Governance als blokkade](../17-bijlagen/valkuilen-catalogus.md)
+- [Risicoclassificatie](../01-ai-native-fundamenten/05-risicoclassificatie.md)
+
+______________________________________________________________________
+
 **Volgende stap:** Als u in de Fast Lane past, start direct met [Fase 2 — Validatie](../03-fase-validatie/01-doelstellingen.md)
 → Zie ook: [Explorer Kit](../00-explorer-kit/index.md)

@@ -229,3 +229,4 @@ ______________________________________________________________________
 - [Model Governance](03-model-governance.md)
 - [Risk Management & Compliance](../07-compliance-hub/index.md)
 - [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md)
+- [Agentic AI Engineering](09-agentic-ai-engineering.md)

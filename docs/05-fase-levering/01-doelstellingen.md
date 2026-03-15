@@ -43,5 +43,6 @@ ______________________________________________________________________
 - [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
 - [Activiteiten](02-activiteiten.md)
 - [Afleveringen](03-afleveringen.md)
+- [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
 
 **Volgende stap:** [➡ Fase 5: Beheer & Optimalisatie](../06-fase-monitoring/01-doelstellingen.md)

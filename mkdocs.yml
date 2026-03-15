@@ -144,6 +144,10 @@ plugins:
             "AI Architectuur": "AI Architecture"
             "Kostenoptimalisatie": "Cost Optimisation"
             "Green AI & Duurzaamheid": "Green AI & Sustainability"
+            "Agentic AI Engineering": "Agentic AI Engineering"
+            "Engineering Patterns": "Engineering Patterns"
+            "Valkuilencatalogus": "Pitfalls Catalogue"
+            "Experimentele Coordinatiemodellen": "Experimental Coordination Models"
             # Toolkit & Templates
             "🧰 Toolkit & Sjablonen": "🧰 Toolkit & Templates"
             "Alle Sjablonen (Overzicht)": "All Templates (Overview)"
@@ -189,7 +193,7 @@ plugins:
             "Methode Index (Blueprint)": "Method Index (Blueprint)"
             "Bronnen & Inspiratie": "Sources & Inspiration"
             "Externe Evidence (DORA)": "External Evidence (DORA)"
-            "Changelog": "Changelog"
+            "Over & Versies": "About & Versions"
             "Feedback": "Feedback"
             "Guardian Review Checklist": "Guardian Review Checklist"
             "RACI Matrix": "RACI Matrix"
@@ -288,6 +292,7 @@ nav:
       - Activiteiten: 04-fase-ontwikkeling/02-activiteiten.md
       - Afleveringen: 04-fase-ontwikkeling/03-afleveringen.md
       - SDD Patroon: 04-fase-ontwikkeling/05-sdd-patroon.md
+      - Engineering Patterns: 04-fase-ontwikkeling/06-engineering-patterns.md
     - 4. Levering:
       - Overzicht: 05-fase-levering/01-doelstellingen.md
       - Activiteiten: 05-fase-levering/02-activiteiten.md
@@ -330,6 +335,7 @@ nav:
       - Cloud vs. On-Premise: 08-technische-standaarden/06-cloud-vs-onpremise.md
       - Kostenoptimalisatie: 08-technische-standaarden/07-kostenoptimalisatie.md
       - Green AI & Duurzaamheid: 08-technische-standaarden/08-green-ai.md
+      - Agentic AI Engineering: 08-technische-standaarden/09-agentic-ai-engineering.md
   - 🧰 Toolkit & Sjablonen:
     - Alle Sjablonen (Overzicht): 09-sjablonen/index.md
     - Fase 1 Sjablonen: 02-fase-ontdekking/04-sjablonen/index.md
@@ -397,7 +403,9 @@ nav:
     - Termenlijst: termenlijst/index.md
     - Methode Index (Blueprint): 00-strategisch-kader/08-blueprint-methodologie.md
     - Bronnen & Inspiratie: 16-bronnen/index.md
-    - Changelog: release-notes.md
+    - Over & Versies: release-notes.md
     - Feedback: feedback.md
     - Externe Evidence (DORA): 17-bijlagen/externe-evidence-dora.md
     - Praktijkvoorbeelden: 17-bijlagen/praktijkvoorbeelden.md
+    - Valkuilencatalogus: 17-bijlagen/valkuilen-catalogus.md
+    - Experimentele Coordinatiemodellen: 17-bijlagen/experimentele-coordinatiemodellen.md

@@ -28,3 +28,12 @@ Every change to **Steering Instructions** or knowledge coupling must pass throug
 - **Method:** Scenario-based evaluation by experts or advanced simulation.
 
 ______________________________________________________________________
+
+## 2. Related Modules
+
+- [Risk Classification](05-risicoclassificatie.md)
+- [Evidence Standards](07-bewijsstandaarden.md)
+- [Engineering Patterns](../04-fase-ontwikkeling/06-engineering-patterns.md)
+- [SDD Pattern](../04-fase-ontwikkeling/05-sdd-patroon.md)
+
+______________________________________________________________________

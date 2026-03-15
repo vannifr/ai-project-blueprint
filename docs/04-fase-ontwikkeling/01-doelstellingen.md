@@ -48,6 +48,7 @@ ______________________________________________________________________
 
 - [Spec-Driven Development](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
 - [SDD Patroon](05-sdd-patroon.md)
+- [Engineering Patterns](06-engineering-patterns.md)
 - [Activiteiten](02-activiteiten.md)
 - [Afleveringen](03-afleveringen.md)
 

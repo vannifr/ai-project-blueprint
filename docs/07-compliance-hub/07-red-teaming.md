@@ -246,3 +246,5 @@ ______________________________________________________________________
 - [Incident Respons Overzicht](05-incidentrespons.md)
 - [Ethische Richtlijnen](03-ethische-richtlijnen.md)
 - [EU AI Act](01-eu-ai-act/index.md)
+- [Agentic AI Engineering — Adversarial Scenario's](../08-technische-standaarden/09-agentic-ai-engineering.md)
+- [Valkuilencatalogus](../17-bijlagen/valkuilen-catalogus.md)

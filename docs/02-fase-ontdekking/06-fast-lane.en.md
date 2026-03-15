@@ -82,5 +82,12 @@ The Fast Lane stops immediately and we switch to the standard lifecycle if:
 
 ______________________________________________________________________
 
+## 6. Related Modules
+
+- [Pitfalls Catalogue — G-05: Governance as blocker](../17-bijlagen/valkuilen-catalogus.md)
+- [Risk Classification](../01-ai-native-fundamenten/05-risicoclassificatie.md)
+
+______________________________________________________________________
+
 **Next step:** If you qualify for the Fast Lane, start directly with [Phase 2 — Validation](../03-fase-validatie/01-doelstellingen.md)
 → See also: [Explorer Kit](../00-explorer-kit/index.md)

@@ -100,6 +100,27 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
+## 7. DORA Framework and AI-Specific Extensions
+
+The four DORA metrics (DevOps Research and Assessment) are an established standard for measuring software delivery performance. For AI systems we extend these with AI-specific indicators:
+
+| DORA Metric                      | Definition                           | AI Extension                                      |
+| :------------------------------- | :----------------------------------- | :------------------------------------------------ |
+| **Lead Time for Changes**        | Time from commit to production       | + Time from prompt change to validated deployment |
+| **Deployment Frequency**         | How often deployments occur          | + Frequency of model/prompt updates               |
+| **Change Failure Rate**          | % of deployments causing an incident | + % of prompt changes causing quality decline     |
+| **Mean Time to Recovery (MTTR)** | Average recovery time after incident | + Recovery time after drift detection             |
+
+### AI-Specific Additional Metrics
+
+| Metric                | Definition                                                   | Owner     | Cadence |
+| :-------------------- | :----------------------------------------------------------- | :-------- | :------ |
+| **Acceptance Rate**   | % of AI suggestions actually adopted                         | AI PM     | Weekly  |
+| **Rework Percentage** | % of AI output requiring correction                          | Tech Lead | Weekly  |
+| **Cost per Feature**  | Total cost (tokens + compute + review) per delivered feature | AI PM     | Monthly |
+
+______________________________________________________________________
+
 **Related modules:**
 
 - [Continuous Improvement — Overview](index.md)

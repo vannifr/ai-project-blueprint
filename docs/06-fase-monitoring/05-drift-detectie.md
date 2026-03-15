@@ -245,6 +245,8 @@ ______________________________________________________________________
 - [Beheer & Optimalisatie](01-doelstellingen.md)
 - [Incidentrespons](../07-compliance-hub/05-incidentrespons.md)
 - [Metrics Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
+- [Agentic AI Engineering — Stille Degradatie](../08-technische-standaarden/09-agentic-ai-engineering.md)
+- [Valkuilencatalogus](../17-bijlagen/valkuilen-catalogus.md)
 
 ______________________________________________________________________
 

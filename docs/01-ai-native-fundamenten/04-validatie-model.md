@@ -28,3 +28,12 @@ Elke wijziging in de **Prompts** of RAG moet drie validatiecategorieën doorlope
 - **Methode:** Scenario-gebaseerde evaluatie door experts of geavanceerde simulatie.
 
 ______________________________________________________________________
+
+## 2. Gerelateerde Modules
+
+- [Risicoclassificatie](05-risicoclassificatie.md)
+- [Bewijsstandaarden](07-bewijsstandaarden.md)
+- [Engineering Patterns](../04-fase-ontwikkeling/06-engineering-patterns.md)
+- [SDD Patroon](../04-fase-ontwikkeling/05-sdd-patroon.md)
+
+______________________________________________________________________

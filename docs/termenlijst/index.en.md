@@ -14,6 +14,9 @@ ______________________________________________________________________
 
 ## 1. A
 
+- **A2A (Agent-to-Agent Protocol):** Open standard (Google/Linux Foundation, 2025) for communication between agents from different frameworks or vendors. Agents publish their capabilities and negotiate interaction modalities.
+- **Acceptance Rate:** The percentage of AI suggestions actually adopted by the team. A declining rate signals that context or model needs improvement. → [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
+- **Agent orchestration:** Configuring and steering one or more AI agents, including tool sets, iteration limits and escalation paths. → [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
 - **AI Collaboration Modes:** A five-level model that defines the relationship and division of tasks between human and AI (Instrumental through Autonomous). → [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md)
 - **Model fine-tuning:** The fine-tuning of parameters and configurations to optimise the performance of an AI model for a specific task (*Hyperparameter Tuning*).
 
@@ -30,6 +33,7 @@ ______________________________________________________________________
 
 ## 4. D
 
+- **DORA (DevOps Research and Assessment):** A framework with four metrics for measuring software delivery performance: Lead Time for Changes, Deployment Frequency, Change Failure Rate and Mean Time to Recovery (MTTR). → [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
 - **Data Assessment:** The process of evaluating whether data is suitable for an AI solution based on Access, Quality and Relevance.
 - **DPIA (Data Protection Impact Assessment):** Mandatory risk analysis under GDPR for AI systems that process personal data and pose a high risk to data subjects. → [Data & Privacy Sheet](../09-sjablonen/11-privacy-data/privacyblad.md)
 
@@ -62,6 +66,8 @@ ______________________________________________________________________
 ## 10. M
 
 - **LLM (Large Language Model):** A large-scale language model trained on extensive text corpora, capable of generating, summarising and reasoning about text. Examples include models in the GPT, Claude and Gemini families.
+
+- **MCP (Model Context Protocol):** Open standard (Anthropic, 2024) defining how AI agents connect to external tools, data sources and APIs. Provides standardised tool descriptions, transport layers and a security model. → [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
 
 - **MLOps (Machine Learning Operations):** The combination of practices, processes and tools for reliably building, testing, deploying and monitoring ML models in production. It is the ML counterpart of DevOps.
 

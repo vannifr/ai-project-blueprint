@@ -141,10 +141,44 @@ When a system operates in Mode 4 (Delegated) or Mode 5 (Autonomous), additional 
 
 ______________________________________________________________________
 
-## 5. Related Modules
+## 5. Operating Model for Mode 4-5
+
+When a system operates in Mode 4 or 5, the team's role shifts from execution to orchestration. The Human-Machine-Human (H-M-H) pattern describes this cycle:
+
+```
+[Human defines goal & boundaries] → [Machine executes] → [Human validates & adjusts]
+```
+
+### Team Composition for Mode 4-5
+
+In addition to the standard [roles](../08-rollen-en-verantwoordelijkheden/index.md), the following responsibilities are critical for agentic systems:
+
+| Responsibility          | Description                                                                  | Carried by              |
+| :---------------------- | :--------------------------------------------------------------------------- | :---------------------- |
+| **Goal direction**      | Defines the "why" and "what" — translates business goals into agent mandates | AI PM                   |
+| **System direction**    | Optimises the human-machine system, monitors flow and learning process       | Tech Lead               |
+| **Agent orchestration** | Configures orchestration patterns, tool sets and iteration limits            | Tech Lead / AI Engineer |
+| **Quality assurance**   | Validates output, monitors scope boundaries and runs adversarial tests       | Guardian / AI Tester    |
+
+### Handover Protocol: Agent to Human
+
+Define in advance when and how an agent hands over work to a human:
+
+- **Confidence threshold:** Agent escalates at confidence score below \[X%\].
+- **Domain boundary:** Agent escalates for tasks outside the defined scope.
+- **Error boundary:** Agent stops after \[N\] consecutive errors.
+- **Budget boundary:** Agent stops when reaching the token or cost limit.
+
+Every escalation is logged in the [decision trail](../08-technische-standaarden/09-agentic-ai-engineering.md).
+
+______________________________________________________________________
+
+## 6. Related Modules
 
 - [Core Principles](../01-ai-native-fundamenten/01-definitie.md)
 - [Validation Model](../01-ai-native-fundamenten/04-validatie-model.md)
 - [Risk Management](../07-compliance-hub/02-risicobeheer/index.md)
+- [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
+- [Pitfalls Catalogue](../17-bijlagen/valkuilen-catalogus.md)
 
 ______________________________________________________________________

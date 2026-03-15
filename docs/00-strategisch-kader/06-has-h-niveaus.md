@@ -141,10 +141,44 @@ Wanneer een systeem in Modus 4 (Gedelegeerd) of Modus 5 (Autonoom) opereert, gel
 
 ______________________________________________________________________
 
-## 5. Gerelateerde Modules
+## 5. Operationeel Model voor Modus 4-5
+
+Wanneer een systeem in Modus 4 of 5 opereert, verschuift de rol van het team van uitvoering naar orkestratie. Het Mens-Machine-Mens (M-M-M) patroon beschrijft deze cyclus:
+
+```
+[Mens definieert doel & grenzen] → [Machine voert uit] → [Mens valideert & stuurt bij]
+```
+
+### Teamsamenstelling bij Modus 4-5
+
+Naast de standaard [rollen](../08-rollen-en-verantwoordelijkheden/index.md) zijn bij agentische systemen de volgende verantwoordelijkheden kritiek:
+
+| Verantwoordelijkheid   | Beschrijving                                                                    | Draagt bij aan          |
+| :--------------------- | :------------------------------------------------------------------------------ | :---------------------- |
+| **Doelregie**          | Definieert het "waarom" en "wat" — vertaalt business-doelen naar agent-mandaten | AI PM                   |
+| **Systeemregie**       | Optimaliseert het mens-machine systeem, bewaakt flow en leerproces              | Tech Lead               |
+| **Agent-orchestratie** | Configureert orkestratiepatronen, tool-sets en iteratielimieten                 | Tech Lead / AI Engineer |
+| **Kwaliteitsborging**  | Valideert output, bewaakt scopegrenzen en voert adversarial tests uit           | Guardian / AI Tester    |
+
+### Handover-protocol: Agent naar Mens
+
+Definieer vooraf wanneer en hoe een agent werk overdraagt aan een mens:
+
+- **Vertrouwensdrempel:** Agent escaleert bij confidence score onder \[X%\].
+- **Domeingrens:** Agent escaleert bij taken buiten gedefinieerde scope.
+- **Foutgrens:** Agent stopt na \[N\] opeenvolgende fouten.
+- **Budgetgrens:** Agent stopt bij bereiken van token- of kostenlimiet.
+
+Elke escalatie wordt gelogd in het [beslissingsspoor](../08-technische-standaarden/09-agentic-ai-engineering.md).
+
+______________________________________________________________________
+
+## 6. Gerelateerde Modules
 
 - [Kernprincipes](../01-ai-native-fundamenten/01-definitie.md)
 - [Validatie Model](../01-ai-native-fundamenten/04-validatie-model.md)
 - [Risicobeheer](../07-compliance-hub/02-risicobeheer/index.md)
+- [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
+- [Valkuilencatalogus](../17-bijlagen/valkuilen-catalogus.md)
 
 ______________________________________________________________________

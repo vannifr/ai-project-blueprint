@@ -13,6 +13,9 @@ ______________________________________________________________________
 
 ## 1. A
 
+- **A2A (Agent-to-Agent Protocol):** Open standaard (Google/Linux Foundation, 2025) voor communicatie tussen agents van verschillende frameworks of leveranciers. Agents publiceren hun capaciteiten en onderhandelen over interactiemodaliteiten.
+- **Acceptance Rate:** Het percentage AI-suggesties dat daadwerkelijk door het team wordt overgenomen. Een dalende rate signaleert dat de context of het model verbeterd moet worden. → [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
+- **Agent-orkestratie:** Het configureren en aansturen van een of meerdere AI-agents, inclusief tool-sets, iteratielimieten en escalatiepaden. → [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
 - **Fine-tunen:** Het fine-tunen van parameters en configuraties om de prestaties van een AI-model te optimaliseren voor een specifieke taak (*Hyperparameter Tuning*).
 - **AI-Samenwerkingsmodi:** Een model met vijf niveaus dat de relatie en taakverdeling tussen mens en AI definieert (Instrumenteel t/m Autonoom). → [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)
 
@@ -31,6 +34,7 @@ ______________________________________________________________________
 
 ## 4. D
 
+- **DORA (DevOps Research and Assessment):** Een framework met vier metrics voor het meten van software delivery prestaties: Lead Time for Changes, Deployment Frequency, Change Failure Rate en Mean Time to Recovery (MTTR). → [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
 - **Data-Evaluatie:** Het proces van het beoordelen of data geschikt is voor een AI-oplossing op basis van Toegang, Kwaliteit en Relevantie.
 - **Doeldefinitie:** Een formeel document dat het beoogde resultaat en de waarde-hypothese van een AI-systeem vastlegt (*Intent Record*).
 - **Doelkaart (goal card):** Het AI-specifieke sturingsdocument dat de **Doeldefinitie** (wat willen we bereiken), **Rode Lijnen** (wat mag nooit gebeuren) en **Prompts** (hoe sturen we het gedrag) combineert. Kernafact voor elke AI-oplossing (*Intent Map*). → [Doelkaart (goal card) sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
@@ -70,6 +74,7 @@ ______________________________________________________________________
 ## 11. M
 
 - **LLM (Large Language Model):** Een grootschalig taalmodel getraind op omvangrijke tekstcorpora, in staat tot het genereren, samenvatten en redeneren over tekst. Voorbeelden zijn modellen in de GPT-, Claude- en Gemini-familie.
+- **MCP (Model Context Protocol):** Open standaard (Anthropic, 2024) die definieert hoe AI-agents verbinding maken met externe tools, databronnen en API's. Biedt gestandaardiseerde tool-beschrijvingen, transportlagen en een beveiligingsmodel. → [Agentic AI Engineering](../08-technische-standaarden/09-agentic-ai-engineering.md)
 - **MLOps (Machine Learning Operations):** De combinatie van praktijken, processen en tools voor het betrouwbaar bouwen, testen, uitrollen en bewaken van ML-modellen in productie. Het is de ML-tegenhanger van DevOps.
 - **Modelkaart:** Verkorte naam voor **Technische Modelkaart**. Het technische verantwoordingsdocument voor ontwikkelaars en auditors. → [Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md)
 - **Modus 1–5 (AI-Samenwerkingsmodi):** De vijf samenwerkingsniveaus tussen mens en AI: Modus 1 (Instrumenteel), Modus 2 (Adviserend), Modus 3 (Collaboratief), Modus 4 (Delegerend), Modus 5 (Autonoom). → [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)

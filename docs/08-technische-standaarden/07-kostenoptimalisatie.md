@@ -185,3 +185,5 @@ ______________________________________________________________________
 - [MLOps Standaarden](01-mloops-standaarden.md)
 - [Waarderealisatie (benefits realization)](../10-doorlopende-verbetering/04-batenrealisatie.md)
 - [Business Case Sjabloon](../09-sjablonen/02-business-case/template.md)
+- [Agentic AI Engineering — Kostenbeheersing](09-agentic-ai-engineering.md)
+- [Engineering Patterns](../04-fase-ontwikkeling/06-engineering-patterns.md)

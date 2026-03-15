@@ -100,6 +100,27 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
+## 7. DORA Framework en AI-Specifieke Extensies
+
+De vier DORA-metrics (DevOps Research and Assessment) zijn een gevestigde standaard voor het meten van software delivery prestaties. Voor AI-systemen breiden wij deze uit met AI-specifieke indicatoren:
+
+| DORA Metric                      | Definitie                             | AI-Extensie                                                |
+| :------------------------------- | :------------------------------------ | :--------------------------------------------------------- |
+| **Lead Time for Changes**        | Tijd van commit tot productie         | + Tijd van prompt-wijziging tot gevalideerde ingebruikname |
+| **Uitrolfrequentie**             | Hoe vaak wordt er uitgerold           | + Frequentie van model/prompt updates                      |
+| **Change Failure Rate**          | % uitrol dat een incident veroorzaakt | + % prompt-wijzigingen dat kwaliteitsdaling veroorzaakt    |
+| **Mean Time to Recovery (MTTR)** | Gemiddelde hersteltijd na incident    | + Hersteltijd na drift-detectie                            |
+
+### AI-Specifieke Aanvullende Metrics
+
+| Metric                 | Definitie                                                         | Eigenaar  | Cadans      |
+| :--------------------- | :---------------------------------------------------------------- | :-------- | :---------- |
+| **Acceptance Rate**    | % AI-suggesties dat daadwerkelijk wordt overgenomen               | AI PM     | Wekelijks   |
+| **Rework Percentage**  | % AI-output dat correctie vereist                                 | Tech Lead | Wekelijks   |
+| **Kosten per Feature** | Totale kosten (tokens + compute + review) per opgeleverde feature | AI PM     | Maandelijks |
+
+______________________________________________________________________
+
 **Gerelateerde modules:**
 
 - [Doorlopende Verbetering — Overzicht](index.md)

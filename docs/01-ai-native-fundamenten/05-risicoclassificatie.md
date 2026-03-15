@@ -20,3 +20,12 @@ Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wi
 | **Laag**     | Geen **Rode Lijnen** geraakt                           | Syntactische + Minimale Gedragscheck            | **Minimaal Risico** |
 
 ______________________________________________________________________
+
+## 2. Gerelateerde Modules
+
+- [Validatie Model](04-validatie-model.md)
+- [Bewijsstandaarden](07-bewijsstandaarden.md)
+- [Valkuilencatalogus](../17-bijlagen/valkuilen-catalogus.md)
+- [EU AI Act](../07-compliance-hub/01-eu-ai-act/index.md)
+
+______________________________________________________________________
