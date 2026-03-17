@@ -1,47 +1,52 @@
-# AI Project Blauwdruk
+# AI Project Blueprint
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-green)
 ![Version](https://img.shields.io/badge/version-1.5-blue)
-![Build Status](https://github.com/vannifr/ai-project-blueprint/actions/workflows/deploy-ftp.yml/badge.svg)
+![Build Status](https://github.com/vannifr/ai-project-blueprint/actions/workflows/ci.yml/badge.svg)
 ![Languages](https://img.shields.io/badge/languages-NL%20%7C%20EN-informational)
 
-De centrale documentatiehub voor AI-projectmanagement, gebaseerd op PMI-CPMAI standaarden, EU AI Act compliance en Agile-AI frameworks.
+A comprehensive documentation hub for AI project management, based on PMI-CPMAI standards, EU AI Act compliance, and Agile-AI frameworks.
 
-**Live site:** [https://ai-delivery.io/](https://ai-delivery.io/)
+**Live site:** [ai-delivery.io](https://ai-delivery.io/) | **Mirror:** [vannifr.github.io/ai-project-blueprint](https://vannifr.github.io/ai-project-blueprint/)
 
-## Over dit project
+## Authors
 
-Deze blauwdruk biedt een gestandaardiseerde, modulaire aanpak om AI-projecten te beheren van ideatie tot monitoring. Het is ontworpen om teams te helpen navigeren door de complexiteit van AI-native ontwikkeling, compliance en organisatie-adoptie.
+- **Frederik Vannieuwenhuyse** — [@vannifr](https://github.com/vannifr)
+- **Joseph Vandurme** — [@hvandurme](https://github.com/hvandurme)
 
-### Kernmodules
+## About
 
-| Module                       | Beschrijving                                                                               |
-| ---------------------------- | ------------------------------------------------------------------------------------------ |
-| **Strategisch Kader**        | AI-levenscyclus, hybride methodologie, governance en Samenwerkingsmodi (5 niveaus)         |
-| **AI-Native Fundamenten**    | Doelkaarten, bewijsstandaarden, risicoclassificatie en specificatie-gedreven validatie     |
-| **Operationele Fasen (1-5)** | Van Verkenning tot Monitoring — met Gate Reviews, RACI-matrices en CTA-blokken             |
-| **Compliance Hub**           | EU AI Act, risicobeheer, ethische richtlijnen, incidentrespons en red teaming              |
-| **Toolkit & Sjablonen**      | 50+ invulbare templates, cheatsheets, Gate Review checklists en RAG Design Canvas          |
-| **90-Dagen Roadmap**         | Uitvoerbaar startplan in 3 fasen (Focus → Pilot → Schaal) met risico-aangepaste tijdlijnen |
-| **Organisatieprofielen**     | Drie volwassenheidsniveaus (Verkenner, Bouwer, Visionair) met groeigids                    |
-| **Drie Tracks**              | Strategische heruitvinding, operationeel herontwerp en AI-first bedrijfsmodel              |
-| **Explorer Kit**             | 30-dagenplan voor organisaties die starten met AI                                          |
+This blueprint provides a standardized, modular approach to managing AI projects from ideation to monitoring. It helps teams navigate the complexity of AI-native development, compliance, and organizational adoption.
 
-### Architectuur
+### Core Modules
 
-De documentatie is opgebouwd uit drie lagen:
+| Module                       | Description                                                                             |
+| ---------------------------- | --------------------------------------------------------------------------------------- |
+| **Strategic Framework**      | AI lifecycle, hybrid methodology, governance, and Collaboration Modes (5 levels)        |
+| **AI-Native Foundations**    | Goal maps, evidence standards, risk classification, and specification-driven validation |
+| **Operational Phases (1-5)** | From Exploration to Monitoring — with Gate Reviews, RACI matrices, and CTA blocks       |
+| **Compliance Hub**           | EU AI Act, risk management, ethical guidelines, incident response, and red teaming      |
+| **Toolkit & Templates**      | 50+ fillable templates, cheatsheets, Gate Review checklists, and RAG Design Canvas      |
+| **90-Day Roadmap**           | Actionable launch plan in 3 phases (Focus > Pilot > Scale) with risk-adjusted timelines |
+| **Organization Profiles**    | Three maturity levels (Explorer, Builder, Visionary) with growth guide                  |
+| **Three Tracks**             | Strategic reinvention, operational redesign, and AI-first business model                |
+| **Explorer Kit**             | 30-day plan for organizations starting with AI                                          |
 
-- **Laag 1 — Strategisch:** Waarom en wat (executive-niveau, overtuigend)
-- **Laag 2 — Operationeel:** Hoe, wanneer, wie (instructief, stap-voor-stap)
-- **Laag 3 — Toolkit:** Invulbare templates en referentiemateriaal (functioneel, scanbaar)
+### Architecture
 
-## Aan de slag
+The documentation is built on three layers:
+
+- **Layer 1 — Strategic:** Why and what (executive-level, persuasive)
+- **Layer 2 — Operational:** How, when, who (instructional, step-by-step)
+- **Layer 3 — Toolkit:** Fillable templates and reference material (functional, scannable)
+
+## Getting Started
 
 ### Online
 
-Bezoek [ai-delivery.io](https://ai-delivery.io/) en gebruik de **Blueprint Navigator** om een gepersonaliseerd pad door de documentatie te vinden.
+Visit [ai-delivery.io](https://ai-delivery.io/) and use the **Blueprint Navigator** to find a personalized path through the documentation.
 
-### Lokaal draaien
+### Run Locally
 
 ```bash
 pip install -r requirements.txt
@@ -50,79 +55,79 @@ mkdocs serve
 
 Open [http://localhost:8000](http://localhost:8000).
 
-### LLM-toegang
+### LLM Access
 
-De volledige documentatie is beschikbaar als platte tekst voor AI-assistenten:
+The full documentation is available as plain text for AI assistants:
 
-- [llms.txt](https://ai-delivery.io/llms.txt) — Inhoudsopgave
-- [llms-full.txt](https://ai-delivery.io/llms-full.txt) — Volledige inhoud (EN)
-- [llms-full-nl.txt](https://ai-delivery.io/llms-full-nl.txt) — Volledige inhoud (NL)
+- [llms.txt](https://ai-delivery.io/llms.txt) — Table of contents
+- [llms-full.txt](https://ai-delivery.io/llms-full.txt) — Full content (EN)
+- [llms-full-nl.txt](https://ai-delivery.io/llms-full-nl.txt) — Full content (NL)
 
-## Taalondersteuning
+## Language Support
 
-De site wordt gebouwd in twee talen via de **bestandssuffix-strategie** (`mkdocs-static-i18n`):
+The site is built in two languages using the **file suffix strategy** (`mkdocs-static-i18n`):
 
-| Taal                   | Suffix   | URL    | Status                |
-| ---------------------- | -------- | ------ | --------------------- |
-| Nederlands (standaard) | *(geen)* | `/`    | Volledig              |
-| English                | `.en.md` | `/en/` | Kernpagina's vertaald |
+| Language        | Suffix   | URL    | Status                |
+| --------------- | -------- | ------ | --------------------- |
+| Dutch (default) | *(none)* | `/`    | Complete              |
+| English         | `.en.md` | `/en/` | Core pages translated |
 
-Ontbrekende vertalingen vallen automatisch terug op de Nederlandse versie.
+Missing translations automatically fall back to the Dutch version.
 
-### Build per taal
+### Build per Language
 
 ```bash
-# HTML-site (alle talen tegelijk)
+# HTML site (all languages)
 mkdocs build --strict
 
-# PDF per taal
+# PDF per language
 MKDOCS_LANG=nl MKDOCS_EXPORTER_PDF=true MKDOCS_PDF_OUTPUT=pdf/ai-project-blauwdruk.nl.pdf mkdocs build --no-directory-urls
 MKDOCS_LANG=en MKDOCS_EXPORTER_PDF=true MKDOCS_PDF_OUTPUT=pdf/ai-project-blauwdruk.en.pdf mkdocs build --no-directory-urls
 ```
 
-## Ontwikkelworkflow
+## Development Workflow
 
-### Pre-commit hooks
+### Pre-commit Hooks
 
 ```bash
 pip install pre-commit
 pre-commit install
 ```
 
-Dit activeert automatische kwaliteitscontroles bij elke commit:
+This enables automatic quality checks on every commit:
 
 - Markdown formatting (mdformat)
-- Trailing whitespace verwijderen
-- YAML syntax validatie
-- Documentatie kwaliteitsvalidatie (terminologie, CTA-blokken, frontmatter, Samenwerkingsmodi in gates)
+- Trailing whitespace removal
+- YAML syntax validation
+- Documentation quality validation (terminology, CTA blocks, frontmatter, Collaboration Modes in gates)
 
-### Handmatige kwaliteitscontrole
+### Manual Quality Check
 
 ```bash
 python3 scripts/validate_docs.py
 ```
 
-Het validatiescript (v2.3) controleert op:
+The validation script (v2.3) checks for:
 
-- Terminologie-naleving conform de Stijlgids
-- Aanwezigheid van CTA-blokken in Laag 2-modules
-- Samenwerkingsmodus-veld in Gate Review checklists
-- Levenscyclus-redundantie (Single Source of Truth)
-- Frontmatter met verplicht `versie`-veld
-- Vertalingsdekking (NL → EN)
-- Heading-hiërarchie en debug-markers
+- Terminology compliance per the Style Guide
+- CTA blocks in Layer 2 modules
+- Collaboration Mode field in Gate Review checklists
+- Lifecycle redundancy (Single Source of Truth)
+- Frontmatter with required `versie` field
+- Translation coverage (NL > EN)
+- Heading hierarchy and debug markers
 
-## Bijdragen
+## Contributing
 
-Dit project wordt beheerd volgens de Stijlgids v2.3 (`internal-meta/STYLE_GUIDE.md`). Zie `internal-meta/BACKLOG.md` voor de huidige roadmap.
+This project is maintained according to the Style Guide v2.3 (`internal-meta/STYLE_GUIDE.md`). See `internal-meta/BACKLOG.md` for the current roadmap.
 
-**Voor het indienen van een PR:**
+**Before submitting a PR:**
 
-1. Voer `pre-commit run --all-files` uit
-1. Controleer dat `mkdocs build --strict` slaagt
-1. Verifieer dat `python3 scripts/validate_docs.py` geen errors geeft
+1. Run `pre-commit run --all-files`
+1. Verify `mkdocs build --strict` passes
+1. Confirm `python3 scripts/validate_docs.py` reports no errors
 
-## Licentie
+## License
 
-© 2026 AI Project Blauwdruk.
-Gelicenseerd onder de **Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal (CC BY-NC-SA 4.0)**.
+(c) 2026 AI Project Blueprint.
+Licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
