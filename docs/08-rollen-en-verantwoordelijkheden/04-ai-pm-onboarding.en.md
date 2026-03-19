@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 type: playbook
 layer: 1
 roles: [AI Product Manager]
