@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 description: 'EU AI Act compliance guide: risk classification, obligations per AI system category, and practical steps to align your AI project with the European AI regulation.'
 type: index
 layer: 3
