@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 description: 'Technical standards for AI systems: MLOps, data pipelines, model governance, test frameworks, AI architecture patterns, cloud vs. on-premise decisions, and green AI guidelines.'
 type: index
 layer: 3
