@@ -94,7 +94,7 @@ ______________________________________________________________________
 1. **Progressive disclosure:** Give the agent a short tool index; load extended descriptions only when needed. This limits token consumption.
 1. **Atomic actions:** Each tool does exactly one thing. Do not combine "read and write" in a single tool.
 1. **Idempotent where possible:** Repeated invocation of the same tool with the same input should have no side effects.
-1. **Sandbox execution:** Tools run in an isolated environment without direct access to production data (see [Technical Controls](05-ai-architectuur.md#technically-enforceable-controls-mandatory-for-collaboration-mode-4-5)).
+1. **Sandbox execution:** Tools run in an isolated environment without direct access to production data (see [Technical Controls](05-ai-architectuur.md#technically-enforceable-controls-mandatory-for-collaboration-mode-45)).
 
 ### Code Execution Pattern
 
@@ -182,7 +182,7 @@ Agentic systems have a fundamentally different cost model from traditional AI ap
 - **Prompt caching:** If an agent always uses the same system prompt, the provider can cache those tokens. Reduces input costs by ~90% and latency by ~75%.
 - **Model tiering:** Route simple tasks to a cheaper model; complex tasks to a more capable model.
 - **Dynamic iteration limits:** Set the maximum number of steps based on task complexity, not as a fixed number.
-- **Hard budget cap:** Technical limit per task/session/day (see [Technical Controls](05-ai-architectuur.md#technically-enforceable-controls-mandatory-for-collaboration-mode-4-5)).
+- **Hard budget cap:** Technical limit per task/session/day (see [Technical Controls](05-ai-architectuur.md#technically-enforceable-controls-mandatory-for-collaboration-mode-45)).
 
 ______________________________________________________________________
 

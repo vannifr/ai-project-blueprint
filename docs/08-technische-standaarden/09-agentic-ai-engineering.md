@@ -94,7 +94,7 @@ ______________________________________________________________________
 1. **Progressieve ontsluiting:** Geef de agent een korte tool-index; laat uitgebreide beschrijvingen pas laden wanneer nodig. Dit beperkt token-verbruik.
 1. **Atomaire acties:** Elke tool doet exact één ding. Combineer niet "lezen en schrijven" in één tool.
 1. **Idempotent waar mogelijk:** Herhaald aanroepen van dezelfde tool met dezelfde input mag geen bijwerkingen hebben.
-1. **Sandbox-uitvoering:** Tools draaien in een geïsoleerde omgeving zonder directe toegang tot productiedata (zie [Technische Controls](05-ai-architectuur.md#technisch-afdwingbare-controls-verplicht-bij-samenwerkingsmodus-4-5)).
+1. **Sandbox-uitvoering:** Tools draaien in een geïsoleerde omgeving zonder directe toegang tot productiedata (zie [Technische Controls](05-ai-architectuur.md#technisch-afdwingbare-controls-verplicht-bij-samenwerkingsmodus-45)).
 
 ### Code Execution Pattern
 
@@ -182,7 +182,7 @@ Agentische systemen hebben een fundamenteel ander kostenmodel dan traditionele A
 - **Prompt caching:** Als een agent steeds dezelfde systeemprompt gebruikt, kan de provider deze tokens cachen. Reduceert invoerkosten tot ~90% en latentie tot ~75%.
 - **Model tiering:** Routeer eenvoudige taken naar een goedkoper model; complexe taken naar een capabeler model.
 - **Dynamische iteratielimieten:** Stel het maximaal aantal stappen in op basis van taakcomplexiteit, niet als vast getal.
-- **Harde budgetcap:** Technische limiet per taak/sessie/dag (zie [Technische Controls](05-ai-architectuur.md#technisch-afdwingbare-controls-verplicht-bij-samenwerkingsmodus-4-5)).
+- **Harde budgetcap:** Technische limiet per taak/sessie/dag (zie [Technische Controls](05-ai-architectuur.md#technisch-afdwingbare-controls-verplicht-bij-samenwerkingsmodus-45)).
 
 ______________________________________________________________________
 

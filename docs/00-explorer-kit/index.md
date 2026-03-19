@@ -41,7 +41,7 @@ Week 2 — Verkenning
 └── Dag 9–10: Use case selectie (scorecard)
 
 Week 3 — Validatie
-├── Dag 11–15: Prototype bouwen (scaffold code)
+├── Dag 11–15: Prototype bouwen
 └── Dag 16–17: Golden Set test (20 testcases)
 
 Week 4 — Beslissing

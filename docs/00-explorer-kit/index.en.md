@@ -10,7 +10,7 @@ tags: [onboarding]
 
 ## 1. Purpose
 
-The Explorer Kit provides organisations without AI experience concrete, day-by-day guidance to deliver a working AI prototype within **30 days**. All templates are simplified to the minimum necessary; scaffold code lowers the technical barrier.
+The Explorer Kit provides organisations without AI experience concrete, day-by-day guidance to deliver a working AI prototype within **30 days**. All templates are simplified to the minimum necessary.
 
 !!! tip "Who is this for?"
     This package is designed for **Explorer organisations** (maturity score 10–20 on the Blueprint Navigator). If your organisation already has multiple AI systems in production, use the [Three Tracks](../14-drie-tracks/index.md) or [Accelerators](../15-accelerators/index.md) instead.
@@ -41,7 +41,7 @@ Week 2 — Discovery
 └── Day 9–10: Use case selection (scorecard)
 
 Week 3 — Validation
-├── Day 11–15: Build prototype (scaffold code)
+├── Day 11–15: Build prototype
 └── Day 16–17: Golden Set test (20 test cases)
 
 Week 4 — Decision

@@ -729,17 +729,17 @@ ______________________________________________________________________
 
 Wilt u direct naar een route zonder de wizard? Gebruik dan de tabel hieronder.
 
-| Profiel       | Score | Route A (PM)                                               | Route B (Tech)                                                           | Route C (Guardian)                                           | Route D (CAIO)                                                              |
-| :------------ | :---- | :--------------------------------------------------------- | :----------------------------------------------------------------------- | :----------------------------------------------------------- | :-------------------------------------------------------------------------- |
-| **Verkenner** | 10–20 | [30-Dagen Kit](../00-explorer-kit/)                        | [Specificatie-eerst Patroon](../04-fase-ontwikkeling/05-sdd-patroon/)    | [Pre-Scan Quick](../00-explorer-kit/03-risk-prescan-quick/)  | [Exec Summary](../00-strategisch-kader/00-executive-summary/)               |
-| **Bouwer**    | 21–32 | [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist/) | [MLOps Standaarden](../08-technische-standaarden/01-mloops-standaarden/) | [Compliance Hub](../07-compliance-hub/)                      | [Drie Tracks](../14-drie-tracks/)                                           |
-| **Visionair** | 33–40 | [Accelerators](../15-accelerators/)                        | [AI Architectuur](../08-technische-standaarden/05-ai-architectuur/)      | [Incident Respons](../07-compliance-hub/05-incidentrespons/) | [Heruitvinding](../00-strategisch-kader/07-organisatorische-heruitvinding/) |
+| Profiel       | Score | Route A (PM)                                                 | Route B (Tech)                                                             | Route C (Guardian)                                             | Route D (CAIO)                                                                |
+| :------------ | :---- | :----------------------------------------------------------- | :------------------------------------------------------------------------- | :------------------------------------------------------------- | :---------------------------------------------------------------------------- |
+| **Verkenner** | 10–20 | [30-Dagen Kit](../00-explorer-kit/index.md)                  | [Specificatie-eerst Patroon](../04-fase-ontwikkeling/05-sdd-patroon.md)    | [Pre-Scan Quick](../00-explorer-kit/03-risk-prescan-quick.md)  | [Exec Summary](../00-strategisch-kader/00-executive-summary.md)               |
+| **Bouwer**    | 21–32 | [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md) | [MLOps Standaarden](../08-technische-standaarden/01-mloops-standaarden.md) | [Compliance Hub](../07-compliance-hub/index.md)                | [Drie Tracks](../14-drie-tracks/index.md)                                     |
+| **Visionair** | 33–40 | [Accelerators](../15-accelerators/index.md)                  | [AI Architectuur](../08-technische-standaarden/05-ai-architectuur.md)      | [Incident Respons](../07-compliance-hub/05-incidentrespons.md) | [Heruitvinding](../00-strategisch-kader/07-organisatorische-heruitvinding.md) |
 
 ______________________________________________________________________
 
 ## Gerelateerde Modules
 
-- [Organisatieprofielen (Verkenner / Bouwer / Visionair)](../13-organisatieprofielen/)
+- [Organisatieprofielen (Verkenner / Bouwer / Visionair)](../13-organisatieprofielen/index.md)
 - [Profielbeoordeling (uitgebreide versie)](../13-organisatieprofielen/04-profiel-beoordeling.md)
-- [30-Dagen Verkenner Kit](../00-explorer-kit/)
-- [Snelstart 90-Dagen Roadmap](../12-90-dagen-roadmap/)
+- [30-Dagen Verkenner Kit](../00-explorer-kit/index.md)
+- [Snelstart 90-Dagen Roadmap](../12-90-dagen-roadmap/index.md)

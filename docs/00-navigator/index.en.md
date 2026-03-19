@@ -567,17 +567,17 @@ ______________________________________________________________________
 
 Prefer to navigate directly without the wizard? Use the table below.
 
-| Profile       | Score | Route A (PM)                                               | Route B (Tech)                                                         | Route C (Guardian)                                            | Route D (CAIO)                                                            |
-| :------------ | :---- | :--------------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------ | :------------------------------------------------------------------------ |
-| **Explorer**  | 10–20 | [30-Day Kit](../00-explorer-kit/)                          | [Specification-first Pattern](../04-fase-ontwikkeling/05-sdd-patroon/) | [Quick Pre-Scan](../00-explorer-kit/03-risk-prescan-quick/)   | [Exec Summary](../00-strategisch-kader/00-executive-summary/)             |
-| **Builder**   | 21–32 | [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist/) | [MLOps Standards](../08-technische-standaarden/01-mloops-standaarden/) | [Compliance Hub](../07-compliance-hub/)                       | [Three Tracks](../14-drie-tracks/)                                        |
-| **Visionary** | 33–40 | [Accelerators](../15-accelerators/)                        | [AI Architecture](../08-technische-standaarden/05-ai-architectuur/)    | [Incident Response](../07-compliance-hub/05-incidentrespons/) | [Reinvention](../00-strategisch-kader/07-organisatorische-heruitvinding/) |
+| Profile       | Score | Route A (PM)                                                 | Route B (Tech)                                                           | Route C (Guardian)                                              | Route D (CAIO)                                                              |
+| :------------ | :---- | :----------------------------------------------------------- | :----------------------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+| **Explorer**  | 10–20 | [30-Day Kit](../00-explorer-kit/index.md)                    | [Specification-first Pattern](../04-fase-ontwikkeling/05-sdd-patroon.md) | [Quick Pre-Scan](../00-explorer-kit/03-risk-prescan-quick.md)   | [Exec Summary](../00-strategisch-kader/00-executive-summary.md)             |
+| **Builder**   | 21–32 | [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md) | [MLOps Standards](../08-technische-standaarden/01-mloops-standaarden.md) | [Compliance Hub](../07-compliance-hub/index.md)                 | [Three Tracks](../14-drie-tracks/index.md)                                  |
+| **Visionary** | 33–40 | [Accelerators](../15-accelerators/index.md)                  | [AI Architecture](../08-technische-standaarden/05-ai-architectuur.md)    | [Incident Response](../07-compliance-hub/05-incidentrespons.md) | [Reinvention](../00-strategisch-kader/07-organisatorische-heruitvinding.md) |
 
 ______________________________________________________________________
 
 ## Related Modules
 
-- [Organisation Profiles (Explorer / Builder / Visionary)](../13-organisatieprofielen/)
+- [Organisation Profiles (Explorer / Builder / Visionary)](../13-organisatieprofielen/index.md)
 - [Profile Assessment (extended version)](../13-organisatieprofielen/04-profiel-beoordeling.md)
-- [30-Day Explorer Kit](../00-explorer-kit/)
-- [90-Day Quick-Start Roadmap](../12-90-dagen-roadmap/)
+- [30-Day Explorer Kit](../00-explorer-kit/index.md)
+- [90-Day Quick-Start Roadmap](../12-90-dagen-roadmap/index.md)
