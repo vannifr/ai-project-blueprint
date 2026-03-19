@@ -8,6 +8,9 @@ tags: [eu-ai-act, security]
 
 # Incident Respons
 
+!!! abstract "Doel"
+    Ernst-matrix, rollen en directe acties voor snel en gecoördineerd reageren op AI-incidenten.
+
 Snel en gecoördineerd reageren op AI-incidenten. Deze pagina definieert de ernst-matrix, rollen en directe acties. Gedetailleerde procedures staan in de [Incident Playbooks](06-incidentrespons-playbooks.md).
 
 ______________________________________________________________________
@@ -42,7 +45,7 @@ De Circuit Breaker is de noodstop voor AI-systemen in Samenwerkingsmodus 4 en 5.
 
 **Activeer de Circuit Breaker wanneer:**
 
-- [ ] Het systeem handelt buiten gedefinieerde Rode Lijnen
+- [ ] Het systeem handelt buiten gedefinieerde Harde Grenzen
 - [ ] Een beveiligingsincident actief is of vermoed wordt
 - [ ] Bias of discriminerende output is vastgesteld
 - [ ] Het systeem onherstelbare acties dreigt uit te voeren

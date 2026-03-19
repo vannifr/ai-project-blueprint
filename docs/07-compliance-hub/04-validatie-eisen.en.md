@@ -8,6 +8,9 @@ tags: [eu-ai-act, validation]
 
 # 1. Validation Requirements (Compliance)
 
+!!! abstract "Purpose"
+    Requirements that a Validation Report must meet for formal go-live approval from a legal and ethical perspective.
+
 ## 1. Purpose
 
 Define what a **Validation Report** must meet in order to receive formal approval for deployment, specifically focused on legal and ethical frameworks.

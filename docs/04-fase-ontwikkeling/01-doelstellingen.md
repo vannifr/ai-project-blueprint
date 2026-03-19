@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Realisatie
 
+!!! abstract "Doel"
+    Doelstellingen van Fase 3: het bouwen van een robuuste, productiewaardige AI-oplossing die voldoet aan alle kwaliteits- en veiligheidseisen.
+
 ## 1. Doelstelling
 
 Het primaire doel van de Realisatiefase is het bouwen van een robuuste, productiewaardige oplossing die voldoet aan alle kwaliteits- en veiligheidseisen.
@@ -18,7 +21,7 @@ Het primaire doel van de Realisatiefase is het bouwen van een robuuste, producti
 
 Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 
-- Gate 2 (Investering PoV) is goedgekeurd.
+- Gate 2 — Investeringsbeslissing is goedgekeurd.
 - De Validatiepilot (PoV) heeft aangetoond dat de oplossing werkt (>90% score).
 - Het Kostenoverzicht is positief en goedgekeurd.
 - Het ontwikkelteam is compleet en heeft toegang tot alle benodigde resources.
@@ -31,7 +34,7 @@ Wijzigingen aan het gedrag van een AI‑systeem worden uitgevoerd in afgebakende
 
 - het beoogde effect,
 - de geldende grenzen en limieten,
-- hoe wordt vastgesteld dat de wijziging voldoet aan doel en Rode Lijnen.
+- hoe wordt vastgesteld dat de wijziging voldoet aan doel en Harde Grenzen.
 
 Pas na succesvolle toetsing wordt een wijziging structureel toegepast.
 
@@ -50,6 +53,6 @@ ______________________________________________________________________
 - [SDD Patroon](05-sdd-patroon.md)
 - [Engineering Patterns](06-engineering-patterns.md)
 - [Activiteiten](02-activiteiten.md)
-- [Afleveringen](03-afleveringen.md)
+- [Opleveringen](03-afleveringen.md)
 
 **Volgende stap:** [➡ Fase 4: Levering](../05-fase-levering/01-doelstellingen.md)

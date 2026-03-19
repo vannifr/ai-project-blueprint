@@ -9,7 +9,10 @@ tags: [monitoring]
 
 # 1. Opleveringen & Gate 5 (Monitoring)
 
-## 1. Opleveringen (Afleveringen)
+!!! abstract "Doel"
+    Overzicht van de verplichte opleveringen en Gate 5 criteria voor duurzame operatie en kwartaalreviews van het AI-systeem.
+
+## 1. Opleveringen
 
 De resultaten van de Monitoringfase voor een duurzame operatie:
 

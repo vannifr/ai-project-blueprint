@@ -6,6 +6,9 @@ layer: 1
 
 # 1. Blueprint & Methodology Index
 
+!!! abstract "Purpose"
+    Navigation index mapping all technical codes, modules and templates of the Blueprint to their content documents.
+
 This page serves as the "Rosetta Stone" of the AI Project Blueprint. Here you will find the mapping between the technical codes (used for auditing and automation) and the content documents.
 
 ## 1. The Code Structure
@@ -26,7 +29,7 @@ The modules form the navigation structure of the AI lifecycle.
 | Code       | Phase / Domain                                                             | Description                                                     |
 | :--------- | :------------------------------------------------------------------------- | :-------------------------------------------------------------- |
 | **MOD-00** | [Strategic Framework](../index.md)                                         | Foundation, reading guide and summary.                          |
-| **MOD-01** | [AI-Native Foundations](../01-ai-native-fundamenten/01-definitie.md)       | The 7 normative criteria for AI projects.                       |
+| **MOD-01** | [AI-Native Foundations](../01-ai-native-fundamenten/01-definitie.md)       | The 7 assessment criteria for AI projects.                      |
 | **MOD-02** | [Phase 1: Discovery](../02-fase-ontdekking/01-doelstellingen.md)           | Problem definition and data evaluation.                         |
 | **MOD-03** | [Phase 2: Validation](../03-fase-validatie/01-doelstellingen.md)           | Validation Pilot (PoV) and Business Case.                       |
 | **MOD-04** | [Phase 3: Development](../04-fase-ontwikkeling/01-doelstellingen.md)       | Development via the SDD method.                                 |

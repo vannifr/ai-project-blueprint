@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Kernactiviteiten & Rollen (Verkenning & Strategie)
 
+!!! abstract "Doel"
+    Overzicht van de kernactiviteiten en rolverdelingen tijdens de Verkenningsfase, van probleemverkenning tot dataevaluatie en risicobeoordeling.
+
 ## 1. Kernactiviteiten
 
 ### Probleemverkenning
@@ -50,6 +53,10 @@ ______________________________________________________________________
 
 ## 1b. Projecttype Classificatie
 
+!!! info "Twee projecttypen in het kort"
+    - **Type A — Bouwen met AI**: Het ontwikkelteam gebruikt AI-tools en agentische AI als onderdeel van het ontwikkelproces. Het eindproduct zelf hoeft geen AI te bevatten.
+    - **Type B — AI in het Product**: Het eindproduct integreert AI-functionaliteit voor eindgebruikers.
+
 Voordat u verdergaat met de kernactiviteiten, bepaal het type AI-project. De Blueprint onderscheidt twee fundamenteel verschillende projecttypen:
 
 | Kenmerk                | Type A — Bouwen *met* AI                                                                                                                                                      | Type B — AI *in* het product                                                                                                 |
@@ -84,7 +91,7 @@ ______________________________________________________________________
 - [Risico Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)
 - [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 
-**Zie ook:** [Overzicht Fase 1](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)
+**Zie ook:** [Overzicht Fase 1](01-doelstellingen.md) · [Opleveringen](03-afleveringen.md)
 
 ______________________________________________________________________
 

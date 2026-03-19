@@ -38,12 +38,12 @@ ______________________________________________________________________
 - [ ] Risicoklasse is realistisch (niet onderschat om compliance te vermijden).
 - [ ] Bij Hoog Risico: EU AI Act Artikel 9 (risicobeheerssysteem) is van toepassing — bevestigd.
 
-### Rode Lijnen & Doelkaart
+### Harde Grenzen & Doelkaart
 
-- [ ] Doelkaart is opgesteld met expliciete Rode Lijnen (wat mag het systeem absoluut niet?).
-- [ ] Rode Lijnen zijn concreet en toetsbaar (geen vage formuleringen).
+- [ ] Doelkaart is opgesteld met expliciete Harde Grenzen (wat mag het systeem absoluut niet?).
+- [ ] Harde Grenzen zijn concreet en toetsbaar (geen vage formuleringen).
 - [ ] Green AI-overwegingen zijn ingevuld (sectie E van de Doelkaart).
-- [ ] Guardian heeft Rode Lijnen goedgekeurd en ondertekend.
+- [ ] Guardian heeft Harde Grenzen goedgekeurd en ondertekend.
 
 **Uitkomst Gate 1:**
 
@@ -140,7 +140,7 @@ Periodieke Guardian-checks na livegang.
 
 - [ ] Hernieuwde Red Team sessie uitgevoerd.
 - [ ] Juridisch kader opnieuw getoetst (EU AI Act updates, nieuwe regelgeving).
-- [ ] Doelkaart en Rode Lijnen herzien op relevantie.
+- [ ] Doelkaart en Harde Grenzen herzien op relevantie.
 
 ______________________________________________________________________
 

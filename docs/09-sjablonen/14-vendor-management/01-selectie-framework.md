@@ -77,12 +77,12 @@ Geef elke leverancier op de shortlist een score (1–5) per eigenschap en vermen
 
 ### PoC-resultaten (optioneel)
 
-| Test                   | \[Leverancier A\] | \[Leverancier B\] | \[Leverancier C\] |
-| :--------------------- | :---------------- | :---------------- | :---------------- |
-| Taaktype 1             |                   |                   |                   |
-| Taaktype 2             |                   |                   |                   |
-| Latency p95            |                   |                   |                   |
-| Kosten per 1K requests |                   |                   |                   |
+| Test                                                                             | \[Leverancier A\] | \[Leverancier B\] | \[Leverancier C\] |
+| :------------------------------------------------------------------------------- | :---------------- | :---------------- | :---------------- |
+| Taaktype 1                                                                       |                   |                   |                   |
+| Taaktype 2                                                                       |                   |                   |                   |
+| Latency p95 (95e percentiel — 95% van alle verzoeken is sneller dan deze waarde) |                   |                   |                   |
+| Kosten per 1K requests                                                           |                   |                   |                   |
 
 ______________________________________________________________________
 

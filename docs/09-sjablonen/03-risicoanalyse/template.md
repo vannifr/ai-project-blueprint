@@ -27,7 +27,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### Toetsing op Rode Lijnen
+### Toetsing op Harde Grenzen
 
 *Welke harde grenzen mogen niet worden overschreden?*
 

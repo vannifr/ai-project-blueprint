@@ -8,6 +8,9 @@ tags: [cost]
 
 # Kostenoptimalisatie
 
+!!! abstract "Doel"
+    Concrete technieken en een kostenraming-tool om AI-systeemkosten beheersbaar te houden in de Realisatie- en Beheerfase.
+
 Concrete technieken en een kostenraming-tool voor AI-systemen. Gebruik dit document in de **Realisatie**- en **Beheer & Optimalisatie**-fase om kosten beheersbaar te houden.
 
 ______________________________________________________________________
@@ -163,7 +166,7 @@ Stel in uw cloud-provider of LLM-provider altijd budgetalerts in op:
 
 ### Kostentoewijzing
 
-Wijs kosten toe per systeem, team of use case via tags/labels in uw cloud-omgeving. Dit maakt ROI-berekening per project mogelijk (zie [Waarderealisatie (benefits realization)](../10-doorlopende-verbetering/04-batenrealisatie.md)).
+Wijs kosten toe per systeem, team of use case via tags/labels in uw cloud-omgeving. Dit maakt ROI-berekening per project mogelijk (zie [Waarderealisatie](../10-doorlopende-verbetering/04-batenrealisatie.md)).
 
 ______________________________________________________________________
 
@@ -183,7 +186,7 @@ ______________________________________________________________________
 
 - [Cloud vs. On-Premise](06-cloud-vs-onpremise.md)
 - [MLOps Standaarden](01-mloops-standaarden.md)
-- [Waarderealisatie (benefits realization)](../10-doorlopende-verbetering/04-batenrealisatie.md)
+- [Waarderealisatie](../10-doorlopende-verbetering/04-batenrealisatie.md)
 - [Business Case Sjabloon](../09-sjablonen/02-business-case/template.md)
 - [Agentic AI Engineering — Kostenbeheersing](09-agentic-ai-engineering.md)
 - [Engineering Patterns](../04-fase-ontwikkeling/06-engineering-patterns.md)

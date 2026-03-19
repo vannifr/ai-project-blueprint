@@ -9,6 +9,9 @@ tags: [eu-ai-act]
 
 # 1. EU AI Act
 
+!!! abstract "Purpose"
+    Practical guide to EU AI Act requirements and how to apply them within your AI project.
+
 ## 1. Purpose
 
 This document describes the specific requirements of the European AI Regulation (EU AI Act) and how they are applied within the project. The EU AI Act is the world's first comprehensive AI regulation and applies to all organisations that offer or use AI systems within the EU.

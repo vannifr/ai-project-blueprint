@@ -9,6 +9,9 @@ tags: [cost]
 
 # Cost Optimisation
 
+!!! abstract "Purpose"
+    Concrete techniques and a cost estimation tool to keep AI system costs manageable during the Development and Operations phases.
+
 Concrete techniques and a cost estimation tool for AI systems. Use this document in the **Development** and **Monitoring & Optimisation** phases to keep costs manageable.
 
 ______________________________________________________________________

@@ -23,7 +23,7 @@ Een middelgrote gemeente wilde medewerkers helpen snel antwoorden te vinden in i
 
 ### Aanpak
 
-Het projectteam gebruikte de **Fast Lane** (6 weken) omdat de risicoklasse Minimaal was: geen persoonsgegevens, geen externe beslissingen, volledig intern gebruik. De Doelkaart definieerde de intentie als "medewerker vindt het juiste beleidsdocument binnen 2 minuten". Rode Lijnen beperkten het systeem tot interne documenten en verboden antwoorden op juridische of medische vragen.
+Het projectteam gebruikte de **Fast Lane** (6 weken) omdat de risicoklasse Minimaal was: geen persoonsgegevens, geen externe beslissingen, volledig intern gebruik. De Doelkaart definieerde de intentie als "medewerker vindt het juiste beleidsdocument binnen 2 minuten". Harde Grenzen beperkten het systeem tot interne documenten en verboden antwoorden op juridische of medische vragen.
 
 De PoV duurde 2 weken en testte 50 representatieve vragen (de Golden Set). Na validatie (89% correcte verwijzingen) werd het systeem uitgerold naar 3 pilootafdelingen.
 

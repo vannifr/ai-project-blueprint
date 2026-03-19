@@ -6,7 +6,10 @@ phase: [3]
 roles: [AI Product Manager, Tech Lead]
 ---
 
-# 1. Specificatie-eerst Patroon (SDD)
+# 1. Specificatie-eerst Patroon
+
+!!! abstract "Doel"
+    Werkwijze waarbij eerst formeel wordt vastgelegd wat het AI-systeem moet doen, voordat er gebouwd wordt, om correcties achteraf te voorkomen en compliance aantoonbaar te maken.
 
 ## 1. Doel
 
@@ -38,7 +41,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3. De SDD-Cyclus
+## 3. De Specificatiecyclus
 
 ### Doeldefinitie Opstellen
 
@@ -47,7 +50,7 @@ De **AI Product Manager** legt de business-intentie vast in de [Doelkaart (goal 
 **Minimaal vastleggen:**
 
 - Wat is het doel? (Doeldefinitie)
-- Wat mag nooit gebeuren? (Rode Lijnen)
+- Wat mag nooit gebeuren? (Harde Grenzen)
 - Wie zijn de gebruikers?
 - Wat is succes? (Meetbare criteria)
 
@@ -57,13 +60,13 @@ De **Tech Lead** en **ML Engineer** vertalen de Doelkaart (goal card) naar een t
 
 **Onderdelen van de specificatie:**
 
-| Component               | Beschrijving                            | Voorbeeld                           |
-| ----------------------- | --------------------------------------- | ----------------------------------- |
-| Input-formaat           | Wat ontvangt het systeem?               | JSON met velden X, Y, Z             |
-| Output-formaat          | Wat levert het systeem op?              | Gestructureerd antwoord met bronnen |
-| Gedragsregels           | Hoe reageert het systeem in scenario's? | Bij vraag over X, verwijs naar Y    |
-| Randvoorwaarden         | Technische beperkingen                  | Max 500 tokens, latency \< 2s       |
-| Rode Lijnen (technisch) | Concrete implementatie van constraints  | Filter op PII-patronen              |
+| Component                 | Beschrijving                            | Voorbeeld                           |
+| ------------------------- | --------------------------------------- | ----------------------------------- |
+| Input-formaat             | Wat ontvangt het systeem?               | JSON met velden X, Y, Z             |
+| Output-formaat            | Wat levert het systeem op?              | Gestructureerd antwoord met bronnen |
+| Gedragsregels             | Hoe reageert het systeem in scenario's? | Bij vraag over X, verwijs naar Y    |
+| Randvoorwaarden           | Technische beperkingen                  | Max 500 tokens, latency \< 2s       |
+| Harde Grenzen (technisch) | Concrete implementatie van constraints  | Filter op PII-patronen              |
 
 ### Specificatie Review
 
@@ -72,10 +75,10 @@ De specificatie wordt gereviewd voordat implementatie start.
 **Review-checklist:**
 
 - [ ] Dekt de specificatie alle scenario's uit de Doelkaart (goal card)?
-- [ ] Zijn de Rode Lijnen concreet en implementeerbaar?
+- [ ] Zijn de Harde Grenzen concreet en implementeerbaar?
 - [ ] Is de specificatie testbaar (kunnen we Golden Set afleiden)?
 - [ ] Zijn edge cases beschreven?
-- [ ] Guardian akkoord op Rode Lijnen-implementatie?
+- [ ] Guardian akkoord op Harde Grenzen-implementatie?
 
 ### Golden Set Afleiden
 
@@ -93,7 +96,7 @@ Nu pas beginnen we met bouwen:
 
 - Prompts (prompts/configs) opstellen
 - Integratie met databronnen
-- Implementatie van filters en rode lijnen
+- Implementatie van filters en harde grenzen
 
 ### Validatie tegen Specificatie
 

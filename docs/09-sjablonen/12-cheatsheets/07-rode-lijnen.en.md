@@ -8,19 +8,19 @@ roles: [Guardian]
 tags: [ethics, quick-reference]
 ---
 
-# Cheatsheet — Red Lines
+# Cheatsheet — Hard Boundaries
 
 **Source:** [AI Safety Checklist](../../07-compliance-hub/08-ai-safety-checklist.md) | [Red Teaming](../../07-compliance-hub/07-red-teaming.md)
 
 ______________________________________________________________________
 
-## What are Red Lines?
+## What are Hard Boundaries?
 
-**Red Lines** are behaviours that the AI system must **never** exhibit, regardless of user instruction. They are technically enforced — not merely described in documentation.
+**Hard Boundaries** are behaviours that the AI system must **never** exhibit, regardless of user instruction. They are technically enforced — not merely described in documentation.
 
 ______________________________________________________________________
 
-## Universal Red Lines (for every system)
+## Universal Hard Boundaries (for every system)
 
 | Category                | Prohibited behaviour                                        |
 | :---------------------- | :---------------------------------------------------------- |
@@ -32,7 +32,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Domain-specific Red Lines (examples)
+## Domain-specific Hard Boundaries (examples)
 
 | Domain           | Red Line example                               |
 | :--------------- | :--------------------------------------------- |
@@ -44,7 +44,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Defining Red Lines — Template
+## Defining Hard Boundaries — Template
 
 ```
 RED LINE #[n]
@@ -59,10 +59,10 @@ ______________________________________________________________________
 
 ## Gate Review Check
 
-- [ ] All Red Lines are documented in writing
+- [ ] All Hard Boundaries are documented in writing
 - [ ] Each Red Line is technically enforced (not merely described)
-- [ ] Red Teaming has tested Red Lines (see [Red Teaming Playbook](../../07-compliance-hub/07-red-teaming.md))
-- [ ] Guardian has approved Red Lines
+- [ ] Red Teaming has tested Hard Boundaries (see [Red Teaming Playbook](../../07-compliance-hub/07-red-teaming.md))
+- [ ] Guardian has approved Hard Boundaries
 - [ ] Procedure for violations is documented
 
 **Source:** [Red Teaming Playbook](../../07-compliance-hub/07-red-teaming.md) | [Deployment Safety](../../07-compliance-hub/08-ai-safety-checklist.md)

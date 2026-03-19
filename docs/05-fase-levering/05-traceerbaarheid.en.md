@@ -9,6 +9,9 @@ tags: [traceability]
 
 # 1. Traceability
 
+!!! abstract "Purpose"
+    Method to always be able to explain why an AI system produced a given output, essential for auditing, debugging and EU AI Act compliance.
+
 ## 1. Objective
 
 Traceability ensures that we can always explain why an AI system produced a particular output. This is essential for auditing, debugging, incident analysis and compliance with the EU AI Act.

@@ -7,9 +7,9 @@ roles: [Data Scientist]
 tags: [governance, monitoring, template]
 ---
 
-# Maandelijkse Modelgezondheidsreview
+# Maandelijkse Model Health Review
 
-Dit sjabloon biedt een gestructureerde agenda voor de maandelijkse modelgezondheidsreview met stakeholders. Het doel is om op regelmatige basis transparantie te bieden over de prestaties, risico's en het onderhoud van AI-systemen in productie.
+Dit sjabloon biedt een gestructureerde agenda voor de maandelijkse Model Health Review met stakeholders. Het doel is om op regelmatige basis transparantie te bieden over de prestaties, risico's en het onderhoud van AI-systemen in productie.
 
 !!! info "Deelnemers"
     Nodig minimaal de volgende rollen uit: **AI PM** (facilitator), **Tech Lead**, **Data Scientist**, **Sponsor** en **Guardian**. Overweeg de **Adoption Manager** toe te voegen wanneer gebruikersadoptie een aandachtspunt is.
@@ -38,13 +38,13 @@ ______________________________________________________________________
 
 ## 2. Key Metrics Dashboard (10 min)
 
-| Metric                   | Vorige maand | Huidige maand | Trend   | Drempel     |
-| :----------------------- | :----------- | :------------ | :------ | :---------- |
-| Nauwkeurigheid (primair) | \[Waarde\]   | \[Waarde\]    | \[+/-\] | \[Minimum\] |
-| Volume (voorspellingen)  | \[Aantal\]   | \[Aantal\]    | \[+/-\] | N.v.t.      |
-| Kosten per voorspelling  | \[EUR\]      | \[EUR\]       | \[+/-\] | \[Maximum\] |
-| Latentie (p95)           | \[ms\]       | \[ms\]        | \[+/-\] | \[Maximum\] |
-| Hallucination rate       | \[%\]        | \[%\]         | \[+/-\] | \[Maximum\] |
+| Metric                                                                              | Vorige maand | Huidige maand | Trend   | Drempel     |
+| :---------------------------------------------------------------------------------- | :----------- | :------------ | :------ | :---------- |
+| Nauwkeurigheid (primair)                                                            | \[Waarde\]   | \[Waarde\]    | \[+/-\] | \[Minimum\] |
+| Volume (voorspellingen)                                                             | \[Aantal\]   | \[Aantal\]    | \[+/-\] | N.v.t.      |
+| Kosten per voorspelling                                                             | \[EUR\]      | \[EUR\]       | \[+/-\] | \[Maximum\] |
+| Latentie (p95) (95e percentiel — 95% van alle verzoeken is sneller dan deze waarde) | \[ms\]       | \[ms\]        | \[+/-\] | \[Maximum\] |
+| Hallucination rate                                                                  | \[%\]        | \[%\]         | \[+/-\] | \[Maximum\] |
 
 **Toelichting bij afwijkingen:** \[Vat hier afwijkingen samen en verwijs naar de root cause analyse indien beschikbaar.\]
 
@@ -116,7 +116,7 @@ Gebruik de onderstaande scripts als leidraad bij het communiceren van gevoelige 
 | Experiment mislukt                                     | "Het experiment is gefaald."                                     | "De validatiepilot heeft aangetoond dat deze aanpak niet aan de succescriteria voldoet. Wij hebben waardevolle inzichten opgedaan die wij meenemen in het vervolgtraject." |
 
 !!! info "Terminologie"
-    Gebruik binnen de AI Project Blueprint de volgende termen: **prestatieverloop**, **validatiepilot (PoV)**, **rode lijnen**, **ingebruikname/livegang**. Zie de [Termenlijst](../../termenlijst/index.md) voor de volledige lijst.
+    Gebruik binnen de AI Project Blueprint de volgende termen: **prestatieverloop**, **validatiepilot (PoV)**, **harde grenzen**, **ingebruikname/livegang**. Zie de [Termenlijst](../../termenlijst/index.md) voor de volledige lijst.
 
 ______________________________________________________________________
 

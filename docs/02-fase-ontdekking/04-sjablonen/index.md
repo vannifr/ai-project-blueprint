@@ -8,13 +8,16 @@ roles: [AI Product Manager]
 
 # Sjablonen Verkenning & Strategie
 
+!!! abstract "Doel"
+    Overzicht van alle beschikbare sjablonen die de Verkenningsfase ondersteunen, met directe links naar de centrale sjablonenbibliotheek.
+
 ## Beschikbare Sjablonen
 
 De volgende sjablonen ondersteunen de Verkenningsfase. Ze zijn opgeslagen in de centrale sjablonenbibliotheek.
 
 | Sjabloon                                                                 | Beschrijving                                           | Fase                |
 | :----------------------------------------------------------------------- | :----------------------------------------------------- | :------------------ |
-| [Project Charter](../../09-sjablonen/01-project-charter/template.md)     | Definieert scope, doelen, rollen en Rode Lijnen        | Verkenning          |
+| [Project Charter](../../09-sjablonen/01-project-charter/template.md)     | Definieert scope, doelen, rollen en Harde Grenzen      | Verkenning          |
 | [Risico Pre-Scan](../../09-sjablonen/03-risicoanalyse/pre-scan.md)       | Eerste inschatting van juridische en ethische risico's | Verkenning          |
 | [Gate Review Checklist](../../09-sjablonen/04-gate-reviews/checklist.md) | Go/No-Go beslisbasis voor Gate 1                       | Verkenning → Gate 1 |
 | [Business Case](../../09-sjablonen/02-business-case/template.md)         | Kosten-batenanalyse en ROI-berekening                  | Verkenning          |

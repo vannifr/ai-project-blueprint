@@ -7,6 +7,9 @@ roles: [Business Sponsor]
 
 # 1. Richt Focus & Rationaliseer (Dagen 1-30)
 
+!!! abstract "Doel"
+    In de eerste 30 dagen ruimte en inzicht creëren door te stoppen met wat niet werkt en scherp te kiezen waar op ingezet wordt.
+
 **Thema:** Opruimen, Inzicht en Richting.
 
 In deze eerste sprint creëren we ruimte en inzicht. We stoppen met wat niet werkt en kiezen scherp waar we op inzetten.

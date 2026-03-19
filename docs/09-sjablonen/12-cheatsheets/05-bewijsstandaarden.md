@@ -28,14 +28,14 @@ ______________________________________________________________________
 
 ## Vereist Bewijs per Artefact
 
-| Artefact                 | Minimaal niveau | Methode                              |
-| :----------------------- | :-------------- | :----------------------------------- |
-| Outputkwaliteit          | L3              | Golden Set + geautomatiseerde metric |
-| Fairness                 | L3              | Gesegmenteerde analyse per groep     |
-| Veiligheid (Hoog Risico) | L4              | Red Teaming + onafhankelijke review  |
-| Latency                  | L3              | Load test (p95, p99)                 |
-| Kostenprognose           | L2              | Calculator + aannames gedocumenteerd |
-| Traceerbaarheid          | L3              | Audit trail gedemonstreerd           |
+| Artefact                 | Minimaal niveau | Methode                                                                                         |
+| :----------------------- | :-------------- | :---------------------------------------------------------------------------------------------- |
+| Outputkwaliteit          | L3              | Golden Set + geautomatiseerde metric                                                            |
+| Fairness                 | L3              | Gesegmenteerde analyse per groep                                                                |
+| Veiligheid (Hoog Risico) | L4              | Red Teaming + onafhankelijke review                                                             |
+| Latency                  | L3              | Load test (p95, p99) (p95 = 95e percentiel — 95% van alle verzoeken is sneller dan deze waarde) |
+| Kostenprognose           | L2              | Calculator + aannames gedocumenteerd                                                            |
+| Traceerbaarheid          | L3              | Audit trail gedemonstreerd                                                                      |
 
 ______________________________________________________________________
 

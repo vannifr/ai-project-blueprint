@@ -9,6 +9,9 @@ tags: [eu-ai-act, security]
 
 # Incident Response
 
+!!! abstract "Purpose"
+    Severity matrix, roles and immediate actions for quick and coordinated response to AI incidents.
+
 Respond quickly and in a coordinated manner to AI incidents. This page defines the severity matrix, roles and immediate actions. Detailed procedures are in the [Incident Playbooks](06-incidentrespons-playbooks.md).
 
 ______________________________________________________________________

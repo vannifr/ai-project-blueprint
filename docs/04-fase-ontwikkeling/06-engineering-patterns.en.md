@@ -9,6 +9,9 @@ tags: [mlops, security, validation]
 
 # 1. Engineering Patterns for AI-Driven Development
 
+!!! abstract "Purpose"
+    Proven engineering patterns and common anti-patterns for teams using AI tools, focused on quality assurance and preventing rework.
+
 ## 1. Purpose
 
 This module describes proven engineering patterns and common anti-patterns for teams using AI tools during the development phase. The goal is to ensure the quality of AI-generated output and prevent productivity loss through rework.

@@ -7,6 +7,9 @@ roles: [Tech Lead]
 
 # 1. Test Frameworks
 
+!!! abstract "Purpose"
+    Testing approach for AI systems that combines deterministic tests with evaluation of probabilistic behaviour.
+
 ## 1. Purpose
 
 This module defines how we test AI systems. Unlike traditional software, AI requires a combination of deterministic tests and evaluation of probabilistic behaviour.

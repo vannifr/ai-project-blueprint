@@ -9,6 +9,9 @@ tags: [mlops, security, validation]
 
 # 1. Engineering Patterns voor AI-Gedreven Ontwikkeling
 
+!!! abstract "Doel"
+    Bewezen engineering patterns en veelvoorkomende anti-patterns voor teams die AI-tools inzetten, gericht op kwaliteitsborging en het voorkomen van rework.
+
 ## 1. Doel
 
 Deze module beschrijft bewezen engineering patterns en veelvoorkomende anti-patterns voor teams die AI-tools inzetten tijdens de ontwikkelfase. Het doel is de kwaliteit van AI-gegenereerde output te borgen en productiviteitsverlies door rework te voorkomen.
@@ -66,7 +69,7 @@ ______________________________________________________________________
 - **Doelkaart (goal card):** Wat het systeem moet bereiken en welke grenzen gelden ([Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)).
 - **Architectuurbeslissingen:** Technische keuzes vastgelegd als Architecture Decision Records (ADR's).
 - **API-contracten:** Interfacedefinities die de grenzen van het domein beschrijven.
-- **Rode Lijnen:** Expliciete constraints die de AI nooit mag overschrijden.
+- **Harde Grenzen:** Expliciete constraints die de AI nooit mag overschrijden.
 
 **Waarom:** Hoe specifieker de context, hoe relevanter de AI-output. Generieke prompts produceren generieke code.
 

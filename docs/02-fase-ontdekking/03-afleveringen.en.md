@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Deliverables & Gate 1 (Go/No-Go Discovery) (Discovery & Strategy)
 
+!!! abstract "Purpose"
+    Overview of the mandatory deliverables and Gate 1 criteria for a substantiated go/no-go decision after the Discovery phase.
+
 ## 1. Deliverables
 
 The results of the Discovery phase for a substantiated start:

@@ -7,6 +7,9 @@ layer: 1
 
 # 1. AI-Samenwerkingsmodi
 
+!!! abstract "Doel"
+    Classificatie van vijf mens-AI samenwerkingsmodi (Instrumenteel tot Autonoom) om de juiste governance en risicobeheersing per toepassing te bepalen.
+
 ## 1. Doel van de Modi
 
 Om te bepalen welke processen, governance en risicobeheersing nodig zijn, classificeren we de relatie tussen mens en machine in vijf **Samenwerkingsmodi**.
@@ -132,7 +135,7 @@ Wanneer een systeem in Modus 4 (Gedelegeerd) of Modus 5 (Autonoom) opereert, gel
 
 - [ ] Agent handelt: \[specifieke takenlijst\]
 - [ ] Agent handelt NIET: \[uitgesloten taken\]
-- [ ] Scope is gedocumenteerd in: systeemprompts, rode lijnen, tool-toegang
+- [ ] Scope is gedocumenteerd in: systeemprompts, harde grenzen, tool-toegang
 
 **Governance:**
 

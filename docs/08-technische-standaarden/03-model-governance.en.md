@@ -8,6 +8,9 @@ tags: [governance]
 
 # 1. Model Governance
 
+!!! abstract "Purpose"
+    Guidelines for managing AI models throughout their lifecycle: from development to production and retirement.
+
 ## 1. Purpose
 
 This module defines how we manage AI models throughout their lifecycle: from development to production and eventual retirement. Good model governance ensures traceability, controllability and safe releases.

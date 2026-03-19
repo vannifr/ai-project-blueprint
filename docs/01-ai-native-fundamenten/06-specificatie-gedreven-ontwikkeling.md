@@ -6,6 +6,9 @@ layer: 1
 
 # 1. Specificatie-eerst Methode
 
+!!! abstract "Doel"
+    Beschrijving van de Specificatie-eerst Methode (Spec-Driven Development) waarbij verwachtingen formeel worden vastgelegd voordat er gebouwd wordt.
+
 ## 1. Shift-Left Validatie
 
 De **Specificatie-eerst Methode** (ook wel *Spec-Driven Development*) zorgt ervoor dat we eerst de verwachtingen vastleggen voordat we bouwen.
@@ -13,7 +16,7 @@ De **Specificatie-eerst Methode** (ook wel *Spec-Driven Development*) zorgt ervo
 In plaats van direct prompts te schrijven, volgen we deze cyclus:
 
 1. **AI Product Manager** definieert de **Doeldefinitie**.
-1. **ML Engineer** stelt de eerste **Prompts** op.
+1. **Het team** (AI Engineer, Developer of prompt-specialist) stelt de eerste **Prompts** op.
 1. Het systeem genereert een gedetailleerde **specificatie** van het verwachte gedrag.
 1. **Menselijke Review** van de specificatie: We valideren de bedoeling voordat we middelen besteden aan training of testruns.
 1. De goedgekeurde specificatie stuurt de verdere ontwikkeling en de automatische validatie aan.

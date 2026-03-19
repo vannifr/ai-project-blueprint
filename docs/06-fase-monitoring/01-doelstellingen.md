@@ -9,6 +9,9 @@ tags: [monitoring]
 
 # 1. Beheer & Optimalisatie
 
+!!! abstract "Doel"
+    Doelstellingen van Fase 5: prestaties, ethische integriteit en kostenefficiëntie van het AI-systeem waarborgen gedurende de operationele levensduur.
+
 ## 1. Doelstelling
 
 Het primaire doel van de Beheer & Optimalisatiefase is het waarborgen van de prestaties, ethische integriteit en kostenefficiëntie van het AI-systeem gedurende de gehele operationele levensduur.
@@ -34,7 +37,7 @@ ______________________________________________________________________
 
 - [Drift Detectie](05-drift-detectie.md)
 - [Activiteiten](02-activiteiten.md)
-- [Afleveringen](03-afleveringen.md)
+- [Opleveringen](03-afleveringen.md)
 
 **Compliance & Techniek:**
 

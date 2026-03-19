@@ -9,6 +9,9 @@ tags: [validation]
 
 # 1. Validatie
 
+!!! abstract "Doel"
+    Doelstellingen en aanpak van Fase 2: bewijzen dat het AI-idee werkt en financieel levensvatbaar is voordat grootschalig wordt geinvesteerd.
+
 ## 1. Doelstelling
 
 Het primaire doel van de Validatiefase is bewijzen dat het idee werkt en financieel levensvatbaar is voordat we groot investeren.
@@ -41,7 +44,7 @@ ______________________________________________________________________
 
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - [Activiteiten](02-activiteiten.md)
-- [Afleveringen](03-afleveringen.md)
+- [Opleveringen](03-afleveringen.md)
 - [Risicotoets](05-risicoclassificatie.md)
 
 **Volgende stap:** [➡ Fase 3: Realisatie](../04-fase-ontwikkeling/01-doelstellingen.md)

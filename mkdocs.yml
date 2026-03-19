@@ -99,7 +99,7 @@ plugins:
             "🧠 Strategische Fundering": "🧠 Strategic Foundation"
             "AI-Native Principes": "AI-Native Principles"
             "Definitie & Kern": "Definition & Core"
-            "Normatieve Criteria": "Normative Criteria"
+            "Toetsingscriteria": "Assessment Criteria"
             "Artefact Model": "Artefact Model"
             "Validatie Model": "Validation Model"
             "Governance & Organisatie": "Governance & Organisation"
@@ -108,29 +108,29 @@ plugins:
             "AI-Samenwerkingsmodi": "AI Collaboration Modes"
             "Organisatorische Heruitvinding": "Organisational Reinvention"
             "Methodologie": "Methodology"
-            "De AI Levenscyclus": "The AI Lifecycle"
-            "AI-Levenscyclus — Snelle Referentie": "AI Lifecycle — Quick Reference"
+            "De AI-Projectcyclus": "The AI Project Cycle"
+            "AI-Projectcyclus — Snelle Referentie": "AI Project Cycle — Quick Reference"
             "Hybride (Agile-AI)": "Hybrid (Agile-AI)"
-            "Agile Antipatronen": "Agile Anti-patterns"
             "Project Initiatie": "Project Initiation"
+            "Anti-patronen": "Anti-patterns"
             # Operational Phases
             "⚙️ Operationele Fasen": "⚙️ Operational Phases"
             "1. Verkenning & Strategie": "1. Discovery & Strategy"
             "Overzicht": "Overview"
             "Activiteiten": "Activities"
-            "Afleveringen": "Deliverables"
+            "Opleveringen": "Deliverables"
             "Fast Lane (Snelle Route)": "Fast Lane"
             "Moduskeuze Beoordeling": "Collaboration Mode Assessment"
             "2. Validatie (PoV)": "2. Validation (PoV)"
             "Risicotoets": "Risk Assessment"
             "3. Realisatie": "3. Development"
-            "SDD Patroon": "SDD Pattern"
+            "Specificatie-eerst Patroon": "Specification-First Pattern"
             "4. Levering": "4. Delivery"
             "Traceerbaarheid": "Traceability"
             "5. Beheer & Optimalisatie": "5. Monitoring & Optimisation"
             "Drift Detectie": "Drift Detection"
             "6. Doorlopende Verbetering": "6. Continuous Improvement"
-            "Waarderealisatie (benefits realization)": "Benefits Realization"
+            "Waarderealisatie": "Benefits Realization"
             "7. Project Afsluiting": "7. Project Closure"
             "Overdracht": "Handover"
             # Compliance & Technology
@@ -156,7 +156,7 @@ plugins:
             "Modelkaart": "Model Card"
             "Risicoanalyse & Pre-scan": "Risk Analysis & Pre-scan"
             "Risicoanalyse": "Risk Analysis"
-            "AI Artefacten (Doelkaart)": "AI Artefacts (Goal Card)"
+            "AI Artefacten (Goal Card)": "AI Artefacts (Goal Card)"
             "Validatierapport": "Validation Report"
             "Golden Set Test (Deprecated)": "Golden Set Test (Deprecated)"
             "Traceerbaarheid & Links": "Traceability & Links"
@@ -164,7 +164,7 @@ plugins:
             "Cheatsheets": "Cheatsheets"
             "Bewijsstandaarden": "Evidence Standards"
             "Samenwerkingsmodi": "Collaboration Modes"
-            "Rode Lijnen": "Red Lines"
+            "Harde Grenzen": "Hard Boundaries"
             "Incident Respons": "Incident Response"
             "Incident Playbooks": "Incident Playbooks"
             "Vendor Management": "Vendor Management"
@@ -202,7 +202,7 @@ plugins:
             "Stakeholder Communicatie": "Stakeholder Communication"
             "AI PM Onboarding": "AI PM Onboarding"
             "Experiment Ticket": "Experiment Ticket"
-            "Modelgezondheid Review": "Model Health Review"
+            "Model Health Review": "Model Health Review"
             "Veelgestelde Vragen (FAQ)": "Frequently Asked Questions (FAQ)"
             "RAG Design Canvas": "RAG Design Canvas"
   - search:
@@ -250,11 +250,10 @@ nav:
       - Project Charter Light: 00-explorer-kit/02-project-charter-light.md
       - Risk Pre-Scan Quick: 00-explorer-kit/03-risk-prescan-quick.md
       - Validatierapport Minimaal: 00-explorer-kit/04-validatierapport-minimal.md
-      - Scaffold Code: 00-explorer-kit/05-scaffold-code.md
   - 🧠 Strategische Fundering:
     - AI-Native Principes:
       - Definitie & Kern: 01-ai-native-fundamenten/01-definitie.md
-      - Normatieve Criteria: 01-ai-native-fundamenten/02-normatieve-criteria.md
+      - Toetsingscriteria: 01-ai-native-fundamenten/02-normatieve-criteria.md
       - Artefact Model: 01-ai-native-fundamenten/03-artefact-model.md
       - Validatie Model: 01-ai-native-fundamenten/04-validatie-model.md
       - Bewijsstandaarden: 01-ai-native-fundamenten/07-bewijsstandaarden.md
@@ -269,51 +268,51 @@ nav:
       - AI-Samenwerkingsmodi: 00-strategisch-kader/06-has-h-niveaus.md
       - Organisatorische Heruitvinding: 00-strategisch-kader/07-organisatorische-heruitvinding.md
     - Methodologie:
-      - De AI Levenscyclus: 00-strategisch-kader/01-ai-levenscyclus.md
-      - AI-Levenscyclus — Snelle Referentie: 00-strategisch-kader/00-levenscyclus-referentie.md
-      - Hybride (Agile-AI): 00-strategisch-kader/02-hybride-methodologie.md
-      - Agile Antipatronen: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
+      - De AI-Projectcyclus: 00-strategisch-kader/01-ai-levenscyclus.md
+      - AI-Projectcyclus — Snelle Referentie: 00-strategisch-kader/00-levenscyclus-referentie.md
       - Project Initiatie: 00-strategisch-kader/05-project-initiatie.md
+      - Hybride (Agile-AI): 00-strategisch-kader/02-hybride-methodologie.md
       - Spec-Driven Development: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
+      - Anti-patronen: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
   - ⚙️ Operationele Fasen:
     - 1. Verkenning & Strategie:
       - Overzicht: 02-fase-ontdekking/01-doelstellingen.md
       - Activiteiten: 02-fase-ontdekking/02-activiteiten.md
-      - Afleveringen: 02-fase-ontdekking/03-afleveringen.md
+      - Opleveringen: 02-fase-ontdekking/03-afleveringen.md
       - Fast Lane (Snelle Route): 02-fase-ontdekking/06-fast-lane.md
       - Moduskeuze Beoordeling: 02-fase-ontdekking/05-has-h-beoordeling.md
     - 2. Validatie (PoV):
       - Overzicht: 03-fase-validatie/01-doelstellingen.md
       - Activiteiten: 03-fase-validatie/02-activiteiten.md
-      - Afleveringen: 03-fase-validatie/03-afleveringen.md
+      - Opleveringen: 03-fase-validatie/03-afleveringen.md
       - Risicotoets: 03-fase-validatie/05-risicoclassificatie.md
     - 3. Realisatie:
       - Overzicht: 04-fase-ontwikkeling/01-doelstellingen.md
       - Activiteiten: 04-fase-ontwikkeling/02-activiteiten.md
-      - Afleveringen: 04-fase-ontwikkeling/03-afleveringen.md
-      - SDD Patroon: 04-fase-ontwikkeling/05-sdd-patroon.md
+      - Opleveringen: 04-fase-ontwikkeling/03-afleveringen.md
+      - Specificatie-eerst Patroon: 04-fase-ontwikkeling/05-sdd-patroon.md
       - Engineering Patterns: 04-fase-ontwikkeling/06-engineering-patterns.md
     - 4. Levering:
       - Overzicht: 05-fase-levering/01-doelstellingen.md
       - Activiteiten: 05-fase-levering/02-activiteiten.md
-      - Afleveringen: 05-fase-levering/03-afleveringen.md
+      - Opleveringen: 05-fase-levering/03-afleveringen.md
       - Traceerbaarheid: 05-fase-levering/05-traceerbaarheid.md
     - 5. Beheer & Optimalisatie:
       - Overzicht: 06-fase-monitoring/01-doelstellingen.md
       - Activiteiten: 06-fase-monitoring/02-activiteiten.md
-      - Afleveringen: 06-fase-monitoring/03-afleveringen.md
+      - Opleveringen: 06-fase-monitoring/03-afleveringen.md
       - Drift Detectie: 06-fase-monitoring/05-drift-detectie.md
     - 6. Doorlopende Verbetering:
       - Overzicht: 10-doorlopende-verbetering/index.md
       - Retrospectives: 10-doorlopende-verbetering/01-retrospectives.md
       - Kaizen Logs: 10-doorlopende-verbetering/02-kaizen-logs.md
       - Metrics: 10-doorlopende-verbetering/03-metrics-dashboards.md
-      - Waarderealisatie (benefits realization): 10-doorlopende-verbetering/04-batenrealisatie.md
+      - Waarderealisatie: 10-doorlopende-verbetering/04-batenrealisatie.md
     - 7. Project Afsluiting:
       - Overzicht: 11-project-afsluiting/index.md
       - Lessons Learned: 11-project-afsluiting/01-lessons-learned.md
       - Overdracht: 11-project-afsluiting/02-overdracht-procedures.md
-      - Waarderealisatie (benefits realization): 11-project-afsluiting/03-batenrealisatie.md
+      - Waarderealisatie: 11-project-afsluiting/03-batenrealisatie.md
   - 🛡️ Compliance & Techniek:
     - Compliance Hub:
       - Overzicht: 07-compliance-hub/index.md
@@ -348,7 +347,7 @@ nav:
       - Pre-scan: 09-sjablonen/03-risicoanalyse/pre-scan.md
     - Gate Reviews: 09-sjablonen/04-gate-reviews/checklist.md
     - Guardian Review Checklist: 09-sjablonen/15-guardian-review/template.md
-    - AI Artefacten (Doelkaart): 09-sjablonen/06-ai-native-artefacten/doelkaart.md
+    - AI Artefacten (Goal Card): 09-sjablonen/06-ai-native-artefacten/doelkaart.md
     - Validatierapport: 09-sjablonen/07-validatie-bewijs/validatierapport.md
     - Golden Set Test (Deprecated): 09-sjablonen/07-validatie-bewijs/template.md
     - Traceerbaarheid & Links: 09-sjablonen/08-traceerbaarheid-links/template.md
@@ -363,7 +362,7 @@ nav:
       - RFP Template: 09-sjablonen/14-vendor-management/02-rfp-template.md
       - Contract Checklist: 09-sjablonen/14-vendor-management/03-contract-checklist.md
     - Experiment Ticket: 09-sjablonen/17-experiment-ticket/template.md
-    - Modelgezondheid Review: 09-sjablonen/18-modelgezondheid/template.md
+    - Model Health Review: 09-sjablonen/18-modelgezondheid/template.md
     - Cheatsheets:
       - Overzicht: 09-sjablonen/12-cheatsheets/index.md
       - Project Charter: 09-sjablonen/12-cheatsheets/01-project-charter.md
@@ -372,7 +371,7 @@ nav:
       - Gate Reviews: 09-sjablonen/12-cheatsheets/04-gate-reviews.md
       - Bewijsstandaarden: 09-sjablonen/12-cheatsheets/05-bewijsstandaarden.md
       - Samenwerkingsmodi: 09-sjablonen/12-cheatsheets/06-samenwerkingsmodi.md
-      - Rode Lijnen: 09-sjablonen/12-cheatsheets/07-rode-lijnen.md
+      - Harde Grenzen: 09-sjablonen/12-cheatsheets/07-rode-lijnen.md
       - Incident Respons: 09-sjablonen/12-cheatsheets/08-incident-respons.md
   - 📈 Transformatie & Groei:
     - Snelstart (90 Dagen):

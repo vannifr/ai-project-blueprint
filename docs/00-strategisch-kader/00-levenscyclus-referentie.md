@@ -5,9 +5,12 @@ type: strategic
 layer: 1
 ---
 
-# AI-Levenscyclus — Snelle Referentie
+# AI-Projectcyclus — Snelle Referentie
 
-> Dit is een navigatiekaart, geen uitleg. Voor de volledige methodologie: zie [AI-Levenscyclus](01-ai-levenscyclus.md).
+!!! abstract "Doel"
+    Eenpagina-overzicht van de vijf AI-levenscyclusfasen met per fase het doel, de gate-criteria, kernactiviteit en bijbehorend sjabloon.
+
+> Dit is een navigatiekaart, geen uitleg. Voor de volledige methodologie: zie [AI-Projectcyclus](01-ai-levenscyclus.md).
 
 ______________________________________________________________________
 
@@ -36,7 +39,7 @@ ______________________________________________________________________
 | Artefact             | Wat het vastlegt                               | Aangemaakt in |
 | :------------------- | :--------------------------------------------- | :------------ |
 | **Doeldefinitie**    | De menselijke intentie achter het systeem      | Fase 1        |
-| **Rode Lijnen**      | Wat het systeem nooit mag doen                 | Fase 1        |
+| **Harde Grenzen**    | Wat het systeem nooit mag doen                 | Fase 1        |
 | **Prompts**          | De stuurinstructies voor het AI-systeem        | Fase 1–3      |
 | **Validatierapport** | Het bewijs dat het systeem werkt zoals bedoeld | Fase 2–3      |
 

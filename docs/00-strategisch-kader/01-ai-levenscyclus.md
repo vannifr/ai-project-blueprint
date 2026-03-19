@@ -1,15 +1,21 @@
 ---
 versie: '1.0'
-description: 'Het AI-levenscyclusmodel: zeven opeenvolgende fasen van Verkenning tot Afsluiting. Leer hoe elke fase doelstellingen, afleveringen en governance gates verbindt in een AI-project.'
+description: 'Het AI-levenscyclusmodel: zeven opeenvolgende fasen van Verkenning tot Afsluiting. Leer hoe elke fase doelstellingen, opleveringen en governance gates verbindt in een AI-project.'
 type: strategic
 layer: 1
 ---
 
-# 1. AI Levenscyclus
+# 1. AI-Projectcyclus
+
+!!! abstract "Doel"
+    Beschrijving van de volledige vijf-fasen AI-levenscyclus die als centrale routekaart dient voor elk AI-project.
 
 ## 1. Doel
 
-Dit document definieert de volledige methodologie voor AI projecten en vormt de fundering van de AI levenscyclus. Het beschrijft de 5 fasen van AI projecten en fungeert als centrale routekaart voor het team.
+Dit document definieert de volledige methodologie voor AI-projecten en vormt de fundering van de AI-projectcyclus. Het beschrijft de 5 fasen van AI-projecten en fungeert als centrale routekaart voor het team.
+
+!!! info "Toepasbaarheid"
+    Deze projectcyclus is van toepassing op **beide projecttypen**: zowel projecten die AI inzetten als onderdeel van het ontwikkelproces (Type A — bouwen met AI) als projecten waarbij AI-functionaliteit onderdeel is van het eindproduct (Type B — AI in het product). De fasering, gates en bewijsstandaarden zijn identiek; het verschil zit in de aard van de opleveringen per fase. Zie [Projecttype Classificatie](../02-fase-ontdekking/02-activiteiten.md) voor details.
 
 ______________________________________________________________________
 
@@ -73,7 +79,7 @@ ______________________________________________________________________
 #### Kernactiviteiten
 
 - **Specificatie-eerst Methode:** Eerst tests schrijven, dan pas de implementatie.
-- **RAG (RAG):** De AI verbinden aan interne bedrijfsinformatie.
+- **RAG:** De AI verbinden aan interne bedrijfsinformatie.
 - **Fine-tunen:** Optimaliseren van de parameters en **Prompts**.
 
 ______________________________________________________________________

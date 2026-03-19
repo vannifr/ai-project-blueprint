@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Fast Lane
 
+!!! abstract "Purpose"
+    Accelerated track for low-risk AI applications to safely and quickly test value with minimal governance overhead.
+
 ## 1. Objective
 
 The Fast Lane is designed to **safely and quickly** test value for **low-risk** AI applications, without unnecessary bureaucracy — but **with minimal governance**.

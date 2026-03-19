@@ -7,6 +7,9 @@ phase: [5]
 
 # 1. Lessons Learned
 
+!!! abstract "Purpose"
+    Structuring and documenting insights gained so that future AI projects benefit from them.
+
 ## 1. Objective
 
 We formally close the project by structuring, documenting and making available the insights gained for future AI projects within the organisation.

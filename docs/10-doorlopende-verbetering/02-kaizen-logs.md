@@ -8,6 +8,9 @@ tags: [agile]
 
 # 2. Kaizen Logs
 
+!!! abstract "Doel"
+    Doorlopend logboek voor kleine, gerichte verbeteringen aan het AI-systeem zodat wijzigingen traceerbaar en herhaalbaar zijn.
+
 ## 1. Doelstelling
 
 Wij registreren elke kleine, gerichte verbetering aan het AI-systeem in een doorlopend Kaizen Log zodat verbeteringen traceerbaar, herhaalbaar en geaggregeerd zichtbaar zijn.
@@ -66,7 +69,7 @@ ______________________________________________________________________
 | AI Product Manager | Beheert het Kaizen Log, prioriteert entries               | A       |
 | Data Scientist     | Registreert en analyseert modelgerelateerde verbeteringen | R       |
 | MLOps Engineer     | Registreert infrastructuur- en pijplijnverbeteringen      | R       |
-| Guardian           | Beoordeelt of verbeteringen de Rode Lijnen raken          | C       |
+| Guardian           | Beoordeelt of verbeteringen de Harde Grenzen raken        | C       |
 
 ______________________________________________________________________
 
@@ -74,7 +77,7 @@ ______________________________________________________________________
 
 - [ ] Alle open entries ouder dan 30 dagen hebben een status-update of zijn geëscaleerd.
 - [ ] Maandelijks overzicht is gedeeld met het team.
-- [ ] Kwartaalanalyse is opgenomen in het Modelgezondheidsrapport.
+- [ ] Kwartaalanalyse is opgenomen in het Model Healthsrapport.
 
 ______________________________________________________________________
 

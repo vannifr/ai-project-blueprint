@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 5. Collaboration Mode Assessment
 
+!!! abstract "Purpose"
+    Determine which AI Collaboration Mode (1 through 5) is appropriate for your use case, as the basis for governance and oversight requirements.
+
 ## 1. Objective
 
 During the Discovery phase, we determine which [Collaboration Mode](../00-strategisch-kader/06-has-h-niveaus.md) (Mode 1 through 5) is appropriate for the use case being developed. This choice forms the basis for the governance requirements, technical specifications and human oversight structure of the project.

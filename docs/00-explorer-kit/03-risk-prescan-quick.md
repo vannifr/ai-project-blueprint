@@ -99,7 +99,7 @@ ______________________________________________________________________
 
 - [ ] **Transparantie:** Eindgebruikers weten dat ze met een AI-systeem werken (geen verborgen AI)
 - [ ] **Menselijk toezicht:** Er is altijd een mens die de AI-output kan controleren en corrigeren
-- [ ] **Rode Lijnen:** We hebben minimaal 2 concrete grenzen gedefinieerd aan wat het systeem NOOIT doet
+- [ ] **Harde Grenzen:** We hebben minimaal 2 concrete grenzen gedefinieerd aan wat het systeem NOOIT doet
 - [ ] **Logging:** We loggen inputs en outputs van het prototype (ook voor troubleshooting)
 - [ ] **Verantwoordelijke:** Er is één persoon die eindverantwoordelijkheid draagt voor dit systeem
 
@@ -113,7 +113,7 @@ ______________________________________________________________________
 
 \[Noteer specifieke risico's die extra aandacht verdienen, ook als de totaalscore groen is.\]
 
-**Vastgestelde Rode Lijnen:**
+**Vastgestelde Harde Grenzen:**
 
 1. \[Bijv. Het systeem verstuurt nooit automatisch communicatie zonder menselijke goedkeuring.\]
 1. \[Bijv. Het systeem verwerkt nooit persoonsgegevens buiten de EU zonder expliciete toestemming.\]

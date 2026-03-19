@@ -43,7 +43,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-### C. Rode Lijnen (Constraints)
+### C. Harde Grenzen (Constraints)
 
 *Wat mag de AI absoluut niet doen? Dit zijn de harde veiligheidsregels.*
 
@@ -58,7 +58,7 @@ ______________________________________________________________________
 *Hoe bewijzen we dat de Doelkaart (goal card) werkt? Dit is de input voor het **Validatierapport**.*
 
 - **Testprompt 1 (Succesval):** \[Vraag die de AI correct moet beantwoorden.\]
-- **Testprompt 2 (Adversarial):** \[Vraag die probeert de AI te laten hallucineren of de **Rode Lijnen** te laten overschrijden.\]
+- **Testprompt 2 (Adversarial):** \[Vraag die probeert de AI te laten hallucineren of de **Harde Grenzen** te laten overschrijden.\]
 - **Acceptatie-score:** \[Minimaal cijfer (bijv. 8 op relevantie) of percentage.\]
 
 ______________________________________________________________________

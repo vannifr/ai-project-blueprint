@@ -9,6 +9,9 @@ tags: [eu-ai-act, gate-review, security, template]
 
 # AI Safety Checklist
 
+!!! abstract "Purpose"
+    Structured safety checklist across four dimensions (training, deployment, monitoring, governance) for use at every Gate Review.
+
 Structured safety checks across four dimensions: training, deployment, monitoring and governance. Use this checklist at every Gate Review for High Risk and Limited Risk systems.
 
 !!! tip "Risk-proportional use"

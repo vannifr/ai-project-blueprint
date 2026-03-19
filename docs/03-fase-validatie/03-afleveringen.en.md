@@ -9,6 +9,9 @@ tags: [validation]
 
 # 1. Deliverables & Gate 2 (PoV Investment) (Validation)
 
+!!! abstract "Purpose"
+    Overview of mandatory deliverables and Gate 2 criteria for the investment decision after the Validation phase.
+
 ## 1. Deliverables
 
 The results of the Validation phase for a substantiated go/no-go decision:

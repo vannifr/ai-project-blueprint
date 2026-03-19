@@ -9,6 +9,9 @@ tags: [monitoring]
 
 # 1. Monitoring & Optimisation
 
+!!! abstract "Purpose"
+    Objectives of Phase 5: safeguarding performance, ethical integrity and cost efficiency of the AI system throughout its operational lifespan.
+
 ## 1. Objective
 
 The primary objective of the Monitoring & Optimisation phase is to safeguard the performance, ethical integrity and cost efficiency of the AI system throughout its entire operational lifespan.

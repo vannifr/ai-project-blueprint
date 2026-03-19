@@ -22,7 +22,7 @@ ______________________________________________________________________
 | :------------------------------- | :----------------------------------------------------------------------------------------- |
 | **Gebruikersvraag**              | Wat stelt de eindgebruiker typisch?                                                        |
 | **Trigger**                      | Wanneer wordt RAG geactiveerd? (altijd / bij lage confidence / bij specifieke trefwoorden) |
-| **Wat mag het model NIET doen?** | Rode Lijnen voor het retrieval-pad (bijv. nooit medisch advies geven)                      |
+| **Wat mag het model NIET doen?** | Harde Grenzen voor het retrieval-pad (bijv. nooit medisch advies geven)                    |
 | **Verwacht responsformaat**      | Tekst / Tabel / JSON / Geciteerd antwoord met bronnen                                      |
 
 ______________________________________________________________________
@@ -105,13 +105,13 @@ ______________________________________________________________________
 
 ## H. Kwaliteitsmetrieken
 
-| Metriek              | Definitie                                                    | Doelwaarde    | Meting                          |
-| :------------------- | :----------------------------------------------------------- | :------------ | :------------------------------ |
-| **Precision@K**      | % relevante chunks in de top-K resultaten                    | ≥ 80%         | Offline evaluatie op Golden Set |
-| **Recall@K**         | % relevante chunks teruggevonden                             | ≥ 70%         | Offline evaluatie op Golden Set |
-| **Faithfulness**     | Antwoord gebaseerd op opgehaalde context (geen hallucinatie) | ≥ 90%         | RAGAS of handmatige beoordeling |
-| **Answer Relevance** | Antwoord relevant voor de gestelde vraag                     | ≥ 85%         | RAGAS of handmatige beoordeling |
-| **Latency (p95)**    | Retrieval + generatie tijd                                   | \< 3 seconden | Productie monitoring            |
+| Metriek                                                                                | Definitie                                                    | Doelwaarde    | Meting                          |
+| :------------------------------------------------------------------------------------- | :----------------------------------------------------------- | :------------ | :------------------------------ |
+| **Precision@K**                                                                        | % relevante chunks in de top-K resultaten                    | ≥ 80%         | Offline evaluatie op Golden Set |
+| **Recall@K**                                                                           | % relevante chunks teruggevonden                             | ≥ 70%         | Offline evaluatie op Golden Set |
+| **Faithfulness**                                                                       | Antwoord gebaseerd op opgehaalde context (geen hallucinatie) | ≥ 90%         | RAGAS of handmatige beoordeling |
+| **Answer Relevance**                                                                   | Antwoord relevant voor de gestelde vraag                     | ≥ 85%         | RAGAS of handmatige beoordeling |
+| **Latency (p95)** (95e percentiel — 95% van alle verzoeken is sneller dan deze waarde) | Retrieval + generatie tijd                                   | \< 3 seconden | Productie monitoring            |
 
 ______________________________________________________________________
 

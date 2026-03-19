@@ -9,6 +9,9 @@ tags: [monitoring]
 
 # 1. Performance Degradation Detection (Drift Detection)
 
+!!! abstract "Purpose"
+    Methods for detecting, measuring and responding to quality degradation (drift) in AI systems.
+
 ## 1. Objective
 
 Performance degradation (drift) is the phenomenon where the quality of an AI system deteriorates over time. This module describes how we detect, measure and respond to drift.
@@ -217,12 +220,12 @@ ______________________________________________________________________
 
 At go-live, record the baseline:
 
-| Metric        | Value at go-live | Alert threshold |
-| ------------- | ---------------- | --------------- |
-| Factual acc.  | 99.2%            | \< 97.2%        |
-| Relevance     | 4.4              | \< 4.1          |
-| Major errors  | 2/150            | > 3/150         |
-| Latency (p95) | 1.8s             | > 3.6s          |
+| Metric                                                                           | Value at go-live | Alert threshold |
+| -------------------------------------------------------------------------------- | ---------------- | --------------- |
+| Factual acc.                                                                     | 99.2%            | \< 97.2%        |
+| Relevance                                                                        | 4.4              | \< 4.1          |
+| Major errors                                                                     | 2/150            | > 3/150         |
+| Latency (p95) (95th percentile — 95% of all requests are faster than this value) | 1.8s             | > 3.6s          |
 
 ### Updating the Baseline
 

@@ -58,12 +58,12 @@ ______________________________________________________________________
 
 Define measurable criteria aligned with the AI Project Blueprint Evidence Standards \[so-1\].
 
-| Criterion           | Metric                     | Minimum threshold | Target value      |
-| :------------------ | :------------------------- | :---------------- | :---------------- |
-| Accuracy            | \[e.g. F1 score\]          | \[e.g. >= 0.80\]  | \[e.g. >= 0.90\]  |
-| Latency             | \[e.g. p95 response time\] | \[e.g. \< 2s\]    | \[e.g. \< 500ms\] |
-| Cost per prediction | \[e.g. EUR/1000 calls\]    | \[e.g. \< EUR 5\] | \[e.g. \< EUR 2\] |
-| User acceptance     | \[e.g. NPS or CSAT\]       | \[e.g. >= 7/10\]  | \[e.g. >= 8/10\]  |
+| Criterion           | Metric                                                                                        | Minimum threshold | Target value      |
+| :------------------ | :-------------------------------------------------------------------------------------------- | :---------------- | :---------------- |
+| Accuracy            | \[e.g. F1 score\]                                                                             | \[e.g. >= 0.80\]  | \[e.g. >= 0.90\]  |
+| Latency             | \[e.g. p95 response time\] (95th percentile — 95% of all requests are faster than this value) | \[e.g. \< 2s\]    | \[e.g. \< 500ms\] |
+| Cost per prediction | \[e.g. EUR/1000 calls\]                                                                       | \[e.g. \< EUR 5\] | \[e.g. \< EUR 2\] |
+| User acceptance     | \[e.g. NPS or CSAT\]                                                                          | \[e.g. >= 7/10\]  | \[e.g. >= 8/10\]  |
 
 - **Evidence level:** \[Reference to the required Evidence Level for this Gate\]
 - **Golden Set available:** \[Yes/No — if No, include as deliverable in sprint 1\]

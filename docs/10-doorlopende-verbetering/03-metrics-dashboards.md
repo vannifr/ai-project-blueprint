@@ -7,6 +7,9 @@ phase: [1, 2, 3, 4, 5]
 
 # 3. Metrics & Dashboards
 
+!!! abstract "Doel"
+    Opzet van gelaagde dashboards en KPI's om de gezondheid van het AI-systeem continu zichtbaar te maken voor het beheerteam.
+
 ## 1. Doelstelling
 
 Wij maken de gezondheid van het AI-systeem continu zichtbaar via gelaagde dashboards en eenduidige KPI's, zodat het beheerteam tijdig kan ingrijpen bij afwijkingen.
@@ -27,12 +30,12 @@ ______________________________________________________________________
 
 Wij meten op vier niveaus. Elke categorie heeft een vaste eigenaar en rapportagecadans:
 
-| Categorie           | Voorbeeldmetrics                                                      | Eigenaar       | Cadans      |
-| :------------------ | :-------------------------------------------------------------------- | :------------- | :---------- |
-| **Modelprestaties** | Nauwkeurigheid, F1-score, afwijking t.o.v. Golden Set                 | Data Scientist | Dagelijks   |
-| **Operationeel**    | Latentie P95, foutpercentage, uptime, doorvoer (requests/min)         | MLOps Engineer | Real-time   |
-| **Gebruikskosten**  | Kosten per aanroep, maandelijkse rekenkosten                          | AI PM          | Maandelijks |
-| **Governance**      | Aantal overschreden Rode Lijnen, Guardian-interventies, bias-signalen | Guardian       | Wekelijks   |
+| Categorie           | Voorbeeldmetrics                                                        | Eigenaar       | Cadans      |
+| :------------------ | :---------------------------------------------------------------------- | :------------- | :---------- |
+| **Modelprestaties** | Nauwkeurigheid, F1-score, afwijking t.o.v. Golden Set                   | Data Scientist | Dagelijks   |
+| **Operationeel**    | Latentie P95, foutpercentage, uptime, doorvoer (requests/min)           | MLOps Engineer | Real-time   |
+| **Gebruikskosten**  | Kosten per aanroep, maandelijkse rekenkosten                            | AI PM          | Maandelijks |
+| **Governance**      | Aantal overschreden Harde Grenzen, Guardian-interventies, bias-signalen | Guardian       | Wekelijks   |
 
 ### Dashboardlagen
 
@@ -125,7 +128,7 @@ ______________________________________________________________________
 
 - [Doorlopende Verbetering — Overzicht](index.md)
 - [Retrospectives](01-retrospectives.md)
-- [Waarderealisatie (benefits realization)](04-batenrealisatie.md)
+- [Waarderealisatie](04-batenrealisatie.md)
 - [Drift Detectie](../06-fase-monitoring/05-drift-detectie.md)
 - [Beheer & Optimalisatie — Activiteiten](../06-fase-monitoring/02-activiteiten.md)
 

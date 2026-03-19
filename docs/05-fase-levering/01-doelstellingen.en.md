@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Delivery
 
+!!! abstract "Purpose"
+    Objectives of Phase 4: a safe go-live, human oversight and structured handover to the production environment.
+
 ## 1. Delivery Objectives
 
 - **Safe Go-live:** Controlled transition to production.

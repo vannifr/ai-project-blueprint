@@ -9,6 +9,9 @@ tags: [eu-ai-act, playbook, security]
 
 # Red Teaming Playbook
 
+!!! abstract "Purpose"
+    Setup, standard exercises and reporting for systematically testing AI system vulnerabilities before they go to production.
+
 Red teaming is the systematic attack of your own AI system to discover vulnerabilities before malicious actors or unforeseen situations do. This playbook describes setup, five standard exercises and reporting.
 
 !!! info "When to perform"

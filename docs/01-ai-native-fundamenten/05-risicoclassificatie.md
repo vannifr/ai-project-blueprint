@@ -8,16 +8,19 @@ tags: [risk]
 
 # 1. Risicoclassificatie
 
+!!! abstract "Doel"
+    Classificatie van wijzigingen op basis van impact, zodat de juiste validatiediepgang wordt toegepast in lijn met de EU AI Act.
+
 ## 1. Validatie Diepgang
 
-Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wijzigingen op basis van de impact op de **Rode Lijnen**.
+Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wijzigingen op basis van de impact op de **Harde Grenzen**.
 
 | Niveau       | Trigger (Voorbeeld)                                    | Validatie Diepgang                              | EU AI Act Mapping   |
 | :----------- | :----------------------------------------------------- | :---------------------------------------------- | :------------------ |
 | **Kritiek**  | Beveiliging, Financiële transacties, Gezondheidsadvies | Volledige Validatie + **Rode Lijn** Verificatie | **Hoog Risico**     |
 | **Verhoogd** | Persoonsgegevens (PII), Externe API-koppelingen        | Uitgebreide Gedrags- + Doelgerichtheidtoets     | **Beperkt Risico**  |
 | **Matig**    | Schrijfstijl (Tone of Voice), UX-wijzigingen           | Minimale Gedrags- + Doelgerichtheidtoets        | **Beperkt Risico**  |
-| **Laag**     | Geen **Rode Lijnen** geraakt                           | Syntactische + Minimale Gedragscheck            | **Minimaal Risico** |
+| **Laag**     | Geen **Harde Grenzen** geraakt                         | Syntactische + Minimale Gedragscheck            | **Minimaal Risico** |
 
 ______________________________________________________________________
 

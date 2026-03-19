@@ -8,6 +8,9 @@ tags: [governance, security, mlops]
 
 # 1. Agentic AI Engineering
 
+!!! abstract "Doel"
+    Operationele handleiding voor het bouwen, testen en beheren van agentische AI-systemen (Samenwerkingsmodus 4-5).
+
 ## 1. Doel
 
 Deze module beschrijft de engineering-praktijken voor het bouwen, testen en beheren van agentische AI-systemen (Samenwerkingsmodus 4-5). Waar de [AI Architectuur](05-ai-architectuur.md) het strategische patroon definieert, biedt dit document de operationele handleiding: orkestratie, protocollen, tool-ontwerp, faalpatronen, observeerbaarheid en kostenbeheersing.

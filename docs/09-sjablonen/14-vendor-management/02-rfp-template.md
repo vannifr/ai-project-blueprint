@@ -53,14 +53,14 @@ ______________________________________________________________________
 
 ### Non-functionele Vereisten
 
-| #   | Vereiste                          | Minimale waarde         |
-| :-- | :-------------------------------- | :---------------------- |
-| NF1 | Beschikbaarheid (uptime)          | ≥ \_\_\_%               |
-| NF2 | Latency (p95 response tijd)       | ≤ \_\_\_ ms             |
-| NF3 | Doorvoercapaciteit (requests/min) | ≥ \_\_\_                |
-| NF4 | Gegevenslocatie                   | EU                      |
-| NF5 | Dataretentie prompts              | Geen / Max \_\_\_ dagen |
-| NF6 | Integratiemethode                 | REST API / SDK          |
+| #   | Vereiste                                                                                         | Minimale waarde         |
+| :-- | :----------------------------------------------------------------------------------------------- | :---------------------- |
+| NF1 | Beschikbaarheid (uptime)                                                                         | ≥ \_\_\_%               |
+| NF2 | Latency (p95 response tijd) (95e percentiel — 95% van alle verzoeken is sneller dan deze waarde) | ≤ \_\_\_ ms             |
+| NF3 | Doorvoercapaciteit (requests/min)                                                                | ≥ \_\_\_                |
+| NF4 | Gegevenslocatie                                                                                  | EU                      |
+| NF5 | Dataretentie prompts                                                                             | Geen / Max \_\_\_ dagen |
+| NF6 | Integratiemethode                                                                                | REST API / SDK          |
 
 ### Compliance Vereisten
 

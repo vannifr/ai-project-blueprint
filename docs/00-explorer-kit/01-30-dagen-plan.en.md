@@ -7,6 +7,9 @@ tags: [onboarding]
 
 # 30-Day Day-by-Day Plan
 
+!!! abstract "Purpose"
+    This plan guides teams step by step through their **first AI project in 30 days**. It is a concrete, daily checklist that takes you from problem definition to a working prototype and Gate Review. Designed for teams without prior AI experience who need structure to start quickly but responsibly.
+
 ## 1. Instructions
 
 Use this plan as your daily guide. Tick off each activity when completed. The time estimates are indicative for a team of 2–3 people.
@@ -54,7 +57,6 @@ ______________________________________________________________________
 **Goal:** Clear mandate for every role for the next 25 days.
 
 - [ ] Confirm who the **AI PM** is (project steering, daily check-in)
-- [ ] Confirm who the **Developer** is (build the prototype, scaffold code)
 - [ ] Appoint a **Guardian** if possible (mini-role: monitor ethics & risk)
 - [ ] Schedule a daily stand-up (15 min, asynchronous via Slack/Teams is OK)
 - [ ] Create a shared project folder (SharePoint, Notion, GitHub — whatever you already use)
@@ -103,12 +105,9 @@ Use the scorecard below. Score each candidate use case from 1 (low) to 3 (high):
 - [ ] Score at least 2 candidate use cases with the scorecard
 - [ ] Select the use case with the highest score (minimum 18/30 recommended)
 - [ ] Document the choice and the rejected alternatives in the project charter
-- [ ] Choose the matching scaffold code template:
     - 📄 **Document Q&A**: questions about internal documents, manuals, policies
     - 📧 **Email classification**: sorting and prioritising incoming messages
     - ✍️ **Content generation**: structured text or reports
-
-**Done when:** Use case is chosen, documented, and scaffold code template is selected.
 
 ______________________________________________________________________
 
@@ -118,11 +117,8 @@ ______________________________________________________________________
 
 **Goal:** A working prototype that can process 20 test cases.
 
-- [ ] Set up the development environment (see [Scaffold Code](05-scaffold-code.md) — Docker setup section)
-- [ ] Copy the scaffold code for your chosen use case
 - [ ] Configure the API key and data source
 - [ ] Run the first test with 5 sample inputs
-- [ ] Fix any errors (scaffold code includes a troubleshooting guide)
 - [ ] Refine the prompt or configuration based on initial results
 - [ ] Build a minimal interface or script for the Sponsor demo (day 21)
 - [ ] Commit all code to your project repository (GitHub or internal)
@@ -212,4 +208,3 @@ ______________________________________________________________________
 - [Project Charter Light](02-project-charter-light.md)
 - [Quick Risk Pre-Scan](03-risk-prescan-quick.md)
 - [Minimal Validation Report](04-validatierapport-minimal.md)
-- [Scaffold Code](05-scaffold-code.md)

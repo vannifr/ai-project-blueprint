@@ -8,6 +8,9 @@ tags: [eu-ai-act, risk]
 
 # 1. Risicobeheer
 
+!!! abstract "Doel"
+    Systematische aanpak voor het identificeren, beoordelen en mitigeren van risico's gedurende de gehele AI-levenscyclus.
+
 ## 1. Doel
 
 Systematisch identificeren, beoordelen en mitigeren van risico's gedurende de gehele AI-levenscyclus.
@@ -19,7 +22,7 @@ ______________________________________________________________________
 ### Risico-identificatie
 
 - Systeemanalyse op basis van de **Doeldefinitie**.
-- Identificeren van impact op de **Rode Lijnen**.
+- Identificeren van impact op de **Harde Grenzen**.
 - Analyseren van mogelijke **Prestatieverschuiving** in productie.
 
 ### Risicobeoordeling
@@ -38,7 +41,7 @@ ______________________________________________________________________
 ## 3. Rollen in Risicobeheer
 
 - **AI Product Manager:** Eindverantwoordelijk voor de business risico's.
-- **Guardian:** Onafhankelijk toezichthouder op ethiek en **Rode Lijnen**.
+- **Guardian:** Onafhankelijk toezichthouder op ethiek en **Harde Grenzen**.
 - **Risk Officer:** Toezicht op wettelijke compliance.
 
 ______________________________________________________________________

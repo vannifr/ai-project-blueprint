@@ -7,6 +7,9 @@ roles: [Business Sponsor]
 
 # 1. Codificeer & Schaal (Dagen 61-90)
 
+!!! abstract "Doel"
+    In dagen 61-90 de succesvolle pilotresultaten standaardiseren en het fundament bouwen voor schaalbare AI-inzet.
+
 **Thema:** Standaardiseren en Uitrollen.
 
 Wat werkte in de pilot, maken we nu de standaard. We bouwen het fundament voor de lange termijn.

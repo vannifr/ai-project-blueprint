@@ -45,13 +45,13 @@ ______________________________________________________________________
 
 ## Top 5 AI Risks to Check
 
-| Risk                | Signal                            | Mitigation                         |
-| :------------------ | :-------------------------------- | :--------------------------------- |
-| **Hallucinations**  | Factual output without source     | RAG + mandatory source attribution |
-| **Bias**            | User groups treated unequally     | Fairness audit in test set         |
-| **Privacy leakage** | PII in prompts or outputs         | Data minimisation + filtering      |
-| **Vendor lock-in**  | Dependency on single API provider | Abstraction layer + alternative    |
-| **Scope creep**     | System does more than approved    | Red Lines technically enforced     |
+| Risk                | Signal                            | Mitigation                           |
+| :------------------ | :-------------------------------- | :----------------------------------- |
+| **Hallucinations**  | Factual output without source     | RAG + mandatory source attribution   |
+| **Bias**            | User groups treated unequally     | Fairness audit in test set           |
+| **Privacy leakage** | PII in prompts or outputs         | Data minimisation + filtering        |
+| **Vendor lock-in**  | Dependency on single API provider | Abstraction layer + alternative      |
+| **Scope creep**     | System does more than approved    | Hard Boundaries technically enforced |
 
 ______________________________________________________________________
 

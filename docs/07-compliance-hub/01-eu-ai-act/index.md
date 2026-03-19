@@ -9,6 +9,9 @@ tags: [eu-ai-act]
 
 # 1. EU AI Act
 
+!!! abstract "Doel"
+    Praktische gids voor de vereisten van de EU AI Act en hoe deze binnen uw AI-project worden toegepast.
+
 ## 1. Doel
 
 Dit document beschrijft de specifieke vereisten van de Europese AI Verordening (EU AI Act) en hoe deze worden toegepast binnen het project. De EU AI Act is de eerste uitgebreide AI-regelgeving ter wereld en is van toepassing op alle organisaties die AI-systemen aanbieden of gebruiken binnen de EU.
@@ -84,7 +87,7 @@ ______________________________________________________________________
 
 - [Risico Pre-Scan](../../09-sjablonen/03-risicoanalyse/pre-scan.md) bij project start
 - Periodieke risico-updates bij elke Gate
-- Guardian review op Rode Lijnen
+- Guardian review op Harde Grenzen
 - Incidentproces voor nieuwe risico's
 
 **Checklist:**
@@ -123,14 +126,14 @@ ______________________________________________________________________
 
 **Vereiste Inhoud Technisch Dossier:**
 
-| Element                 | Playbook Document                   |
-| ----------------------- | ----------------------------------- |
-| Systeembeschrijving     | Technische Modelkaart               |
-| Ontwerp en ontwikkeling | Specificatie (SDD Patroon)          |
-| Werking en beperkingen  | Doelkaart (goal card) + Rode Lijnen |
-| Risicobeheersysteem     | Risico Pre-Scan + updates           |
-| Wijzigingslogboek       | Git history + release notes         |
-| Testresultaten          | Validatierapport + Golden Set       |
+| Element                 | Playbook Document                     |
+| ----------------------- | ------------------------------------- |
+| Systeembeschrijving     | Technische Modelkaart                 |
+| Ontwerp en ontwikkeling | Specificatie (SDD Patroon)            |
+| Werking en beperkingen  | Doelkaart (goal card) + Harde Grenzen |
+| Risicobeheersysteem     | Risico Pre-Scan + updates             |
+| Wijzigingslogboek       | Git history + release notes           |
+| Testresultaten          | Validatierapport + Golden Set         |
 
 ### Art. 13: Transparantie
 
@@ -138,9 +141,9 @@ ______________________________________________________________________
 
 **Playbook Implementatie:**
 
-- Transparantieplicht in [Rode Lijnen](../../07-compliance-hub/index.md)
+- Transparantieplicht in [Harde Grenzen](../../07-compliance-hub/index.md)
 - AI-disclaimer in gebruikersinterface (Beperkt/Hoog Risico)
-- Bronvermelding bij RAG (RAG)
+- Bronvermelding bij RAG
 
 **Checklist:**
 
@@ -215,10 +218,10 @@ ______________________________________________________________________
 | Art. 9               | Risicobeheersysteem       | Risico Pre-Scan + Gates                      | Risicoanalyse         |
 | Art. 10              | Data governance           | Data Pipelines + Fairness audit (bias audit) | Data & Privacyblad    |
 | Art. 11-12           | Technische documentatie   | Technische standaarden                       | Modelkaart            |
-| Art. 13              | Transparantie             | Rode Lijnen                                  | Doelkaart (goal card) |
+| Art. 13              | Transparantie             | Harde Grenzen                                | Doelkaart (goal card) |
 | Art. 14              | Menselijk toezicht        | AI-Samenwerkingsmodi                         | Project Charter       |
 | Art. 15              | Nauwkeurigheid & security | Bewijsstandaarden                            | Validatierapport      |
-| Art. 50              | Transparantieplicht       | Rode Lijnen                                  | Doelkaart (goal card) |
+| Art. 50              | Transparantieplicht       | Harde Grenzen                                | Doelkaart (goal card) |
 
 ______________________________________________________________________
 

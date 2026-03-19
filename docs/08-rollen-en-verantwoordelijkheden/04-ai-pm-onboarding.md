@@ -8,6 +8,9 @@ tags: [onboarding, playbook]
 
 # AI PM Onboarding Playbook
 
+!!! abstract "Doel"
+    Stap-voor-stap inwerkgids waarmee nieuwe AI Project Managers in zes weken van observatie naar volwaardig eigenaarschap groeien.
+
 Stap-voor-stap inwerkgids voor nieuwe AI Project Managers die instromen in een lopend of nieuw AI-project. Dit playbook helpt u om in zes weken van observatie naar volwaardig eigenaarschap te groeien, met concrete deliverables per fase.
 
 !!! info "Verschil met klassieke PM-onboarding"
@@ -136,7 +139,7 @@ ______________________________________________________________________
 - [RACI Matrix](02-raci-matrix.md)
 - [Stakeholder Communicatie Playbook](03-stakeholder-communicatie.md)
 - [Experiment Ticket sjabloon](../09-sjablonen/17-experiment-ticket/template.md)
-- [Modelgezondheidsreview sjabloon](../09-sjablonen/18-modelgezondheid/template.md)
+- [Model Healthsreview sjabloon](../09-sjablonen/18-modelgezondheid/template.md)
 - [Projectdagboek sjabloon](../09-sjablonen/13-project-dagboek/template.md)
 
 ______________________________________________________________________

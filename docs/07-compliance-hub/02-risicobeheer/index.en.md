@@ -8,6 +8,9 @@ tags: [eu-ai-act, risk]
 
 # 1. Risk Management
 
+!!! abstract "Purpose"
+    Systematic approach for identifying, assessing and mitigating risks throughout the AI lifecycle.
+
 ## 1. Purpose
 
 Systematically identify, assess and mitigate risks throughout the entire AI lifecycle.

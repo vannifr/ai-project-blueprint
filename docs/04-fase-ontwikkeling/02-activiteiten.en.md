@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Core Activities & Roles (Development)
 
+!!! abstract "Purpose"
+    Overview of core activities and role assignments during the Development phase, from data automation to model development and test validation.
+
 ## 1. Core Activities
 
 ### Automating Data Flows

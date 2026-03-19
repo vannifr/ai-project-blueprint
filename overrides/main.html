@@ -3,13 +3,15 @@
 {% block content %}
 {{ super() }}
 {% if page and page.url and 'feedback' not in page.url %}
-<div class="feedback-strip">
-  <span class="feedback-strip__label lang-banner-nl">Was deze pagina nuttig?</span>
-  <span class="feedback-strip__label lang-banner-en">Was this page helpful?</span>
-  <a href="{{ config.extra.url_nl | default('/') }}feedback/?ref={{ page.url | urlencode }}" class="feedback-strip__link lang-banner-nl">
+<div class="feedback-strip lang-banner-nl">
+  <span class="feedback-strip__label">Was deze pagina nuttig?</span>
+  <a href="{{ config.extra.url_nl | default('/') }}feedback/?ref={{ page.url | urlencode }}" class="feedback-strip__link">
     Geef feedback
   </a>
-  <a href="{{ config.extra.url_en | default('/en/') }}feedback/?ref={{ page.url | urlencode }}" class="feedback-strip__link lang-banner-en">
+</div>
+<div class="feedback-strip lang-banner-en">
+  <span class="feedback-strip__label">Was this page helpful?</span>
+  <a href="{{ config.extra.url_en | default('/en/') }}feedback/?ref={{ page.url | urlencode }}" class="feedback-strip__link">
     Give feedback
   </a>
 </div>
@@ -58,7 +60,7 @@
   sessionStorage.setItem('lang-redirect-done', '1');
   var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
   if (!lang.startsWith('nl')) {
-    window.location.replace('/en/');
+    window.location.replace('en/');
   }
 }());
 </script>

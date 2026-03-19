@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Kernactiviteiten & Rollen (Levering)
 
+!!! abstract "Doel"
+    Overzicht van de kernactiviteiten en rolverdelingen tijdens de Leveringsfase, van technische integratie tot gebruikerstraining en acceptatie.
+
 ## 1. Kernactiviteiten
 
 ### Technische Integratie
@@ -39,7 +42,7 @@ Gebruikers opleiden, niet alleen in de knoppen, maar in de nieuwe werkwijze.
 Afronden van alle documentatie voor wet- en regelgeving (o.a. CE-markering indien nodig).
 
 - **Juridisch Dossier:** Verzamelen van alle rapporten voor o.a. de EU AI Act.
-- **Verantwoordingsbewijs:** Aantonen dat de **Rode Lijnen** zijn gehandhaafd tijdens de testfase.
+- **Verantwoordingsbewijs:** Aantonen dat de **Harde Grenzen** zijn gehandhaafd tijdens de testfase.
 - **Overdracht Logboeken:** Volledig overzicht van de systeemhistorie.
 
 ## 2. Team & Rollen
@@ -67,7 +70,7 @@ ______________________________________________________________________
 - [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
 - [Incident Respons](../07-compliance-hub/05-incidentrespons.md)
 
-**Zie ook:** [Overzicht Fase 4](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)
+**Zie ook:** [Overzicht Fase 4](01-doelstellingen.md) · [Opleveringen](03-afleveringen.md)
 
 ______________________________________________________________________
 

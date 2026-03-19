@@ -8,11 +8,14 @@ roles: [AI Product Manager]
 
 # 1. Kernactiviteiten & Rollen (Realisatie)
 
+!!! abstract "Doel"
+    Overzicht van de kernactiviteiten en rolverdelingen tijdens de Realisatiefase, van data-automatisering tot modelontwikkeling en testvalidatie.
+
 ## 1. Kernactiviteiten
 
 ### Datastromen Automatiseren
 
-Het opzetten van pijplijnen die data automatisch opschonen en aanleveren (geen handwerk meer).
+Het opzetten van pipelines die data automatisch opschonen en aanleveren (geen handwerk meer).
 
 - **Data Pipelines:** Geautomatiseerde ETL-processen (Extract, Transform, Load)
 - **Kwaliteitscontroles:** Automatische validatie van inkomende data
@@ -56,8 +59,8 @@ Elke wijziging wordt getoetst op drie dimensies:
 
 #### Technische Realisatie & Pijplijnen
 
-- **Data Pijplijnen:** Inrichten van robuuste stromen voor training en inferentie.
-- **Automated Gates (Governance-as-Code):** Integreer de **Rode Lijnen** en succes-metrics direct in de CI/CD-pipeline.
+- **Data Pipelines:** Inrichten van robuuste stromen voor training en inferentie.
+- **Automated Gates (Governance-as-Code):** Integreer de **Harde Grenzen** en succes-metrics direct in de CI/CD-pipeline.
 - *Voorbeeld:* De build faalt automatisch als de bias-score te hoog is of de accuraatheid onder de drempelwaarde zakt.
 - **Continuous Testing (CT):** Geautomatiseerde evaluatie van model-outputs bij elke wijziging in de **Prompts**.
 
@@ -97,7 +100,7 @@ ______________________________________________________________________
 - [Spec-Driven Development](../01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md)
 - [SDD Patroon](05-sdd-patroon.md)
 
-**Zie ook:** [Overzicht Fase 3](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)
+**Zie ook:** [Overzicht Fase 3](01-doelstellingen.md) · [Opleveringen](03-afleveringen.md)
 
 ______________________________________________________________________
 

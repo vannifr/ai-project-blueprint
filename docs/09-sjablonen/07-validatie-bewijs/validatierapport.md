@@ -35,7 +35,7 @@ ______________________________________________________________________
 ## 2. Scope & referenties (traceerbaarheid)
 
 **Doelkaart (goal card) versie:** \[link/ID\]
-**Rode Lijnen versie:** \[link/ID\]
+**Harde Grenzen versie:** \[link/ID\]
 **Prompts versie:** \[link/ID\]
 **Modelkaart versie:** \[link/ID\]
 **Testprotocol versie (Golden Set Test):** \[link/ID\]

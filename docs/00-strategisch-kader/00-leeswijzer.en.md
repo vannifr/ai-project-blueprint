@@ -7,6 +7,9 @@ layer: 1
 
 # 1. Reader's Guide & Navigation
 
+!!! abstract "Purpose"
+    Quick navigation aid to find the right section of the Blueprint based on your role and situation.
+
 ## 1. Welcome to the AI Project Blueprint
 
 This is not a document to read from A to Z. It is a toolkit. You consult what you need, when you need it.
@@ -35,6 +38,10 @@ Go to [Validation](../03-fase-validatie/01-doelstellingen.md). Here you will lea
 ### I am going to build or develop
 
 Go to [Realisation](../04-fase-ontwikkeling/01-doelstellingen.md) and [Risk Management](../07-compliance-hub/index.md). Make sure you complete the **Technical Model Card**.
+
+### I am a (new) AI Project Manager
+
+Start with the **[AI PM Onboarding Playbook](../08-rollen-en-verantwoordelijkheden/04-ai-pm-onboarding.md)** for a guided introduction to your role, responsibilities and the key artefacts.
 
 ### I am from Legal or Compliance
 

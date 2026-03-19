@@ -6,6 +6,9 @@ layer: 1
 
 # 1. Organisational Reinvention
 
+!!! abstract "Purpose"
+    Description of the organisational transformation needed to evolve from isolated AI projects to a scalable AI platform.
+
 ## 1. Objective
 
 AI is not just a technical upgrade, but a foundation for a new way of working. This document describes how the organisation must transform to reap the benefits of AI.

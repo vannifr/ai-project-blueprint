@@ -28,14 +28,14 @@ ______________________________________________________________________
 
 ## Required Evidence per Artefact
 
-| Artefact           | Minimum level | Method                              |
-| :----------------- | :------------ | :---------------------------------- |
-| Output quality     | L3            | Golden Set + automated metric       |
-| Fairness           | L3            | Segmented analysis per group        |
-| Safety (High Risk) | L4            | Red Teaming + independent review    |
-| Latency            | L3            | Load test (p95, p99)                |
-| Cost projection    | L2            | Calculator + documented assumptions |
-| Traceability       | L3            | Audit trail demonstrated            |
+| Artefact           | Minimum level | Method                                                                                        |
+| :----------------- | :------------ | :-------------------------------------------------------------------------------------------- |
+| Output quality     | L3            | Golden Set + automated metric                                                                 |
+| Fairness           | L3            | Segmented analysis per group                                                                  |
+| Safety (High Risk) | L4            | Red Teaming + independent review                                                              |
+| Latency            | L3            | Load test (p95, p99) (p95 = 95th percentile — 95% of all requests are faster than this value) |
+| Cost projection    | L2            | Calculator + documented assumptions                                                           |
+| Traceability       | L3            | Audit trail demonstrated                                                                      |
 
 ______________________________________________________________________
 

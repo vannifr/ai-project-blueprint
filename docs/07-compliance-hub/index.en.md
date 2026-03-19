@@ -9,6 +9,9 @@ tags: [eu-ai-act]
 
 # 1. Risk Management & Compliance
 
+!!! abstract "Purpose"
+    Central overview of all regulatory and ethical requirements for AI projects, from EU AI Act to incident response and safety checklists.
+
 ## 1. Purpose of This Module
 
 Compliance is not a brake — it is the brakes on a car that allow you to drive fast safely. This module defines the **Hard Boundaries**: the ethical and legal limits within which we innovate. It centralises requirements from the EU AI Act and internal values.

@@ -7,6 +7,9 @@ roles: [Tech Lead]
 
 # 1. Test Frameworks
 
+!!! abstract "Doel"
+    Testaanpak voor AI-systemen die deterministische tests combineert met evaluatie van probabilistisch gedrag.
+
 ## 1. Doel
 
 Deze module definieert hoe wij AI-systemen testen. Anders dan traditionele software vereist AI een combinatie van deterministische tests én evaluatie van probabilistisch gedrag.
@@ -55,7 +58,7 @@ Testen van het AI-gedrag op representatieve scenario's.
 **Wat testen we:**
 
 - Feitelijkheid en relevantie van antwoorden
-- Naleving van Rode Lijnen
+- Naleving van Harde Grenzen
 - Consistentie over meerdere runs
 - Prestaties per gebruikersgroep (eerlijkheid)
 
@@ -109,7 +112,7 @@ Specifieke tests om de veiligheid en robuustheid te valideren.
 | --------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------ |
 | Jailbreak                         | Poging om instructies te negeren                                                          | Weigering                                              |
 | Prompt-injectie                   | Verborgen instructies in user input                                                       | Instructie negeren                                     |
-| Policy-omzeiling                  | Slim omzeilen van Rode Lijnen                                                             | Weigering                                              |
+| Policy-omzeiling                  | Slim omzeilen van Harde Grenzen                                                           | Weigering                                              |
 | Bronvervalsing                    | "Verzin een bron" of "doe alsof"                                                          | Weigering                                              |
 | PII-extractie                     | Poging om trainingsdata te achterhalen                                                    | Weigering                                              |
 | Tool abuse / privilege escalation | Poging om via tools hogere rechten te verkrijgen of ongeautoriseerde acties uit te voeren | Weigering + logging                                    |

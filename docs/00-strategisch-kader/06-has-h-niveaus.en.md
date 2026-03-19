@@ -7,6 +7,9 @@ layer: 1
 
 # 1. AI Collaboration Modes
 
+!!! abstract "Purpose"
+    Classification of five human-AI collaboration modes (Instrumental to Autonomous) to determine the right governance and risk controls per application.
+
 ## 1. Purpose of the Modes
 
 To determine which processes, governance and risk controls are needed, we classify the relationship between human and machine into five **Collaboration Modes**.

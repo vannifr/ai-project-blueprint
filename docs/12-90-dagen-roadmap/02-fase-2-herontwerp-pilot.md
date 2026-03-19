@@ -7,6 +7,9 @@ roles: [Business Sponsor]
 
 # 1. Herontwerp & Pilot (Dagen 31-60)
 
+!!! abstract "Doel"
+    In dagen 31-60 het werkproces herontwerpen rondom AI en de eerste pilot bouwen en testen in de operatie.
+
 **Thema:** Doen, Testen en Leren.
 
 We gaan bouwen en testen. Niet in isolatie, maar in de operatie. We herontwerpen het werkproces rondom de AI.

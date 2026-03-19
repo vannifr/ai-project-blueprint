@@ -7,6 +7,9 @@ roles: [Business Sponsor]
 
 # 1. Codify & Scale (Days 61-90)
 
+!!! abstract "Purpose"
+    In days 61-90, standardise successful pilot results and build the foundation for scalable AI deployment.
+
 **Theme:** Standardise and Roll Out.
 
 What worked in the pilot, we now make the standard. We build the foundation for the long term.

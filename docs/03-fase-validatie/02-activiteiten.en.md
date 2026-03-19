@@ -9,6 +9,9 @@ tags: [validation]
 
 # 1. Core Activities & Roles (Validation)
 
+!!! abstract "Purpose"
+    Overview of the core activities and role assignments during the Validation phase, including the Validation Pilot (PoV) and Business Case preparation.
+
 ## 1. Core Activities
 
 ### Validation Pilot

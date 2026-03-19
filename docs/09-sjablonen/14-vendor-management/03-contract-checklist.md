@@ -47,15 +47,15 @@ ______________________________________________________________________
 
 ## Sectie 3 — Service Level Agreement (SLA)
 
-| Vereiste                                            | Status | Notitie |
-| :-------------------------------------------------- | :----- | :------ |
-| Uptime SLA vastgelegd (bijv. 99.5%)                 | ☐      |         |
-| Meetmethode uptime gedefinieerd                     | ☐      |         |
-| Boeteclausule bij SLA-schending                     | ☐      |         |
-| Latency-garanties (p95, p99) gespecificeerd         | ☐      |         |
-| Capaciteitsgaranties (rate limits) vastgelegd       | ☐      |         |
-| Incidentprocedure en communicatiekanalen beschreven | ☐      |         |
-| Statuspagina en incidentmeldingen geregeld          | ☐      |         |
+| Vereiste                                                                                                               | Status | Notitie |
+| :--------------------------------------------------------------------------------------------------------------------- | :----- | :------ |
+| Uptime SLA vastgelegd (bijv. 99.5%)                                                                                    | ☐      |         |
+| Meetmethode uptime gedefinieerd                                                                                        | ☐      |         |
+| Boeteclausule bij SLA-schending                                                                                        | ☐      |         |
+| Latency-garanties (p95, p99) gespecificeerd (p95 = 95e percentiel — 95% van alle verzoeken is sneller dan deze waarde) | ☐      |         |
+| Capaciteitsgaranties (rate limits) vastgelegd                                                                          | ☐      |         |
+| Incidentprocedure en communicatiekanalen beschreven                                                                    | ☐      |         |
+| Statuspagina en incidentmeldingen geregeld                                                                             | ☐      |         |
 
 ______________________________________________________________________
 

@@ -99,7 +99,7 @@ ______________________________________________________________________
 
 - [ ] **Transparency:** End users know they are interacting with an AI system (no hidden AI)
 - [ ] **Human oversight:** There is always a human who can review and correct the AI output
-- [ ] **Red Lines:** We have defined at least 2 concrete boundaries on what the system NEVER does
+- [ ] **Hard Boundaries:** We have defined at least 2 concrete boundaries on what the system NEVER does
 - [ ] **Logging:** We log inputs and outputs of the prototype (also for troubleshooting)
 - [ ] **Accountable person:** One individual bears ultimate responsibility for this system
 
@@ -113,7 +113,7 @@ ______________________________________________________________________
 
 \[Note any specific risks that deserve extra attention, even if the total score is green.\]
 
-**Established Red Lines:**
+**Established Hard Boundaries:**
 
 1. \[E.g. The system never automatically sends communications without human approval.\]
 1. \[E.g. The system never processes personal data outside the EU without explicit consent.\]

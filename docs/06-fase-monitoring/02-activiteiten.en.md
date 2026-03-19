@@ -9,6 +9,9 @@ tags: [monitoring]
 
 # 1. Core Activities & Roles (Monitoring & Optimisation)
 
+!!! abstract "Purpose"
+    Overview of core activities and role assignments during the Monitoring & Optimisation phase, from operational monitoring to drift detection and cost control.
+
 ## 1. Core Activities
 
 ### Operational Monitoring & MLOps
@@ -65,7 +68,7 @@ An AI system has a finite lifespan. Define in advance when shutdown is justified
 1. **Knowledge transfer:** Document lessons learned in the [Lessons Learned](../11-project-afsluiting/01-lessons-learned.md) register.
 1. **Data deletion:** Delete or anonymise production data in accordance with GDPR \[so-49\].
 1. **Infrastructure:** Shut down compute, API keys and monitoring pipelines.
-1. **Guardian sign-off:** Guardian confirms all Red Lines obligations have been fulfilled.
+1. **Guardian sign-off:** Guardian confirms all Hard Boundaries obligations have been fulfilled.
 
 ## 2. Team & Roles
 

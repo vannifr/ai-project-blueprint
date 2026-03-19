@@ -63,7 +63,7 @@ Score yourself. 4 or more "yes" = you are in this profile.
 - [ ] At least 2 use cases fully documented (Goal card + Validation report)
 - [ ] Designated AI PM (even part-time)
 - [ ] Guardian or compliance officer appointed
-- [ ] Red Lines established for all active systems
+- [ ] Hard Boundaries established for all active systems
 - [ ] At least 1 Gate Review completed in accordance with the Blueprint
 
 ### Top-5 Actions for the Explorer
@@ -72,7 +72,7 @@ Score yourself. 4 or more "yes" = you are in this profile.
 1. **Appoint an AI PM** — even part-time; creates ownership
 1. **Document 1 existing use case** using the Goal card
 1. **Conduct a Risk Pre-Scan** for every active AI system
-1. **Establish Red Lines** for your most-used AI tool
+1. **Establish Hard Boundaries** for your most-used AI tool
 
 ### Metrics
 
@@ -130,7 +130,7 @@ ______________________________________________________________________
 
 ### Exit criteria (ready for Visionary level)
 
-- [ ] All active AI systems have a complete documentation set (Charter, Goal card, Red Lines, Validation report)
+- [ ] All active AI systems have a complete documentation set (Charter, Goal card, Hard Boundaries, Validation report)
 - [ ] Gate Reviews mandatory and always completed before go-live
 - [ ] Formal incident response process tested
 - [ ] Collaboration Mode recorded for each system

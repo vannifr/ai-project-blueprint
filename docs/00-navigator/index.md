@@ -439,7 +439,7 @@ Beantwoord vier stappen — uw rol, uw context, en tien maturity-vragen — en d
 <div class="bn-dimension">
     <div class="bn-dim-label">Dimensie C — Governance &amp; Risicobeheer</div>
     <div class="bn-q-item">
-      <div class="bn-q-text">6. We hebben formele Rode Lijnen vastgesteld voor onze AI-systemen.</div>
+      <div class="bn-q-text">6. We hebben formele Harde Grenzen vastgesteld voor onze AI-systemen.</div>
       <div class="bn-score-row">
         <button class="bn-score-btn" data-q="6" data-v="1" onclick="bnScore(this)">1</button>
         <button class="bn-score-btn" data-q="6" data-v="2" onclick="bnScore(this)">2</button>
@@ -540,14 +540,14 @@ var BN_ROUTES = {
       actions: [
         { label: 'Accelerators Overzicht', url: '../15-accelerators/', desc: 'Herbruikbare componenten voor versnelde AI-uitrol' },
         { label: 'Doorlopende Verbetering', url: '../10-doorlopende-verbetering/', desc: 'Kaizen, retrospectives en continue optimalisatie' },
-        { label: 'Waarderealisatie (benefits realization)', url: '../10-doorlopende-verbetering/04-waarderealisatie (benefits realization)/', desc: 'Aantoon en beheer de ROI van uw AI-portfolio' }
+        { label: 'Waarderealisatie', url: '../10-doorlopende-verbetering/04-batenrealisatie/', desc: 'Aantoon en beheer de ROI van uw AI-portfolio' }
       ]
     }
   },
   tech: {
     name: 'Tech Lead / Developer', route: 'B',
     Explorer: {
-      start: { label: 'SDD Patroon (Spec-Driven Development)', url: '../04-fase-ontwikkeling/05-sdd-patroon/', desc: 'Test-first aanpak voor betrouwbare en traceerbare AI-systemen' },
+      start: { label: 'Specificatie-eerst Patroon', url: '../04-fase-ontwikkeling/05-sdd-patroon/', desc: 'Test-first aanpak voor betrouwbare en traceerbare AI-systemen' },
       actions: [
         { label: 'Technische Standaarden Overzicht', url: '../08-technische-standaarden/', desc: 'Architectuur, MLOps-patronen en data pipeline standaarden' },
         { label: 'Data Pipelines', url: '../08-technische-standaarden/02-data-pipelines/', desc: 'Bouw het datafundament voor uw eerste AI-project' },
@@ -613,7 +613,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Governance Model (Formaliseer)', url: '../00-strategisch-kader/03-governance-model/', desc: 'Zet uw AI-governance op voor de lange termijn' },
         { label: 'Doorlopende Verbetering', url: '../10-doorlopende-verbetering/', desc: 'Van projectmentaliteit naar programma-denken' },
-        { label: 'Waarderealisatie (benefits realization)', url: '../10-doorlopende-verbetering/04-waarderealisatie (benefits realization)/', desc: 'Rapporteer ROI aan het management en de raad van bestuur' }
+        { label: 'Waarderealisatie', url: '../10-doorlopende-verbetering/04-batenrealisatie/', desc: 'Rapporteer ROI aan het management en de raad van bestuur' }
       ]
     },
     Visionary: {
@@ -621,7 +621,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Organisatorische Heruitvinding', url: '../00-strategisch-kader/07-organisatorische-heruitvinding/', desc: 'AI als fundament van uw bedrijfsmodel en cultuur' },
         { label: 'Strategische Heruitvinding (Track)', url: '../14-drie-tracks/01-strategische-heruitvinding/', desc: 'Strategische transformatie op de lange termijn' },
-        { label: 'Waarderealisatie (benefits realization) op Portfolio-niveau', url: '../10-doorlopende-verbetering/04-waarderealisatie (benefits realization)/', desc: 'Beheer en communiceer de waarde van uw AI-portfolio' }
+        { label: 'Waarderealisatie op Portfolio-niveau', url: '../10-doorlopende-verbetering/04-batenrealisatie/', desc: 'Beheer en communiceer de waarde van uw AI-portfolio' }
       ]
     }
   }
@@ -731,7 +731,7 @@ Wilt u direct naar een route zonder de wizard? Gebruik dan de tabel hieronder.
 
 | Profiel       | Score | Route A (PM)                                               | Route B (Tech)                                                           | Route C (Guardian)                                           | Route D (CAIO)                                                              |
 | :------------ | :---- | :--------------------------------------------------------- | :----------------------------------------------------------------------- | :----------------------------------------------------------- | :-------------------------------------------------------------------------- |
-| **Verkenner** | 10–20 | [30-Dagen Kit](../00-explorer-kit/)                        | [SDD Patroon](../04-fase-ontwikkeling/05-sdd-patroon/)                   | [Pre-Scan Quick](../00-explorer-kit/03-risk-prescan-quick/)  | [Exec Summary](../00-strategisch-kader/00-executive-summary/)               |
+| **Verkenner** | 10–20 | [30-Dagen Kit](../00-explorer-kit/)                        | [Specificatie-eerst Patroon](../04-fase-ontwikkeling/05-sdd-patroon/)    | [Pre-Scan Quick](../00-explorer-kit/03-risk-prescan-quick/)  | [Exec Summary](../00-strategisch-kader/00-executive-summary/)               |
 | **Bouwer**    | 21–32 | [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist/) | [MLOps Standaarden](../08-technische-standaarden/01-mloops-standaarden/) | [Compliance Hub](../07-compliance-hub/)                      | [Drie Tracks](../14-drie-tracks/)                                           |
 | **Visionair** | 33–40 | [Accelerators](../15-accelerators/)                        | [AI Architectuur](../08-technische-standaarden/05-ai-architectuur/)      | [Incident Respons](../07-compliance-hub/05-incidentrespons/) | [Heruitvinding](../00-strategisch-kader/07-organisatorische-heruitvinding/) |
 

@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Snelle Route (Fast Lane)
 
+!!! abstract "Doel"
+    Versneld traject voor laag-risico AI-toepassingen om veilig en snel waarde te testen met minimale governance-overhead.
+
 ## 1. Doel
 
 De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑risico** AI‑toepassingen, zonder onnodige bureaucratie—maar **met minimale governance**.
@@ -44,7 +47,7 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 
 - **[Project Charter](../09-sjablonen/01-project-charter/template.md)** (Fast Lane variant: kort)
 - **[Risico Pre‑Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)** (moet "Minimaal" bevestigen)
-- **[Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (incl. Rode Lijnen)
+- **[Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (incl. Harde Grenzen)
 - **[Golden Set Test & Acceptatie Protocol](../09-sjablonen/07-validatie-bewijs/template.md)** (light: minimaal 20 cases)
 - **[Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)** (bewijs van testresultaten)
 
@@ -60,7 +63,7 @@ Fast Lane is **niet toegestaan** voor de volgende categorieën:
 **Go** als:
 
 - Risico Pre‑Scan = Minimaal
-- Doelkaart (goal card) bevat Rode Lijnen
+- Doelkaart (goal card) bevat Harde Grenzen
 - Minimaal testplan staat klaar (Golden Set ≥ 20)
 
 ### Gate FL‑2 — Interne live pilot (max. 4 weken)
@@ -78,7 +81,7 @@ Fast Lane stopt direct en je stapt over op standaard lifecycle als:
 - Samenwerkingsmodus opschuift naar **3+**
 - De tool extern gebruikt gaat worden met impact op klanten
 - Het datagebruik uitbreidt naar (bijzondere) persoonsgegevens
-- Er 1 Kritieke fout optreedt (Rode Lijnen geraakt)
+- Er 1 Kritieke fout optreedt (Harde Grenzen geraakt)
 
 ______________________________________________________________________
 

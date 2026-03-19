@@ -9,6 +9,9 @@ tags: [governance]
 
 # 1. Governance Model
 
+!!! abstract "Purpose"
+    Definition of the decision-making structures, roles and oversight layers that steer AI projects safely and effectively.
+
 ## 1. Objective
 
 Defining the decision-making structures, roles and responsibilities to steer AI projects safely and effectively.
@@ -27,16 +30,16 @@ ______________________________________________________________________
 
 ## 3. Responsibilities
 
-| Role                         | Level       | Core Responsibilities                                        |
-| :--------------------------- | :---------- | :----------------------------------------------------------- |
-| **CAIO** (Chief AI Officer)  | Strategic   | Strategy, ROI oversight, Governance ultimate accountability. |
-| **Executive Committee**      | Strategic   | Budget approval, strategic alignment.                        |
-| **AI Product Manager**       | Operational | Use case priority, Stakeholder management, Backlog owner.    |
-| **AI Transformation Office** | Operational | Process oversight, standardisation, training.                |
-| **Data Scientist**           | Technical   | Model development, validation, experimentation.              |
-| **ML Engineering**           | Technical   | **Go-live** pipelines, monitoring, infrastructure.           |
-| **Guardian (Ethicist)**      | Supporting  | Fairness checks, Bias audits, Compliance checks.             |
-| **Security Officer**         | Supporting  | Security measures, Privacy safeguarding.                     |
+| Role                         | Level       | Core Responsibilities                                                          |
+| :--------------------------- | :---------- | :----------------------------------------------------------------------------- |
+| **CAIO** (Chief AI Officer)  | Strategic   | Strategy, ROI oversight, Governance ultimate accountability.                   |
+| **Executive Committee**      | Strategic   | Budget approval, strategic alignment.                                          |
+| **AI Product Manager**       | Operational | Use case priority, Stakeholder management, Backlog owner.                      |
+| **AI Transformation Office** | Operational | Process oversight, standardisation, training.                                  |
+| **Data Scientist**           | Technical   | Model development, validation, experimentation.                                |
+| **ML Engineering**           | Technical   | **Go-live** pipelines, monitoring, infrastructure.                             |
+| **Guardian**                 | Supporting  | Safeguards all boundaries: Fairness Audits, Compliance checks, ethical review. |
+| **Security Officer**         | Supporting  | Security measures, Privacy safeguarding.                                       |
 
 ______________________________________________________________________
 
@@ -44,18 +47,18 @@ ______________________________________________________________________
 
 ```mermaid
 flowchart TD
- A[Initiative] --> B{Gate 1 (Go/No-Go Discovery): Discovery}
- B -->|Go| C[Validation]
- B -->|No Go| X[Stop]
- C --> D{Gate 2 (PoV Investment): Cost Overview}
- D -->|Go| E[Development]
- D -->|No Go| X
- E --> F{Gate 3 (Production-Ready): Go-live}
- F -->|Go| G[Monitoring & Optimisation]
- F -->|No Go| X
- G --> H{Gate 4 (Go-live): Continue?}
- H -->|Yes| A
- H -->|No| I[Closure]
+ A["🟢 Initiative\nIdea or business case"] --> B{"Gate 1\nProblem clear?\nData available?"}
+ B -->|"✅ Go"| C["Phase 2: Validation\nRun validation pilot"]
+ B -->|"❌ No Go"| X["⏹ Stop"]
+ C --> D{"Gate 2\nInvestment Decision\nBusiness case approved?"}
+ D -->|"✅ Go"| E["Phase 3: Realisation\nBuild production-ready"]
+ D -->|"❌ No Go"| X
+ E --> F{"Gate 3\nProduction-Ready?\nAll tests passed?"}
+ F -->|"✅ Go"| G["Phase 4: Management\n& Optimisation"]
+ F -->|"❌ No Go"| X
+ G --> H{"Gate 4\nQuarterly Review\nContinue?"}
+ H -->|"✅ Yes"| A
+ H -->|"❌ No"| I["Closure"]
 ```
 
 ## 5. Gate Reviews

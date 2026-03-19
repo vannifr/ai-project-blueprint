@@ -7,6 +7,9 @@ phase: [1, 2, 3, 4, 5]
 
 # 1. Continuous Improvement
 
+!!! abstract "Purpose"
+    Setting up the feedback loop to continuously improve the AI system based on data, user experiences and operational insights.
+
 ## 1. Purpose
 
 AI systems are not static. After go-live the real learning process begins: user feedback flows in, data patterns shift and business objectives evolve. This module describes how to set up the feedback loop to continuously improve the system based on data, user experiences and operational insights.

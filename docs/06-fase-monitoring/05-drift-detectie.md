@@ -9,6 +9,9 @@ tags: [monitoring]
 
 # 1. Drift Detectie (Drift Detection)
 
+!!! abstract "Doel"
+    Methoden om kwaliteitsverslechtering (drift) in AI-systemen te detecteren, meten en hierop te reageren.
+
 ## 1. Doel
 
 Drift (drift) is het fenomeen waarbij de kwaliteit van een AI-systeem over tijd verslechtert. Deze module beschrijft hoe wij drift detecteren, meten en hierop reageren.
@@ -199,7 +202,7 @@ ______________________________________________________________________
 | ----------------------- | -------------------------------------------------- |
 | Beleid gewijzigd        | Prompts updaten                                    |
 | Verwachtingen veranderd | Doelkaart (goal card) herzien, specificatie update |
-| Externe veranderingen   | Rode Lijnen herzien                                |
+| Externe veranderingen   | Harde Grenzen herzien                              |
 
 ### Drift
 
@@ -217,12 +220,12 @@ ______________________________________________________________________
 
 Bij livegang leg je de nulmeting vast:
 
-| Metric        | Waarde bij livegang | Drempel voor alert |
-| ------------- | ------------------- | ------------------ |
-| Feitelijkheid | 99.2%               | \< 97.2%           |
-| Relevantie    | 4.4                 | \< 4.1             |
-| Major fouten  | 2/150               | > 3/150            |
-| Latency (p95) | 1.8s                | > 3.6s             |
+| Metric                                                                             | Waarde bij livegang | Drempel voor alert |
+| ---------------------------------------------------------------------------------- | ------------------- | ------------------ |
+| Feitelijkheid                                                                      | 99.2%               | \< 97.2%           |
+| Relevantie                                                                         | 4.4                 | \< 4.1             |
+| Major fouten                                                                       | 2/150               | > 3/150            |
+| Latency (p95) (95e percentiel — 95% van alle verzoeken is sneller dan deze waarde) | 1.8s                | > 3.6s             |
 
 ### Baseline Updaten
 

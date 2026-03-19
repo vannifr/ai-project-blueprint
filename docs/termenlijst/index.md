@@ -26,7 +26,7 @@ ______________________________________________________________________
 - **Beheer & Optimalisatie:** De fase na ingebruikname gericht op het monitoren van prestaties, kosten en compliance.
 - **Bewijsstandaarden:** De minimale criteria waaraan testresultaten en documentatie moeten voldoen om door een Gate te komen. Definieert normen per risiconiveau voor feitelijkheid, relevantie, veiligheid en eerlijkheid. → [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - **Bias:** Vooroordelen in data of modellen die leiden tot onrechtvaardige resultaten. Zie ook **Fairness audit (bias audit)**.
-- **Business Case:** Het financiële onderbouwingsdocument dat de investering, verwachte opbrengsten (ROI) en kosten-batenanalyse beschrijft. Wordt aangevuld met de **Doelkaart (goal card)** voor AI-specifieke doeldefinities en Rode Lijnen.
+- **Business Case:** Het financiële onderbouwingsdocument dat de investering, verwachte opbrengsten (ROI) en kosten-batenanalyse beschrijft. Wordt aangevuld met de **Doelkaart (goal card)** voor AI-specifieke doeldefinities en Harde Grenzen.
 
 ## 3. C
 
@@ -39,7 +39,7 @@ ______________________________________________________________________
 - **DORA (DevOps Research and Assessment):** Een framework met vier metrics voor het meten van software delivery prestaties: Lead Time for Changes, Deployment Frequency, Change Failure Rate en Mean Time to Recovery (MTTR). → [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
 - **Data-Evaluatie:** Het proces van het beoordelen of data geschikt is voor een AI-oplossing op basis van Toegang, Kwaliteit en Relevantie.
 - **Doeldefinitie:** Een formeel document dat het beoogde resultaat en de waarde-hypothese van een AI-systeem vastlegt (*Intent Record*).
-- **Doelkaart (goal card):** Het AI-specifieke sturingsdocument dat de **Doeldefinitie** (wat willen we bereiken), **Rode Lijnen** (wat mag nooit gebeuren) en **Prompts** (hoe sturen we het gedrag) combineert. Kernafact voor elke AI-oplossing (*Intent Map*). → [Doelkaart (goal card) sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
+- **Doelkaart (goal card):** Het AI-specifieke sturingsdocument dat de **Doeldefinitie** (wat willen we bereiken), **Harde Grenzen** (wat mag nooit gebeuren) en **Prompts** (hoe sturen we het gedrag) combineert. Kernafact voor elke AI-oplossing (*Intent Map*). → [Doelkaart (goal card) sjabloon](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
 - **DPIA (Data Protection Impact Assessment):** Verplichte risicoanalyse onder de AVG voor AI-systemen die persoonsgegevens verwerken en een hoog risico vormen voor de betrokkenen. → [Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md)
 
 ## 5. E
@@ -57,7 +57,7 @@ ______________________________________________________________________
 - **GPU (Graphics Processing Unit):** Gespecialiseerde processor die veelvuldig wordt ingezet voor het trainen en uitvoeren van AI-modellen, vanwege de hoge parallelisatiecapaciteit. Een formeel beslismoment in de AI-levenscyclus waarbij op basis van bewijs een Go/No-Go beslissing wordt genomen. De blauwdruk definieert 4 gates (Gate 1 t/m Gate 4). → [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 - **Gebruikskosten:** De variabele kosten voor het draaien van een AI-systeem, zoals API-tokens of cloud-rekentijd (*Inference costs*).
 - **Golden Set:** Een representatieve verzameling testcases die wordt gebruikt om AI-prestaties te meten. Bevat standaardcases, randgevallen en adversarial scenarios. Grootte varieert per risiconiveau (20-150 cases).
-- **Guardian:** De onafhankelijke rol binnen het projectteam die waakt over ethische en wettelijke kaders. Heeft veto-recht bij overschrijding van Rode Lijnen. → [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
+- **Guardian:** De onafhankelijke rol binnen het projectteam die waakt over ethische en wettelijke kaders. Heeft veto-recht bij overschrijding van Harde Grenzen. → [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)
 
 ## 8. H
 
@@ -91,7 +91,7 @@ ______________________________________________________________________
 - **RACI:** Een matrix voor het toewijzen van rollen: **R**esponsible (uitvoerder), **A**ccountable (eindverantwoordelijke), **C**onsulted (geraadpleegd), **I**nformed (geïnformeerd). Elke activiteit heeft precies één A.
 - **ROI (Return on Investment):** De verhouding tussen de opbrengst en de investering van een project of systeem, uitgedrukt als percentage of absolute waarde.
 - **Realisatie:** De fase waarin de AI-oplossing technisch wordt gebouwd en uitvoerig wordt getest.
-- **Rode Lijnen:** De harde grenzen en veiligheidskaders waar een AI-systeem nooit buiten mag treden (*Constraints / Guardrails*).
+- **Harde Grenzen:** De harde grenzen en veiligheidskaders waar een AI-systeem nooit buiten mag treden (*Constraints / Guardrails*).
 
 ## 14. S
 

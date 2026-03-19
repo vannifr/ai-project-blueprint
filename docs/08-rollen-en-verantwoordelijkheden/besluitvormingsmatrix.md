@@ -8,6 +8,9 @@ tags: [governance, template]
 
 # Besluitvormingsmatrix
 
+!!! abstract "Doel"
+    Expliciete vastlegging van wie welke beslissing neemt bij elke gate en wie een beslissing kan blokkeren.
+
 ## Doel
 
 Dit document maakt expliciet wie welke beslissing neemt bij elke gate en wie een beslissing kan blokkeren. Onduidelijkheid over beslisbevoegdheid is een van de meest voorkomende oorzaken van vertraagde AI-projecten.
@@ -23,18 +26,18 @@ ______________________________________________________________________
 
 ## Besluitvormingsmatrix per gate
 
-| Beslissing                                        | Accountable         | Responsible       | Veto-recht             | Consulteren               | Informeren                          |
-| :------------------------------------------------ | :------------------ | :---------------- | :--------------------- | :------------------------ | :---------------------------------- |
-| **Go/No-Go Gate 1** (probleemdef. & haalbaarheid) | Sponsor             | AI PM             | Guardian (Rode Lijnen) | Tech Lead, Guardian       | Stuurgroep, Finance                 |
-| **Go/No-Go Gate 2** (investeringsbeslissing PoV)  | Sponsor             | AI PM + Finance   | Guardian (Rode Lijnen) | Tech Lead, Guardian       | Stuurgroep, Legal                   |
-| **Go/No-Go Gate 3** (productie-go/no-go)          | Sponsor + Tech Lead | Tech Lead + AI PM | Guardian (Rode Lijnen) | Legal, Privacy Officer    | Stuurgroep, Ops                     |
-| **Go/No-Go Gate 4** (kwartaalreview beheer)       | Sponsor             | AI PM + Ops       | Guardian (Rode Lijnen) | Tech Lead                 | Finance, Stuurgroep                 |
-| **Stop-beslissing** (circuit breaker activering)  | Guardian            | Tech Lead         | —                      | AI PM, Sponsor            | Stuurgroep, Legal                   |
-| **Moduswijziging** (Samenwerkingsmodus verhogen)  | Sponsor             | AI PM + Tech Lead | Guardian (Rode Lijnen) | Guardian, Legal           | Stuurgroep                          |
-| **Technische haalbaarheid**                       | Tech Lead           | Tech Lead         | —                      | AI PM                     | Sponsor, Guardian                   |
-| **Rode Lijnen aanpassen**                         | Guardian + Sponsor  | Guardian          | Sponsor (scope), Legal | AI PM, Tech Lead, Legal   | Stuurgroep                          |
-| **Model vervangen of fine-tunen**                 | Tech Lead           | Tech Lead + AI PM | Guardian (kwaliteit)   | Guardian, Privacy Officer | Sponsor, Ops                        |
-| **Incident escalatie** (Hoog Risico systemen)     | Guardian            | AI PM             | —                      | Legal, Tech Lead          | Sponsor, Stuurgroep, Toezichthouder |
+| Beslissing                                        | Accountable         | Responsible       | Veto-recht               | Consulteren               | Informeren                          |
+| :------------------------------------------------ | :------------------ | :---------------- | :----------------------- | :------------------------ | :---------------------------------- |
+| **Go/No-Go Gate 1** (probleemdef. & haalbaarheid) | Sponsor             | AI PM             | Guardian (Harde Grenzen) | Tech Lead, Guardian       | Stuurgroep, Finance                 |
+| **Go/No-Go Gate 2** (investeringsbeslissing PoV)  | Sponsor             | AI PM + Finance   | Guardian (Harde Grenzen) | Tech Lead, Guardian       | Stuurgroep, Legal                   |
+| **Go/No-Go Gate 3** (productie-go/no-go)          | Sponsor + Tech Lead | Tech Lead + AI PM | Guardian (Harde Grenzen) | Legal, Privacy Officer    | Stuurgroep, Ops                     |
+| **Go/No-Go Gate 4** (kwartaalreview beheer)       | Sponsor             | AI PM + Ops       | Guardian (Harde Grenzen) | Tech Lead                 | Finance, Stuurgroep                 |
+| **Stop-beslissing** (circuit breaker activering)  | Guardian            | Tech Lead         | —                        | AI PM, Sponsor            | Stuurgroep, Legal                   |
+| **Moduswijziging** (Samenwerkingsmodus verhogen)  | Sponsor             | AI PM + Tech Lead | Guardian (Harde Grenzen) | Guardian, Legal           | Stuurgroep                          |
+| **Technische haalbaarheid**                       | Tech Lead           | Tech Lead         | —                        | AI PM                     | Sponsor, Guardian                   |
+| **Harde Grenzen aanpassen**                       | Guardian + Sponsor  | Guardian          | Sponsor (scope), Legal   | AI PM, Tech Lead, Legal   | Stuurgroep                          |
+| **Model vervangen of fine-tunen**                 | Tech Lead           | Tech Lead + AI PM | Guardian (kwaliteit)     | Guardian, Privacy Officer | Sponsor, Ops                        |
+| **Incident escalatie** (Hoog Risico systemen)     | Guardian            | AI PM             | —                        | Legal, Tech Lead          | Sponsor, Stuurgroep, Toezichthouder |
 
 ______________________________________________________________________
 

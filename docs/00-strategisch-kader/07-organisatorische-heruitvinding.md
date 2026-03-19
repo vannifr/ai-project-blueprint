@@ -6,9 +6,11 @@ layer: 1
 
 # 1. Organisatorische Heruitvinding
 
-## 1. Doel
+!!! abstract "Doel"
+    Dit hoofdstuk schetst de organisatorische transformatie die nodig is om AI structureel in te bedden. Het raakt aan organisatieontwerp, AI governance en cultuurverandering. Een volledige uitwerking van organisatieontwerp en AI-transformatieprogramma's valt buiten de scope van deze blauwdruk, maar de kernprincipes hieronder vormen het vertrekpunt.
 
-AI is niet alleen een technische upgrade, maar een fundament voor een nieuwe manier van werken. Dit document beschrijft hoe de organisatie moet transformeren om de vruchten van AI te plukken.
+!!! tip "Verdieping"
+    Voor een gedetailleerde aanpak per transformatietrack, zie [Drie Tracks](../14-drie-tracks/index.md) en de bijbehorende [Accelerators](../15-accelerators/index.md).
 
 ______________________________________________________________________
 

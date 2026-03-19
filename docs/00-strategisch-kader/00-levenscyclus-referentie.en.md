@@ -5,9 +5,12 @@ type: strategic
 layer: 1
 ---
 
-# AI Lifecycle — Quick Reference
+# AI Project Cycle — Quick Reference
 
-> This is a navigation card, not an explanation. For the full methodology: see [AI Lifecycle](01-ai-levenscyclus.en.md).
+!!! abstract "Purpose"
+    One-page overview of the five AI lifecycle phases with the goal, gate criteria, core activity and primary template per phase.
+
+> This is a navigation card, not an explanation. For the full methodology: see [AI Project Cycle](01-ai-levenscyclus.en.md).
 
 ______________________________________________________________________
 
@@ -36,7 +39,7 @@ ______________________________________________________________________
 | Artefact              | What it records                                | Created in |
 | :-------------------- | :--------------------------------------------- | :--------- |
 | **Goal definition**   | The human intent behind the system             | Phase 1    |
-| **Red Lines**         | What the system must never do                  | Phase 1    |
+| **Hard Boundaries**   | What the system must never do                  | Phase 1    |
 | **Prompts**           | The steering instructions for the AI system    | Phase 1–3  |
 | **Validation report** | The evidence that the system works as intended | Phase 2–3  |
 

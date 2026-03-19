@@ -9,6 +9,9 @@ tags: [governance]
 
 # 1. Governance Model
 
+!!! abstract "Doel"
+    Definitie van de besluitvormingsstructuren, rollen en toezichtlagen die AI-projecten veilig en effectief sturen.
+
 ## 1. Doel
 
 Het definiëren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
@@ -27,16 +30,16 @@ ______________________________________________________________________
 
 ## 3. Verantwoordelijkheden
 
-| Rol                          | Niveau        | Kernverantwoordelijkheden                                           |
-| :--------------------------- | :------------ | :------------------------------------------------------------------ |
-| **CAIO** (Chief AI Officer)  | Strategisch   | Strategie, ROI oversight, Governance eindverantwoordelijkheid.      |
-| **Executive Committee**      | Strategisch   | Budgetgoedkeuring, strategische alignment.                          |
-| **AI Product Manager**       | Operationeel  | Gebruikscasus prioriteit, Stakeholder management, Backlog eigenaar. |
-| **AI Transformation Office** | Operationeel  | Procesbewaking, standaardisatie, training.                          |
-| **Data Scientist**           | Technisch     | Model development, validatie, experimentatie.                       |
-| **ML Engineering**           | Technisch     | **Ingebruikname** pipelines, monitoring, infrastructuur.            |
-| **Guardian (Ethicist)**      | Ondersteunend | Fairness audit (bias audit)en, Bias audits, Compliance checks.      |
-| **Security Officer**         | Ondersteunend | Security maatregelen, Privacy waarborging.                          |
+| Rol                          | Niveau        | Kernverantwoordelijkheden                                                    |
+| :--------------------------- | :------------ | :--------------------------------------------------------------------------- |
+| **CAIO** (Chief AI Officer)  | Strategisch   | Strategie, ROI oversight, Governance eindverantwoordelijkheid.               |
+| **Executive Committee**      | Strategisch   | Budgetgoedkeuring, strategische alignment.                                   |
+| **AI Product Manager**       | Operationeel  | Gebruikscasus prioriteit, Stakeholder management, Backlog eigenaar.          |
+| **AI Transformation Office** | Operationeel  | Procesbewaking, standaardisatie, training.                                   |
+| **Data Scientist**           | Technisch     | Model development, validatie, experimentatie.                                |
+| **ML Engineering**           | Technisch     | **Ingebruikname** pipelines, monitoring, infrastructuur.                     |
+| **Guardian**                 | Ondersteunend | Bewaakt alle grenzen: Fairness Audits, Compliance checks, ethische toetsing. |
+| **Security Officer**         | Ondersteunend | Security maatregelen, Privacy waarborging.                                   |
 
 ______________________________________________________________________
 
@@ -44,18 +47,18 @@ ______________________________________________________________________
 
 ```mermaid
 flowchart TD
- A[Initiatief] --> B{Gate 1 (Go/No-Go Ontdekking): Verkenning}
- B -->|Go| C[Validatie]
- B -->|No Go| X[Stop]
- C --> D{Gate 2 (Investering PoV): Kostenplaatje}
- D -->|Go| E[Realisatie]
- D -->|No Go| X
- E --> F{Gate 3 (Productie-klaar): Ingebruikname}
- F -->|Go| G[Beheer & Optimalisatie]
- F -->|No Go| X
- G --> H{Gate 4 (Livegang): Continue?}
- H -->|Ja| A
- H -->|Nee| I[Afsluiting]
+ A["🟢 Initiatief\nIdee of business case"] --> B{"Gate 1\nProbleem helder?\nData beschikbaar?"}
+ B -->|"✅ Go"| C["Fase 2: Validatie\nValidatiepilot uitvoeren"]
+ B -->|"❌ No Go"| X["⏹ Stop"]
+ C --> D{"Gate 2\nInvesteringsbeslissing\nBusiness case goedgekeurd?"}
+ D -->|"✅ Go"| E["Fase 3: Realisatie\nProductie-klaar bouwen"]
+ D -->|"❌ No Go"| X
+ E --> F{"Gate 3\nProductie-gereed?\nAlle tests geslaagd?"}
+ F -->|"✅ Go"| G["Fase 4: Beheer\n& Optimalisatie"]
+ F -->|"❌ No Go"| X
+ G --> H{"Gate 4\nKwartaalreview\nDoorgaan?"}
+ H -->|"✅ Ja"| A
+ H -->|"❌ Nee"| I["Afsluiting"]
 ```
 
 ## 5. Gate Reviews

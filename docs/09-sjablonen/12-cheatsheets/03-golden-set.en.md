@@ -45,13 +45,13 @@ ______________________________________________________________________
 
 ## Quality Thresholds
 
-| Metric                    | Threshold (Go)  | Action on failure           |
-| :------------------------ | :-------------- | :-------------------------- |
-| Accuracy (classification) | ≥ 85%           | Retrain or optimise prompts |
-| F1-score                  | ≥ 0.80          | Check class imbalance       |
-| Human rating              | ≥ 4.0/5.0       | Review prompt design        |
-| Hallucination rate        | ≤ 5%            | Improve RAG quality         |
-| Latency p95               | ≤ \[budget\] ms | Consider model tiering      |
+| Metric                                                                         | Threshold (Go)  | Action on failure           |
+| :----------------------------------------------------------------------------- | :-------------- | :-------------------------- |
+| Accuracy (classification)                                                      | ≥ 85%           | Retrain or optimise prompts |
+| F1-score                                                                       | ≥ 0.80          | Check class imbalance       |
+| Human rating                                                                   | ≥ 4.0/5.0       | Review prompt design        |
+| Hallucination rate                                                             | ≤ 5%            | Improve RAG quality         |
+| Latency p95 (95th percentile — 95% of all requests are faster than this value) | ≤ \[budget\] ms | Consider model tiering      |
 
 ______________________________________________________________________
 

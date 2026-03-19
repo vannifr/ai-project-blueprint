@@ -10,7 +10,7 @@ tags: [onboarding]
 
 ## 1. Doel
 
-De Verkenner Kit biedt organisaties zonder AI-ervaring een concrete, dag-tot-dag begeleiding om binnen **30 dagen** een werkend AI-prototype op te leveren. Alle templates zijn vereenvoudigd tot het minimaal benodigde; scaffold code verlaagt de technische drempel.
+De Verkenner Kit biedt organisaties zonder AI-ervaring een concrete, dag-tot-dag begeleiding om binnen **30 dagen** een werkend AI-prototype op te leveren. Alle templates zijn vereenvoudigd tot het minimaal benodigde.
 
 !!! tip "Voor wie is dit?"
     Dit pakket is ontworpen voor **Verkenner-organisaties** (maturity score 10–20 op de Blueprint Navigator). Heeft uw organisatie al meerdere AI-systemen in productie? Gebruik dan de [Drie Tracks](../14-drie-tracks/index.md) of de [Accelerators](../15-accelerators/index.md).
@@ -19,13 +19,12 @@ ______________________________________________________________________
 
 ## 2. Wat zit er in het pakket?
 
-| Onderdeel                                                   | Beschrijving                                     | Tijdsinvestering                             |
-| :---------------------------------------------------------- | :----------------------------------------------- | :------------------------------------------- |
-| [30-Dagen Dag-tot-Dag Plan](01-30-dagen-plan.md)            | Weekplanning met dagelijkse acties en checkboxes | 30 minuten om te lezen                       |
-| [Project Charter Light](02-project-charter-light.md)        | 1-pagina projectkader (vereenvoudigd)            | 30–60 minuten invullen                       |
-| [Risk Pre-Scan Quick](03-risk-prescan-quick.md)             | 15-vragen risicoscan                             | 20–30 minuten invullen                       |
-| [Validatierapport Minimaal](04-validatierapport-minimal.md) | 2-pagina validatierapport                        | 60–90 minuten invullen                       |
-| [Scaffold Code](05-scaffold-code.md)                        | Python code voor 3 veelvoorkomende use cases     | Uren niet minuten — maar werkend vanaf dag 1 |
+| Onderdeel                                                   | Beschrijving                                     | Tijdsinvestering       |
+| :---------------------------------------------------------- | :----------------------------------------------- | :--------------------- |
+| [30-Dagen Dag-tot-Dag Plan](01-30-dagen-plan.md)            | Weekplanning met dagelijkse acties en checkboxes | 30 minuten om te lezen |
+| [Project Charter Light](02-project-charter-light.md)        | 1-pagina projectkader (vereenvoudigd)            | 30–60 minuten invullen |
+| [Risk Pre-Scan Quick](03-risk-prescan-quick.md)             | 15-vragen risicoscan                             | 20–30 minuten invullen |
+| [Validatierapport Minimaal](04-validatierapport-minimal.md) | 2-pagina validatierapport                        | 60–90 minuten invullen |
 
 ______________________________________________________________________
 
@@ -60,7 +59,7 @@ Voordat u start, controleer het volgende:
 - [ ] Minimaal één **AI PM** of projectleider beschikbaar (50% van de tijd)
 - [ ] Minimaal één **developer** beschikbaar (80% van de tijd)
 - [ ] Toegang tot een dataset of contentbron voor uw use case
-- [ ] Budget voor een API-sleutel (Claude, OpenAI of vergelijkbaar) — geschat €20–100 voor de prototype-fase
+- [ ] Budget voor een API-sleutel (Claude, OpenAI of vergelijkbaar)
 - [ ] Managementcommitment voor een Go/No-Go beslissing op dag 21
 
 ______________________________________________________________________
@@ -72,8 +71,6 @@ ______________________________________________________________________
 **Stap 2.** Vul het [Project Charter Light](02-project-charter-light.md) in met uw team op dag 1–2.
 
 **Stap 3.** Voer de [Risk Pre-Scan Quick](03-risk-prescan-quick.md) uit op dag 3–4. Bij een rood signaal: raadpleeg de [volledige Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md) voordat u verdergaat.
-
-**Stap 4.** Kies uw use case en start het prototype op dag 11 met de [Scaffold Code](05-scaffold-code.md).
 
 **Stap 5.** Vul op dag 18–20 het [Validatierapport Minimaal](04-validatierapport-minimal.md) in als voorbereiding op de Gate 1 Review.
 

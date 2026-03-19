@@ -7,6 +7,9 @@ layer: 1
 
 # 1. Rollen & Verantwoordelijkheden
 
+!!! abstract "Doel"
+    Overzicht van alle rollen in een AI-project en hun verantwoordelijkheden per levenscyclusfase.
+
 ## 1. Wie doet wat in een AI-project?
 
 In AI-projecten vervagen de grenzen tussen business en IT. Daarom definiëren we rollen op basis van verantwoordelijkheid, niet op basis van functietitel.
@@ -30,7 +33,7 @@ Niet zomaar een Product Owner. De AI PM begrijpt niet alleen de klantvraag, maar
 De architect van de oplossing. Zorgt dat de losse componenten (data, model, interface) naadloos samenwerken.
 
 - **Verantwoordelijkheid:** De **Technische Modelkaart**.
-- **Taak:** Selecteert het juiste model, bouwt de pijplijnen en borgt de technische stabiliteit.
+- **Taak:** Selecteert het juiste model, bouwt de pipelines en borgt de technische stabiliteit.
 - **Focus:** "Is het robuust en schaalbaar?"
 
 ### De Guardian (Rol & Invulling)
@@ -63,7 +66,7 @@ ______________________________________________________________________
 
 ### Context Builder
 
-De industrie verschuift van *prompt engineering* (instructies schrijven) naar **context engineering** (beheren wat het model op elk moment ziet). De Context Builder fungeert als digitale bibliothecaris: hij verzamelt relevante informatie uit honderden bestanden en realtime datastromen, samenvat deze, en archiveert ze in een hiërarchische kennisbank die de contextlimieten van het LLM overstijgt.
+De industrie verschuift van *prompt engineering* (instructies schrijven) naar **context management** (beheren wat het model op elk moment ziet). De Context Builder fungeert als digitale bibliothecaris: hij verzamelt relevante informatie uit honderden bestanden en realtime datastromen, samenvat deze, en archiveert ze in een hiërarchische kennisbank die de contextlimieten van het LLM overstijgt.
 
 **Kernverantwoordelijkheden:**
 

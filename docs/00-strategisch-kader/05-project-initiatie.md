@@ -6,6 +6,9 @@ layer: 1
 
 # 1. Project Initiatie
 
+!!! abstract "Doel"
+    Richtlijnen voor het formeel starten van een AI-project met een helder Project Charter, rollen en verantwoordelijkheden.
+
 ## 1. Doel
 
 Het formaliseren van de start van een AI-project door het vastleggen van heldere doelen, rollen, verantwoordelijkheden en kaders in een **AI Project Charter**.

@@ -7,6 +7,9 @@ phase: [5]
 
 # 2. Overdracht Procedures
 
+!!! abstract "Doel"
+    Gestructureerde overdracht van het AI-systeem aan de beheerorganisatie zodat continuïteit, compliance en kwaliteit gegarandeerd zijn.
+
 ## 1. Doelstelling
 
 Wij dragen het AI-systeem formeel en gestructureerd over aan de beheerorganisatie zodat continuïteit, compliance en kwaliteit na projectafsluiting zijn gegarandeerd.
@@ -45,7 +48,7 @@ De Tech Lead organiseert de technische overdracht in drie stappen:
 De overdracht van de Guardian-rol vereist een aparte procedure:
 
 1. Nieuwe Guardian wordt aangewezen door de beheerorganisatie.
-1. Gezamenlijke sessie: huidige Guardian + nieuwe Guardian lopen de Rode Lijnen door.
+1. Gezamenlijke sessie: huidige Guardian + nieuwe Guardian lopen de Harde Grenzen door.
 1. Schriftelijke overdracht van het compliance-dossier.
 1. Nieuwe Guardian tekent de acceptatie van de Guardian-verantwoordelijkheden.
 
@@ -65,7 +68,7 @@ ______________________________________________________________________
 | :------------------------- | :-------------------------------------------------- | :------ |
 | AI Product Manager         | Coördineert het volledige overdrachtsproces         | A       |
 | Tech Lead                  | Voert technische overdracht en hands-on sessies uit | R       |
-| Guardian (project)         | Draagt compliance-dossier en Rode Lijnen over       | R       |
+| Guardian (project)         | Draagt compliance-dossier en Harde Grenzen over     | R       |
 | Guardian (beheer)          | Accepteert Guardian-rol en compliance-dossier       | R       |
 | Beheerorganisatie eigenaar | Tekent formele acceptatie                           | A       |
 
@@ -98,7 +101,7 @@ ______________________________________________________________________
 - [Overdracht Checklist Sjabloon](../05-fase-levering/04-sjablonen/overdracht-checklist.md)
 - [Gate Reviews Checklist](../09-sjablonen/04-gate-reviews/checklist.md)
 - [Lessons Learned](01-lessons-learned.md)
-- [Waarderealisatie (benefits realization)](03-batenrealisatie.md)
+- [Waarderealisatie](03-batenrealisatie.md)
 
 ______________________________________________________________________
 

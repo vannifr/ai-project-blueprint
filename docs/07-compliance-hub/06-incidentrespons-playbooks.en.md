@@ -9,6 +9,9 @@ tags: [eu-ai-act, playbook, security]
 
 # Incident Playbooks
 
+!!! abstract "Purpose"
+    Four detailed step-by-step procedures for the most common AI incidents: performance degradation, bias, security incidents and data quality.
+
 Four detailed step-by-step procedures for the most common AI incidents. Use these alongside the [Incident Response overview](05-incidentrespons.md) for the severity matrix and roles.
 
 ______________________________________________________________________

@@ -5,17 +5,20 @@ layer: 1
 tags: [agile]
 ---
 
-# 1. Agile Antipatronen
+# 1. Anti-patronen in AI-projecten
+
+!!! abstract "Doel"
+    Overzicht van de "NOT DONE" anti-patronen die in AI-projecten absoluut vermeden moeten worden om falen en compliance-issues te voorkomen.
 
 ## 1. Doel
 
-Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: Agile antipatronen die absoluut vermeden moeten worden om falen, onethisch gedrag of compliance-issues te voorkomen.
+Deze lijst definieert de "NOT DONE" criteria voor AI-projecten: anti-patronen die absoluut vermeden moeten worden om falen, onethisch gedrag of compliance-issues te voorkomen.
 
 ______________________________________________________________________
 
 ## 2. De "NOT DONE" Lijst
 
-### Geen Fairness audit (bias audit) (Bias Audit)
+### Geen Fairness Audit
 
 - **Regel:** AI systemen moeten regelmatig worden gecontroleerd op bias.
 - **Impact:** Discriminatie en reputatieschade.

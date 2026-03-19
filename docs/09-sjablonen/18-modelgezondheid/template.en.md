@@ -38,13 +38,13 @@ ______________________________________________________________________
 
 ## 2. Key Metrics Dashboard (10 min)
 
-| Metric               | Previous month | Current month | Trend   | Threshold   |
-| :------------------- | :------------- | :------------ | :------ | :---------- |
-| Accuracy (primary)   | \[Value\]      | \[Value\]     | \[+/-\] | \[Minimum\] |
-| Volume (predictions) | \[Count\]      | \[Count\]     | \[+/-\] | N/A         |
-| Cost per prediction  | \[EUR\]        | \[EUR\]       | \[+/-\] | \[Maximum\] |
-| Latency (p95)        | \[ms\]         | \[ms\]        | \[+/-\] | \[Maximum\] |
-| Hallucination rate   | \[%\]          | \[%\]         | \[+/-\] | \[Maximum\] |
+| Metric                                                                           | Previous month | Current month | Trend   | Threshold   |
+| :------------------------------------------------------------------------------- | :------------- | :------------ | :------ | :---------- |
+| Accuracy (primary)                                                               | \[Value\]      | \[Value\]     | \[+/-\] | \[Minimum\] |
+| Volume (predictions)                                                             | \[Count\]      | \[Count\]     | \[+/-\] | N/A         |
+| Cost per prediction                                                              | \[EUR\]        | \[EUR\]       | \[+/-\] | \[Maximum\] |
+| Latency (p95) (95th percentile — 95% of all requests are faster than this value) | \[ms\]         | \[ms\]        | \[+/-\] | \[Maximum\] |
+| Hallucination rate                                                               | \[%\]          | \[%\]         | \[+/-\] | \[Maximum\] |
 
 **Explanation of deviations:** \[Summarise deviations here and reference root cause analysis if available.\]
 

@@ -8,6 +8,9 @@ tags: [governance]
 
 # 1. Artefact Model
 
+!!! abstract "Purpose"
+    Overview of the management artefacts (Goal Definition, Hard Boundaries, Prompts, Validation Report and Traceability) that provide control over AI system behaviour.
+
 ## 1. Management Artefacts
 
 To make AI systems governable, we manage specific artefacts that give control over behaviour.

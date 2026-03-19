@@ -63,7 +63,7 @@ Scoor uzelf. 4 of meer "ja" = u zit in dit profiel.
 - [ ] Minimaal 2 use cases volledig gedocumenteerd (Doelkaart + Validatierapport)
 - [ ] Toegewezen AI PM (ook parttime)
 - [ ] Guardian of compliance-verantwoordelijke benoemd
-- [ ] Rode Lijnen vastgesteld voor alle actieve systemen
+- [ ] Harde Grenzen vastgesteld voor alle actieve systemen
 - [ ] Minimaal 1 Gate Review uitgevoerd conform de Blauwdruk
 
 ### Top-5 Acties voor de Verkenner
@@ -72,7 +72,7 @@ Scoor uzelf. 4 of meer "ja" = u zit in dit profiel.
 1. **Benoem een AI PM** — ook parttime; geeft eigenaarschap
 1. **Documenteer 1 bestaande use case** met de Doelkaart
 1. **Voer een Risk Pre-Scan uit** voor elk actief AI-systeem
-1. **Stel Rode Lijnen vast** voor uw meest gebruikte AI-tool
+1. **Stel Harde Grenzen vast** voor uw meest gebruikte AI-tool
 
 ### Meetpunten
 
@@ -112,7 +112,7 @@ Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met d
 
 1. Implementeer Specificatie-eerst Methode (test-driven development)
 1. Stel Prestatieverschuiving monitoring in
-1. Formaliseer governance: definieer Rode Lijnen
+1. Formaliseer governance: definieer Harde Grenzen
 1. Investeer in MLOps training voor het team
 1. Documenteer Stuurinformatie (prompts, context) in version control
 
@@ -130,7 +130,7 @@ ______________________________________________________________________
 
 ### Exitcriteria (gereed voor Visionair-niveau)
 
-- [ ] Alle actieve AI-systemen hebben een volledige documentatieset (Charter, Doelkaart, Rode Lijnen, Validatierapport)
+- [ ] Alle actieve AI-systemen hebben een volledige documentatieset (Charter, Doelkaart, Harde Grenzen, Validatierapport)
 - [ ] Gate Reviews verplicht en altijd uitgevoerd vóór livegang
 - [ ] Formeel incidentresponse-proces getest
 - [ ] Samenwerkingsmodus vastgelegd voor elk systeem

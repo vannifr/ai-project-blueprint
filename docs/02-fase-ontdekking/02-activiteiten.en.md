@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Core Activities & Roles (Discovery & Strategy)
 
+!!! abstract "Purpose"
+    Overview of the core activities and role assignments during the Discovery phase, from problem exploration to data evaluation and risk assessment.
+
 ## 1. Core Activities
 
 ### Problem Exploration
@@ -49,6 +52,10 @@ An initial scan for legal and ethical obstacles.
 ______________________________________________________________________
 
 ## 1b. Project Type Classification
+
+!!! info "Two project types at a glance"
+    - **Type A — Building with AI**: The development team uses AI tools and agentic AI as part of the development process. The end product itself does not need to contain AI.
+    - **Type B — AI in the Product**: The end product integrates AI functionality for end users.
 
 Before proceeding with the core activities, determine the type of AI project. The Blueprint distinguishes two fundamentally different project types:
 

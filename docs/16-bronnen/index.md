@@ -16,6 +16,9 @@ ______________________________________________________________________
 
 De volgende bronnen vormen de juridische en technische ruggengraat van deze blauwdruk en zijn geschikt voor audit-doeleinden.
 
+!!! info "Nummering"
+    De Ref ID's (bijv. `[so-27]`) zijn **stabiele identifiers**, geen volgnummers. Ze blijven vast zodat verwijzingen vanuit andere pagina's geldig blijven, ook wanneer bronnen worden toegevoegd of verwijderd.
+
 | Ref ID        | Bron                                                                 | Beschrijving                                                                                                        | Status       |
 | :------------ | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ | :----------- |
 | **\[so-27\]** | EU AI Act (Official Text)                                            | Officiële wettekst & Verordening (EU) 2024/1689                                                                     | Definitief   |
@@ -27,7 +30,7 @@ De volgende bronnen vormen de juridische en technische ruggengraat van deze blau
 | **\[so-41\]** | Richtlijn (EU) 2024/2853 — Herziene PLD                              | Product Liability Directive inclusief software & AI; inwerkingtreding 8 dec 2024                                    | Definitief   |
 | **\[so-42\]** | OWASP Top 10 for LLM Applications (2025)                             | Meest kritieke beveiligingsrisico's voor LLM-toepassingen, editie 2025                                              | Gepubliceerd |
 | **\[so-43\]** | OWASP / Security Research — Deceptive Delight & HashJack (2025)      | Nieuwe aanvalspatronen: multi-turn manipulatie en URL-fragment prompt-injectie                                      | Gepubliceerd |
-| **\[so-44\]** | Context Engineering — Industry Analysis (2025)                       | Verschuiving van prompt engineering naar context engineering; rol van de Context Builder                            | Gepubliceerd |
+| **\[so-44\]** | Context Management — Industry Analysis (2025)                        | Verschuiving van prompt engineering naar context management; rol van de Context Builder                             | Gepubliceerd |
 | **\[so-45\]** | ISACA — AAISM Certificering (aug 2025)                               | Advanced in AI Security Management: eerste AI-gecentreerde beveiligingsmanagementkwalificatie                       | Definitief   |
 | **\[so-46\]** | Workday — AI Productivity Research (2025)                            | AI Productivity Paradox: rework-valkuil, organisatorisch vs. individueel productiviteitsniveau; GAINS™ ROI-raamwerk | Gepubliceerd |
 | **\[so-47\]** | Cornell University — Carbon-Aware AI (2025)                          | Smart siting en grid-decarbonisatie verminderen CO₂-voetafdruk AI met 73%, water met 86%                            | Gepubliceerd |
@@ -50,7 +53,7 @@ De procesinrichting van deze Blauwdruk is getoetst aan en geïnspireerd door de 
 ### Agile & Software Development
 
 - **Agile Manifesto & Scrum Guide:** Voor de iteratieve werkwijze in de fasen **Realisatie** en **Levering**.
-- **DevOps & MLOps Principles:** Voor de inrichting van geautomatiseerde pijplijnen (CI/CD/CT) en technische robuustheid.
+- **DevOps & MLOps Principles:** Voor de inrichting van geautomatiseerde pipelines (CI/CD/CT) en technische robuustheid.
 
 ### Risicomanagement
 
@@ -115,7 +118,7 @@ ______________________________________________________________________
 | :-------------------------------------- | :---------------------------------------------------------- | :------------------------------- |
 | Google MLOps Whitepaper (2021)          | MLOps volwassenheidsmodel: niveaus 0, 1, 2                  | Technische Standaarden, Fase 5   |
 | Microsoft MLOps Maturity Model          | Praktisch raamwerk voor CI/CD in ML-systemen                | Technische Standaarden           |
-| Monte Carlo — ML Observability (2024)   | Data observability en modelgezondheid-monitoring framework  | Modelgezondheid Review, Fase 5   |
+| Monte Carlo — ML Observability (2024)   | Data observability en modelgezondheid-monitoring framework  | Model Health Review, Fase 5      |
 | OECD AI Principles (2019, herzien 2024) | Vijf principes voor verantwoorde AI (inclusief monitoring)  | Governance Model, Compliance Hub |
 | NIST AI RMF 1.0 (2023)                  | AI Risk Management Framework — Govern, Map, Measure, Manage | Risk Pre-Scan, Gate Reviews      |
 

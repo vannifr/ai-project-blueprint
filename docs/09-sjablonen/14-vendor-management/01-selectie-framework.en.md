@@ -77,12 +77,12 @@ Give each vendor on the shortlist a score (1–5) per property and multiply by t
 
 ### PoC Results (optional)
 
-| Test                 | \[Vendor A\] | \[Vendor B\] | \[Vendor C\] |
-| :------------------- | :----------- | :----------- | :----------- |
-| Task type 1          |              |              |              |
-| Task type 2          |              |              |              |
-| Latency p95          |              |              |              |
-| Cost per 1K requests |              |              |              |
+| Test                                                                           | \[Vendor A\] | \[Vendor B\] | \[Vendor C\] |
+| :----------------------------------------------------------------------------- | :----------- | :----------- | :----------- |
+| Task type 1                                                                    |              |              |              |
+| Task type 2                                                                    |              |              |              |
+| Latency p95 (95th percentile — 95% of all requests are faster than this value) |              |              |              |
+| Cost per 1K requests                                                           |              |              |              |
 
 ______________________________________________________________________
 

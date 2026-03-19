@@ -9,6 +9,9 @@ tags: [validation]
 
 # 1. Kernactiviteiten & Rollen (Validatie)
 
+!!! abstract "Doel"
+    Overzicht van de kernactiviteiten en rolverdelingen tijdens de Validatiefase, inclusief de Validatiepilot (PoV) en Business Case opstelling.
+
 ## 1. Kernactiviteiten
 
 ### Validatiepilot (PoV)
@@ -71,7 +74,7 @@ ______________________________________________________________________
 - [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 - [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)
 
-**Zie ook:** [Overzicht Fase 2](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)
+**Zie ook:** [Overzicht Fase 2](01-doelstellingen.md) · [Opleveringen](03-afleveringen.md)
 
 ______________________________________________________________________
 

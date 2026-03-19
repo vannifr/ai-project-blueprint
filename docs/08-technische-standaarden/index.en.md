@@ -8,6 +8,9 @@ roles: [Tech Lead]
 
 # 1. Technical Standards
 
+!!! abstract "Purpose"
+    Overview of technical blueprints and quality frameworks for AI engineering, from model selection to MLOps.
+
 ## 1. Purpose
 
 In this section we record the technical blueprints and quality frameworks for AI engineering, from model selection to MLOps.

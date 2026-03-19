@@ -7,6 +7,9 @@ roles: [Business Sponsor]
 
 # 1. Focus, Direct & Rationalise (Days 1-30)
 
+!!! abstract "Purpose"
+    In the first 30 days, create space and insight by stopping what does not work and making sharp choices on where to invest.
+
 **Theme:** Clean up, Insight and Direction.
 
 In this first sprint we create space and insight. We stop what is not working and choose sharply where we invest.

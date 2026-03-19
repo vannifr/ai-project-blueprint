@@ -7,6 +7,9 @@ phase: [5]
 
 # 1. Project Closure
 
+!!! abstract "Purpose"
+    Formal closure procedure for AI projects, focused on securing knowledge and transferring responsibilities to the operations organisation.
+
 ## 1. Purpose
 
 Formally concluding an AI project, with a focus on securing the knowledge gained and transferring responsibilities to the management organisation. A structured closure prevents knowledge loss, undocumented dependencies and unclear ownership — three of the most common causes of problems in the operational phase.

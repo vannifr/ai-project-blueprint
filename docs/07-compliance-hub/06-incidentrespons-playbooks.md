@@ -8,6 +8,9 @@ tags: [eu-ai-act, playbook, security]
 
 # Incident Playbooks
 
+!!! abstract "Doel"
+    Vier gedetailleerde stappenplannen voor de meest voorkomende AI-incidenten: prestatieverloop, bias, beveiligingsincidenten en datakwaliteit.
+
 Vier gedetailleerde stappenplannen voor de meest voorkomende AI-incidenten. Gebruik deze naast de [Incident Respons overzichtspagina](05-incidentrespons.md) voor de ernst-matrix en rollen.
 
 ______________________________________________________________________
@@ -23,7 +26,7 @@ ______________________________________________________________________
 - [ ] Classificeer ernst: 🟡 Geel (score ≥ 80% baseline) / 🟠 Oranje (60–80%) / 🔴 Rood (\< 60%)
 - [ ] Noteer tijdstip eerste afwijking
 
-### Stap 2 — Containment (30–60 min)
+### Stap 2 — Containment (indamming) (30–60 min)
 
 - [ ] Notificeer Tech Lead + AI PM
 - [ ] Notificeer Guardian bij 🟠 Oranje of hoger
@@ -67,7 +70,7 @@ ______________________________________________________________________
 !!! danger "Vernietig geen logs"
     Logs zijn bewijsmateriaal. Verwijder of overschrijf niets totdat Legal akkoord geeft.
 
-### Stap 2 — Containment (15 min–1 uur)
+### Stap 2 — Containment (indamming) (15 min–1 uur)
 
 - [ ] Revoceer gecompromitteerde credentials/tokens
 - [ ] Blokkeer verdachte IP-adressen of accounts
@@ -137,7 +140,7 @@ Bepaal de bron:
 
 - [ ] Model Card bijgewerkt met bias-bevindingen
 - [ ] Fairness-monitoring uitgebreid
-- [ ] Fairness audit (bias audit) (Bias Audit) protocol herzien
+- [ ] Fairness Audit protocol herzien
 - [ ] Communicatie naar betrokkenen indien van toepassing
 
 ______________________________________________________________________

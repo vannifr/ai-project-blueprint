@@ -7,9 +7,12 @@ roles: [AI Product Manager, Data Scientist]
 tags: [validation]
 ---
 
-# 1. Opleveringen & Gate 2 (Investering PoV) (Validatie)
+# 1. Opleveringen & Gate 2 — Investeringsbeslissing
 
-## 1. Opleveringen (Afleveringen)
+!!! abstract "Doel"
+    Overzicht van de verplichte opleveringen en Gate 2 criteria voor de investeringsbeslissing na de Validatiefase.
+
+## 1. Opleveringen
 
 De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 
@@ -19,7 +22,7 @@ De resultaten van de Validatiefase voor een gefundeerde go/no-go beslissing:
 - **Het Kostenoverzicht:** Volledige business case met investering en ROI.
 - **Risico-update:** Verfijnde risico-inventarisatie op basis van bevindingen.
 
-## 2. Gate 2 (Investering PoV) Review Checklist
+## 2. Gate 2 — Investeringsbeslissing Review Checklist
 
 !!! check "Review Checklist"
 

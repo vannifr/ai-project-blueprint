@@ -8,7 +8,10 @@ roles: [AI Product Manager]
 
 # 1. Opleveringen & Gate 1 (Go/No-Go Ontdekking) (Verkenning & Strategie)
 
-## 1. Opleveringen (Afleveringen)
+!!! abstract "Doel"
+    Overzicht van de verplichte opleveringen en Gate 1 criteria voor een gefundeerde go/no-go beslissing na de Verkenningsfase.
+
+## 1. Opleveringen
 
 De resultaten van de Verkenningsfase voor een gefundeerde start:
 

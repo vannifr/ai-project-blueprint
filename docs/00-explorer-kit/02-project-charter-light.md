@@ -102,7 +102,7 @@ ______________________________________________________________________
 
 **Bevat persoonsgegevens:** \[ \] Ja — privacy-maatregelen: \[beschrijf\]    \[ \] Nee
 
-**Rode Lijnen (wat doet het systeem NOOIT):**
+**Harde Grenzen (wat doet het systeem NOOIT):**
 
 - \[Bijv. Het systeem verstuurt nooit automatisch e-mails zonder menselijke goedkeuring.\]
 - \[Bijv. Het systeem geeft nooit financieel of juridisch advies.\]

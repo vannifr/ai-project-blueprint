@@ -32,7 +32,7 @@ ______________________________________________________________________
 
 - **Basismodel (Foundation):** \[Bijv. Azure OpenAI GPT-4\]
 - **Parameters:** \[Bijv. Temperature: 0.7, TopP: 0.9\]
-- **RAG (RAG):**
+- **RAG:**
 - **Bron:** \[Bijv. SharePoint Map 'Kennisbeheer'\]
 - **Update frequentie:** \[Wekelijks / Real-time\]
 

@@ -57,7 +57,7 @@ Doorloop deze checklist vóór significante investering:
 **Technische validatie**
 
 - [ ] De schaalarchitectuur is ontworpen en besproken met de Tech Lead.
-- [ ] De Rode Lijnen voor het product zijn gedefinieerd en goedgekeurd door de Guardian.
+- [ ] De Harde Grenzen voor het product zijn gedefinieerd en goedgekeurd door de Guardian.
 - [ ] Compliance-risico's (EU AI Act, AVG) zijn geïdentificeerd en gedocumenteerd.
 
 ______________________________________________________________________

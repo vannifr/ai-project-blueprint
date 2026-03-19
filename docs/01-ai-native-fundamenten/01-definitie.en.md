@@ -7,6 +7,9 @@ layer: 1
 
 # 1. Core Principles
 
+!!! abstract "Purpose"
+    Explanation of the core principles of AI-native project management: behavioural steering, traceability and human oversight as the foundation.
+
 ## 1. What Are the Core Principles?
 
 We treat AI systems not as static software, but as **behaviour steering**. This means we do not programme AI systems in the traditional sense, but steer them through information and context.
@@ -94,7 +97,7 @@ The difference from traditional software:
 | Single test = done      | Continuous validation required     |
 | Bug = code error        | "Bug" = context problem            |
 
-**Context Engineering** becomes the new core discipline: designing and managing the information that steers AI behaviour.
+**Context Management** becomes the new core discipline: designing and managing the information that steers AI behaviour. This encompasses both *context management* (the technical design of knowledge sources and prompt architecture) and the broader organisational process of providing information to AI systems.
 
 ______________________________________________________________________
 

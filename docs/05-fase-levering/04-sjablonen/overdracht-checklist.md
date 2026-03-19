@@ -9,6 +9,9 @@ tags: [gate-review]
 
 # 1. Checklist: Operationele Overdracht
 
+!!! abstract "Doel"
+    Afvinkbare checklist voor de formele overdracht van het AI-systeem van het projectteam aan de beheerorganisatie bij Gate 4.
+
 Gebruik deze checklist bij de formele overdracht van het AI-systeem van het projectteam aan de beheerorganisatie (Gate 4 — Livegang). Alle items moeten zijn afgevinkt én gedocumenteerd vóór de overdracht officieel is.
 
 ______________________________________________________________________
@@ -37,7 +40,7 @@ ______________________________________________________________________
 ## 3. Governance & Compliance
 
 - [ ] **Guardian overgedragen:** De Guardian-rol is formeel overgedragen aan een persoon binnen de beheerorganisatie of een onafhankelijke partij.
-- [ ] **Rode Lijnen gecommuniceerd:** De beheerorganisatie kent en begrijpt de Rode Lijnen van het systeem. Schriftelijke bevestiging aanwezig.
+- [ ] **Harde Grenzen gecommuniceerd:** De beheerorganisatie kent en begrijpt de Harde Grenzen van het systeem. Schriftelijke bevestiging aanwezig.
 - [ ] **EU AI Act dossier compleet:** Voor Hoog Risico-systemen is het Technisch Dossier volledig en goedgekeurd door de Guardian. → [EU AI Act](../../07-compliance-hub/01-eu-ai-act/index.md)
 - [ ] **Privacy & Data compliant:** Data & Privacyblad (AVG/DPIA) is goedgekeurd en opgenomen in het dossier.
 - [ ] **Licenties en contracten geregeld:** Alle externe API-contracten, datalicenties en leveranciersovereenkomsten zijn overgedragen aan de beheerorganisatie.
@@ -57,7 +60,7 @@ ______________________________________________________________________
 
 - [ ] **Overdrachtsacceptatie ondertekend:** Projectteam én beheerorganisatie hebben het overdrachtsformulier ondertekend.
 - [ ] **Gate 4 (Livegang) goedgekeurd:** Alle Gate Review-criteria zijn afgevinkt en gedocumenteerd. → [Gate Reviews](../../09-sjablonen/04-gate-reviews/checklist.md)
-- [ ] **Waarderealisatie (benefits realization)plan geactiveerd:** Het plan voor het meten van de gerealiseerde baten is overgedragen aan de eigenaar in de beheerorganisatie. → [Waarderealisatie (benefits realization)](../../11-project-afsluiting/03-batenrealisatie.md)
+- [ ] **Waarderealisatieplan geactiveerd:** Het plan voor het meten van de gerealiseerde baten is overgedragen aan de eigenaar in de beheerorganisatie. → [Waarderealisatie](../../11-project-afsluiting/03-batenrealisatie.md)
 - [ ] **Projectarchief afgesloten:** Alle projectdocumenten zijn gearchiveerd op de afgesproken locatie.
 
 ______________________________________________________________________

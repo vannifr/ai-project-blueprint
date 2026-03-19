@@ -45,13 +45,13 @@ ______________________________________________________________________
 
 ## Kwaliteitsdrempels
 
-| Metric                   | Drempelwaarde (Go) | Actie bij mislukken                |
-| :----------------------- | :----------------- | :--------------------------------- |
-| Accuracy (classificatie) | ≥ 85%              | Hertraining of promptoptimalisatie |
-| F1-score                 | ≥ 0.80             | Controleer klasse-imbalans         |
-| Menselijke beoordeling   | ≥ 4.0/5.0          | Review promptontwerp               |
-| Hallucination rate       | ≤ 5%               | RAG-kwaliteit verbeteren           |
-| Latency p95              | ≤ \[budget\] ms    | Model tiering overwegen            |
+| Metric                                                                           | Drempelwaarde (Go) | Actie bij mislukken                |
+| :------------------------------------------------------------------------------- | :----------------- | :--------------------------------- |
+| Accuracy (classificatie)                                                         | ≥ 85%              | Hertraining of promptoptimalisatie |
+| F1-score                                                                         | ≥ 0.80             | Controleer klasse-imbalans         |
+| Menselijke beoordeling                                                           | ≥ 4.0/5.0          | Review promptontwerp               |
+| Hallucination rate                                                               | ≤ 5%               | RAG-kwaliteit verbeteren           |
+| Latency p95 (95e percentiel — 95% van alle verzoeken is sneller dan deze waarde) | ≤ \[budget\] ms    | Model tiering overwegen            |
 
 ______________________________________________________________________
 

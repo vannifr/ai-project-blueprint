@@ -8,6 +8,9 @@ roles: [Tech Lead]
 
 # Cloud vs. On-Premise
 
+!!! abstract "Purpose"
+    Decision framework for choosing between cloud, on-premise or hybrid infrastructure for your AI system.
+
 Decision framework for choosing between cloud deployment, on-premise infrastructure or a hybrid approach. Use this during the **Discovery & Strategy** phase before architectural choices are locked in.
 
 ______________________________________________________________________

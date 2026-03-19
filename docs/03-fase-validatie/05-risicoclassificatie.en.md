@@ -9,6 +9,9 @@ tags: [risk, validation]
 
 # 1. Risk Classification in Validation
 
+!!! abstract "Purpose"
+    Refinement of the risk profile during the Validation phase based on the reality of the prototype.
+
 During the Validation phase, the initial risk classification from Discovery is tested against the reality of the prototype.
 
 ## 1. Refining the Risk Profile

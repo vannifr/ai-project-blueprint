@@ -7,6 +7,9 @@ roles: [Business Sponsor]
 
 # 4. Capacity Outcomes
 
+!!! abstract "Purpose"
+    Description of the competencies and capacities built at each organisational level upon completion of the 90-day roadmap.
+
 ## 1. Objective
 
 Upon completion of the 90-day roadmap, the organisation has a demonstrably increased AI capability. This chapter describes which competencies and capacities are built at each level and how you determine whether the desired outcomes have been achieved.

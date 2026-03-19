@@ -7,6 +7,9 @@ roles: [Tech Lead]
 
 # Cloud vs. On-Premise
 
+!!! abstract "Doel"
+    Beslissingsraamwerk voor de keuze tussen cloud, on-premise of hybride infrastructuur voor uw AI-systeem.
+
 Beslissingsraamwerk voor de keuze tussen cloud-ingebruikname, on-premise infrastructuur of een hybride aanpak. Gebruik dit in de **Verkenning & Strategie**-fase voordat architectuurkeuzes worden vastgelegd.
 
 ______________________________________________________________________

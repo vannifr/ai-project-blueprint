@@ -43,7 +43,7 @@ Score elke dimensie van 1 (laag) tot 4 (hoog). Noteer het getal in de kolom 'Sco
 
 | Stelling                                                                   |  1   |      2       |        3         |          4          | Score |
 | :------------------------------------------------------------------------- | :--: | :----------: | :--------------: | :-----------------: | :---: |
-| We hebben formele Rode Lijnen vastgesteld voor onze AI-systemen.           | Geen |  Informeel   |     Concept      | Formeel goedgekeurd |       |
+| We hebben formele Harde Grenzen vastgesteld voor onze AI-systemen.         | Geen |  Informeel   |     Concept      | Formeel goedgekeurd |       |
 | Er is een aangewezen Guardian of equivalent die ethische risico's bewaakt. | Geen |    Ad hoc    | Benoemd, beperkt |   Volledig actief   |       |
 | We loggen beslissingen van AI-systemen voor audits.                        | Niet | Gedeeltelijk |   Grotendeels    |      Volledig       |       |
 
@@ -84,7 +84,7 @@ ______________________________________________________________________
 ### Piloot / Bouwer (21–32)
 
 - Gebruik de [Drie Tracks](../14-drie-tracks/index.md) om uw strategisch groeiperspectief te bepalen.
-- Investeer in MLOps en formele governance (Guardian, Rode Lijnen).
+- Investeer in MLOps en formele governance (Guardian, Harde Grenzen).
 - Richt u op Samenwerkingsmodus 3, voorbereiding op Modus 4.
 
 ### Expert / Visionair (33–48)

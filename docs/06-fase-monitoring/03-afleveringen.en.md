@@ -9,6 +9,9 @@ tags: [monitoring]
 
 # 1. Deliverables & Gate 5 (Monitoring)
 
+!!! abstract "Purpose"
+    Overview of mandatory deliverables and Gate 5 criteria for sustainable operation and quarterly reviews of the AI system.
+
 ## 1. Deliverables
 
 The results of the Monitoring phase for sustainable operation:

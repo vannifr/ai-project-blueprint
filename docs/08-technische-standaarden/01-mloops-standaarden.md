@@ -7,6 +7,9 @@ roles: [Tech Lead]
 
 # 1. Technische Standaarden & Leveringscriteria
 
+!!! abstract "Doel"
+    Definitie van wat "productiewaardig" betekent voor AI-oplossingen, met een opbouwend pad van Basis naar Gevorderd naar Schaalbaar MLOps.
+
 ## 1. Doel
 
 Deze module definieert wat "productiewaardig" betekent voor AI-oplossingen, inclusief een realistische route:

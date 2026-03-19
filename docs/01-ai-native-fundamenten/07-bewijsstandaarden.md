@@ -7,6 +7,9 @@ tags: [validation]
 
 # 1. Bewijsstandaarden
 
+!!! abstract "Doel"
+    Definitie van de minimale bewijsstandaarden zodat Gate Reviews op toetsbare criteria plaatsvinden in plaats van op gevoel.
+
 ## 1. Doel
 
 Deze module definieert **minimale bewijsstandaarden** voor AI-oplossingen, zodat Gate Reviews niet op gevoel maar op **toetsbare criteria** plaatsvinden.
@@ -37,7 +40,7 @@ ______________________________________________________________________
 
 ### Foutclassificatie
 
-- **Kritiek:** overtreding Rode Lijnen (privacy-lek, verboden advies, discriminatoire output, gevaarlijke instructies, misleidende transparantie).
+- **Kritiek:** overtreding Harde Grenzen (privacy-lek, verboden advies, discriminatoire output, gevaarlijke instructies, misleidende transparantie).
     **Norm:** 0 toegestaan.
 - **Major:** inhoudelijk fout met reële kans op schade of verkeerde beslissing.
     **Norm:** zeer beperkt (zie tabel).
@@ -62,7 +65,7 @@ Elke Gate Review baseert zich minimaal op deze documenten:
 1. **[Golden Set Test & Acceptatie Protocol](../09-sjablonen/07-validatie-bewijs/template.md)** (de aanpak)
 1. **[Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)** (de resultaten + conclusie)
 1. **[Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md)** (wat draait er precies)
-1. **[Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (wat moest het doen + Rode Lijnen)
+1. **[Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)** (wat moest het doen + Harde Grenzen)
 1. **[Risico Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)** (risicoklasse)
 
 ______________________________________________________________________
@@ -135,6 +138,6 @@ ______________________________________________________________________
 ## 8. Bewijs per Gate (praktisch)
 
 - **Gate 1 (Go/No-Go Ontdekking) (naar Bewijsvoering):** 09.01 + 09.02 (draft) + 09.03 + Data-Evaluatie afgerond.
-- **Gate 2 (Investering PoV) (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Rode Lijnen.
+- **Gate 2 — Investeringsbeslissing (naar Realisatie):** 09.06 (pilotresultaten) + 09.04 (concept) + akkoord Guardian op Harde Grenzen.
 - **Gate 3 (Productie-klaar) (naar Livegang/Levering):** 09.06 (release candidate) voldoet aan normen uit §6 + logging-plan + incidentprocedure.
 - **Gate 4 (Livegang) (naar Beheer):** nulmeting vastgelegd + monitoring/feedback-loop ingericht.

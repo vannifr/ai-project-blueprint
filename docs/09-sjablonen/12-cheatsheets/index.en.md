@@ -21,7 +21,7 @@ ______________________________________________________________________
 | 04  | [Gate Reviews](04-gate-reviews.md)             | Minimum requirements per Gate 1–5             |
 | 05  | [Evidence Standards](05-bewijsstandaarden.md)  | What evidence is required per artefact type   |
 | 06  | [Collaboration Modes](06-samenwerkingsmodi.md) | Choosing collaboration mode per task          |
-| 07  | [Red Lines](07-rode-lijnen.md)                 | Defining prohibited behaviour for AI system   |
+| 07  | [Hard Boundaries](07-rode-lijnen.md)           | Defining prohibited behaviour for AI system   |
 | 08  | [Incident Response](08-incident-respons.md)    | First steps during an AI incident             |
 
 ______________________________________________________________________

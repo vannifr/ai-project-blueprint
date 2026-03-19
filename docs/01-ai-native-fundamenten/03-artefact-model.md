@@ -8,6 +8,9 @@ tags: [governance]
 
 # 1. Artefact Model
 
+!!! abstract "Doel"
+    Overzicht van de beheer-artefacten (Doeldefinitie, Harde Grenzen, Prompts, Validatierapport en Traceerbaarheid) die grip geven op AI-systeemgedrag.
+
 ## 1. Beheer-Artefacten
 
 Om AI-systemen beheersbaar te maken, beheren we specifieke artefacten die grip geven op het gedrag.
@@ -15,8 +18,8 @@ Om AI-systemen beheersbaar te maken, beheren we specifieke artefacten die grip g
 | Artefact             | Doel                                                                 | Eigenaar            | Formaat                                                                                      |
 | :------------------- | :------------------------------------------------------------------- | :------------------ | :------------------------------------------------------------------------------------------- |
 | **Doeldefinitie**    | **Business hypothese:** Welke uitkomst wordt nagestreefd? (*Intent*) | AI Product Manager  | Gestructureerde statement ("Gegeven X, als Y, dan Z")                                        |
-| **Rode Lijnen**      | **Harde grenzen:** Wat mag NOOIT gebeuren? (*Constraints*)           | Guardian (Ethicist) | IF/THEN regels ("ALS PII, DAN blokkeren")                                                    |
-| **Prompts**          | **Sturing:** De configuratie die de AI stuurt (prompts, RAG).        | ML Engineer         | Versiebeheerde config (bijvoorbeeld YAML, JSON, Markdown of andere gestructureerde formaten) |
+| **Harde Grenzen**    | **Harde grenzen:** Wat mag NOOIT gebeuren? (*Constraints*)           | Guardian (Ethicist) | IF/THEN regels ("ALS PII, DAN blokkeren")                                                    |
+| **Prompts**          | **Sturing:** De configuratie die de AI stuurt (prompts, RAG).        | AI Engineer / Team  | Versiebeheerde config (bijvoorbeeld YAML, JSON, Markdown of andere gestructureerde formaten) |
 | **Validatierapport** | **Bewijs:** Resultaten van testen en metingen (*Evidence*).          | QA Engineer         | Gestructureerd rapport met metrics                                                           |
 | **Traceerbaarheid**  | **Verbinding:** Koppeling tussen Doel Instructie Bewijs.             | ML Engineer         | Referenties (ID's / Git SHAs)                                                                |
 

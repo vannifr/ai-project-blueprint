@@ -11,21 +11,21 @@ layer: 1
 
 The Blueprint uses phase-specific metrics. Use the table below as a starting point and adapt to your project context.
 
-| Phase                     | Key Metrics                                                    | Source                                                                                                                               |
-| :------------------------ | :------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
-| Discovery & Strategy      | Data quality score, feasibility outcome                        | [Evidence Standards](../01-ai-native-fundamenten/07-bewijsstandaarden.md)                                                            |
-| Validation (PoV)          | Accuracy vs. baseline, latency (p95), cost per prediction      | [Experiment Ticket](../09-sjablonen/17-experiment-ticket/template.md), [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)  |
-| Development               | Test coverage, integration score, Red Line compliance          | [SDD Pattern](../04-fase-ontwikkeling/05-sdd-patroon.md)                                                                             |
-| Delivery                  | Adoption rate, user satisfaction (CSAT/NPS), go-live readiness | [Handover Checklist](../05-fase-levering/04-sjablonen/overdracht-checklist.md)                                                       |
-| Monitoring & Optimisation | Drift indicators, business impact, hallucination rate          | [Drift Detection](../06-fase-monitoring/05-drift-detectie.md), [Model Health Review](../09-sjablonen/18-modelgezondheid/template.md) |
-| Continuous Improvement    | Kaizen velocity, benefits realisation vs. business case        | [Metrics Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)                                                         |
+| Phase                     | Key Metrics                                                                                                             | Source                                                                                                                               |
+| :------------------------ | :---------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
+| Discovery & Strategy      | Data quality score, feasibility outcome                                                                                 | [Evidence Standards](../01-ai-native-fundamenten/07-bewijsstandaarden.md)                                                            |
+| Validation (PoV)          | Accuracy vs. baseline, latency (p95 = 95th percentile; 95% of requests are faster than this value), cost per prediction | [Experiment Ticket](../09-sjablonen/17-experiment-ticket/template.md), [Gate Reviews](../09-sjablonen/04-gate-reviews/checklist.md)  |
+| Development               | Test coverage, integration score, Red Line compliance                                                                   | [SDD Pattern](../04-fase-ontwikkeling/05-sdd-patroon.md)                                                                             |
+| Delivery                  | Adoption rate, user satisfaction (CSAT/NPS), go-live readiness                                                          | [Handover Checklist](../05-fase-levering/04-sjablonen/overdracht-checklist.md)                                                       |
+| Monitoring & Optimisation | Drift indicators, business impact, hallucination rate                                                                   | [Drift Detection](../06-fase-monitoring/05-drift-detectie.md), [Model Health Review](../09-sjablonen/18-modelgezondheid/template.md) |
+| Continuous Improvement    | Kaizen velocity, benefits realisation vs. business case                                                                 | [Metrics Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)                                                         |
 
 !!! tip "Start with three"
     Choose a maximum of three key metrics per phase. Too many metrics create reporting overhead without insight. Only add metrics when existing ones leave questions unanswered.
 
 ______________________________________________________________________
 
-## 2. Do we still need story points for AI projects?
+## 2. What kind of estimates do we need in AI projects?
 
 **Short answer:** Story points remain useful for coordination but lose their predictive value for AI-specific experiment work.
 

@@ -8,6 +8,9 @@ tags: [data, mlops]
 
 # 1. Data Pipelines
 
+!!! abstract "Purpose"
+    Standards for building and managing data pipelines that feed AI systems with reliable, traceable data.
+
 ## 1. Purpose
 
 This module defines the standards for setting up and managing data pipelines that feed AI systems. A robust data pipeline is the backbone of every reliable AI solution.

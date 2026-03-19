@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Development
 
+!!! abstract "Purpose"
+    Objectives of Phase 3: building a robust, production-ready AI solution that meets all quality and safety requirements.
+
 ## 1. Objective
 
 The primary objective of the Development phase is to build a robust, production-ready solution that meets all quality and safety requirements.

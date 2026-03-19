@@ -16,6 +16,9 @@ ______________________________________________________________________
 
 The following sources form the legal and technical backbone of this blueprint and are suitable for audit purposes.
 
+!!! info "Numbering"
+    The Ref IDs (e.g. `[so-27]`) are **stable identifiers**, not sequential numbers. They remain fixed so that references from other pages stay valid, even when sources are added or removed.
+
 | Ref ID        | Source                                                               | Description                                                                                               | Status       |
 | :------------ | :------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :----------- |
 | **\[so-27\]** | EU AI Act (Official Text)                                            | Official legislative text & Regulation (EU) 2024/1689                                                     | Final        |
@@ -27,7 +30,7 @@ The following sources form the legal and technical backbone of this blueprint an
 | **\[so-41\]** | Directive (EU) 2024/2853 — Revised PLD                               | Product Liability Directive including software & AI; entry into force 8 Dec 2024                          | Final        |
 | **\[so-42\]** | OWASP Top 10 for LLM Applications (2025)                             | Most critical security risks for LLM applications, 2025 edition                                           | Published    |
 | **\[so-43\]** | OWASP / Security Research — Deceptive Delight & HashJack (2025)      | New attack patterns: multi-turn manipulation and URL-fragment prompt injection                            | Published    |
-| **\[so-44\]** | Context Engineering — Industry Analysis (2025)                       | Shift from prompt engineering to context engineering; the Context Builder role                            | Published    |
+| **\[so-44\]** | Context Management — Industry Analysis (2025)                        | Shift from prompt engineering to context management; the Context Builder role                             | Published    |
 | **\[so-45\]** | ISACA — AAISM Certification (Aug 2025)                               | Advanced in AI Security Management: world's first AI-centred security management qualification            | Final        |
 | **\[so-46\]** | Workday — AI Productivity Research (2025)                            | AI Productivity Paradox: rework pitfall, organisational vs. individual productivity; GAINS™ ROI framework | Published    |
 | **\[so-47\]** | Cornell University — Carbon-Aware AI (2025)                          | Smart siting and grid decarbonisation reduce AI carbon footprint by 73%, water by 86%                     | Published    |

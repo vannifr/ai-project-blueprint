@@ -7,6 +7,9 @@ roles: [Tech Lead]
 
 # 1. Technical Standards & Delivery Criteria
 
+!!! abstract "Purpose"
+    Definition of what "production-ready" means for AI solutions, with a progressive path from Basic to Advanced to Scalable MLOps.
+
 ## 1. Purpose
 
 This module defines what "production-ready" means for AI solutions, including a realistic pathway:

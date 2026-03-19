@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Deliverables & Gate 4 (Go-live) (Delivery)
 
+!!! abstract "Purpose"
+    Overview of mandatory deliverables and Gate 4 criteria that ensure a safe go-live and operational handover.
+
 ## 1. Deliverables
 
 The results of the Delivery phase that guarantee safe operation:

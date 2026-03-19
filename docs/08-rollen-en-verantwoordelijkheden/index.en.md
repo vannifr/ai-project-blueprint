@@ -7,6 +7,9 @@ layer: 1
 
 # 1. Roles & Responsibilities
 
+!!! abstract "Purpose"
+    Overview of all roles in an AI project and their responsibilities per lifecycle phase.
+
 ## 1. Who Does What in an AI Project?
 
 In AI projects the boundaries between business and IT blur. That is why we define roles based on responsibility, not job title.
@@ -63,7 +66,7 @@ ______________________________________________________________________
 
 ### Context Builder
 
-The industry is shifting from *prompt engineering* (writing instructions) to **context engineering** (managing what the model sees at every moment). The Context Builder acts as a digital librarian: gathering relevant information from hundreds of files and real-time data streams, summarising it, and archiving it in a hierarchical knowledge base that transcends the LLM's context limits.
+The industry is shifting from *prompt engineering* (writing instructions) to **context management** (managing what the model sees at every moment). The Context Builder acts as a digital librarian: gathering relevant information from hundreds of files and real-time data streams, summarising it, and archiving it in a hierarchical knowledge base that transcends the LLM's context limits.
 
 **Core responsibilities:**
 

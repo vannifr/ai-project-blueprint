@@ -9,6 +9,9 @@ tags: [validation]
 
 # 1. Validation
 
+!!! abstract "Purpose"
+    Objectives and approach of Phase 2: proving the AI idea works and is financially viable before making a major investment.
+
 ## 1. Objective
 
 The primary objective of the Validation phase is to prove that the idea works and is financially viable before making a major investment.

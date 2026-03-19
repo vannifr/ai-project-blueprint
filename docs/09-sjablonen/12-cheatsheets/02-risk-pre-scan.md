@@ -45,13 +45,13 @@ ______________________________________________________________________
 
 ## Top 5 AI-risico's om te Checken
 
-| Risico              | Signaal                                 | Mitigatie                       |
-| :------------------ | :-------------------------------------- | :------------------------------ |
-| **Hallucinations**  | Feitelijke output zonder bronvermelding | RAG + bronvermelding verplicht  |
-| **Bias**            | Gebruikersgroepen ongelijk behandeld    | Fairness audit in testset       |
-| **Privacy-lekkage** | PII in prompts of outputs               | Data-minimalisatie + filtering  |
-| **Vendor lock-in**  | Afhankelijkheid één API-provider        | Abstractielaag + alternatief    |
-| **Scope creep**     | Systeem doet meer dan goedgekeurd       | Rode Lijnen technisch afdwingen |
+| Risico              | Signaal                                 | Mitigatie                         |
+| :------------------ | :-------------------------------------- | :-------------------------------- |
+| **Hallucinations**  | Feitelijke output zonder bronvermelding | RAG + bronvermelding verplicht    |
+| **Bias**            | Gebruikersgroepen ongelijk behandeld    | Fairness audit in testset         |
+| **Privacy-lekkage** | PII in prompts of outputs               | Data-minimalisatie + filtering    |
+| **Vendor lock-in**  | Afhankelijkheid één API-provider        | Abstractielaag + alternatief      |
+| **Scope creep**     | Systeem doet meer dan goedgekeurd       | Harde Grenzen technisch afdwingen |
 
 ______________________________________________________________________
 

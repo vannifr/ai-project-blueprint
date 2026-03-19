@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Core Activities & Roles (Delivery)
 
+!!! abstract "Purpose"
+    Overview of core activities and role assignments during the Delivery phase, from technical integration to user training and acceptance.
+
 ## 1. Core Activities
 
 ### Technical Integration

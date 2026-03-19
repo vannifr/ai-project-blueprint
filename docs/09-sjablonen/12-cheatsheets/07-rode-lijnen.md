@@ -8,19 +8,19 @@ roles: [Guardian]
 tags: [ethics, quick-reference]
 ---
 
-# Cheatsheet — Rode Lijnen
+# Cheatsheet — Harde Grenzen
 
 **Bron:** [AI Safety Checklist](../../07-compliance-hub/08-ai-safety-checklist.md) | [Red Teaming](../../07-compliance-hub/07-red-teaming.md)
 
 ______________________________________________________________________
 
-## Wat zijn Rode Lijnen?
+## Wat zijn Harde Grenzen?
 
-**Rode Lijnen** zijn gedragingen die het AI-systeem **nooit** mag vertonen, ongeacht de instructie van de gebruiker. Ze worden technisch afgedwongen — niet enkel beschreven in documentatie.
+**Harde Grenzen** zijn gedragingen die het AI-systeem **nooit** mag vertonen, ongeacht de instructie van de gebruiker. Ze worden technisch afgedwongen — niet enkel beschreven in documentatie.
 
 ______________________________________________________________________
 
-## Universele Rode Lijnen (voor elk systeem)
+## Universele Harde Grenzen (voor elk systeem)
 
 | Categorie                | Verboden gedrag                                               |
 | :----------------------- | :------------------------------------------------------------ |
@@ -32,7 +32,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Domein-specifieke Rode Lijnen (voorbeelden)
+## Domein-specifieke Harde Grenzen (voorbeelden)
 
 | Domein       | Rode Lijn voorbeeld                                      |
 | :----------- | :------------------------------------------------------- |
@@ -44,7 +44,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Rode Lijnen Definiëren — Template
+## Harde Grenzen Definiëren — Template
 
 ```
 RODE LIJN #[n]
@@ -59,10 +59,10 @@ ______________________________________________________________________
 
 ## Controle bij Gate Review
 
-- [ ] Alle Rode Lijnen zijn schriftelijk vastgelegd
+- [ ] Alle Harde Grenzen zijn schriftelijk vastgelegd
 - [ ] Elke Rode Lijn is technisch afgedwongen (niet enkel beschreven)
-- [ ] Red Teaming heeft Rode Lijnen getest (zie [Red Teaming Playbook](../../07-compliance-hub/07-red-teaming.md))
-- [ ] Guardian heeft Rode Lijnen goedgekeurd
+- [ ] Red Teaming heeft Harde Grenzen getest (zie [Red Teaming Playbook](../../07-compliance-hub/07-red-teaming.md))
+- [ ] Guardian heeft Harde Grenzen goedgekeurd
 - [ ] Procedure bij overtreding is gedocumenteerd
 
 **Bron:** [Red Teaming Playbook](../../07-compliance-hub/07-red-teaming.md) | [Ingebruikname Safety](../../07-compliance-hub/08-ai-safety-checklist.md)

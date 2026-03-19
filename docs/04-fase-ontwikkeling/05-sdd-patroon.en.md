@@ -6,7 +6,10 @@ phase: [3]
 roles: [AI Product Manager, Tech Lead]
 ---
 
-# 1. Specification-First Pattern (SDD)
+# 1. Specification-First Pattern
+
+!!! abstract "Purpose"
+    Methodology where what the AI system must do is formally recorded before building begins, preventing costly rework and ensuring demonstrable compliance.
 
 ## 1. Objective
 
@@ -38,7 +41,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## 3. The SDD Cycle
+## 3. The Specification Cycle
 
 ### Draft the Goal Definition
 

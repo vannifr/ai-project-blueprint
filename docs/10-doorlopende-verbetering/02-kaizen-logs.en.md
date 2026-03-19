@@ -8,6 +8,9 @@ tags: [agile]
 
 # 2. Kaizen Logs
 
+!!! abstract "Purpose"
+    Continuous log for small, targeted improvements to the AI system so that changes are traceable and repeatable.
+
 ## 1. Objective
 
 We record every small, targeted improvement to the AI system in a continuous Kaizen Log so that improvements are traceable, repeatable and aggregately visible.

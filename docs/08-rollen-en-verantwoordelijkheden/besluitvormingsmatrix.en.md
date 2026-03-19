@@ -8,6 +8,9 @@ tags: [governance, template]
 
 # Decision Matrix
 
+!!! abstract "Purpose"
+    Explicit record of who makes which decision at each gate and who can block a decision.
+
 ## Purpose
 
 This document makes explicit who takes which decision at each gate and who can block a decision. Ambiguity about decision authority is one of the most common causes of delayed AI projects.
@@ -23,18 +26,18 @@ ______________________________________________________________________
 
 ## Decision matrix per gate
 
-| Decision                                          | Accountable         | Responsible       | Veto right             | Consult                   | Inform                                             |
-| :------------------------------------------------ | :------------------ | :---------------- | :--------------------- | :------------------------ | :------------------------------------------------- |
-| **Go/No-Go Gate 1** (problem def. & feasibility)  | Sponsor             | AI PM             | Guardian (Red Lines)   | Tech Lead, Guardian       | Steering committee, Finance                        |
-| **Go/No-Go Gate 2** (investment decision PoV)     | Sponsor             | AI PM + Finance   | Guardian (Red Lines)   | Tech Lead, Guardian       | Steering committee, Legal                          |
-| **Go/No-Go Gate 3** (production go/no-go)         | Sponsor + Tech Lead | Tech Lead + AI PM | Guardian (Red Lines)   | Legal, Privacy Officer    | Steering committee, Ops                            |
-| **Go/No-Go Gate 4** (quarterly operations review) | Sponsor             | AI PM + Ops       | Guardian (Red Lines)   | Tech Lead                 | Finance, Steering committee                        |
-| **Stop decision** (circuit breaker activation)    | Guardian            | Tech Lead         | —                      | AI PM, Sponsor            | Steering committee, Legal                          |
-| **Mode change** (raising Collaboration Mode)      | Sponsor             | AI PM + Tech Lead | Guardian (Red Lines)   | Guardian, Legal           | Steering committee                                 |
-| **Technical feasibility**                         | Tech Lead           | Tech Lead         | —                      | AI PM                     | Sponsor, Guardian                                  |
-| **Adjusting Red Lines**                           | Guardian + Sponsor  | Guardian          | Sponsor (scope), Legal | AI PM, Tech Lead, Legal   | Steering committee                                 |
-| **Replace or fine-tune model**                    | Tech Lead           | Tech Lead + AI PM | Guardian (quality)     | Guardian, Privacy Officer | Sponsor, Ops                                       |
-| **Incident escalation** (High Risk systems)       | Guardian            | AI PM             | —                      | Legal, Tech Lead          | Sponsor, Steering committee, Supervisory authority |
+| Decision                                          | Accountable         | Responsible       | Veto right                 | Consult                   | Inform                                             |
+| :------------------------------------------------ | :------------------ | :---------------- | :------------------------- | :------------------------ | :------------------------------------------------- |
+| **Go/No-Go Gate 1** (problem def. & feasibility)  | Sponsor             | AI PM             | Guardian (Hard Boundaries) | Tech Lead, Guardian       | Steering committee, Finance                        |
+| **Go/No-Go Gate 2** (investment decision PoV)     | Sponsor             | AI PM + Finance   | Guardian (Hard Boundaries) | Tech Lead, Guardian       | Steering committee, Legal                          |
+| **Go/No-Go Gate 3** (production go/no-go)         | Sponsor + Tech Lead | Tech Lead + AI PM | Guardian (Hard Boundaries) | Legal, Privacy Officer    | Steering committee, Ops                            |
+| **Go/No-Go Gate 4** (quarterly operations review) | Sponsor             | AI PM + Ops       | Guardian (Hard Boundaries) | Tech Lead                 | Finance, Steering committee                        |
+| **Stop decision** (circuit breaker activation)    | Guardian            | Tech Lead         | —                          | AI PM, Sponsor            | Steering committee, Legal                          |
+| **Mode change** (raising Collaboration Mode)      | Sponsor             | AI PM + Tech Lead | Guardian (Hard Boundaries) | Guardian, Legal           | Steering committee                                 |
+| **Technical feasibility**                         | Tech Lead           | Tech Lead         | —                          | AI PM                     | Sponsor, Guardian                                  |
+| **Adjusting Hard Boundaries**                     | Guardian + Sponsor  | Guardian          | Sponsor (scope), Legal     | AI PM, Tech Lead, Legal   | Steering committee                                 |
+| **Replace or fine-tune model**                    | Tech Lead           | Tech Lead + AI PM | Guardian (quality)         | Guardian, Privacy Officer | Sponsor, Ops                                       |
+| **Incident escalation** (High Risk systems)       | Guardian            | AI PM             | —                          | Legal, Tech Lead          | Sponsor, Steering committee, Supervisory authority |
 
 ______________________________________________________________________
 

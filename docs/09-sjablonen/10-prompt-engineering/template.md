@@ -32,7 +32,7 @@ ______________________________________________________________________
 - **Kennisbron:** \[Bijv. "Gebruik alleen de informatie uit de bijgevoegde PDF."\]
 - **Stapsgewijze aanpak:** \[Bijv. "Stap 1: Scan op trefwoorden. Stap 2: Check op sentiment. Stap 3: Formuleer advies."\]
 
-### Rode Lijnen (Constraints)
+### Harde Grenzen (Constraints)
 
 - **Wat mag ABSOLUUT NIET?** \[Bijv. "Noem nooit namen van individuele medewerkers."\]
 - **Limieten:** \[Bijv. "Beperk je antwoord tot maximaal 200 woorden."\]
@@ -74,7 +74,7 @@ Prompts zijn productiecode. Beheer ze als code: versie, changelog en rollback.
 1. Revert naar vorige prompt-versie in Git.
 1. Draai Golden Set opnieuw om regressie te bevestigen.
 1. Documenteer de regressie in de Kaizen Log.
-1. Informeer Guardian bij wijzigingen die Rode Lijnen raken.
+1. Informeer Guardian bij wijzigingen die Harde Grenzen raken.
 
 > Bewaar alle versies in Git met een tag per major-versie: `prompt-v1.0.0`.
 

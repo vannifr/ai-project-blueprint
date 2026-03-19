@@ -19,13 +19,12 @@ ______________________________________________________________________
 
 ## 2. What is in the package?
 
-| Component                                                   | Description                                       | Time investment                            |
-| :---------------------------------------------------------- | :------------------------------------------------ | :----------------------------------------- |
-| [30-Day Day-by-Day Plan](01-30-dagen-plan.md)               | Weekly planning with daily actions and checkboxes | 30 minutes to read                         |
-| [Project Charter Light](02-project-charter-light.md)        | 1-page project framework (simplified)             | 30–60 minutes to complete                  |
-| [Quick Risk Pre-Scan](03-risk-prescan-quick.md)             | 15-question risk scan                             | 20–30 minutes to complete                  |
-| [Minimal Validation Report](04-validatierapport-minimal.md) | 2-page validation report                          | 60–90 minutes to complete                  |
-| [Scaffold Code](05-scaffold-code.md)                        | Python code for 3 common use cases                | Hours not minutes — but working from day 1 |
+| Component                                                   | Description                                       | Time investment           |
+| :---------------------------------------------------------- | :------------------------------------------------ | :------------------------ |
+| [30-Day Day-by-Day Plan](01-30-dagen-plan.md)               | Weekly planning with daily actions and checkboxes | 30 minutes to read        |
+| [Project Charter Light](02-project-charter-light.md)        | 1-page project framework (simplified)             | 30–60 minutes to complete |
+| [Quick Risk Pre-Scan](03-risk-prescan-quick.md)             | 15-question risk scan                             | 20–30 minutes to complete |
+| [Minimal Validation Report](04-validatierapport-minimal.md) | 2-page validation report                          | 60–90 minutes to complete |
 
 ______________________________________________________________________
 
@@ -60,7 +59,7 @@ Before you start, verify the following:
 - [ ] At least one **AI PM** or project lead available (50% of their time)
 - [ ] At least one **developer** available (80% of their time)
 - [ ] Access to a dataset or content source for your use case
-- [ ] Budget for an API key (Claude, OpenAI or equivalent) — estimated €20–100 for the prototype phase
+- [ ] Budget for an API key (Claude, OpenAI or equivalent)
 - [ ] Management commitment for a Go/No-Go decision on day 21
 
 ______________________________________________________________________
@@ -72,8 +71,6 @@ ______________________________________________________________________
 **Step 2.** Complete the [Project Charter Light](02-project-charter-light.md) with your team on days 1–2.
 
 **Step 3.** Conduct the [Quick Risk Pre-Scan](03-risk-prescan-quick.md) on days 3–4. A red signal: consult the [full Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md) before proceeding.
-
-**Step 4.** Choose your use case and start the prototype on day 11 using the [Scaffold Code](05-scaffold-code.md).
 
 **Step 5.** Complete the [Minimal Validation Report](04-validatierapport-minimal.md) on days 18–20 as preparation for the Gate 1 Review.
 

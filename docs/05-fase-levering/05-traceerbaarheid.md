@@ -9,6 +9,9 @@ tags: [traceability]
 
 # 1. Traceerbaarheid
 
+!!! abstract "Doel"
+    Methode om altijd te kunnen verklaren waarom een AI-systeem een bepaalde output gaf, essentieel voor auditing, debugging en EU AI Act compliance.
+
 ## 1. Doel
 
 Traceerbaarheid zorgt ervoor dat we altijd kunnen verklaren waarom een AI-systeem een bepaalde output gaf. Dit is essentieel voor auditing, debugging, incidentanalyse en compliance met de EU AI Act.
@@ -151,7 +154,7 @@ Voor elke productierelease:
 
 | Document               | Inhoud                            |
 | ---------------------- | --------------------------------- |
-| Doelkaart (goal card)  | Intent en Rode Lijnen             |
+| Doelkaart (goal card)  | Intent en Harde Grenzen           |
 | Specificatie           | Gedragscontract                   |
 | Prompts                | Prompts/configs (versiebeheerd)   |
 | Golden Set             | Testcases en verwachte resultaten |

@@ -102,7 +102,7 @@ ______________________________________________________________________
 
 **Contains personal data:** \[ \] Yes — privacy measures: \[describe\]    \[ \] No
 
-**Red Lines (what the system NEVER does):**
+**Hard Boundaries (what the system NEVER does):**
 
 - \[E.g. The system never automatically sends communications without human approval.\]
 - \[E.g. The system never provides financial or legal advice.\]

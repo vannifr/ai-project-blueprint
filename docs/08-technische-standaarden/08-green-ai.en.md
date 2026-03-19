@@ -8,6 +8,9 @@ tags: [cost]
 
 # Green AI & Sustainability
 
+!!! abstract "Purpose"
+    Guidelines for reducing the ecological footprint of AI systems and embedding sustainability as a strategic design choice.
+
 AI systems have a substantial ecological footprint. The electricity demand for AI computing power is growing rapidly: it is expected to be **11 times higher** in 2030 than in 2023. For project managers, sustainability is therefore not an afterthought but a strategic decision that must be made as early as the Business Understanding phase.
 
 !!! info "Why now?"
@@ -106,7 +109,7 @@ Ask yourself the following questions at every AI initiative:
 1. **Is hardware being managed responsibly?** Is there a plan for hardware lifecycle and e-waste?
 
 !!! tip "Governance anchor point"
-    Record the answers to the above questions in the [Goal Card (Doelkaart)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) as part of the Red Lines. An AI system whose environmental costs do not outweigh the social benefits does not meet the responsible deployment criteria of this blueprint.
+    Record the answers to the above questions in the [Goal Card (Doelkaart)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) as part of the Hard Boundaries. An AI system whose environmental costs do not outweigh the social benefits does not meet the responsible deployment criteria of this blueprint.
 
 ______________________________________________________________________
 

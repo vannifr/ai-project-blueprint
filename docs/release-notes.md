@@ -19,7 +19,7 @@ De **AI Project Blauwdruk** is een open-source referentiekader voor het opzetten
 
 - **AI Product Managers** die projecten van idee naar productie leiden
 - **Tech Leads** die architectuur- en engineeringbeslissingen nemen
-- **Guardians** die waken over ethiek, compliance en rode lijnen
+- **Guardians** die waken over ethiek, compliance en harde grenzen
 - **Business Sponsors & CAIO's** die AI-strategie en governance vormgeven
 
 ### Kernprincipes
@@ -47,7 +47,7 @@ ______________________________________________________________________
 
 ## v1.6 — 2026-03-14
 
-Grootste inhoudelijke uitbreiding: 5 nieuwe sjablonen (Experiment Ticket, Modelgezondheid Review, Stakeholder Communicatie, AI PM Onboarding, FAQ), architectuurspecifieke moduskeuze, acceptatiecriteria Modus 4-5 en projecttype-classificatie (Type A/B). Kwaliteitsslag: 68 validatiewaarschuwingen opgelost en terminologie-naleving Stijlgids v2.3 projectbreed doorgevoerd.
+Grootste inhoudelijke uitbreiding: 5 nieuwe sjablonen (Experiment Ticket, Model Health Review, Stakeholder Communicatie, AI PM Onboarding, FAQ), architectuurspecifieke moduskeuze, acceptatiecriteria Modus 4-5 en projecttype-classificatie (Type A/B). Kwaliteitsslag: 68 validatiewaarschuwingen opgelost en terminologie-naleving Stijlgids v2.3 projectbreed doorgevoerd.
 
 ## v1.5 — 2026-03-13
 

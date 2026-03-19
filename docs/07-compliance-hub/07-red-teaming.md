@@ -8,6 +8,9 @@ tags: [eu-ai-act, playbook, security]
 
 # Red Teaming Playbook
 
+!!! abstract "Doel"
+    Opzet, standaard-oefeningen en rapportage voor het systematisch testen van AI-systeemkwetsbaarheden voordat ze in productie gaan.
+
 Red teaming is het systematisch aanvallen van uw eigen AI-systeem om kwetsbaarheden te ontdekken vóórdat kwaadwillenden of onvoorziene situaties dat doen. Dit playbook beschrijft opzet, vijf standaard-oefeningen en rapportage.
 
 !!! info "Wanneer uitvoeren"
@@ -19,12 +22,12 @@ ______________________________________________________________________
 
 ### Samenstelling
 
-| Rol               | Taken                           | Vereiste onafhankelijkheid          |
-| :---------------- | :------------------------------ | :---------------------------------- |
-| **Red Team Lead** | Coördinatie, scope, eindrapport | Buiten het ontwikkelteam            |
-| **Aanvaller(s)**  | Uitvoeren van oefeningen        | Geen kennis van interne rode lijnen |
-| **Observer**      | Documenteert elk aanvalspad     | Aanwezig bij alle sessies           |
-| **Guardian**      | Beoordeelt bevindingen          | Onafhankelijk veto-recht            |
+| Rol               | Taken                           | Vereiste onafhankelijkheid            |
+| :---------------- | :------------------------------ | :------------------------------------ |
+| **Red Team Lead** | Coördinatie, scope, eindrapport | Buiten het ontwikkelteam              |
+| **Aanvaller(s)**  | Uitvoeren van oefeningen        | Geen kennis van interne harde grenzen |
+| **Observer**      | Documenteert elk aanvalspad     | Aanwezig bij alle sessies             |
+| **Guardian**      | Beoordeelt bevindingen          | Onafhankelijk veto-recht              |
 
 ### Scope vastleggen
 
@@ -41,7 +44,7 @@ ______________________________________________________________________
 
 ### Oefening 1 — Jailbreak-pogingen
 
-**Doel:** vaststellen of het systeem te verleiden is tot gedrag buiten de Rode Lijnen.
+**Doel:** vaststellen of het systeem te verleiden is tot gedrag buiten de Harde Grenzen.
 
 **Technieken:**
 

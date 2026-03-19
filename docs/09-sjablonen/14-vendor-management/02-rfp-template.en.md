@@ -53,14 +53,14 @@ ______________________________________________________________________
 
 ### Non-functional Requirements
 
-| #   | Requirement                 | Minimum value          |
-| :-- | :-------------------------- | :--------------------- |
-| NF1 | Availability (uptime)       | ≥ \_\_\_%              |
-| NF2 | Latency (p95 response time) | ≤ \_\_\_ ms            |
-| NF3 | Throughput (requests/min)   | ≥ \_\_\_               |
-| NF4 | Data location               | EU                     |
-| NF5 | Prompt data retention       | None / Max \_\_\_ days |
-| NF6 | Integration method          | REST API / SDK         |
+| #   | Requirement                                                                                    | Minimum value          |
+| :-- | :--------------------------------------------------------------------------------------------- | :--------------------- |
+| NF1 | Availability (uptime)                                                                          | ≥ \_\_\_%              |
+| NF2 | Latency (p95 response time) (95th percentile — 95% of all requests are faster than this value) | ≤ \_\_\_ ms            |
+| NF3 | Throughput (requests/min)                                                                      | ≥ \_\_\_               |
+| NF4 | Data location                                                                                  | EU                     |
+| NF5 | Prompt data retention                                                                          | None / Max \_\_\_ days |
+| NF6 | Integration method                                                                             | REST API / SDK         |
 
 ### Compliance Requirements
 

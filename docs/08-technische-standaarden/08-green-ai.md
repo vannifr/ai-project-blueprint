@@ -8,6 +8,9 @@ tags: [cost]
 
 # Green AI & Duurzaamheid
 
+!!! abstract "Doel"
+    Richtlijnen om de ecologische voetafdruk van AI-systemen te verkleinen en duurzaamheid als strategische ontwerpkeuze in te bedden.
+
 AI-systemen hebben een substantiële ecologische voetafdruk. De elektriciteitsvraag voor AI-rekenkracht groeit snel: verwacht wordt dat deze in 2030 **11 keer hoger** ligt dan in 2023. Voor projectmanagers is duurzaamheid daarom geen bijzaak, maar een strategische beslissing die al in de Business Understanding fase moet worden genomen.
 
 !!! info "Waarom nu?"
@@ -32,7 +35,7 @@ ______________________________________________________________________
 
 ### Hardware
 
-- Snelle hardware-verversing leidt tot grote hoeveelheden e-waste met gespecialiseerde metalen die moeilijk te recyclen zijn.
+- Snelle hardware-vernieuwing leidt tot grote hoeveelheden e-waste met gespecialiseerde metalen die moeilijk te recyclen zijn.
 
 Bronnen: \[so-47\], \[so-48\]
 
@@ -106,7 +109,7 @@ Stel uzelf bij elk AI-initiatief de volgende vragen:
 1. **Wordt de hardware verantwoord beheerd?** Is er een plan voor hardware-lifecycle en e-waste?
 
 !!! tip "Governance-ankerpunt"
-    Leg de antwoorden op bovenstaande vragen vast in de [Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) als onderdeel van de Rode Lijnen. Een AI-systeem waarvan de milieukosten niet opwegen tegen de maatschappelijke baten, voldoet niet aan de verantwoordelijke inzetcriteria van deze blauwdruk.
+    Leg de antwoorden op bovenstaande vragen vast in de [Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) als onderdeel van de Harde Grenzen. Een AI-systeem waarvan de milieukosten niet opwegen tegen de maatschappelijke baten, voldoet niet aan de verantwoordelijke inzetcriteria van deze blauwdruk.
 
 ______________________________________________________________________
 
@@ -115,5 +118,5 @@ ______________________________________________________________________
 - [Kostenoptimalisatie](07-kostenoptimalisatie.md)
 - [AI Architectuur](05-ai-architectuur.md)
 - [Doelkaart (goal card)](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)
-- [Waarderealisatie (benefits realization)](../10-doorlopende-verbetering/04-batenrealisatie.md)
+- [Waarderealisatie](../10-doorlopende-verbetering/04-batenrealisatie.md)
 - [Bronnen & Inspiratie](../16-bronnen/index.md)

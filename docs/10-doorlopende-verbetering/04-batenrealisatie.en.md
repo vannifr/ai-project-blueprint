@@ -8,6 +8,9 @@ roles: [Business Sponsor]
 
 # 4. Benefits Realisation (Operational)
 
+!!! abstract "Purpose"
+    Quarterly measurement of whether the AI system is delivering on the promised benefits, with corrective action when realisation falls short.
+
 ## 1. Objective
 
 We measure quarter by quarter whether the AI system is actually realising the benefits promised in the Business Case, and make adjustments when realisation falls short.

@@ -7,6 +7,9 @@ phase: [1, 2, 3, 4, 5]
 
 # 1. Doorlopende Verbetering
 
+!!! abstract "Doel"
+    Inrichting van de feedback-loop om een AI-systeem continu te verbeteren op basis van data, gebruikerservaringen en operationele inzichten.
+
 ## 1. Doel
 
 AI-systemen zijn niet statisch. Na livegang begint het echte leerproces: gebruikersfeedback stroomt binnen, datapatronen verschuiven en bedrijfsdoelen evolueren. Deze module beschrijft hoe u de feedback-loop inricht om het systeem continu te verbeteren op basis van data, gebruikerservaringen en operationele inzichten.
@@ -20,7 +23,7 @@ ______________________________________________________________________
 - [Retrospectives](01-retrospectives.md) — Gestructureerde teamreflectie na elke sprint of milestone
 - [Kaizen Logs](02-kaizen-logs.md) — Continue registratie van verbeterideeën en kleine aanpassingen
 - [Metrics & Dashboards](03-metrics-dashboards.md) — KPI-monitoring en drempelwaarden voor tijdige actie
-- [Waarderealisatie (benefits realization)](04-batenrealisatie.md) — Kwartaalmatige toetsing van gerealiseerde baten versus de oorspronkelijke business case
+- [Waarderealisatie](04-batenrealisatie.md) — Kwartaalmatige toetsing van gerealiseerde baten versus de oorspronkelijke business case
 
 ______________________________________________________________________
 

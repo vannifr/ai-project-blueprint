@@ -23,7 +23,7 @@ A mid-sized municipality wanted to help employees quickly find answers in intern
 
 ### Approach
 
-The project team used the **Fast Lane** (6 weeks) because the risk class was Minimal: no personal data, no external decisions, fully internal use. The Goal card defined the intent as "employee finds the correct policy document within 2 minutes". Red Lines restricted the system to internal documents and prohibited answers to legal or medical questions.
+The project team used the **Fast Lane** (6 weeks) because the risk class was Minimal: no personal data, no external decisions, fully internal use. The Goal card defined the intent as "employee finds the correct policy document within 2 minutes". Hard Boundaries restricted the system to internal documents and prohibited answers to legal or medical questions.
 
 The PoV lasted 2 weeks and tested 50 representative questions (the Golden Set). After validation (89% correct references) the system was rolled out to 3 pilot departments.
 

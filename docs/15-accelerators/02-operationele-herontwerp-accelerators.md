@@ -48,7 +48,7 @@ Gebruik dit format voor elk geselecteerd proces vóór de implementatie:
 - **Rol van mens:** \[wat doet de medewerker nog?\]
 - **Samenwerkingsmodus:** \[Modus 2 / 3 / 4 — zie [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md)\]
 - **KPI doelwaarde:** \[bijv. 10 min/document, \<2% foutpercentage\]
-- **Rode Lijnen:** \[welke beslissingen mag AI nooit zelfstandig nemen?\]
+- **Harde Grenzen:** \[welke beslissingen mag AI nooit zelfstandig nemen?\]
 
 ### Nulmeting
 
@@ -94,4 +94,4 @@ ______________________________________________________________________
 - [Operationele Herontwerp](../14-drie-tracks/02-operationele-herontwerp.md)
 - [Snelstart: AI-Project in 90 Dagen](../12-90-dagen-roadmap/index.md)
 - [Metrics & Dashboards](../10-doorlopende-verbetering/03-metrics-dashboards.md)
-- [Waarderealisatie (benefits realization) — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)
+- [Waarderealisatie — Operationeel](../10-doorlopende-verbetering/04-batenrealisatie.md)

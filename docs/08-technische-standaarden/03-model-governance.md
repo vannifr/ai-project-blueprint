@@ -8,6 +8,9 @@ tags: [governance]
 
 # 1. Model Governance
 
+!!! abstract "Doel"
+    Richtlijnen voor het beheren van AI-modellen gedurende hun levenscyclus: van ontwikkeling tot productie en uitfasering.
+
 ## 1. Doel
 
 Deze module definieert hoe wij AI-modellen beheren gedurende hun levenscyclus: van ontwikkeling tot productie en uiteindelijke uitfasering. Goede model governance zorgt voor traceerbaarheid, controleerbaarheid en veilige releases.
@@ -79,7 +82,7 @@ ______________________________________________________________________
 [Development] → [Code Review] → [Guardian Review] → [Staging Test] → [Fairness audit (bias audit)] → [Gate Review] → [Gefaseerde Uitrol] → [Production]
 ```
 
-- **Guardian Review:** Onafhankelijke toetsing op Rode Lijnen
+- **Guardian Review:** Onafhankelijke toetsing op Harde Grenzen
 - **Fairness audit (bias audit):** Kwantitatieve bias-analyse
 - **Gefaseerde Uitrol:** Start met beperkte gebruikersgroep, monitor, dan volledige uitrol
 

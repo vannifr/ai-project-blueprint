@@ -7,6 +7,9 @@ phase: [1, 2, 3, 4, 5]
 
 # 3. Metrics & Dashboards
 
+!!! abstract "Purpose"
+    Setup of layered dashboards and KPIs to make the AI system's health continuously visible for the operations team.
+
 ## 1. Objective
 
 We make the health of the AI system continuously visible via layered dashboards and unambiguous KPIs, so that the management team can intervene in a timely manner when deviations occur.

@@ -9,6 +9,9 @@ roles: [AI Product Manager]
 
 # 1. Discovery & Strategy
 
+!!! abstract "Purpose"
+    Objectives, key activities and deliverables of Phase 1: identifying the right problem and assessing feasibility for an AI project.
+
 ## 1. Objective
 
 The primary objective of the Discovery phase is to identify the right problem and verify that we are ready to start an AI project.

@@ -8,6 +8,9 @@ tags: [ethics, eu-ai-act]
 
 # 1. Ethical Guidelines
 
+!!! abstract "Purpose"
+    Frameworks to ensure that AI systems respect human values and do not cause unintended harm.
+
 ## 1. Purpose
 
 Ensure that AI systems are developed and used in a way that respects human values and causes no unintended harm.

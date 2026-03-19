@@ -7,6 +7,9 @@ tags: [validation]
 
 # 1. Evidence Standards
 
+!!! abstract "Purpose"
+    Definition of minimum evidence standards so that Gate Reviews are based on verifiable criteria rather than intuition.
+
 ## 1. Objective
 
 This module defines **minimum evidence standards** for AI solutions, so that Gate Reviews are based on **verifiable criteria** rather than intuition.

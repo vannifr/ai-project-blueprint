@@ -9,9 +9,12 @@ tags: [eu-ai-act]
 
 # 1. Risicobeheersing & Compliance
 
+!!! abstract "Doel"
+    Centraal overzicht van alle wettelijke en ethische vereisten voor AI-projecten, van EU AI Act tot incidentrespons en veiligheidschecklists.
+
 ## 1. Doel van deze Module
 
-Compliance is geen rem, maar de remmen op een auto zorgen ervoor dat je veilig hard kunt rijden. Deze module definieert de **Rode Lijnen**: de ethische en wettelijke grenzen waarbinnen we innoveren. Het centraliseert de vereisten vanuit de EU AI Act en interne waarden.
+Compliance is geen rem, maar de remmen op een auto zorgen ervoor dat je veilig hard kunt rijden. Deze module definieert de **Harde Grenzen**: de ethische en wettelijke grenzen waarbinnen we innoveren. Het centraliseert de vereisten vanuit de EU AI Act en interne waarden.
 
 ______________________________________________________________________
 
@@ -28,11 +31,11 @@ Voordat een project start (in **Verkenning & Strategie**), moet het worden inged
 
 ______________________________________________________________________
 
-## 3. De Rol van de 'Guardian' (Ethicus)
+## 3. De Rol van de Guardian
 
 De Guardian is de "Beschermheer" van de waarden van de organisatie. Deze rol is onafhankelijk van het ontwikkelteam.
 
-- **Mandaat:** De Guardian heeft veto-recht (via een 'Stop-knop') in elke fase van het project als de **Rode Lijnen** worden overschreden.
+- **Mandaat:** De Guardian heeft veto-recht (via een 'Stop-knop') in elke fase van het project als de **Harde Grenzen** worden overschreden.
 - **Taken:**
 - Fase 1: Toetst de **Doeldefinitie** op ethische wenselijkheid.
 - Fase 2 & 3: Voert **Fairness audit (bias audit)en** (Bias audits) uit.
@@ -40,7 +43,7 @@ De Guardian is de "Beschermheer" van de waarden van de organisatie. Deze rol is 
 
 ______________________________________________________________________
 
-## 4. De Fairness audit (bias audit) (Bias Audit)
+## 4. De Fairness Audit
 
 AI leert van data uit het verleden en kan daardoor vooroordelen overnemen. We toetsen elk Hoog en Beperkt risico systeem op drie niveaus:
 
@@ -125,7 +128,7 @@ ______________________________________________________________________
 Wanneer AI-systemen autonoom acties uitvoeren (Modus 4 & 5), verschuift de focus naar **Constitutional AI**:
 
 - **Actieradius:** Technische inperking van wat een agent mag doen (bijv. maximale budgetlimieten).
-- **Rode-Lijnen-bewaking:** Real-time monitoring die acties blokkeert als deze de **Rode Lijnen** dreigen te overschrijden.
+- **Rode-Lijnen-bewaking:** Real-time monitoring die acties blokkeert als deze de **Harde Grenzen** dreigen te overschrijden.
 
 Wanneer een AI‑systeem handelingen kan uitvoeren in andere systemen, wordt expliciet vastgelegd welke systemen en functies toegankelijk zijn, onder welke voorwaarden dit mag plaatsvinden en hoe toegang direct kan worden beperkt of ingetrokken bij afwijkingen of incidenten.
 

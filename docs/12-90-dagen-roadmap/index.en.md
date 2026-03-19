@@ -8,6 +8,9 @@ roles: [Business Sponsor]
 
 # 1. Quick Start: AI Project in 90 Days
 
+!!! abstract "Purpose"
+    Structured roadmap to go from AI ambition to production-ready deployment in three phases (Focus, Pilot, Scale) within 90 days.
+
 ## 1. Prerequisites (Definition of Ready)
 
 - Core team designated: **AI Product Manager**, **Tech Lead**, **Guardian**

@@ -7,6 +7,9 @@ roles: [Business Sponsor]
 
 # 1. Redesign & Pilot (Days 31-60)
 
+!!! abstract "Purpose"
+    In days 31-60, redesign the work process around AI and build and test the first pilot in operations.
+
 **Theme:** Build, Test and Learn.
 
 We are going to build and test. Not in isolation, but in operations. We redesign the work process around the AI.

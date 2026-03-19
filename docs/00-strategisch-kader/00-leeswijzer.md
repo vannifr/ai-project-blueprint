@@ -6,6 +6,9 @@ layer: 1
 
 # 1. Leeswijzer & Navigatie
 
+!!! abstract "Doel"
+    Snelle navigatiehulp om het juiste onderdeel van de Blauwdruk te vinden op basis van uw rol en situatie.
+
 ## 1. Welkom bij de AI Project Blauwdruk
 
 Dit is geen document om van A tot Z te lezen. Het is een toolkit. U raadpleegt wat u nodig heeft, op het moment dat u het nodig heeft.
@@ -34,6 +37,10 @@ Ga naar [Validatie](../03-fase-validatie/01-doelstellingen.md). Hier leert u hoe
 ### Ik ga bouwen of ontwikkelen
 
 Ga naar [Realisatie](../04-fase-ontwikkeling/01-doelstellingen.md) en [Risicobeheersing](../07-compliance-hub/index.md). Zorg dat u de **Technische Modelkaart** invult.
+
+### Ik ben een (nieuwe) AI Project Manager
+
+Start met het **[AI PM Onboarding Playbook](../08-rollen-en-verantwoordelijkheden/04-ai-pm-onboarding.md)** voor een begeleide introductie in uw rol, verantwoordelijkheden en de belangrijkste artefacten.
 
 ### Ik ben van Legal of Compliance
 

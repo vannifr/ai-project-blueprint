@@ -5,11 +5,17 @@ type: strategic
 layer: 1
 ---
 
-# 1. AI Lifecycle
+# 1. AI Project Cycle
+
+!!! abstract "Purpose"
+    Description of the complete five-phase AI lifecycle that serves as the central roadmap for every AI project.
 
 ## 1. Objective
 
-This document defines the complete methodology for AI projects and forms the foundation of the AI lifecycle. It describes the 5 phases of AI projects and serves as the central roadmap for the team.
+This document defines the complete methodology for AI projects and forms the foundation of the AI project cycle. It describes the 5 phases of AI projects and serves as the central roadmap for the team.
+
+!!! info "Applicability"
+    This project cycle applies to **both project types**: projects that use AI as part of the development process (Type A — building with AI) and projects where AI functionality is part of the end product (Type B — AI in the product). The phasing, gates and evidence standards are identical; the difference lies in the nature of the deliverables per phase. See [Project Type Classification](../02-fase-ontdekking/02-activiteiten.md) for details.
 
 ______________________________________________________________________
 

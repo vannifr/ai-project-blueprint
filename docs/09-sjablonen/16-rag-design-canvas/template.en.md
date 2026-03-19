@@ -105,13 +105,13 @@ ______________________________________________________________________
 
 ## H. Quality Metrics
 
-| Metric               | Definition                                           | Target       | Measurement                      |
-| :------------------- | :--------------------------------------------------- | :----------- | :------------------------------- |
-| **Precision@K**      | % relevant chunks in top-K results                   | ≥ 80%        | Offline evaluation on Golden Set |
-| **Recall@K**         | % relevant chunks retrieved                          | ≥ 70%        | Offline evaluation on Golden Set |
-| **Faithfulness**     | Answer based on retrieved context (no hallucination) | ≥ 90%        | RAGAS or manual review           |
-| **Answer Relevance** | Answer relevant to the question asked                | ≥ 85%        | RAGAS or manual review           |
-| **Latency (p95)**    | Retrieval + generation time                          | \< 3 seconds | Production monitoring            |
+| Metric                                                                               | Definition                                           | Target       | Measurement                      |
+| :----------------------------------------------------------------------------------- | :--------------------------------------------------- | :----------- | :------------------------------- |
+| **Precision@K**                                                                      | % relevant chunks in top-K results                   | ≥ 80%        | Offline evaluation on Golden Set |
+| **Recall@K**                                                                         | % relevant chunks retrieved                          | ≥ 70%        | Offline evaluation on Golden Set |
+| **Faithfulness**                                                                     | Answer based on retrieved context (no hallucination) | ≥ 90%        | RAGAS or manual review           |
+| **Answer Relevance**                                                                 | Answer relevant to the question asked                | ≥ 85%        | RAGAS or manual review           |
+| **Latency (p95)** (95th percentile — 95% of all requests are faster than this value) | Retrieval + generation time                          | \< 3 seconds | Production monitoring            |
 
 ______________________________________________________________________
 

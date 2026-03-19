@@ -9,6 +9,9 @@ tags: [risk, validation]
 
 # 1. Risicoclassificatie in Validatie
 
+!!! abstract "Doel"
+    Verfijning van het risicoprofiel tijdens de Validatiefase op basis van de werkelijkheid van het prototype.
+
 Tijdens de Validatiefase wordt de initiële risicoclassificatie uit Discovery getoetst aan de werkelijkheid van het prototype.
 
 ## 1. Verfijning van het Risicoprofiel

@@ -6,6 +6,9 @@ layer: 1
 
 # 1. Project Initiation
 
+!!! abstract "Purpose"
+    Guidelines for formally starting an AI project with a clear Project Charter, roles and responsibilities.
+
 ## 1. Objective
 
 Formalising the start of an AI project by recording clear objectives, roles, responsibilities and frameworks in an **AI Project Charter**.

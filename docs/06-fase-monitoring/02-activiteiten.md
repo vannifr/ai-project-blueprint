@@ -9,6 +9,9 @@ tags: [monitoring]
 
 # 1. Kernactiviteiten & Rollen (Beheer & Optimalisatie)
 
+!!! abstract "Doel"
+    Overzicht van de kernactiviteiten en rolverdelingen tijdens de Beheer & Optimalisatiefase, van operationele monitoring tot driftdetectie en kostenbeheersing.
+
 ## 1. Kernactiviteiten
 
 ### Operationele Monitoring & MLOps
@@ -43,7 +46,7 @@ Blijvende wettelijke conformiteit.
 - **Post-Market Surveillance:** (EU AI Act eis) Continu scannen op onvoorziene bias, discriminatie of veiligheidsrisico's.
 - **Audit-ready Logging:** Bewaren van logs van beslissingen en menselijke interventies voor auditeurs.
 - **Transparantie Rapporten:** Periodieke rapportage aan stakeholders en CAIO over veiligheid en performance.
-- **Fairness audit (bias audit) (Bias Audit):** Regelmatige steekproeven door de Ethicist op de 'toon' en kwaliteit van outputs.
+- **Fairness Audit:** Regelmatige steekproeven door de Ethicist op de 'toon' en kwaliteit van outputs.
 
 ### Stopzetting & Decommissioning
 
@@ -65,7 +68,7 @@ Een AI-systeem heeft een eindige levensduur. Definieer vooraf wanneer stopzettin
 1. **Kennisoverdracht:** Documenteer geleerde lessen in het [Lessons Learned](../11-project-afsluiting/01-lessons-learned.md) register.
 1. **Data-verwijdering:** Verwijder of anonimiseer productiedata conform AVG/GDPR \[so-49\].
 1. **Infrastructuur:** Schakel compute, API-sleutels en monitoring-pipelines af.
-1. **Guardian-signoff:** Guardian bevestigt dat alle Rode Lijnen-verplichtingen zijn nagekomen.
+1. **Guardian-signoff:** Guardian bevestigt dat alle Harde Grenzen-verplichtingen zijn nagekomen.
 
 ## 2. Team & Rollen
 
@@ -87,7 +90,7 @@ ______________________________________________________________________
 - [MLOps Standaarden](../08-technische-standaarden/01-mloops-standaarden.md)
 - [EU AI Act compliance](../07-compliance-hub/01-eu-ai-act/index.md)
 
-**Zie ook:** [Overzicht Fase 5](01-doelstellingen.md) · [Afleveringen](03-afleveringen.md)
+**Zie ook:** [Overzicht Fase 5](01-doelstellingen.md) · [Opleveringen](03-afleveringen.md)
 
 ______________________________________________________________________
 

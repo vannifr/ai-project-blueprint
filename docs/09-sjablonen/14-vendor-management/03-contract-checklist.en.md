@@ -47,15 +47,15 @@ ______________________________________________________________________
 
 ## Section 3 — Service Level Agreement (SLA)
 
-| Requirement                                             | Status | Note |
-| :------------------------------------------------------ | :----- | :--- |
-| Uptime SLA established (e.g. 99.5%)                     | ☐      |      |
-| Uptime measurement method defined                       | ☐      |      |
-| Penalty clause for SLA breach                           | ☐      |      |
-| Latency guarantees (p95, p99) specified                 | ☐      |      |
-| Capacity guarantees (rate limits) established           | ☐      |      |
-| Incident procedure and communication channels described | ☐      |      |
-| Status page and incident notifications arranged         | ☐      |      |
+| Requirement                                                                                                      | Status | Note |
+| :--------------------------------------------------------------------------------------------------------------- | :----- | :--- |
+| Uptime SLA established (e.g. 99.5%)                                                                              | ☐      |      |
+| Uptime measurement method defined                                                                                | ☐      |      |
+| Penalty clause for SLA breach                                                                                    | ☐      |      |
+| Latency guarantees (p95, p99) specified (p95 = 95th percentile — 95% of all requests are faster than this value) | ☐      |      |
+| Capacity guarantees (rate limits) established                                                                    | ☐      |      |
+| Incident procedure and communication channels described                                                          | ☐      |      |
+| Status page and incident notifications arranged                                                                  | ☐      |      |
 
 ______________________________________________________________________
 

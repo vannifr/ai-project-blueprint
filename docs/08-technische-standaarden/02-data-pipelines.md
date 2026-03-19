@@ -8,6 +8,9 @@ tags: [data, mlops]
 
 # 1. Data Pipelines
 
+!!! abstract "Doel"
+    Standaarden voor het opzetten en beheren van datapipelines die AI-systemen voeden met betrouwbare, traceerbare data.
+
 ## 1. Doel
 
 Deze module definieert de standaarden voor het opzetten en beheren van datapipelines die AI-systemen voeden. Een robuuste datapipeline is de ruggengraat van elke betrouwbare AI-oplossing.

@@ -7,6 +7,9 @@ roles: [Tech Lead]
 
 # 1. AI Architectuur
 
+!!! abstract "Doel"
+    Overzicht van de meest voorkomende architectuurpatronen voor AI-systemen en de overwegingen bij het kiezen van de juiste aanpak.
+
 ## 1. Doel
 
 Deze module beschrijft de meest voorkomende architectuurpatronen voor AI-systemen en de overwegingen bij het kiezen van de juiste aanpak. Een goede architectuur balanceert functionaliteit, schaalbaarheid, kosten en veiligheid.
@@ -25,7 +28,7 @@ Elke AI-oplossing bestaat uit een aantal lagen die samenwerken:
 ├─────────────────────────────────────────┤
 │ AI-Kern (Model) │ LLM, classifier, etc.
 ├─────────────────────────────────────────┤
-│ RAG (RAG) │ Vectorstore, documenten
+│ RAG │ Vectorstore, documenten
 ├─────────────────────────────────────────┤
 │ Data-laag │ Databases, logging, storage
 └─────────────────────────────────────────┘
@@ -57,9 +60,9 @@ ______________________________________________________________________
 
 - Zorg voor rate limiting en kostenbewaking
 - Log alle interacties conform [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md)
-- Implementeer Rode Lijnen via system prompts
+- Implementeer Harde Grenzen via system prompts
 
-### Patroon B: RAG (RAG)
+### Patroon B: RAG
 
 **Omschrijving:** LLM wordt verrijkt met bedrijfsspecifieke informatie uit een kennisbank.
 
@@ -218,7 +221,7 @@ ______________________________________________________________________
     - [ ] Schaalbaarheid is overwogen
     - [ ] Kosteninschatting is gemaakt
     - [ ] Logging en monitoring zijn ingericht
-    - [ ] Rode Lijnen zijn geïmplementeerd in de architectuur
+    - [ ] Harde Grenzen zijn geïmplementeerd in de architectuur
     - [ ] Rollback-strategie is gedefinieerd
 
 ______________________________________________________________________

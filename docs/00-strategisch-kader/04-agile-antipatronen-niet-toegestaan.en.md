@@ -5,11 +5,14 @@ layer: 1
 tags: [agile]
 ---
 
-# 1. Agile Anti-patterns
+# 1. Anti-patterns in AI Projects
+
+!!! abstract "Purpose"
+    Overview of the "NOT DONE" anti-patterns that must be avoided in AI projects to prevent failure and compliance issues.
 
 ## 1. Objective
 
-This list defines the "NOT DONE" criteria for AI projects: Agile anti-patterns that must be absolutely avoided to prevent failure, unethical behaviour or compliance issues.
+This list defines the "NOT DONE" criteria for AI projects: anti-patterns that must be absolutely avoided to prevent failure, unethical behaviour or compliance issues.
 
 ______________________________________________________________________
 

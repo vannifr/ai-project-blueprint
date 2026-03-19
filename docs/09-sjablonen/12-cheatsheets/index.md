@@ -21,7 +21,7 @@ ______________________________________________________________________
 | 04  | [Gate Reviews](04-gate-reviews.md)           | Minimale vereisten per Gate 1–5            |
 | 05  | [Bewijsstandaarden](05-bewijsstandaarden.md) | Welk bewijs is vereist per artefacttype    |
 | 06  | [Samenwerkingsmodi](06-samenwerkingsmodi.md) | Samenwerkingsmodus kiezen per taak         |
-| 07  | [Rode Lijnen](07-rode-lijnen.md)             | Verboden gedrag definiëren voor AI-systeem |
+| 07  | [Harde Grenzen](07-rode-lijnen.md)           | Verboden gedrag definiëren voor AI-systeem |
 | 08  | [Incident Respons](08-incident-respons.md)   | Eerste stappen bij AI-incident             |
 
 ______________________________________________________________________

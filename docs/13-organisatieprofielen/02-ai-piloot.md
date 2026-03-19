@@ -33,7 +33,7 @@ Organisaties in de Bouwer-fase hebben bewezen dat AI werkt, maar worstelen met d
 
 1. Implementeer Specificatie-eerst Methode (test-driven development)
 1. Stel Prestatieverschuiving monitoring in
-1. Formaliseer governance: definieer Rode Lijnen
+1. Formaliseer governance: definieer Harde Grenzen
 1. Investeer in MLOps training voor het team
 1. Documenteer Stuurinformatie (prompts, context) in version control
 

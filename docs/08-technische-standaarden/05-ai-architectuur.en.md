@@ -7,6 +7,9 @@ roles: [Tech Lead]
 
 # 1. AI Architecture
 
+!!! abstract "Purpose"
+    Overview of the most common architecture patterns for AI systems and the considerations when choosing the right approach.
+
 ## 1. Purpose
 
 This module describes the most common architecture patterns for AI systems and the considerations when choosing the right approach. Good architecture balances functionality, scalability, cost and security.

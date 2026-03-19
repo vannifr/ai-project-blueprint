@@ -28,14 +28,14 @@ ______________________________________________________________________
 - [ ] Initiële risico-scan uitgevoerd.
 - [ ] Kritieke **aannames** zijn geïdentificeerd in de Doelkaart (sectie E).
 
-!!! check "Gate 2 (Investering PoV): Van Validatie naar Realisatie"
+!!! check "Gate 2 — Investeringsbeslissing: Van Validatie naar Realisatie"
 
 **Samenwerkingsmodus:** \[Modus X — naam invullen\]
 **Bewijsvereisten voor deze modus:** → Zie [Bewijsstandaarden](../../01-ai-native-fundamenten/07-bewijsstandaarden.md)
 
 - [ ] **Validatiepilot (PoV)** is succesvol afgerond (>90% score).
 - [ ] **Het Kostenoverzicht** is goedgekeurd.
-- [ ] **Rode Lijnen** zijn gedefinieerd door the Guardian.
+- [ ] **Harde Grenzen** zijn gedefinieerd door the Guardian.
 - [ ] Riskantste **aanname** is getest en gevalideerd of bewust geaccepteerd.
 
 !!! check "Gate 3 (Productie-klaar): Van Realisatie naar Levering"

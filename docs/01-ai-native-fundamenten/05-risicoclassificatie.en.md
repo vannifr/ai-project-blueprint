@@ -8,6 +8,9 @@ tags: [risk]
 
 # 1. Risk Classification
 
+!!! abstract "Purpose"
+    Classification of changes based on impact so that the appropriate validation depth is applied in line with the EU AI Act.
+
 ## 1. Validation Depth
 
 Not every change requires the same depth of validation. We classify changes based on their impact on the **Hard Boundaries**.

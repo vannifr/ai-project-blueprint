@@ -1,6 +1,6 @@
 ---
 versie: '1.0'
-description: 'Fase Verkenning & Strategie: doelstellingen, kernactiviteiten en afleveringen voor de eerste fase van een AI-project — probleemdefiniëring, haalbaarheidsscoping en governance fundament.'
+description: 'Fase Verkenning & Strategie: doelstellingen, kernactiviteiten en opleveringen voor de eerste fase van een AI-project — probleemdefiniëring, haalbaarheidsscoping en governance fundament.'
 type: objectives
 layer: 2
 phase: [1]
@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 ---
 
 # 1. Verkenning & Strategie
+
+!!! abstract "Doel"
+    Doelstellingen, kernactiviteiten en opleveringen van Fase 1: het juiste probleem identificeren en de haalbaarheid van een AI-project toetsen.
 
 ## 1. Doelstelling
 
@@ -44,7 +47,7 @@ ______________________________________________________________________
 **Verdieping binnen deze fase:**
 
 - [Activiteiten](02-activiteiten.md)
-- [Afleveringen](03-afleveringen.md)
+- [Opleveringen](03-afleveringen.md)
 - [Fast Lane (Snelle Route)](06-fast-lane.md)
 - [Moduskeuze Beoordeling](05-has-h-beoordeling.md)
 

@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 1. Deliverables & Gate 3 (Production-Ready) (Development)
 
+!!! abstract "Purpose"
+    Overview of mandatory deliverables and Gate 3 criteria that determine whether the AI system is production-ready.
+
 ## 1. Deliverables
 
 The results of the Development phase for a safe **Go-live**:

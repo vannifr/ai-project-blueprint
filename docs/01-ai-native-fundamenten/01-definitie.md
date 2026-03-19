@@ -7,6 +7,9 @@ layer: 1
 
 # 1. De Kernprincipes
 
+!!! abstract "Doel"
+    Uitleg van de kernprincipes van AI-native projectmanagement: gedragssturing, traceerbaarheid en menselijk toezicht als fundament.
+
 ## 1. Wat Zijn de Kernprincipes?
 
 Wij beschouwen AI-voorzieningen niet als statische software, maar als **gedragssturing**. Dit betekent dat we AI-systemen niet programmeren in de traditionele zin, maar sturen door middel van informatie en context.
@@ -49,7 +52,7 @@ Dit is de hypothese of het doel van het systeem. Bijvoorbeeld:
 - "Automatisch facturen categoriseren met 95% nauwkeurigheid"
 - "Klantvragen beantwoorden binnen 30 seconden"
 
-### Rode Lijnen (Constraints)
+### Harde Grenzen (Constraints)
 
 **Wat mag absoluut niet gebeuren?**
 
@@ -74,7 +77,7 @@ Dit omvat alle inputs die de AI gebruikt:
 
 **Hoe weten we dat het werkt?**
 
-Het rapport dat aantoont dat de AI zich aan de Rode Lijnen houdt en het Doel bereikt:
+Het rapport dat aantoont dat de AI zich aan de Harde Grenzen houdt en het Doel bereikt:
 
 - Testresultaten
 - Prestatiemetrics
@@ -94,7 +97,7 @@ Het verschil met traditionele software:
 | Eenmalige test = klaar         | Continue validatie vereist           |
 | Bug = code fout                | "Bug" = context probleem             |
 
-**Context Engineering** wordt de nieuwe kerndiscipline: het ontwerpen en beheren van de informatie die het AI-gedrag stuurt.
+**Context Management** wordt de nieuwe kerndiscipline: het ontwerpen en beheren van de informatie die het AI-gedrag stuurt. Dit omvat zowel *context management* (de technische inrichting van kennisbronnen en prompt-architectuur) als het bredere organisatorische proces van informatievoorziening aan AI-systemen.
 
 ______________________________________________________________________
 

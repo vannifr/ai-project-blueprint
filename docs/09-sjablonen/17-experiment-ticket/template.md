@@ -58,12 +58,12 @@ ______________________________________________________________________
 
 Definieer meetbare criteria die aansluiten bij de Evidence Standards van de AI Project Blueprint \[so-1\].
 
-| Criterium               | Metric                    | Minimumdrempel     | Streefwaarde       |
-| :---------------------- | :------------------------ | :----------------- | :----------------- |
-| Nauwkeurigheid          | \[Bijv. F1-score\]        | \[Bijv. >= 0.80\]  | \[Bijv. >= 0.90\]  |
-| Latentie                | \[Bijv. p95 responstijd\] | \[Bijv. \< 2s\]    | \[Bijv. \< 500ms\] |
-| Kosten per voorspelling | \[Bijv. EUR/1000 calls\]  | \[Bijv. \< EUR 5\] | \[Bijv. \< EUR 2\] |
-| Gebruikersacceptatie    | \[Bijv. NPS of CSAT\]     | \[Bijv. >= 7/10\]  | \[Bijv. >= 8/10\]  |
+| Criterium               | Metric                                                                                         | Minimumdrempel     | Streefwaarde       |
+| :---------------------- | :--------------------------------------------------------------------------------------------- | :----------------- | :----------------- |
+| Nauwkeurigheid          | \[Bijv. F1-score\]                                                                             | \[Bijv. >= 0.80\]  | \[Bijv. >= 0.90\]  |
+| Latentie                | \[Bijv. p95 responstijd\] (95e percentiel — 95% van alle verzoeken is sneller dan deze waarde) | \[Bijv. \< 2s\]    | \[Bijv. \< 500ms\] |
+| Kosten per voorspelling | \[Bijv. EUR/1000 calls\]                                                                       | \[Bijv. \< EUR 5\] | \[Bijv. \< EUR 2\] |
+| Gebruikersacceptatie    | \[Bijv. NPS of CSAT\]                                                                          | \[Bijv. >= 7/10\]  | \[Bijv. >= 8/10\]  |
 
 - **Bewijsniveau:** \[Verwijzing naar het vereiste Evidence Level voor deze Gate\]
 - **Golden Set beschikbaar:** \[Ja/Nee — indien Nee, opnemen als deliverable in sprint 1\]
@@ -77,7 +77,7 @@ Definieer de grenzen waarbij het experiment als mislukt wordt beschouwd en de pi
 | Faalcriterium                             | Drempel                        | Gevolg            |
 | :---------------------------------------- | :----------------------------- | :---------------- |
 | Nauwkeurigheid onder minimumgrens         | \[Bijv. F1 \< 0.70\]           | Stop of Pivot     |
-| Rode Lijnen geschonden                    | Elke schending                 | Onmiddellijk Stop |
+| Harde Grenzen geschonden                  | Elke schending                 | Onmiddellijk Stop |
 | Kosten overschrijden budget               | \[Bijv. > 150% van schatting\] | Pivot of Stop     |
 | Geen meetbare verbetering t.o.v. baseline | Na sprint 1                    | Pivot             |
 

@@ -8,6 +8,9 @@ tags: [agile]
 
 # 1. Retrospectives
 
+!!! abstract "Purpose"
+    Structured evaluation of the AI system and the team to identify improvement areas and embed them in the next cycle.
+
 ## 1. Objective
 
 We evaluate the functioning of the AI system and the team in a structured and periodic manner to identify improvement points, make adjustments and embed them in the next cycle.
@@ -33,7 +36,26 @@ The sprint retrospective evaluates the functioning of the team and the system ov
 - Have any Hard Boundaries been approached or crossed?
 - How did the collaboration with the Guardian go?
 
-**Duration:** 60 minutes. **Owner:** AI Product Manager. **Output:** Action list in the backlog.
+#### Root Cause Analysis
+
+For each significant problem the team conducts a **thorough root cause analysis**. Use one of these methods:
+
+- **5× Why:** Ask "why?" five times to move from symptom to root cause.
+- **Fishbone diagram (Ishikawa):** Categorise causes along dimensions: Data, Model, Process, People, Tooling.
+- **Timeline analysis:** Reconstruct the timeline of events that led to the problem.
+
+#### Change Experiments
+
+Each retrospective results in at least one concrete **change experiment** — a bounded adjustment in working method, process or tooling that the team tests in the next sprint:
+
+| Element         | Description                                                                     |
+| :-------------- | :------------------------------------------------------------------------------ |
+| **Hypothesis**  | "If we change X, we expect Y improvement."                                      |
+| **Measurement** | How do we measure whether the experiment succeeds? (KPI, observation, feedback) |
+| **Duration**    | One sprint — then evaluate and decide: keep, adjust or stop.                    |
+| **Owner**       | One team member who drives the experiment.                                      |
+
+**Duration:** 60 minutes. **Owner:** AI Product Manager. **Output:** Action list + change experiment in the backlog.
 
 ### Quarterly Model Retrospective
 

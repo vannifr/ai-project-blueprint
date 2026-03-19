@@ -9,6 +9,9 @@ tags: [gate-review]
 
 # 1. Checklist: Operational Handover
 
+!!! abstract "Purpose"
+    Tick-off checklist for the formal handover of the AI system from the project team to the operations organisation at Gate 4.
+
 Use this checklist for the formal handover of the AI system from the project team to the operations organisation (Gate 4 — Go-live). All items must be ticked and documented before the handover is officially complete.
 
 ______________________________________________________________________

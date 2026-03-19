@@ -7,11 +7,14 @@ tags: [onboarding]
 
 # 30-Dagen Dag-tot-Dag Plan
 
+!!! abstract "Doel"
+    Dit plan begeleidt teams stap voor stap door hun **eerste AI-project in 30 dagen**. Het is een concrete, dagelijkse checklist die u van probleemdefiniëring tot een werkend prototype en Gate Review brengt. Bedoeld voor teams zonder eerdere AI-ervaring die structuur nodig hebben om snel maar verantwoord te starten.
+
 ## 1. Instructies
 
 Gebruik dit plan als uw dagelijkse gids. Vink elke activiteit af wanneer afgerond. De tijdsaanduidingen zijn indicatief voor een team van 2–3 personen.
 
-!!! warning "Dit is een richtsnoer, geen rigid schema"
+!!! warning "Dit is een leidraad, geen rigid schema"
     Pas de planning aan uw eigen ritme aan. Als u meer tijd nodig heeft voor een stap, neem die dan. Het doel op dag 21 (Gate Review) is heilig — de dagindeling ervoor is flexibel.
 
 ______________________________________________________________________
@@ -54,7 +57,6 @@ ______________________________________________________________________
 **Doel:** Duidelijk mandaat voor elke rol voor de komende 25 dagen.
 
 - [ ] Bevestig wie de **AI PM** is (projectaansturing, dagelijkse check-in)
-- [ ] Bevestig wie de **Developer** is (prototype bouwen, scaffold code)
 - [ ] Benoem indien mogelijk een **Guardian** (mini-rol: ethiek & risico bewaken)
 - [ ] Plan dagelijkse stand-up (15 min, asynchroon via Slack/Teams is OK)
 - [ ] Maak een gedeelde projectmap aan (SharePoint, Notion, GitHub — wat u al gebruikt)
@@ -103,12 +105,9 @@ Gebruik de scorecard hieronder. Score elke kandidaat-use case op 1 (laag) tot 3 
 - [ ] Score minimaal 2 kandidaat-use cases met de scorecard
 - [ ] Selecteer de use case met de hoogste score (minimaal 18/30 aanbevolen)
 - [ ] Documenteer de keuze en de afgewezen alternatieven in het project charter
-- [ ] Kies de bijbehorende scaffold code template:
     - 📄 **Document Q&A**: vragen over interne documenten, handleidingen, beleid
     - 📧 **E-mailclassificatie**: sorteren en prioriteren van inkomende berichten
     - ✍️ **Contentgeneratie**: gestructureerde tekst of rapportages genereren
-
-**Gereed als:** Use case is gekozen, gedocumenteerd, en scaffold code template is geselecteerd.
 
 ______________________________________________________________________
 
@@ -118,11 +117,8 @@ ______________________________________________________________________
 
 **Doel:** Een werkend prototype dat 20 testcases kan verwerken.
 
-- [ ] Zet de ontwikkelomgeving op (zie [Scaffold Code](05-scaffold-code.md) — sectie Docker-setup)
-- [ ] Kopieer de scaffold code voor uw gekozen use case
 - [ ] Configureer de API-sleutel en databron
 - [ ] Voer de eerste testrun uit met 5 voorbeeldinputs
-- [ ] Fix eventuele fouten (scaffold code bevat probleemoplossingsgids)
 - [ ] Verfijn de prompt of configuratie op basis van de eerste resultaten
 - [ ] Bouw een minimale interface of script voor de Sponsor-demo (dag 21)
 - [ ] Commit alle code naar uw projectrepository (GitHub of intern)
@@ -212,4 +208,3 @@ ______________________________________________________________________
 - [Project Charter Light](02-project-charter-light.md)
 - [Risk Pre-Scan Quick](03-risk-prescan-quick.md)
 - [Validatierapport Minimaal](04-validatierapport-minimal.md)
-- [Scaffold Code](05-scaffold-code.md)

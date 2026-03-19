@@ -8,7 +8,10 @@ roles: [AI Product Manager]
 
 # 1. Opleveringen & Gate 4 (Livegang) (Levering)
 
-## 1. Opleveringen (Afleveringen)
+!!! abstract "Doel"
+    Overzicht van de verplichte opleveringen en Gate 4 criteria die een veilige livegang en operationele overdracht garanderen.
+
+## 1. Opleveringen
 
 De resultaten van de Levering-fase die een veilige operatie garanderen:
 

@@ -7,6 +7,9 @@ phase: [5]
 
 # 2. Handover Procedures
 
+!!! abstract "Purpose"
+    Structured handover of the AI system to the operations organisation ensuring continuity, compliance and quality are guaranteed.
+
 ## 1. Objective
 
 We formally and structurally hand over the AI system to the management organisation so that continuity, compliance and quality are guaranteed after project closure.

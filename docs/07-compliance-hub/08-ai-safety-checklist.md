@@ -8,6 +8,9 @@ tags: [eu-ai-act, gate-review, security, template]
 
 # AI Safety Checklist
 
+!!! abstract "Doel"
+    Gestructureerde veiligheidschecklist over vier dimensies (training, ingebruikname, monitoring, governance) voor gebruik bij elke Gate Review.
+
 Gestructureerde veiligheidschecks over vier dimensies: training, ingebruikname, monitoring en governance. Gebruik deze checklist bij elke Gate Review voor Hoog Risico en Beperkt Risico systemen.
 
 !!! tip "Risico-proportioneel gebruik"
@@ -36,7 +39,7 @@ ______________________________________________________________________
 | :--------------------------------------------------------------------------------- | :----- | :------ |
 | **Input-filtering** geconfigureerd (blokkeer verboden inputs)                      | ☐      |         |
 | **Output-filtering** geconfigureerd (blokkeer verboden outputs)                    | ☐      |         |
-| **Rode Lijnen** gedocumenteerd en technisch afgedwongen                            | ☐      |         |
+| **Harde Grenzen** gedocumenteerd en technisch afgedwongen                          | ☐      |         |
 | Rate limiting ingesteld (misbruikpreventie)                                        | ☐      |         |
 | **Circuit Breaker** geconfigureerd (zie [Incident Respons](05-incidentrespons.md)) | ☐      |         |
 | Least-privilege toegang: systeem heeft minimale benodigde rechten                  | ☐      |         |

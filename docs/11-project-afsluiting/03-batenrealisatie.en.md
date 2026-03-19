@@ -8,6 +8,9 @@ roles: [Business Sponsor]
 
 # 3. Benefits Realisation (Project Closure)
 
+!!! abstract "Purpose"
+    Final measurement of promised benefits at project closure, with reporting to the steering committee and handover of the benefits realisation plan.
+
 ## 1. Objective
 
 We measure the definitive realisation of the promised benefits at project closure, report on this to the steering committee and hand over the benefits realisation plan to the management organisation for continued monitoring.

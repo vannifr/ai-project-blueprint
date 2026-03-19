@@ -8,7 +8,10 @@ roles: [AI Product Manager]
 
 # 1. Opleveringen & Gate 3 (Productie-klaar) (Realisatie)
 
-## 1. Opleveringen (Afleveringen)
+!!! abstract "Doel"
+    Overzicht van de verplichte opleveringen en Gate 3 criteria die bepalen of het AI-systeem productie-klaar is.
+
+## 1. Opleveringen
 
 De resultaten van de Realisatiefase voor een veilige **Ingebruikname**:
 

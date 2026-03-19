@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # Templates Discovery & Strategy
 
+!!! abstract "Purpose"
+    Overview of all available templates supporting the Discovery phase, with direct links to the central template library.
+
 ## Available Templates
 
 The following templates support the Discovery phase. They are stored in the central template library.

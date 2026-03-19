@@ -8,6 +8,9 @@ roles: [AI Product Manager]
 
 # 5. Moduskeuze Beoordeling
 
+!!! abstract "Doel"
+    Bepalen welke AI-Samenwerkingsmodus (1 t/m 5) passend is voor uw gebruikscasus, als basis voor governance- en toezichtseisen.
+
 ## 1. Doelstelling
 
 Tijdens de Verkenningsfase bepalen wij welke [Samenwerkingsmodus](../00-strategisch-kader/06-has-h-niveaus.md) (Modus 1 t/m 5) passend is voor de te ontwikkelen gebruikscasus. Deze keuze legt de basis voor de governance-eisen, de technische vereisten en de menselijke toezichtsstructuur van het project.
@@ -70,14 +73,14 @@ ______________________________________________________________________
 
 Combineer de risicoscore met de beslisanalyse om de aanbevolen modus te bepalen:
 
-| Risicoscore | Beslissing per geval door mens | Aanbevolen startmodus                               |
-| :---------- | :----------------------------- | :-------------------------------------------------- |
-| 0 – 3       | Ja                             | **Modus 2 (Adviserend)**                            |
-| 0 – 3       | Nee, te groot volume           | **Modus 3 (Collaboratief)**                         |
-| 4 – 6       | Ja, elke beslissing            | **Modus 2 (Adviserend)**                            |
-| 4 – 6       | Steekproef / monitoring        | **Modus 3 (Collaboratief)**                         |
-| 7 – 10      | Elke beslissing verplicht      | **Modus 2 (Adviserend)**                            |
-| 7 – 10      | Niet haalbaar door volume      | **Modus 4 (Gedelegeerd)** — met strenge Rode Lijnen |
+| Risicoscore | Beslissing per geval door mens | Aanbevolen startmodus                                 |
+| :---------- | :----------------------------- | :---------------------------------------------------- |
+| 0 – 3       | Ja                             | **Modus 2 (Adviserend)**                              |
+| 0 – 3       | Nee, te groot volume           | **Modus 3 (Collaboratief)**                           |
+| 4 – 6       | Ja, elke beslissing            | **Modus 2 (Adviserend)**                              |
+| 4 – 6       | Steekproef / monitoring        | **Modus 3 (Collaboratief)**                           |
+| 7 – 10      | Elke beslissing verplicht      | **Modus 2 (Adviserend)**                              |
+| 7 – 10      | Niet haalbaar door volume      | **Modus 4 (Gedelegeerd)** — met strenge Harde Grenzen |
 
 !!! tip "Begin laag, schaal op"
     Start in de laagst haalbare modus om vertrouwen en data op te bouwen. Verhoog de modus pas na bewijs van betrouwbaarheid (≥ 90% nauwkeurigheid over minimaal 4 weken productie).
@@ -91,11 +94,11 @@ ______________________________________________________________________
 
 De moduskeuze hangt mede af van het type AI-architectuur. Elk type heeft specifieke aandachtspunten bij de beoordeling:
 
-| Architectuur                             | Primair Aandachtspunt              | Sleutelvragen                                                                                     |
-| :--------------------------------------- | :--------------------------------- | :------------------------------------------------------------------------------------------------ |
-| **RAG (Retrieval-Augmented Generation)** | Documentdekking & ophaalrelevantie | Beschikt u over ≥100 kwalitatieve brondocumenten? Kunt u ophaalrelevantie meten?                  |
-| **Fine-tuning**                          | Labelbudget & datakwaliteit        | Beschikt u over 5k–50k gelabelde voorbeelden? Is de data representatief voor de productiecontext? |
-| **Agentisch (Modus 4-5)**                | Toolbetrouwbaarheid & rode lijnen  | Zijn de aangeroepen tools betrouwbaar? Wat is de ergst denkbare actie die de agent kan uitvoeren? |
+| Architectuur                             | Primair Aandachtspunt               | Sleutelvragen                                                                                     |
+| :--------------------------------------- | :---------------------------------- | :------------------------------------------------------------------------------------------------ |
+| **RAG (Retrieval-Augmented Generation)** | Documentdekking & ophaalrelevantie  | Beschikt u over ≥100 kwalitatieve brondocumenten? Kunt u ophaalrelevantie meten?                  |
+| **Fine-tuning**                          | Labelbudget & datakwaliteit         | Beschikt u over 5k–50k gelabelde voorbeelden? Is de data representatief voor de productiecontext? |
+| **Agentisch (Modus 4-5)**                | Toolbetrouwbaarheid & harde grenzen | Zijn de aangeroepen tools betrouwbaar? Wat is de ergst denkbare actie die de agent kan uitvoeren? |
 
 !!! tip "Architectuurkeuze beïnvloedt moduskeuze"
     Een RAG-systeem met beperkte brondocumenten start doorgaans in Modus 2. Een agentisch systeem met financiële tools vereist minimaal Modus 4 governance — ongeacht de risicoscore.
@@ -107,15 +110,15 @@ ______________________________________________________________________
 De uitkomst van de moduskeuze beoordeling wordt vastgelegd in:
 
 1. **Project Charter** — Sectie 'Samenwerkingsmodus': noteer de gekozen modus en de motivatie.
-1. **Rode Lijnen** — Definieer de grenzen die passen bij de gekozen modus.
+1. **Harde Grenzen** — Definieer de grenzen die passen bij de gekozen modus.
 1. **Validatieplan** — Koppel de modus aan de vereiste validatie-intensiteit (zie [Validatie Model](../01-ai-native-fundamenten/04-validatie-model.md)).
 
-| Te documenteren                    | Waar                 | Eigenaar       |
-| :--------------------------------- | :------------------- | :------------- |
-| Gekozen modus (1–5)                | Project Charter      | AI PM          |
-| Risicoscore en motivatie           | Project Charter      | Guardian       |
-| Rode Lijnen gekoppeld aan modus    | Rode Lijnen document | Guardian       |
-| Validatie-eisen op basis van modus | Validatieplan        | Tech Lead + QA |
+| Te documenteren                    | Waar                   | Eigenaar       |
+| :--------------------------------- | :--------------------- | :------------- |
+| Gekozen modus (1–5)                | Project Charter        | AI PM          |
+| Risicoscore en motivatie           | Project Charter        | Guardian       |
+| Harde Grenzen gekoppeld aan modus  | Harde Grenzen document | Guardian       |
+| Validatie-eisen op basis van modus | Validatieplan          | Tech Lead + QA |
 
 ______________________________________________________________________
 

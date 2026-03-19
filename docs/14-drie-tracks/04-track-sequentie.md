@@ -27,7 +27,7 @@ Maand 0–18                  Maand 12–36                     Maand 24+
 **Wanneer van Operationeel naar Strategisch?**
 
 - Meerdere use cases draaien stabiel in productie.
-- De governance-structuur (Guardian, Rode Lijnen) is volwassen.
+- De governance-structuur (Guardian, Harde Grenzen) is volwassen.
 - Het leadership ziet AI als strategisch onderscheidend vermogen, niet alleen als efficiëntietool.
 - De Business Case van bestaande use cases is aantoonbaar positief.
 

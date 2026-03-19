@@ -8,6 +8,9 @@ tags: [ethics, eu-ai-act]
 
 # 1. Ethische Richtlijnen
 
+!!! abstract "Doel"
+    Kaders om te waarborgen dat AI-systemen menselijke waarden respecteren en geen onbedoelde schade toebrengen.
+
 ## 1. Doel
 
 Waarborgen dat AI-systemen worden ontwikkeld en gebruikt op een manier die de menselijke waarden respecteert en geen onbedoelde schade toebrengt.
@@ -30,7 +33,7 @@ Het moet voor een gebruiker duidelijk zijn wanneer hij met een AI communiceert. 
 
 ### Privacy & Gegevensbescherming
 
-Strikte naleving van de AVG/GDPR. Gegevens worden alleen gebruikt voor het beoogde doel en conform de gestelde **Rode Lijnen**.
+Strikte naleving van de AVG/GDPR. Gegevens worden alleen gebruikt voor het beoogde doel en conform de gestelde **Harde Grenzen**.
 
 Bron: \[so-49\]
 
@@ -40,7 +43,7 @@ We streven naar een positieve impact op de samenleving en minimaliseren de ecolo
 
 ______________________________________________________________________
 
-## 3. De Fairness audit (bias audit) (Bias Audit) - Uitgebreid
+## 3. De Fairness Audit - Uitgebreid
 
 ### Toetsniveaus
 
@@ -144,7 +147,7 @@ ______________________________________________________________________
 
 De Guardian fungeert als het morele kompas van het project:
 
-- Bewaakt de **Rode Lijnen**
+- Bewaakt de **Harde Grenzen**
 - Voert onafhankelijke ethische reviews uit
 - Heeft veto-mandaat bij ethische overschrijdingen
 - Keurt Fairness audit (bias audit) resultaten goed
@@ -152,13 +155,13 @@ De Guardian fungeert als het morele kompas van het project:
 
 ### Guardian Taken per Fase
 
-| Fase       | Guardian Activiteit                                       |
-| ---------- | --------------------------------------------------------- |
-| Verkenning | Ethische wenselijkheid beoordelen, Rode Lijnen definiëren |
-| Validatie  | Fairness audit (bias audit) uitvoeren/reviewen            |
-| Realisatie | Mitigatiemaatregelen valideren                            |
-| Levering   | Finale ethische goedkeuring                               |
-| Beheer     | Periodieke ethics reviews, bias monitoring                |
+| Fase       | Guardian Activiteit                                         |
+| ---------- | ----------------------------------------------------------- |
+| Verkenning | Ethische wenselijkheid beoordelen, Harde Grenzen definiëren |
+| Validatie  | Fairness audit (bias audit) uitvoeren/reviewen              |
+| Realisatie | Mitigatiemaatregelen valideren                              |
+| Levering   | Finale ethische goedkeuring                                 |
+| Beheer     | Periodieke ethics reviews, bias monitoring                  |
 
 ______________________________________________________________________
 
@@ -166,7 +169,7 @@ ______________________________________________________________________
 
 !!! check "5. Checklist Ethische Richtlijnen"
     - [ ] Ethische grondbeginselen zijn besproken met team
-    - [ ] Rode Lijnen zijn gedefinieerd in Doelkaart (goal card)
+    - [ ] Harde Grenzen zijn gedefinieerd in Doelkaart (goal card)
     - [ ] Relevante groepen voor Fairness audit (bias audit) zijn geïdentificeerd
     - [ ] Fairness audit (bias audit) is uitgevoerd conform risiconiveau
     - [ ] Resultaten voldoen aan drempels óf mitigatie is gedocumenteerd
