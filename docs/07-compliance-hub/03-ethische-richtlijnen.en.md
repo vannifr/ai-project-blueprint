@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 type: compliance
 layer: 3
 roles: [Guardian]
