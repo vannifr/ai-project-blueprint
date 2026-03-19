@@ -1,5 +1,5 @@
 ---
-versie: '1.7'
+versie: '1.8'
 pdf: false
 type: meta
 layer: 3
@@ -37,6 +37,12 @@ ______________________________________________________________________
 # Version History
 
 Summary of key changes per version.
+
+______________________________________________________________________
+
+## v1.8 — 2026-03-19
+
+Major content and terminology revision across 222 files (NL + EN). **Terminology:** "Rode Lijnen" renamed to "Harde Grenzen" (EN: Hard Boundaries), "normatief" → "toetsbaar" (EN: assessment-based), "richtsnoer" → "leidraad", "Data Pijplijnen" → "Data Pipelines", "Afleveringen" → "Opleveringen", "Context Engineering" → "Context Management", "Model Gezondheid" → "Model Health". SDD abbreviations removed from titles, duplicate terms deduplicated (Fairness Audit, Value Realisation, Guardian). **Content:** Assessment Criteria rewritten with 5 genuine AI-native principles (behaviour steering, proportional governance, evidence over assumptions, human in control, continuous validation). Homepage and Executive Summary clarified with "What is this?" block and question-answer navigation table. Governance flowcharts improved with descriptive gate labels. Retrospectives expanded with root cause analysis and change experiments. Hybrid Methodology expanded (sprint planning, AI uncertainty). Validation Depth expanded with 3 levels and practical examples. RACI Matrix extended with Context Builder and AI Security Officer. ~124 pages provided with Purpose section. p95 explanation added to 18 files. **Structure:** Navigation order optimised (Project Initiation before Hybrid Methodology). Scaffold code removed from navigation. Type A/B callout and AI PM Onboarding entry point added. Navigator links fixed, GitHub Pages-compatible relative URLs. Source reference numbering explained. Disclaimer on homepage. Build: 0 warnings in strict mode.
 
 ______________________________________________________________________
 
