@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 description: 'Compliance Hub: all regulatory and ethical requirements for AI projects in one place — EU AI Act, risk management, ethical guidelines, incident response, red teaming, and safety checklists.'
 type: index
 layer: 3
