@@ -9,6 +9,9 @@ layer: 2
 
 Praktische snelstarttools die uw AI-transformatie versnellen. Elke accelerator biedt kant-en-klare canvassen, checklists en sprintplannen — afgestemd op één van de drie transformatietracks.
 
+!!! info "Scope"
+    Elke accelerator ondersteunt de uitvoering van een van de drie organisatorische [transformatietracks](../14-drie-tracks/index.md). Accelerators kunnen tactisch binnen individuele projecten worden ingezet, maar zijn ontworpen om over organisatieprogramma's te schalen.
+
 ## Beschikbare Tracks
 
 - **[Strategische Heruitvinding](01-strategische-heruitvinding-accelerators.md)** — AI Strategy Canvas, waardeketenanalyse, scenarioplanning en competentie-roadmap

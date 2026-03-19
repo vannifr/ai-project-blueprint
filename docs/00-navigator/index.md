@@ -520,7 +520,7 @@ var BN_ROUTES = {
   pm: {
     name: 'AI Projectmanager', route: 'A',
     Explorer: {
-      start: { label: '30-Dagen Verkenner Kit', url: '../00-explorer-kit/', desc: 'Uw gepersonaliseerde startpakket met dag-tot-dag planning, vereenvoudigde templates en scaffold code' },
+      start: { label: '30-Dagen Verkenner Kit', url: '../00-explorer-kit/', desc: 'Uw gepersonaliseerde startpakket met dag-tot-dag planning en vereenvoudigde templates' },
       actions: [
         { label: 'Project Charter Light invullen', url: '../00-explorer-kit/02-project-charter-light/', desc: 'Gestroomlijnd 1-pagina projectkader voor uw eerste AI-initiatief' },
         { label: 'Snelstart 90-Dagen Roadmap', url: '../12-90-dagen-roadmap/', desc: 'Van strategie naar actie in drie gefaseerde stappen' },
@@ -551,7 +551,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Technische Standaarden Overzicht', url: '../08-technische-standaarden/', desc: 'Architectuur, MLOps-patronen en data pipeline standaarden' },
         { label: 'Data Pipelines', url: '../08-technische-standaarden/02-data-pipelines/', desc: 'Bouw het datafundament voor uw eerste AI-project' },
-        { label: 'Scaffold Code (30-Dagen Kit)', url: '../00-explorer-kit/05-scaffold-code/', desc: 'Python notebooks voor RAG, e-mailclassificatie en contentgeneratie' }
+        { label: 'Engineering Patterns', url: '../04-fase-ontwikkeling/06-engineering-patterns/', desc: 'Bewezen patronen voor veilige AI-ontwikkeling en code review' }
       ]
     },
     Builder: {
@@ -739,7 +739,7 @@ ______________________________________________________________________
 
 ## Gerelateerde Modules
 
-- [Organisatieprofielen (Verkenner / Bouwer / Visionair)](../13-organisatieprofielen/index.md)
+- [Organisatieprofielen (Verkenner / Bouwer / Visionair)](../13-organisatieprofielen/)
 - [Profielbeoordeling (uitgebreide versie)](../13-organisatieprofielen/04-profiel-beoordeling.md)
-- [30-Dagen Verkenner Kit](../00-explorer-kit/index.md)
-- [Snelstart 90-Dagen Roadmap](../12-90-dagen-roadmap/index.md)
+- [30-Dagen Verkenner Kit](../00-explorer-kit/)
+- [Snelstart 90-Dagen Roadmap](../12-90-dagen-roadmap/)

@@ -367,7 +367,7 @@ var BN_ROUTES = {
   pm: {
     name: 'AI Project Manager', route: 'A',
     Explorer: {
-      start: { label: '30-Day Explorer Kit', url: '../00-explorer-kit/', desc: 'Your personalised starter pack with day-by-day planning, simplified templates and scaffold code' },
+      start: { label: '30-Day Explorer Kit', url: '../00-explorer-kit/', desc: 'Your personalised starter pack with day-by-day planning and simplified templates' },
       actions: [
         { label: 'Fill in Project Charter Light', url: '../00-explorer-kit/02-project-charter-light/', desc: 'Streamlined 1-page project framework for your first AI initiative' },
         { label: '90-Day Quick-Start Roadmap', url: '../12-90-dagen-roadmap/', desc: 'From strategy to action in three phased steps' },
@@ -398,7 +398,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Technical Standards Overview', url: '../08-technische-standaarden/', desc: 'Architecture, MLOps patterns and data pipeline standards' },
         { label: 'Data Pipelines', url: '../08-technische-standaarden/02-data-pipelines/', desc: 'Build the data foundation for your first AI project' },
-        { label: 'Scaffold Code (30-Day Kit)', url: '../00-explorer-kit/05-scaffold-code/', desc: 'Python notebooks for RAG, email classification and content generation' }
+        { label: 'Engineering Patterns', url: '../04-fase-ontwikkeling/06-engineering-patterns/', desc: 'Proven patterns for safe AI development and code review' }
       ]
     },
     Builder: {
@@ -577,7 +577,7 @@ ______________________________________________________________________
 
 ## Related Modules
 
-- [Organisation Profiles (Explorer / Builder / Visionary)](../13-organisatieprofielen/index.md)
+- [Organisation Profiles (Explorer / Builder / Visionary)](../13-organisatieprofielen/)
 - [Profile Assessment (extended version)](../13-organisatieprofielen/04-profiel-beoordeling.md)
-- [30-Day Explorer Kit](../00-explorer-kit/index.md)
-- [90-Day Quick-Start Roadmap](../12-90-dagen-roadmap/index.md)
+- [30-Day Explorer Kit](../00-explorer-kit/)
+- [90-Day Quick-Start Roadmap](../12-90-dagen-roadmap/)

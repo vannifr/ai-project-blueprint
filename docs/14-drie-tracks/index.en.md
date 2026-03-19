@@ -10,6 +10,9 @@ layer: 1
 
 The AI transformation can be approached via three different strategic tracks, depending on organisational maturity and ambitions.
 
+!!! info "Scope"
+    The three tracks operate at the **organisation or business-unit level** and guide multi-year AI transformation journeys. They are not project-specific frameworks but systemic change programmes. For project-specific guidance, see the [AI Project Cycle](../00-strategisch-kader/01-ai-levenscyclus.md).
+
 ______________________________________________________________________
 
 ## 2. The Three Tracks

@@ -10,6 +10,9 @@ layer: 1
 
 De AI-transformatie kan via drie verschillende strategische tracks worden benaderd, afhankelijk van de organisatievolwassenheid en ambities.
 
+!!! info "Scope"
+    De drie tracks opereren op **organisatie- of business-unit niveau** en begeleiden meerjarige AI-transformatietrajecten. Ze zijn geen projectspecifieke raamwerken maar systemische veranderprogramma's. Voor projectspecifieke guidance, zie de [AI-Projectcyclus](../00-strategisch-kader/01-ai-levenscyclus.md).
+
 ______________________________________________________________________
 
 ## 2. De Drie Tracks

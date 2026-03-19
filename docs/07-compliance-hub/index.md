@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 description: 'Compliance Hub: alle wettelijke en ethische vereisten voor AI-projecten op één plek — EU AI Act, risicobeheer, ethische richtlijnen, incidentrespons, red teaming en veiligheidschecklists.'
 type: index
 layer: 3
@@ -12,128 +12,43 @@ tags: [eu-ai-act]
 !!! abstract "Doel"
     Centraal overzicht van alle wettelijke en ethische vereisten voor AI-projecten, van EU AI Act tot incidentrespons en veiligheidschecklists.
 
-## 1. Doel van deze Module
-
-Compliance is geen rem, maar de remmen op een auto zorgen ervoor dat je veilig hard kunt rijden. Deze module definieert de **Harde Grenzen**: de ethische en wettelijke grenzen waarbinnen we innoveren. Het centraliseert de vereisten vanuit de EU AI Act en interne waarden.
+Compliance is geen rem — het zijn de remmen op een auto die ervoor zorgen dat je veilig hard kunt rijden. Deze module centraliseert de vereisten vanuit de EU AI Act, interne waarden en ethische kaders.
 
 ______________________________________________________________________
 
-## 2. Risico-Classificatie (De Piramide)
+## 2. Modules in deze sectie
 
-Voordat een project start (in **Verkenning & Strategie**), moet het worden ingedeeld in een risicocategorie. Dit bepaalt de zwaarte van het toezicht.
-
-| Risico Niveau       | Omschrijving                                              | Voorbeeld                                                | Vereiste Actie                                                                                                                                  |
-| :------------------ | :-------------------------------------------------------- | :------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Onacceptabel**    | Systemen die mensen manipuleren of social scoring doen.   | Real-time gezichtsherkenning in openbare ruimte.         | **VERBODEN**. Project wordt direct gestopt.                                                                                                     |
-| **Hoog Risico**     | AI met impact op kritieke infrastructuur of grondrechten. | CV-scanner voor sollicitanten, kredietwaardigheidstoets. | Volledige EU AI Act Compliance ([Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md), Menselijk toezicht, CE-markering). |
-| **Beperkt Risico**  | Systemen met interactie of die content genereren.         | Klantenservice Chatbot, Marketing tekstgenerator.        | Transparantieplicht. De gebruiker moet weten dat hij met AI praat.                                                                              |
-| **Minimaal Risico** | Interne optimalisaties zonder persoonsgegevens.           | Spamfilter, voorraadvoorspelling, code-assistent.        | Geen specifieke eisen (Gedragscode aanbevolen).                                                                                                 |
-
-______________________________________________________________________
-
-## 3. De Rol van de Guardian
-
-De Guardian is de "Beschermheer" van de waarden van de organisatie. Deze rol is onafhankelijk van het ontwikkelteam.
-
-- **Mandaat:** De Guardian heeft veto-recht (via een 'Stop-knop') in elke fase van het project als de **Harde Grenzen** worden overschreden.
-- **Taken:**
-- Fase 1: Toetst de **Doeldefinitie** op ethische wenselijkheid.
-- Fase 2 & 3: Voert **Fairness audit (bias audit)en** (Bias audits) uit.
-- Fase 5: Voert periodieke 'Vibe Checks' uit op productie-systemen.
+| Module                                                        | Beschrijving                                                                           |
+| :------------------------------------------------------------ | :------------------------------------------------------------------------------------- |
+| [EU AI Act](01-eu-ai-act/index.md)                            | Risicoclassificatie, verplichtingen per risiconiveau, tijdlijn en compliance checklist |
+| [Risicobeheer](02-risicobeheer/index.md)                      | Risicoanalyse, mitigatie en continue risicobewaking                                    |
+| [Ethische Richtlijnen](03-ethische-richtlijnen.md)            | Operationele ethische kaders: fairness audit, representativiteit, gelijke behandeling  |
+| [Validatie Eisen](04-validatie-eisen.md)                      | Bewijsstandaarden per risiconiveau voor audit-compliance                               |
+| [Incident Respons](05-incidentrespons.md)                     | Noodstop, meldingsplicht, escalatieprocedure                                           |
+| [Incident Respons Playbooks](06-incidentrespons-playbooks.md) | Concrete draaiboeken per incidenttype                                                  |
+| [Red Teaming](07-red-teaming.md)                              | Beveiligingstesten: jailbreaks, prompt injection, schadelijke output                   |
+| [AI Safety Checklist](08-ai-safety-checklist.md)              | Veiligheidschecklist voor go-live                                                      |
 
 ______________________________________________________________________
 
-## 4. De Fairness Audit
+## 3. Privacy-by-Design (AVG/GDPR)
 
-AI leert van data uit het verleden en kan daardoor vooroordelen overnemen. We toetsen elk Hoog en Beperkt risico systeem op drie niveaus:
-
-1. **Representativiteit:** Is de data een goede afspiegeling van de werkelijkheid?
-1. **Stereotypering:** Bevestigt de AI schadelijke clichés?
-1. **Gelijke Behandeling:** Krijgt elke gebruikersgroep dezelfde kwaliteit van antwoorden?
-
-______________________________________________________________________
-
-## 5. Beheer van Incidenten
-
-Wat als het misgaat?
-
-- **De Noodstop (Circuit Breaker):** Voor autonome systemen (**Samenwerkingsmodus** 4 & 5) moet er een technische of procedurele manier zijn om de AI direct 'offline' te halen.
-- **Meldingsplicht:** Incidenten waarbij mensen zijn benadeeld moeten binnen 24 uur worden gemeld aan het interne Compliance/Legal team.
-
-______________________________________________________________________
-
-## 6. Documentatievereisten (Het Dossier)
-
-Voor Hoog Risico systemen is een 'Technisch Dossier' verplicht. Dit bevat:
-
-- **Systeembeschrijving:** Wat doet het en voor wie?
-- **Dataset Specificaties:** Waar komt de data vandaan en hoe is deze geëvalueerd (**Data-Evaluatie**)?
-- **Risicobeheerplan:** Welke risico's zijn er en hoe zijn ze gemitigeerd?
-- **Instructies voor Gebruik:** Handleiding voor de menselijke toezichthouder.
-- **Logboeken:** Bewijs van de werking en beslissingen ([Validatierapport](../09-sjablonen/07-validatie-bewijs/validatierapport.md)).
-
-______________________________________________________________________
-
-## 7. Privacy-by-Design (AVG/GDPR) — Praktische richtlijnen
-
-**Doel:** privacy is geen bijlage, maar een ontwerpkeuze.
-
-### Minimale regels (altijd)
+Privacy is geen bijlage, maar een ontwerpkeuze. Minimale regels die altijd gelden:
 
 - **Dataminimalisatie:** verzamel/verwerk alleen wat noodzakelijk is.
 - **Doelbinding:** hergebruik data niet automatisch voor andere doelen.
-- **Transparantie:** gebruiker/betrokkene weet wanneer AI wordt ingezet (waar relevant).
+- **Transparantie:** gebruiker/betrokkene weet wanneer AI wordt ingezet.
 - **Beveiliging:** toegang, logging en retentie zijn ingericht vóór livegang.
 
-### Privacy acties per fase
-
-**Fase 1 (Verkenning & Strategie):**
-
-- Vul [Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md) op hoofdlijnen in.
-- Bepaal of een DPIA nodig is (zie [Risico Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md) triggers).
-
-**Fase 2 (Validatie):**
-
-- Test met zo min mogelijk persoonsgegevens (pseudonimiseer waar mogelijk).
-- Leg vast welke logs je nodig hebt en hoe je privacy borgt.
-
-**Fase 3 (Realisatie):**
-
-- Implementeer redactie/pseudonimisering in pipelines waar mogelijk.
-- Zorg dat toegang tot prompts/config beperkt is (change control).
-
-**Fase 4 (Levering):**
-
-- Transparantie en gebruiksinstructies publiceren (indien extern/klantgericht).
-- Verwerkersafspraken en datalocatie bevestigd.
-
-**Fase 5 (Beheer & Optimalisatie):**
-
-- Monitor op datalekken/ongewenste data in logs.
-- Periodieke review van retentie en toegangsrechten.
-
-### Livegang-voorwaarde
-
-Geen livegang zonder:
-
-- [Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md) ingevuld en akkoord (Privacy/DPO indien nodig)
-- Logging- en retentieafspraken vastgelegd (zie [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md))
+Geen livegang zonder ingevuld [Data & Privacyblad](../09-sjablonen/11-privacy-data/privacyblad.md) en vastgelegde logging- en retentieafspraken.
 
 ______________________________________________________________________
 
-______________________________________________________________________
+## 4. Agentic AI & Constitutional AI
 
-## 8. Agentic AI & Constitutional AI
-
-Wanneer AI-systemen autonoom acties uitvoeren (Modus 4 & 5), verschuift de focus naar **Constitutional AI**:
-
-- **Actieradius:** Technische inperking van wat een agent mag doen (bijv. maximale budgetlimieten).
-- **Rode-Lijnen-bewaking:** Real-time monitoring die acties blokkeert als deze de **Harde Grenzen** dreigen te overschrijden.
-
-Wanneer een AI‑systeem handelingen kan uitvoeren in andere systemen, wordt expliciet vastgelegd welke systemen en functies toegankelijk zijn, onder welke voorwaarden dit mag plaatsvinden en hoe toegang direct kan worden beperkt of ingetrokken bij afwijkingen of incidenten.
+Wanneer AI-systemen autonoom acties uitvoeren ([Samenwerkingsmodus](../00-strategisch-kader/06-has-h-niveaus.md) 4 & 5), verschuift de focus naar **Constitutional AI**: technische inperking van de actieradius en real-time monitoring die acties blokkeert bij overschrijding van harde grenzen.
 
 ______________________________________________________________________
 
-**Volgende stap:** Bepaal de risicoklasse van uw systeem en kies het bijbehorende compliance-pad.
-→ Gebruik de [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md) als startpunt.
+**Volgende stap:** Bepaal de risicoklasse van uw systeem via de [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md).
 → Zie ook: [Risicoclassificatie](../01-ai-native-fundamenten/05-risicoclassificatie.md) | [Besluitvormingsmatrix](../08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.md)
