@@ -193,7 +193,8 @@ plugins:
             "Methode Index (Blueprint)": "Method Index (Blueprint)"
             "Bronnen & Inspiratie": "Sources & Inspiration"
             "Externe Evidence (DORA)": "External Evidence (DORA)"
-            "Over & Versies": "About & Versions"
+            "Over de Blauwdruk": "About the Blueprint"
+            "Versiegeschiedenis": "Version History"
             "Feedback": "Feedback"
             "Guardian Review Checklist": "Guardian Review Checklist"
             "RACI Matrix": "RACI Matrix"
@@ -402,7 +403,8 @@ nav:
     - Termenlijst: termenlijst/index.md
     - Methode Index (Blueprint): 00-strategisch-kader/08-blueprint-methodologie.md
     - Bronnen & Inspiratie: 16-bronnen/index.md
-    - Over & Versies: release-notes.md
+    - Over de Blauwdruk: over.md
+    - Versiegeschiedenis: release-notes.md
     - Feedback: feedback.md
     - Externe Evidence (DORA): 17-bijlagen/externe-evidence-dora.md
     - Praktijkvoorbeelden: 17-bijlagen/praktijkvoorbeelden.md

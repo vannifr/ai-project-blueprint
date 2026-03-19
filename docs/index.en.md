@@ -72,7 +72,7 @@ ______________________________________________________________________
 
 The AI Project Blueprint is a modular, assessable methodology for setting up, executing and managing AI projects. The blueprint describes the full project cycle — from strategic discovery to operational management — and provides concrete templates, checklists and evidence standards with which organisations can deploy AI systems in a controllable, traceable and responsible manner.
 
-More information: **[About the AI Project Blueprint & Version History](release-notes.md)**
+More information: **[About the AI Project Blueprint](over.md)** | **[Version History](release-notes.md)**
 
 **Case Studies:** See how the blueprint is applied in practice in the **[Case Studies](17-bijlagen/praktijkvoorbeelden.md)**.
 

@@ -71,7 +71,7 @@ ______________________________________________________________________
 
 De AI Project Blauwdruk is een modulaire, toetsbare werkwijze voor het opzetten, uitvoeren en beheren van AI‑projecten. De blauwdruk beschrijft de volledige projectcyclus — van strategische verkenning tot operationeel beheer — en biedt concrete sjablonen, checklists en bewijsstandaarden waarmee organisaties AI‑systemen controleerbaar, traceerbaar en verantwoord kunnen inzetten.
 
-Meer informatie: **[Over de AI Project Blauwdruk & Versiegeschiedenis](release-notes.md)**
+Meer informatie: **[Over de AI Project Blauwdruk](over.md)** | **[Versiegeschiedenis](release-notes.md)**
 
 **Praktijkvoorbeelden:** Bekijk hoe de blauwdruk in de praktijk wordt toegepast in de **[Praktijkvoorbeelden](17-bijlagen/praktijkvoorbeelden.md)**.
 
