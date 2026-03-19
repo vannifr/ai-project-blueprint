@@ -45,14 +45,7 @@ html[lang="en"] .lang-banner-en {
     display: inline;
 }
 
-/* Feedback strip: toon als flex (niet inline) per taal */
-html[lang="nl"] .feedback-strip.lang-banner-nl {
-    display: flex;
-}
-
-html[lang="en"] .feedback-strip.lang-banner-en {
-    display: flex;
-}
+/* Feedback strip: nu server-side per taal gerenderd via Jinja2 */
 
 /* === Taalswitch: pill-button in de header === */
 /* Voegt een zichtbaar "NL" of "EN" label toe naast het globe-icoon. */

@@ -3,18 +3,21 @@
 {% block content %}
 {{ super() }}
 {% if page and page.url and 'feedback' not in page.url %}
-<div class="feedback-strip lang-banner-nl">
-  <span class="feedback-strip__label">Was deze pagina nuttig?</span>
-  <a href="{{ config.extra.url_nl | default('/') }}feedback/?ref={{ page.url | urlencode }}" class="feedback-strip__link">
-    Geef feedback
-  </a>
-</div>
-<div class="feedback-strip lang-banner-en">
+{% if page.url.startswith('en/') %}
+<div class="feedback-strip">
   <span class="feedback-strip__label">Was this page helpful?</span>
   <a href="{{ config.extra.url_en | default('/en/') }}feedback/?ref={{ page.url | urlencode }}" class="feedback-strip__link">
     Give feedback
   </a>
 </div>
+{% else %}
+<div class="feedback-strip">
+  <span class="feedback-strip__label">Was deze pagina nuttig?</span>
+  <a href="{{ config.extra.url_nl | default('/') }}feedback/?ref={{ page.url | urlencode }}" class="feedback-strip__link">
+    Geef feedback
+  </a>
+</div>
+{% endif %}
 {% endif %}
 {% endblock %}
 
