@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 pdf: false
 type: playbook
 layer: 3
