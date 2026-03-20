@@ -1,3 +1,6 @@
 .venv/
 site/
 resources/templates/covers/*.html
+chatbot/chroma_data/
+chatbot/.env
+chatbot/**/__pycache__/

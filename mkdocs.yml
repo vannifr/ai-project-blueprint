@@ -12,6 +12,9 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/chat-widget.js
+
 hooks:
   - hooks/render_covers.py
   - hooks/pdf_heading_numbers.py

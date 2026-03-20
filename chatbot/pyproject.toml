@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "blueprint-chat"
+version = "0.1.0"
+description = "RAG chatbot for the AI Project Blueprint documentation"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "uvicorn[standard]>=0.34,<1.0",
+    "anthropic>=0.52,<1.0",
+    "openai>=1.65,<2.0",
+    "chromadb>=0.6,<1.0",
+    "pydantic>=2.10,<3.0",
+    "pydantic-settings>=2.7,<3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.25",
+    "httpx>=0.28",
+]
+
+[project.scripts]
+blueprint-chat = "blueprint_chat.api:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/blueprint_chat"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
