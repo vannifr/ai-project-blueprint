@@ -33,7 +33,7 @@ Before this phase starts, the following conditions must be met:
 - There is willingness to share data and processes for analysis.
 
 !!! info "Case study"
-    See [Case Studies — Example 1: Internal Knowledge Bot](../17-bijlagen/praktijkvoorbeelden.en.md) for a worked example of the Discovery phase in practice.
+    See [Case Studies — Scenario 1: Internal Knowledge Bot](../17-bijlagen/praktijkvoorbeelden.en.md#scenario-knowledge-bot) for a conceptual example of the Discovery phase in practice.
 
 ______________________________________________________________________
 

@@ -30,7 +30,7 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Het team heeft toegang tot de benodigde tools en data.
 
 !!! info "Praktijkvoorbeeld"
-    Zie [Praktijkvoorbeelden — Voorbeeld 2: Klantenservice-automatisering](../17-bijlagen/praktijkvoorbeelden.md) voor een uitgewerkt voorbeeld van een Validatiefase in de praktijk.
+    Zie [Praktijkvoorbeelden — Scenario 2: Klantenservice-automatisering](../17-bijlagen/praktijkvoorbeelden.md#scenario-klantenservice) voor een conceptueel voorbeeld van een Validatiefase in de praktijk.
 
 ______________________________________________________________________
 

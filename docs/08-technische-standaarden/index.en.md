@@ -31,5 +31,6 @@ ______________________________________________________________________
 - [Green AI & Sustainability](08-green-ai.md)
 - [Agentic AI Engineering](09-agentic-ai-engineering.md)
 - [Data Governance](10-data-governance.md)
+- [AI Security](11-ai-security.md)
 
 ______________________________________________________________________

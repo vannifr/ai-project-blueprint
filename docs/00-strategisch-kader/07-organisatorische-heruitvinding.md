@@ -6,27 +6,30 @@ summary: Dit hoofdstuk schetst de organisatorische transformatie die nodig is om
 answers: [Wat houdt Organisatorische Heruitvinding in?, Wie beslist wat in een AI-project?]
 ---
 
-# 1. Organisatorische Heruitvinding
+# Organisatorische Heruitvinding
 
 !!! abstract "Doel"
-    Dit hoofdstuk schetst de organisatorische transformatie die nodig is om AI structureel in te bedden. Het raakt aan organisatieontwerp, AI governance en cultuurverandering. Een volledige uitwerking van organisatieontwerp en AI-transformatieprogramma's valt buiten de scope van deze blauwdruk, maar de kernprincipes hieronder vormen het vertrekpunt.
+    Kernprincipes voor de organisatorische transformatie die nodig is om AI structureel in te bedden — van organisatieontwerp en governance tot cultuurverandering.
+
+!!! info "Scope"
+    Deze pagina biedt een compact overzicht van organisatorische transformatie voor AI. Een volledige uitwerking van AI-organisatieontwerp en transformatieprogramma's is gepland als toekomstige uitbreiding van de blauwdruk. Gebruik de cross-referenties onderaan om direct aan de slag te gaan.
 
 !!! tip "Verdieping"
     Voor een gedetailleerde aanpak per transformatietrack, zie [Drie Tracks](../14-drie-tracks/index.md) en de bijbehorende [Accelerators](../15-accelerators/index.md).
 
 ______________________________________________________________________
 
-## 2. Van Project naar Platform
+## Van Project naar Platform
 
-Traditionele organisaties zien AI als een serie losse projecten. Voor maximale impact moeten we verschuiven naar een platformvisie.
+Traditionele organisaties behandelen AI als losse projecten. Structurele impact vereist een platformbenadering:
 
-- **Data als Brandstof:** Data is niet langer een bijproduct, maar de kern van de bedrijfsvoering.
-- **Accelerators:** Bouw herbruikbare componenten (zoals **RAG**) die over de hele organisatie ingezet kunnen worden.
-- **Centrale Regie:** Voorkom **Wildgroei** door duidelijke kaders en een gedeelde **Blauwdruk**.
+- **Data als brandstof** — Data is niet langer een bijproduct, maar de kern van de bedrijfsvoering.
+- **Herbruikbare componenten** — Bouw accelerators (zoals **RAG-pipelines**) die organisatiebreed inzetbaar zijn.
+- **Centrale regie** — Voorkom wildgroei door duidelijke kaders en een gedeelde blauwdruk.
 
 ______________________________________________________________________
 
-## 3. Kernonderdelen van de Heruitvinding
+## Kernonderdelen
 
 ### Cultuur & Mindset
 
@@ -35,19 +38,25 @@ ______________________________________________________________________
 
 ### Talent & Rollen
 
-- Ontwikkeling van nieuwe rollen zoals de AI Product Manager en de Guardian (Ethicist).
+- Nieuwe rollen zoals de **AI Product Manager** en de **Guardian** (ethicus/toezichthouder).
 - Upskilling van de gehele organisatie in AI-geletterdheid.
+- Zie [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md) voor rolbeschrijvingen en de RACI-matrix.
 
 ### Schaalbare Architectuur
 
-- Investeren in MLOps om **Ingebruikname** te versnellen.
-- Standaardiseren van **Prompts** en bewaarmethoden.
+- Investeren in MLOps om ingebruikname te versnellen.
+- Standaardiseren van prompts, pipelines en bewaarmethoden.
 
 ______________________________________________________________________
 
-## 4. Gerelateerde Modules
+## Wat nu? Volgende stappen
 
-- [Volwassenheidsniveaus](../13-organisatieprofielen/index.md)
-- [Governance Model](03-governance-model.md)
+| Vraag                                             | Ga naar                                                                                    |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Waar staat mijn organisatie qua AI-volwassenheid? | [Organisatieprofielen](../13-organisatieprofielen/index.md)                                |
+| Hoe pak ik strategische transformatie aan?        | [Track 1 — Strategische Heruitvinding](../14-drie-tracks/01-strategische-heruitvinding.md) |
+| Welke rollen heb ik nodig?                        | [Rollen & Verantwoordelijkheden](../08-rollen-en-verantwoordelijkheden/index.md)           |
+| Hoe begin ik in 90 dagen?                         | [90-Dagen Roadmap](../12-90-dagen-roadmap/index.md)                                        |
+| Hoe richt ik governance in?                       | [Governance Model](03-governance-model.md)                                                 |
 
 ______________________________________________________________________

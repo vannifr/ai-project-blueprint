@@ -147,6 +147,7 @@ plugins:
             "AI Architectuur": "AI Architecture"
             "Hoe beheers ik AI-kosten?": "How do I control AI costs?"
             "Green AI & Duurzaamheid": "Green AI & Sustainability"
+            "AI Security": "AI Security"
             "Agentic AI Engineering": "Agentic AI Engineering"
             "Engineering Patterns": "Engineering Patterns"
             "Valkuilencatalogus": "Pitfalls Catalogue"
@@ -341,6 +342,7 @@ nav:
       - Hoe beheers ik AI-kosten?: 08-technische-standaarden/07-kostenoptimalisatie.md
       - Green AI & Duurzaamheid: 08-technische-standaarden/08-green-ai.md
       - Data Governance: 08-technische-standaarden/10-data-governance.md
+      - AI Security: 08-technische-standaarden/11-ai-security.md
       - Agentic AI Engineering: 08-technische-standaarden/09-agentic-ai-engineering.md
   - 🧰 Toolkit & Sjablonen:
     - Alle Sjablonen (Overzicht): 09-sjablonen/index.md

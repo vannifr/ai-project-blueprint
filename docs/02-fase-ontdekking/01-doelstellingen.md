@@ -33,7 +33,7 @@ Voordat deze fase start, moet aan de volgende voorwaarden zijn voldaan:
 - Er is bereidheid om data en processen te delen voor analyse.
 
 !!! info "Praktijkvoorbeeld"
-    Zie [Praktijkvoorbeelden — Voorbeeld 1: Interne Kennisbot](../17-bijlagen/praktijkvoorbeelden.md) voor een uitgewerkt voorbeeld van een Verkenningsfase in de praktijk.
+    Zie [Praktijkvoorbeelden — Scenario 1: Interne Kennisbot](../17-bijlagen/praktijkvoorbeelden.md#scenario-kennisbot) voor een conceptueel voorbeeld van een Verkenningsfase in de praktijk.
 
 ______________________________________________________________________
 

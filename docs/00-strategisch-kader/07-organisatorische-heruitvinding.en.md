@@ -6,28 +6,30 @@ summary: Description of the organisational transformation needed to evolve from 
 answers: [What does Organisational Reinvention entail?]
 ---
 
-# 1. Organisational Reinvention
+# Organisational Reinvention
 
 !!! abstract "Purpose"
-    Description of the organisational transformation needed to evolve from isolated AI projects to a scalable AI platform.
+    Core principles for the organisational transformation needed to structurally embed AI — covering organisation design, governance and culture change.
 
-## 1. Objective
+!!! info "Scope"
+    This page provides a compact overview of organisational transformation for AI. A full treatment of AI organisational design and transformation programmes is planned as a future expansion of the Blueprint. Use the cross-references at the bottom to move straight to actionable content.
 
-AI is not just a technical upgrade, but a foundation for a new way of working. This document describes how the organisation must transform to reap the benefits of AI.
-
-______________________________________________________________________
-
-## 2. From Project to Platform
-
-Traditional organisations see AI as a series of separate projects. For maximum impact, we must shift to a platform vision.
-
-- **Data as Fuel:** Data is no longer a by-product, but the core of business operations.
-- **Accelerators:** Build reusable components (such as **Knowledge Coupling**) that can be deployed across the entire organisation.
-- **Central Governance:** Prevent **Uncontrolled AI use** through clear frameworks and a shared **Blueprint**.
+!!! tip "Deep dive"
+    For a detailed approach per transformation track, see [Three Tracks](../14-drie-tracks/index.md) and the accompanying [Accelerators](../15-accelerators/index.md).
 
 ______________________________________________________________________
 
-## 3. Core Elements of the Reinvention
+## From Project to Platform
+
+Traditional organisations treat AI as isolated projects. Structural impact requires a platform approach:
+
+- **Data as fuel** — Data is no longer a by-product, but the core of business operations.
+- **Reusable components** — Build accelerators (such as **RAG pipelines**) that can be deployed across the entire organisation.
+- **Central governance** — Prevent uncontrolled AI sprawl through clear frameworks and a shared Blueprint.
+
+______________________________________________________________________
+
+## Core Elements
 
 ### Culture & Mindset
 
@@ -36,19 +38,25 @@ ______________________________________________________________________
 
 ### Talent & Roles
 
-- Development of new roles such as the AI Product Manager and the Guardian (Ethicist).
+- New roles such as the **AI Product Manager** and the **Guardian** (ethicist/oversight).
 - Upskilling of the entire organisation in AI literacy.
+- See [Roles & Responsibilities](../08-rollen-en-verantwoordelijkheden/index.md) for role descriptions and the RACI matrix.
 
 ### Scalable Architecture
 
-- Investing in MLOps to accelerate **Go-live**.
-- Standardising **Steering Instructions** and storage methods.
+- Investing in MLOps to accelerate go-live.
+- Standardising prompts, pipelines and storage methods.
 
 ______________________________________________________________________
 
-## 4. Related Modules
+## What next? Suggested actions
 
-- [Maturity Levels](../13-organisatieprofielen/index.md)
-- [Governance Model](03-governance-model.md)
+| Question                                         | Go to                                                                                 |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| Where does my organisation stand in AI maturity? | [Organisation Profiles](../13-organisatieprofielen/index.md)                          |
+| How do I approach strategic transformation?      | [Track 1 — Strategic Reinvention](../14-drie-tracks/01-strategische-heruitvinding.md) |
+| Which roles do I need?                           | [Roles & Responsibilities](../08-rollen-en-verantwoordelijkheden/index.md)            |
+| How do I start in 90 days?                       | [90-Day Roadmap](../12-90-dagen-roadmap/index.md)                                     |
+| How do I set up governance?                      | [Governance Model](03-governance-model.md)                                            |
 
 ______________________________________________________________________
