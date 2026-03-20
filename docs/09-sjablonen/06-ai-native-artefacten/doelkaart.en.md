@@ -13,6 +13,9 @@ answers: [How do I use the The Objective Card (Intent Map) template?]
 
 The Objective Card formalises the **Objective Definition** of the AI project. This document connects human intent to the technical **System Prompts** and serves as the source from which the AI solution is generated.
 
+!!! tip "When to use this?"
+    You are starting a new AI project and want to capture the human intent, desired behaviour and technical context before you begin building.
+
 ______________________________________________________________________
 
 **Project:** \[Project Name\]

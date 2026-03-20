@@ -14,6 +14,9 @@ answers: [What are the technical standards for Cost Optimisation?, What does thi
 !!! abstract "Purpose"
     Concrete techniques and a cost estimation tool to keep AI system costs manageable during the Development and Operations phases.
 
+!!! tip "When to use this?"
+    You want to estimate the monthly costs of your AI system or are looking for concrete techniques to reduce API, infrastructure and operational costs.
+
 Concrete techniques and a cost estimation tool for AI systems. Use this document in the **Development** and **Monitoring & Optimisation** phases to keep costs manageable.
 
 ______________________________________________________________________

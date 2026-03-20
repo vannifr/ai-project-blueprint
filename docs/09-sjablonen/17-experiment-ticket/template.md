@@ -14,6 +14,9 @@ Dit sjabloon begeleidt uw team bij het opzetten, uitvoeren en evalueren van een 
 !!! info "Wanneer dit sjabloon gebruiken"
     Gebruik dit sjabloon wanneer u een nieuwe AI-hypothese wilt valideren binnen een afgebakende tijdsperiode. Het experiment levert objectief bewijs op voor de Gate Review-beslissing: **Doorgaan**, **Pivoteren** of **Stoppen**.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je wilt een AI-hypothese gestructureerd testen in een time-boxed sprint en hebt een helder format nodig om van aanname naar Go/No-Go beslissing te komen.
+
 ______________________________________________________________________
 
 ## 1. Hypothese & Aannames

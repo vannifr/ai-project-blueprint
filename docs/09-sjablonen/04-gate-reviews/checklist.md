@@ -14,6 +14,9 @@ answers: ['Hoe gebruik ik het Checklist: Gate Reviews sjabloon?']
 
 Dit document bevat de criteria waaraan een project moet voldoen om de overstap naar de volgende fase te mogen maken.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je bereidt een Gate Review voor en wilt weten welke criteria je project moet aantonen voordat het door mag naar de volgende fase.
+
 ______________________________________________________________________
 
 ## 2. Gate Review Overzicht

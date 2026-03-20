@@ -13,6 +13,9 @@ answers: [Hoe voer ik Incident Playbooks uit?]
 !!! abstract "Doel"
     Vier gedetailleerde stappenplannen voor de meest voorkomende AI-incidenten: prestatieverloop, bias, beveiligingsincidenten en datakwaliteit.
 
+!!! tip "Wanneer gebruik je dit?"
+    Er is een AI-incident gedetecteerd (prestatieverloop, bias, beveiligingslek of datakwaliteitsprobleem) en je hebt direct een stap-voor-stap draaiboek nodig.
+
 Vier gedetailleerde stappenplannen voor de meest voorkomende AI-incidenten. Gebruik deze naast de [Incident Respons overzichtspagina](05-incidentrespons.md) voor de ernst-matrix en rollen.
 
 ______________________________________________________________________

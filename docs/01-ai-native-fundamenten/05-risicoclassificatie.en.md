@@ -13,6 +13,9 @@ answers: [What does Risk Classification entail?, How do I classify the risk of m
 !!! abstract "Purpose"
     Classification of changes based on impact so that the appropriate validation depth is applied in line with the EU AI Act.
 
+!!! tip "When to use this?"
+    You want to determine the risk level of a change or new AI system to know how much validation is required.
+
 ## 1. Validation Depth
 
 Not every change requires the same depth of validation. We classify changes based on their impact on the **Hard Boundaries**.

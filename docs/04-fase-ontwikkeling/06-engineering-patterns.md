@@ -13,6 +13,9 @@ answers: [Hoe werkt Engineering Patterns voor AI-Gedreven Ontwikkeling?, Welke r
 !!! abstract "Doel"
     Bewezen engineering patterns en veelvoorkomende anti-patterns voor teams die AI-tools inzetten, gericht op kwaliteitsborging en het voorkomen van rework.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je team gebruikt AI-tools (zoals code-assistenten) tijdens de ontwikkelfase en je wilt weten welke werkpatronen kwaliteit borgen en welke valkuilen je moet vermijden.
+
 ## 1. Doel
 
 Deze module beschrijft bewezen engineering patterns en veelvoorkomende anti-patterns voor teams die AI-tools inzetten tijdens de ontwikkelfase. Het doel is de kwaliteit van AI-gegenereerde output te borgen en productiviteitsverlies door rework te voorkomen.

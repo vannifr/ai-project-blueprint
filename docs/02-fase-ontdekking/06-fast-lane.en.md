@@ -13,6 +13,9 @@ answers: [How does Fast Lane work?, How do I classify the risk of my AI project?
 !!! abstract "Purpose"
     Accelerated track for low-risk AI applications to safely and quickly test value with minimal governance overhead.
 
+!!! tip "When to use this?"
+    You have a low-risk AI use case and want to know whether you can skip the full lifecycle via the accelerated Fast Lane track.
+
 ## 1. Objective
 
 The Fast Lane is designed to **safely and quickly** test value for **low-risk** AI applications, without unnecessary bureaucracy — but **with minimal governance**.

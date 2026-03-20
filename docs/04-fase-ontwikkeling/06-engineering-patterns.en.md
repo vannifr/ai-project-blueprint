@@ -13,6 +13,9 @@ answers: [How does Engineering Patterns for AI-Driven Development work?, What ro
 !!! abstract "Purpose"
     Proven engineering patterns and common anti-patterns for teams using AI tools, focused on quality assurance and preventing rework.
 
+!!! tip "When to use this?"
+    Your team is using AI tools (such as code assistants) during development and you want to know which working patterns ensure quality and which pitfalls to avoid.
+
 ## 1. Purpose
 
 This module describes proven engineering patterns and common anti-patterns for teams using AI tools during the development phase. The goal is to ensure the quality of AI-generated output and prevent productivity loss through rework.

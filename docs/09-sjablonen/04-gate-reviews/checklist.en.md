@@ -14,6 +14,9 @@ answers: ['How do I use the Checklist: Gate Reviews template?']
 
 This document contains the criteria a project must meet in order to advance to the next phase.
 
+!!! tip "When to use this?"
+    You are preparing a Gate Review and want to know which criteria your project must demonstrate before advancing to the next phase.
+
 ______________________________________________________________________
 
 ## 2. Gate Review Overview

@@ -13,6 +13,9 @@ answers: [What activities do I perform in this phase?, How do I classify the ris
 !!! abstract "Purpose"
     Overview of the core activities and role assignments during the Discovery phase, from problem exploration to data evaluation and risk assessment.
 
+!!! tip "When to use this?"
+    You are in the Discovery phase and want to know which activities to perform — from problem exploration and data evaluation to risk assessment.
+
 ## 1. Core Activities
 
 ### Problem Exploration

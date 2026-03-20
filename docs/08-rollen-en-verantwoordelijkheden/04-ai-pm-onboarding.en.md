@@ -13,6 +13,9 @@ answers: [How do I execute AI PM Onboarding Playbook?]
 !!! abstract "Purpose"
     Step-by-step onboarding guide helping new AI Project Managers grow from observation to full ownership in six weeks.
 
+!!! tip "When to use this?"
+    A new AI Project Manager is coming on board and you want a structured six-week onboarding track with concrete deliverables per week.
+
 Step-by-step onboarding guide for new AI Project Managers joining an ongoing or new AI project. This playbook helps you grow from observation to full ownership in six weeks, with concrete deliverables per phase.
 
 !!! info "Difference from traditional PM onboarding"

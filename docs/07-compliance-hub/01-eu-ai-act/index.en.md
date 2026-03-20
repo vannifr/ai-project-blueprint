@@ -14,6 +14,9 @@ answers: [What does the EU AI Act section contain?]
 !!! abstract "Purpose"
     Practical guide to EU AI Act requirements and how to apply them within your AI project.
 
+!!! tip "When to use this?"
+    You want to know under which EU AI Act risk category your AI system falls and what obligations come with it.
+
 ## 1. Purpose
 
 This document describes the specific requirements of the European AI Regulation (EU AI Act) and how they are applied within the project. The EU AI Act is the world's first comprehensive AI regulation and applies to all organisations that offer or use AI systems within the EU.

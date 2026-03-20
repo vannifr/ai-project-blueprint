@@ -12,6 +12,9 @@ answers: [What does Evidence Standards entail?, How much validation is sufficien
 !!! abstract "Purpose"
     Definition of minimum evidence standards so that Gate Reviews are based on verifiable criteria rather than intuition.
 
+!!! tip "When to use this?"
+    You are preparing a Gate Review and want to know what evidence you need to collect for your project's risk level and collaboration mode.
+
 ## 1. Objective
 
 This module defines **minimum evidence standards** for AI solutions, so that Gate Reviews are based on **verifiable criteria** rather than intuition.

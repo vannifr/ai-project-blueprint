@@ -13,6 +13,9 @@ answers: [Hoe voer ik Red Teaming Playbook uit?]
 !!! abstract "Doel"
     Opzet, standaard-oefeningen en rapportage voor het systematisch testen van AI-systeemkwetsbaarheden voordat ze in productie gaan.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je bereidt een hoog-risico AI-systeem voor op livegang en wilt systematisch kwetsbaarheden opsporen via gestructureerde aanvalsoefeningen.
+
 Red teaming is het systematisch aanvallen van uw eigen AI-systeem om kwetsbaarheden te ontdekken vóórdat kwaadwillenden of onvoorziene situaties dat doen. Dit playbook beschrijft opzet, vijf standaard-oefeningen en rapportage.
 
 !!! info "Wanneer uitvoeren"

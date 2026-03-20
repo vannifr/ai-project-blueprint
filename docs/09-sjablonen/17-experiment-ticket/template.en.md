@@ -14,6 +14,9 @@ This template guides your team through setting up, executing and evaluating a ti
 !!! info "When to use this template"
     Use this template when you want to validate a new AI hypothesis within a bounded time period. The experiment produces objective evidence for the Gate Review decision: **Continue**, **Pivot** or **Stop**.
 
+!!! tip "When to use this?"
+    You want to test an AI hypothesis in a structured, time-boxed sprint and need a clear format to move from assumption to Go/No-Go decision.
+
 ______________________________________________________________________
 
 ## 1. Hypothesis & Assumptions

@@ -12,6 +12,9 @@ answers: [Hoe voer ik Stakeholder Communicatie Playbook uit?, Hoeveel validatie 
 !!! abstract "Doel"
     Praktische handleiding voor het communiceren met stakeholders over de unieke uitdagingen van AI-projecten, zoals probabilistische uitkomsten en iteratieve validatie.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je moet stakeholders bijpraten over AI-projectvoortgang en zoekt technieken om probabilistische uitkomsten en onzekerheid helder te communiceren.
+
 Praktische handleiding voor AI Project Managers over het communiceren met stakeholders in AI-projecten. AI-projecten kennen unieke communicatie-uitdagingen: probabilistische uitkomsten, iteratieve validatie en technische complexiteit die vertaald moet worden naar zakelijke impact.
 
 !!! info "Voor wie"

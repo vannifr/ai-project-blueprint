@@ -12,6 +12,9 @@ answers: [What are the technical standards for Agentic AI Engineering?]
 !!! abstract "Purpose"
     Operational handbook for building, testing and managing agentic AI systems (Collaboration Modes 4-5).
 
+!!! tip "When to use this?"
+    You are building an AI system that autonomously executes actions (Mode 4-5) and need guidance on orchestration, tool design and failure management.
+
 ## 1. Purpose
 
 This module describes the engineering practices for building, testing and managing agentic AI systems (Collaboration Mode 4-5). Where [AI Architecture](05-ai-architectuur.md) defines the strategic pattern, this document provides the operational guide: orchestration, protocols, tool design, failure modes, observability and cost management.

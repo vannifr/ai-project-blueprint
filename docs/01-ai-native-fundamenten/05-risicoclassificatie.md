@@ -13,6 +13,9 @@ answers: [Wat houdt Risicoclassificatie in?, Hoe classificeer ik het risico van 
 !!! abstract "Doel"
     Classificatie van wijzigingen op basis van impact, zodat de juiste validatiediepgang wordt toegepast in lijn met de EU AI Act.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je wilt het risiconiveau van een wijziging of nieuw AI-systeem bepalen om te weten hoeveel validatie nodig is.
+
 ## 1. Validatie Diepgang
 
 Niet elke wijziging vereist dezelfde diepgang van validatie. We classificeren wijzigingen op basis van de impact op de **Harde Grenzen**.

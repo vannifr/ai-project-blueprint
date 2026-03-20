@@ -14,6 +14,9 @@ answers: [Wat bevat het onderdeel EU AI Act?]
 !!! abstract "Doel"
     Praktische gids voor de vereisten van de EU AI Act en hoe deze binnen uw AI-project worden toegepast.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je wilt weten onder welke risicocategorie van de EU AI Act jouw AI-systeem valt en welke verplichtingen daarbij horen.
+
 ## 1. Doel
 
 Dit document beschrijft de specifieke vereisten van de Europese AI Verordening (EU AI Act) en hoe deze worden toegepast binnen het project. De EU AI Act is de eerste uitgebreide AI-regelgeving ter wereld en is van toepassing op alle organisaties die AI-systemen aanbieden of gebruiken binnen de EU.

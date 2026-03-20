@@ -13,6 +13,9 @@ answers: [What is Specification-First Pattern?, What does this cost?]
 !!! abstract "Purpose"
     Methodology where what the AI system must do is formally recorded before building begins, preventing costly rework and ensuring demonstrable compliance.
 
+!!! tip "When to use this?"
+    You are starting the development phase and want to formally record what the AI system must do before you begin building.
+
 ## 1. Objective
 
 The Specification-First Pattern (Specification-Driven Development) is a working method in which we formally record what the AI system must do before we start building. This prevents costly corrections afterwards and ensures demonstrable compliance.

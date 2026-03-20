@@ -23,6 +23,9 @@ ______________________________________________________________________
 
 Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de scope, doelen en kaders vast te leggen voordat er middelen worden gealloceerd aan de Bewijsvoering (Fase 2).
 
+!!! tip "Wanneer gebruik je dit?"
+    Je start een nieuw AI-initiatief en wilt de scope, doelstellingen, harde grenzen en stakeholders formeel vastleggen voordat er budget wordt vrijgemaakt.
+
 ______________________________________________________________________
 
 **Sponsor:** \[Naam Opdrachtgever\]

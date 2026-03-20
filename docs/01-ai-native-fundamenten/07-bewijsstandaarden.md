@@ -12,6 +12,9 @@ answers: [Wat houdt Bewijsstandaarden in?, Hoeveel validatie is voldoende?]
 !!! abstract "Doel"
     Definitie van de minimale bewijsstandaarden zodat Gate Reviews op toetsbare criteria plaatsvinden in plaats van op gevoel.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je bereidt een Gate Review voor en wilt weten welk bewijs je moet verzamelen voor het risiconiveau en de samenwerkingsmodus van jouw project.
+
 ## 1. Doel
 
 Deze module definieert **minimale bewijsstandaarden** voor AI-oplossingen, zodat Gate Reviews niet op gevoel maar op **toetsbare criteria** plaatsvinden.

@@ -23,6 +23,9 @@ ______________________________________________________________________
 
 This template serves the formal start of an AI initiative. It helps to record the scope, objectives and frameworks before resources are allocated to the Validation (Phase 2).
 
+!!! tip "When to use this?"
+    You are starting a new AI initiative and want to formally record scope, objectives, hard boundaries and stakeholders before budget is released.
+
 ______________________________________________________________________
 
 **Sponsor:** \[Name Sponsor\]

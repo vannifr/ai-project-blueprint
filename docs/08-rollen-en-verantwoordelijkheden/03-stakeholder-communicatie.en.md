@@ -12,6 +12,9 @@ answers: [How do I execute Stakeholder Communication Playbook?, How much validat
 !!! abstract "Purpose"
     Practical guide for communicating with stakeholders about the unique challenges of AI projects, such as probabilistic outcomes and iterative validation.
 
+!!! tip "When to use this?"
+    You need to update stakeholders on AI project progress and are looking for techniques to clearly communicate probabilistic outcomes and uncertainty.
+
 Practical guide for AI Project Managers on communicating with stakeholders in AI projects. AI projects present unique communication challenges: probabilistic outcomes, iterative validation and technical complexity that must be translated into business impact.
 
 !!! info "Audience"

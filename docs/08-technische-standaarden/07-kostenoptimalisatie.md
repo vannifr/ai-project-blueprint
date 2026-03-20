@@ -13,6 +13,9 @@ answers: [Wat zijn de technische standaarden voor Kostenoptimalisatie?, Wat kost
 !!! abstract "Doel"
     Concrete technieken en een kostenraming-tool om AI-systeemkosten beheersbaar te houden in de Realisatie- en Beheerfase.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je wilt de maandelijkse kosten van je AI-systeem inschatten of zoekt concrete technieken om API-, infra- en operationele kosten te verlagen.
+
 Concrete technieken en een kostenraming-tool voor AI-systemen. Gebruik dit document in de **Realisatie**- en **Beheer & Optimalisatie**-fase om kosten beheersbaar te houden.
 
 ______________________________________________________________________

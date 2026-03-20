@@ -1,0 +1,92 @@
+name: "AI Experiment"
+description: "Start een nieuw AI-experiment met gestructureerde hypothese en succescriteria"
+labels: ["experiment"]
+body:
+  - type: textarea
+    id: hypothese
+    attributes:
+      label: Hypothese
+      description: "Formuleer je hypothese in het format: Als we [actie], dan verwachten we [resultaat] omdat [reden]"
+      placeholder: "Als we [actie], dan verwachten we [resultaat] omdat [reden]"
+    validations:
+      required: true
+
+  - type: input
+    id: riskiest-assumption
+    attributes:
+      label: Riskiest Assumption
+      description: "De aanname met het hoogste risico"
+      placeholder: "Bijv. 'Gebruikers begrijpen de AI-suggesties zonder extra uitleg'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: succescriteria
+    attributes:
+      label: Succescriteria
+      description: "Meetbare criteria om te bepalen of het experiment slaagt"
+      placeholder: |
+        - [ ] Criterium 1 (meetbaar)
+        - [ ] Criterium 2 (meetbaar)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tijdbox
+    attributes:
+      label: Tijdbox
+      description: "Hoe lang duurt dit experiment maximaal?"
+      options:
+        - "1 week"
+        - "2 weken"
+        - "1 sprint"
+        - "4 weken"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: samenwerkingsmodus
+    attributes:
+      label: Samenwerkingsmodus
+      description: "In welke modus werkt het AI-systeem samen met de mens?"
+      options:
+        - "Modus 1 — Instrumenteel"
+        - "Modus 2 — Adviserend"
+        - "Modus 3 — Collaboratief"
+        - "Modus 4 — Gedelegeerd"
+        - "Modus 5 — Autonoom"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: risiconiveau
+    attributes:
+      label: Risiconiveau
+      description: "Risiconiveau volgens de EU AI Act-classificatie"
+      options:
+        - "Minimaal"
+        - "Beperkt"
+        - "Verhoogd"
+        - "Kritiek"
+    validations:
+      required: false
+
+  - type: textarea
+    id: harde-grenzen
+    attributes:
+      label: Harde Grenzen
+      description: "Wat mag het systeem absoluut NIET doen?"
+      placeholder: |
+        - Het systeem mag niet ...
+        - Het systeem mag niet ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: dataset-beschrijving
+    attributes:
+      label: Dataset beschrijving
+      description: "Beschrijf de data die voor dit experiment wordt gebruikt"
+      placeholder: "Bron, omvang, type data, eventuele privacy-overwegingen"
+    validations:
+      required: false

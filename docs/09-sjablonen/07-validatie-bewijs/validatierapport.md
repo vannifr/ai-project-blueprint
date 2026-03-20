@@ -10,6 +10,9 @@ answers: ['Hoe gebruik ik het Sjabloon 09.06: Validatierapport (Bewijs‑pakket)
 
 # 1. Sjabloon 09.06: Validatierapport (Bewijs‑pakket)
 
+!!! tip "Wanneer gebruik je dit?"
+    Je rondt een validatiepilot af en moet het bewijspakket samenstellen voor de Gate Review-beslissing (Go / Go met acties / No-Go).
+
 ## 1. Samenvatting (1 pagina)
 
 **Project:** \[Naam\]

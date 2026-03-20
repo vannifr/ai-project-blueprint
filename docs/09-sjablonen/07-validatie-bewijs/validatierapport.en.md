@@ -10,6 +10,9 @@ answers: ['How do I use the Template 09.06: Validation Report (Evidence Package)
 
 # 1. Template 09.06: Validation Report (Evidence Package)
 
+!!! tip "When to use this?"
+    You are completing a validation pilot and need to compile the evidence package for the Gate Review decision (Go / Go with actions / No-Go).
+
 ## 1. Summary (1 page)
 
 **Project:** \[Name\]

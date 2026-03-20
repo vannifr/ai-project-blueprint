@@ -1,0 +1,67 @@
+name: "AI Incident"
+description: "Meld een AI-incident volgens het incident response playbook"
+labels: ["incident", "priority:high"]
+body:
+  - type: dropdown
+    id: ernst
+    attributes:
+      label: Ernst
+      description: "Hoe ernstig is het incident?"
+      options:
+        - "Kritiek — directe schade"
+        - "Hoog — potentiële schade"
+        - "Middel — beperkte impact"
+        - "Laag — geen directe schade"
+    validations:
+      required: true
+
+  - type: input
+    id: systeem
+    attributes:
+      label: Systeem
+      description: "Welk AI-systeem is betrokken?"
+      placeholder: "Bijv. 'Recommender Engine v2.1'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: beschrijving
+    attributes:
+      label: Beschrijving
+      description: "Wat is er gebeurd?"
+      placeholder: "Beschrijf het incident zo concreet mogelijk"
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: "Wie/wat is geraakt?"
+      placeholder: "Bijv. '200 klanten hebben onjuiste aanbevelingen ontvangen'"
+    validations:
+      required: false
+
+  - type: textarea
+    id: containment-acties
+    attributes:
+      label: Containment acties
+      description: "Wat is er al gedaan om de impact te beperken?"
+      placeholder: |
+        - [ ] Systeem is offline gehaald
+        - [ ] Getroffen gebruikers zijn genotificeerd
+        - [ ] Rollback naar vorige versie
+    validations:
+      required: false
+
+  - type: textarea
+    id: tijdlijn
+    attributes:
+      label: Tijdlijn
+      description: "Wanneer ontdekt, wanneer gemeld"
+      placeholder: |
+        - **Ontdekt:** YYYY-MM-DD HH:MM
+        - **Gemeld:** YYYY-MM-DD HH:MM
+        - **Eerste actie:** YYYY-MM-DD HH:MM
+    validations:
+      required: false

@@ -13,6 +13,9 @@ answers: [Hoe voer ik AI PM Onboarding Playbook uit?]
 !!! abstract "Doel"
     Stap-voor-stap inwerkgids waarmee nieuwe AI Project Managers in zes weken van observatie naar volwaardig eigenaarschap groeien.
 
+!!! tip "Wanneer gebruik je dit?"
+    Er komt een nieuwe AI Project Manager aan boord en je wilt een gestructureerd inwerktraject van zes weken met concrete deliverables per week.
+
 Stap-voor-stap inwerkgids voor nieuwe AI Project Managers die instromen in een lopend of nieuw AI-project. Dit playbook helpt u om in zes weken van observatie naar volwaardig eigenaarschap te groeien, met concrete deliverables per fase.
 
 !!! info "Verschil met klassieke PM-onboarding"

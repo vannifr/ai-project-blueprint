@@ -14,6 +14,9 @@ answers: [How do I execute Incident Playbooks?]
 !!! abstract "Purpose"
     Four detailed step-by-step procedures for the most common AI incidents: performance degradation, bias, security incidents and data quality.
 
+!!! tip "When to use this?"
+    An AI incident has been detected (performance degradation, bias, security breach or data quality issue) and you need an immediate step-by-step response procedure.
+
 Four detailed step-by-step procedures for the most common AI incidents. Use these alongside the [Incident Response overview](05-incidentrespons.md) for the severity matrix and roles.
 
 ______________________________________________________________________

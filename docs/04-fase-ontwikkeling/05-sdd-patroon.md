@@ -13,6 +13,9 @@ answers: [Wat is Specificatie-eerst Patroon?]
 !!! abstract "Doel"
     Werkwijze waarbij eerst formeel wordt vastgelegd wat het AI-systeem moet doen, voordat er gebouwd wordt, om correcties achteraf te voorkomen en compliance aantoonbaar te maken.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je begint met de ontwikkelfase en wilt eerst formeel vastleggen wat het AI-systeem moet doen, voordat je gaat bouwen.
+
 ## 1. Doel
 
 Het Specificatie-eerst Patroon (Specification-Driven Development) is een werkwijze waarbij wij eerst formeel vastleggen wat het AI-systeem moet doen, voordat we beginnen met bouwen. Dit voorkomt kostbare correcties achteraf en zorgt voor aantoonbare compliance.

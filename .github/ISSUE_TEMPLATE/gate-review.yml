@@ -1,0 +1,83 @@
+name: "Gate Review"
+description: "Vraag een Gate Review aan met vooraf ingevulde checklist"
+labels: ["gate-review"]
+body:
+  - type: dropdown
+    id: gate-nummer
+    attributes:
+      label: Gate nummer
+      description: "Welke gate wordt beoordeeld?"
+      options:
+        - "Gate 1 — Verkenning"
+        - "Gate 2 — Investering"
+        - "Gate 3 — Productie-klaar"
+        - "Gate 4 — Livegang"
+    validations:
+      required: true
+
+  - type: input
+    id: projectnaam
+    attributes:
+      label: Projectnaam
+      description: "Naam van het project dat deze gate doorloopt"
+      placeholder: "Bijv. 'AI-chatbot Klantenservice'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: gate-criteria-checklist
+    attributes:
+      label: Gate criteria checklist
+      description: "Vink af welke criteria zijn afgerond"
+      value: |
+        ### Algemene criteria
+        - [ ] Doelkaart is ingevuld en actueel
+        - [ ] Risicoanalyse is uitgevoerd
+        - [ ] Harde Grenzen zijn gedefinieerd en gerespecteerd
+        - [ ] Stakeholders zijn geraadpleegd
+
+        ### Validatie
+        - [ ] Validatierapport is opgeleverd
+        - [ ] Succescriteria zijn meetbaar gedefinieerd
+        - [ ] Golden Set is beschikbaar (indien van toepassing)
+        - [ ] Bewijsstandaarden zijn nageleefd
+
+        ### Compliance
+        - [ ] EU AI Act-classificatie is bepaald
+        - [ ] Privacy-impact is beoordeeld
+        - [ ] Ethische toetsing is uitgevoerd
+    validations:
+      required: false
+
+  - type: textarea
+    id: bewijs-artefacten
+    attributes:
+      label: Bewijs / artefacten
+      description: "Links naar opgeleverde documenten"
+      placeholder: |
+        - [Doelkaart](link)
+        - [Validatierapport](link)
+        - [Risicoanalyse](link)
+    validations:
+      required: false
+
+  - type: textarea
+    id: open-risicos
+    attributes:
+      label: Open risico's
+      description: "Welke risico's zijn nog niet afgedekt?"
+      placeholder: "Beschrijf de resterende risico's en eventuele mitigatiemaatregelen"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: aanbeveling
+    attributes:
+      label: Aanbeveling
+      description: "Wat is de aanbeveling voor deze gate?"
+      options:
+        - "Go"
+        - "Go met voorwaarden"
+        - "No-Go"
+    validations:
+      required: false

@@ -14,6 +14,9 @@ answers: [Hoe werkt Drift Detectie (Drift Detection)?]
 !!! abstract "Doel"
     Methoden om kwaliteitsverslechtering (drift) in AI-systemen te detecteren, meten en hierop te reageren.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je merkt dat je AI-systeem in productie anders presteert dan verwacht, of je wilt proactief monitoring inrichten om kwaliteitsverslechtering vroegtijdig te signaleren.
+
 ## 1. Doel
 
 Drift (drift) is het fenomeen waarbij de kwaliteit van een AI-systeem over tijd verslechtert. Deze module beschrijft hoe wij drift detecteren, meten en hierop reageren.

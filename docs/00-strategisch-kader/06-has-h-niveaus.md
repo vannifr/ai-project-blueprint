@@ -12,6 +12,9 @@ answers: [Wat houdt AI-Samenwerkingsmodi in?, Hoe classificeer ik het risico van
 !!! abstract "Doel"
     Classificatie van vijf mens-AI samenwerkingsmodi (Instrumenteel tot Autonoom) om de juiste governance en risicobeheersing per toepassing te bepalen.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je ontwerpt een AI-toepassing en moet bepalen hoeveel autonomie de AI krijgt en welke governance daarbij hoort.
+
 ## 1. Doel van de Modi
 
 Om te bepalen welke processen, governance en risicobeheersing nodig zijn, classificeren we de relatie tussen mens en machine in vijf **Samenwerkingsmodi**.

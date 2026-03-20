@@ -13,6 +13,9 @@ answers: [Hoe gebruik ik het De Doelkaart (goal card) (Intent Map) sjabloon?]
 
 De Doelkaart (goal card) formaliseert de **Doeldefinitie** van het AI-project. Dit document verbindt de menselijke intentie aan de technische **Prompts** en fungeert als de bron waaruit de AI-oplossing wordt gegenereerd.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je start een nieuw AI-project en wilt de menselijke intentie, het gewenste gedrag en de technische context vastleggen voordat je begint met bouwen.
+
 ______________________________________________________________________
 
 **Project:** \[Naam Project\]

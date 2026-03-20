@@ -14,6 +14,9 @@ answers: [How does Performance Degradation Detection (Drift Detection) work?]
 !!! abstract "Purpose"
     Methods for detecting, measuring and responding to quality degradation (drift) in AI systems.
 
+!!! tip "When to use this?"
+    You notice your AI system in production is performing differently than expected, or you want to proactively set up monitoring to detect quality degradation early.
+
 ## 1. Objective
 
 Performance degradation (drift) is the phenomenon where the quality of an AI system deteriorates over time. This module describes how we detect, measure and respond to drift.

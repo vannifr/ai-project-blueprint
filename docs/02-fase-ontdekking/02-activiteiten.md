@@ -13,6 +13,9 @@ answers: [Welke activiteiten voer ik uit in deze fase?, Hoe classificeer ik het 
 !!! abstract "Doel"
     Overzicht van de kernactiviteiten en rolverdelingen tijdens de Verkenningsfase, van probleemverkenning tot dataevaluatie en risicobeoordeling.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je zit in de Verkenningsfase en wilt weten welke activiteiten je moet uitvoeren — van probleemverkenning en dataevaluatie tot risicobeoordeling.
+
 ## 1. Kernactiviteiten
 
 ### Probleemverkenning

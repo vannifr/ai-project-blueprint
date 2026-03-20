@@ -1,38 +1,28 @@
-## Omschrijving
+## Samenvatting
 
-<!-- Wat is er gewijzigd en waarom? Koppel aan een issue indien van toepassing. -->
+<!-- Wat doet deze PR? Koppel aan een issue indien van toepassing. -->
 
 Fixes #<!-- issue nummer -->
 
-______________________________________________________________________
+## Fase & Gate
 
-## Type wijziging
+<!-- In welke fase valt deze wijziging en welke gate-criteria dekt het af? -->
 
-<!-- Zet een x tussen de haakjes -->
+- **Fase:** <!-- Bijv. Ontdekking, Validatie, Ontwikkeling, Levering, Monitoring -->
+- **Gate:** <!-- Bijv. Gate 1 — Verkenning -->
 
-- [ ] Nieuwe pagina / module toegevoegd
-- [ ] Bestaande inhoud bijgewerkt of gecorrigeerd
-- [ ] Vertaling toegevoegd of verbeterd (EN / FR / DE)
-- [ ] Structurele of opmaak-wijziging
-- [ ] Infrastructuur / CI / scripts
+## Checklist
 
-______________________________________________________________________
+- [ ] Doelkaart bijgewerkt (indien relevant)
+- [ ] Harde Grenzen gerespecteerd
+- [ ] Validatierapport bijgewerkt (indien relevant)
+- [ ] Tests toegevoegd/bijgewerkt
+- [ ] Documentatie bijgewerkt
 
-## Zelfcontrole
+## Gevalideerde aannames
 
-Voer onderstaande stappen uit **vóór** het indienen van deze PR:
+<!-- Welke aannames zijn met deze wijziging gevalideerd? -->
 
-- [ ] `pre-commit run --all-files` geslaagd (geen fouten)
-- [ ] `python3 scripts/validate_docs.py` geslaagd (geen ERRORs)
-- [ ] `mkdocs build --strict` geslaagd lokaal (of CI-build groen)
-- [ ] Nieuwe pagina's staan vermeld in de `nav:` sectie van `mkdocs.yml`
-- [ ] Nieuwe pagina's hebben geldige YAML frontmatter met `versie`-veld
-- [ ] Terminologie volgt de STYLE_GUIDE (`kostenoverzicht` i.p.v. `kostenplaatje`, etc.)
-- [ ] Actieve schrijfstijl gebruikt ("Wij evalueren" i.p.v. "Er wordt geëvalueerd")
-- [ ] Vertaalplaceholders bevatten `pdf: false` in frontmatter
+## Open risico's
 
-______________________________________________________________________
-
-## Opmerkingen voor de reviewer
-
-<!-- Specifieke aandachtspunten, open vragen, of context voor de reviewer. -->
+<!-- Zijn er bekende risico's of aandachtspunten die nog openstaan? -->

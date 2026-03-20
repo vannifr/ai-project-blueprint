@@ -13,6 +13,9 @@ answers: [Hoe werkt Snelle Route (Fast Lane)?, Hoe classificeer ik het risico va
 !!! abstract "Doel"
     Versneld traject voor laag-risico AI-toepassingen om veilig en snel waarde te testen met minimale governance-overhead.
 
+!!! tip "Wanneer gebruik je dit?"
+    Je hebt een laag-risico AI-use case en wilt weten of je de volledige lifecycle kunt overslaan via het versnelde Fast Lane-traject.
+
 ## 1. Doel
 
 De Fast Lane is bedoeld om **veilig en snel** waarde te testen voor **laag‑risico** AI‑toepassingen, zonder onnodige bureaucratie—maar **met minimale governance**.
