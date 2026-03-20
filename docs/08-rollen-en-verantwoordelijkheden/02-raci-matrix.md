@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 type: template
 layer: 1
 tags: [stakeholder, template]

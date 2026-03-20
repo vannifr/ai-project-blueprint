@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 description: 'Technische standaarden voor AI-systemen: MLOps, datapipelines, modelgovernance, testframeworks, AI-architectuurpatronen, cloud versus on-premise en green AI richtlijnen.'
 type: index
 layer: 3

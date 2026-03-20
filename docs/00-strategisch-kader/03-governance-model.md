@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 description: 'AI-governancemodel: beslissingsbevoegdheden, toezichtstructuren en verantwoordingskaders voor verantwoorde AI-inzet — afgestemd op EU AI Act en PMI-CPMAI vereisten.'
 type: strategic
 layer: 1

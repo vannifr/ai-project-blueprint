@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 type: foundation
 layer: 1
 summary: Beschrijving van de Specificatie-eerst Methode (Spec-Driven Development) waarbij verwachtingen formeel worden vastgelegd voordat er gebouwd wordt.

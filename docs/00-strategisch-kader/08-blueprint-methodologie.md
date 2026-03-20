@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 type: strategic
 layer: 1
 summary: Navigatie-index die alle technische codes, modules en sjablonen van de Blauwdruk koppelt aan de inhoudelijke documenten.

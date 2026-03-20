@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 description: 'Het AI-levenscyclusmodel: zeven opeenvolgende fasen van Verkenning tot Afsluiting. Leer hoe elke fase doelstellingen, opleveringen en governance gates verbindt in een AI-project.'
 type: strategic
 layer: 1

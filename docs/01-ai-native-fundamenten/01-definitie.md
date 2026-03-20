@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 description: 'Kernprincipes van AI-native projectmanagement: gedragssturing, traceerbaarheid, menselijk toezicht en bewijsstandaarden die AI-projecten onderscheiden van traditionele softwareontwikkeling.'
 type: foundation
 layer: 1

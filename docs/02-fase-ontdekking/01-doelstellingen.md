@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 description: 'Fase Verkenning & Strategie: doelstellingen, kernactiviteiten en opleveringen voor de eerste fase van een AI-project — probleemdefiniëring, haalbaarheidsscoping en governance fundament.'
 type: objectives
 layer: 2

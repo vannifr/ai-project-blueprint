@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 type: strategic
 layer: 1
 summary: Richtlijnen voor het formeel starten van een AI-project met een helder Project Charter, rollen en verantwoordelijkheden.

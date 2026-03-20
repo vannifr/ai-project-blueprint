@@ -1,5 +1,5 @@
 ---
-versie: '1.0'
+versie: '1.1'
 type: strategic
 layer: 1
 summary: Dit hoofdstuk schetst de organisatorische transformatie die nodig is om AI structureel in te bedden. Het raakt aan organisatieontwerp, AI governance en cultuurverandering. Een volledige uitwerking…
