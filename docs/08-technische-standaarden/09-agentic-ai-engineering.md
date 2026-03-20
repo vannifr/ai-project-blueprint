@@ -22,6 +22,9 @@ Deze module beschrijft de engineering-praktijken voor het bouwen, testen en behe
 !!! warning "Voorwaarde"
     Lees eerst [AI-Samenwerkingsmodi](../00-strategisch-kader/06-has-h-niveaus.md) en de [acceptatiecriteria voor Modus 4-5](../00-strategisch-kader/06-has-h-niveaus.md#4b-acceptatiecriteria-voor-modus-4-5-agentisch). Elke technische keuze in dit document wordt bepaald door de modus en het risicoprofiel.
 
+!!! info "DORA: context engineering voor AI-toegankelijke interne data [so-28]"
+    Het DORA AI Capabilities Model (2025) identificeert *AI-toegankelijke interne data* als een van de zeven capabilities die AI-adoptie versterken. DORA definieert dit als *context engineering*: het verbinden van AI-tools met interne codebases, documentatie en wiki's — niet alleen prompt engineering. Voor agentische systemen betekent dit: investeer in MCP-servers, gestructureerde kennisbanken en domein-specifieke contextbestanden zodat agents de organisatiecontext begrijpen. Zie [Externe Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025).
+
 ______________________________________________________________________
 
 ## 2. Orkestratiepatronen

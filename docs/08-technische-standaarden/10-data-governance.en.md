@@ -16,6 +16,9 @@ answers: [How do I ensure data quality in an AI project?, What are data contract
 !!! tip "When to use this?"
     From the Discovery phase (Phase 1) during Data Evaluation. Data governance is not a one-time activity: it runs through all phases. Start early, build incrementally.
 
+!!! info "DORA: healthy data ecosystems as AI amplifier [so-28]"
+    The DORA AI Capabilities Model (2025) identifies *healthy data ecosystems* — high-quality, accessible and unified internal data — as one of the seven foundational capabilities that amplify the positive impact of AI adoption. This validates the importance of the data quality framework in this module. See [External Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025).
+
 ______________________________________________________________________
 
 ## 1. Data Quality Framework

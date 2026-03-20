@@ -18,6 +18,9 @@ answers: [What does Governance Model entail?, Who decides what in an AI project?
 
 Defining the decision-making structures, roles and responsibilities to steer AI projects safely and effectively.
 
+!!! info "DORA: clear AI stance amplifies adoption outcomes [so-28]"
+    The DORA AI Capabilities Model (2025) shows that a *clear and communicated AI stance* is the most important organisational capability for successful AI adoption. It provides psychological safety for experimentation and amplifies individual effectiveness, organisational performance and throughput. Governance is not a brake but an accelerator. See [External Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025).
+
 ______________________________________________________________________
 
 ## 2. Structure

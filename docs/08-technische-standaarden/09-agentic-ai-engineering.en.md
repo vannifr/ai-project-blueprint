@@ -22,6 +22,9 @@ This module describes the engineering practices for building, testing and managi
 !!! warning "Prerequisite"
     First read [AI Collaboration Modes](../00-strategisch-kader/06-has-h-niveaus.md) and the [acceptance criteria for Mode 4-5](../00-strategisch-kader/06-has-h-niveaus.md#4b-acceptance-criteria-for-mode-4-5-agentic). Every technical choice in this document is determined by the mode and risk profile.
 
+!!! info "DORA: context engineering for AI-accessible internal data [so-28]"
+    The DORA AI Capabilities Model (2025) identifies *AI-accessible internal data* as one of the seven capabilities that amplify AI adoption. DORA defines this as *context engineering*: connecting AI tools to internal codebases, documentation and wikis — not just prompt engineering. For agentic systems this means: invest in MCP servers, structured knowledge bases and domain-specific context files so that agents understand the organisational context. See [External Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025).
+
 ______________________________________________________________________
 
 ## 2. Orchestration Patterns

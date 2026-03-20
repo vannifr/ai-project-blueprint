@@ -19,6 +19,9 @@ Deze module definieert wat "productiewaardig" betekent voor AI-oplossingen, incl
 - **Basis** (handmatige governance, minimale automatisering)
 - **Gevorderd** (meer automatisering, CI/CD/kwaliteitspoorten)
 
+!!! info "DORA: versiebeheer en platformen versterken AI-adoptie [so-28]"
+    Het DORA AI Capabilities Model (2025) toont aan dat *sterke versiebeheer-praktijken* en *kwalitatieve interne platformen* tot de zeven capabilities behoren die het positieve effect van AI-adoptie op prestaties versterken. Versiebeheer fungeert als vangnet bij de hogere verandersnelheid die AI brengt; interne platformen bieden geautomatiseerde, veilige paden om AI-voordelen schaalbaar te maken. Zie [Externe Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025).
+
 ## 2. Automation Ladder (realistisch groeipad)
 
 | Niveau                        | Omschrijving                            | Voor wie          | Voorbeeld controles                  |

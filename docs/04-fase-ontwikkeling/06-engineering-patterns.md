@@ -216,7 +216,20 @@ Gebruik deze checklist wanneer je team AI-ontwikkeltools gaat inzetten:
 
 ______________________________________________________________________
 
-## 6. Gerelateerde Modules
+## 6. Externe Validatie: DORA AI Capabilities Model
+
+!!! info "DORA-onderzoek bevestigt Blueprint-patronen [so-28]"
+    Het DORA AI Capabilities Model (2025), gebaseerd op onderzoek onder bijna 5.000 technologieprofessionals, identificeert drie capabilities die direct aansluiten bij de patterns in deze module:
+
+    - **Sterke versiebeheer-praktijken** — valideren het *Safe Refactor* pattern: AI verhoogt de snelheid van verandering, versiebeheer is het vangnet.
+    - **Werken in kleine batches** — valideren het principe van incrementeel werken bij [Rework Beperken](#4-rework-beperken): kleine batches compenseren het risico van grote, instabiele AI-gegenereerde wijzigingen.
+    - **AI-toegankelijke interne data** — valideert het *Context Files* pattern: DORA noemt dit *context engineering* — het verbinden van AI-tools met interne codebases en documentatie voor relevantere output.
+
+    Zie [Externe Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025) voor het volledige model.
+
+______________________________________________________________________
+
+## 7. Gerelateerde Modules
 
 - [SDD Patroon (Specificatie-gedreven Ontwikkeling)](05-sdd-patroon.md)
 - [Validatiemodel](../01-ai-native-fundamenten/04-validatie-model.md)

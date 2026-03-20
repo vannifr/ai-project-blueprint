@@ -19,6 +19,9 @@ This module defines what "production-ready" means for AI solutions, including a 
 - **Basic** (manual governance, minimal automation)
 - **Advanced** (more automation, CI/CD/quality gates)
 
+!!! info "DORA: version control and platforms amplify AI adoption [so-28]"
+    The DORA AI Capabilities Model (2025) shows that *strong version control practices* and *quality internal platforms* are among the seven capabilities that amplify the positive impact of AI adoption on performance. Version control acts as the safety net for the higher velocity of change that AI brings; internal platforms provide automated, secure pathways to scale AI benefits. See [External Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025).
+
 ## 2. Automation Ladder (Realistic Growth Path)
 
 | Level                     | Description                       | For whom          | Example controls                        |

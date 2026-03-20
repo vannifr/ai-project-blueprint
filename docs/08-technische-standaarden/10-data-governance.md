@@ -16,6 +16,9 @@ answers: [Hoe borg ik datakwaliteit in een AI-project?, Wat zijn data contracts?
 !!! tip "Wanneer gebruik je dit?"
     Vanaf de Verkenningsfase (Fase 1) bij de Data-Evaluatie. Data governance is geen eenmalige activiteit: het loopt door alle fasen heen. Start vroeg, bouw incrementeel op.
 
+!!! info "DORA: gezonde data-ecosystemen als AI-versterker [so-28]"
+    Het DORA AI Capabilities Model (2025) identificeert *gezonde data-ecosystemen* — hoogwaardige, toegankelijke en geïntegreerde interne data — als een van de zeven fundamentele capabilities die het positieve effect van AI-adoptie versterken. Dit valideert het belang van het datakwaliteitraamwerk in deze module. Zie [Externe Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025).
+
 ______________________________________________________________________
 
 ## 1. Datakwaliteit Raamwerk

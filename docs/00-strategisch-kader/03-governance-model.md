@@ -18,6 +18,9 @@ answers: [Wat houdt Governance Model in?, Welke rollen heb ik nodig?]
 
 Het definiëren van de besluitvormingsstructuren, rollen en verantwoordelijkheden om AI-projecten veilig en effectief te sturen.
 
+!!! info "DORA: helder AI-beleid versterkt adoptie-uitkomsten [so-28]"
+    Het DORA AI Capabilities Model (2025) toont aan dat een *helder en gecommuniceerd AI-beleid* de belangrijkste organisatorische capability is voor succesvolle AI-adoptie. Het biedt psychologische veiligheid voor experimentatie en versterkt individuele effectiviteit, organisatieprestaties en doorvoersnelheid. Governance is geen rem maar een versneller. Zie [Externe Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025).
+
 ______________________________________________________________________
 
 ## 2. Structuur

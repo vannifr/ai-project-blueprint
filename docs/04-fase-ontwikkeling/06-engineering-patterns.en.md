@@ -216,7 +216,20 @@ Use this checklist when your team starts adopting AI development tools:
 
 ______________________________________________________________________
 
-## 6. Related Modules
+## 6. External Validation: DORA AI Capabilities Model
+
+!!! info "DORA research validates Blueprint patterns [so-28]"
+    The DORA AI Capabilities Model (2025), based on research with nearly 5,000 technology professionals, identifies three capabilities that directly align with the patterns in this module:
+
+    - **Strong version control practices** — validate the *Safe Refactor* pattern: AI increases the velocity of change, version control is the safety net.
+    - **Working in small batches** — validates the incremental work principle in [Limiting Rework](#4-limiting-rework): small batches counteract the risk of large, unstable AI-generated changes.
+    - **AI-accessible internal data** — validates the *Context Files* pattern: DORA calls this *context engineering* — connecting AI tools to internal codebases and documentation for more relevant output.
+
+    See [External Evidence: DORA](../17-bijlagen/externe-evidence-dora.md#3-dora-ai-capabilities-model-2025) for the full model.
+
+______________________________________________________________________
+
+## 7. Related Modules
 
 - [SDD Pattern (Specification-Driven Development)](05-sdd-patroon.md)
 - [Validation Model](../01-ai-native-fundamenten/04-validatie-model.md)
