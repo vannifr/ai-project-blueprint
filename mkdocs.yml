@@ -227,7 +227,8 @@ plugins:
           enabled: !ENV [MKDOCS_EXPORTER_PDF, false]
           explicit: false
           concurrency: 4
-          timeout: 120000
+          browser:
+            timeout: 120000
           stylesheets:
             - resources/stylesheets/pdf.scss
           covers:
