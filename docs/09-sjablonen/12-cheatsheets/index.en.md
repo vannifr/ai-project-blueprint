@@ -3,6 +3,7 @@ versie: '1.0'
 type: index
 layer: 3
 phase: [1, 2, 3, 4, 5]
+answers: [What does the Cheatsheets — Overview section contain?]
 ---
 
 # Cheatsheets — Overview

@@ -4,6 +4,8 @@ type: guide
 layer: 2
 phase: [1, 2, 3, 4, 5]
 tags: [agile]
+summary: Doorlopend logboek voor kleine, gerichte verbeteringen aan het AI-systeem zodat wijzigingen traceerbaar en herhaalbaar zijn.
+answers: [Hoe werkt Kaizen Logs?]
 ---
 
 # 2. Kaizen Logs

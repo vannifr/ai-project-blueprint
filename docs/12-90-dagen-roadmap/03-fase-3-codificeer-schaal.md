@@ -3,6 +3,8 @@ versie: '1.0'
 type: strategic
 layer: 2
 roles: [Business Sponsor]
+summary: In dagen 61-90 de succesvolle pilotresultaten standaardiseren en het fundament bouwen voor schaalbare AI-inzet.
+answers: [Wat houdt Codificeer & Schaal (Dagen 61-90) in?]
 ---
 
 # 1. Codificeer & Schaal (Dagen 61-90)

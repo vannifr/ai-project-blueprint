@@ -4,6 +4,8 @@ type: technical
 layer: 3
 roles: [Tech Lead]
 tags: [cost]
+summary: Concrete technieken en een kostenraming-tool om AI-systeemkosten beheersbaar te houden in de Realisatie- en Beheerfase.
+answers: [Wat zijn de technische standaarden voor Kostenoptimalisatie?, Wat kost dit?]
 ---
 
 # Kostenoptimalisatie

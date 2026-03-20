@@ -3,6 +3,8 @@ versie: '1.0'
 description: 'Snelle referentiekaart van de 5-fasen AI-levenscyclus: doel per fase, gate-criteria, kernactiviteit en primair sjabloon — alles op één pagina.'
 type: strategic
 layer: 1
+summary: Eenpagina-overzicht van de vijf AI-levenscyclusfasen met per fase het doel, de gate-criteria, kernactiviteit en bijbehorend sjabloon.
+answers: [Wat houdt AI-Projectcyclus — Snelle Referentie in?]
 ---
 
 # AI-Projectcyclus — Snelle Referentie

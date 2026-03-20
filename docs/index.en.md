@@ -4,6 +4,7 @@ description: AI Project Blueprint — a modular open framework for AI project ma
 pdf: false
 type: index
 layer: 1
+answers: [What does the Welcome to the AI Project Blueprint section contain?]
 ---
 
 # 1. Welcome to the AI Project Blueprint

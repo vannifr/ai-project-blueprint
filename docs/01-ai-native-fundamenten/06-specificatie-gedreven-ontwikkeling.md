@@ -2,6 +2,8 @@
 versie: '1.0'
 type: foundation
 layer: 1
+summary: Beschrijving van de Specificatie-eerst Methode (Spec-Driven Development) waarbij verwachtingen formeel worden vastgelegd voordat er gebouwd wordt.
+answers: [Wat houdt Specificatie-eerst Methode in?]
 ---
 
 # 1. Specificatie-eerst Methode

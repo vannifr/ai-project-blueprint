@@ -4,6 +4,8 @@ type: guide
 layer: 2
 phase: [1, 2, 3, 4, 5]
 tags: [agile]
+summary: Gestructureerde evaluatie van het AI-systeem en het team om verbeterpunten te identificeren en te borgen in de volgende cyclus.
+answers: [Hoe werkt Retrospectives?, Welke rollen heb ik nodig?]
 ---
 
 # 1. Retrospectives

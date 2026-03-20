@@ -5,6 +5,8 @@ type: objectives
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: 'Objectives, key activities and deliverables of Phase 1: identifying the right problem and assessing feasibility for an AI project.'
+answers: [What is the goal of this phase?]
 ---
 
 # 1. Discovery & Strategy

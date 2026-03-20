@@ -2,6 +2,8 @@
 versie: '1.3'
 type: foundation
 layer: 1
+summary: This page describes the five core principles that distinguish an AI-native approach from traditional software development, and the assessment criteria to determine whether a project falls under these…
+answers: [What does Assessment Criteria & AI-Native Principles entail?]
 ---
 
 # Assessment Criteria & AI-Native Principles

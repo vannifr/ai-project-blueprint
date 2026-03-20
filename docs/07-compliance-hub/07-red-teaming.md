@@ -4,6 +4,8 @@ type: playbook
 layer: 3
 roles: [Guardian]
 tags: [eu-ai-act, playbook, security]
+summary: Opzet, standaard-oefeningen en rapportage voor het systematisch testen van AI-systeemkwetsbaarheden voordat ze in productie gaan.
+answers: [Hoe voer ik Red Teaming Playbook uit?]
 ---
 
 # Red Teaming Playbook

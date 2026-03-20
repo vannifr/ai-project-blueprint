@@ -4,6 +4,7 @@ description: 'Glossary of AI project management terms: clear definitions bridgin
 pdf: false
 type: index
 layer: 3
+answers: [What does the Glossary section contain?]
 ---
 
 # 1. Glossary

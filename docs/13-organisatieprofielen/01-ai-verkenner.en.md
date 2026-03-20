@@ -3,6 +3,7 @@ versie: '1.0'
 type: strategic
 layer: 1
 tags: [onboarding]
+answers: [What does The Explorer entail?]
 ---
 
 # 1. The Explorer

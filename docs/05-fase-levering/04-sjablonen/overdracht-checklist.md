@@ -5,6 +5,8 @@ layer: 2
 phase: [4]
 roles: [AI Product Manager]
 tags: [gate-review]
+summary: Afvinkbare checklist voor de formele overdracht van het AI-systeem van het projectteam aan de beheerorganisatie bij Gate 4.
+answers: ['Hoe werkt Checklist: Operationele Overdracht?', Welke rollen heb ik nodig?]
 ---
 
 # 1. Checklist: Operationele Overdracht

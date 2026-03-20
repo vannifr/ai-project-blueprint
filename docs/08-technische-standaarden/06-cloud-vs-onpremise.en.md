@@ -4,6 +4,8 @@ pdf: false
 type: technical
 layer: 3
 roles: [Tech Lead]
+summary: Decision framework for choosing between cloud, on-premise or hybrid infrastructure for your AI system.
+answers: [What are the technical standards for Cloud vs. On-Premise?, Who decides what in an AI project?]
 ---
 
 # Cloud vs. On-Premise

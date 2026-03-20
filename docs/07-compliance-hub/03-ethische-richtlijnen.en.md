@@ -4,6 +4,8 @@ type: compliance
 layer: 3
 roles: [Guardian]
 tags: [ethics, eu-ai-act]
+summary: Frameworks to ensure that AI systems respect human values and do not cause unintended harm.
+answers: [What are the compliance requirements for Ethical Guidelines?]
 ---
 
 # 1. Ethical Guidelines

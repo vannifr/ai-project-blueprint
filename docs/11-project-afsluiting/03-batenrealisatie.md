@@ -4,6 +4,8 @@ type: guide
 layer: 2
 phase: [5]
 roles: [Business Sponsor]
+summary: Definitieve meting van de beloofde baten bij projectafsluiting, met rapportage aan de stuurgroep en overdracht van het waarderealisatieplan.
+answers: [Hoe werkt Waarderealisatie (Projectafsluiting)?]
 ---
 
 # 3. Waarderealisatie (Projectafsluiting)

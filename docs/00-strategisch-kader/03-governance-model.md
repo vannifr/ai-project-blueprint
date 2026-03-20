@@ -5,6 +5,8 @@ type: strategic
 layer: 1
 roles: [Data Scientist]
 tags: [governance]
+summary: Definitie van de besluitvormingsstructuren, rollen en toezichtlagen die AI-projecten veilig en effectief sturen.
+answers: [Wat houdt Governance Model in?, Welke rollen heb ik nodig?]
 ---
 
 # 1. Governance Model

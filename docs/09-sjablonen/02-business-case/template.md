@@ -5,6 +5,7 @@ layer: 3
 phase: [2]
 roles: [AI Product Manager, Business Sponsor]
 tags: [template]
+answers: ['Hoe gebruik ik het Sjabloon: Business Case & Het Kostenoverzicht sjabloon?']
 ---
 
 # 1. Sjabloon: Business Case & Het Kostenoverzicht

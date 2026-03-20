@@ -5,6 +5,7 @@ layer: 3
 phase: [1, 2, 3, 4, 5]
 roles: [Guardian]
 tags: [ethics, gate-review, template]
+answers: [How do I use the Guardian Review Checklist template?]
 ---
 
 # Guardian Review Checklist

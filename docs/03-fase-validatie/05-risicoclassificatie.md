@@ -5,6 +5,8 @@ layer: 2
 phase: [2]
 roles: [AI Product Manager, Data Scientist, Guardian]
 tags: [risk, validation]
+summary: Verfijning van het risicoprofiel tijdens de Validatiefase op basis van de werkelijkheid van het prototype.
+answers: [Hoe werkt Risicoclassificatie in Validatie?, Hoe classificeer ik het risico van mijn AI-project?]
 ---
 
 # 1. Risicoclassificatie in Validatie

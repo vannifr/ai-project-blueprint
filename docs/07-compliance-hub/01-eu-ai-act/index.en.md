@@ -5,6 +5,8 @@ type: index
 layer: 3
 roles: [Guardian]
 tags: [eu-ai-act]
+summary: Practical guide to EU AI Act requirements and how to apply them within your AI project.
+answers: [What does the EU AI Act section contain?]
 ---
 
 # 1. EU AI Act

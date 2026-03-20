@@ -98,21 +98,23 @@ plugins:
             # Strategic Foundation
             "🧠 Strategische Fundering": "🧠 Strategic Foundation"
             "AI-Native Principes": "AI-Native Principles"
-            "Definitie & Kern": "Definition & Core"
+            "Wat is AI-native? (Definitie)": "What is AI-native? (Definition)"
             "Toetsingscriteria": "Assessment Criteria"
-            "Artefact Model": "Artefact Model"
-            "Validatie Model": "Validation Model"
+            "Welke artefacten beheer ik?": "Which artefacts do I manage?"
+            "Hoe valideer ik AI-gedrag?": "How do I validate AI behaviour?"
             "Governance & Organisatie": "Governance & Organisation"
-            "Rollen & Verantwoordelijkheden": "Roles & Responsibilities"
-            "Risicoclassificatie": "Risk Classification"
-            "AI-Samenwerkingsmodi": "AI Collaboration Modes"
-            "Organisatorische Heruitvinding": "Organisational Reinvention"
+            "Wie beslist wat en wanneer?": "Who decides what and when?"
+            "Welke rollen heb ik nodig?": "What roles do I need?"
+            "Hoe hoog is mijn risico?": "How high is my risk?"
+            "Hoe autonoom mag de AI zijn?": "How autonomous can the AI be?"
+            "Hoe transformeert de organisatie?": "How does the organisation transform?"
             "Methodologie": "Methodology"
             "De AI-Projectcyclus": "The AI Project Cycle"
             "AI-Projectcyclus — Snelle Referentie": "AI Project Cycle — Quick Reference"
-            "Hybride (Agile-AI)": "Hybrid (Agile-AI)"
-            "Project Initiatie": "Project Initiation"
-            "Anti-patronen": "Anti-patterns"
+            "Agile of waterfall — of beide?": "Agile or waterfall — or both?"
+            "Hoe start ik een AI-project?": "How do I start an AI project?"
+            "Wat mag absoluut niet?": "What is absolutely not allowed?"
+            "Hoe voorkom ik bouwen zonder spec?": "How to prevent building without spec?"
             # Operational Phases
             "⚙️ Operationele Fasen": "⚙️ Operational Phases"
             "1. Verkenning & Strategie": "1. Discovery & Strategy"
@@ -128,7 +130,7 @@ plugins:
             "4. Levering": "4. Delivery"
             "Traceerbaarheid": "Traceability"
             "5. Beheer & Optimalisatie": "5. Monitoring & Optimisation"
-            "Drift Detectie": "Drift Detection"
+            "Hoe merk ik degradatie op?": "How do I detect degradation?"
             "6. Doorlopende Verbetering": "6. Continuous Improvement"
             "Waarderealisatie": "Benefits Realization"
             "7. Project Afsluiting": "7. Project Closure"
@@ -136,13 +138,13 @@ plugins:
             # Compliance & Technology
             "🛡️ Compliance & Techniek": "🛡️ Compliance & Technology"
             "Compliance Hub": "Compliance Hub"
-            "Risicobeheer": "Risk Management"
-            "Ethische Richtlijnen": "Ethical Guidelines"
-            "Validatie Eisen": "Validation Requirements"
+            "Hoe beheer ik AI-risico's?": "How do I manage AI risks?"
+            "Wat zijn de ethische kaders?": "What are the ethical frameworks?"
+            "Wat moet ik valideren?": "What must I validate?"
             "Technische Standaarden": "Technical Standards"
             "MLOps Standaarden": "MLOps Standards"
             "AI Architectuur": "AI Architecture"
-            "Kostenoptimalisatie": "Cost Optimisation"
+            "Hoe beheers ik AI-kosten?": "How do I control AI costs?"
             "Green AI & Duurzaamheid": "Green AI & Sustainability"
             "Agentic AI Engineering": "Agentic AI Engineering"
             "Engineering Patterns": "Engineering Patterns"
@@ -162,10 +164,11 @@ plugins:
             "Traceerbaarheid & Links": "Traceability & Links"
             "Overdracht Checklist": "Handover Checklist"
             "Cheatsheets": "Cheatsheets"
-            "Bewijsstandaarden": "Evidence Standards"
+            "Hoeveel bewijs is genoeg?": "How much evidence is enough?"
             "Samenwerkingsmodi": "Collaboration Modes"
             "Harde Grenzen": "Hard Boundaries"
-            "Incident Respons": "Incident Response"
+            "Wat eist de EU AI Act?": "What does the EU AI Act require?"
+            "Wat bij een AI-incident?": "What if there's an AI incident?"
             "Incident Playbooks": "Incident Playbooks"
             "Vendor Management": "Vendor Management"
             "Selectie Framework": "Selection Framework"
@@ -253,28 +256,28 @@ nav:
       - Validatierapport Minimaal: 00-explorer-kit/04-validatierapport-minimal.md
   - 🧠 Strategische Fundering:
     - AI-Native Principes:
-      - Definitie & Kern: 01-ai-native-fundamenten/01-definitie.md
+      - Wat is AI-native? (Definitie): 01-ai-native-fundamenten/01-definitie.md
       - Toetsingscriteria: 01-ai-native-fundamenten/02-normatieve-criteria.md
-      - Artefact Model: 01-ai-native-fundamenten/03-artefact-model.md
-      - Validatie Model: 01-ai-native-fundamenten/04-validatie-model.md
-      - Bewijsstandaarden: 01-ai-native-fundamenten/07-bewijsstandaarden.md
+      - Welke artefacten beheer ik?: 01-ai-native-fundamenten/03-artefact-model.md
+      - Hoe valideer ik AI-gedrag?: 01-ai-native-fundamenten/04-validatie-model.md
+      - Hoeveel bewijs is genoeg?: 01-ai-native-fundamenten/07-bewijsstandaarden.md
     - Governance & Organisatie:
-      - Governance Model: 00-strategisch-kader/03-governance-model.md
-      - Rollen & Verantwoordelijkheden: 08-rollen-en-verantwoordelijkheden/index.md
+      - Wie beslist wat en wanneer?: 00-strategisch-kader/03-governance-model.md
+      - Welke rollen heb ik nodig?: 08-rollen-en-verantwoordelijkheden/index.md
       - RACI Matrix: 08-rollen-en-verantwoordelijkheden/02-raci-matrix.md
       - Besluitvormingsmatrix: 08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.md
       - Stakeholder Communicatie: 08-rollen-en-verantwoordelijkheden/03-stakeholder-communicatie.md
       - AI PM Onboarding: 08-rollen-en-verantwoordelijkheden/04-ai-pm-onboarding.md
-      - Risicoclassificatie: 01-ai-native-fundamenten/05-risicoclassificatie.md
-      - AI-Samenwerkingsmodi: 00-strategisch-kader/06-has-h-niveaus.md
-      - Organisatorische Heruitvinding: 00-strategisch-kader/07-organisatorische-heruitvinding.md
+      - Hoe hoog is mijn risico?: 01-ai-native-fundamenten/05-risicoclassificatie.md
+      - Hoe autonoom mag de AI zijn?: 00-strategisch-kader/06-has-h-niveaus.md
+      - Hoe transformeert de organisatie?: 00-strategisch-kader/07-organisatorische-heruitvinding.md
     - Methodologie:
       - De AI-Projectcyclus: 00-strategisch-kader/01-ai-levenscyclus.md
       - AI-Projectcyclus — Snelle Referentie: 00-strategisch-kader/00-levenscyclus-referentie.md
-      - Project Initiatie: 00-strategisch-kader/05-project-initiatie.md
-      - Hybride (Agile-AI): 00-strategisch-kader/02-hybride-methodologie.md
-      - Spec-Driven Development: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
-      - Anti-patronen: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
+      - Hoe start ik een AI-project?: 00-strategisch-kader/05-project-initiatie.md
+      - Agile of waterfall — of beide?: 00-strategisch-kader/02-hybride-methodologie.md
+      - Hoe voorkom ik bouwen zonder spec?: 01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.md
+      - Wat mag absoluut niet?: 00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.md
   - ⚙️ Operationele Fasen:
     - 1. Verkenning & Strategie:
       - Overzicht: 02-fase-ontdekking/01-doelstellingen.md
@@ -302,7 +305,7 @@ nav:
       - Overzicht: 06-fase-monitoring/01-doelstellingen.md
       - Activiteiten: 06-fase-monitoring/02-activiteiten.md
       - Opleveringen: 06-fase-monitoring/03-afleveringen.md
-      - Drift Detectie: 06-fase-monitoring/05-drift-detectie.md
+      - Hoe merk ik degradatie op?: 06-fase-monitoring/05-drift-detectie.md
     - 6. Doorlopende Verbetering:
       - Overzicht: 10-doorlopende-verbetering/index.md
       - Retrospectives: 10-doorlopende-verbetering/01-retrospectives.md
@@ -317,11 +320,11 @@ nav:
   - 🛡️ Compliance & Techniek:
     - Compliance Hub:
       - Overzicht: 07-compliance-hub/index.md
-      - EU AI Act: 07-compliance-hub/01-eu-ai-act/index.md
-      - Risicobeheer: 07-compliance-hub/02-risicobeheer/index.md
-      - Ethische Richtlijnen: 07-compliance-hub/03-ethische-richtlijnen.md
-      - Validatie Eisen: 07-compliance-hub/04-validatie-eisen.md
-      - Incident Respons: 07-compliance-hub/05-incidentrespons.md
+      - Wat eist de EU AI Act?: 07-compliance-hub/01-eu-ai-act/index.md
+      - Hoe beheer ik AI-risico's?: 07-compliance-hub/02-risicobeheer/index.md
+      - Wat zijn de ethische kaders?: 07-compliance-hub/03-ethische-richtlijnen.md
+      - Wat moet ik valideren?: 07-compliance-hub/04-validatie-eisen.md
+      - Wat bij een AI-incident?: 07-compliance-hub/05-incidentrespons.md
       - Incident Playbooks: 07-compliance-hub/06-incidentrespons-playbooks.md
       - Red Teaming: 07-compliance-hub/07-red-teaming.md
       - AI Safety Checklist: 07-compliance-hub/08-ai-safety-checklist.md
@@ -333,7 +336,7 @@ nav:
       - Test Frameworks: 08-technische-standaarden/04-test-frameworks.md
       - AI Architectuur: 08-technische-standaarden/05-ai-architectuur.md
       - Cloud vs. On-Premise: 08-technische-standaarden/06-cloud-vs-onpremise.md
-      - Kostenoptimalisatie: 08-technische-standaarden/07-kostenoptimalisatie.md
+      - Hoe beheers ik AI-kosten?: 08-technische-standaarden/07-kostenoptimalisatie.md
       - Green AI & Duurzaamheid: 08-technische-standaarden/08-green-ai.md
       - Agentic AI Engineering: 08-technische-standaarden/09-agentic-ai-engineering.md
   - 🧰 Toolkit & Sjablonen:

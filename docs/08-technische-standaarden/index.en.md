@@ -4,6 +4,8 @@ description: 'Technical standards for AI systems: MLOps, data pipelines, model g
 type: index
 layer: 3
 roles: [Tech Lead]
+summary: Overview of technical blueprints and quality frameworks for AI engineering, from model selection to MLOps.
+answers: [What does the Technical Standards section contain?]
 ---
 
 # 1. Technical Standards

@@ -4,6 +4,8 @@ type: foundation
 layer: 1
 roles: [Guardian]
 tags: [risk]
+summary: Classification of changes based on impact so that the appropriate validation depth is applied in line with the EU AI Act.
+answers: [What does Risk Classification entail?, How do I classify the risk of my AI project?]
 ---
 
 # 1. Risk Classification

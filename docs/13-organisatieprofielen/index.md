@@ -3,6 +3,7 @@ versie: '1.0'
 description: 'AI-volwassenheidsniveaus: ontdek of jouw organisatie een Verkenner, Bouwer of Visionair is — en krijg een op maat gemaakt stappenplan voor je volgende AI-transformatiestap.'
 type: index
 layer: 1
+answers: [Wat bevat het onderdeel Volwassenheidsniveaus?]
 ---
 
 # 1. Volwassenheidsniveaus

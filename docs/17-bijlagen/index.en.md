@@ -1,8 +1,9 @@
 ---
 versie: '1.0'
+pdf: false
 type: index
 layer: 3
-pdf: false
+answers: [What does the Reference section contain?]
 ---
 
 # Reference

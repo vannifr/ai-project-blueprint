@@ -5,6 +5,8 @@ type: compliance
 layer: 3
 roles: [Guardian]
 tags: [eu-ai-act, security]
+summary: Severity matrix, roles and immediate actions for quick and coordinated response to AI incidents.
+answers: [What are the compliance requirements for Incident Response?, What roles do I need?]
 ---
 
 # Incident Response

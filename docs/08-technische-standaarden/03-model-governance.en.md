@@ -4,6 +4,8 @@ type: technical
 layer: 3
 roles: [Data Scientist, Tech Lead]
 tags: [governance]
+summary: 'Guidelines for managing AI models throughout their lifecycle: from development to production and retirement.'
+answers: [What are the technical standards for Model Governance?]
 ---
 
 # 1. Model Governance

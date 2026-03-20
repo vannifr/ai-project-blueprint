@@ -4,6 +4,8 @@ type: template
 layer: 3
 roles: [Guardian]
 tags: [eu-ai-act, gate-review, security, template]
+summary: Gestructureerde veiligheidschecklist over vier dimensies (training, ingebruikname, monitoring, governance) voor gebruik bij elke Gate Review.
+answers: [Hoe gebruik ik het AI Safety Checklist sjabloon?, Wie beslist wat in een AI-project?]
 ---
 
 # AI Safety Checklist

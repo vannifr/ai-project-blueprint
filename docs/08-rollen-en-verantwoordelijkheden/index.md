@@ -3,6 +3,8 @@ versie: '1.1'
 description: 'Rollen en verantwoordelijkheden in AI-projecten: AI-projectmanager, data scientist, domeinexpert, Guardian en meer — met RACI-matrix en verantwoording per levenscyclusfase.'
 type: index
 layer: 1
+summary: Overzicht van alle rollen in een AI-project en hun verantwoordelijkheden per levenscyclusfase.
+answers: [Wat bevat het onderdeel Rollen & Verantwoordelijkheden?, Welke rollen heb ik nodig?]
 ---
 
 # 1. Rollen & Verantwoordelijkheden

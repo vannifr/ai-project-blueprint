@@ -2,6 +2,7 @@
 versie: '1.0'
 type: index
 layer: 3
+answers: [Wat bevat het onderdeel Bronnen & Inspiratie?]
 ---
 
 # 1. Bronnen & Inspiratie

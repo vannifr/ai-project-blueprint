@@ -5,6 +5,7 @@ layer: 3
 phase: [1, 2]
 roles: [Guardian]
 tags: [risk, template]
+answers: [Hoe gebruik ik het Risico Pre-Scan (Gate 1 Checklist) sjabloon?]
 ---
 
 # 1. Risico Pre-Scan (Gate 1 Checklist)

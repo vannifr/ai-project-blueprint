@@ -4,6 +4,8 @@ type: deliverables
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: Overzicht van de verplichte opleveringen en Gate 1 criteria voor een gefundeerde go/no-go beslissing na de Verkenningsfase.
+answers: [Wat lever ik op aan het einde van deze fase?, Wie beslist wat in een AI-project?]
 ---
 
 # 1. Opleveringen & Gate 1 (Go/No-Go Ontdekking) (Verkenning & Strategie)

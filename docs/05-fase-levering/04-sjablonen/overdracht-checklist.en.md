@@ -5,6 +5,8 @@ layer: 2
 phase: [4]
 roles: [AI Product Manager]
 tags: [gate-review]
+summary: Tick-off checklist for the formal handover of the AI system from the project team to the operations organisation at Gate 4.
+answers: ['How does Checklist: Operational Handover work?', What roles do I need?]
 ---
 
 # 1. Checklist: Operational Handover

@@ -5,6 +5,8 @@ type: index
 layer: 3
 roles: [Guardian]
 tags: [eu-ai-act]
+summary: Centraal overzicht van alle wettelijke en ethische vereisten voor AI-projecten, van EU AI Act tot incidentrespons en veiligheidschecklists.
+answers: [Wat bevat het onderdeel Risicobeheersing & Compliance?]
 ---
 
 # 1. Risicobeheersing & Compliance

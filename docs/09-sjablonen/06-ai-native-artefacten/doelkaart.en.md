@@ -4,6 +4,7 @@ type: template
 layer: 3
 phase: [1, 2, 3]
 tags: [template]
+answers: [How do I use the The Objective Card (Intent Map) template?]
 ---
 
 # 1. The Objective Card (Intent Map)

@@ -3,6 +3,8 @@ versie: '1.0'
 type: guide
 layer: 2
 phase: [1, 2, 3, 4, 5]
+summary: 'Opzet van gelaagde dashboards en KPI's om de gezondheid van het AI-systeem continu zichtbaar te maken voor het beheerteam.'
+answers: ["Hoe werkt Metrics & Dashboards?", "Welke rollen heb ik nodig?"]
 ---
 
 # 3. Metrics & Dashboards

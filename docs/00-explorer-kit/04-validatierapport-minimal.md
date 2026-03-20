@@ -4,6 +4,7 @@ type: guide
 layer: 2
 roles: [Data Scientist]
 tags: [onboarding, validation]
+answers: [Hoe werkt Validatierapport Minimaal?]
 ---
 
 # Validatierapport Minimaal

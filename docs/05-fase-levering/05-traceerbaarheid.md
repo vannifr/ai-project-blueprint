@@ -5,6 +5,8 @@ layer: 2
 phase: [4]
 roles: [AI Product Manager]
 tags: [traceability]
+summary: Methode om altijd te kunnen verklaren waarom een AI-systeem een bepaalde output gaf, essentieel voor auditing, debugging en EU AI Act compliance.
+answers: [Hoe werkt Traceerbaarheid?]
 ---
 
 # 1. Traceerbaarheid

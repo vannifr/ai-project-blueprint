@@ -5,6 +5,7 @@ layer: 3
 phase: [1, 2]
 roles: [Data Scientist, Guardian]
 tags: [data, template]
+answers: ['Hoe gebruik ik het Sjabloon 09.07: Data & Privacyblad (AVG/GDPR) sjabloon?']
 ---
 
 # 1. Sjabloon 09.07: Data & Privacyblad (AVG/GDPR)

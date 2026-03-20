@@ -5,6 +5,7 @@ type: template
 layer: 3
 phase: [2, 3]
 tags: [gate-review, template, vendor]
+answers: [Hoe gebruik ik het Contract Checklist — AI-leveranciers sjabloon?]
 ---
 
 # Contract Checklist — AI-leveranciers

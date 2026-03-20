@@ -5,6 +5,7 @@ layer: 3
 phase: [3]
 roles: [Data Scientist]
 tags: [rag, template]
+answers: [Hoe gebruik ik het RAG Design Canvas sjabloon?]
 ---
 
 # RAG Design Canvas

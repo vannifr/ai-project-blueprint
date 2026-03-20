@@ -4,6 +4,8 @@ description: '90-day AI transformation roadmap: three structured phases — Focu
 type: index
 layer: 2
 roles: [Business Sponsor]
+summary: Structured roadmap to go from AI ambition to production-ready deployment in three phases (Focus, Pilot, Scale) within 90 days.
+answers: ['What does the Quick Start: AI Project in 90 Days section contain?']
 ---
 
 # 1. Quick Start: AI Project in 90 Days

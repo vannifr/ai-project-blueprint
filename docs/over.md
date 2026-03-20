@@ -1,7 +1,8 @@
 ---
 versie: '1.8'
-type: meta
+type: index
 layer: 3
+answers: [Wat bevat het onderdeel Over de AI Project Blauwdruk?]
 ---
 
 # Over de AI Project Blauwdruk

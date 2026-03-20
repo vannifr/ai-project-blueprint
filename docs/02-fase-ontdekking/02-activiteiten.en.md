@@ -4,6 +4,8 @@ type: activities
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: Overview of the core activities and role assignments during the Discovery phase, from problem exploration to data evaluation and risk assessment.
+answers: [What activities do I perform in this phase?, How do I classify the risk of my AI project?]
 ---
 
 # 1. Core Activities & Roles (Discovery & Strategy)

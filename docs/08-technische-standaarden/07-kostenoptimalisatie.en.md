@@ -5,6 +5,8 @@ type: technical
 layer: 3
 roles: [Tech Lead]
 tags: [cost]
+summary: Concrete techniques and a cost estimation tool to keep AI system costs manageable during the Development and Operations phases.
+answers: [What are the technical standards for Cost Optimisation?, What does this cost?]
 ---
 
 # Cost Optimisation

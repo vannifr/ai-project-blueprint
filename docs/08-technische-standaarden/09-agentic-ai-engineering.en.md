@@ -3,7 +3,8 @@ versie: '1.1'
 type: technical
 layer: 3
 roles: [Tech Lead]
-tags: [governance, security, mlops]
+summary: Operational handbook for building, testing and managing agentic AI systems (Collaboration Modes 4-5).
+answers: [What are the technical standards for Agentic AI Engineering?]
 ---
 
 # 1. Agentic AI Engineering

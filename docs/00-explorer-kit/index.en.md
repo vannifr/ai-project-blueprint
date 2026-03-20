@@ -4,6 +4,7 @@ description: Explorer Kit — 30-day starter programme to launch your first AI p
 type: index
 layer: 2
 tags: [onboarding]
+answers: [What does the Explorer Kit — 30-Day Starter Programme section contain?]
 ---
 
 # Explorer Kit — 30-Day Starter Programme

@@ -5,6 +5,7 @@ type: template
 layer: 3
 phase: [1, 2, 3, 4, 5]
 tags: [template]
+answers: [How do I use the Project Diary — Template template?]
 ---
 
 # Project Diary — Template

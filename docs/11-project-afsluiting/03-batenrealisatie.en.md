@@ -4,6 +4,8 @@ type: guide
 layer: 2
 phase: [5]
 roles: [Business Sponsor]
+summary: Final measurement of promised benefits at project closure, with reporting to the steering committee and handover of the benefits realisation plan.
+answers: [How does Benefits Realisation (Project Closure) work?]
 ---
 
 # 3. Benefits Realisation (Project Closure)

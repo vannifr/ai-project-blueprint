@@ -4,6 +4,7 @@ type: index
 layer: 3
 phase: [2, 3]
 tags: [vendor]
+answers: [What does the Vendor Management — Overview section contain?]
 ---
 
 # Vendor Management — Overview

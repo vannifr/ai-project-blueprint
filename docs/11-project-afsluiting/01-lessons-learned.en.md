@@ -3,6 +3,8 @@ versie: '1.0'
 type: guide
 layer: 2
 phase: [5]
+summary: Structuring and documenting insights gained so that future AI projects benefit from them.
+answers: [How does Lessons Learned work?]
 ---
 
 # 1. Lessons Learned

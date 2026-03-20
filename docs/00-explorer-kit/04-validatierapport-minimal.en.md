@@ -4,6 +4,7 @@ type: guide
 layer: 2
 roles: [Data Scientist]
 tags: [onboarding, validation]
+answers: [How does Minimal Validation Report work?]
 ---
 
 # Minimal Validation Report

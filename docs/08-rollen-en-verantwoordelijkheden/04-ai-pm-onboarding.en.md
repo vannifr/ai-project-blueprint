@@ -4,6 +4,8 @@ type: playbook
 layer: 1
 roles: [AI Product Manager]
 tags: [onboarding, playbook]
+summary: Step-by-step onboarding guide helping new AI Project Managers grow from observation to full ownership in six weeks.
+answers: [How do I execute AI PM Onboarding Playbook?]
 ---
 
 # AI PM Onboarding Playbook

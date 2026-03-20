@@ -2,6 +2,8 @@
 versie: '1.0'
 type: strategic
 layer: 1
+summary: Navigatie-index die alle technische codes, modules en sjablonen van de Blauwdruk koppelt aan de inhoudelijke documenten.
+answers: [Wat houdt Blueprint & Methodologie Index in?]
 ---
 
 # 1. Blueprint & Methodologie Index

@@ -4,6 +4,8 @@ description: 'Besluitvormingsmatrix: wie beslist wat bij elke gate, wie heeft ve
 type: template
 layer: 1
 tags: [governance, template]
+summary: Expliciete vastlegging van wie welke beslissing neemt bij elke gate en wie een beslissing kan blokkeren.
+answers: [Hoe gebruik ik het Besluitvormingsmatrix sjabloon?, Wie beslist wat in een AI-project?]
 ---
 
 # Besluitvormingsmatrix

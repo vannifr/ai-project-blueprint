@@ -5,6 +5,7 @@ layer: 3
 phase: [2]
 roles: [AI Product Manager, Business Sponsor, Data Scientist]
 tags: [governance, template]
+answers: [Hoe gebruik ik het Technische Modelkaart (Model Card) sjabloon?]
 ---
 
 # 1. Technische Modelkaart (Model Card)

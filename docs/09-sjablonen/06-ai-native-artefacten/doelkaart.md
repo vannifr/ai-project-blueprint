@@ -4,6 +4,7 @@ type: template
 layer: 3
 phase: [1, 2, 3]
 tags: [template]
+answers: [Hoe gebruik ik het De Doelkaart (goal card) (Intent Map) sjabloon?]
 ---
 
 # 1. De Doelkaart (goal card) (Intent Map)

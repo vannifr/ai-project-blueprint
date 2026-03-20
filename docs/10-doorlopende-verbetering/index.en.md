@@ -3,6 +3,8 @@ versie: '1.0'
 type: index
 layer: 2
 phase: [1, 2, 3, 4, 5]
+summary: Setting up the feedback loop to continuously improve the AI system based on data, user experiences and operational insights.
+answers: [What does the Continuous Improvement section contain?]
 ---
 
 # 1. Continuous Improvement

@@ -6,6 +6,7 @@ layer: 3
 phase: [1]
 roles: [AI Product Manager]
 tags: [template]
+answers: [Hoe gebruik ik het Het Project Charter sjabloon?]
 ---
 
 # 1. Het Project Charter

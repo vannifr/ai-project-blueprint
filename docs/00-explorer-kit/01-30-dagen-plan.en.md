@@ -3,6 +3,8 @@ versie: '1.0'
 type: guide
 layer: 2
 tags: [onboarding]
+summary: This plan guides teams step by step through their **first AI project in 30 days**. It is a concrete, daily checklist that takes you from problem definition to a working prototype and Gate Review…
+answers: [How does 30-Day Day-by-Day Plan work?, What roles do I need?]
 ---
 
 # 30-Day Day-by-Day Plan

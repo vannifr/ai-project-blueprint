@@ -3,6 +3,8 @@ versie: '1.0'
 type: technical
 layer: 3
 roles: [Tech Lead]
+summary: Overzicht van de meest voorkomende architectuurpatronen voor AI-systemen en de overwegingen bij het kiezen van de juiste aanpak.
+answers: [Wat zijn de technische standaarden voor AI Architectuur?]
 ---
 
 # 1. AI Architectuur

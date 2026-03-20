@@ -3,6 +3,8 @@ versie: '1.0'
 type: index
 layer: 2
 phase: [5]
+summary: Formele afrondingsprocedure voor AI-projecten, gericht op kennisborging en overdracht naar de beheerorganisatie.
+answers: [Wat bevat het onderdeel Project Afsluiting?]
 ---
 
 # 1. Project Afsluiting

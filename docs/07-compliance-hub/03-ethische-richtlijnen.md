@@ -4,6 +4,8 @@ type: compliance
 layer: 3
 roles: [Guardian]
 tags: [ethics, eu-ai-act]
+summary: Kaders om te waarborgen dat AI-systemen menselijke waarden respecteren en geen onbedoelde schade toebrengen.
+answers: [Wat zijn de compliance-eisen voor Ethische Richtlijnen?]
 ---
 
 # 1. Ethische Richtlijnen

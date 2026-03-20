@@ -4,6 +4,8 @@ type: activities
 layer: 2
 phase: [3]
 roles: [AI Product Manager]
+summary: Overzicht van de kernactiviteiten en rolverdelingen tijdens de Realisatiefase, van data-automatisering tot modelontwikkeling en testvalidatie.
+answers: [Welke activiteiten voer ik uit in deze fase?, Hoeveel validatie is voldoende?]
 ---
 
 # 1. Kernactiviteiten & Rollen (Realisatie)

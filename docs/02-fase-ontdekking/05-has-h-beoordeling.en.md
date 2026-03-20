@@ -4,6 +4,8 @@ type: assessment
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: Determine which AI Collaboration Mode (1 through 5) is appropriate for your use case, as the basis for governance and oversight requirements.
+answers: [What is Collaboration Mode Assessment?, Who decides what in an AI project?]
 ---
 
 # 5. Collaboration Mode Assessment

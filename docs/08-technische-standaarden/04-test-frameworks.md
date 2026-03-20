@@ -3,6 +3,8 @@ versie: '1.0'
 type: technical
 layer: 3
 roles: [Tech Lead]
+summary: Testaanpak voor AI-systemen die deterministische tests combineert met evaluatie van probabilistisch gedrag.
+answers: [Wat zijn de technische standaarden voor Test Frameworks?]
 ---
 
 # 1. Test Frameworks

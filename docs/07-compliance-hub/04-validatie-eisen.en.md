@@ -4,6 +4,8 @@ type: compliance
 layer: 3
 roles: [Data Scientist, Guardian]
 tags: [eu-ai-act, validation]
+summary: Requirements that a Validation Report must meet for formal go-live approval from a legal and ethical perspective.
+answers: [What are the compliance requirements for Validation Requirements (Compliance)?, How much validation is sufficient?]
 ---
 
 # 1. Validation Requirements (Compliance)

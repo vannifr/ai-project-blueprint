@@ -5,6 +5,8 @@ layer: 2
 phase: [4]
 roles: [AI Product Manager]
 tags: [traceability]
+summary: Method to always be able to explain why an AI system produced a given output, essential for auditing, debugging and EU AI Act compliance.
+answers: [How does Traceability work?]
 ---
 
 # 1. Traceability

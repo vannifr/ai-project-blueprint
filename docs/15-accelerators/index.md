@@ -3,6 +3,7 @@ versie: '1.0'
 description: Accelerators voor snelle AI-implementatie per transformatietrack.
 type: index
 layer: 2
+answers: [Wat bevat het onderdeel Accelerators?]
 ---
 
 # Accelerators

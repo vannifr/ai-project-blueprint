@@ -3,6 +3,8 @@ versie: '1.0'
 type: guide
 layer: 2
 phase: [5]
+summary: Gestructureerde overdracht van het AI-systeem aan de beheerorganisatie zodat continuïteit, compliance en kwaliteit gegarandeerd zijn.
+answers: [Hoe werkt Overdracht Procedures?]
 ---
 
 # 2. Overdracht Procedures

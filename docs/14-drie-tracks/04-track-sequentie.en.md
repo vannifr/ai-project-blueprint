@@ -2,6 +2,7 @@
 versie: '1.0'
 type: strategic
 layer: 1
+answers: [What does Track Sequence entail?]
 ---
 
 # 4. Track Sequence

@@ -6,6 +6,7 @@ layer: 3
 phase: [1, 2, 3, 4, 5]
 roles: [Data Scientist]
 tags: [quick-reference]
+answers: [What is the quick reference for Cheatsheet — Golden Set?]
 ---
 
 # Cheatsheet — Golden Set

@@ -4,6 +4,8 @@ type: foundation
 layer: 1
 roles: [Data Scientist]
 tags: [governance]
+summary: Overview of the management artefacts (Goal Definition, Hard Boundaries, Prompts, Validation Report and Traceability) that provide control over AI system behaviour.
+answers: [What does Artefact Model entail?, How much validation is sufficient?]
 ---
 
 # 1. Artefact Model

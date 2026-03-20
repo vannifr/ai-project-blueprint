@@ -5,6 +5,8 @@ layer: 2
 phase: [2]
 roles: [AI Product Manager, Data Scientist, Guardian]
 tags: [risk, validation]
+summary: Refinement of the risk profile during the Validation phase based on the reality of the prototype.
+answers: [How does Risk Classification in Validation work?, How do I classify the risk of my AI project?]
 ---
 
 # 1. Risk Classification in Validation

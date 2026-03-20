@@ -4,6 +4,8 @@ type: guide
 layer: 2
 phase: [1, 2, 3, 4, 5]
 roles: [Business Sponsor]
+summary: Kwartaalmeting of het AI-systeem de beloofde baten daadwerkelijk realiseert, met bijsturing wanneer de realisatie achterblijft.
+answers: [Hoe werkt Waarderealisatie (Operationeel)?]
 ---
 
 # 4. Waarderealisatie (Operationeel)

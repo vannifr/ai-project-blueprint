@@ -5,6 +5,8 @@ layer: 2
 phase: [5]
 roles: [AI Product Manager]
 tags: [monitoring]
+summary: 'Objectives of Phase 5: safeguarding performance, ethical integrity and cost efficiency of the AI system throughout its operational lifespan.'
+answers: [What is the goal of this phase?, What does this cost?]
 ---
 
 # 1. Monitoring & Optimisation

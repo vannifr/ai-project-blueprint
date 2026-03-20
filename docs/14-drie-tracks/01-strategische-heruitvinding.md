@@ -2,6 +2,7 @@
 versie: '1.0'
 type: strategic
 layer: 1
+answers: [Wat houdt Strategische Heruitvinding in?]
 ---
 
 # 1. Strategische Heruitvinding

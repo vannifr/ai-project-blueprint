@@ -99,6 +99,15 @@ class Document:
     def tags(self) -> list[str]:
         return self.frontmatter.get("tags", [])
 
+    @property
+    def summary(self) -> str:
+        return self.frontmatter.get("summary", "")
+
+    @property
+    def answers(self) -> list[str]:
+        a = self.frontmatter.get("answers", [])
+        return a if isinstance(a, list) else [a] if a else []
+
 
 @dataclass
 class ContentIndex:
@@ -211,3 +220,37 @@ class ContentIndex:
     def get_by_tag(self, tag: str) -> list[Document]:
         """Filter by semantic tag."""
         return self.by_tag.get(tag, [])
+
+    def search_by_question(self, question: str, limit: int = 5) -> list[Document]:
+        """Find documents whose answers[] or summary best match a question.
+
+        Scores documents by keyword overlap between the question and
+        their answers + summary + title fields.
+        """
+        q_words = set(question.lower().split())
+        scored: list[tuple[float, Document]] = []
+
+        for doc in self.docs:
+            score = 0.0
+            # Check answers (highest weight)
+            for answer in doc.answers:
+                a_words = set(answer.lower().split())
+                overlap = len(q_words & a_words)
+                if overlap > 0:
+                    score += overlap * 3.0
+
+            # Check summary
+            if doc.summary:
+                s_words = set(doc.summary.lower().split())
+                score += len(q_words & s_words) * 1.5
+
+            # Check title
+            if doc.title:
+                t_words = set(doc.title.lower().split())
+                score += len(q_words & t_words) * 2.0
+
+            if score > 0:
+                scored.append((score, doc))
+
+        scored.sort(key=lambda x: -x[0])
+        return [doc for _, doc in scored[:limit]]

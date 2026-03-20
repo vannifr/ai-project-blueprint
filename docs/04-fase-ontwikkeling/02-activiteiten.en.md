@@ -4,6 +4,8 @@ type: activities
 layer: 2
 phase: [3]
 roles: [AI Product Manager]
+summary: Overview of core activities and role assignments during the Development phase, from data automation to model development and test validation.
+answers: [What activities do I perform in this phase?, How much validation is sufficient?]
 ---
 
 # 1. Core Activities & Roles (Development)

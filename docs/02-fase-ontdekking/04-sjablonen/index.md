@@ -4,6 +4,8 @@ type: index
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: Overzicht van alle beschikbare sjablonen die de Verkenningsfase ondersteunen, met directe links naar de centrale sjablonenbibliotheek.
+answers: [Wat bevat het onderdeel Sjablonen Verkenning & Strategie?]
 ---
 
 # Sjablonen Verkenning & Strategie

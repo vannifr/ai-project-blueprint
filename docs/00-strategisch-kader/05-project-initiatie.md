@@ -2,6 +2,8 @@
 versie: '1.0'
 type: strategic
 layer: 1
+summary: Richtlijnen voor het formeel starten van een AI-project met een helder Project Charter, rollen en verantwoordelijkheden.
+answers: [Wat houdt Project Initiatie in?, Welke rollen heb ik nodig?]
 ---
 
 # 1. Project Initiatie

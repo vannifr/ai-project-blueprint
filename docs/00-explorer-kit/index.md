@@ -4,6 +4,7 @@ description: Verkenner Kit — 30-dagen startprogramma voor je eerste AI-project
 type: index
 layer: 2
 tags: [onboarding]
+answers: [Wat bevat het onderdeel Verkenner Kit — 30-Dagen Startprogramma?]
 ---
 
 # Verkenner Kit — 30-Dagen Startprogramma

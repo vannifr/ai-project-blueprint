@@ -2,6 +2,7 @@
 versie: '1.0'
 type: strategic
 layer: 2
+answers: [What does Operational Redesign Accelerators entail?]
 ---
 
 # 2. Operational Redesign Accelerators

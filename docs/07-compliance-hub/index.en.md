@@ -5,6 +5,8 @@ type: index
 layer: 3
 roles: [Guardian]
 tags: [eu-ai-act]
+summary: Central overview of all regulatory and ethical requirements for AI projects, from EU AI Act to incident response and safety checklists.
+answers: [What does the Risk Management & Compliance section contain?]
 ---
 
 # 1. Risk Management & Compliance

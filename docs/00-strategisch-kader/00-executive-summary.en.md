@@ -5,6 +5,8 @@ pdf: false
 type: strategic
 layer: 1
 roles: [Business Sponsor]
+summary: 'Executive-level overview of the AI Project Blueprint: why AI projects fail and how this methodology prevents that.'
+answers: [What does Executive Summary entail?]
 ---
 
 # 1. Executive Summary

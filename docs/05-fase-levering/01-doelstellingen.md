@@ -4,6 +4,8 @@ type: objectives
 layer: 2
 phase: [4]
 roles: [AI Product Manager]
+summary: 'Doelstellingen van Fase 4: een veilige ingebruikname, menselijke regie en gestructureerde overdracht naar de productieomgeving.'
+answers: [Wat is het doel van deze fase?]
 ---
 
 # 1. Levering

@@ -4,6 +4,7 @@ type: strategic
 layer: 2
 roles: [Data Scientist]
 tags: [governance]
+answers: [Wat houdt Bedrijfsmodel Accelerators in?]
 ---
 
 # 3. Bedrijfsmodel Accelerators

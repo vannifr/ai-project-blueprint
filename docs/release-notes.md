@@ -2,6 +2,7 @@
 versie: '1.8'
 type: meta
 layer: 3
+answers: [Wat is Versiegeschiedenis?]
 ---
 
 # Versiegeschiedenis

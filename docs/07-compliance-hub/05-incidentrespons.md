@@ -4,6 +4,8 @@ type: compliance
 layer: 3
 roles: [Guardian]
 tags: [eu-ai-act, security]
+summary: Ernst-matrix, rollen en directe acties voor snel en gecoördineerd reageren op AI-incidenten.
+answers: [Wat zijn de compliance-eisen voor Incident Respons?, Welke rollen heb ik nodig?]
 ---
 
 # Incident Respons

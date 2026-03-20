@@ -3,6 +3,7 @@ versie: '1.0'
 description: Frequently asked questions about AI project management with the Blueprint.
 type: faq
 layer: 1
+answers: [What is Frequently Asked Questions (FAQ)?]
 ---
 
 # Frequently Asked Questions (FAQ)

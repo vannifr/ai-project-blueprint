@@ -2,8 +2,10 @@
 versie: '1.0'
 type: index
 layer: 3
-roles: [Guardian]
-tags: [eu-ai-act, risk]
+roles: ["Guardian"]
+tags: ["eu-ai-act", "risk"]
+summary: 'Systematische aanpak voor het identificeren, beoordelen en mitigeren van risico's gedurende de gehele AI-levenscyclus.'
+answers: ["Wat bevat het onderdeel Risicobeheer?", "Hoe classificeer ik het risico van mijn AI-project?"]
 ---
 
 # 1. Risicobeheer

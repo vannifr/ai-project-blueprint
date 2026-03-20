@@ -3,6 +3,8 @@ versie: '1.0'
 description: 'Kernprincipes van AI-native projectmanagement: gedragssturing, traceerbaarheid, menselijk toezicht en bewijsstandaarden die AI-projecten onderscheiden van traditionele softwareontwikkeling.'
 type: foundation
 layer: 1
+summary: 'Uitleg van de kernprincipes van AI-native projectmanagement: gedragssturing, traceerbaarheid en menselijk toezicht als fundament.'
+answers: [Wat houdt De Kernprincipes in?]
 ---
 
 # 1. De Kernprincipes

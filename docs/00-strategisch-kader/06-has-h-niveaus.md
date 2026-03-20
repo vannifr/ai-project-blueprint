@@ -3,6 +3,8 @@ versie: '1.0'
 description: 'AI-Samenwerkingsmodi: vijf niveaus van mens-AI autonomie — van Instrumenteel tot Autonoom — met besliscriteria voor de juiste modus per taak en risicoprofiel.'
 type: strategic
 layer: 1
+summary: Classificatie van vijf mens-AI samenwerkingsmodi (Instrumenteel tot Autonoom) om de juiste governance en risicobeheersing per toepassing te bepalen.
+answers: [Wat houdt AI-Samenwerkingsmodi in?, Hoe classificeer ik het risico van mijn AI-project?]
 ---
 
 # 1. AI-Samenwerkingsmodi

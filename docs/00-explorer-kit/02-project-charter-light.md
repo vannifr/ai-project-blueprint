@@ -4,6 +4,7 @@ type: guide
 layer: 2
 roles: [AI Product Manager]
 tags: [onboarding]
+answers: [Hoe werkt Project Charter Light?]
 ---
 
 # Project Charter Light

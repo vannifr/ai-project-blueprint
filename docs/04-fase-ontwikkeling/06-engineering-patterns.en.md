@@ -3,8 +3,9 @@ versie: '1.0'
 type: guide
 layer: 2
 phase: [3]
-roles: [Tech Lead]
-tags: [mlops, security, validation]
+roles: [AI Product Manager]
+summary: Proven engineering patterns and common anti-patterns for teams using AI tools, focused on quality assurance and preventing rework.
+answers: [How does Engineering Patterns for AI-Driven Development work?, What roles do I need?]
 ---
 
 # 1. Engineering Patterns for AI-Driven Development

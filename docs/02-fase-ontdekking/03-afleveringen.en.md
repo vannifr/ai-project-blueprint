@@ -4,6 +4,8 @@ type: deliverables
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: Overview of the mandatory deliverables and Gate 1 criteria for a substantiated go/no-go decision after the Discovery phase.
+answers: [What do I deliver at the end of this phase?, Who decides what in an AI project?]
 ---
 
 # 1. Deliverables & Gate 1 (Go/No-Go Discovery) (Discovery & Strategy)

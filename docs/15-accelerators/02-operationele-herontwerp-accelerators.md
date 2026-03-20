@@ -2,6 +2,7 @@
 versie: '1.0'
 type: strategic
 layer: 2
+answers: [Wat houdt Operationele Herontwerp Accelerators in?]
 ---
 
 # 2. Operationele Herontwerp Accelerators

@@ -1,9 +1,9 @@
 ---
 versie: '1.0'
+pdf: false
 type: reference
 layer: 3
-tags: [risk, governance, quick-reference]
-pdf: false
+answers: [What is Pitfalls Catalogue for AI Projects?]
 ---
 
 # 1. Pitfalls Catalogue for AI Projects

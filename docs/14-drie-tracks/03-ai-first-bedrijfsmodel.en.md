@@ -4,6 +4,7 @@ type: strategic
 layer: 1
 roles: [Data Scientist]
 tags: [governance]
+answers: [What does AI-First Business Model entail?]
 ---
 
 # 3. AI-First Business Model

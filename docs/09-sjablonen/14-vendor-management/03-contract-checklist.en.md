@@ -5,6 +5,7 @@ type: template
 layer: 3
 phase: [2, 3]
 tags: [gate-review, template, vendor]
+answers: [How do I use the Contract Checklist — AI Vendors template?]
 ---
 
 # Contract Checklist — AI Vendors

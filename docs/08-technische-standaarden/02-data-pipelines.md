@@ -4,6 +4,8 @@ type: technical
 layer: 3
 roles: [Data Scientist, Tech Lead]
 tags: [data, mlops]
+summary: Standaarden voor het opzetten en beheren van datapipelines die AI-systemen voeden met betrouwbare, traceerbare data.
+answers: [Wat zijn de technische standaarden voor Data Pipelines?]
 ---
 
 # 1. Data Pipelines

@@ -3,6 +3,8 @@ versie: '1.1'
 description: 'AI Collaboration Modes: five levels of human-AI autonomy — from Instrumental to Autonomous — with decision criteria for selecting the right mode per task and risk profile.'
 type: strategic
 layer: 1
+summary: Classification of five human-AI collaboration modes (Instrumental to Autonomous) to determine the right governance and risk controls per application.
+answers: [What does AI Collaboration Modes entail?, How do I classify the risk of my AI project?]
 ---
 
 # 1. AI Collaboration Modes

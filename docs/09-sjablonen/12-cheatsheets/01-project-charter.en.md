@@ -6,6 +6,7 @@ layer: 3
 phase: [1, 2, 3, 4, 5]
 roles: [AI Product Manager]
 tags: [quick-reference]
+answers: [What is the quick reference for Cheatsheet — Project Charter?]
 ---
 
 # Cheatsheet — Project Charter

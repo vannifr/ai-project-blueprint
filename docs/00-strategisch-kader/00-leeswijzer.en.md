@@ -3,6 +3,8 @@ versie: '1.0'
 pdf: false
 type: guide
 layer: 1
+summary: Quick navigation aid to find the right section of the Blueprint based on your role and situation.
+answers: [How does Reader's Guide & Navigation work?, What roles do I need?]
 ---
 
 # 1. Reader's Guide & Navigation

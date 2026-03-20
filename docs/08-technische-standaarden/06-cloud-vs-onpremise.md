@@ -3,6 +3,8 @@ versie: '1.0'
 type: technical
 layer: 3
 roles: [Tech Lead]
+summary: Beslissingsraamwerk voor de keuze tussen cloud, on-premise of hybride infrastructuur voor uw AI-systeem.
+answers: [Wat zijn de technische standaarden voor Cloud vs. On-Premise?, Wie beslist wat in een AI-project?]
 ---
 
 # Cloud vs. On-Premise

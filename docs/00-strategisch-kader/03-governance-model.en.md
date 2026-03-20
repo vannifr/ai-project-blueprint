@@ -5,6 +5,8 @@ type: strategic
 layer: 1
 roles: [Data Scientist]
 tags: [governance]
+summary: Definition of the decision-making structures, roles and oversight layers that steer AI projects safely and effectively.
+answers: [What does Governance Model entail?, Who decides what in an AI project?]
 ---
 
 # 1. Governance Model

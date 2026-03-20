@@ -4,6 +4,7 @@ type: template
 layer: 3
 phase: [1, 2]
 tags: [template]
+answers: [Hoe gebruik ik het Experiment Ticket sjabloon?]
 ---
 
 # Experiment Ticket

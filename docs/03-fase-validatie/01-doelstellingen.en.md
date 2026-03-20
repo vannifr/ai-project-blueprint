@@ -5,6 +5,8 @@ layer: 2
 phase: [2]
 roles: [AI Product Manager, Data Scientist]
 tags: [validation]
+summary: 'Objectives and approach of Phase 2: proving the AI idea works and is financially viable before making a major investment.'
+answers: [What is the goal of this phase?]
 ---
 
 # 1. Validation

@@ -5,6 +5,7 @@ type: cheatsheet
 layer: 3
 phase: [1, 2, 3, 4, 5]
 tags: [quick-reference, risk]
+answers: [What is the quick reference for Cheatsheet — Risk Pre-Scan?]
 ---
 
 # Cheatsheet — Risk Pre-Scan

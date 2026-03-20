@@ -4,6 +4,8 @@ type: deliverables
 layer: 2
 phase: [4]
 roles: [AI Product Manager]
+summary: Overzicht van de verplichte opleveringen en Gate 4 criteria die een veilige livegang en operationele overdracht garanderen.
+answers: [Wat lever ik op aan het einde van deze fase?]
 ---
 
 # 1. Opleveringen & Gate 4 (Livegang) (Levering)

@@ -2,6 +2,8 @@
 versie: '1.0'
 type: guide
 layer: 1
+summary: Snelle navigatiehulp om het juiste onderdeel van de Blauwdruk te vinden op basis van uw rol en situatie.
+answers: [Hoe werkt Leeswijzer & Navigatie?, Welke rollen heb ik nodig?]
 ---
 
 # 1. Leeswijzer & Navigatie

@@ -3,6 +3,8 @@ versie: '1.0'
 type: strategic
 layer: 2
 roles: [Business Sponsor]
+summary: In the first 30 days, create space and insight by stopping what does not work and making sharp choices on where to invest.
+answers: ['What does Focus, Direct & Rationalise (Days 1-30) entail?']
 ---
 
 # 1. Focus, Direct & Rationalise (Days 1-30)

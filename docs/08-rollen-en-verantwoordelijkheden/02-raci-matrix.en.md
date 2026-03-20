@@ -3,6 +3,8 @@ versie: '1.1'
 type: template
 layer: 1
 tags: [stakeholder, template]
+summary: RACI overview that records who is responsible, accountable, consulted or informed per core activity and phase.
+answers: [How do I use the RACI Matrix — Roles per Phase template?]
 ---
 
 # RACI Matrix — Roles per Phase

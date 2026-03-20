@@ -4,6 +4,8 @@ type: objectives
 layer: 2
 phase: [4]
 roles: [AI Product Manager]
+summary: 'Objectives of Phase 4: a safe go-live, human oversight and structured handover to the production environment.'
+answers: [What is the goal of this phase?]
 ---
 
 # 1. Delivery

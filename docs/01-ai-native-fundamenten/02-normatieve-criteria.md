@@ -2,6 +2,8 @@
 versie: '1.3'
 type: foundation
 layer: 1
+summary: Deze pagina beschrijft de vijf kernprincipes die een AI-native aanpak onderscheiden van traditionele softwareontwikkeling, en de toetsingscriteria om te bepalen of een project onder deze principes…
+answers: [Wat houdt Toetsingscriteria & AI-Native Principes in?]
 ---
 
 # Toetsingscriteria & AI-Native Principes

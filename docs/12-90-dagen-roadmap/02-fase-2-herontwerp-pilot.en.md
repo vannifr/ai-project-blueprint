@@ -3,6 +3,8 @@ versie: '1.0'
 type: strategic
 layer: 2
 roles: [Business Sponsor]
+summary: In days 31-60, redesign the work process around AI and build and test the first pilot in operations.
+answers: [What does Redesign & Pilot (Days 31-60) entail?]
 ---
 
 # 1. Redesign & Pilot (Days 31-60)

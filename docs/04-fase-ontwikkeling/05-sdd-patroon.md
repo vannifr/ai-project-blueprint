@@ -4,6 +4,8 @@ type: pattern
 layer: 2
 phase: [3]
 roles: [AI Product Manager, Tech Lead]
+summary: Werkwijze waarbij eerst formeel wordt vastgelegd wat het AI-systeem moet doen, voordat er gebouwd wordt, om correcties achteraf te voorkomen en compliance aantoonbaar te maken.
+answers: [Wat is Specificatie-eerst Patroon?]
 ---
 
 # 1. Specificatie-eerst Patroon

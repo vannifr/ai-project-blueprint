@@ -4,6 +4,8 @@ description: '90-dagen AI-transformatieroadmap: drie gestructureerde fasen — F
 type: index
 layer: 2
 roles: [Business Sponsor]
+summary: Gestructureerde roadmap om in drie fasen (Focus, Pilot, Schaal) binnen 90 dagen van AI-ambitie naar productieklare inzet te gaan.
+answers: ['Wat bevat het onderdeel Snelstart: AI-Project in 90 Dagen?']
 ---
 
 # 1. Snelstart: AI-Project in 90 Dagen

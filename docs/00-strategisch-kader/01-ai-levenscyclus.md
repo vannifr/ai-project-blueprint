@@ -3,6 +3,8 @@ versie: '1.0'
 description: 'Het AI-levenscyclusmodel: zeven opeenvolgende fasen van Verkenning tot Afsluiting. Leer hoe elke fase doelstellingen, opleveringen en governance gates verbindt in een AI-project.'
 type: strategic
 layer: 1
+summary: Beschrijving van de volledige vijf-fasen AI-levenscyclus die als centrale routekaart dient voor elk AI-project.
+answers: [Wat houdt AI-Projectcyclus in?]
 ---
 
 # 1. AI-Projectcyclus

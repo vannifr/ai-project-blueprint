@@ -3,6 +3,8 @@ versie: '1.0'
 type: index
 layer: 2
 phase: [1, 2, 3, 4, 5]
+summary: Inrichting van de feedback-loop om een AI-systeem continu te verbeteren op basis van data, gebruikerservaringen en operationele inzichten.
+answers: [Wat bevat het onderdeel Doorlopende Verbetering?]
 ---
 
 # 1. Doorlopende Verbetering

@@ -2,6 +2,8 @@
 versie: '1.1'
 type: strategic
 layer: 1
+summary: Navigation index mapping all technical codes, modules and templates of the Blueprint to their content documents.
+answers: [What does Blueprint & Methodology Index entail?]
 ---
 
 # 1. Blueprint & Methodology Index

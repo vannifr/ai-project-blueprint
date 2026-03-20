@@ -3,6 +3,7 @@ versie: '1.0'
 description: Veelgestelde vragen over AI-projectmanagement met de Blueprint.
 type: faq
 layer: 1
+answers: [Wat is Veelgestelde Vragen (FAQ)?]
 ---
 
 # Veelgestelde Vragen (FAQ)

@@ -4,6 +4,7 @@ type: template
 layer: 3
 phase: [3, 4]
 tags: [template, traceability]
+answers: ['Hoe gebruik ik het Sjabloon: Traceerbaarheid (Traceability) sjabloon?']
 ---
 
 # 1. Sjabloon: Traceerbaarheid (Traceability)

@@ -2,6 +2,7 @@
 versie: '1.0'
 type: strategic
 layer: 1
+answers: [What does The Builder entail?]
 ---
 
 # 1. The Builder

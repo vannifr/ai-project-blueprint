@@ -3,6 +3,8 @@ versie: '1.0'
 type: strategic
 layer: 2
 roles: [Business Sponsor]
+summary: In days 61-90, standardise successful pilot results and build the foundation for scalable AI deployment.
+answers: [What does Codify & Scale (Days 61-90) entail?]
 ---
 
 # 1. Codify & Scale (Days 61-90)

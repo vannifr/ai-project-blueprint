@@ -4,6 +4,7 @@ type: strategic
 layer: 1
 roles: [Data Scientist]
 tags: [governance]
+answers: [Wat houdt AI-First Bedrijfsmodel in?]
 ---
 
 # 3. AI-First Bedrijfsmodel

@@ -4,6 +4,8 @@ type: pattern
 layer: 2
 phase: [3]
 roles: [AI Product Manager, Tech Lead]
+summary: Methodology where what the AI system must do is formally recorded before building begins, preventing costly rework and ensuring demonstrable compliance.
+answers: [What is Specification-First Pattern?, What does this cost?]
 ---
 
 # 1. Specification-First Pattern

@@ -1,9 +1,9 @@
 ---
 versie: '1.0'
+pdf: false
 type: reference
 layer: 3
-tags: [risk, governance, quick-reference]
-pdf: false
+answers: [Wat is Valkuilencatalogus voor AI-Projecten?]
 ---
 
 # 1. Valkuilencatalogus voor AI-Projecten

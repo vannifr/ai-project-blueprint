@@ -2,6 +2,8 @@
 versie: '1.1'
 type: strategic
 layer: 1
+summary: Description of the organisational transformation needed to evolve from isolated AI projects to a scalable AI platform.
+answers: [What does Organisational Reinvention entail?]
 ---
 
 # 1. Organisational Reinvention

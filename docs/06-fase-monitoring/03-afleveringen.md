@@ -5,6 +5,8 @@ layer: 2
 phase: [5]
 roles: [AI Product Manager]
 tags: [monitoring]
+summary: Overzicht van de verplichte opleveringen en Gate 5 criteria voor duurzame operatie en kwartaalreviews van het AI-systeem.
+answers: [Wat lever ik op aan het einde van deze fase?]
 ---
 
 # 1. Opleveringen & Gate 5 (Monitoring)

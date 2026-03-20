@@ -3,6 +3,8 @@ versie: '1.0'
 type: strategic
 layer: 2
 roles: [Business Sponsor]
+summary: In dagen 31-60 het werkproces herontwerpen rondom AI en de eerste pilot bouwen en testen in de operatie.
+answers: [Wat houdt Herontwerp & Pilot (Dagen 31-60) in?]
 ---
 
 # 1. Herontwerp & Pilot (Dagen 31-60)

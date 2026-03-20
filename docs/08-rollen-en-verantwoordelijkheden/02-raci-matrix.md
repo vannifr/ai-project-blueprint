@@ -3,6 +3,8 @@ versie: '1.0'
 type: template
 layer: 1
 tags: [stakeholder, template]
+summary: RACI-overzicht dat per kernactiviteit en fase vastlegt wie verantwoordelijk, eindverantwoordelijk, geraadpleegd of geinformeerd is.
+answers: [Hoe gebruik ik het RACI Matrix — Rollen per Fase sjabloon?]
 ---
 
 # RACI Matrix — Rollen per Fase

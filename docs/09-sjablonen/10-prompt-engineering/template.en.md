@@ -5,6 +5,7 @@ layer: 3
 phase: [3, 5]
 roles: [Data Scientist]
 tags: [prompt-engineering, template]
+answers: [How do I use the Prompt Engineering Template template?]
 ---
 
 # 1. Prompt Engineering Template

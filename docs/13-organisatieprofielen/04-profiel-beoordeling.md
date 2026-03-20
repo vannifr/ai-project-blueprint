@@ -2,6 +2,7 @@
 versie: '1.0'
 type: assessment
 layer: 1
+answers: [Wat is Profiel-beoordeling?]
 ---
 
 # 4. Profiel-beoordeling

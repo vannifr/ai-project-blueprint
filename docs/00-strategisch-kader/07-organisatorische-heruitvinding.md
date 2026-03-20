@@ -2,6 +2,8 @@
 versie: '1.0'
 type: strategic
 layer: 1
+summary: Dit hoofdstuk schetst de organisatorische transformatie die nodig is om AI structureel in te bedden. Het raakt aan organisatieontwerp, AI governance en cultuurverandering. Een volledige uitwerking…
+answers: [Wat houdt Organisatorische Heruitvinding in?, Wie beslist wat in een AI-project?]
 ---
 
 # 1. Organisatorische Heruitvinding

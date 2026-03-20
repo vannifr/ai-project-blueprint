@@ -4,6 +4,8 @@ type: guide
 layer: 2
 phase: [1, 2, 3, 4, 5]
 roles: [Business Sponsor]
+summary: Quarterly measurement of whether the AI system is delivering on the promised benefits, with corrective action when realisation falls short.
+answers: [How does Benefits Realisation (Operational) work?]
 ---
 
 # 4. Benefits Realisation (Operational)

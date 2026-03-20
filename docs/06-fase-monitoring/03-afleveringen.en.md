@@ -5,6 +5,8 @@ layer: 2
 phase: [5]
 roles: [AI Product Manager]
 tags: [monitoring]
+summary: Overview of mandatory deliverables and Gate 5 criteria for sustainable operation and quarterly reviews of the AI system.
+answers: [What do I deliver at the end of this phase?]
 ---
 
 # 1. Deliverables & Gate 5 (Monitoring)

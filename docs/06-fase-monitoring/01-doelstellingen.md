@@ -5,6 +5,8 @@ layer: 2
 phase: [5]
 roles: [AI Product Manager]
 tags: [monitoring]
+summary: 'Doelstellingen van Fase 5: prestaties, ethische integriteit en kostenefficiëntie van het AI-systeem waarborgen gedurende de operationele levensduur.'
+answers: [Wat is het doel van deze fase?, Wat kost dit?]
 ---
 
 # 1. Beheer & Optimalisatie

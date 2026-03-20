@@ -3,6 +3,8 @@ versie: '1.1'
 type: playbook
 layer: 1
 tags: [playbook, stakeholder]
+summary: Practical guide for communicating with stakeholders about the unique challenges of AI projects, such as probabilistic outcomes and iterative validation.
+answers: [How do I execute Stakeholder Communication Playbook?, How much validation is sufficient?]
 ---
 
 # Stakeholder Communication Playbook

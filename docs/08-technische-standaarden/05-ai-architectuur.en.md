@@ -3,6 +3,8 @@ versie: '1.1'
 type: technical
 layer: 3
 roles: [Tech Lead]
+summary: Overview of the most common architecture patterns for AI systems and the considerations when choosing the right approach.
+answers: [What are the technical standards for AI Architecture?]
 ---
 
 # 1. AI Architecture

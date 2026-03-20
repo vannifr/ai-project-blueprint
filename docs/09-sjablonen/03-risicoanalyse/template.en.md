@@ -6,6 +6,7 @@ layer: 3
 phase: [1, 2]
 roles: [Guardian]
 tags: [risk, template]
+answers: ['How do I use the Template: Risk Inventory template?']
 ---
 
 # 1. Template: Risk Inventory

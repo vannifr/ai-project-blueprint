@@ -3,6 +3,8 @@ versie: '1.0'
 type: strategic
 layer: 2
 roles: [Business Sponsor]
+summary: In de eerste 30 dagen ruimte en inzicht creëren door te stoppen met wat niet werkt en scherp te kiezen waar op ingezet wordt.
+answers: [Wat houdt Richt Focus & Rationaliseer (Dagen 1-30) in?]
 ---
 
 # 1. Richt Focus & Rationaliseer (Dagen 1-30)

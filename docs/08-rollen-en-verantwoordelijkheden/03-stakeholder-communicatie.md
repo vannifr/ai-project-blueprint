@@ -3,6 +3,8 @@ versie: '1.0'
 type: playbook
 layer: 1
 tags: [playbook, stakeholder]
+summary: Praktische handleiding voor het communiceren met stakeholders over de unieke uitdagingen van AI-projecten, zoals probabilistische uitkomsten en iteratieve validatie.
+answers: [Hoe voer ik Stakeholder Communicatie Playbook uit?, Hoeveel validatie is voldoende?]
 ---
 
 # Stakeholder Communicatie Playbook

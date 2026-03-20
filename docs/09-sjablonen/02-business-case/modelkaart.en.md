@@ -5,6 +5,7 @@ layer: 3
 phase: [2]
 roles: [AI Product Manager, Business Sponsor, Data Scientist]
 tags: [governance, template]
+answers: [How do I use the Technical Model Card template?]
 ---
 
 # 1. Technical Model Card

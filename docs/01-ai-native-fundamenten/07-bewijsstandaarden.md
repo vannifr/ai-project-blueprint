@@ -3,6 +3,8 @@ versie: '1.0'
 type: foundation
 layer: 1
 tags: [validation]
+summary: Definitie van de minimale bewijsstandaarden zodat Gate Reviews op toetsbare criteria plaatsvinden in plaats van op gevoel.
+answers: [Wat houdt Bewijsstandaarden in?, Hoeveel validatie is voldoende?]
 ---
 
 # 1. Bewijsstandaarden

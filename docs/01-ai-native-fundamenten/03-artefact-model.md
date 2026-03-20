@@ -4,6 +4,8 @@ type: foundation
 layer: 1
 roles: [Data Scientist]
 tags: [governance]
+summary: Overzicht van de beheer-artefacten (Doeldefinitie, Harde Grenzen, Prompts, Validatierapport en Traceerbaarheid) die grip geven op AI-systeemgedrag.
+answers: [Wat houdt Artefact Model in?, Hoeveel validatie is voldoende?]
 ---
 
 # 1. Artefact Model

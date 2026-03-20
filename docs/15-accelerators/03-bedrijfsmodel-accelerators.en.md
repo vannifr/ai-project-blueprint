@@ -4,6 +4,7 @@ type: strategic
 layer: 2
 roles: [Data Scientist]
 tags: [governance]
+answers: [What does Business Model Accelerators entail?]
 ---
 
 # 3. Business Model Accelerators

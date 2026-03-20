@@ -2,6 +2,7 @@
 versie: '1.0'
 type: strategic
 layer: 2
+answers: [Wat houdt Strategische Heruitvinding Accelerators in?]
 ---
 
 # 1. Strategische Heruitvinding Accelerators

@@ -5,6 +5,8 @@ layer: 2
 phase: [5]
 roles: [AI Product Manager, Data Scientist]
 tags: [monitoring]
+summary: Methoden om kwaliteitsverslechtering (drift) in AI-systemen te detecteren, meten en hierop te reageren.
+answers: [Hoe werkt Drift Detectie (Drift Detection)?]
 ---
 
 # 1. Drift Detectie (Drift Detection)

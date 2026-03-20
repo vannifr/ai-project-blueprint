@@ -4,6 +4,8 @@ type: activities
 layer: 2
 phase: [4]
 roles: [AI Product Manager]
+summary: Overview of core activities and role assignments during the Delivery phase, from technical integration to user training and acceptance.
+answers: [What activities do I perform in this phase?, What roles do I need?]
 ---
 
 # 1. Core Activities & Roles (Delivery)

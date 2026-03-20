@@ -4,6 +4,8 @@ type: foundation
 layer: 1
 roles: [Data Scientist]
 tags: [governance, validation]
+summary: Beschrijving van de drie validatiedimensies (syntactisch, gedragsmatig, doelgericht) die elke wijziging aan prompts of RAG moet doorlopen.
+answers: [Wat houdt Validatie Model in?, Hoeveel validatie is voldoende?]
 ---
 
 # 1. Validatie Model

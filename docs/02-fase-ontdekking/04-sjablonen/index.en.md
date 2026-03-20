@@ -4,6 +4,8 @@ type: index
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: Overview of all available templates supporting the Discovery phase, with direct links to the central template library.
+answers: [What does the Templates Discovery & Strategy section contain?]
 ---
 
 # Templates Discovery & Strategy

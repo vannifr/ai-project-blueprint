@@ -3,6 +3,8 @@ versie: '1.0'
 type: strategic
 layer: 2
 roles: [Business Sponsor]
+summary: Description of the competencies and capacities built at each organisational level upon completion of the 90-day roadmap.
+answers: [What does Capacity Outcomes entail?]
 ---
 
 # 4. Capacity Outcomes

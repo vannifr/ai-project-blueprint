@@ -1,0 +1,908 @@
+# AI Project Blueprint — Question-Answer Index (EN)
+# Auto-generated from frontmatter. Do not edit manually.
+# Generated: 2026-03-20
+# Pages: 143, Questions: 177
+
+pages:
+  - path: "00-explorer-kit/01-30-dagen-plan.en.md"
+    title: "30-Day Day-by-Day Plan"
+    summary: "This plan guides teams step by step through their **first AI project in 30 days**. It is a concrete, daily checklist that takes you from problem definition to a working prototype and Gate Review…"
+    tags: [onboarding]
+    answers:
+      - "How does 30-Day Day-by-Day Plan work?"
+      - "What roles do I need?"
+  - path: "00-explorer-kit/02-project-charter-light.en.md"
+    title: Project Charter Light
+    audience: [AI Product Manager]
+    tags: [onboarding]
+    answers:
+      - "How does Project Charter Light work?"
+  - path: "00-explorer-kit/03-risk-prescan-quick.en.md"
+    title: "Quick Risk Pre-Scan"
+    tags: [onboarding, risk]
+    answers:
+      - "How does Quick Risk Pre-Scan work?"
+  - path: "00-explorer-kit/04-validatierapport-minimal.en.md"
+    title: Minimal Validation Report
+    audience: [Data Scientist]
+    tags: [onboarding, validation]
+    answers:
+      - "How does Minimal Validation Report work?"
+  - path: "00-explorer-kit/index.en.md"
+    title: "Explorer Kit — 30-Day Starter Programme"
+    tags: [onboarding]
+    answers:
+      - "What does the Explorer Kit — 30-Day Starter Programme section contain?"
+  - path: "00-navigator/faq.en.md"
+    title: Frequently Asked Questions (FAQ)
+    answers:
+      - "What is Frequently Asked Questions (FAQ)?"
+  - path: "00-navigator/index.en.md"
+    title: Blueprint Navigator
+    answers:
+      - "What does the Blueprint Navigator section contain?"
+  - path: "00-strategisch-kader/00-executive-summary.en.md"
+    title: Executive Summary
+    summary: "Executive-level overview of the AI Project Blueprint: why AI projects fail and how this methodology prevents that."
+    audience: [Business Sponsor]
+    answers:
+      - "What does Executive Summary entail?"
+  - path: "00-strategisch-kader/00-leeswijzer.en.md"
+    title: "Reader's Guide & Navigation"
+    summary: Quick navigation aid to find the right section of the Blueprint based on your role and situation.
+    answers:
+      - "How does Reader's Guide & Navigation work?"
+      - "What roles do I need?"
+  - path: "00-strategisch-kader/00-levenscyclus-referentie.en.md"
+    title: AI Project Cycle — Quick Reference
+    summary: "One-page overview of the five AI lifecycle phases with the goal, gate criteria, core activity and primary template per phase."
+    answers:
+      - "What does AI Project Cycle — Quick Reference entail?"
+  - path: "00-strategisch-kader/01-ai-levenscyclus.en.md"
+    title: AI Project Cycle
+    summary: "Description of the complete five-phase AI lifecycle that serves as the central roadmap for every AI project."
+    answers:
+      - "What does AI Project Cycle entail?"
+  - path: "00-strategisch-kader/02-hybride-methodologie.en.md"
+    title: Hybrid Methodology
+    summary: "Explanation of the hybrid Agile-Waterfall approach that combines predictable planning with iterative AI development."
+    answers:
+      - "What does Hybrid Methodology entail?"
+  - path: "00-strategisch-kader/03-governance-model.en.md"
+    title: Governance Model
+    summary: "Definition of the decision-making structures, roles and oversight layers that steer AI projects safely and effectively."
+    audience: [Data Scientist]
+    tags: [governance]
+    answers:
+      - "What does Governance Model entail?"
+      - "Who decides what in an AI project?"
+  - path: "00-strategisch-kader/04-agile-antipatronen-niet-toegestaan.en.md"
+    title: "Anti-patterns in AI Projects"
+    summary: "Overview of the \"NOT DONE\" anti-patterns that must be avoided in AI projects to prevent failure and compliance issues."
+    tags: [agile]
+    answers:
+      - "What does Anti-patterns in AI Projects entail?"
+  - path: "00-strategisch-kader/05-project-initiatie.en.md"
+    title: Project Initiation
+    summary: "Guidelines for formally starting an AI project with a clear Project Charter, roles and responsibilities."
+    answers:
+      - "What does Project Initiation entail?"
+      - "What roles do I need?"
+  - path: "00-strategisch-kader/06-has-h-niveaus.en.md"
+    title: AI Collaboration Modes
+    summary: "Classification of five human-AI collaboration modes (Instrumental to Autonomous) to determine the right governance and risk controls per application."
+    answers:
+      - "What does AI Collaboration Modes entail?"
+      - "How do I classify the risk of my AI project?"
+  - path: "00-strategisch-kader/07-organisatorische-heruitvinding.en.md"
+    title: Organisational Reinvention
+    summary: Description of the organisational transformation needed to evolve from isolated AI projects to a scalable AI platform.
+    answers:
+      - "What does Organisational Reinvention entail?"
+  - path: "00-strategisch-kader/08-blueprint-methodologie.en.md"
+    title: "Blueprint & Methodology Index"
+    summary: "Navigation index mapping all technical codes, modules and templates of the Blueprint to their content documents."
+    answers:
+      - "What does Blueprint & Methodology Index entail?"
+  - path: "01-ai-native-fundamenten/01-definitie.en.md"
+    title: Core Principles
+    summary: "Explanation of the core principles of AI-native project management: behavioural steering, traceability and human oversight as the foundation."
+    answers:
+      - "What does Core Principles entail?"
+  - path: "01-ai-native-fundamenten/02-normatieve-criteria.en.md"
+    title: "Assessment Criteria & AI-Native Principles"
+    summary: "This page describes the five core principles that distinguish an AI-native approach from traditional software development, and the assessment criteria to determine whether a project falls under these…"
+    answers:
+      - "What does Assessment Criteria & AI-Native Principles entail?"
+  - path: "01-ai-native-fundamenten/03-artefact-model.en.md"
+    title: Artefact Model
+    summary: "Overview of the management artefacts (Goal Definition, Hard Boundaries, Prompts, Validation Report and Traceability) that provide control over AI system behaviour."
+    audience: [Data Scientist]
+    tags: [governance]
+    answers:
+      - "What does Artefact Model entail?"
+      - "How much validation is sufficient?"
+  - path: "01-ai-native-fundamenten/04-validatie-model.en.md"
+    title: Validation Model
+    summary: "Description of the three validation dimensions (syntactic, behavioural, goal-oriented) that every change to prompts or RAG must pass through."
+    audience: [Data Scientist]
+    tags: [governance, validation]
+    answers:
+      - "What does Validation Model entail?"
+      - "How much validation is sufficient?"
+  - path: "01-ai-native-fundamenten/05-risicoclassificatie.en.md"
+    title: Risk Classification
+    summary: Classification of changes based on impact so that the appropriate validation depth is applied in line with the EU AI Act.
+    audience: [Guardian]
+    tags: [risk]
+    answers:
+      - "What does Risk Classification entail?"
+      - "How do I classify the risk of my AI project?"
+  - path: "01-ai-native-fundamenten/06-specificatie-gedreven-ontwikkeling.en.md"
+    title: "Specification-First Method"
+    summary: "Description of the Specification-First Method (Spec-Driven Development) where expectations are formally recorded before building begins."
+    answers:
+      - "What does Specification-First Method entail?"
+  - path: "01-ai-native-fundamenten/07-bewijsstandaarden.en.md"
+    title: Evidence Standards
+    summary: Definition of minimum evidence standards so that Gate Reviews are based on verifiable criteria rather than intuition.
+    tags: [validation]
+    answers:
+      - "What does Evidence Standards entail?"
+      - "How much validation is sufficient?"
+  - path: "02-fase-ontdekking/01-doelstellingen.en.md"
+    title: "Discovery & Strategy"
+    summary: "Objectives, key activities and deliverables of Phase 1: identifying the right problem and assessing feasibility for an AI project."
+    audience: [AI Product Manager]
+    phase: [1]
+    answers:
+      - "What is the goal of this phase?"
+  - path: "02-fase-ontdekking/02-activiteiten.en.md"
+    title: "Core Activities & Roles (Discovery & Strategy)"
+    summary: "Overview of the core activities and role assignments during the Discovery phase, from problem exploration to data evaluation and risk assessment."
+    audience: [AI Product Manager]
+    phase: [1]
+    answers:
+      - "What activities do I perform in this phase?"
+      - "How do I classify the risk of my AI project?"
+  - path: "02-fase-ontdekking/03-afleveringen.en.md"
+    title: "Deliverables & Gate 1 (Go/No-Go Discovery) (Discovery & Strategy)"
+    summary: "Overview of the mandatory deliverables and Gate 1 criteria for a substantiated go/no-go decision after the Discovery phase."
+    audience: [AI Product Manager]
+    phase: [1]
+    answers:
+      - "What do I deliver at the end of this phase?"
+      - "Who decides what in an AI project?"
+  - path: "02-fase-ontdekking/04-sjablonen/index.en.md"
+    title: "Templates Discovery & Strategy"
+    summary: "Overview of all available templates supporting the Discovery phase, with direct links to the central template library."
+    audience: [AI Product Manager]
+    phase: [1]
+    answers:
+      - "What does the Templates Discovery & Strategy section contain?"
+  - path: "02-fase-ontdekking/05-has-h-beoordeling.en.md"
+    title: Collaboration Mode Assessment
+    summary: "Determine which AI Collaboration Mode (1 through 5) is appropriate for your use case, as the basis for governance and oversight requirements."
+    audience: [AI Product Manager]
+    phase: [1]
+    answers:
+      - "What is Collaboration Mode Assessment?"
+      - "Who decides what in an AI project?"
+  - path: "02-fase-ontdekking/06-fast-lane.en.md"
+    title: Fast Lane
+    summary: "Accelerated track for low-risk AI applications to safely and quickly test value with minimal governance overhead."
+    audience: [AI Product Manager]
+    phase: [1]
+    answers:
+      - "How does Fast Lane work?"
+      - "How do I classify the risk of my AI project?"
+  - path: "03-fase-validatie/01-doelstellingen.en.md"
+    title: Validation
+    summary: "Objectives and approach of Phase 2: proving the AI idea works and is financially viable before making a major investment."
+    audience: [AI Product Manager, Data Scientist]
+    phase: [2]
+    tags: [validation]
+    answers:
+      - "What is the goal of this phase?"
+  - path: "03-fase-validatie/02-activiteiten.en.md"
+    title: "Core Activities & Roles (Validation)"
+    summary: "Overview of the core activities and role assignments during the Validation phase, including the Validation Pilot (PoV) and Business Case preparation."
+    audience: [AI Product Manager, Data Scientist]
+    phase: [2]
+    tags: [validation]
+    answers:
+      - "What activities do I perform in this phase?"
+      - "How much validation is sufficient?"
+  - path: "03-fase-validatie/03-afleveringen.en.md"
+    title: "Deliverables & Gate 2 (PoV Investment) (Validation)"
+    summary: Overview of mandatory deliverables and Gate 2 criteria for the investment decision after the Validation phase.
+    audience: [AI Product Manager, Data Scientist]
+    phase: [2]
+    tags: [validation]
+    answers:
+      - "What do I deliver at the end of this phase?"
+      - "How much validation is sufficient?"
+  - path: "03-fase-validatie/05-risicoclassificatie.en.md"
+    title: Risk Classification in Validation
+    summary: Refinement of the risk profile during the Validation phase based on the reality of the prototype.
+    audience: [AI Product Manager, Data Scientist, Guardian]
+    phase: [2]
+    tags: [risk, validation]
+    answers:
+      - "How does Risk Classification in Validation work?"
+      - "How do I classify the risk of my AI project?"
+  - path: "04-fase-ontwikkeling/01-doelstellingen.en.md"
+    title: Development
+    summary: "Objectives of Phase 3: building a robust, production-ready AI solution that meets all quality and safety requirements."
+    audience: [AI Product Manager]
+    phase: [3]
+    answers:
+      - "What is the goal of this phase?"
+  - path: "04-fase-ontwikkeling/02-activiteiten.en.md"
+    title: "Core Activities & Roles (Development)"
+    summary: "Overview of core activities and role assignments during the Development phase, from data automation to model development and test validation."
+    audience: [AI Product Manager]
+    phase: [3]
+    answers:
+      - "What activities do I perform in this phase?"
+      - "How much validation is sufficient?"
+  - path: "04-fase-ontwikkeling/03-afleveringen.en.md"
+    title: "Deliverables & Gate 3 (Production-Ready) (Development)"
+    summary: "Overview of mandatory deliverables and Gate 3 criteria that determine whether the AI system is production-ready."
+    audience: [AI Product Manager]
+    phase: [3]
+    answers:
+      - "What do I deliver at the end of this phase?"
+  - path: "04-fase-ontwikkeling/05-sdd-patroon.en.md"
+    title: "Specification-First Pattern"
+    summary: "Methodology where what the AI system must do is formally recorded before building begins, preventing costly rework and ensuring demonstrable compliance."
+    audience: [AI Product Manager, Tech Lead]
+    phase: [3]
+    answers:
+      - "What is Specification-First Pattern?"
+      - "What does this cost?"
+  - path: "04-fase-ontwikkeling/06-engineering-patterns.en.md"
+    title: "Engineering Patterns for AI-Driven Development"
+    summary: "Proven engineering patterns and common anti-patterns for teams using AI tools, focused on quality assurance and preventing rework."
+    audience: [AI Product Manager]
+    phase: [3]
+    answers:
+      - "How does Engineering Patterns for AI-Driven Development work?"
+      - "What roles do I need?"
+  - path: "05-fase-levering/01-doelstellingen.en.md"
+    title: Delivery
+    summary: "Objectives of Phase 4: a safe go-live, human oversight and structured handover to the production environment."
+    audience: [AI Product Manager]
+    phase: [4]
+    answers:
+      - "What is the goal of this phase?"
+  - path: "05-fase-levering/02-activiteiten.en.md"
+    title: "Core Activities & Roles (Delivery)"
+    summary: "Overview of core activities and role assignments during the Delivery phase, from technical integration to user training and acceptance."
+    audience: [AI Product Manager]
+    phase: [4]
+    answers:
+      - "What activities do I perform in this phase?"
+      - "What roles do I need?"
+  - path: "05-fase-levering/03-afleveringen.en.md"
+    title: "Deliverables & Gate 4 (Go-live) (Delivery)"
+    summary: "Overview of mandatory deliverables and Gate 4 criteria that ensure a safe go-live and operational handover."
+    audience: [AI Product Manager]
+    phase: [4]
+    answers:
+      - "What do I deliver at the end of this phase?"
+  - path: "05-fase-levering/04-sjablonen/overdracht-checklist.en.md"
+    title: "Checklist: Operational Handover"
+    summary: "Tick-off checklist for the formal handover of the AI system from the project team to the operations organisation at Gate 4."
+    audience: [AI Product Manager]
+    phase: [4]
+    tags: ["gate-review"]
+    answers:
+      - "How does Checklist: Operational Handover work?"
+      - "What roles do I need?"
+  - path: "05-fase-levering/05-traceerbaarheid.en.md"
+    title: Traceability
+    summary: "Method to always be able to explain why an AI system produced a given output, essential for auditing, debugging and EU AI Act compliance."
+    audience: [AI Product Manager]
+    phase: [4]
+    tags: [traceability]
+    answers:
+      - "How does Traceability work?"
+  - path: "06-fase-monitoring/01-doelstellingen.en.md"
+    title: "Monitoring & Optimisation"
+    summary: "Objectives of Phase 5: safeguarding performance, ethical integrity and cost efficiency of the AI system throughout its operational lifespan."
+    audience: [AI Product Manager]
+    phase: [5]
+    tags: [monitoring]
+    answers:
+      - "What is the goal of this phase?"
+      - "What does this cost?"
+  - path: "06-fase-monitoring/02-activiteiten.en.md"
+    title: "Core Activities & Roles (Monitoring & Optimisation)"
+    summary: "Overview of core activities and role assignments during the Monitoring & Optimisation phase, from operational monitoring to drift detection and cost control."
+    audience: [AI Product Manager]
+    phase: [5]
+    tags: [monitoring]
+    answers:
+      - "What activities do I perform in this phase?"
+      - "What roles do I need?"
+  - path: "06-fase-monitoring/03-afleveringen.en.md"
+    title: "Deliverables & Gate 5 (Monitoring)"
+    summary: Overview of mandatory deliverables and Gate 5 criteria for sustainable operation and quarterly reviews of the AI system.
+    audience: [AI Product Manager]
+    phase: [5]
+    tags: [monitoring]
+    answers:
+      - "What do I deliver at the end of this phase?"
+  - path: "06-fase-monitoring/05-drift-detectie.en.md"
+    title: Performance Degradation Detection (Drift Detection)
+    summary: "Methods for detecting, measuring and responding to quality degradation (drift) in AI systems."
+    audience: [AI Product Manager, Data Scientist]
+    phase: [5]
+    tags: [monitoring]
+    answers:
+      - "How does Performance Degradation Detection (Drift Detection) work?"
+  - path: "07-compliance-hub/01-eu-ai-act/index.en.md"
+    title: EU AI Act
+    summary: Practical guide to EU AI Act requirements and how to apply them within your AI project.
+    audience: [Guardian]
+    tags: ["eu-ai-act"]
+    answers:
+      - "What does the EU AI Act section contain?"
+  - path: "07-compliance-hub/02-risicobeheer/index.en.md"
+    title: Risk Management
+    summary: "Systematic approach for identifying, assessing and mitigating risks throughout the AI lifecycle."
+    audience: [Guardian]
+    tags: ["eu-ai-act", risk]
+    answers:
+      - "What does the Risk Management section contain?"
+      - "How do I classify the risk of my AI project?"
+  - path: "07-compliance-hub/03-ethische-richtlijnen.en.md"
+    title: Ethical Guidelines
+    summary: Frameworks to ensure that AI systems respect human values and do not cause unintended harm.
+    audience: [Guardian]
+    tags: [ethics, "eu-ai-act"]
+    answers:
+      - "What are the compliance requirements for Ethical Guidelines?"
+  - path: "07-compliance-hub/04-validatie-eisen.en.md"
+    title: Validation Requirements (Compliance)
+    summary: "Requirements that a Validation Report must meet for formal go-live approval from a legal and ethical perspective."
+    audience: [Data Scientist, Guardian]
+    tags: ["eu-ai-act", validation]
+    answers:
+      - "What are the compliance requirements for Validation Requirements (Compliance)?"
+      - "How much validation is sufficient?"
+  - path: "07-compliance-hub/05-incidentrespons.en.md"
+    title: Incident Response
+    summary: "Severity matrix, roles and immediate actions for quick and coordinated response to AI incidents."
+    audience: [Guardian]
+    tags: ["eu-ai-act", security]
+    answers:
+      - "What are the compliance requirements for Incident Response?"
+      - "What roles do I need?"
+  - path: "07-compliance-hub/06-incidentrespons-playbooks.en.md"
+    title: Incident Playbooks
+    summary: "Four detailed step-by-step procedures for the most common AI incidents: performance degradation, bias, security incidents and data quality."
+    audience: [Guardian]
+    tags: ["eu-ai-act", playbook, security]
+    answers:
+      - "How do I execute Incident Playbooks?"
+  - path: "07-compliance-hub/07-red-teaming.en.md"
+    title: Red Teaming Playbook
+    summary: "Setup, standard exercises and reporting for systematically testing AI system vulnerabilities before they go to production."
+    audience: [Guardian]
+    tags: ["eu-ai-act", playbook, security]
+    answers:
+      - "How do I execute Red Teaming Playbook?"
+  - path: "07-compliance-hub/08-ai-safety-checklist.en.md"
+    title: AI Safety Checklist
+    summary: "Structured safety checklist across four dimensions (training, deployment, monitoring, governance) for use at every Gate Review."
+    audience: [Guardian]
+    tags: ["eu-ai-act", "gate-review", security, template]
+    answers:
+      - "How do I use the AI Safety Checklist template?"
+      - "Who decides what in an AI project?"
+  - path: "07-compliance-hub/index.en.md"
+    title: "Risk Management & Compliance"
+    summary: "Central overview of all regulatory and ethical requirements for AI projects, from EU AI Act to incident response and safety checklists."
+    audience: [Guardian]
+    tags: ["eu-ai-act"]
+    answers:
+      - "What does the Risk Management & Compliance section contain?"
+  - path: "08-rollen-en-verantwoordelijkheden/02-raci-matrix.en.md"
+    title: RACI Matrix — Roles per Phase
+    summary: "RACI overview that records who is responsible, accountable, consulted or informed per core activity and phase."
+    tags: [stakeholder, template]
+    answers:
+      - "How do I use the RACI Matrix — Roles per Phase template?"
+  - path: "08-rollen-en-verantwoordelijkheden/03-stakeholder-communicatie.en.md"
+    title: Stakeholder Communication Playbook
+    summary: "Practical guide for communicating with stakeholders about the unique challenges of AI projects, such as probabilistic outcomes and iterative validation."
+    tags: [playbook, stakeholder]
+    answers:
+      - "How do I execute Stakeholder Communication Playbook?"
+      - "How much validation is sufficient?"
+  - path: "08-rollen-en-verantwoordelijkheden/04-ai-pm-onboarding.en.md"
+    title: AI PM Onboarding Playbook
+    summary: "Step-by-step onboarding guide helping new AI Project Managers grow from observation to full ownership in six weeks."
+    audience: [AI Product Manager]
+    tags: [onboarding, playbook]
+    answers:
+      - "How do I execute AI PM Onboarding Playbook?"
+  - path: "08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.en.md"
+    title: Decision Matrix
+    summary: Explicit record of who makes which decision at each gate and who can block a decision.
+    tags: [governance, template]
+    answers:
+      - "How do I use the Decision Matrix template?"
+      - "Who decides what in an AI project?"
+  - path: "08-rollen-en-verantwoordelijkheden/index.en.md"
+    title: "Roles & Responsibilities"
+    summary: Overview of all roles in an AI project and their responsibilities per lifecycle phase.
+    answers:
+      - "What does the Roles & Responsibilities section contain?"
+      - "What roles do I need?"
+  - path: "08-technische-standaarden/01-mloops-standaarden.en.md"
+    title: "Technical Standards & Delivery Criteria"
+    summary: "Definition of what \"production-ready\" means for AI solutions, with a progressive path from Basic to Advanced to Scalable MLOps."
+    audience: [Tech Lead]
+    answers:
+      - "What are the technical standards for Technical Standards & Delivery Criteria?"
+  - path: "08-technische-standaarden/02-data-pipelines.en.md"
+    title: Data Pipelines
+    summary: "Standards for building and managing data pipelines that feed AI systems with reliable, traceable data."
+    audience: [Data Scientist, Tech Lead]
+    tags: [data, mlops]
+    answers:
+      - "What are the technical standards for Data Pipelines?"
+  - path: "08-technische-standaarden/03-model-governance.en.md"
+    title: Model Governance
+    summary: "Guidelines for managing AI models throughout their lifecycle: from development to production and retirement."
+    audience: [Data Scientist, Tech Lead]
+    tags: [governance]
+    answers:
+      - "What are the technical standards for Model Governance?"
+  - path: "08-technische-standaarden/04-test-frameworks.en.md"
+    title: Test Frameworks
+    summary: Testing approach for AI systems that combines deterministic tests with evaluation of probabilistic behaviour.
+    audience: [Tech Lead]
+    answers:
+      - "What are the technical standards for Test Frameworks?"
+  - path: "08-technische-standaarden/05-ai-architectuur.en.md"
+    title: AI Architecture
+    summary: Overview of the most common architecture patterns for AI systems and the considerations when choosing the right approach.
+    audience: [Tech Lead]
+    answers:
+      - "What are the technical standards for AI Architecture?"
+  - path: "08-technische-standaarden/06-cloud-vs-onpremise.en.md"
+    title: "Cloud vs. On-Premise"
+    summary: "Decision framework for choosing between cloud, on-premise or hybrid infrastructure for your AI system."
+    audience: [Tech Lead]
+    answers:
+      - "What are the technical standards for Cloud vs. On-Premise?"
+      - "Who decides what in an AI project?"
+  - path: "08-technische-standaarden/07-kostenoptimalisatie.en.md"
+    title: Cost Optimisation
+    summary: Concrete techniques and a cost estimation tool to keep AI system costs manageable during the Development and Operations phases.
+    audience: [Tech Lead]
+    tags: [cost]
+    answers:
+      - "What are the technical standards for Cost Optimisation?"
+      - "What does this cost?"
+  - path: "08-technische-standaarden/08-green-ai.en.md"
+    title: "Green AI & Sustainability"
+    summary: Guidelines for reducing the ecological footprint of AI systems and embedding sustainability as a strategic design choice.
+    audience: [Tech Lead]
+    tags: [cost]
+    answers:
+      - "What are the technical standards for Green AI & Sustainability?"
+  - path: "08-technische-standaarden/09-agentic-ai-engineering.en.md"
+    title: Agentic AI Engineering
+    summary: "Operational handbook for building, testing and managing agentic AI systems (Collaboration Modes 4-5)."
+    audience: [Tech Lead]
+    answers:
+      - "What are the technical standards for Agentic AI Engineering?"
+  - path: "08-technische-standaarden/index.en.md"
+    title: Technical Standards
+    summary: "Overview of technical blueprints and quality frameworks for AI engineering, from model selection to MLOps."
+    audience: [Tech Lead]
+    answers:
+      - "What does the Technical Standards section contain?"
+  - path: "09-sjablonen/01-project-charter/template.en.md"
+    title: The Project Charter
+    audience: [AI Product Manager]
+    phase: [1]
+    tags: [template]
+    answers:
+      - "How do I use the The Project Charter template?"
+  - path: "09-sjablonen/02-business-case/modelkaart.en.md"
+    title: Technical Model Card
+    audience: [AI Product Manager, Business Sponsor, Data Scientist]
+    phase: [2]
+    tags: [governance, template]
+    answers:
+      - "How do I use the Technical Model Card template?"
+  - path: "09-sjablonen/02-business-case/template.en.md"
+    title: "Template: Business Case & The Cost Overview"
+    audience: [AI Product Manager, Business Sponsor]
+    phase: [2]
+    tags: [template]
+    answers:
+      - "How do I use the Template: Business Case & The Cost Overview template?"
+  - path: "09-sjablonen/03-risicoanalyse/pre-scan.en.md"
+    title: "Risk Pre-Scan (Gate 1 Checklist)"
+    audience: [Guardian]
+    phase: [1, 2]
+    tags: [risk, template]
+    answers:
+      - "How do I use the Risk Pre-Scan (Gate 1 Checklist) template?"
+  - path: "09-sjablonen/03-risicoanalyse/template.en.md"
+    title: "Template: Risk Inventory"
+    audience: [Guardian]
+    phase: [1, 2]
+    tags: [risk, template]
+    answers:
+      - "How do I use the Template: Risk Inventory template?"
+  - path: "09-sjablonen/04-gate-reviews/checklist.en.md"
+    title: "Checklist: Gate Reviews"
+    audience: [AI Product Manager]
+    phase: [1, 2, 3, 4, 5]
+    tags: ["gate-review", template]
+    answers:
+      - "How do I use the Checklist: Gate Reviews template?"
+  - path: "09-sjablonen/06-ai-native-artefacten/doelkaart.en.md"
+    title: The Objective Card (Intent Map)
+    phase: [1, 2, 3]
+    tags: [template]
+    answers:
+      - "How do I use the The Objective Card (Intent Map) template?"
+  - path: "09-sjablonen/07-validatie-bewijs/template.en.md"
+    title: "Template: Validation Report"
+    audience: [Data Scientist]
+    phase: [2, 3]
+    tags: [template, validation]
+    answers:
+      - "How do I use the Template: Validation Report template?"
+  - path: "09-sjablonen/07-validatie-bewijs/validatierapport.en.md"
+    title: "Template 09.06: Validation Report (Evidence Package)"
+    audience: [Data Scientist]
+    phase: [2, 3]
+    tags: [template, validation]
+    answers:
+      - "How do I use the Template 09.06: Validation Report (Evidence Package) template?"
+  - path: "09-sjablonen/08-traceerbaarheid-links/template.en.md"
+    title: "Template: Traceability"
+    phase: [3, 4]
+    tags: [template, traceability]
+    answers:
+      - "How do I use the Template: Traceability template?"
+  - path: "09-sjablonen/10-prompt-engineering/template.en.md"
+    title: Prompt Engineering Template
+    audience: [Data Scientist]
+    phase: [3, 5]
+    tags: ["prompt-engineering", template]
+    answers:
+      - "How do I use the Prompt Engineering Template template?"
+  - path: "09-sjablonen/11-privacy-data/privacyblad.en.md"
+    title: "Template 09.07: Data & Privacy Sheet (GDPR)"
+    audience: [Data Scientist, Guardian]
+    phase: [1, 2]
+    tags: [data, template]
+    answers:
+      - "How do I use the Template 09.07: Data & Privacy Sheet (GDPR) template?"
+  - path: "09-sjablonen/12-cheatsheets/01-project-charter.en.md"
+    title: Cheatsheet — Project Charter
+    audience: [AI Product Manager]
+    phase: [1, 2, 3, 4, 5]
+    tags: ["quick-reference"]
+    answers:
+      - "What is the quick reference for Cheatsheet — Project Charter?"
+  - path: "09-sjablonen/12-cheatsheets/02-risk-pre-scan.en.md"
+    title: "Cheatsheet — Risk Pre-Scan"
+    phase: [1, 2, 3, 4, 5]
+    tags: ["quick-reference", risk]
+    answers:
+      - "What is the quick reference for Cheatsheet — Risk Pre-Scan?"
+  - path: "09-sjablonen/12-cheatsheets/03-golden-set.en.md"
+    title: Cheatsheet — Golden Set
+    audience: [Data Scientist]
+    phase: [1, 2, 3, 4, 5]
+    tags: ["quick-reference"]
+    answers:
+      - "What is the quick reference for Cheatsheet — Golden Set?"
+  - path: "09-sjablonen/12-cheatsheets/04-gate-reviews.en.md"
+    title: Cheatsheet — Gate Reviews
+    audience: [AI Product Manager]
+    phase: [1, 2, 3, 4, 5]
+    tags: ["gate-review", "quick-reference"]
+    answers:
+      - "What is the quick reference for Cheatsheet — Gate Reviews?"
+  - path: "09-sjablonen/12-cheatsheets/05-bewijsstandaarden.en.md"
+    title: Cheatsheet — Evidence Standards
+    phase: [1, 2, 3, 4, 5]
+    tags: ["quick-reference", validation]
+    answers:
+      - "What is the quick reference for Cheatsheet — Evidence Standards?"
+  - path: "09-sjablonen/12-cheatsheets/06-samenwerkingsmodi.en.md"
+    title: Cheatsheet — AI Collaboration Modes
+    phase: [1, 2, 3, 4, 5]
+    tags: ["quick-reference"]
+    answers:
+      - "What is the quick reference for Cheatsheet — AI Collaboration Modes?"
+  - path: "09-sjablonen/12-cheatsheets/07-rode-lijnen.en.md"
+    title: Cheatsheet — Hard Boundaries
+    audience: [Guardian]
+    phase: [1, 2, 3, 4, 5]
+    tags: [ethics, "quick-reference"]
+    answers:
+      - "What is the quick reference for Cheatsheet — Hard Boundaries?"
+  - path: "09-sjablonen/12-cheatsheets/08-incident-respons.en.md"
+    title: Cheatsheet — Incident Response
+    phase: [1, 2, 3, 4, 5]
+    tags: ["quick-reference", security]
+    answers:
+      - "What is the quick reference for Cheatsheet — Incident Response?"
+  - path: "09-sjablonen/12-cheatsheets/index.en.md"
+    title: Cheatsheets — Overview
+    phase: [1, 2, 3, 4, 5]
+    answers:
+      - "What does the Cheatsheets — Overview section contain?"
+  - path: "09-sjablonen/13-project-dagboek/template.en.md"
+    title: Project Diary — Template
+    phase: [1, 2, 3, 4, 5]
+    tags: [template]
+    answers:
+      - "How do I use the Project Diary — Template template?"
+  - path: "09-sjablonen/14-vendor-management/01-selectie-framework.en.md"
+    title: Vendor Selection Framework
+    phase: [2, 3]
+    tags: [template, vendor]
+    answers:
+      - "How do I use the Vendor Selection Framework template?"
+  - path: "09-sjablonen/14-vendor-management/02-rfp-template.en.md"
+    title: RFP Template — AI Services
+    phase: [2, 3]
+    tags: [template, vendor]
+    answers:
+      - "How do I use the RFP Template — AI Services template?"
+  - path: "09-sjablonen/14-vendor-management/03-contract-checklist.en.md"
+    title: Contract Checklist — AI Vendors
+    phase: [2, 3]
+    tags: ["gate-review", template, vendor]
+    answers:
+      - "How do I use the Contract Checklist — AI Vendors template?"
+  - path: "09-sjablonen/14-vendor-management/index.en.md"
+    title: Vendor Management — Overview
+    phase: [2, 3]
+    tags: [vendor]
+    answers:
+      - "What does the Vendor Management — Overview section contain?"
+  - path: "09-sjablonen/15-guardian-review/template.en.md"
+    title: Guardian Review Checklist
+    audience: [Guardian]
+    phase: [1, 2, 3, 4, 5]
+    tags: [ethics, "gate-review", template]
+    answers:
+      - "How do I use the Guardian Review Checklist template?"
+  - path: "09-sjablonen/16-rag-design-canvas/template.en.md"
+    title: RAG Design Canvas
+    audience: [Data Scientist]
+    phase: [3]
+    tags: [rag, template]
+    answers:
+      - "How do I use the RAG Design Canvas template?"
+  - path: "09-sjablonen/17-experiment-ticket/template.en.md"
+    title: Experiment Ticket
+    phase: [1, 2]
+    tags: [template]
+    answers:
+      - "How do I use the Experiment Ticket template?"
+  - path: "09-sjablonen/18-modelgezondheid/template.en.md"
+    title: Monthly Model Health Review
+    audience: [Data Scientist]
+    phase: [5]
+    tags: [governance, monitoring, template]
+    answers:
+      - "How do I use the Monthly Model Health Review template?"
+  - path: "09-sjablonen/index.en.md"
+    title: Templates
+    answers:
+      - "What does the Templates section contain?"
+  - path: "10-doorlopende-verbetering/01-retrospectives.en.md"
+    title: Retrospectives
+    summary: Structured evaluation of the AI system and the team to identify improvement areas and embed them in the next cycle.
+    phase: [1, 2, 3, 4, 5]
+    tags: [agile]
+    answers:
+      - "How does Retrospectives work?"
+      - "What roles do I need?"
+  - path: "10-doorlopende-verbetering/02-kaizen-logs.en.md"
+    title: Kaizen Logs
+    summary: "Continuous log for small, targeted improvements to the AI system so that changes are traceable and repeatable."
+    phase: [1, 2, 3, 4, 5]
+    tags: [agile]
+    answers:
+      - "How does Kaizen Logs work?"
+  - path: "10-doorlopende-verbetering/03-metrics-dashboards.en.md"
+    title: "Metrics & Dashboards"
+    summary: "Setup of layered dashboards and KPIs to make the AI system\\'s health continuously visible for the operations team."
+    phase: [1, 2, 3, 4, 5]
+    answers:
+      - "How does Metrics & Dashboards work?"
+      - "What roles do I need?"
+  - path: "10-doorlopende-verbetering/04-batenrealisatie.en.md"
+    title: Benefits Realisation (Operational)
+    summary: "Quarterly measurement of whether the AI system is delivering on the promised benefits, with corrective action when realisation falls short."
+    audience: [Business Sponsor]
+    phase: [1, 2, 3, 4, 5]
+    answers:
+      - "How does Benefits Realisation (Operational) work?"
+  - path: "10-doorlopende-verbetering/index.en.md"
+    title: Continuous Improvement
+    summary: "Setting up the feedback loop to continuously improve the AI system based on data, user experiences and operational insights."
+    phase: [1, 2, 3, 4, 5]
+    answers:
+      - "What does the Continuous Improvement section contain?"
+  - path: "11-project-afsluiting/01-lessons-learned.en.md"
+    title: Lessons Learned
+    summary: Structuring and documenting insights gained so that future AI projects benefit from them.
+    phase: [5]
+    answers:
+      - "How does Lessons Learned work?"
+  - path: "11-project-afsluiting/02-overdracht-procedures.en.md"
+    title: Handover Procedures
+    summary: "Structured handover of the AI system to the operations organisation ensuring continuity, compliance and quality are guaranteed."
+    phase: [5]
+    answers:
+      - "How does Handover Procedures work?"
+  - path: "11-project-afsluiting/03-batenrealisatie.en.md"
+    title: Benefits Realisation (Project Closure)
+    summary: "Final measurement of promised benefits at project closure, with reporting to the steering committee and handover of the benefits realisation plan."
+    audience: [Business Sponsor]
+    phase: [5]
+    answers:
+      - "How does Benefits Realisation (Project Closure) work?"
+  - path: "11-project-afsluiting/index.en.md"
+    title: Project Closure
+    summary: "Formal closure procedure for AI projects, focused on securing knowledge and transferring responsibilities to the operations organisation."
+    phase: [5]
+    answers:
+      - "What does the Project Closure section contain?"
+  - path: "12-90-dagen-roadmap/01-fase-1-richt-focus-rationaliseer.en.md"
+    title: "Focus, Direct & Rationalise (Days 1-30)"
+    summary: "In the first 30 days, create space and insight by stopping what does not work and making sharp choices on where to invest."
+    audience: [Business Sponsor]
+    answers:
+      - "What does Focus, Direct & Rationalise (Days 1-30) entail?"
+  - path: "12-90-dagen-roadmap/02-fase-2-herontwerp-pilot.en.md"
+    title: "Redesign & Pilot (Days 31-60)"
+    summary: "In days 31-60, redesign the work process around AI and build and test the first pilot in operations."
+    audience: [Business Sponsor]
+    answers:
+      - "What does Redesign & Pilot (Days 31-60) entail?"
+  - path: "12-90-dagen-roadmap/03-fase-3-codificeer-schaal.en.md"
+    title: "Codify & Scale (Days 61-90)"
+    summary: "In days 61-90, standardise successful pilot results and build the foundation for scalable AI deployment."
+    audience: [Business Sponsor]
+    answers:
+      - "What does Codify & Scale (Days 61-90) entail?"
+  - path: "12-90-dagen-roadmap/04-capaciteits-uitkomsten.en.md"
+    title: Capacity Outcomes
+    summary: "Description of the competencies and capacities built at each organisational level upon completion of the 90-day roadmap."
+    audience: [Business Sponsor]
+    answers:
+      - "What does Capacity Outcomes entail?"
+  - path: "12-90-dagen-roadmap/index.en.md"
+    title: "Quick Start: AI Project in 90 Days"
+    summary: "Structured roadmap to go from AI ambition to production-ready deployment in three phases (Focus, Pilot, Scale) within 90 days."
+    audience: [Business Sponsor]
+    answers:
+      - "What does the Quick Start: AI Project in 90 Days section contain?"
+  - path: "13-organisatieprofielen/01-ai-verkenner.en.md"
+    title: The Explorer
+    tags: [onboarding]
+    answers:
+      - "What does The Explorer entail?"
+  - path: "13-organisatieprofielen/02-ai-piloot.en.md"
+    title: The Builder
+    answers:
+      - "What does The Builder entail?"
+  - path: "13-organisatieprofielen/03-ai-expert.en.md"
+    title: The Visionary
+    answers:
+      - "What does The Visionary entail?"
+  - path: "13-organisatieprofielen/04-profiel-beoordeling.en.md"
+    title: Profile Assessment
+    answers:
+      - "What is Profile Assessment?"
+  - path: "13-organisatieprofielen/index.en.md"
+    title: Maturity Levels
+    answers:
+      - "What does the Maturity Levels section contain?"
+  - path: "14-drie-tracks/01-strategische-heruitvinding.en.md"
+    title: Strategic Reinvention
+    answers:
+      - "What does Strategic Reinvention entail?"
+  - path: "14-drie-tracks/02-operationele-herontwerp.en.md"
+    title: Operational Redesign
+    answers:
+      - "What does Operational Redesign entail?"
+  - path: "14-drie-tracks/03-ai-first-bedrijfsmodel.en.md"
+    title: "AI-First Business Model"
+    audience: [Data Scientist]
+    tags: [governance]
+    answers:
+      - "What does AI-First Business Model entail?"
+  - path: "14-drie-tracks/04-track-sequentie.en.md"
+    title: Track Sequence
+    answers:
+      - "What does Track Sequence entail?"
+  - path: "14-drie-tracks/index.en.md"
+    title: Three Tracks
+    answers:
+      - "What does the Three Tracks section contain?"
+  - path: "15-accelerators/01-strategische-heruitvinding-accelerators.en.md"
+    title: Strategic Reinvention Accelerators
+    answers:
+      - "What does Strategic Reinvention Accelerators entail?"
+  - path: "15-accelerators/02-operationele-herontwerp-accelerators.en.md"
+    title: Operational Redesign Accelerators
+    answers:
+      - "What does Operational Redesign Accelerators entail?"
+  - path: "15-accelerators/03-bedrijfsmodel-accelerators.en.md"
+    title: Business Model Accelerators
+    audience: [Data Scientist]
+    tags: [governance]
+    answers:
+      - "What does Business Model Accelerators entail?"
+  - path: "15-accelerators/index.en.md"
+    title: Accelerators
+    answers:
+      - "What does the Accelerators section contain?"
+  - path: "16-bronnen/index.en.md"
+    title: "Sources & Inspiration"
+    answers:
+      - "What does the Sources & Inspiration section contain?"
+  - path: "17-bijlagen/experimentele-coordinatiemodellen.en.md"
+    title: Experimental Coordination Models
+    audience: [Data Scientist]
+    tags: [governance]
+    answers:
+      - "What is Experimental Coordination Models?"
+  - path: "17-bijlagen/externe-evidence-dora.en.md"
+    title: "External Evidence: DORA (DevOps Research & Assessment)"
+    tags: [validation]
+    answers:
+      - "What is External Evidence: DORA (DevOps Research & Assessment)?"
+  - path: "17-bijlagen/index.en.md"
+    title: Reference
+    answers:
+      - "What does the Reference section contain?"
+  - path: "17-bijlagen/praktijkvoorbeelden.en.md"
+    title: Case Studies
+    answers:
+      - "What is Case Studies?"
+  - path: "17-bijlagen/valkuilen-catalogus.en.md"
+    title: Pitfalls Catalogue for AI Projects
+    answers:
+      - "What is Pitfalls Catalogue for AI Projects?"
+  - path: feedback.en.md
+    title: Feedback
+    answers:
+      - "What is Feedback?"
+  - path: index.en.md
+    title: Welcome to the AI Project Blueprint
+    answers:
+      - "What does the Welcome to the AI Project Blueprint section contain?"
+  - path: over.en.md
+    title: About the AI Project Blueprint
+    answers:
+      - "What does the About the AI Project Blueprint section contain?"
+  - path: "release-notes.en.md"
+    title: Version History
+    answers:
+      - "What is Version History?"
+  - path: termenlijst/index.en.md
+    title: Glossary
+    answers:
+      - "What does the Glossary section contain?"

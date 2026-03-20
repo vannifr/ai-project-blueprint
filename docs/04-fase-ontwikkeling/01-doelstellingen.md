@@ -4,6 +4,8 @@ type: objectives
 layer: 2
 phase: [3]
 roles: [AI Product Manager]
+summary: 'Doelstellingen van Fase 3: het bouwen van een robuuste, productiewaardige AI-oplossing die voldoet aan alle kwaliteits- en veiligheidseisen.'
+answers: [Wat is het doel van deze fase?]
 ---
 
 # 1. Realisatie

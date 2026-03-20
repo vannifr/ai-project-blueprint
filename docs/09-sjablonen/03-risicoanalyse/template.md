@@ -6,6 +6,7 @@ layer: 3
 phase: [1, 2]
 roles: [Guardian]
 tags: [risk, template]
+answers: ['Hoe gebruik ik het Sjabloon: Risico-Inventarisatie sjabloon?']
 ---
 
 # 1. Sjabloon: Risico-Inventarisatie

@@ -5,6 +5,7 @@ layer: 3
 phase: [1, 2]
 roles: [Data Scientist, Guardian]
 tags: [data, template]
+answers: ['How do I use the Template 09.07: Data & Privacy Sheet (GDPR) template?']
 ---
 
 # 1. Template 09.07: Data & Privacy Sheet (GDPR)

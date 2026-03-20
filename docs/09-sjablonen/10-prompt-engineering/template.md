@@ -5,6 +5,7 @@ layer: 3
 phase: [3, 5]
 roles: [Data Scientist]
 tags: [prompt-engineering, template]
+answers: [Hoe gebruik ik het Prompt Engineering Sjabloon sjabloon?]
 ---
 
 # 1. Prompt Engineering Sjabloon

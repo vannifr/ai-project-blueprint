@@ -4,6 +4,8 @@ description: 'Managementsamenvatting van de AI Project Blauwdruk: waarom AI-proj
 type: strategic
 layer: 1
 roles: [Business Sponsor]
+summary: 'Overzicht op directieniveau van de AI Project Blauwdruk: waarom AI-projecten falen en hoe deze methodiek dat voorkomt.'
+answers: [Wat houdt Managementsamenvatting in?]
 ---
 
 # 1. Managementsamenvatting

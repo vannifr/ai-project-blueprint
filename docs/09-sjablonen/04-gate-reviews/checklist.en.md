@@ -5,6 +5,7 @@ layer: 3
 phase: [1, 2, 3, 4, 5]
 roles: [AI Product Manager]
 tags: [gate-review, template]
+answers: ['How do I use the Checklist: Gate Reviews template?']
 ---
 
 # 1. Checklist: Gate Reviews

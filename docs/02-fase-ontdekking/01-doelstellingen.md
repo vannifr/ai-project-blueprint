@@ -5,6 +5,8 @@ type: objectives
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: 'Doelstellingen, kernactiviteiten en opleveringen van Fase 1: het juiste probleem identificeren en de haalbaarheid van een AI-project toetsen.'
+answers: [Wat is het doel van deze fase?]
 ---
 
 # 1. Verkenning & Strategie

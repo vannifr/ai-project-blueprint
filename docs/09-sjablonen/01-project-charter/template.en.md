@@ -6,6 +6,7 @@ layer: 3
 phase: [1]
 roles: [AI Product Manager]
 tags: [template]
+answers: [How do I use the The Project Charter template?]
 ---
 
 # 1. The Project Charter

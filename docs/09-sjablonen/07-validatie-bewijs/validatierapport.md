@@ -5,6 +5,7 @@ layer: 3
 phase: [2, 3]
 roles: [Data Scientist]
 tags: [template, validation]
+answers: ['Hoe gebruik ik het Sjabloon 09.06: Validatierapport (Bewijs‑pakket) sjabloon?']
 ---
 
 # 1. Sjabloon 09.06: Validatierapport (Bewijs‑pakket)

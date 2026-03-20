@@ -3,6 +3,8 @@ versie: '1.1'
 type: technical
 layer: 3
 roles: [Tech Lead]
+summary: Definition of what "production-ready" means for AI solutions, with a progressive path from Basic to Advanced to Scalable MLOps.
+answers: [What are the technical standards for Technical Standards & Delivery Criteria?]
 ---
 
 # 1. Technical Standards & Delivery Criteria

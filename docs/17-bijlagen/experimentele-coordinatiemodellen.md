@@ -1,9 +1,11 @@
 ---
 versie: '1.0'
+pdf: false
 type: reference
 layer: 3
-tags: [governance, agile, risk]
-pdf: false
+roles: [Data Scientist]
+tags: [governance]
+answers: [Wat is Experimentele Coordinatiemodellen?]
 ---
 
 # 1. Experimentele Coordinatiemodellen

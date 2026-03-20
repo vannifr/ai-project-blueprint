@@ -3,6 +3,8 @@ versie: '1.1'
 type: foundation
 layer: 1
 tags: [validation]
+summary: Definition of minimum evidence standards so that Gate Reviews are based on verifiable criteria rather than intuition.
+answers: [What does Evidence Standards entail?, How much validation is sufficient?]
 ---
 
 # 1. Evidence Standards

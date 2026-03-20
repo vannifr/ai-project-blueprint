@@ -4,6 +4,7 @@ type: template
 layer: 3
 phase: [3, 4]
 tags: [template, traceability]
+answers: ['How do I use the Template: Traceability template?']
 ---
 
 # 1. Template: Traceability

@@ -3,6 +3,8 @@ versie: '1.0'
 type: guide
 layer: 2
 tags: [onboarding]
+summary: Dit plan begeleidt teams stap voor stap door hun **eerste AI-project in 30 dagen**. Het is een concrete, dagelijkse checklist die u van probleemdefiniëring tot een werkend prototype en Gate Review…
+answers: [Hoe werkt 30-Dagen Dag-tot-Dag Plan?, Welke rollen heb ik nodig?]
 ---
 
 # 30-Dagen Dag-tot-Dag Plan

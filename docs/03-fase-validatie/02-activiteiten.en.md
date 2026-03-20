@@ -5,6 +5,8 @@ layer: 2
 phase: [2]
 roles: [AI Product Manager, Data Scientist]
 tags: [validation]
+summary: Overview of the core activities and role assignments during the Validation phase, including the Validation Pilot (PoV) and Business Case preparation.
+answers: [What activities do I perform in this phase?, How much validation is sufficient?]
 ---
 
 # 1. Core Activities & Roles (Validation)

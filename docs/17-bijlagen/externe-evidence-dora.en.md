@@ -3,6 +3,7 @@ versie: '1.0'
 type: reference
 layer: 3
 tags: [validation]
+answers: ['What is External Evidence: DORA (DevOps Research & Assessment)?']
 ---
 
 # 1. External Evidence: DORA (DevOps Research & Assessment)

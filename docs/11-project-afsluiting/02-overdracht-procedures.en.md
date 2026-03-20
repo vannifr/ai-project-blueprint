@@ -3,6 +3,8 @@ versie: '1.0'
 type: guide
 layer: 2
 phase: [5]
+summary: Structured handover of the AI system to the operations organisation ensuring continuity, compliance and quality are guaranteed.
+answers: [How does Handover Procedures work?]
 ---
 
 # 2. Handover Procedures

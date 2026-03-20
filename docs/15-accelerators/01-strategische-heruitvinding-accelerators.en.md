@@ -2,6 +2,7 @@
 versie: '1.0'
 type: strategic
 layer: 2
+answers: [What does Strategic Reinvention Accelerators entail?]
 ---
 
 # 1. Strategic Reinvention Accelerators

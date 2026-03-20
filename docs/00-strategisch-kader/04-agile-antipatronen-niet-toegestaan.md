@@ -3,6 +3,8 @@ versie: '1.0'
 type: strategic
 layer: 1
 tags: [agile]
+summary: Overzicht van de "NOT DONE" anti-patronen die in AI-projecten absoluut vermeden moeten worden om falen en compliance-issues te voorkomen.
+answers: [Wat houdt Anti-patronen in AI-projecten in?]
 ---
 
 # 1. Anti-patronen in AI-projecten

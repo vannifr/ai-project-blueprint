@@ -3,6 +3,8 @@ versie: '1.0'
 type: technical
 layer: 3
 roles: [Tech Lead]
+summary: Definitie van wat "productiewaardig" betekent voor AI-oplossingen, met een opbouwend pad van Basis naar Gevorderd naar Schaalbaar MLOps.
+answers: [Wat zijn de technische standaarden voor Technische Standaarden & Leveringscriteria?]
 ---
 
 # 1. Technische Standaarden & Leveringscriteria

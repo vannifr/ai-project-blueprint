@@ -2,6 +2,8 @@
 versie: '1.1'
 type: foundation
 layer: 1
+summary: Description of the Specification-First Method (Spec-Driven Development) where expectations are formally recorded before building begins.
+answers: [What does Specification-First Method entail?]
 ---
 
 # 1. Specification-First Method

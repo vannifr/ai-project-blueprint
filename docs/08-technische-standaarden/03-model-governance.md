@@ -4,6 +4,8 @@ type: technical
 layer: 3
 roles: [Data Scientist, Tech Lead]
 tags: [governance]
+summary: 'Richtlijnen voor het beheren van AI-modellen gedurende hun levenscyclus: van ontwikkeling tot productie en uitfasering.'
+answers: [Wat zijn de technische standaarden voor Model Governance?]
 ---
 
 # 1. Model Governance

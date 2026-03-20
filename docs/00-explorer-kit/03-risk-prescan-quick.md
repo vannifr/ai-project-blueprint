@@ -3,6 +3,7 @@ versie: '1.0'
 type: guide
 layer: 2
 tags: [onboarding, risk]
+answers: [Hoe werkt Risk Pre-Scan Quick?]
 ---
 
 # Risk Pre-Scan Quick

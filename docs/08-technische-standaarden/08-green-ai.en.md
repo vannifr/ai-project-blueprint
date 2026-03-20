@@ -4,6 +4,8 @@ type: technical
 layer: 3
 roles: [Tech Lead]
 tags: [cost]
+summary: Guidelines for reducing the ecological footprint of AI systems and embedding sustainability as a strategic design choice.
+answers: [What are the technical standards for Green AI & Sustainability?]
 ---
 
 # Green AI & Sustainability

@@ -2,6 +2,7 @@
 versie: '1.0'
 type: strategic
 layer: 1
+answers: [Wat houdt De Visionair in?]
 ---
 
 # 1. De Visionair

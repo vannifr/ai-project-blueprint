@@ -4,6 +4,8 @@ description: 'Decision matrix: who decides what at each gate, who has veto right
 type: template
 layer: 1
 tags: [governance, template]
+summary: Explicit record of who makes which decision at each gate and who can block a decision.
+answers: [How do I use the Decision Matrix template?, Who decides what in an AI project?]
 ---
 
 # Decision Matrix

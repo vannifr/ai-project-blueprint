@@ -5,6 +5,8 @@ layer: 2
 phase: [5]
 roles: [AI Product Manager]
 tags: [monitoring]
+summary: Overview of core activities and role assignments during the Monitoring & Optimisation phase, from operational monitoring to drift detection and cost control.
+answers: [What activities do I perform in this phase?, What roles do I need?]
 ---
 
 # 1. Core Activities & Roles (Monitoring & Optimisation)

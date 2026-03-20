@@ -4,6 +4,8 @@ type: technical
 layer: 3
 roles: [Tech Lead]
 tags: [cost]
+summary: Richtlijnen om de ecologische voetafdruk van AI-systemen te verkleinen en duurzaamheid als strategische ontwerpkeuze in te bedden.
+answers: [Wat zijn de technische standaarden voor Green AI & Duurzaamheid?]
 ---
 
 # Green AI & Duurzaamheid

@@ -6,6 +6,7 @@ layer: 3
 phase: [1, 2, 3, 4, 5]
 roles: [Guardian]
 tags: [ethics, quick-reference]
+answers: [Wat is de snelle referentie voor Cheatsheet — Harde Grenzen?]
 ---
 
 # Cheatsheet — Harde Grenzen

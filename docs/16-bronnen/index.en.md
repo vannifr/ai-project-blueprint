@@ -2,6 +2,7 @@
 versie: '1.0'
 type: index
 layer: 3
+answers: [What does the Sources & Inspiration section contain?]
 ---
 
 # 1. Sources & Inspiration

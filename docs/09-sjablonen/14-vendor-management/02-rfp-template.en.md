@@ -5,6 +5,7 @@ type: template
 layer: 3
 phase: [2, 3]
 tags: [template, vendor]
+answers: [How do I use the RFP Template — AI Services template?]
 ---
 
 # RFP Template — AI Services

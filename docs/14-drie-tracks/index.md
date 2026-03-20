@@ -2,6 +2,7 @@
 versie: '1.0'
 type: index
 layer: 1
+answers: [Wat bevat het onderdeel Drie Tracks?]
 ---
 
 # 1. Drie Tracks

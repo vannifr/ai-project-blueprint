@@ -3,6 +3,8 @@ versie: '1.0'
 type: guide
 layer: 2
 phase: [1, 2, 3, 4, 5]
+summary: 'Setup of layered dashboards and KPIs to make the AI system's health continuously visible for the operations team.'
+answers: ["How does Metrics & Dashboards work?", "What roles do I need?"]
 ---
 
 # 3. Metrics & Dashboards

@@ -5,6 +5,8 @@ layer: 2
 phase: [2]
 roles: [AI Product Manager, Data Scientist]
 tags: [validation]
+summary: Overzicht van de kernactiviteiten en rolverdelingen tijdens de Validatiefase, inclusief de Validatiepilot (PoV) en Business Case opstelling.
+answers: [Welke activiteiten voer ik uit in deze fase?, Hoeveel validatie is voldoende?]
 ---
 
 # 1. Kernactiviteiten & Rollen (Validatie)

@@ -5,6 +5,7 @@ layer: 3
 phase: [1, 2]
 roles: [Guardian]
 tags: [risk, template]
+answers: [How do I use the Risk Pre-Scan (Gate 1 Checklist) template?]
 ---
 
 # 1. Risk Pre-Scan (Gate 1 Checklist)

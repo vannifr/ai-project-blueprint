@@ -4,6 +4,8 @@ type: playbook
 layer: 3
 roles: [Guardian]
 tags: [eu-ai-act, playbook, security]
+summary: 'Vier gedetailleerde stappenplannen voor de meest voorkomende AI-incidenten: prestatieverloop, bias, beveiligingsincidenten en datakwaliteit.'
+answers: [Hoe voer ik Incident Playbooks uit?]
 ---
 
 # Incident Playbooks

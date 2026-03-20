@@ -5,6 +5,7 @@ type: cheatsheet
 layer: 3
 phase: [1, 2, 3, 4, 5]
 tags: [quick-reference, validation]
+answers: [Wat is de snelle referentie voor Cheatsheet — Bewijsstandaarden?]
 ---
 
 # Cheatsheet — Bewijsstandaarden

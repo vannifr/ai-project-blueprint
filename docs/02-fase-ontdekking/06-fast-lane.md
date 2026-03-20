@@ -4,6 +4,8 @@ type: guide
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: Versneld traject voor laag-risico AI-toepassingen om veilig en snel waarde te testen met minimale governance-overhead.
+answers: [Hoe werkt Snelle Route (Fast Lane)?, Hoe classificeer ik het risico van mijn AI-project?]
 ---
 
 # 1. Snelle Route (Fast Lane)

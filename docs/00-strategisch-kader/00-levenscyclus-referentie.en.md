@@ -3,6 +3,8 @@ versie: '1.0'
 description: 'Quick reference card for the 5-phase AI lifecycle: goal per phase, gate criteria, core activity and primary template — everything on one page.'
 type: strategic
 layer: 1
+summary: One-page overview of the five AI lifecycle phases with the goal, gate criteria, core activity and primary template per phase.
+answers: [What does AI Project Cycle — Quick Reference entail?]
 ---
 
 # AI Project Cycle — Quick Reference

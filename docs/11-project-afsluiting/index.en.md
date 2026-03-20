@@ -3,6 +3,8 @@ versie: '1.0'
 type: index
 layer: 2
 phase: [5]
+summary: Formal closure procedure for AI projects, focused on securing knowledge and transferring responsibilities to the operations organisation.
+answers: [What does the Project Closure section contain?]
 ---
 
 # 1. Project Closure

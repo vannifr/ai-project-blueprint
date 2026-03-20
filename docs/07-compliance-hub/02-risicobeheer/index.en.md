@@ -4,6 +4,8 @@ type: index
 layer: 3
 roles: [Guardian]
 tags: [eu-ai-act, risk]
+summary: Systematic approach for identifying, assessing and mitigating risks throughout the AI lifecycle.
+answers: [What does the Risk Management section contain?, How do I classify the risk of my AI project?]
 ---
 
 # 1. Risk Management

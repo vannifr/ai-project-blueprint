@@ -4,6 +4,8 @@ type: guide
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: Accelerated track for low-risk AI applications to safely and quickly test value with minimal governance overhead.
+answers: [How does Fast Lane work?, How do I classify the risk of my AI project?]
 ---
 
 # 1. Fast Lane

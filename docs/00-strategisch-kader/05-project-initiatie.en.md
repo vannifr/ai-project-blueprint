@@ -2,6 +2,8 @@
 versie: '1.1'
 type: strategic
 layer: 1
+summary: Guidelines for formally starting an AI project with a clear Project Charter, roles and responsibilities.
+answers: [What does Project Initiation entail?, What roles do I need?]
 ---
 
 # 1. Project Initiation

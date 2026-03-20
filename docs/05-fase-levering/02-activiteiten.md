@@ -4,6 +4,8 @@ type: activities
 layer: 2
 phase: [4]
 roles: [AI Product Manager]
+summary: Overzicht van de kernactiviteiten en rolverdelingen tijdens de Leveringsfase, van technische integratie tot gebruikerstraining en acceptatie.
+answers: [Welke activiteiten voer ik uit in deze fase?, Welke rollen heb ik nodig?]
 ---
 
 # 1. Kernactiviteiten & Rollen (Levering)

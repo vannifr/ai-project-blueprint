@@ -1,6 +1,8 @@
 """Blueprint MCP Server — exposes AI Project Blueprint as callable tools.
 
 Tools:
+    - answer_question: Find relevant pages for a natural language question
+    - get_template_for_context: Get templates for a role + phase combination
     - get_phase_guidance: Phase objectives, activities, deliverables
     - get_template: Retrieve a template by name
     - check_gate_readiness: Compare evidence against gate checklist
@@ -80,6 +82,87 @@ def _format_doc_full(doc) -> str:
 
 
 # ─── Tools ────────────────────────────────────────────────────────────────────
+
+
+@mcp.tool()
+def answer_question(question: str) -> str:
+    """Find the most relevant Blueprint page(s) for a user question.
+
+    Searches across all document answers, summaries, and titles to find
+    the best matches. Returns up to 3 results with summaries and full content
+    of the top match.
+
+    Args:
+        question: Natural language question (e.g. "How do I classify the risk of my AI project?")
+    """
+    index = get_index()
+    results = index.search_by_question(question, limit=3)
+
+    if not results:
+        # Fall back to keyword search
+        results = index.search(question, limit=3)
+
+    if not results:
+        return f"No relevant pages found for: '{question}'"
+
+    sections = []
+
+    # Top result: full content
+    top = results[0]
+    summary_line = f"**Summary:** {top.summary}\n\n" if top.summary else ""
+    answers_line = ""
+    if top.answers:
+        answers_line = "**Questions this page answers:**\n" + "\n".join(f"- {a}" for a in top.answers) + "\n\n"
+    sections.append(
+        f"## Best match: {top.title}\n\n"
+        f"_Source: `{top.path}`_\n\n"
+        f"{summary_line}{answers_line}"
+        f"{top.body}"
+    )
+
+    # Additional results: summary only
+    if len(results) > 1:
+        lines = ["## Also relevant:\n"]
+        for doc in results[1:]:
+            s = f" — {doc.summary}" if doc.summary else ""
+            lines.append(f"- **{doc.title}** (`{doc.path}`){s}")
+        sections.append("\n".join(lines))
+
+    return "\n\n---\n\n".join(sections)
+
+
+@mcp.tool()
+def get_template_for_context(role: str, phase: int) -> str:
+    """Get recommended templates for a specific role and lifecycle phase.
+
+    Args:
+        role: Role name (e.g. "AI Product Manager", "Guardian", "Tech Lead")
+        phase: Lifecycle phase number (1-5)
+    """
+    index = get_index()
+
+    templates = [
+        d for d in index.docs
+        if d.type == "template"
+        and phase in d.phases
+        and (not d.roles or role in d.roles)
+    ]
+
+    if not templates:
+        # Broader search: any template for this phase
+        templates = [d for d in index.docs if d.type == "template" and phase in d.phases]
+
+    if not templates:
+        return f"No templates found for role '{role}' in phase {phase}."
+
+    phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
+    lines = [f"## Templates for {role} in Phase {phase} ({phase_names.get(phase, '')})\n"]
+
+    for doc in templates:
+        s = f": {doc.summary}" if doc.summary else ""
+        lines.append(f"- **{doc.title}** (`{doc.path}`){s}")
+
+    return "\n".join(lines)
 
 
 @mcp.tool()

@@ -4,6 +4,8 @@ type: foundation
 layer: 1
 roles: [Data Scientist]
 tags: [governance, validation]
+summary: Description of the three validation dimensions (syntactic, behavioural, goal-oriented) that every change to prompts or RAG must pass through.
+answers: [What does Validation Model entail?, How much validation is sufficient?]
 ---
 
 # 1. Validation Model

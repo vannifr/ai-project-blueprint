@@ -4,6 +4,8 @@ type: assessment
 layer: 2
 phase: [1]
 roles: [AI Product Manager]
+summary: Bepalen welke AI-Samenwerkingsmodus (1 t/m 5) passend is voor uw gebruikscasus, als basis voor governance- en toezichtseisen.
+answers: [Wat is Moduskeuze Beoordeling?, Wie beslist wat in een AI-project?]
 ---
 
 # 5. Moduskeuze Beoordeling

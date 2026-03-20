@@ -4,6 +4,8 @@ description: 'Technische standaarden voor AI-systemen: MLOps, datapipelines, mod
 type: index
 layer: 3
 roles: [Tech Lead]
+summary: Overzicht van de technische blauwdrukken en kwaliteitskaders voor AI-engineering, van modelselectie tot MLOps.
+answers: [Wat bevat het onderdeel Technische Standaarden?]
 ---
 
 # 1. Technische Standaarden

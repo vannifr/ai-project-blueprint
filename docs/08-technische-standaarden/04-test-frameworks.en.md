@@ -3,6 +3,8 @@ versie: '1.1'
 type: technical
 layer: 3
 roles: [Tech Lead]
+summary: Testing approach for AI systems that combines deterministic tests with evaluation of probabilistic behaviour.
+answers: [What are the technical standards for Test Frameworks?]
 ---
 
 # 1. Test Frameworks

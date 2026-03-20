@@ -4,6 +4,8 @@ type: deliverables
 layer: 2
 phase: [3]
 roles: [AI Product Manager]
+summary: Overview of mandatory deliverables and Gate 3 criteria that determine whether the AI system is production-ready.
+answers: [What do I deliver at the end of this phase?]
 ---
 
 # 1. Deliverables & Gate 3 (Production-Ready) (Development)

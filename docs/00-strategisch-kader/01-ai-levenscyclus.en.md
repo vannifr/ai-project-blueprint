@@ -3,6 +3,8 @@ versie: '1.1'
 description: 'The AI lifecycle model: seven sequential phases from Discovery through Closure. Learn how each phase connects objectives, deliverables, and governance gates in an AI project.'
 type: strategic
 layer: 1
+summary: Description of the complete five-phase AI lifecycle that serves as the central roadmap for every AI project.
+answers: [What does AI Project Cycle entail?]
 ---
 
 # 1. AI Project Cycle

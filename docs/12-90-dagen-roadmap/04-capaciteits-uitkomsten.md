@@ -3,6 +3,8 @@ versie: '1.0'
 type: strategic
 layer: 2
 roles: [Business Sponsor]
+summary: Beschrijving van de competenties en capaciteiten die na de 90-dagen-roadmap op elk organisatieniveau zijn opgebouwd.
+answers: [Wat houdt Capaciteits-uitkomsten in?]
 ---
 
 # 4. Capaciteits-uitkomsten

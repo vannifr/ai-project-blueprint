@@ -5,6 +5,7 @@ type: template
 layer: 3
 phase: [2, 3]
 tags: [template, vendor]
+answers: [Hoe gebruik ik het RFP Template — AI-diensten sjabloon?]
 ---
 
 # RFP Template — AI-diensten

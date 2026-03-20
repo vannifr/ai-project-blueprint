@@ -5,6 +5,7 @@ type: template
 layer: 3
 phase: [1, 2, 3, 4, 5]
 tags: [template]
+answers: [Hoe gebruik ik het Project Dagboek — Template sjabloon?]
 ---
 
 # Project Dagboek — Template

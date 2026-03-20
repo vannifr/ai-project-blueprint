@@ -4,6 +4,8 @@ type: compliance
 layer: 3
 roles: [Data Scientist, Guardian]
 tags: [eu-ai-act, validation]
+summary: Specificatie van de eisen waaraan een Validatierapport moet voldoen voor formeel akkoord op ingebruikname vanuit wettelijk en ethisch perspectief.
+answers: [Wat zijn de compliance-eisen voor Validatie Eisen (Compliance)?, Hoeveel validatie is voldoende?]
 ---
 
 # 1. Validatie Eisen (Compliance)

@@ -3,6 +3,8 @@ versie: '1.1'
 type: strategic
 layer: 1
 tags: [agile]
+summary: Overview of the "NOT DONE" anti-patterns that must be avoided in AI projects to prevent failure and compliance issues.
+answers: [What does Anti-patterns in AI Projects entail?]
 ---
 
 # 1. Anti-patterns in AI Projects
