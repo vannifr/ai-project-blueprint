@@ -74,6 +74,14 @@ jobs:
       - name: Generate llms-full.txt exports
         run: python3 scripts/export_playbook.py
 
+      - name: Commit updated LLM exports if changed
+        run: |
+          if ! git diff --quiet docs/llms-full.txt docs/llms-full-nl.txt; then
+            git add docs/llms-full.txt docs/llms-full-nl.txt
+            git commit -m "chore: regenerate llms-full exports [skip ci]"
+            git push
+          fi
+
       - name: Build MkDocs (Strict, NL + EN)
         run: MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true HTMLPROOFER_ENABLED=false mkdocs build --strict
 
