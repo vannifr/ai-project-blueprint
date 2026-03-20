@@ -19,6 +19,9 @@ Dit sjabloon dient voor het vastleggen van de testresultaten van de **Validatiep
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/07-validatie-bewijs/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ### Test-Setup
 
 - **Datum van de proef:** \[DD-MM-JJJJ\]

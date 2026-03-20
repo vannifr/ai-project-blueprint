@@ -28,6 +28,9 @@ Dit sjabloon dient voor de formele start van een AI-initiatief. Het helpt om de 
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/01-project-charter/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 **Sponsor:** \[Naam Opdrachtgever\]
 
 ______________________________________________________________________

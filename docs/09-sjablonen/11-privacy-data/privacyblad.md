@@ -10,6 +10,9 @@ answers: ['Hoe gebruik ik het Sjabloon 09.07: Data & Privacyblad (AVG/GDPR) sjab
 
 # 1. Sjabloon 09.07: Data & Privacyblad (AVG/GDPR)
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/11-privacy-data/privacyblad.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ## 1. Gebruikscasus & doelbinding
 
 - **Project:** \[naam\]

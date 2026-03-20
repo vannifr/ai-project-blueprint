@@ -10,6 +10,9 @@ answers: ['How do I use the Template 09.07: Data & Privacy Sheet (GDPR) template
 
 # 1. Template 09.07: Data & Privacy Sheet (GDPR)
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/11-privacy-data/privacyblad.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ## 1. Use Case & Purpose Limitation
 
 - **Project:** \[name\]

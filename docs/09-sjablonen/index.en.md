@@ -10,6 +10,9 @@ answers: [What does the Templates section contain?]
 
 This section contains reusable templates for different phases of the AI project. These documents are designed to be copied directly into your wiki, knowledge base or document environment.
 
+!!! tip "Download & use with AI assistant"
+    Every template has a **Download as Markdown** button. Download the file and open it in your favourite editor or AI assistant (such as ChatGPT, Claude or Copilot) to auto-fill the fields based on your project context.
+
 ______________________________________________________________________
 
 ## 1. Available Templates

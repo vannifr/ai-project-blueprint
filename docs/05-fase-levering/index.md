@@ -26,6 +26,7 @@ ______________________________________________________________________
 - [Activiteiten](02-activiteiten.md) — Go-live planning, training, human oversight protocollen
 - [Opleveringen](03-afleveringen.md) — Deployment checklist, overdrachtsdocumentatie
 - [Traceerbaarheid](05-traceerbaarheid.md) — Koppeling van doelen aan implementatie en bewijs
+- [Adoptie Management](06-adoptie-management.md) — ADKAR-raamwerk voor AI-adoptie en weerstandsanalyse
 - [Overdracht Checklist](04-sjablonen/overdracht-checklist.md) — Template voor formele overdracht
 
 ______________________________________________________________________

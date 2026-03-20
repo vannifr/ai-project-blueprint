@@ -17,6 +17,9 @@ Het identificeren en beoordelen van risico's op het gebied van techniek, organis
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/03-risicoanalyse/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ### Risicoclassificatie
 
 *Kies de categorie conform de EU AI Act:*

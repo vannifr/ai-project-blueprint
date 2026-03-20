@@ -19,6 +19,9 @@ This template serves to record the test results of the **Validation Pilot**. It 
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/07-validatie-bewijs/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ### Test Setup
 
 - **Date of the pilot:** \[DD-MM-YYYY\]

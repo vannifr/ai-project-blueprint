@@ -17,6 +17,9 @@ De Guardian bewaakt de ethische en juridische kaders van een AI-systeem. Deze ch
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/15-guardian-review/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ## 1. Mandaat & Onafhankelijkheid
 
 Zorg vóór de eerste review dat het mandaat helder is vastgelegd.

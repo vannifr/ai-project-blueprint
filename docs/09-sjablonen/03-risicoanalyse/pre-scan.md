@@ -16,6 +16,9 @@ Dit sjabloon dient voor de initiële risico-inventarisatie in **Verkenning & Str
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/03-risicoanalyse/pre-scan.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 **Project:** \[Naam Project\]
 **Ingevuld door:** \[Naam\]
 

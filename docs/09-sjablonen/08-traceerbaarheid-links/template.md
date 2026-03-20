@@ -15,6 +15,9 @@ Het waarborgen van de verbinding tussen de menselijke intentie, de technische im
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/08-traceerbaarheid-links/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ### Traceerbaarheidsmatrix
 
 | Doel-ID  | Doeldefinitie (Intent)         | Prompt ID     | Validatierapport ID | Status       |

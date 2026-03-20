@@ -16,6 +16,9 @@ Dit sjabloon helpt bij het kwantificeren van de businesswaarde en het in kaart b
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/02-business-case/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ### Waarde-Hypothese
 
 *Wat is de verwachte winst?*

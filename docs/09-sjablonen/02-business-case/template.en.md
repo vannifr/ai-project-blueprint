@@ -16,6 +16,9 @@ This template helps to quantify the business value and map the total operating c
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/02-business-case/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ### Value Hypothesis
 
 *What is the expected gain?*

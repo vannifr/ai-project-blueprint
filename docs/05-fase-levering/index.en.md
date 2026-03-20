@@ -26,6 +26,7 @@ ______________________________________________________________________
 - [Activities](02-activiteiten.md) — Go-live planning, training, human oversight protocols
 - [Deliverables](03-afleveringen.md) — Deployment checklist, handover documentation
 - [Traceability](05-traceerbaarheid.md) — Linking goals to implementation and evidence
+- [Adoption Management](06-adoptie-management.md) — ADKAR framework for AI adoption and resistance analysis
 - [Handover Checklist](04-sjablonen/overdracht-checklist.md) — Template for formal handover
 
 ______________________________________________________________________

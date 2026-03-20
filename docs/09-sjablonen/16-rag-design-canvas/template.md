@@ -17,6 +17,9 @@ Gebruik dit canvas om de architectuur van een **Retrieval-Augmented Generation (
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/16-rag-design-canvas/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ## A. Use Case & Trigger
 
 | Veld                             | Invullen                                                                                   |

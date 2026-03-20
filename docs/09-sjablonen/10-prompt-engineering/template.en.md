@@ -16,6 +16,9 @@ This template helps build high-quality **System Prompts**. A well-structured pro
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/10-prompt-engineering/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ## 2. Structure of a Top Prompt
 
 ### Context (The Background)

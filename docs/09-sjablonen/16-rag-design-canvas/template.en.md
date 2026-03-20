@@ -17,6 +17,9 @@ Use this canvas to design and document the architecture of a **Retrieval-Augment
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/16-rag-design-canvas/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ## A. Use Case & Trigger
 
 | Field                          | Fill in                                                                    |

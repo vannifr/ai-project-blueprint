@@ -19,6 +19,9 @@ This document contains the criteria a project must meet in order to advance to t
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/04-gate-reviews/checklist.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ## 2. Gate Review Overview
 
 !!! check "Gate 1 (Go/No-Go Discovery): From Discovery to Validation"

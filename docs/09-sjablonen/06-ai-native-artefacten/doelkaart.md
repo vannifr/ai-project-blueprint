@@ -18,6 +18,9 @@ De Doelkaart (goal card) formaliseert de **Doeldefinitie** van het AI-project. D
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/06-ai-native-artefacten/doelkaart.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 **Project:** \[Naam Project\]
 
 ______________________________________________________________________

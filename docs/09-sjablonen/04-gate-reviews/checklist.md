@@ -19,6 +19,9 @@ Dit document bevat de criteria waaraan een project moet voldoen om de overstap n
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/04-gate-reviews/checklist.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ## 2. Gate Review Overzicht
 
 !!! check "Gate 1 (Go/No-Go Ontdekking): Van Verkenning naar Validatie"

@@ -129,6 +129,7 @@ plugins:
             "Specificatie-eerst Patroon": "Specification-First Pattern"
             "4. Levering": "4. Delivery"
             "Traceerbaarheid": "Traceability"
+            "Adoptie Management": "Adoption Management"
             "5. Beheer & Optimalisatie": "5. Monitoring & Optimisation"
             "Hoe merk ik degradatie op?": "How do I detect degradation?"
             "6. Doorlopende Verbetering": "6. Continuous Improvement"
@@ -301,6 +302,7 @@ nav:
       - Activiteiten: 05-fase-levering/02-activiteiten.md
       - Opleveringen: 05-fase-levering/03-afleveringen.md
       - Traceerbaarheid: 05-fase-levering/05-traceerbaarheid.md
+      - Adoptie Management: 05-fase-levering/06-adoptie-management.md
     - 5. Beheer & Optimalisatie:
       - Overzicht: 06-fase-monitoring/01-doelstellingen.md
       - Activiteiten: 06-fase-monitoring/02-activiteiten.md

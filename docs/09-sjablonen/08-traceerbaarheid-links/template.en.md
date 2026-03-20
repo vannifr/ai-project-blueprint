@@ -15,6 +15,9 @@ Ensuring the connection between human intent, technical implementation and the u
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/08-traceerbaarheid-links/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ### Traceability Matrix
 
 | Objective-ID | Objective Definition (Intent) | System Prompt ID | Validation Report ID | Status       |

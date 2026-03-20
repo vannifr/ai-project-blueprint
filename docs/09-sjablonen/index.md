@@ -10,6 +10,9 @@ answers: [Wat bevat het onderdeel Sjablonen?]
 
 Deze sectie bevat herbruikbare sjablonen voor verschillende fasen van het AI-project. Deze documenten zijn ontworpen om direct gekopieerd te worden naar uw wiki, kennisbank of documenten­omgeving.
 
+!!! tip "Download & gebruik met AI-assistent"
+    Elk sjabloon heeft een **Download als Markdown**-knop. Download het bestand en open het in je favoriete editor of AI-assistent (zoals ChatGPT, Claude of Copilot) om de velden automatisch in te laten vullen op basis van jouw projectcontext.
+
 ______________________________________________________________________
 
 ## 1. Beschikbare Sjablonen

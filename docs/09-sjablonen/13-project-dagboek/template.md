@@ -17,6 +17,9 @@ Wekelijks logboek voor AI-projecten. Gebruik dit dagboek om voortgang, beslissin
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/13-project-dagboek/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ## Weeklogboek
 
 ### Week \[nummer\] — \[datum van — tot\]

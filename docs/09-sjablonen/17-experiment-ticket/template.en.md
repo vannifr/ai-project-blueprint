@@ -19,6 +19,9 @@ This template guides your team through setting up, executing and evaluating a ti
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/17-experiment-ticket/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ## 1. Hypothesis & Assumptions
 
 - **Hypothesis name:** \[Short, recognisable name\]

@@ -16,6 +16,9 @@ This template serves the initial risk inventory in **Discovery & Strategy** (Pha
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/03-risicoanalyse/pre-scan.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 **Project:** \[Project Name\]
 **Completed by:** \[Name\]
 

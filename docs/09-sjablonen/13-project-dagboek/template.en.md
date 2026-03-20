@@ -17,6 +17,9 @@ Weekly log for AI projects. Use this diary to track progress, decisions, and les
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/13-project-dagboek/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ## Weekly Log
 
 ### Week \[number\] — \[date from — to\]

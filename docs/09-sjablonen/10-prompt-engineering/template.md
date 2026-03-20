@@ -16,6 +16,9 @@ Dit sjabloon helpt bij het opbouwen van hoogwaardige **Prompts** (System Prompts
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/10-prompt-engineering/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ## 2. Structuur van een Top-Prompt
 
 ### Context (De achtergrond)

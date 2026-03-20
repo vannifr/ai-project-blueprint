@@ -17,6 +17,9 @@ The Guardian safeguards the ethical and legal frameworks of an AI system. This c
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/15-guardian-review/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ## 1. Mandate & Independence
 
 Ensure the mandate is clearly documented before the first review.

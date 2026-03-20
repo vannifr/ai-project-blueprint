@@ -19,6 +19,9 @@ Dit sjabloon begeleidt uw team bij het opzetten, uitvoeren en evalueren van een 
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/17-experiment-ticket/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ## 1. Hypothese & Aannames
 
 - **Hypothesenaam:** \[Korte, herkenbare naam\]

@@ -17,6 +17,9 @@ This template provides a structured agenda for the monthly model health review w
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/18-modelgezondheid/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ## 1. Executive Summary (5 min)
 
 | Field              | Value                                 |

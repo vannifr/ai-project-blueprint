@@ -17,6 +17,9 @@ Dit sjabloon biedt een gestructureerde agenda voor de maandelijkse Model Health 
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/18-modelgezondheid/template.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ## 1. Executive Summary (5 min)
 
 | Veld                | Waarde                                     |

@@ -17,6 +17,9 @@ Identifying and assessing risks in the areas of technology, organisation and com
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/03-risicoanalyse/template.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ### Risk Classification
 
 *Choose the category according to the EU AI Act:*

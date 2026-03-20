@@ -16,6 +16,9 @@ This template is intended for developers and auditors. It documents the technica
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/02-business-case/modelkaart.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 **Model Name:** \[E.g. Customer-Service-Bot-v2\]
 **Type:** \[E.g. LLM (GPT-4o) with RAG\]
 

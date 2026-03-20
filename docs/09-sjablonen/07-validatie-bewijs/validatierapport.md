@@ -13,6 +13,9 @@ answers: ['Hoe gebruik ik het Sjabloon 09.06: Validatierapport (Bewijs‑pakket)
 !!! tip "Wanneer gebruik je dit?"
     Je rondt een validatiepilot af en moet het bewijspakket samenstellen voor de Gate Review-beslissing (Go / Go met acties / No-Go).
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/07-validatie-bewijs/validatierapport.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 ## 1. Samenvatting (1 pagina)
 
 **Project:** \[Naam\]

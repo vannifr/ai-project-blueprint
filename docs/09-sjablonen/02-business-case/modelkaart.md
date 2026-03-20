@@ -16,6 +16,9 @@ Dit sjabloon is bedoeld voor ontwikkelaars en auditors. Het documenteert de tech
 
 ______________________________________________________________________
 
+!!! note "Download dit sjabloon"
+    [Download als Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/02-business-case/modelkaart.md){ .md-button } — Open in je editor of AI-assistent en vul de velden in.
+
 **Model Naam:** \[Bijv. Klantenservice-Bot-v2\]
 **Type:** \[Bijv. LLM (GPT-4o) met RAG\]
 

@@ -18,6 +18,9 @@ The Objective Card formalises the **Objective Definition** of the AI project. Th
 
 ______________________________________________________________________
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/06-ai-native-artefacten/doelkaart.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 **Project:** \[Project Name\]
 
 ______________________________________________________________________

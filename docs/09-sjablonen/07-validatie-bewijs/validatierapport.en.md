@@ -13,6 +13,9 @@ answers: ['How do I use the Template 09.06: Validation Report (Evidence Package)
 !!! tip "When to use this?"
     You are completing a validation pilot and need to compile the evidence package for the Gate Review decision (Go / Go with actions / No-Go).
 
+!!! note "Download this template"
+    [Download as Markdown](https://github.com/vannifr/ai-project-blueprint/raw/main/docs/09-sjablonen/07-validatie-bewijs/validatierapport.en.md){ .md-button } — Open in your editor or AI assistant and fill in the fields.
+
 ## 1. Summary (1 page)
 
 **Project:** \[Name\]
