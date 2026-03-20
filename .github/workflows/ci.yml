@@ -79,7 +79,7 @@ jobs:
           if ! git diff --quiet docs/llms-full.txt docs/llms-full-nl.txt; then
             git add docs/llms-full.txt docs/llms-full-nl.txt
             git commit -m "chore: regenerate llms-full exports [skip ci]"
-            git push
+            git push || echo "Push failed (concurrent run), skipping — exports are in the build artifact"
           fi
 
       - name: Build MkDocs (Strict, NL + EN)
