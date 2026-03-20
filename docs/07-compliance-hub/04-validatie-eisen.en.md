@@ -27,4 +27,7 @@ ______________________________________________________________________
 1. **Fairness:** Reporting on the performed **Fairness Check**.
 1. **Stability:** Evidence of robustness against deviating input or manipulation attempts.
 
-______________________________________________________________________
+## 3. Related templates
+
+- [Validation Report template](../09-sjablonen/07-validatie-bewijs/validatierapport.en.md) — Use this template to prepare the Validation Report.
+- [Evidence Standards](../01-ai-native-fundamenten/07-bewijsstandaarden.en.md) — What level of evidence per risk level?

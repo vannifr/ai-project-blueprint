@@ -27,4 +27,7 @@ ______________________________________________________________________
 1. **Eerlijkheid:** Rapportage over de uitgevoerde **Fairness audit (bias audit)**.
 1. **Stabiliteit:** Bewijs van robuustheid tegen afwijkende invoer of pogingen tot manipulatie.
 
-______________________________________________________________________
+## 3. Gerelateerde sjablonen
+
+- [Validatierapport sjabloon](../09-sjablonen/07-validatie-bewijs/validatierapport.md) — Gebruik dit sjabloon om het Validatierapport op te stellen.
+- [Bewijsstandaarden](../01-ai-native-fundamenten/07-bewijsstandaarden.md) — Welke bewijslast per risiconiveau?

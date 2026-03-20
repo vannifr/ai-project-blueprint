@@ -25,7 +25,7 @@ ______________________________________________________________________
 
 | Core Activity                                  | AI PM | Tech Lead | Data Scientist | Guardian | CAIO | Data Engineer | Adoption Mgr | Context Builder | AI Security Officer |
 | :--------------------------------------------- | :---: | :-------: | :------------: | :------: | :--: | :-----------: | :----------: | :-------------: | :-----------------: |
-| Use case selection & prioritisation            |   A   |     C     |       C        |    C     |  I   |       —       |      —       |        —        |          —          |
+| Use case selection & prioritisation            |   R   |     C     |       C        |    C     |  A   |       —       |      —       |        —        |          —          |
 | Stakeholder interviews & problem definition    |   R   |     C     |       —        |    I     |  I   |       —       |      C       |        —        |          —          |
 | Collaboration mode assessment (autonomy level) |   R   |     C     |       —        |    C     |  I   |       —       |      —       |        —        |          C          |
 | Risk Pre-Scan                                  |   R   |     C     |       C        |    A     |  I   |       —       |      —       |        —        |          C          |
@@ -39,7 +39,7 @@ ______________________________________________________________________
 
 | Core Activity                            | AI PM | Tech Lead | Data Scientist | Guardian | CAIO | Data Engineer | Adoption Mgr | Context Builder | AI Security Officer |
 | :--------------------------------------- | :---: | :-------: | :------------: | :------: | :--: | :-----------: | :----------: | :-------------: | :-----------------: |
-| PoV scope and setup                      |   A   |     R     |       R        |    C     |  I   |       C       |      —       |        C        |          —          |
+| PoV scope and setup                      |   R   |     R     |       R        |    C     |  A   |       C       |      —       |        C        |          —          |
 | Dataset exploration & quality assessment |   C   |     C     |       A        |    C     |  —   |       R       |      —       |        C        |          —          |
 | Golden Set compilation                   |   C   |     C     |       A        |    C     |  —   |       R       |      —       |        C        |          —          |
 | Business Case creation                   |   A   |     C     |       C        |    C     |  C   |       —       |      —       |        —        |          —          |

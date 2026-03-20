@@ -25,7 +25,7 @@ ______________________________________________________________________
 
 | Kernactiviteit                             | AI PM | Tech Lead | Data Scientist | Guardian | CAIO | Data Engineer | Adoption Mgr | Context Builder | AI Security Officer |
 | :----------------------------------------- | :---: | :-------: | :------------: | :------: | :--: | :-----------: | :----------: | :-------------: | :-----------------: |
-| Use case selectie & prioritering           |   A   |     C     |       C        |    C     |  I   |       —       |      —       |        —        |          —          |
+| Use case selectie & prioritering           |   R   |     C     |       C        |    C     |  A   |       —       |      —       |        —        |          —          |
 | Stakeholder interviews & probleemdefinitie |   R   |     C     |       —        |    I     |  I   |       —       |      C       |        —        |          —          |
 | Moduskeuze beoordeling (autonomieniveau)   |   R   |     C     |       —        |    C     |  I   |       —       |      —       |        —        |          C          |
 | Risk Pre-Scan                              |   R   |     C     |       C        |    A     |  I   |       —       |      —       |        —        |          C          |
@@ -39,7 +39,7 @@ ______________________________________________________________________
 
 | Kernactiviteit                             | AI PM | Tech Lead | Data Scientist | Guardian | CAIO | Data Engineer | Adoption Mgr | Context Builder | AI Security Officer |
 | :----------------------------------------- | :---: | :-------: | :------------: | :------: | :--: | :-----------: | :----------: | :-------------: | :-----------------: |
-| PoV-scope en opzet                         |   A   |     R     |       R        |    C     |  I   |       C       |      —       |        C        |          —          |
+| PoV-scope en opzet                         |   R   |     R     |       R        |    C     |  A   |       C       |      —       |        C        |          —          |
 | Dataset verkenning & kwaliteitsbeoordeling |   C   |     C     |       A        |    C     |  —   |       R       |      —       |        C        |          —          |
 | Golden Set samenstellen                    |   C   |     C     |       A        |    C     |  —   |       R       |      —       |        C        |          —          |
 | Business Case opstellen                    |   A   |     C     |       C        |    C     |  C   |       —       |      —       |        —        |          —          |

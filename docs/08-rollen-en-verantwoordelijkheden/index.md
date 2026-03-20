@@ -20,11 +20,14 @@ ______________________________________________________________________
 
 | Rol                    | Eigenaarschap                                                           | Focus                                                                                                                 |
 | :--------------------- | :---------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
-| **AI Product Manager** | [Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)       | "Lossen we het juiste probleem op?" — vertaalt business-wensen naar AI-instructies                                    |
+| **AI Product Manager** | [Doelkaart](../09-sjablonen/06-ai-native-artefacten/doelkaart.md)       | "Lossen we het juiste probleem op?" — coördineert het projectproces, vertaalt business-wensen naar AI-instructies     |
 | **Tech Lead**          | [Technische Modelkaart](../09-sjablonen/02-business-case/modelkaart.md) | "Is het robuust en schaalbaar?" — selecteert model, bouwt pipelines, borgt stabiliteit                                |
 | **Guardian** (duo)     | [Risico Pre-scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)         | "Is het veilig en eerlijk?" — vetorecht op harde grenzen. Ingevuld door Privacy & Legal Officer + AI Quality Ethicist |
 
 Voor Hoog Risico projecten is expliciete goedkeuring van beide Guardian-leden vereist bij Gate Reviews.
+
+!!! warning "AI Product Manager ≠ Product Owner"
+    De AI Product Manager is een **coördinerende rol** — vergelijkbaar met een combinatie van Scrum Master en projectcoördinator. De AI PM bewaakt het proces, de gates en de kwaliteit van de levenscyclus. **Scope-eigenaarschap** (welk probleem lossen we op, welke use case heeft prioriteit) ligt bij de **Business Sponsor of CAIO**. Dit voorkomt het klassieke conflict waarbij één persoon zowel scope als planning en budget beheert.
 
 ______________________________________________________________________
 

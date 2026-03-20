@@ -18,13 +18,16 @@ ______________________________________________________________________
 
 ## 2. The Core Team (The Squad)
 
-| Role                   | Ownership                                                              | Focus                                                                                                             |
-| :--------------------- | :--------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
-| **AI Product Manager** | [Objective Card](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) | "Are we solving the right problem?" — translates business needs into AI instructions                              |
-| **Tech Lead**          | [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md) | "Is it robust and scalable?" — selects model, builds pipelines, safeguards stability                              |
-| **Guardian** (duo)     | [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)          | "Is it safe and fair?" — veto rights on hard boundaries. Staffed by Privacy & Legal Officer + AI Quality Ethicist |
+| Role                   | Ownership                                                              | Focus                                                                                                                 |
+| :--------------------- | :--------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| **AI Product Manager** | [Objective Card](../09-sjablonen/06-ai-native-artefacten/doelkaart.md) | "Are we solving the right problem?" — coordinates the project process, translates business needs into AI instructions |
+| **Tech Lead**          | [Technical Model Card](../09-sjablonen/02-business-case/modelkaart.md) | "Is it robust and scalable?" — selects model, builds pipelines, safeguards stability                                  |
+| **Guardian** (duo)     | [Risk Pre-Scan](../09-sjablonen/03-risicoanalyse/pre-scan.md)          | "Is it safe and fair?" — veto rights on hard boundaries. Staffed by Privacy & Legal Officer + AI Quality Ethicist     |
 
 For High Risk projects, explicit approval from both Guardian members is required at Gate Reviews.
+
+!!! warning "AI Product Manager ≠ Product Owner"
+    The AI Product Manager is a **coordinating role** — comparable to a combination of Scrum Master and project coordinator. The AI PM safeguards the process, the gates and the quality of the lifecycle. **Scope ownership** (which problem do we solve, which use case takes priority) lies with the **Business Sponsor or CAIO**. This prevents the classic conflict where one person manages both scope and planning/budget.
 
 ______________________________________________________________________
 
