@@ -26,5 +26,10 @@ ______________________________________________________________________
 - [Model Governance](03-model-governance.md)
 - [Test Frameworks](04-test-frameworks.md)
 - [AI Architecture](05-ai-architectuur.md)
+- [Cloud vs. On-Premise](06-cloud-vs-onpremise.md)
+- [Cost Optimisation](07-kostenoptimalisatie.md)
+- [Green AI & Sustainability](08-green-ai.md)
+- [Agentic AI Engineering](09-agentic-ai-engineering.md)
+- [Data Governance](10-data-governance.md)
 
 ______________________________________________________________________
