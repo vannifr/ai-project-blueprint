@@ -228,7 +228,7 @@ plugins:
           explicit: false
           concurrency: 2
           browser:
-            timeout: 180000
+            timeout: 300000
           stylesheets:
             - resources/stylesheets/pdf.scss
           covers:
