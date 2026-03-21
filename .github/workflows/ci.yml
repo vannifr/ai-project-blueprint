@@ -190,6 +190,7 @@ jobs:
           MKDOCS_LANG: ${{ inputs.pdf_language }}
           MKDOCS_EXPORTER_PDF: "true"
           MKDOCS_PDF_OUTPUT: ${{ inputs.pdf_language == 'en' && 'pdf/ai-project-blueprint.pdf' || 'pdf/ai-project-blauwdruk.pdf' }}
+          MKDOCS_PDF_AGGREGATE: "true"
           MKDOCS_BUILD_I18N: "false"
         run: mkdocs build --no-directory-urls
 
