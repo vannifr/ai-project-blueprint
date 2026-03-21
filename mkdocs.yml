@@ -229,7 +229,9 @@ plugins:
           concurrency: 2
           browser:
             timeout: 300000
-            debug: true
+            args:
+              - "--disable-web-security"
+              - "--disable-features=IsolateOrigins,site-per-process"
           stylesheets:
             - resources/stylesheets/pdf.scss
           covers:
