@@ -1,4 +1,5 @@
 ---
+pdf: false
 versie: '1.0'
 description: Blueprint Navigator — interactieve gids om de juiste module te vinden voor jouw AI-projectfase, rol of uitdaging. Begin hier om jezelf te oriënteren in de AI Project Blauwdruk.
 type: index
