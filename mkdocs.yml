@@ -229,6 +229,7 @@ plugins:
           concurrency: 2
           browser:
             timeout: 300000
+            debug: true
           stylesheets:
             - resources/stylesheets/pdf.scss
           covers:
