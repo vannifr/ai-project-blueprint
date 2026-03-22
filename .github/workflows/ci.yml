@@ -6,20 +6,15 @@ on:
   workflow_dispatch:
     inputs:
       build_pdf:
-        description: 'Build and deploy PDF'
+        description: 'Build and deploy PDF (English)'
         type: boolean
         default: false
-      pdf_language:
-        description: 'Language for PDF (nl = blauwdruk, en = blueprint)'
-        type: choice
-        options: [nl, en]
-        default: nl
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
-  group: ci-${{ github.event_name == 'workflow_dispatch' && inputs.build_pdf == true && format('pdf-{0}', inputs.pdf_language) || 'main' }}
+  group: ci-${{ github.event_name == 'workflow_dispatch' && inputs.build_pdf == true && 'pdf' || 'main' }}
   cancel-in-progress: true
 
 jobs:
@@ -152,7 +147,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   pdf:
-    name: Build & Deploy PDF (${{ inputs.pdf_language }})
+    name: Build & Deploy PDF (EN)
     runs-on: ubuntu-latest
     needs: quality
     if: github.event_name == 'workflow_dispatch' && inputs.build_pdf == true
@@ -178,35 +173,26 @@ jobs:
         run: playwright install --with-deps chromium
 
       - name: Pre-process docs for EN build
-        if: inputs.pdf_language == 'en'
         run: |
           find docs/ -name "*.en.md" | while read en_file; do
             nl_file="${en_file%.en.md}.md"
             cp "$en_file" "$nl_file"
           done
 
-      - name: Build PDF (${{ inputs.pdf_language }})
+      - name: Build PDF (EN)
         env:
-          MKDOCS_LANG: ${{ inputs.pdf_language }}
+          MKDOCS_LANG: en
           MKDOCS_EXPORTER_PDF: "true"
-          MKDOCS_PDF_OUTPUT: ${{ inputs.pdf_language == 'en' && 'pdf/ai-project-blueprint.pdf' || 'pdf/ai-project-blauwdruk.pdf' }}
-          MKDOCS_PDF_AGGREGATE: "false"
+          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blueprint.pdf"
+          MKDOCS_PDF_AGGREGATE: "true"
           MKDOCS_BUILD_I18N: "false"
         run: mkdocs build --no-directory-urls
 
-      - name: PDF Post-process (${{ inputs.pdf_language }})
+      - name: PDF Post-process
         env:
-          MKDOCS_LANG: ${{ inputs.pdf_language }}
-          MKDOCS_PDF_OUTPUT: ${{ inputs.pdf_language == 'en' && 'pdf/ai-project-blueprint.pdf' || 'pdf/ai-project-blauwdruk.pdf' }}
+          MKDOCS_LANG: en
+          MKDOCS_PDF_OUTPUT: "pdf/ai-project-blueprint.pdf"
         run: python3 scripts/pdf_postprocess.py site
-
-      - name: Save processed PDF
-        run: |
-          if [ "${{ inputs.pdf_language }}" = "en" ]; then
-            cp site/pdf/ai-project-blueprint.pdf /tmp/ai-project-pdf.pdf
-          else
-            cp site/pdf/ai-project-blauwdruk.pdf /tmp/ai-project-pdf.pdf
-          fi
 
       - name: Download HTML site artifact
         uses: actions/download-artifact@v4
@@ -217,11 +203,8 @@ jobs:
       - name: Add PDF to site
         run: |
           mkdir -p site/pdf
-          if [ "${{ inputs.pdf_language }}" = "en" ]; then
-            cp /tmp/ai-project-pdf.pdf site/pdf/ai-project-blueprint.pdf
-          else
-            cp /tmp/ai-project-pdf.pdf site/pdf/ai-project-blauwdruk.pdf
-          fi
+          cp site/pdf/ai-project-blueprint.pdf /tmp/ai-project-blueprint.pdf 2>/dev/null || true
+          cp /tmp/ai-project-blueprint.pdf site/pdf/ai-project-blueprint.pdf
 
       - name: Setup SSH
         run: |
@@ -240,6 +223,6 @@ jobs:
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: pdf-${{ inputs.pdf_language }}
-          path: ${{ inputs.pdf_language == 'en' && 'site/pdf/ai-project-blueprint.pdf' || 'site/pdf/ai-project-blauwdruk.pdf' }}
+          name: pdf-en
+          path: site/pdf/ai-project-blueprint.pdf
           retention-days: 30

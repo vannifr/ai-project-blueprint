@@ -1,6 +1,5 @@
 ---
 versie: '1.0'
-pdf: false
 type: reference
 layer: 3
 answers: [Wat is Valkuilencatalogus voor AI-Projecten?]

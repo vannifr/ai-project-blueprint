@@ -1,6 +1,5 @@
 ---
 versie: '1.1'
-pdf: false
 type: compliance
 layer: 3
 roles: [Guardian]

@@ -1,6 +1,5 @@
 ---
 versie: '1.0'
-pdf: false
 type: index
 layer: 3
 answers: [What does the Reference section contain?]

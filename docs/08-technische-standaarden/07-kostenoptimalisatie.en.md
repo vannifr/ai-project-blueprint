@@ -1,6 +1,5 @@
 ---
 versie: '1.1'
-pdf: false
 type: technical
 layer: 3
 roles: [Tech Lead]

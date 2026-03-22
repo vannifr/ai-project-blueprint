@@ -1,6 +1,5 @@
 ---
 versie: '1.0'
-pdf: false
 type: index
 layer: 3
 answers: [Wat bevat het onderdeel Naslag?]

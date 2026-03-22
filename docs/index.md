@@ -33,7 +33,7 @@ ______________________________________________________________________
 - 👥 **[Rollen & Verantwoordelijkheden](08-rollen-en-verantwoordelijkheden/index.md):** Wie doet wat in een AI-team?
 - 📅 **[Snelstart: AI-Project in 90 Dagen](12-90-dagen-roadmap/index.md):** Ga direct van strategie naar actie.
 - 🧰 **[De toolkit](09-sjablonen/index.md):** Alle sjablonen op één plek.
-- 📄 **<a href="pdf/ai-project-blauwdruk.pdf">Download volledige blauwdruk (PDF)</a>:** De complete AI Project Blauwdruk als één PDF-bestand.
+- 📄 **<a href="pdf/ai-project-blueprint.pdf">Download volledige blauwdruk (PDF, Engels)</a>:** De complete AI Project Blueprint als één PDF-bestand.
 
 ______________________________________________________________________
 

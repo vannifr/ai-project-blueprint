@@ -1,5 +1,4 @@
 ---
-pdf: false
 versie: '1.8'
 type: index
 layer: 3

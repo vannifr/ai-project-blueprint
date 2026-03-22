@@ -1,6 +1,5 @@
 ---
 versie: '1.0'
-pdf: false
 type: meta
 layer: 3
 answers: [What is Feedback?]

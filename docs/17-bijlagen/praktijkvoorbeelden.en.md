@@ -1,5 +1,4 @@
 ---
-pdf: false
 versie: '1.1'
 description: Case studies of AI projects — documented public cases and conceptual scenarios at different risk levels.
 type: reference

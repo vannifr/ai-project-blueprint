@@ -1,6 +1,5 @@
 ---
 versie: '1.1'
-pdf: false
 type: playbook
 layer: 3
 roles: [Guardian]

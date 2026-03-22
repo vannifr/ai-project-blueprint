@@ -226,12 +226,7 @@ plugins:
         pdf:
           enabled: !ENV [MKDOCS_EXPORTER_PDF, false]
           explicit: false
-          concurrency: 2
-          browser:
-            timeout: 300000
-            args:
-              - "--disable-web-security"
-              - "--disable-features=IsolateOrigins,site-per-process"
+          concurrency: 4
           stylesheets:
             - resources/stylesheets/pdf.scss
           covers:
@@ -239,7 +234,7 @@ plugins:
             back: resources/templates/covers/back.html.j2
           aggregator:
             enabled: !ENV [MKDOCS_PDF_AGGREGATE, true]
-            output: !ENV [MKDOCS_PDF_OUTPUT, "pdf/ai-project-blauwdruk.pdf"]
+            output: !ENV [MKDOCS_PDF_OUTPUT, "pdf/ai-project-blueprint.pdf"]
             covers: limits
   - htmlproofer:
       enabled: !ENV [HTMLPROOFER_ENABLED, False]

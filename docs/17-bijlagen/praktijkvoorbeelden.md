@@ -1,5 +1,4 @@
 ---
-pdf: false
 versie: '1.1'
 description: Praktijkvoorbeelden van AI-projecten — gedocumenteerde publieke cases en conceptuele scenario's op verschillende risiconiveaus.
 type: reference

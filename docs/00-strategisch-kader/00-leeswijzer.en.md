@@ -1,6 +1,5 @@
 ---
 versie: '1.0'
-pdf: false
 type: guide
 layer: 1
 summary: Quick navigation aid to find the right section of the Blueprint based on your role and situation.

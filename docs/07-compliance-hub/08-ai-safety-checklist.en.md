@@ -1,6 +1,5 @@
 ---
 versie: '1.1'
-pdf: false
 type: template
 layer: 3
 roles: [Guardian]

@@ -1,6 +1,5 @@
 ---
 versie: '1.8'
-pdf: false
 type: index
 layer: 3
 answers: [What does the About the AI Project Blueprint section contain?]

@@ -1,6 +1,5 @@
 ---
 versie: '1.0'
-pdf: false
 type: template
 layer: 3
 phase: [1, 2, 3, 4, 5]

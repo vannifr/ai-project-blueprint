@@ -1,7 +1,6 @@
 ---
 versie: '1.0'
 description: AI Project Blueprint — a modular open framework for AI project management covering strategy, governance, compliance, and delivery. Based on PMI-CPMAI and Agile-AI principles.
-pdf: false
 type: index
 layer: 1
 answers: [What does the Welcome to the AI Project Blueprint section contain?]
