@@ -1,6 +1,6 @@
 # AI Project Blauwdruk — Full Export
 Source: https://ai-delivery.io/
-Generated: 2026-03-21T12:44:28Z
+Generated: 2026-03-22T09:29:59Z
 Language: nl
 License: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -36,7 +36,7 @@ ______________________________________________________________________
 -  **[Rollen & Verantwoordelijkheden](08-rollen-en-verantwoordelijkheden/index.md):** Wie doet wat in een AI-team?
 -  **[Snelstart: AI-Project in 90 Dagen](12-90-dagen-roadmap/index.md):** Ga direct van strategie naar actie.
 -  **[De toolkit](09-sjablonen/index.md):** Alle sjablonen op één plek.
--  **Download volledige blauwdruk (PDF):** De complete AI Project Blauwdruk als één PDF-bestand.
+-  **Download volledige blauwdruk (PDF, Engels):** De complete AI Project Blueprint als één PDF-bestand.
 
 ______________________________________________________________________
 
