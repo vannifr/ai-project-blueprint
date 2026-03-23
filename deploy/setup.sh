@@ -20,12 +20,17 @@ set -euo pipefail
 echo "=== Blueprint VPS Setup ==="
 
 # Check prerequisites
-for cmd in docker nginx certbot; do
+for cmd in docker certbot; do
     if ! command -v $cmd &>/dev/null; then
         echo "ERROR: $cmd not installed."
         exit 1
     fi
 done
+
+if ! command -v nginx &>/dev/null && [ ! -x /usr/sbin/nginx ]; then
+    echo "ERROR: nginx not installed."
+    exit 1
+fi
 
 if [ ! -f .env ]; then
     echo "ERROR: .env not found. Run: cp .env.example .env"
