@@ -8,25 +8,27 @@ set -euo pipefail
 echo "=== Blueprint Update ==="
 
 cd "$(dirname "$0")/.."
+REPO_ROOT="$(pwd)"
 
 # Pull latest
 git pull
 
 # Rebuild site
 echo "Building MkDocs site..."
-docker run --rm -v "$(pwd)":/app -w /app python:3.12-slim bash -c "
-    pip install -q -r requirements.txt &&
-    python3 scripts/patch_i18n.py &&
-    MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true mkdocs build
+docker run --rm -v "$REPO_ROOT":/app -w /app python:3.12-slim bash -c "
+    pip install -q -r requirements.txt 2>/dev/null &&
+    python3 scripts/patch_i18n.py 2>/dev/null &&
+    MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true mkdocs build --quiet
 "
 
-# Update site files
-echo "Updating site files..."
-cd deploy
-docker compose cp ../site/. caddy:/srv/site/
+# Deploy static files
+echo "Deploying static site..."
+sudo cp -r site/* /var/www/ai-delivery.io/
+sudo chown -R www-data:www-data /var/www/ai-delivery.io
 
 # Rebuild containers if code changed
-echo "Rebuilding containers..."
+echo "Rebuilding Docker containers..."
+cd deploy
 docker compose build
 docker compose up -d
 

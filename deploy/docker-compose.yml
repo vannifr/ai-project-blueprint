@@ -1,19 +1,4 @@
 services:
-  caddy:
-    image: caddy:2-alpine
-    restart: unless-stopped
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data
-      - caddy_config:/config
-      - site_html:/srv/site:ro
-    depends_on:
-      - chatbot
-      - mcp-server
-
   chatbot:
     build:
       context: ../chatbot
@@ -29,8 +14,8 @@ services:
     volumes:
       - chroma_data:/app/chroma_data
       - ../docs:/app/docs:ro
-    expose:
-      - "8901"
+    ports:
+      - "127.0.0.1:8901:8901"
 
   mcp-server:
     build:
@@ -45,11 +30,8 @@ services:
       - BLUEPRINT_LANGUAGE=en
     volumes:
       - ../docs:/app/docs:ro
-    expose:
-      - "8902"
+    ports:
+      - "127.0.0.1:8902:8902"
 
 volumes:
-  caddy_data:
-  caddy_config:
-  site_html:
   chroma_data:
