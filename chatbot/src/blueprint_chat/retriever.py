@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import chromadb
-from openai import OpenAI
+from ollama import Client
 
 from .config import settings
 from .models import Source
@@ -36,21 +36,31 @@ def get_collection(client: chromadb.PersistentClient, language: str) -> chromadb
     return client.get_collection(name=name)
 
 
+def _get_ollama_client() -> Client:
+    """Get an Ollama client configured for cloud or local."""
+    import os
+    headers = {}
+    if settings.ollama_api_key:
+        headers["Authorization"] = f"Bearer {settings.ollama_api_key}"
+    return Client(
+        host=settings.ollama_host,
+        headers=headers,
+    )
+
+
 def embed_query(text: str) -> list[float]:
-    """Embed a query string using OpenAI."""
-    client = OpenAI(api_key=settings.openai_api_key)
-    response = client.embeddings.create(
+    """Embed a query string using Ollama."""
+    client = _get_ollama_client()
+    response = client.embed(
         model=settings.embedding_model,
         input=text,
     )
-    return response.data[0].embedding
+    return response["embeddings"][0]
 
 
 def doc_path_to_url(doc_path: str, language: str) -> str:
     """Convert a document path to a site URL."""
-    # Remove .en.md or .md extension
     path = doc_path.replace(".en.md", "").replace(".md", "")
-    # Remove index suffix (MkDocs serves index.md as directory)
     if path.endswith("/index"):
         path = path[:-6]
     elif path == "index":

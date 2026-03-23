@@ -1,13 +1,24 @@
-"""Generate answers using Claude with retrieved context."""
+"""Generate answers using Ollama with retrieved context."""
 
 from __future__ import annotations
 
-from anthropic import Anthropic
+from ollama import Client
 
 from .config import settings
-from .models import ChatResponse, Source
+from .models import ChatResponse
 from .prompts import build_context_prompt, get_system_prompt
 from .retriever import Retriever
+
+
+def _get_ollama_client() -> Client:
+    """Get an Ollama client configured for cloud or local."""
+    headers = {}
+    if settings.ollama_api_key:
+        headers["Authorization"] = f"Bearer {settings.ollama_api_key}"
+    return Client(
+        host=settings.ollama_host,
+        headers=headers,
+    )
 
 
 class Generator:
@@ -15,7 +26,7 @@ class Generator:
 
     def __init__(self, retriever: Retriever | None = None):
         self.retriever = retriever or Retriever()
-        self.client = Anthropic(api_key=settings.anthropic_api_key)
+        self.client = _get_ollama_client()
 
     def answer(self, question: str, language: str = "auto") -> ChatResponse:
         """Answer a question using RAG: retrieve, augment, generate."""
@@ -34,14 +45,16 @@ class Generator:
         system_prompt = get_system_prompt(detected_lang)
         user_message = build_context_prompt(question, chunks, detected_lang)
 
-        response = self.client.messages.create(
+        response = self.client.chat(
             model=settings.generation_model,
-            max_tokens=settings.max_tokens,
-            system=system_prompt,
-            messages=[{"role": "user", "content": user_message}],
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message},
+            ],
+            options={"num_predict": settings.max_tokens},
         )
 
-        answer_text = response.content[0].text
+        answer_text = response["message"]["content"]
         sources = self.retriever.to_sources(chunks)
 
         return ChatResponse(

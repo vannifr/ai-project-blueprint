@@ -1,12 +1,25 @@
 """Build ChromaDB index from Blueprint documentation."""
 
+from __future__ import annotations
+
 from pathlib import Path
 
 import chromadb
-from openai import OpenAI
+from ollama import Client
 
 from .chunker import chunk_all_docs
 from .config import settings
+
+
+def _get_ollama_client() -> Client:
+    """Get an Ollama client configured for cloud or local."""
+    headers = {}
+    if settings.ollama_api_key:
+        headers["Authorization"] = f"Bearer {settings.ollama_api_key}"
+    return Client(
+        host=settings.ollama_host,
+        headers=headers,
+    )
 
 
 def build_index(
@@ -23,7 +36,7 @@ def build_index(
     languages = languages or ["nl", "en"]
 
     client = chromadb.PersistentClient(path=chroma_path)
-    openai_client = OpenAI(api_key=settings.openai_api_key)
+    ollama_client = _get_ollama_client()
 
     stats = {}
 
@@ -47,16 +60,16 @@ def build_index(
             continue
 
         # Batch embed and upsert
-        batch_size = 100
+        batch_size = 50
         for i in range(0, len(chunks), batch_size):
             batch = chunks[i:i + batch_size]
             texts = [c.text for c in batch]
 
-            response = openai_client.embeddings.create(
+            response = ollama_client.embed(
                 model=settings.embedding_model,
                 input=texts,
             )
-            embeddings = [e.embedding for e in response.data]
+            embeddings = response["embeddings"]
 
             collection.upsert(
                 ids=[c.id for c in batch],

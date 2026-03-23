@@ -14,7 +14,6 @@ def test_detect_language_english():
 
 
 def test_detect_language_ambiguous_defaults_to_en():
-    # Single word without clear NL stop words
     assert detect_language("AI") == "en"
 
 
