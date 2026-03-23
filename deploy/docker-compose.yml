@@ -1,0 +1,55 @@
+services:
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+      - site_html:/srv/site:ro
+    depends_on:
+      - chatbot
+      - mcp-server
+
+  chatbot:
+    build:
+      context: ../chatbot
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - CHAT_API_HOST=0.0.0.0
+      - CHAT_API_PORT=8901
+      - CHAT_CHROMA_PATH=/app/chroma_data
+      - CHAT_DOCS_ROOT=/app/docs
+      - CHAT_ALLOWED_ORIGINS=["https://ai-delivery.io"]
+    volumes:
+      - chroma_data:/app/chroma_data
+      - ../docs:/app/docs:ro
+    expose:
+      - "8901"
+
+  mcp-server:
+    build:
+      context: ../mcp_server
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - BLUEPRINT_TRANSPORT=streamable-http
+      - BLUEPRINT_HOST=0.0.0.0
+      - BLUEPRINT_PORT=8902
+      - BLUEPRINT_DOCS_PATH=/app/docs
+      - BLUEPRINT_LANGUAGE=en
+    volumes:
+      - ../docs:/app/docs:ro
+    expose:
+      - "8902"
+
+volumes:
+  caddy_data:
+  caddy_config:
+  site_html:
+  chroma_data:

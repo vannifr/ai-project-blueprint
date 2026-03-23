@@ -480,7 +480,7 @@ def main():
     transport = os.environ.get("BLUEPRINT_TRANSPORT", "stdio")
     if transport == "streamable-http":
         mcp.settings.host = os.environ.get("BLUEPRINT_HOST", "0.0.0.0")
-        mcp.settings.port = int(os.environ.get("BLUEPRINT_PORT", "8080"))
+        mcp.settings.port = int(os.environ.get("BLUEPRINT_PORT", "8902"))
     mcp.run(transport=transport)
 
 

@@ -1,0 +1,39 @@
+ai-delivery.io {
+	# Static site
+	root * /srv/site
+	file_server
+
+	# RAG Chatbot API
+	handle /api/* {
+		reverse_proxy chatbot:8901
+	}
+
+	# MCP Server (SSE transport)
+	handle /mcp/* {
+		reverse_proxy mcp-server:8902
+	}
+
+	# Security headers
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+
+	# Cache static assets
+	@static path *.css *.js *.svg *.png *.woff2
+	header @static Cache-Control "public, max-age=86400"
+
+	# Gzip
+	encode gzip
+}
+
+# Redirect www to apex
+www.ai-delivery.io {
+	redir https://ai-delivery.io{uri} permanent
+}
+
+# Keep vannifr.ovh working (existing usage)
+vannifr.ovh {
+	respond "vannifr.ovh — VPS operational" 200
+}

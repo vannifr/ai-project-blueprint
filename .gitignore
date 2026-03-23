@@ -4,3 +4,5 @@ resources/templates/covers/*.html
 chatbot/chroma_data/
 chatbot/.env
 chatbot/**/__pycache__/
+deploy/.env
+deploy/site/
