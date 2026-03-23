@@ -525,7 +525,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Project Charter Light invullen', url: '../00-explorer-kit/02-project-charter-light/', desc: 'Gestroomlijnd 1-pagina projectkader voor uw eerste AI-initiatief' },
         { label: 'Snelstart 90-Dagen Roadmap', url: '../12-90-dagen-roadmap/', desc: 'Van strategie naar actie in drie gefaseerde stappen' },
-        { label: 'Fase 1: Verkenning &amp; Strategie', url: '../02-fase-ontdekking/01-doelstellingen/', desc: 'Begrijp het probleem volledig voordat u begint te bouwen' }
+        { label: 'Fase 1: Verkenning \x26 Strategie', url: '../02-fase-ontdekking/01-doelstellingen/', desc: 'Begrijp het probleem volledig voordat u begint te bouwen' }
       ]
     },
     Builder: {
@@ -533,7 +533,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Realisatiefase Overzicht', url: '../04-fase-ontwikkeling/01-doelstellingen/', desc: 'Van proof-of-concept naar productieklaar systeem' },
         { label: 'Validatierapport Template', url: '../09-sjablonen/07-validatie-bewijs/validatierapport/', desc: 'Documenteer het bewijs dat uw systeem werkt' },
-        { label: 'Monitoring &amp; Optimalisatie', url: '../06-fase-monitoring/01-doelstellingen/', desc: 'Prestatiebewaking en drift-detectie na go-live' }
+        { label: 'Monitoring \x26 Optimalisatie', url: '../06-fase-monitoring/01-doelstellingen/', desc: 'Prestatiebewaking en drift-detectie na go-live' }
       ]
     },
     Visionary: {
@@ -604,7 +604,7 @@ var BN_ROUTES = {
     Explorer: {
       start: { label: 'Management Samenvatting', url: '../00-strategisch-kader/00-executive-summary/', desc: 'De volledige AI Project Blauwdruk in tien minuten begrijpen' },
       actions: [
-        { label: 'Organisatieprofielen &amp; Maturity', url: '../13-organisatieprofielen/', desc: 'Waar staat uw organisatie in de AI-volwassenheidsreis?' },
+        { label: 'Organisatieprofielen \x26 Maturity', url: '../13-organisatieprofielen/', desc: 'Waar staat uw organisatie in de AI-volwassenheidsreis?' },
         { label: 'Snelstart 90-Dagen Roadmap', url: '../12-90-dagen-roadmap/', desc: 'Concrete roadmap van strategie naar eerste resultaten' },
         { label: 'Governance Model', url: '../00-strategisch-kader/03-governance-model/', desc: 'Wie beslist wat — rollen, verantwoordelijkheden en escalatie' }
       ]

@@ -372,7 +372,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Fill in Project Charter Light', url: '../00-explorer-kit/02-project-charter-light/', desc: 'Streamlined 1-page project framework for your first AI initiative' },
         { label: '90-Day Quick-Start Roadmap', url: '../12-90-dagen-roadmap/', desc: 'From strategy to action in three phased steps' },
-        { label: 'Phase 1: Discovery &amp; Strategy', url: '../02-fase-ontdekking/01-doelstellingen/', desc: 'Fully understand the problem before you start building' }
+        { label: 'Phase 1: Discovery \x26 Strategy', url: '../02-fase-ontdekking/01-doelstellingen/', desc: 'Fully understand the problem before you start building' }
       ]
     },
     Builder: {
@@ -380,7 +380,7 @@ var BN_ROUTES = {
       actions: [
         { label: 'Development Phase Overview', url: '../04-fase-ontwikkeling/01-doelstellingen/', desc: 'From proof-of-concept to production-ready system' },
         { label: 'Validation Report Template', url: '../09-sjablonen/07-validatie-bewijs/validatierapport/', desc: 'Document the evidence that your system works' },
-        { label: 'Monitoring &amp; Optimisation', url: '../06-fase-monitoring/01-doelstellingen/', desc: 'Performance monitoring and drift detection after go-live' }
+        { label: 'Monitoring \x26 Optimisation', url: '../06-fase-monitoring/01-doelstellingen/', desc: 'Performance monitoring and drift detection after go-live' }
       ]
     },
     Visionary: {
@@ -451,7 +451,7 @@ var BN_ROUTES = {
     Explorer: {
       start: { label: 'Executive Summary', url: '../00-strategisch-kader/00-executive-summary/', desc: 'Understand the full AI Project Blueprint in ten minutes' },
       actions: [
-        { label: 'Organisation Profiles &amp; Maturity', url: '../13-organisatieprofielen/', desc: 'Where does your organisation stand in the AI maturity journey?' },
+        { label: 'Organisation Profiles \x26 Maturity', url: '../13-organisatieprofielen/', desc: 'Where does your organisation stand in the AI maturity journey?' },
         { label: '90-Day Quick-Start Roadmap', url: '../12-90-dagen-roadmap/', desc: 'Concrete roadmap from strategy to first results' },
         { label: 'Governance Model', url: '../00-strategisch-kader/03-governance-model/', desc: 'Who decides what — roles, responsibilities and escalation' }
       ]
