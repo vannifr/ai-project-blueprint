@@ -1,5 +1,7 @@
 ---
 versie: '1.0'
+type: index
+layer: 3
 ---
 
 # AI-Assistent & MCP
