@@ -1,5 +1,5 @@
 ---
-versie: "1.0"
+versie: '1.0'
 ---
 
 # AI Assistant & MCP
@@ -11,7 +11,7 @@ The Blueprint offers two ways to use AI when working with the documentation: a *
     The **chatbot** (bottom right) understands your question and formulates an answer — including sources.
     Use the search bar when you know what you're looking for; use the chatbot when you have a question.
 
----
+______________________________________________________________________
 
 ## Blueprint Assistant (chatbot)
 
@@ -46,7 +46,7 @@ The assistant automatically detects whether you write in Dutch or English and re
 - Maximum 30 questions per minute per user
 - Answers are always based on the published documentation
 
----
+______________________________________________________________________
 
 ## MCP Server (for Claude and AI editors)
 
@@ -72,11 +72,11 @@ Add the following to your Claude Desktop configuration (`claude_desktop_config.j
 
 File location per platform:
 
-| Platform | Path |
-| -------- | ---- |
-| macOS | `~/Library/Application Support/Claude/claude_desktop_config.json` |
-| Windows | `%APPDATA%\Claude\claude_desktop_config.json` |
-| Linux | `~/.config/Claude/claude_desktop_config.json` |
+| Platform | Path                                                              |
+| -------- | ----------------------------------------------------------------- |
+| macOS    | `~/Library/Application Support/Claude/claude_desktop_config.json` |
+| Windows  | `%APPDATA%\Claude\claude_desktop_config.json`                     |
+| Linux    | `~/.config/Claude/claude_desktop_config.json`                     |
 
 ### Use in Cursor or other MCP clients
 
@@ -106,15 +106,15 @@ Once added, your AI assistant can:
 
 > *"Use the Blueprint MCP server and find the Gate 3 checklist for my project."*
 
----
+______________________________________________________________________
 
 ## Technical details
 
-| Component | Details |
-| --------- | ------- |
-| Chatbot API | `https://ai-delivery.io/api/` |
-| MCP server | `https://ai-delivery.io/mcp` |
-| Embeddings | `all-MiniLM-L6-v2` (local, ONNX) |
-| Generation | Ollama Cloud (`gemma3:12b-cloud`) |
-| Vector database | ChromaDB |
-| Index | 924 NL chunks + 920 EN chunks |
+| Component       | Details                           |
+| --------------- | --------------------------------- |
+| Chatbot API     | `https://ai-delivery.io/api/`     |
+| MCP server      | `https://ai-delivery.io/mcp`      |
+| Embeddings      | `all-MiniLM-L6-v2` (local, ONNX)  |
+| Generation      | Ollama Cloud (`gemma3:12b-cloud`) |
+| Vector database | ChromaDB                          |
+| Index           | 924 NL chunks + 920 EN chunks     |
