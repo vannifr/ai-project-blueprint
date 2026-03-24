@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import chromadb
-from ollama import Client
+from chromadb.utils.embedding_functions import DefaultEmbeddingFunction
 
 from .config import settings
 from .models import Source
@@ -33,29 +33,7 @@ def get_chroma_client() -> chromadb.PersistentClient:
 def get_collection(client: chromadb.PersistentClient, language: str) -> chromadb.Collection:
     """Get a ChromaDB collection by language."""
     name = f"blueprint_{language}"
-    return client.get_collection(name=name)
-
-
-def _get_ollama_client() -> Client:
-    """Get an Ollama client configured for cloud or local."""
-    import os
-    headers = {}
-    if settings.ollama_api_key:
-        headers["Authorization"] = f"Bearer {settings.ollama_api_key}"
-    return Client(
-        host=settings.ollama_host,
-        headers=headers,
-    )
-
-
-def embed_query(text: str) -> list[float]:
-    """Embed a query string using Ollama."""
-    client = _get_ollama_client()
-    response = client.embed(
-        model=settings.embedding_model,
-        input=text,
-    )
-    return response["embeddings"][0]
+    return client.get_collection(name=name, embedding_function=DefaultEmbeddingFunction())
 
 
 def doc_path_to_url(doc_path: str, language: str) -> str:
@@ -93,10 +71,9 @@ class Retriever:
 
         n = max_results or settings.max_chunks
         collection = get_collection(self.client, language)
-        query_embedding = embed_query(question)
 
         results = collection.query(
-            query_embeddings=[query_embedding],
+            query_texts=[question],
             n_results=n,
             include=["documents", "metadatas", "distances"],
         )

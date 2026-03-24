@@ -5,21 +5,10 @@ from __future__ import annotations
 from pathlib import Path
 
 import chromadb
-from ollama import Client
+from chromadb.utils.embedding_functions import DefaultEmbeddingFunction
 
 from .chunker import chunk_all_docs
 from .config import settings
-
-
-def _get_ollama_client() -> Client:
-    """Get an Ollama client configured for cloud or local."""
-    headers = {}
-    if settings.ollama_api_key:
-        headers["Authorization"] = f"Bearer {settings.ollama_api_key}"
-    return Client(
-        host=settings.ollama_host,
-        headers=headers,
-    )
 
 
 def build_index(
@@ -35,8 +24,8 @@ def build_index(
     chroma_path = chroma_path or settings.chroma_path
     languages = languages or ["nl", "en"]
 
+    embed_fn = DefaultEmbeddingFunction()
     client = chromadb.PersistentClient(path=chroma_path)
-    ollama_client = _get_ollama_client()
 
     stats = {}
 
@@ -51,6 +40,7 @@ def build_index(
 
         collection = client.create_collection(
             name=collection_name,
+            embedding_function=embed_fn,
             metadata={"hnsw:space": "cosine"},
         )
 
@@ -59,22 +49,13 @@ def build_index(
             stats[lang] = 0
             continue
 
-        # Batch embed and upsert
+        # Batch upsert — ChromaDB embeds automatically
         batch_size = 50
         for i in range(0, len(chunks), batch_size):
             batch = chunks[i:i + batch_size]
-            texts = [c.text for c in batch]
-
-            response = ollama_client.embed(
-                model=settings.embedding_model,
-                input=texts,
-            )
-            embeddings = response["embeddings"]
-
             collection.upsert(
                 ids=[c.id for c in batch],
-                documents=texts,
-                embeddings=embeddings,
+                documents=[c.text for c in batch],
                 metadatas=[
                     {
                         "doc_path": c.doc_path,

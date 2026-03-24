@@ -8,7 +8,6 @@ class Settings(BaseSettings):
     ollama_host: str = "https://ollama.com"
     docs_root: str = "../../docs"
     chroma_path: str = "./chroma_data"
-    embedding_model: str = "nomic-embed-text"
     generation_model: str = "gemma3:12b-cloud"
     max_chunks: int = 6
     max_tokens: int = 1024

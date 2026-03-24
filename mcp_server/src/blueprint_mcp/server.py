@@ -481,6 +481,9 @@ def main():
     if transport == "streamable-http":
         mcp.settings.host = os.environ.get("BLUEPRINT_HOST", "0.0.0.0")
         mcp.settings.port = int(os.environ.get("BLUEPRINT_PORT", "8902"))
+        # Behind a reverse proxy the Host header is the public domain, not localhost.
+        # DNS-rebinding protection is not needed here; nginx handles security.
+        mcp.settings.transport_security.enable_dns_rebinding_protection = False
     mcp.run(transport=transport)
 
 

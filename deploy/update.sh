@@ -16,6 +16,7 @@ git pull
 # Rebuild site
 echo "Building MkDocs site..."
 docker run --rm -v "$REPO_ROOT":/app -w /app python:3.12-slim bash -c "
+    apt-get update -qq && apt-get install -y -q git &&
     pip install -q -r requirements.txt 2>/dev/null &&
     python3 scripts/patch_i18n.py 2>/dev/null &&
     MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true mkdocs build --quiet

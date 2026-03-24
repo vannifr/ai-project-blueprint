@@ -76,12 +76,15 @@
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="{{ config.site_name }}" />
 {% if page %}<meta property="og:url" content="{{ nl_url if not page.url.startswith('en/') else en_url }}" />{% endif %}
-{% if config.extra.og_image %}<meta property="og:image" content="{{ config.extra.og_image }}" />{% endif %}
+{% if config.extra.og_image %}<meta property="og:image" content="{{ config.extra.og_image }}" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />{% endif %}
 <meta property="og:locale" content="{{ 'en_GB' if page and page.url.startswith('en/') else 'nl_BE' }}" />
 <meta property="og:locale:alternate" content="{{ 'nl_BE' if page and page.url.startswith('en/') else 'en_GB' }}" />
 
 {# === Twitter / X Card === #}
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ og_title }}" />
 <meta name="twitter:description" content="{{ page_description }}" />
 {% if config.extra.og_image %}<meta name="twitter:image" content="{{ config.extra.og_image }}" />{% endif %}

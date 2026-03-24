@@ -63,6 +63,42 @@ The full documentation is available as plain text for AI assistants:
 - [llms-full.txt](https://ai-delivery.io/llms-full.txt) — Full content (EN)
 - [llms-full-nl.txt](https://ai-delivery.io/llms-full-nl.txt) — Full content (NL)
 
+### RAG Chatbot & MCP Server
+
+The live site includes two backend services:
+
+| Service | Endpoint | Description |
+| ------- | -------- | ----------- |
+| **RAG Chatbot** | `https://ai-delivery.io/api/` | FastAPI + ChromaDB, answers questions about the Blueprint |
+| **MCP Server** | `https://ai-delivery.io/mcp` | Claude MCP integration via streamable-http |
+
+Both run as Docker containers behind nginx. Embeddings use `all-MiniLM-L6-v2` (local ONNX, no API key needed). Generation uses Ollama Cloud (`gemma3:12b-cloud`).
+
+**Add the MCP server to Claude Code:**
+
+```bash
+claude mcp add blueprint --transport http https://ai-delivery.io/mcp
+```
+
+## Deploy
+
+Initial setup on a Debian VPS with Docker + nginx:
+
+```bash
+cd deploy
+cp .env.example .env   # fill in CHAT_OLLAMA_API_KEY
+bash setup.sh
+```
+
+The script handles SSL (Let's Encrypt), MkDocs build, nginx config, Docker containers, and RAG index in one run. See [`deploy/`](deploy/) for details.
+
+To deploy updates after a code or content change:
+
+```bash
+cd deploy
+bash update.sh
+```
+
 ## Language Support
 
 The site is built in two languages using the **file suffix strategy** (`mkdocs-static-i18n`):

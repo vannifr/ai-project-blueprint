@@ -40,44 +40,58 @@ fi
 cd "$(dirname "$0")/.."
 REPO_ROOT="$(pwd)"
 
-# --- Step 1: SSL certificate ---
-echo "Obtaining SSL certificate for ai-delivery.io..."
-sudo certbot certonly --webroot -w /var/www/html \
-    -d ai-delivery.io -d www.ai-delivery.io \
-    --non-interactive --agree-tos --email admin@ai-delivery.io \
-    || echo "Cert already exists or webroot not ready — will retry after nginx config"
+# --- Step 1: HTTP-only nginx config to enable ACME challenge ---
+echo "Configuring nginx (HTTP only, for ACME challenge)..."
+sudo mkdir -p /var/www/html
+sudo tee /etc/nginx/sites-available/ai-delivery.io > /dev/null <<'NGINX_HTTP'
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ai-delivery.io www.ai-delivery.io;
 
-# --- Step 2: Build MkDocs site ---
+    location /.well-known/acme-challenge/ {
+        root /var/www/html;
+    }
+
+    location / {
+        return 301 https://ai-delivery.io$request_uri;
+    }
+}
+NGINX_HTTP
+sudo ln -sf /etc/nginx/sites-available/ai-delivery.io /etc/nginx/sites-enabled/ai-delivery.io
+sudo /usr/sbin/nginx -t
+sudo systemctl reload nginx
+
+# --- Step 2: SSL certificate ---
+echo "Obtaining SSL certificate for ai-delivery.io..."
+if [ ! -f /etc/letsencrypt/live/ai-delivery.io/fullchain.pem ]; then
+    sudo certbot certonly --webroot -w /var/www/html \
+        -d ai-delivery.io -d www.ai-delivery.io \
+        --non-interactive --agree-tos --email admin@ai-delivery.io
+else
+    echo "Certificate already exists, skipping."
+fi
+
+# --- Step 3: Build MkDocs site ---
 echo "Building MkDocs site..."
 docker run --rm -v "$REPO_ROOT":/app -w /app python:3.12-slim bash -c "
+    apt-get update -qq && apt-get install -y -q git &&
     pip install -q -r requirements.txt 2>/dev/null &&
     python3 scripts/patch_i18n.py 2>/dev/null &&
     MKDOCS_LANG=nl MKDOCS_BUILD_I18N=true mkdocs build --quiet
 "
 
-# --- Step 3: Deploy static site ---
+# --- Step 4: Deploy static site ---
 echo "Deploying static site..."
 sudo mkdir -p /var/www/ai-delivery.io
 sudo cp -r site/* /var/www/ai-delivery.io/
 sudo chown -R www-data:www-data /var/www/ai-delivery.io
 
-# --- Step 4: Nginx config ---
-echo "Configuring nginx..."
+# --- Step 5: Full nginx config (HTTP + HTTPS) ---
+echo "Deploying full nginx config with SSL..."
 sudo cp deploy/nginx-ai-delivery.conf /etc/nginx/sites-available/ai-delivery.io
-sudo ln -sf /etc/nginx/sites-available/ai-delivery.io /etc/nginx/sites-enabled/ai-delivery.io
-
-# Test nginx config before reloading
-sudo nginx -t
+sudo /usr/sbin/nginx -t
 sudo systemctl reload nginx
-
-# --- Step 5: SSL cert (retry if first attempt failed) ---
-if [ ! -f /etc/letsencrypt/live/ai-delivery.io/fullchain.pem ]; then
-    echo "Retrying SSL certificate..."
-    sudo certbot certonly --webroot -w /var/www/html \
-        -d ai-delivery.io -d www.ai-delivery.io \
-        --non-interactive --agree-tos --email admin@ai-delivery.io
-    sudo systemctl reload nginx
-fi
 
 # --- Step 6: Build and start Docker containers ---
 echo "Building Docker containers..."
