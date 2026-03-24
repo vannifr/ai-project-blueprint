@@ -106,7 +106,6 @@ jobs:
       - name: Deploy via SSH (git pull + update)
         run: |
           ssh -i ~/.ssh/id_rsa -p ${{ secrets.SSH_PORT }} \
-            -o HostKeyAlgorithms=ssh-rsa -o PubkeyAcceptedAlgorithms=ssh-rsa \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
             "cd ${{ secrets.SSH_PATH }} && git pull && bash deploy/update.sh"
 
@@ -210,7 +209,7 @@ jobs:
       - name: Deploy via rsync (with PDF)
         run: |
           rsync -avz --delete \
-            -e "ssh -i ~/.ssh/id_rsa -p ${{ secrets.SSH_PORT }} -o HostKeyAlgorithms=ssh-rsa -o PubkeyAcceptedAlgorithms=ssh-rsa" \
+            -e "ssh -i ~/.ssh/id_rsa -p ${{ secrets.SSH_PORT }}" \
             site/ \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}/
 
