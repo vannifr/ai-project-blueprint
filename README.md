@@ -12,7 +12,7 @@ A comprehensive documentation hub for AI project management, based on PMI-CPMAI 
 ## Authors
 
 - **Frederik Vannieuwenhuyse** — [@vannifr](https://github.com/vannifr)
-- **Joseph Vandurme** — [@hvandurme](https://github.com/hvandurme)
+- **Hadrien-Joseph van Durme** — [@hvandurme](https://github.com/hvandurme)
 
 ## About
 
