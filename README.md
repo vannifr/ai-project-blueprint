@@ -67,10 +67,10 @@ The full documentation is available as plain text for AI assistants:
 
 The live site includes two backend services:
 
-| Service | Endpoint | Description |
-| ------- | -------- | ----------- |
-| **RAG Chatbot** | `https://ai-delivery.io/api/` | FastAPI + ChromaDB, answers questions about the Blueprint |
-| **MCP Server** | `https://ai-delivery.io/mcp` | Claude MCP integration via streamable-http |
+| Service         | Endpoint                      | Description                                                |
+| --------------- | ----------------------------- | ---------------------------------------------------------- |
+| **RAG Chatbot** | `https://ai-delivery.io/api/` | FastAPI + ChromaDB, answers questions about the Blueprint  |
+| **MCP Server**  | `https://ai-delivery.io/mcp`  | 19 tools: 8 guided agent workflows + 11 standalone lookups |
 
 Both run as Docker containers behind nginx. Embeddings use `all-MiniLM-L6-v2` (local ONNX, no API key needed). Generation uses Ollama Cloud (`gemma3:12b-cloud`).
 
@@ -79,6 +79,15 @@ Both run as Docker containers behind nginx. Embeddings use `all-MiniLM-L6-v2` (l
 ```bash
 claude mcp add blueprint --transport http https://ai-delivery.io/mcp
 ```
+
+**Agent workflows available via MCP:**
+
+| Workflow             | Trigger                                       | Steps                   |
+| -------------------- | --------------------------------------------- | ----------------------- |
+| **Project Setup**    | "Help me set up a new AI project"             | Intake → Risk → Charter |
+| **Gate Review**      | "Help me prepare for Gate 2"                  | Intake → Report         |
+| **Template Advisor** | "Which templates do I need as PM in phase 3?" | Single step             |
+| **Compliance**       | "Is my system compliant with the EU AI Act?"  | Intake → Checklist      |
 
 ## Deploy
 

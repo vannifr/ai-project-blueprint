@@ -48,10 +48,44 @@ uv venv && uv pip install -e . pytest
 | `BLUEPRINT_DOCS_PATH` | `../../docs` (relative to package) | Path to the `docs/` directory    |
 | `BLUEPRINT_LANGUAGE`  | `en`                               | Language to index (`en` or `nl`) |
 
-## Tools (9)
+## Agent Workflows (8 tools)
+
+Guided multi-step workflows. The calling LLM orchestrates the steps and collects user input between them. Each workflow tool description explicitly tells the LLM when to use it and what to call next.
+
+### Project Setup Agent
+
+| Tool                    | Step | Description                                                     |
+| ----------------------- | ---- | --------------------------------------------------------------- |
+| `project_setup_intake`  | 1    | Classify Type A/B + present EU AI Act risk pre-scan questions   |
+| `project_setup_risk`    | 2    | Score B1/B2/B3 → green/amber/red + recommend collaboration mode |
+| `project_setup_charter` | 3    | Generate pre-filled Project Charter with accumulated context    |
+
+### Gate Review Agent
+
+| Tool                 | Step | Description                                     |
+| -------------------- | ---- | ----------------------------------------------- |
+| `gate_review_intake` | 1    | Present gate checklist + identify evidence gaps |
+| `gate_review_report` | 2    | Generate Guardian-ready Go/No-Go summary        |
+
+### Template Advisor
+
+| Tool               | Description                                                               |
+| ------------------ | ------------------------------------------------------------------------- |
+| `template_advisor` | Recommend and return templates for a role + phase with context pre-filled |
+
+### Compliance Agent
+
+| Tool                   | Step | Description                                                    |
+| ---------------------- | ---- | -------------------------------------------------------------- |
+| `compliance_intake`    | 1    | Heuristic EU AI Act risk classification + relevant obligations |
+| `compliance_checklist` | 2    | Article-referenced checklist per risk category                 |
+
+## Standalone Tools (11)
 
 | Tool                        | Description                                                             |
 | --------------------------- | ----------------------------------------------------------------------- |
+| `answer_question`           | Find relevant Blueprint pages for a natural language question           |
+| `get_template_for_context`  | Get templates for a role + phase combination                            |
 | `get_phase_guidance`        | Get objectives, activities, or deliverables for a lifecycle phase (1-5) |
 | `get_template`              | Retrieve a template by name (fuzzy match)                               |
 | `check_gate_readiness`      | Compare evidence against gate review checklist                          |

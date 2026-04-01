@@ -96,17 +96,32 @@ Verify the connection:
 claude mcp list
 ```
 
-### What does the MCP server do?
+### Agent workflows
 
-Once added, your AI assistant can:
+The MCP server offers guided multi-step workflows in addition to standalone lookup tools. The AI assistant orchestrates the steps and asks you for input between them.
 
-- Search the Blueprint documentation for relevant sections
-- Retrieve templates and checklists
-- Provide context for phase-specific questions
+| Workflow             | How to trigger                                  | What you get                                                         |
+| -------------------- | ----------------------------------------------- | -------------------------------------------------------------------- |
+| **Project Setup**    | *"Help me set up a new AI project"*             | Type A/B classification → risk pre-scan → pre-filled Project Charter |
+| **Gate Review**      | *"Help me prepare for Gate 2"*                  | Evidence gap check → Guardian-ready Go/No-Go summary                 |
+| **Template Advisor** | *"Which templates do I need as PM in phase 3?"* | Recommended templates with context pre-filled                        |
+| **Compliance**       | *"Is my system compliant with the EU AI Act?"*  | Risk category classification → article-referenced checklist          |
 
-**Example prompt for Claude:**
+### Standalone tools
 
-> *"Use the Blueprint MCP server and find the Gate 3 checklist for my project."*
+The server also exposes individual tools for direct lookups:
+
+- Search documentation for relevant sections
+- Retrieve templates and checklists by name
+- Look up terminology, phase guidance, and risk frameworks
+
+**Example prompts for Claude:**
+
+> *"Use the Blueprint MCP server and help me set up my fraud detection project."*
+
+> *"Find the Gate 3 checklist for my project using the Blueprint."*
+
+> *"Check if my AI hiring system is EU AI Act compliant."*
 
 ______________________________________________________________________
 
