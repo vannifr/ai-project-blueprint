@@ -692,6 +692,369 @@ def project_setup_charter(
     )
 
 
+# ─── Gate Review Agent ────────────────────────────────────────────────────────
+
+
+@mcp.tool()
+def gate_review_intake(gate: int, evidence: list[str]) -> str:
+    """START HERE for Gate Review preparation. Step 1 of the Gate Review workflow.
+
+    This is Step 1 of the guided Gate Review workflow (2 steps total):
+      1. gate_review_intake  ← you are here
+      2. gate_review_report
+
+    Do NOT call check_gate_readiness directly for gate review preparation —
+    use this workflow instead.
+
+    Takes the gate number and a list of evidence items the team has prepared.
+    Returns the gate checklist, identifies gaps, and guides the calling LLM to
+    collect missing items from the user before generating the review report.
+
+    Args:
+        gate: Gate number (1–4)
+        evidence: List of evidence items available (e.g. ["project charter", "risk scan"])
+    """
+    if gate not in range(1, 5):
+        return f"Error: gate must be 1–4, got {gate}"
+
+    index = get_index()
+
+    # Fetch gate checklist
+    checklist_docs = [
+        d for d in index.docs
+        if "gate-review" in d.path.lower() or ("gate" in d.path.lower() and "checklist" in d.path.lower())
+    ]
+
+    checklist_content = checklist_docs[0].body if checklist_docs else ""
+
+    evidence_str = "\n".join(f"- {e}" for e in evidence) if evidence else "_(none provided)_"
+
+    # Simple gap detection: flag checklist items not mentioned in evidence
+    gaps = []
+    if checklist_content:
+        evidence_lower = " ".join(evidence).lower()
+        for line in checklist_content.splitlines():
+            line = line.strip()
+            if not line or not (line.startswith("- [ ]") or line.startswith("- [x]")):
+                continue
+            item = line.lstrip("- [ ]").lstrip("- [x]").strip()
+            if not any(word in evidence_lower for word in item.lower().split() if len(word) > 4):
+                gaps.append(item)
+
+    gaps_str = "\n".join(f"- {g}" for g in gaps[:8]) if gaps else "_(no obvious gaps detected — verify manually)_"
+
+    return (
+        f"# Gate Review — Step 1: Intake (Gate {gate})\n\n"
+        f"## Evidence provided\n\n{evidence_str}\n\n"
+        f"## Potential gaps\n\n{gaps_str}\n\n"
+        f"---\n\n"
+        f"## Gate {gate} Checklist\n\n{checklist_content}\n\n"
+        f"---\n\n"
+        f"**Next step:** Present the gaps to the user. Ask them to confirm or clarify each gap. "
+        f"Then call `gate_review_report` with `gate`, the confirmed `evidence` list, "
+        f"and the confirmed `gaps` list to generate the Guardian-ready review summary."
+    )
+
+
+@mcp.tool()
+def gate_review_report(gate: int, evidence: list[str], gaps: list[str]) -> str:
+    """Step 2 of the Gate Review workflow: generate a Guardian-ready review summary.
+
+    Call this ONLY after running gate_review_intake (Step 1) and confirming
+    evidence and gaps with the user.
+
+    Returns a structured gate review summary the Guardian can use to make
+    a Go / No-Go decision.
+
+    Args:
+        gate: Gate number (1–4)
+        evidence: Confirmed list of available evidence items
+        gaps: Confirmed list of gaps or missing items (empty list = no gaps)
+    """
+    if gate not in range(1, 5):
+        return f"Error: gate must be 1–4, got {gate}"
+
+    gate_names = {1: "Go/No-Go Discovery", 2: "Pilot Investment", 3: "Production-Ready", 4: "Go-Live"}
+    gate_label = gate_names.get(gate, f"Gate {gate}")
+
+    evidence_str = "\n".join(f"- ✅ {e}" for e in evidence) if evidence else "_(none)_"
+
+    if gaps:
+        gaps_str = "\n".join(f"- ⚠️ {g}" for g in gaps)
+        readiness = "**NOT READY** — gaps must be resolved before Guardian sign-off."
+        decision = "- [ ] **No-Go / Address gaps first**\n- [ ] **Conditional Go** _(gaps accepted with mitigation)_"
+    else:
+        gaps_str = "_(none — all criteria met)_"
+        readiness = "**READY** — all evidence present. Proceed to Guardian review."
+        decision = "- [ ] **Go** _(proceed to next phase)_\n- [ ] **No-Go** _(Guardian decision)_"
+
+    return (
+        f"# Gate {gate} Review Summary — {gate_label}\n\n"
+        f"## Readiness assessment\n\n{readiness}\n\n"
+        f"## Evidence\n\n{evidence_str}\n\n"
+        f"## Gaps\n\n{gaps_str}\n\n"
+        f"---\n\n"
+        f"## Guardian Decision\n\n{decision}\n\n"
+        f"**Guardian:** \\[Name\\]\n"
+        f"**Date:** \\[Date\\]\n"
+        f"**Remarks:** \\[Any conditions, observations, or follow-up actions\\]\n\n"
+        f"---\n\n"
+        f"> Present this summary to the Guardian for sign-off. "
+        f"If gaps exist, agree on a resolution plan before proceeding."
+    )
+
+
+# ─── Template Advisor ──────────────────────────────────────────────────────────
+
+
+@mcp.tool()
+def template_advisor(role: str, phase: int, context: str = "") -> str:
+    """Get recommended templates for a role and lifecycle phase, with context pre-filled.
+
+    Use this when a user asks which templates they need, wants to start filling
+    a template, or asks what to do next in a given phase.
+
+    Returns the recommended templates for the role + phase combination with
+    any provided context already woven into the instructions.
+
+    Args:
+        role: Role name (e.g. "AI Product Manager", "Guardian", "Tech Lead")
+        phase: Lifecycle phase number (1–5)
+        context: Optional project context to pre-fill into template instructions
+                 (e.g. "Type A, green risk, fraud detection project")
+    """
+    if phase not in range(1, 6):
+        return f"Error: phase must be 1–5, got {phase}"
+
+    index = get_index()
+    phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
+    phase_label = phase_names.get(phase, f"Phase {phase}")
+
+    # Role + phase match first
+    templates = [
+        d for d in index.docs
+        if d.type == "template" and phase in d.phases and (not d.roles or role in d.roles)
+    ]
+    # Broaden if no role match
+    if not templates:
+        templates = [d for d in index.docs if d.type == "template" and phase in d.phases]
+
+    if not templates:
+        return f"No templates found for {role} in phase {phase} ({phase_label})."
+
+    context_note = f"\n\n**Project context:** {context}" if context else ""
+
+    sections = [
+        f"# Template Advisor — {role} / Phase {phase}: {phase_label}{context_note}\n\n"
+        f"The following templates are recommended for your role and phase. "
+        f"Each template is shown in full — fill in the `[placeholder]` fields.\n"
+    ]
+
+    for doc in templates:
+        sections.append(_format_doc_full(doc))
+
+    return "\n\n---\n\n".join(sections)
+
+
+# ─── Compliance Agent ──────────────────────────────────────────────────────────
+
+
+_EU_RISK_KEYWORDS = {
+    "unacceptable": [
+        "social scor", "subliminal", "manipulat", "biometric categor",
+        "real-time biometric", "emotion recognit", "exploit vulnerabl",
+    ],
+    "high": [
+        "hire", "hiring", "recruit", "cv screen", "employment", "credit scor",
+        "loan", "insurance", "law enforcement", "border", "migration", "asylum",
+        "critical infrastructure", "energy grid", "water supply", "transport",
+        "education admission", "exam", "welfare benefit", "social service",
+        "medical device", "safety component",
+    ],
+    "limited": [
+        "chatbot", "virtual assistant", "deepfake", "synthetic content",
+        "emotion detect", "ai-generated", "customer service bot",
+    ],
+}
+
+
+def _classify_eu_risk(description: str) -> str:
+    """Heuristic EU AI Act risk classification based on description keywords."""
+    desc_lower = description.lower()
+    for category, keywords in _EU_RISK_KEYWORDS.items():
+        if any(kw in desc_lower for kw in keywords):
+            return category
+    return "minimal"
+
+
+@mcp.tool()
+def compliance_intake(description: str) -> str:
+    """START HERE for EU AI Act compliance assessment. Step 1 of the Compliance workflow.
+
+    This is Step 1 of the guided Compliance workflow (2 steps total):
+      1. compliance_intake   ← you are here
+      2. compliance_checklist
+
+    Do NOT call classify_risk directly for compliance assessment —
+    use this workflow instead.
+
+    Classifies the AI system against EU AI Act risk categories and returns
+    the relevant obligations. Present findings to the user for confirmation,
+    then call compliance_checklist.
+
+    Args:
+        description: Free-text description of the AI system
+    """
+    index = get_index()
+
+    heuristic_category = _classify_eu_risk(description)
+
+    # Fetch EU AI Act overview
+    eu_docs = [
+        d for d in index.docs
+        if "eu-ai-act" in d.path and d.type in ("compliance", "index", "guide", "strategic")
+    ]
+    eu_content = _format_doc_full(eu_docs[0]) if eu_docs else ""
+
+    category_guidance = {
+        "unacceptable": (
+            "🔴 **Unacceptable Risk (Art. 5) — PROHIBITED**\n\n"
+            "This system appears to fall under prohibited AI practices. "
+            "It cannot be deployed in the EU. Consult legal counsel immediately."
+        ),
+        "high": (
+            "🟠 **High Risk (Art. 6 + Annex III)**\n\n"
+            "This system likely qualifies as high-risk AI. Mandatory requirements apply: "
+            "risk management system (Art. 9), data governance (Art. 10), technical documentation "
+            "(Art. 11–12), transparency (Art. 13), human oversight (Art. 14), and accuracy (Art. 15)."
+        ),
+        "limited": (
+            "🟡 **Limited Risk — Transparency Obligations (Art. 50)**\n\n"
+            "This system has transparency obligations. Users must be informed they are "
+            "interacting with an AI system. AI-generated content must be labelled."
+        ),
+        "minimal": (
+            "🟢 **Minimal Risk**\n\n"
+            "This system falls under minimal risk. No mandatory EU AI Act obligations apply, "
+            "but voluntary codes of conduct are recommended."
+        ),
+    }
+
+    guidance = category_guidance.get(heuristic_category, category_guidance["minimal"])
+
+    return (
+        f"# Compliance Assessment — Step 1: Intake\n\n"
+        f"**System description:** {description}\n\n"
+        f"## Preliminary classification\n\n"
+        f"{guidance}\n\n"
+        f"⚠️ _This is a heuristic classification. Confirm with the user before proceeding._\n\n"
+        f"---\n\n"
+        f"{eu_content}\n\n"
+        f"---\n\n"
+        f"**Next step:** Present the preliminary classification to the user for confirmation. "
+        f"Ask if the category is correct. Then call `compliance_checklist` with `description` "
+        f"and `risk_category` (unacceptable / high / limited / minimal)."
+    )
+
+
+@mcp.tool()
+def compliance_checklist(description: str, risk_category: str) -> str:
+    """Step 2 of the Compliance workflow: generate a specific EU AI Act compliance checklist.
+
+    Call this ONLY after compliance_intake (Step 1) and user confirmation of the risk category.
+
+    Returns a concrete checklist with EU AI Act article references tailored to
+    the system description and risk category.
+
+    Args:
+        description: Free-text description of the AI system
+        risk_category: Confirmed risk category: "unacceptable", "high", "limited", or "minimal"
+    """
+    index = get_index()
+
+    category = risk_category.lower().strip()
+
+    if category == "unacceptable":
+        return (
+            f"# Compliance Checklist — BLOCKED\n\n"
+            f"**System:** {description}\n\n"
+            f"🔴 **This system is prohibited under EU AI Act Art. 5.**\n\n"
+            f"Deployment in the EU is not permitted. Required actions:\n\n"
+            f"- [ ] Halt all development and deployment activities\n"
+            f"- [ ] Consult legal counsel specialised in EU AI Act\n"
+            f"- [ ] Document the decision and rationale\n"
+            f"- [ ] Consider redesigning the use case to remove the prohibited element\n\n"
+            f"Refer to Art. 5 of the EU AI Act for the full list of prohibited practices."
+        )
+
+    # Fetch detailed compliance content
+    compliance_docs = [d for d in index.docs if "07-compliance-hub" in d.path and "eu-ai-act" in d.path]
+    checklist_content = ""
+    for doc in compliance_docs:
+        if len(doc.body) > 500:
+            checklist_content = doc.body
+            break
+
+    checklists_by_category = {
+        "high": (
+            "### Pre-development\n"
+            "- [ ] **Art. 9** — Risk management system established and documented\n"
+            "- [ ] **Art. 10** — Data governance policy covers training, validation, and test data\n"
+            "- [ ] **Art. 11** — Technical documentation prepared (technical dossier)\n"
+            "- [ ] **Annex III** — Confirmed system falls under high-risk category\n\n"
+            "### During development\n"
+            "- [ ] **Art. 12** — Logging and record-keeping mechanisms in place\n"
+            "- [ ] **Art. 13** — Transparency measures designed (user-facing documentation)\n"
+            "- [ ] **Art. 14** — Human oversight mechanisms defined per collaboration mode\n"
+            "- [ ] **Art. 15** — Accuracy, robustness, and cybersecurity requirements addressed\n\n"
+            "### Before go-live\n"
+            "- [ ] **Art. 9** — Risk management system tested and validated\n"
+            "- [ ] **Art. 16** — Conformity assessment completed\n"
+            "- [ ] **Art. 49** — EU Declaration of Conformity signed\n"
+            "- [ ] **Art. 49** — CE marking applied (where applicable)\n"
+            "- [ ] Guardian sign-off obtained\n\n"
+            "### After go-live\n"
+            "- [ ] **Art. 9** — Risk management system actively monitored\n"
+            "- [ ] **Art. 72** — Post-market monitoring plan active\n"
+            "- [ ] **Art. 73** — Serious incident reporting procedure in place\n"
+            "- [ ] Annual review of technical documentation scheduled\n"
+        ),
+        "limited": (
+            "### Before go-live\n"
+            "- [ ] **Art. 50** — Users are informed they are interacting with an AI system\n"
+            "- [ ] **Art. 50** — AI-generated content is labelled as such (where applicable)\n"
+            "- [ ] Disclosure mechanism implemented (e.g. 'Powered by AI' notice)\n\n"
+            "### Recommended (voluntary)\n"
+            "- [ ] Human oversight contact designated\n"
+            "- [ ] Feedback mechanism for users provided\n"
+            "- [ ] Internal logging of interactions enabled\n"
+        ),
+        "minimal": (
+            "### Recommended (voluntary — no mandatory obligations)\n"
+            "- [ ] Document the system purpose and intended use\n"
+            "- [ ] Designate an accountable owner\n"
+            "- [ ] Apply basic transparency (users know it is AI)\n"
+            "- [ ] Enable human override in case of errors\n"
+            "- [ ] Follow Voluntary Code of Conduct (EU AI Office)\n"
+        ),
+    }
+
+    specific_checklist = checklists_by_category.get(category, checklists_by_category["minimal"])
+
+    extra_content = f"\n\n---\n\n## Detailed Blueprint Compliance Reference\n\n{checklist_content}" if checklist_content else ""
+
+    return (
+        f"# Compliance Checklist — {risk_category.capitalize()} Risk\n\n"
+        f"**System:** {description}\n\n"
+        f"---\n\n"
+        f"{specific_checklist}"
+        f"{extra_content}\n\n"
+        f"---\n\n"
+        f"> Review each item with your Guardian and legal counsel. "
+        f"High-risk systems require conformity assessment before deployment."
+    )
+
+
 # ─── Resources ────────────────────────────────────────────────────────────────
 
 
