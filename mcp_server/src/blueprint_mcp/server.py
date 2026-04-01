@@ -417,6 +417,281 @@ def search_content(
     return "\n".join(lines)
 
 
+# ─── Project Setup Agent ──────────────────────────────────────────────────────
+
+_RISK_QUESTIONS = """\
+## Risk Pre-Scan Questions
+
+Answer each question with a score: 0 = No / 1 = Partially / 2 = Yes
+
+### Part A — Hard Blockers (answer before scoring)
+If any answer below is Yes, **stop immediately** and consult the Compliance Hub.
+- Does the system use subliminal/manipulative techniques to influence behaviour without user knowledge?
+- Does it apply biometric categorisation based on sensitive characteristics (race, religion, politics)?
+- Does it perform real-time biometric identification in public spaces?
+- Does it evaluate individuals based on social behaviour ("social scoring")?
+
+### Part B1 — Application Domain (0–10 total)
+1. Is the system deployed in critical infrastructure (energy, water, transport)?
+2. Does it decide on access to education, employment or social services?
+3. Does it decide on credit, insurance or financial services?
+4. Is it deployed in law enforcement, migration or the justice system?
+5. Does the system affect safety (physical harm possible)?
+
+### Part B2 — Data & Privacy (0–10 total)
+1. Does the system process personal data (GDPR)?
+2. Does training or inference data contain special categories (health, political, biometric)?
+3. Is data from minors being processed?
+4. Is the data source external/unknown (e.g. web scraping)?
+5. Are user interactions stored without explicit consent?
+
+### Part B3 — Autonomy & Impact (0–10 total)
+1. Does the system make decisions without human intervention that impact individuals?
+2. Are the consequences of an error difficult to reverse?
+3. Are there no alternative control measures if the system fails?
+4. Does the system interact directly with end users who do not know it is AI?
+5. Does the system affect labour-related decisions (evaluation, selection, dismissal)?
+
+**→ Next step:** Score each section (B1, B2, B3) and call `project_setup_risk` with the subtotals."""
+
+_RISK_THRESHOLDS = [
+    (6, "green", "Low risk — proceed to charter"),
+    (15, "amber", "Elevated risk — additional measures required before proceeding"),
+    (30, "red", "High risk — stop or redefine the project scope"),
+]
+
+_COLLAB_MODE_GUIDANCE = {
+    "green": (
+        "**Recommended starting point: Mode 2 (Advisory) or Mode 3 (Collaborative).**\n"
+        "Low risk allows more AI autonomy. Start at Mode 2 and consider Mode 3 once trust is established."
+    ),
+    "amber": (
+        "**Recommended starting point: Mode 2 (Advisory).**\n"
+        "Elevated risk requires human approval for all AI outputs. "
+        "Modes 4 and 5 require explicit Guardian approval."
+    ),
+    "red": (
+        "**Recommended starting point: Mode 1 (Instrumental).**\n"
+        "High risk demands minimal AI autonomy. Human must initiate every action. "
+        "Do not proceed without Guardian and legal review."
+    ),
+}
+
+
+def _risk_level(b1: int, b2: int, b3: int) -> tuple[int, str, str]:
+    """Return (total, colour, interpretation) for the given B-scores."""
+    b1 = max(0, min(10, b1))
+    b2 = max(0, min(10, b2))
+    b3 = max(0, min(10, b3))
+    total = b1 + b2 + b3
+    for threshold, colour, interpretation in _RISK_THRESHOLDS:
+        if total <= threshold:
+            return total, colour, interpretation
+    return total, "red", _RISK_THRESHOLDS[-1][2]
+
+
+@mcp.tool()
+def project_setup_intake(description: str) -> str:
+    """START HERE when a user wants to set up, start, or kick off a new AI project or use case.
+
+    This is Step 1 of the guided Project Setup workflow (3 steps total):
+      1. project_setup_intake  ← you are here
+      2. project_setup_risk
+      3. project_setup_charter
+
+    Do NOT call get_project_type, classify_risk, or get_template individually for project setup —
+    use this workflow instead. Those tools are for standalone lookups only.
+
+    Returns:
+    - Type A / Type B classification framework applied to the description
+    - Hard blocker checks (EU AI Act prohibited practices)
+    - Scored risk questions (B1/B2/B3) for the user to complete
+
+    After presenting this to the user and collecting their B1/B2/B3 subtotal scores,
+    call `project_setup_risk` as the next step.
+
+    Args:
+        description: Free-text description of the AI project or use case
+    """
+    index = get_index()
+
+    # Fetch project type framework
+    type_docs = index.get_phase_docs(1, "activities")
+    if not type_docs:
+        type_docs = [d for d in index.docs if "activiteiten" in d.path and "02-fase-ontdekking" in d.path]
+
+    type_section = ""
+    if type_docs:
+        type_section = (
+            f"## Step 1a: Classify your project type\n\n"
+            f"**Project description:** {description}\n\n"
+            f"Use the Type A / Type B framework below to classify this project, "
+            f"then confirm the type with the user.\n\n"
+            f"---\n\n{_format_doc_full(type_docs[0])}"
+        )
+    else:
+        type_section = (
+            f"## Step 1a: Project type\n\n"
+            f"**Project description:** {description}\n\n"
+            f"- **Type A** — Deterministic AI: rules, classification, prediction (e.g. fraud detection, document routing)\n"
+            f"- **Type B** — Generative AI: LLMs, content creation, summarisation, conversation\n\n"
+            f"Classify the project and confirm with the user."
+        )
+
+    return (
+        f"# Project Setup — Step 1: Intake\n\n"
+        f"{type_section}\n\n"
+        f"---\n\n"
+        f"{_RISK_QUESTIONS}\n\n"
+        f"---\n\n"
+        f"**Next step:** Present the risk questions to the user, collect their B1/B2/B3 scores, "
+        f"then call `project_setup_risk` with `description`, `project_type` (A or B), "
+        f"and `risk_scores_b1`, `risk_scores_b2`, `risk_scores_b3`."
+    )
+
+
+@mcp.tool()
+def project_setup_risk(
+    description: str,
+    project_type: str,
+    risk_scores_b1: int,
+    risk_scores_b2: int,
+    risk_scores_b3: int,
+) -> str:
+    """Step 2 of the guided Project Setup workflow: calculate risk level and recommend collaboration mode.
+
+    Call this ONLY after running project_setup_intake (Step 1) and collecting B1/B2/B3 scores from the user.
+    Returns risk level (green/amber/red) and recommended collaboration mode.
+
+    Present the findings to the user for confirmation, then call `project_setup_charter` (Step 3).
+
+    Args:
+        description: Free-text description of the AI project
+        project_type: "A" (deterministic) or "B" (generative)
+        risk_scores_b1: Part B1 subtotal (Application Domain), 0–10
+        risk_scores_b2: Part B2 subtotal (Data & Privacy), 0–10
+        risk_scores_b3: Part B3 subtotal (Autonomy & Impact), 0–10
+    """
+    index = get_index()
+
+    total, colour, interpretation = _risk_level(risk_scores_b1, risk_scores_b2, risk_scores_b3)
+    mode_guidance = _COLLAB_MODE_GUIDANCE.get(colour, _COLLAB_MODE_GUIDANCE["amber"])
+
+    # Fetch HAS-H collaboration modes content
+    has_h_docs = [d for d in index.docs if "has-h" in d.path.lower()]
+    has_h_section = ""
+    if has_h_docs:
+        has_h_section = f"\n\n---\n\n## Collaboration Modes Reference\n\n{has_h_docs[0].body[:1500]}..."
+
+    return (
+        f"# Project Setup — Step 2: Risk Assessment\n\n"
+        f"**Project:** {description}\n"
+        f"**Type:** {project_type.upper()}\n\n"
+        f"## Risk Score\n\n"
+        f"| Section | Score |\n"
+        f"|:--------|------:|\n"
+        f"| B1 — Application Domain | {max(0, min(10, risk_scores_b1))}/10 |\n"
+        f"| B2 — Data & Privacy     | {max(0, min(10, risk_scores_b2))}/10 |\n"
+        f"| B3 — Autonomy & Impact  | {max(0, min(10, risk_scores_b3))}/10 |\n"
+        f"| **Total**               | **{total}/30** |\n\n"
+        f"**Risk level: {colour.upper()}** — {interpretation}\n\n"
+        f"## Recommended Collaboration Mode\n\n"
+        f"{mode_guidance}"
+        f"{has_h_section}\n\n"
+        f"---\n\n"
+        f"**Next step:** Present this summary to the user for confirmation. "
+        f"Ask for the collaboration mode number (1–5) they want to proceed with, "
+        f"then call `project_setup_charter` with `description`, `project_type`, "
+        f"`risk_level` ('{colour}'), `collaboration_mode`, and any `additional_context` "
+        f"(team, budget, timeline, etc.)."
+    )
+
+
+@mcp.tool()
+def project_setup_charter(
+    description: str,
+    project_type: str,
+    risk_level: str,
+    collaboration_mode: str,
+    additional_context: str = "",
+) -> str:
+    """Step 3 (final) of the guided Project Setup workflow: generate a pre-filled Project Charter.
+
+    Call this ONLY after running project_setup_risk (Step 2) and the user has confirmed their
+    risk level and collaboration mode. Returns the Project Charter template with all known fields
+    pre-filled from the accumulated context.
+
+    Fill in any remaining [placeholder] fields based on the conversation so far.
+    Present the result to the user for review and approval.
+
+    Args:
+        description: Free-text description of the AI project
+        project_type: "A" (deterministic) or "B" (generative)
+        risk_level: Risk colour from step 2 ("green", "amber", or "red")
+        collaboration_mode: Mode number as string ("1"–"5") confirmed by user
+        additional_context: Optional extra context (team, budget, timeline, stakeholders, etc.)
+    """
+    index = get_index()
+
+    # Fetch the project charter template
+    charter_docs = [
+        d for d in index.docs
+        if "project-charter" in d.path and d.type == "template"
+    ]
+    if not charter_docs:
+        charter_docs = [d for d in index.docs if "project-charter" in d.path]
+
+    if not charter_docs:
+        return "Project Charter template not found in the index."
+
+    charter_template = charter_docs[0].body
+
+    mode_names = {
+        "1": "Mode 1 — Instrumental (The Tool)",
+        "2": "Mode 2 — Advisory (The Advisor)",
+        "3": "Mode 3 — Collaborative (The Partner)",
+        "4": "Mode 4 — Delegated (The Executor)",
+        "5": "Mode 5 — Autonomous (The Agent)",
+    }
+    mode_label = mode_names.get(str(collaboration_mode), f"Mode {collaboration_mode}")
+
+    eu_risk = {
+        "green": "Minimal",
+        "amber": "Limited",
+        "red": "High",
+    }.get(risk_level.lower(), risk_level)
+
+    context_section = ""
+    if additional_context:
+        context_section = f"\n\n## Additional Context Provided\n\n{additional_context}"
+
+    return (
+        f"# Project Setup — Step 3: Project Charter\n\n"
+        f"The template below is pre-filled with the context gathered in steps 1 and 2. "
+        f"Fill in the remaining `[placeholder]` fields based on what you know from the conversation. "
+        f"Present the completed charter to the user for review and approval.\n\n"
+        f"---\n\n"
+        f"**Prefilled values:**\n"
+        f"- Project type: **{project_type.upper()}**\n"
+        f"- Risk level: **{risk_level.upper()}** → EU AI Act category: **{eu_risk}**\n"
+        f"- Collaboration mode: **{mode_label}**\n"
+        f"- Description: {description}"
+        f"{context_section}\n\n"
+        f"---\n\n"
+        f"{charter_template}\n\n"
+        f"---\n\n"
+        f"> **Instructions for filling the charter:**\n"
+        f"> - Replace `\\[Route\\]` with Fast Lane or Standard based on risk level "
+        f"(green = Fast Lane eligible, amber/red = Standard lifecycle).\n"
+        f"> - Set `Collaboration Mode` to: {mode_label}\n"
+        f"> - Set `Risk Category (EU AI Act)` to: {eu_risk}\n"
+        f"> - Fill `Concept` using the project description: \"{description}\"\n"
+        f"> - Leave team names, budget, and success criteria as `[placeholder]` "
+        f"if not provided — ask the user.\n"
+        f"> - Present the filled charter to the user for approval before proceeding to Gate 1."
+    )
+
+
 # ─── Resources ────────────────────────────────────────────────────────────────
 
 
