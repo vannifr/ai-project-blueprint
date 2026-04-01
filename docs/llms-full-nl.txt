@@ -1,6 +1,6 @@
 # AI Project Blauwdruk — Full Export
 Source: https://ai-delivery.io/
-Generated: 2026-04-01T15:38:17Z
+Generated: 2026-04-01T15:41:08Z
 Language: nl
 License: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -553,17 +553,32 @@ Verifieer de verbinding:
 claude mcp list
 ```
 
-### Wat doet de MCP-server?
+### Agent workflows
 
-Na het toevoegen kan je AI-assistent:
+De MCP-server biedt begeleide meerstappenworkflows naast losse zoektools. De AI-assistent orkestreert de stappen en vraagt tussendoor om input.
 
-- De Blauwdruk-documentatie doorzoeken op relevante secties
-- Templates en checklists ophalen
-- Context geven bij fase-specifieke vragen
+| Workflow             | Hoe te starten                                     | Wat je krijgt                                                      |
+| -------------------- | -------------------------------------------------- | ------------------------------------------------------------------ |
+| **Project Setup**    | *"Help me een nieuw AI-project op te zetten"*      | Type A/B-classificatie -> risicoscan -> vooringevuld Project Charter |
+| **Gate Review**      | *"Help me Gate 2 voor te bereiden"*                | Bewijsgapanalyse -> Go/No-Go-samenvatting voor de Guardian          |
+| **Template Advisor** | *"Welke templates heb ik nodig als PM in fase 3?"* | Aanbevolen templates met context vooringevuld                      |
+| **Compliance**       | *"Voldoet mijn systeem aan de EU AI Act?"*         | Risicoclassificatie -> checklist met artikelverwijzingen            |
 
-**Voorbeeldprompt voor Claude:**
+### Losse tools
 
-> *"Gebruik de Blueprint MCP-server en zoek de Gate 3 checklist op voor mijn project."*
+De server biedt ook individuele tools voor directe opzoekopdrachten:
+
+- Documentatie doorzoeken op relevante secties
+- Templates en checklists ophalen op naam
+- Terminologie, faseguidance en risicoframeworks opzoeken
+
+**Voorbeeldprompts voor Claude:**
+
+> *"Gebruik de Blueprint MCP-server en help me mijn fraudedetectieproject op te zetten."*
+
+> *"Zoek de Gate 3 checklist op voor mijn project via de Blueprint."*
+
+> *"Controleer of mijn AI-wervingssysteem voldoet aan de EU AI Act."*
 
 ______________________________________________________________________
 
