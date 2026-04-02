@@ -1,6 +1,6 @@
 # AI Project Delivery Blueprint — Full Export
 Source: https://ai-delivery.io/en/
-Generated: 2026-04-01T15:41:08Z
+Generated: 2026-04-02T18:21:18Z
 Language: en
 License: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
 
