@@ -1,5 +1,6 @@
 /**
- * Blueprint Chat Widget — lightweight vanilla JS chat for ai-delivery.io
+ * Blueprint Chat Widget — replaces the search bar in the header
+ * with an AI-powered "Blauwdruk Assistent" chat panel.
  */
 (function () {
   "use strict";
@@ -16,6 +17,7 @@
       sources: "Bronnen",
       expand: "Volledig scherm",
       collapse: "Kleiner",
+      headerBtn: "Vraag de Blauwdruk Assistent",
     },
     en: {
       title: "Blueprint Assistant",
@@ -25,21 +27,20 @@
       sources: "Sources",
       expand: "Full screen",
       collapse: "Smaller",
+      headerBtn: "Ask the Blueprint Assistant",
     },
   };
 
   const l = LABELS[LANG] || LABELS.en;
 
-  function createWidget() {
-    const widget = document.createElement("div");
-    widget.id = "blueprint-chat";
-    widget.className = "chat-widget chat-widget--closed";
-    widget.innerHTML = `
-      <button class="chat-widget__toggle" aria-label="${l.title}">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-        </svg>
-      </button>
+  /* ── Chat panel (appended to body, toggled by header button) ── */
+
+  function createPanel() {
+    const wrapper = document.createElement("div");
+    wrapper.id = "blueprint-chat";
+    wrapper.className = "chat-widget chat-widget--closed";
+    wrapper.innerHTML = `
+      <div class="chat-widget__backdrop"></div>
       <div class="chat-widget__panel">
         <div class="chat-widget__header">
           <div class="chat-widget__header-text">
@@ -63,43 +64,89 @@
         </form>
       </div>
     `;
-    document.body.appendChild(widget);
-    return widget;
+    document.body.appendChild(wrapper);
+    return wrapper;
   }
 
+  /* ── Replace search button in header ── */
+
+  function replaceSearch() {
+    // Hide the native search dialog
+    var searchForm = document.querySelector(".md-search");
+    if (searchForm) searchForm.style.display = "none";
+
+    // Find the search label/button in the header
+    var searchLabel = document.querySelector('label.md-header__button[for="__search"]');
+    if (!searchLabel) return null;
+
+    // Create replacement button
+    var btn = document.createElement("button");
+    btn.className = "md-header__button md-icon chat-header-trigger";
+    btn.setAttribute("aria-label", l.headerBtn);
+    btn.setAttribute("title", l.headerBtn);
+    btn.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>`;
+
+    // Replace the search label with the chat trigger
+    searchLabel.parentNode.replaceChild(btn, searchLabel);
+
+    // Also hide the search checkbox so keyboard shortcut doesn't trigger it
+    var searchCheckbox = document.getElementById("__search");
+    if (searchCheckbox) searchCheckbox.disabled = true;
+
+    return btn;
+  }
+
+  /* ── Initialise ── */
+
   function init() {
-    const widget = createWidget();
-    const toggle = widget.querySelector(".chat-widget__toggle");
-    const close = widget.querySelector(".chat-widget__close");
-    const fullscreenBtn = widget.querySelector(".chat-widget__fullscreen");
-    const messages = widget.querySelector(".chat-widget__messages");
-    const form = widget.querySelector(".chat-widget__input");
-    const input = form.querySelector("input");
+    var headerBtn = replaceSearch();
+    var widget = createPanel();
+    var close = widget.querySelector(".chat-widget__close");
+    var backdrop = widget.querySelector(".chat-widget__backdrop");
+    var fullscreenBtn = widget.querySelector(".chat-widget__fullscreen");
+    var messages = widget.querySelector(".chat-widget__messages");
+    var form = widget.querySelector(".chat-widget__input");
+    var input = form.querySelector("input");
+
+    function openChat() {
+      widget.classList.remove("chat-widget--closed");
+      widget.classList.add("chat-widget--open");
+      sessionStorage.setItem("chat-open", "true");
+      input.focus();
+    }
+
+    function closeChat() {
+      widget.classList.remove("chat-widget--open", "chat-widget--fullscreen");
+      widget.classList.add("chat-widget--closed");
+      sessionStorage.setItem("chat-open", "false");
+      sessionStorage.setItem("chat-fullscreen", "false");
+      updateFullscreenIcon(fullscreenBtn, false);
+    }
 
     // Restore state
     if (sessionStorage.getItem("chat-open") === "true") {
-      widget.classList.remove("chat-widget--closed");
-      widget.classList.add("chat-widget--open");
+      openChat();
     }
     if (sessionStorage.getItem("chat-fullscreen") === "true") {
       widget.classList.add("chat-widget--fullscreen");
       updateFullscreenIcon(fullscreenBtn, true);
     }
 
-    toggle.addEventListener("click", function () {
-      widget.classList.remove("chat-widget--closed");
-      widget.classList.add("chat-widget--open");
-      sessionStorage.setItem("chat-open", "true");
-      input.focus();
-    });
+    if (headerBtn) {
+      headerBtn.addEventListener("click", openChat);
+    }
 
-    close.addEventListener("click", function () {
-      widget.classList.remove("chat-widget--open");
-      widget.classList.add("chat-widget--closed");
-      widget.classList.remove("chat-widget--fullscreen");
-      sessionStorage.setItem("chat-open", "false");
-      sessionStorage.setItem("chat-fullscreen", "false");
-      updateFullscreenIcon(fullscreenBtn, false);
+    close.addEventListener("click", closeChat);
+    backdrop.addEventListener("click", closeChat);
+
+    // Close on Escape
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && widget.classList.contains("chat-widget--open")) {
+        closeChat();
+      }
     });
 
     fullscreenBtn.addEventListener("click", function () {
@@ -126,7 +173,6 @@
   }
 
   function updateFullscreenIcon(btn, isFullscreen) {
-    var l = LABELS[LANG] || LABELS.en;
     if (isFullscreen) {
       btn.setAttribute("aria-label", l.collapse);
       btn.setAttribute("title", l.collapse);
@@ -174,7 +220,6 @@
   }
 
   function formatAnswer(text) {
-    // Basic markdown-lite: bold, links, line breaks
     return text
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
       .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>')
