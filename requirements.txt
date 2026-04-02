@@ -11,4 +11,5 @@ mdformat-gfm
 mdformat-frontmatter
 mdformat-tables
 mdformat-toc
+more-itertools<11.0
 mdformat-mkdocs
