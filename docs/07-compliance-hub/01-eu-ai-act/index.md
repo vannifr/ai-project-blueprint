@@ -7,6 +7,13 @@ roles: [Guardian]
 tags: [eu-ai-act]
 summary: Praktische gids voor de vereisten van de EU AI Act en hoe deze binnen uw AI-project worden toegepast.
 answers: [Wat bevat het onderdeel EU AI Act?]
+sources:
+  - id: eu-ai-act
+    ref: Verordening (EU) 2024/1689 — EU AI Act
+    url: https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689
+    date_verified: '2025-03-20'
+    next_review: '2026-01-01'
+    notes: 'Toepassing gefaseerd: verboden praktijken per feb 2025, governance per aug 2025, hoog-risico per aug 2026.'
 ---
 
 # 1. EU AI Act

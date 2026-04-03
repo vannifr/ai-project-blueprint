@@ -223,6 +223,23 @@ def validate_file(filepath: Path, result: ValidationResult, verbose: bool = Fals
         if isinstance(tags, list) and "template" not in tags:
             result.warn(rel_path, "type is 'template' but 'template' tag missing")
 
+    # 11. Compliance / playbook docs with regulatory tags must have a sources block
+    REGULATORY_TAGS = {"eu-ai-act", "security", "ethics", "validation"}
+    REGULATED_TYPES = {"compliance", "playbook"}
+    doc_type = fm.get("type", "")
+    doc_tags = fm.get("tags", []) or []
+    if (
+        not is_en
+        and doc_type in REGULATED_TYPES
+        and isinstance(doc_tags, list)
+        and any(t in REGULATORY_TAGS for t in doc_tags)
+    ):
+        # Check raw content for 'sources:' — the simple parser won't handle nested blocks
+        if "sources:" not in content:
+            result.warn(rel_path,
+                        f"type '{doc_type}' with regulatory tags should have a 'sources:' block "
+                        f"(run: python scripts/check_sources.py)")
+
 
 def main():
     parser = argparse.ArgumentParser(description="Validate enriched frontmatter")

@@ -6,6 +6,18 @@ roles: [Data Scientist, Guardian]
 tags: [eu-ai-act, validation]
 summary: Specificatie van de eisen waaraan een Validatierapport moet voldoen voor formeel akkoord op ingebruikname vanuit wettelijk en ethisch perspectief.
 answers: [Wat zijn de compliance-eisen voor Validatie Eisen (Compliance)?, Hoeveel validatie is voldoende?]
+sources:
+  - id: eu-ai-act
+    ref: Verordening (EU) 2024/1689 — EU AI Act (Art. 9, 10, 17)
+    url: https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689
+    date_verified: '2025-03-20'
+    next_review: '2026-01-01'
+  - id: iso-42001
+    ref: ISO/IEC 42001:2023 — AI Management System Standard (sectie 9)
+    url: https://www.iso.org/standard/81230.html
+    date_verified: '2025-03-20'
+    next_review: '2027-01-01'
+    notes: ISO-normen worden doorgaans elke 5 jaar herzien.
 ---
 
 # 1. Validatie Eisen (Compliance)

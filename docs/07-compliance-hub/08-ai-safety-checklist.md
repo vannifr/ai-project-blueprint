@@ -6,6 +6,17 @@ roles: [Guardian]
 tags: [eu-ai-act, gate-review, security, template]
 summary: Gestructureerde veiligheidschecklist over vier dimensies (training, ingebruikname, monitoring, governance) voor gebruik bij elke Gate Review.
 answers: [Hoe gebruik ik het AI Safety Checklist sjabloon?, Wie beslist wat in een AI-project?]
+sources:
+  - id: eu-ai-act
+    ref: Verordening (EU) 2024/1689 — EU AI Act (Art. 9, 17, Bijlage III)
+    url: https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689
+    date_verified: '2025-03-20'
+    next_review: '2026-01-01'
+  - id: iso-42001
+    ref: ISO/IEC 42001:2023 — AI Management System Standard (sectie 8, 9)
+    url: https://www.iso.org/standard/81230.html
+    date_verified: '2025-03-20'
+    next_review: '2027-01-01'
 ---
 
 # AI Safety Checklist

@@ -6,6 +6,18 @@ roles: [Guardian]
 tags: [ethics, eu-ai-act]
 summary: Kaders om te waarborgen dat AI-systemen menselijke waarden respecteren en geen onbedoelde schade toebrengen.
 answers: [Wat zijn de compliance-eisen voor Ethische Richtlijnen?]
+sources:
+  - id: eu-ai-act
+    ref: Verordening (EU) 2024/1689 — EU AI Act (Art. 9, 13, 14)
+    url: https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689
+    date_verified: '2025-03-20'
+    next_review: '2026-01-01'
+  - id: hleg-ethics
+    ref: Ethics Guidelines for Trustworthy AI — High-Level Expert Group on AI
+    url: https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai
+    date_verified: '2025-03-20'
+    next_review: '2026-06-01'
+    notes: Niet-bindende richtlijnen; controleer op nieuwe guidance van de AI Office.
 ---
 
 # 1. Ethische Richtlijnen

@@ -6,6 +6,17 @@ roles: [Guardian]
 tags: [eu-ai-act, playbook, security]
 summary: Opzet, standaard-oefeningen en rapportage voor het systematisch testen van AI-systeemkwetsbaarheden voordat ze in productie gaan.
 answers: [Hoe voer ik Red Teaming Playbook uit?]
+sources:
+  - id: eu-ai-act
+    ref: Verordening (EU) 2024/1689 — EU AI Act (Art. 9, 65)
+    url: https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689
+    date_verified: '2025-03-20'
+    next_review: '2026-01-01'
+  - id: nist-ai-rmf
+    ref: NIST AI Risk Management Framework 1.0 (GOVERN 1.7, MAP 5.2)
+    url: https://www.nist.gov/artificial-intelligence/ai-risk-management-framework
+    date_verified: '2025-03-20'
+    next_review: '2026-06-01'
 ---
 
 # Red Teaming Playbook

@@ -6,6 +6,12 @@ roles: [Guardian]
 tags: [eu-ai-act, playbook, security]
 summary: 'Vier gedetailleerde stappenplannen voor de meest voorkomende AI-incidenten: prestatieverloop, bias, beveiligingsincidenten en datakwaliteit.'
 answers: [Hoe voer ik Incident Playbooks uit?]
+sources:
+  - id: eu-ai-act
+    ref: Verordening (EU) 2024/1689 — EU AI Act (Art. 73, 74)
+    url: https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689
+    date_verified: '2025-03-20'
+    next_review: '2026-01-01'
 ---
 
 # Incident Playbooks

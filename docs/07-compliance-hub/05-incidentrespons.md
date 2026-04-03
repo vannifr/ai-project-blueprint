@@ -6,6 +6,13 @@ roles: [Guardian]
 tags: [eu-ai-act, security]
 summary: Ernst-matrix, rollen en directe acties voor snel en gecoördineerd reageren op AI-incidenten.
 answers: [Wat zijn de compliance-eisen voor Incident Respons?, Welke rollen heb ik nodig?]
+sources:
+  - id: eu-ai-act
+    ref: Verordening (EU) 2024/1689 — EU AI Act (Art. 73, 74, 75)
+    url: https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689
+    date_verified: '2025-03-20'
+    next_review: '2026-01-01'
+    notes: Meldplicht voor ernstige incidenten via AI-autoriteitsmeldportaal (van kracht per aug 2025).
 ---
 
 # Incident Respons

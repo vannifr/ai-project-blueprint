@@ -1,0 +1,151 @@
+name: Source Currency Review
+
+on:
+  schedule:
+    # Every Monday at 08:00 UTC (09:00 CET / 10:00 CEST)
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+    inputs:
+      remote:
+        description: "Run remote EUR-Lex checks"
+        type: boolean
+        default: true
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  check-sources:
+    name: Check Source Currency
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run local source checks
+        id: local
+        run: |
+          python scripts/check_sources.py --json > /tmp/sources-local.json || true
+          python scripts/check_sources.py
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+        continue-on-error: true
+
+      - name: Run remote EUR-Lex checks
+        id: remote
+        if: >
+          github.event_name == 'schedule' ||
+          (github.event_name == 'workflow_dispatch' && inputs.remote == true)
+        run: |
+          python scripts/check_sources.py --remote --github-issue > /tmp/issue-body.md || true
+          python scripts/check_sources.py --remote --json > /tmp/sources-remote.json || true
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+        continue-on-error: true
+
+      - name: Generate issue body (local-only fallback)
+        if: steps.remote.outcome == 'skipped'
+        run: python scripts/check_sources.py --github-issue > /tmp/issue-body.md || true
+
+      - name: Read issue body
+        id: issue-body
+        run: |
+          body=$(cat /tmp/issue-body.md 2>/dev/null || echo "Source check completed — see workflow logs for details.")
+          # GitHub Actions multiline output
+          echo "body<<ISSUE_BODY_EOF" >> "$GITHUB_OUTPUT"
+          echo "$body" >> "$GITHUB_OUTPUT"
+          echo "ISSUE_BODY_EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Determine if issues were found
+        id: has-issues
+        run: |
+          local_code="${{ steps.local.outputs.exit_code }}"
+          remote_code="${{ steps.remote.outputs.exit_code }}"
+          if [ "$local_code" = "1" ] || [ "$remote_code" = "1" ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Find existing source-review issue
+        id: find-issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'source-review',
+              state: 'open',
+            });
+            if (issues.data.length > 0) {
+              core.setOutput('number', issues.data[0].number);
+            } else {
+              core.setOutput('number', '');
+            }
+
+      - name: Create or update source-review issue
+        if: steps.has-issues.outputs.found == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = `${{ steps.issue-body.outputs.body }}`;
+            const existingNumber = '${{ steps.find-issue.outputs.number }}';
+
+            if (existingNumber) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: parseInt(existingNumber),
+                body,
+                title: '📋 Source Review Required — Authoritative References',
+              });
+              console.log(`Updated issue #${existingNumber}`);
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '📋 Source Review Required — Authoritative References',
+                body,
+                labels: ['source-review', 'content'],
+              });
+              console.log('Created new source-review issue');
+            }
+
+      - name: Close source-review issue (all clear)
+        if: steps.has-issues.outputs.found == 'false' && steps.find-issue.outputs.number != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = parseInt('${{ steps.find-issue.outputs.number }}');
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: `✅ All sources are current as of ${new Date().toISOString().split('T')[0]}. Closing automatically.`,
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              state: 'closed',
+            });
+            console.log(`Closed issue #${issueNumber}`);
+
+      - name: Upload source check results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-check-results
+          path: /tmp/sources-*.json
+          retention-days: 30
+          if-no-files-found: ignore
