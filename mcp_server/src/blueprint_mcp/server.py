@@ -26,6 +26,7 @@ from mcp.server.fastmcp import FastMCP
 
 from blueprint_mcp.confidence import score_result
 from blueprint_mcp.content_index import ContentIndex
+from blueprint_mcp.escalation import EscalationRegistry, EventType
 from blueprint_mcp.evidence import evidence_summary, parse_evidence
 from blueprint_mcp.glossary import GlossaryIndex
 from blueprint_mcp.response_utils import DecisionStatus, build_decision, format_response
@@ -51,6 +52,7 @@ _module_index: ContentIndex | None = None
 _module_semantic_index: SemanticIndex | None = None
 _module_glossary_index: GlossaryIndex | None = None
 _module_session_store: SessionStore | None = None
+_module_escalation_registry: EscalationRegistry = EscalationRegistry()
 
 
 def get_index(ctx=None) -> ContentIndex:
@@ -108,6 +110,16 @@ def set_session_store(store: SessionStore | None) -> None:
     """Set module-level session store (for testing)."""
     global _module_session_store
     _module_session_store = store
+
+
+def get_escalation_registry() -> EscalationRegistry:
+    """Return the module-level escalation registry."""
+    return _module_escalation_registry
+
+
+def register_escalation_hook(event_type: str, callback) -> None:
+    """Register a callback for an escalation event type."""
+    _module_escalation_registry.register(event_type, callback)
 
 
 @asynccontextmanager
@@ -1260,6 +1272,18 @@ def gate_review_report(
     ready = not gaps
     ev_items = parse_evidence(evidence, gate=gate)
     ev_summary = evidence_summary(ev_items)
+
+    # Fire escalation event
+    event_type = EventType.GATE_REVIEW_PASSED if ready else EventType.GATE_REVIEW_FAILED
+    _module_escalation_registry.fire(
+        event_type,
+        data={
+            "gate": gate,
+            "evidence_count": len(evidence),
+            "gap_count": len(gaps),
+            "ready": ready,
+        },
+    )
 
     markdown = (
         f"# Gate {gate} Review Summary — {gate_label}\n\n"
