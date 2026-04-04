@@ -1,6 +1,6 @@
 # AI Project Delivery Blueprint — Full Export
 Source: https://ai-delivery.io/en/
-Generated: 2026-04-04T14:10:05Z
+Generated: 2026-04-04T17:51:51Z
 Language: en
 License: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -60,6 +60,22 @@ ______________________________________________________________________
 ______________________________________________________________________
 
 ## 4. For AI Agents & LLM Ingestion
+
+### Blueprint Assistant
+
+The live site includes a **Blueprint Assistant**  --  a chat widget that answers questions about the Blueprint in Dutch and English, directly from the documentation (RAG + LLM).
+
+### MCP Server
+
+The Blueprint is fully available as an **MCP server** with 31 tools for AI agents and Claude Code:
+
+```bash
+claude mcp add blueprint --transport http https://ai-delivery.io/mcp
+```
+
+Available workflows via MCP: Project Setup, Gate Review, Compliance, Template Advisor, session tracking, and semantic search. Call `get_tool_cheatsheet()` for a structured overview of all tools.
+
+### LLM Text Exports
 
 | Format                 | Link                                 | Use                                                                                        |
 | :--------------------- | :----------------------------------- | :----------------------------------------------------------------------------------------- |
