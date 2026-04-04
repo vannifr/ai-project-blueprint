@@ -63,16 +63,16 @@ The full documentation is available as plain text for AI assistants:
 - [llms-full.txt](https://ai-delivery.io/llms-full.txt) — Full content (EN)
 - [llms-full-nl.txt](https://ai-delivery.io/llms-full-nl.txt) — Full content (NL)
 
-### RAG Chatbot & MCP Server
+### Blueprint Assistent & MCP Server
 
 The live site includes two backend services:
 
-| Service         | Endpoint                      | Description                                                |
-| --------------- | ----------------------------- | ---------------------------------------------------------- |
-| **RAG Chatbot** | `https://ai-delivery.io/api/` | FastAPI + ChromaDB, answers questions about the Blueprint  |
-| **MCP Server**  | `https://ai-delivery.io/mcp`  | 19 tools: 8 guided agent workflows + 11 standalone lookups |
+| Service                 | Endpoint                      | Description                                                               |
+| ----------------------- | ----------------------------- | ------------------------------------------------------------------------- |
+| **Blueprint Assistent** | `https://ai-delivery.io/api/` | Chat widget — RAG + LLM, answers Blueprint questions in NL and EN         |
+| **MCP Server**          | `https://ai-delivery.io/mcp`  | 31 tools: guided agent workflows, search, templates, and session tracking |
 
-Both run as Docker containers behind nginx. Embeddings use `all-MiniLM-L6-v2` (local ONNX, no API key needed). Generation uses Ollama Cloud (`gemma3:12b-cloud`).
+Both run as Docker containers behind nginx. Embeddings use `all-MiniLM-L6-v2` (local ONNX, no API key needed).
 
 **Add the MCP server to Claude Code:**
 
@@ -82,12 +82,16 @@ claude mcp add blueprint --transport http https://ai-delivery.io/mcp
 
 **Agent workflows available via MCP:**
 
-| Workflow             | Trigger                                       | Steps                   |
-| -------------------- | --------------------------------------------- | ----------------------- |
-| **Project Setup**    | "Help me set up a new AI project"             | Intake → Risk → Charter |
-| **Gate Review**      | "Help me prepare for Gate 2"                  | Intake → Report         |
-| **Template Advisor** | "Which templates do I need as PM in phase 3?" | Single step             |
-| **Compliance**       | "Is my system compliant with the EU AI Act?"  | Intake → Checklist      |
+| Workflow             | Trigger                                       | Steps                            |
+| -------------------- | --------------------------------------------- | -------------------------------- |
+| **Project Setup**    | "Help me set up a new AI project"             | Intake → Risk → Charter          |
+| **Gate Review**      | "Help me prepare for Gate 2"                  | Intake → Report                  |
+| **Compliance**       | "Is my system compliant with the EU AI Act?"  | Intake → Checklist               |
+| **Session Tracking** | "Start a project session"                     | Start → Record artifacts → State |
+| **Template Advisor** | "Which templates do I need as PM in phase 3?" | Single step                      |
+| **Search & Q&A**     | "What are the Gate 1 requirements?"           | search_content / answer_question |
+
+Call `get_tool_cheatsheet()` for a structured overview of all 31 tools and when to use each one.
 
 ## Deploy
 
@@ -143,8 +147,10 @@ This enables automatic quality checks on every commit:
 
 - Markdown formatting (mdformat)
 - Trailing whitespace removal
-- YAML syntax validation
+- YAML/TOML/JSON syntax validation
+- Python linting and formatting (ruff) — covers both `mcp_server/` and `scripts/`
 - Documentation quality validation (terminology, CTA blocks, frontmatter, Collaboration Modes in gates)
+- MCP server tests (487 tests, runs automatically on Python changes in `mcp_server/`)
 
 ### Manual Quality Check
 

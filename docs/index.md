@@ -58,6 +58,22 @@ ______________________________________________________________________
 
 ## 4. Voor AI-Agenten & LLM-Verwerking
 
+### Blueprint Assistent
+
+De live site bevat een **Blueprint Assistent** — een chatwidget die vragen over de blauwdruk beantwoordt in het Nederlands en Engels, rechtstreeks vanuit de documentatie (RAG + LLM).
+
+### MCP Server
+
+De blauwdruk is volledig beschikbaar als **MCP-server** met 31 tools voor AI-agenten en Claude Code:
+
+```bash
+claude mcp add blueprint --transport http https://ai-delivery.io/mcp
+```
+
+Beschikbare workflows via MCP: Project Setup, Gate Review, Compliance, Template Advisor, sessieregistratie en semantisch zoeken. Gebruik `get_tool_cheatsheet()` voor een volledig overzicht.
+
+### LLM-tekstexports
+
 | Formaat                 | Link                                 | Gebruik                                                                                        |
 | :---------------------- | :----------------------------------- | :--------------------------------------------------------------------------------------------- |
 | **Index** (`llms.txt`)  | [llms.txt](llms.txt)                 | Compacte linkindex — compatibel met Cursor, Perplexity en andere llmstxt-tools                 |

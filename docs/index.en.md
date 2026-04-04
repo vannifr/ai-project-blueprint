@@ -58,6 +58,22 @@ ______________________________________________________________________
 
 ## 4. For AI Agents & LLM Ingestion
 
+### Blueprint Assistant
+
+The live site includes a **Blueprint Assistant** — a chat widget that answers questions about the Blueprint in Dutch and English, directly from the documentation (RAG + LLM).
+
+### MCP Server
+
+The Blueprint is fully available as an **MCP server** with 31 tools for AI agents and Claude Code:
+
+```bash
+claude mcp add blueprint --transport http https://ai-delivery.io/mcp
+```
+
+Available workflows via MCP: Project Setup, Gate Review, Compliance, Template Advisor, session tracking, and semantic search. Call `get_tool_cheatsheet()` for a structured overview of all tools.
+
+### LLM Text Exports
+
 | Format                 | Link                                 | Use                                                                                        |
 | :--------------------- | :----------------------------------- | :----------------------------------------------------------------------------------------- |
 | **Index** (`llms.txt`) | [llms.txt](llms.txt)                 | Lightweight link index — compatible with Cursor, Perplexity, and other llmstxt-aware tools |
