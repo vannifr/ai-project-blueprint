@@ -79,6 +79,9 @@ class ConfidenceScorer:
         return round(min(raw, 1.0), 4)
 
 
+_scorer = ConfidenceScorer()
+
+
 def score_result(query: str, doc) -> float:
     """Convenience wrapper: score a ContentIndex document against a query.
 
@@ -89,8 +92,7 @@ def score_result(query: str, doc) -> float:
     Returns:
         Confidence score in [0.0, 1.0].
     """
-    scorer = ConfidenceScorer()
-    return scorer.score(
+    return _scorer.score(
         query=query,
         title=getattr(doc, "title", ""),
         body=getattr(doc, "body", ""),

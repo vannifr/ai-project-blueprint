@@ -124,7 +124,7 @@ def register_escalation_hook(event_type: str, callback) -> None:
 
 @asynccontextmanager
 async def lifespan(server: FastMCP):
-    """Load content index and semantic index at startup."""
+    """Load content index, semantic index, and glossary at startup."""
     index = ContentIndex.load(DOCS_ROOT, language=LANGUAGE)
     try:
         sem_index: SemanticIndex | None = SemanticIndex(CHROMA_PATH, language=LANGUAGE)
@@ -132,6 +132,8 @@ async def lifespan(server: FastMCP):
         sem_index.search("probe", n_results=1)
     except Exception:
         sem_index = None
+    glossary = GlossaryIndex.load(DOCS_ROOT)
+    set_glossary_index(glossary)
     yield {"index": index, "semantic_index": sem_index}
 
 
@@ -437,13 +439,13 @@ def check_gate_readiness(gate: int, evidence: list[str], output_format: str = "m
 
     Next step: call gate_review_intake to formally collect evidence, or get_phase_guidance if all gates are passed.
     """
-    if gate not in range(1, 6):
+    if gate not in range(1, 5):
         return format_response(
-            f"Error: gate must be 1-5, got {gate}",
+            f"Error: gate must be 1-4, got {gate}",
             build_decision(
                 "check_gate_readiness",
                 DecisionStatus.ERROR,
-                "Correct the gate parameter (1–5).",
+                "Correct the gate parameter (1–4).",
                 {"gate": gate},
             ),
             output_format,
@@ -451,13 +453,23 @@ def check_gate_readiness(gate: int, evidence: list[str], output_format: str = "m
 
     index = get_index()
 
-    # Find gate review checklist
+    # Find gate review checklist — prefer gate-specific doc, fall back to generic
+    gate_str = str(gate)
     checklist_docs = [
         d
         for d in index.docs
         if "gate" in d.path.lower()
         and ("checklist" in d.path.lower() or "gate-review" in d.path.lower())
+        and gate_str in d.path
     ]
+    if not checklist_docs:
+        # Fall back: any gate checklist document
+        checklist_docs = [
+            d
+            for d in index.docs
+            if "gate" in d.path.lower()
+            and ("checklist" in d.path.lower() or "gate-review" in d.path.lower())
+        ]
     if not checklist_docs:
         return format_response(
             "Gate review checklist not found in the index.",
@@ -1585,6 +1597,20 @@ def compliance_checklist(
     index = get_index()
 
     category = risk_category.lower().strip()
+
+    _VALID_RISK_CATEGORIES = {"unacceptable", "high", "limited", "minimal"}
+    if category not in _VALID_RISK_CATEGORIES:
+        return format_response(
+            f"Error: unknown risk_category '{risk_category}'. "
+            f"Valid values: unacceptable, high, limited, minimal.",
+            build_decision(
+                "compliance_checklist",
+                DecisionStatus.ERROR,
+                f"Correct risk_category to one of: {', '.join(sorted(_VALID_RISK_CATEGORIES))}.",
+                {"risk_category": risk_category, "valid_values": sorted(_VALID_RISK_CATEGORIES)},
+            ),
+            output_format,
+        )
 
     if category == "unacceptable":
         blocked_text = (
@@ -2840,8 +2866,10 @@ def main():
         mcp.settings.host = os.environ.get("BLUEPRINT_HOST", "0.0.0.0")
         mcp.settings.port = int(os.environ.get("BLUEPRINT_PORT", "8902"))
         # Behind a reverse proxy the Host header is the public domain, not localhost.
-        # DNS-rebinding protection is not needed here; nginx handles security.
-        mcp.settings.transport_security.enable_dns_rebinding_protection = False
+        # DNS-rebinding protection can be disabled when nginx handles security.
+        # Set BLUEPRINT_DISABLE_DNS_PROTECTION=1 to opt out explicitly.
+        if os.environ.get("BLUEPRINT_DISABLE_DNS_PROTECTION", "0") == "1":
+            mcp.settings.transport_security.enable_dns_rebinding_protection = False
     mcp.run(transport=transport)
 
 

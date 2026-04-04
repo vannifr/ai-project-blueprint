@@ -269,6 +269,25 @@ class TestComplianceChecklist:
             or "stop" in result.lower()
         )
 
+    def test_invalid_risk_category_returns_error(self):
+        result = compliance_checklist("Some AI system", "hoog")
+        assert "error" in result.lower() or "unknown" in result.lower() or "valid" in result.lower()
+
+    def test_invalid_risk_category_json_mode(self):
+        import json
+
+        result = compliance_checklist("Some AI system", "hoog", output_format="json")
+        parsed = json.loads(result)
+        assert parsed["status"] == "error"
+
+    def test_valid_category_json_mode(self):
+        import json
+
+        result = compliance_checklist("A spam filter", "minimal", output_format="json")
+        parsed = json.loads(result)
+        assert parsed["status"] in ("ok", "error")
+        assert "data" in parsed
+
 
 # ─── End-to-end workflow tests ────────────────────────────────────────────────
 
