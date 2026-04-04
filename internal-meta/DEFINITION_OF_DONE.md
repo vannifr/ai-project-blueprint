@@ -164,17 +164,15 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Openstaande implementatie-items
+## Implementatie-status P1-items
 
-De volgende DoD-criteria zijn gedefinieerd maar nog niet volledig geautomatiseerd. Ze worden behandeld als P1-backlog-items:
+| Criterium                                   | Status              | Geïmplementeerd         |
+| ------------------------------------------- | ------------------- | ----------------------- |
+| `scripts/eval_retrieval.py` met goldset     | ✅ Geïmplementeerd  | 2026-04-04              |
+| Filler-pattern check in `validate_docs.py`  | ✅ Geïmplementeerd  | 2026-04-04              |
+| Docker healthchecks in `docker-compose.yml` | ✅ Geïmplementeerd  | 2026-04-04              |
+| `deploy/ROLLBACK.md`                        | ✅ Geïmplementeerd  | 2026-04-04              |
+| MCP version header (`X-Blueprint-Version`)  | ✅ Geïmplementeerd  | 2026-04-04              |
+| Uptime-monitoring geconfigureerd            | ⏳ Extern — te doen | UptimeRobot/Betterstack |
 
-| Criterium                                   | Status    | Verantwoordelijke |
-| ------------------------------------------- | --------- | ----------------- |
-| `scripts/eval_retrieval.py` met goldset     | Ontbreekt | —                 |
-| Filler-pattern check in `validate_docs.py`  | Ontbreekt | —                 |
-| Docker healthchecks in `docker-compose.yml` | Ontbreekt | —                 |
-| Uptime-monitoring geconfigureerd            | Ontbreekt | —                 |
-| `deploy/ROLLBACK.md`                        | Ontbreekt | —                 |
-| MCP version header (`X-Blueprint-Version`)  | Ontbreekt | —                 |
-
-Tot deze items geïmplementeerd zijn, geldt tijdelijke handmatige verificatie als vervanger — maar ze zijn **niet optioneel**.
+Alle P1-items zijn geïmplementeerd op de uptime-monitor na (vereist externe configuratie).

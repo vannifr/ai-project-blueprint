@@ -235,9 +235,9 @@ GOLDSET: list[dict] = [
     },
     {
         "id": "fa-05",
-        "question": "What is specification-first development?",
+        "question": "What is the Specification-First pattern?",
         "lang": "en",
-        "expected": "04-fase-ontwikkeling/01-doelstellingen.md",
+        "expected": "04-fase-ontwikkeling/05-sdd-patroon.md",
         "category": "phase-activities",
     },
     # ── Concepten ─────────────────────────────────────────────────────────────

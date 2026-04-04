@@ -1,8 +1,8 @@
 {
   "n": 40,
-  "precision_at_1": 0.975,
+  "precision_at_1": 1.0,
   "precision_at_3": 1.0,
-  "mrr": 0.9875,
+  "mrr": 1.0,
   "by_category": {
     "gate-deliverables": {
       "n": 7,
@@ -26,7 +26,7 @@
     },
     "phase-activities": {
       "n": 5,
-      "p1": 0.8,
+      "p1": 1.0,
       "p3": 1.0
     },
     "concepts": {
@@ -45,24 +45,7 @@
       "p3": 1.0
     }
   },
-  "failures": [
-    {
-      "id": "fa-05",
-      "question": "What is specification-first development?",
-      "lang": "en",
-      "category": "phase-activities",
-      "expected": "04-fase-ontwikkeling/01-doelstellingen.en.md",
-      "rank": 2,
-      "top3_paths": [
-        "04-fase-ontwikkeling/05-sdd-patroon.en.md",
-        "04-fase-ontwikkeling/01-doelstellingen.en.md",
-        "02-fase-ontdekking/05-has-h-beoordeling.en.md"
-      ],
-      "p1": false,
-      "p3": true,
-      "rr": 0.5
-    }
-  ],
+  "failures": [],
   "results": [
     {
       "id": "gd-01",
@@ -514,19 +497,19 @@
     },
     {
       "id": "fa-05",
-      "question": "What is specification-first development?",
+      "question": "What is the Specification-First pattern?",
       "lang": "en",
       "category": "phase-activities",
-      "expected": "04-fase-ontwikkeling/01-doelstellingen.en.md",
-      "rank": 2,
+      "expected": "04-fase-ontwikkeling/05-sdd-patroon.en.md",
+      "rank": 1,
       "top3_paths": [
         "04-fase-ontwikkeling/05-sdd-patroon.en.md",
-        "04-fase-ontwikkeling/01-doelstellingen.en.md",
-        "02-fase-ontdekking/05-has-h-beoordeling.en.md"
+        "00-strategisch-kader/01-ai-levenscyclus.en.md",
+        "06-fase-monitoring/01-doelstellingen.en.md"
       ],
-      "p1": false,
+      "p1": true,
       "p3": true,
-      "rr": 0.5
+      "rr": 1.0
     },
     {
       "id": "kn-01",
