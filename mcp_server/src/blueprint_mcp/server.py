@@ -24,17 +24,31 @@ from pathlib import Path
 
 from mcp.server.fastmcp import FastMCP
 
+from blueprint_mcp.confidence import score_result
 from blueprint_mcp.content_index import ContentIndex
+from blueprint_mcp.evidence import evidence_summary, parse_evidence
+from blueprint_mcp.glossary import GlossaryIndex
+from blueprint_mcp.response_utils import DecisionStatus, build_decision, format_response, wrap_response
+from blueprint_mcp.semantic_search import SemanticIndex
+from blueprint_mcp.session_store import SessionStore
+from blueprint_mcp.template_engine import fill_placeholders, parse_placeholders
 
 DOCS_ROOT = Path(os.environ.get(
     "BLUEPRINT_DOCS_PATH",
     Path(__file__).resolve().parent.parent.parent.parent / "docs",
 ))
 LANGUAGE = os.environ.get("BLUEPRINT_LANGUAGE", "en")
+CHROMA_PATH = os.environ.get(
+    "BLUEPRINT_CHROMA_PATH",
+    str(Path(__file__).resolve().parent.parent.parent.parent / "chatbot" / "chroma_data"),
+)
 
 # Module-level index for direct function calls (tests, scripts).
 # When running as MCP server, the lifespan-loaded index is used instead.
 _module_index: ContentIndex | None = None
+_module_semantic_index: SemanticIndex | None = None
+_module_glossary_index: GlossaryIndex | None = None
+_module_session_store: SessionStore | None = None
 
 
 def get_index(ctx=None) -> ContentIndex:
@@ -56,11 +70,55 @@ def set_index(index: ContentIndex) -> None:
     _module_index = index
 
 
+def get_semantic_index(ctx=None) -> SemanticIndex | None:
+    """Return the semantic index if available, else None."""
+    if ctx is not None:
+        try:
+            return ctx.request_context.lifespan_context.get("semantic_index")
+        except (AttributeError, KeyError, TypeError):
+            pass
+    return _module_semantic_index
+
+
+def set_semantic_index(index: SemanticIndex | None) -> None:
+    """Set module-level semantic index (for testing)."""
+    global _module_semantic_index
+    _module_semantic_index = index
+
+
+def get_glossary_index() -> GlossaryIndex | None:
+    """Return the glossary index if available, else None."""
+    return _module_glossary_index
+
+
+def set_glossary_index(index: GlossaryIndex | None) -> None:
+    """Set module-level glossary index (for testing)."""
+    global _module_glossary_index
+    _module_glossary_index = index
+
+
+def get_session_store() -> SessionStore | None:
+    """Return the session store if available, else None."""
+    return _module_session_store
+
+
+def set_session_store(store: SessionStore | None) -> None:
+    """Set module-level session store (for testing)."""
+    global _module_session_store
+    _module_session_store = store
+
+
 @asynccontextmanager
 async def lifespan(server: FastMCP):
-    """Load content index at startup."""
+    """Load content index and semantic index at startup."""
     index = ContentIndex.load(DOCS_ROOT, language=LANGUAGE)
-    yield {"index": index}
+    try:
+        sem_index: SemanticIndex | None = SemanticIndex(CHROMA_PATH, language=LANGUAGE)
+        # Trigger a probe search to detect unavailable ChromaDB early
+        sem_index.search("probe", n_results=1)
+    except Exception:
+        sem_index = None
+    yield {"index": index, "semantic_index": sem_index}
 
 
 mcp = FastMCP(
@@ -85,7 +143,7 @@ def _format_doc_full(doc) -> str:
 
 
 @mcp.tool()
-def answer_question(question: str) -> str:
+def answer_question(question: str, output_format: str = "markdown") -> str:
     """Find the most relevant Blueprint page(s) for a user question.
 
     Searches across all document answers, summaries, and titles to find
@@ -94,16 +152,34 @@ def answer_question(question: str) -> str:
 
     Args:
         question: Natural language question (e.g. "How do I classify the risk of my AI project?")
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
-    results = index.search_by_question(question, limit=3)
+
+    # Semantic search (preferred) → keyword fallback
+    sem_index = get_semantic_index()
+    if sem_index is not None:
+        sem_results = sem_index.search(question, n_results=3)
+        # Map semantic hits to index documents (by path lookup)
+        sem_docs = [index.by_path.get(r.doc_path) for r in sem_results]
+        results = [d for d in sem_docs if d is not None]
+    else:
+        results = []
 
     if not results:
-        # Fall back to keyword search
+        results = index.search_by_question(question, limit=3)
+    if not results:
+        # Final keyword fallback
         results = index.search(question, limit=3)
 
     if not results:
-        return f"No relevant pages found for: '{question}'"
+        return format_response(
+            f"No relevant pages found for: '{question}'",
+            build_decision("answer_question", DecisionStatus.NOT_FOUND,
+                           "Rephrase the question or use search_content with keywords.",
+                           {"result_count": 0, "top_match_path": None}),
+            output_format,
+        )
 
     sections = []
 
@@ -128,16 +204,32 @@ def answer_question(question: str) -> str:
             lines.append(f"- **{doc.title}** (`{doc.path}`){s}")
         sections.append("\n".join(lines))
 
-    return "\n\n---\n\n".join(sections)
+    markdown = "\n\n---\n\n".join(sections)
+
+    # Glossary enrichment — append definitions for terms found in the answer
+    glossary = get_glossary_index()
+    if glossary is not None:
+        markdown = glossary.enrich_answer(markdown)
+
+    top_confidence = score_result(query=question, doc=top)
+    return format_response(
+        markdown,
+        build_decision("answer_question", DecisionStatus.OK,
+                       "Review the best match and additional results above.",
+                       {"result_count": len(results), "top_match_path": top.path,
+                        "top_confidence": top_confidence}),
+        output_format,
+    )
 
 
 @mcp.tool()
-def get_template_for_context(role: str, phase: int) -> str:
+def get_template_for_context(role: str, phase: int, output_format: str = "markdown") -> str:
     """Get recommended templates for a specific role and lifecycle phase.
 
     Args:
         role: Role name (e.g. "AI Product Manager", "Guardian", "Tech Lead")
         phase: Lifecycle phase number (1-5)
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
@@ -153,7 +245,13 @@ def get_template_for_context(role: str, phase: int) -> str:
         templates = [d for d in index.docs if d.type == "template" and phase in d.phases]
 
     if not templates:
-        return f"No templates found for role '{role}' in phase {phase}."
+        return format_response(
+            f"No templates found for role '{role}' in phase {phase}.",
+            build_decision("get_template_for_context", DecisionStatus.NOT_FOUND,
+                           "Try a different phase or omit the role filter.",
+                           {"role": role, "phase": phase, "template_count": 0}),
+            output_format,
+        )
 
     phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
     lines = [f"## Templates for {role} in Phase {phase} ({phase_names.get(phase, '')})\n"]
@@ -162,37 +260,70 @@ def get_template_for_context(role: str, phase: int) -> str:
         s = f": {doc.summary}" if doc.summary else ""
         lines.append(f"- **{doc.title}** (`{doc.path}`){s}")
 
-    return "\n".join(lines)
+    return format_response(
+        "\n".join(lines),
+        build_decision("get_template_for_context", DecisionStatus.OK,
+                       "Select a template and call get_template to retrieve full content.",
+                       {"role": role, "phase": phase, "template_count": len(templates)}),
+        output_format,
+    )
 
 
 @mcp.tool()
-def get_phase_guidance(phase: int, aspect: str) -> str:
+def get_phase_guidance(phase: int, aspect: str, output_format: str = "markdown") -> str:
     """Get phase guidance from the AI Project Blueprint lifecycle.
 
     Args:
         phase: Phase number (1=Discovery, 2=Validation, 3=Development, 4=Delivery, 5=Monitoring)
         aspect: One of "objectives", "activities", or "deliverables"
+        output_format: Response format — "markdown" (default) or "json"
     """
     if phase not in range(1, 6):
-        return f"Error: phase must be 1-5, got {phase}"
+        return format_response(
+            f"Error: phase must be 1-5, got {phase}",
+            build_decision("get_phase_guidance", DecisionStatus.ERROR,
+                           "Correct the phase parameter (1–5).",
+                           {"phase": phase, "aspect": aspect}),
+            output_format,
+        )
     if aspect not in ("objectives", "activities", "deliverables"):
-        return f"Error: aspect must be 'objectives', 'activities', or 'deliverables'"
+        return format_response(
+            "Error: aspect must be 'objectives', 'activities', or 'deliverables'",
+            build_decision("get_phase_guidance", DecisionStatus.ERROR,
+                           "Use one of: objectives, activities, deliverables.",
+                           {"phase": phase, "aspect": aspect}),
+            output_format,
+        )
 
     index = get_index()
     docs = index.get_phase_docs(phase, aspect)
     if not docs:
-        return f"No {aspect} found for phase {phase}."
+        return format_response(
+            f"No {aspect} found for phase {phase}.",
+            build_decision("get_phase_guidance", DecisionStatus.NOT_FOUND,
+                           "Try a different aspect or check that docs are loaded.",
+                           {"phase": phase, "aspect": aspect, "doc_count": 0}),
+            output_format,
+        )
 
-    return "\n\n---\n\n".join(_format_doc_full(d) for d in docs)
+    markdown = "\n\n---\n\n".join(_format_doc_full(d) for d in docs)
+    return format_response(
+        markdown,
+        build_decision("get_phase_guidance", DecisionStatus.OK,
+                       "Review the phase guidance above.",
+                       {"phase": phase, "aspect": aspect, "doc_count": len(docs)}),
+        output_format,
+    )
 
 
 @mcp.tool()
-def get_template(name: str) -> str:
+def get_template(name: str, output_format: str = "markdown") -> str:
     """Retrieve a Blueprint template by name.
 
     Args:
         name: Template name or keyword (e.g. "project-charter", "risk-pre-scan",
               "gate-review", "privacy", "modelkaart", "validatierapport")
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
     templates = index.get_templates()
@@ -202,28 +333,53 @@ def get_template(name: str) -> str:
     # Exact path match first
     for doc in templates:
         if name_lower in doc.path.lower():
-            return _format_doc_full(doc)
+            return format_response(
+                _format_doc_full(doc),
+                build_decision("get_template", DecisionStatus.OK,
+                               "Fill in the [placeholder] fields in the template above.",
+                               {"template_name": name, "matched_path": doc.path}),
+                output_format,
+            )
 
     # Fuzzy: search title and body
     for doc in templates:
         if name_lower in doc.title.lower() or name_lower in doc.body[:500].lower():
-            return _format_doc_full(doc)
+            return format_response(
+                _format_doc_full(doc),
+                build_decision("get_template", DecisionStatus.OK,
+                               "Fill in the [placeholder] fields in the template above.",
+                               {"template_name": name, "matched_path": doc.path}),
+                output_format,
+            )
 
     # Fallback: list available templates
     names = "\n".join(f"- `{d.path}`: {d.title}" for d in templates)
-    return f"Template '{name}' not found. Available templates:\n\n{names}"
+    return format_response(
+        f"Template '{name}' not found. Available templates:\n\n{names}",
+        build_decision("get_template", DecisionStatus.NOT_FOUND,
+                       "Choose a template name from the list above and retry.",
+                       {"template_name": name, "available_count": len(templates)}),
+        output_format,
+    )
 
 
 @mcp.tool()
-def check_gate_readiness(gate: int, evidence: list[str]) -> str:
+def check_gate_readiness(gate: int, evidence: list[str], output_format: str = "markdown") -> str:
     """Check readiness for a Gate Review by comparing evidence against the checklist.
 
     Args:
         gate: Gate number (1-5)
         evidence: List of evidence items you have (e.g. ["project charter", "risk scan", "golden set results"])
+        output_format: Response format — "markdown" (default) or "json"
     """
     if gate not in range(1, 6):
-        return f"Error: gate must be 1-5, got {gate}"
+        return format_response(
+            f"Error: gate must be 1-5, got {gate}",
+            build_decision("check_gate_readiness", DecisionStatus.ERROR,
+                           "Correct the gate parameter (1–5).",
+                           {"gate": gate}),
+            output_format,
+        )
 
     index = get_index()
 
@@ -233,13 +389,19 @@ def check_gate_readiness(gate: int, evidence: list[str]) -> str:
         if "gate" in d.path.lower() and ("checklist" in d.path.lower() or "gate-review" in d.path.lower())
     ]
     if not checklist_docs:
-        return "Gate review checklist not found in the index."
+        return format_response(
+            "Gate review checklist not found in the index.",
+            build_decision("check_gate_readiness", DecisionStatus.NOT_FOUND,
+                           "Reload the content index and retry.",
+                           {"gate": gate}),
+            output_format,
+        )
 
     checklist_content = checklist_docs[0].body
 
     evidence_str = "\n".join(f"- {e}" for e in evidence)
 
-    return (
+    markdown = (
         f"## Gate {gate} Readiness Check\n\n"
         f"### Evidence provided:\n{evidence_str}\n\n"
         f"### Gate Review Checklist:\n\n{checklist_content}\n\n"
@@ -247,10 +409,17 @@ def check_gate_readiness(gate: int, evidence: list[str]) -> str:
         f"Compare your evidence against the checklist above. "
         f"Items not covered by your evidence may need attention before the Gate {gate} review."
     )
+    return format_response(
+        markdown,
+        build_decision("check_gate_readiness", DecisionStatus.OK,
+                       "Compare evidence against the checklist and identify gaps.",
+                       {"gate": gate, "evidence_count": len(evidence)}),
+        output_format,
+    )
 
 
 @mcp.tool()
-def classify_risk(system_description: str) -> str:
+def classify_risk(system_description: str, output_format: str = "markdown") -> str:
     """Get the risk classification framework for an AI system.
 
     Provides the Blueprint's risk classification content and EU AI Act categories.
@@ -258,6 +427,7 @@ def classify_risk(system_description: str) -> str:
 
     Args:
         system_description: Free-text description of the AI system to classify
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
@@ -277,51 +447,86 @@ def classify_risk(system_description: str) -> str:
         sections.append(_format_doc_full(euaiact_docs[0]))
 
     if not sections:
-        return "Risk classification documents not found."
+        return format_response(
+            "Risk classification documents not found.",
+            build_decision("classify_risk", DecisionStatus.NOT_FOUND,
+                           "Reload the content index and retry.",
+                           {"description_excerpt": system_description[:100]}),
+            output_format,
+        )
 
-    return (
+    markdown = (
         f"## System to classify:\n\n{system_description}\n\n---\n\n"
         + "\n\n---\n\n".join(sections)
         + "\n\n---\n\nUse the frameworks above to classify the risk level of the described system."
     )
+    return format_response(
+        markdown,
+        build_decision("classify_risk", DecisionStatus.OK,
+                       "Apply the framework above to classify the system, then call project_setup_risk.",
+                       {"description_excerpt": system_description[:100]},
+                       next_tool="project_setup_risk"),
+        output_format,
+    )
 
 
 @mcp.tool()
-def select_collaboration_mode(risk_level: str, autonomy_needed: str) -> str:
+def select_collaboration_mode(risk_level: str, autonomy_needed: str, output_format: str = "markdown") -> str:
     """Get guidance on selecting the right Human-AI collaboration mode (HAS-H levels).
 
     Args:
         risk_level: Risk level of the use case ("low", "medium", or "high")
         autonomy_needed: Desired level of AI autonomy ("low", "medium", or "high")
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
     # Find HAS-H levels document
     docs = [d for d in index.docs if "has-h" in d.path.lower()]
     if not docs:
-        return "Collaboration modes (HAS-H) document not found."
+        return format_response(
+            "Collaboration modes (HAS-H) document not found.",
+            build_decision("select_collaboration_mode", DecisionStatus.NOT_FOUND,
+                           "Reload the content index and retry.",
+                           {"risk_level": risk_level, "autonomy_needed": autonomy_needed}),
+            output_format,
+        )
 
-    return (
+    markdown = (
         f"## Collaboration Mode Selection\n\n"
         f"**Risk level:** {risk_level}\n"
         f"**Desired autonomy:** {autonomy_needed}\n\n---\n\n"
         + _format_doc_full(docs[0])
         + "\n\n---\n\nUse the framework above to select the appropriate collaboration mode."
     )
+    return format_response(
+        markdown,
+        build_decision("select_collaboration_mode", DecisionStatus.OK,
+                       "Select a mode number (1–5) based on the framework above.",
+                       {"risk_level": risk_level, "autonomy_needed": autonomy_needed}),
+        output_format,
+    )
 
 
 @mcp.tool()
-def lookup_terminology(term: str) -> str:
+def lookup_terminology(term: str, output_format: str = "markdown") -> str:
     """Look up a term in the Blueprint glossary.
 
     Args:
         term: The term to look up (e.g. "guardian", "gate review", "golden set")
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
     glossary_docs = [d for d in index.docs if d.path.startswith("termenlijst/")]
     if not glossary_docs:
-        return "Glossary not found."
+        return format_response(
+            "Glossary not found.",
+            build_decision("lookup_terminology", DecisionStatus.NOT_FOUND,
+                           "Reload the content index and retry.",
+                           {"term": term, "found": False}),
+            output_format,
+        )
 
     term_lower = term.lower()
     glossary = glossary_docs[0]
@@ -340,27 +545,52 @@ def lookup_terminology(term: str) -> str:
                 break
 
     if results:
-        return f"## Glossary results for '{term}':\n\n" + "\n\n---\n\n".join(results)
+        markdown = f"## Glossary results for '{term}':\n\n" + "\n\n---\n\n".join(results)
+        return format_response(
+            markdown,
+            build_decision("lookup_terminology", DecisionStatus.OK,
+                           "Review the glossary definition above.",
+                           {"term": term, "found": True, "snippet_count": len(results)}),
+            output_format,
+        )
 
     if len(glossary.body) > 5000:
-        return f"Term '{term}' not found in glossary headings. Full glossary:\n\n{glossary.body[:5000]}..."
-    return f"Term '{term}' not found in glossary headings. Full glossary:\n\n{glossary.body}"
+        markdown = f"Term '{term}' not found in glossary headings. Full glossary:\n\n{glossary.body[:5000]}..."
+    else:
+        markdown = f"Term '{term}' not found in glossary headings. Full glossary:\n\n{glossary.body}"
+    return format_response(
+        markdown,
+        build_decision("lookup_terminology", DecisionStatus.NOT_FOUND,
+                       "Try a different term or browse the full glossary.",
+                       {"term": term, "found": False}),
+        output_format,
+    )
 
 
 @mcp.tool()
-def reload_content() -> str:
+def reload_content(output_format: str = "markdown") -> str:
     """Reload all Blueprint content from disk.
 
     Use this after updating markdown files in docs/ to refresh the index
     without restarting the server.
+
+    Args:
+        output_format: Response format — "markdown" (default) or "json"
     """
     global _module_index
     _module_index = ContentIndex.load(DOCS_ROOT, language=LANGUAGE)
-    return f"Reloaded {len(_module_index.docs)} documents."
+    doc_count = len(_module_index.docs)
+    return format_response(
+        f"Reloaded {doc_count} documents.",
+        build_decision("reload_content", DecisionStatus.OK,
+                       "Content index refreshed. All tools now use the updated docs.",
+                       {"doc_count": doc_count}),
+        output_format,
+    )
 
 
 @mcp.tool()
-def get_project_type(description: str) -> str:
+def get_project_type(description: str, output_format: str = "markdown") -> str:
     """Get the Type A vs Type B project classification framework.
 
     Type A = deterministic AI (rules, classification). Type B = generative AI (LLMs, content creation).
@@ -368,6 +598,7 @@ def get_project_type(description: str) -> str:
 
     Args:
         description: Brief description of the AI project
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
@@ -376,12 +607,26 @@ def get_project_type(description: str) -> str:
         docs = [d for d in index.docs if "activiteiten" in d.path and "02-fase-ontdekking" in d.path]
 
     if not docs:
-        return "Project type classification document not found."
+        return format_response(
+            "Project type classification document not found.",
+            build_decision("get_project_type", DecisionStatus.NOT_FOUND,
+                           "Reload the content index and retry.",
+                           {"description_excerpt": description[:100]}),
+            output_format,
+        )
 
-    return (
+    markdown = (
         f"## Project to classify:\n\n{description}\n\n---\n\n"
         + _format_doc_full(docs[0])
         + "\n\n---\n\nUse the Type A / Type B framework above to classify this project."
+    )
+    return format_response(
+        markdown,
+        build_decision("get_project_type", DecisionStatus.OK,
+                       "Classify as Type A or B, then call project_setup_intake.",
+                       {"description_excerpt": description[:100]},
+                       next_tool="project_setup_intake"),
+        output_format,
     )
 
 
@@ -392,6 +637,7 @@ def search_content(
     phase: int | None = None,
     layer: int | None = None,
     tag: str | None = None,
+    output_format: str = "markdown",
 ) -> str:
     """Search across all Blueprint documentation.
 
@@ -401,12 +647,19 @@ def search_content(
         phase: Filter by lifecycle phase (1-5)
         layer: Filter by layer (1=Strategic, 2=Operational, 3=Toolkit)
         tag: Filter by tag (e.g. "risk", "gate-review", "onboarding", "rag", "monitoring")
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
     results = index.search(query, type=type, phase=phase, layer=layer, tag=tag)
 
     if not results:
-        return f"No results found for '{query}' with the given filters."
+        return format_response(
+            f"No results found for '{query}' with the given filters.",
+            build_decision("search_content", DecisionStatus.NOT_FOUND,
+                           "Try broader keywords or remove filters.",
+                           {"query": query, "result_count": 0}),
+            output_format,
+        )
 
     lines = [f"## Search results for '{query}' ({len(results)} found)\n"]
     for doc in results:
@@ -414,7 +667,16 @@ def search_content(
         lines.append(_format_doc_summary(doc))
         lines.append(f"  {body_preview}...\n")
 
-    return "\n".join(lines)
+    confidence_scores = [score_result(query=query, doc=doc) for doc in results]
+    markdown = "\n".join(lines)
+    return format_response(
+        markdown,
+        build_decision("search_content", DecisionStatus.OK,
+                       "Review the results and use get_template or answer_question for full content.",
+                       {"query": query, "result_count": len(results),
+                        "confidence_scores": confidence_scores}),
+        output_format,
+    )
 
 
 # ─── Project Setup Agent ──────────────────────────────────────────────────────
@@ -491,7 +753,7 @@ def _risk_level(b1: int, b2: int, b3: int) -> tuple[int, str, str]:
 
 
 @mcp.tool()
-def project_setup_intake(description: str) -> str:
+def project_setup_intake(description: str, output_format: str = "markdown") -> str:
     """START HERE when a user wants to set up, start, or kick off a new AI project or use case.
 
     This is Step 1 of the guided Project Setup workflow (3 steps total):
@@ -512,6 +774,7 @@ def project_setup_intake(description: str) -> str:
 
     Args:
         description: Free-text description of the AI project or use case
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
@@ -538,7 +801,7 @@ def project_setup_intake(description: str) -> str:
             f"Classify the project and confirm with the user."
         )
 
-    return (
+    markdown = (
         f"# Project Setup — Step 1: Intake\n\n"
         f"{type_section}\n\n"
         f"---\n\n"
@@ -547,6 +810,14 @@ def project_setup_intake(description: str) -> str:
         f"**Next step:** Present the risk questions to the user, collect their B1/B2/B3 scores, "
         f"then call `project_setup_risk` with `description`, `project_type` (A or B), "
         f"and `risk_scores_b1`, `risk_scores_b2`, `risk_scores_b3`."
+    )
+    return format_response(
+        markdown,
+        build_decision("project_setup_intake", DecisionStatus.OK,
+                       "Present risk questions to the user, then call project_setup_risk with scores.",
+                       {"description_excerpt": description[:100]},
+                       next_tool="project_setup_risk"),
+        output_format,
     )
 
 
@@ -557,6 +828,7 @@ def project_setup_risk(
     risk_scores_b1: int,
     risk_scores_b2: int,
     risk_scores_b3: int,
+    output_format: str = "markdown",
 ) -> str:
     """Step 2 of the guided Project Setup workflow: calculate risk level and recommend collaboration mode.
 
@@ -571,6 +843,7 @@ def project_setup_risk(
         risk_scores_b1: Part B1 subtotal (Application Domain), 0–10
         risk_scores_b2: Part B2 subtotal (Data & Privacy), 0–10
         risk_scores_b3: Part B3 subtotal (Autonomy & Impact), 0–10
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
@@ -583,7 +856,7 @@ def project_setup_risk(
     if has_h_docs:
         has_h_section = f"\n\n---\n\n## Collaboration Modes Reference\n\n{has_h_docs[0].body[:1500]}..."
 
-    return (
+    markdown = (
         f"# Project Setup — Step 2: Risk Assessment\n\n"
         f"**Project:** {description}\n"
         f"**Type:** {project_type.upper()}\n\n"
@@ -605,6 +878,17 @@ def project_setup_risk(
         f"`risk_level` ('{colour}'), `collaboration_mode`, and any `additional_context` "
         f"(team, budget, timeline, etc.)."
     )
+    return format_response(
+        markdown,
+        build_decision("project_setup_risk", DecisionStatus.OK,
+                       f"Risk is {colour.upper()}. Confirm with user and call project_setup_charter.",
+                       {"risk_level": colour, "total_score": total,
+                        "scores": {"b1": max(0, min(10, risk_scores_b1)),
+                                   "b2": max(0, min(10, risk_scores_b2)),
+                                   "b3": max(0, min(10, risk_scores_b3))}},
+                       next_tool="project_setup_charter"),
+        output_format,
+    )
 
 
 @mcp.tool()
@@ -614,6 +898,7 @@ def project_setup_charter(
     risk_level: str,
     collaboration_mode: str,
     additional_context: str = "",
+    output_format: str = "markdown",
 ) -> str:
     """Step 3 (final) of the guided Project Setup workflow: generate a pre-filled Project Charter.
 
@@ -630,6 +915,7 @@ def project_setup_charter(
         risk_level: Risk colour from step 2 ("green", "amber", or "red")
         collaboration_mode: Mode number as string ("1"–"5") confirmed by user
         additional_context: Optional extra context (team, budget, timeline, stakeholders, etc.)
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
@@ -642,7 +928,13 @@ def project_setup_charter(
         charter_docs = [d for d in index.docs if "project-charter" in d.path]
 
     if not charter_docs:
-        return "Project Charter template not found in the index."
+        return format_response(
+            "Project Charter template not found in the index.",
+            build_decision("project_setup_charter", DecisionStatus.NOT_FOUND,
+                           "Reload the content index and retry.",
+                           {"project_type": project_type, "risk_level": risk_level}),
+            output_format,
+        )
 
     charter_template = charter_docs[0].body
 
@@ -665,7 +957,7 @@ def project_setup_charter(
     if additional_context:
         context_section = f"\n\n## Additional Context Provided\n\n{additional_context}"
 
-    return (
+    markdown = (
         f"# Project Setup — Step 3: Project Charter\n\n"
         f"The template below is pre-filled with the context gathered in steps 1 and 2. "
         f"Fill in the remaining `[placeholder]` fields based on what you know from the conversation. "
@@ -690,13 +982,21 @@ def project_setup_charter(
         f"if not provided — ask the user.\n"
         f"> - Present the filled charter to the user for approval before proceeding to Gate 1."
     )
+    return format_response(
+        markdown,
+        build_decision("project_setup_charter", DecisionStatus.OK,
+                       "Present the charter to the user for approval, then proceed to Gate 1.",
+                       {"project_type": project_type.upper(), "risk_level": risk_level,
+                        "collaboration_mode": str(collaboration_mode)}),
+        output_format,
+    )
 
 
 # ─── Gate Review Agent ────────────────────────────────────────────────────────
 
 
 @mcp.tool()
-def gate_review_intake(gate: int, evidence: list[str]) -> str:
+def gate_review_intake(gate: int, evidence: list[str], output_format: str = "markdown") -> str:
     """START HERE for Gate Review preparation. Step 1 of the Gate Review workflow.
 
     This is Step 1 of the guided Gate Review workflow (2 steps total):
@@ -713,9 +1013,16 @@ def gate_review_intake(gate: int, evidence: list[str]) -> str:
     Args:
         gate: Gate number (1–4)
         evidence: List of evidence items available (e.g. ["project charter", "risk scan"])
+        output_format: Response format — "markdown" (default) or "json"
     """
     if gate not in range(1, 5):
-        return f"Error: gate must be 1–4, got {gate}"
+        return format_response(
+            f"Error: gate must be 1–4, got {gate}",
+            build_decision("gate_review_intake", DecisionStatus.ERROR,
+                           "Correct the gate parameter (1–4).",
+                           {"gate": gate}),
+            output_format,
+        )
 
     index = get_index()
 
@@ -743,7 +1050,10 @@ def gate_review_intake(gate: int, evidence: list[str]) -> str:
 
     gaps_str = "\n".join(f"- {g}" for g in gaps[:8]) if gaps else "_(no obvious gaps detected — verify manually)_"
 
-    return (
+    ev_items = parse_evidence(evidence, gate=gate)
+    ev_summary = evidence_summary(ev_items)
+
+    markdown = (
         f"# Gate Review — Step 1: Intake (Gate {gate})\n\n"
         f"## Evidence provided\n\n{evidence_str}\n\n"
         f"## Potential gaps\n\n{gaps_str}\n\n"
@@ -754,10 +1064,19 @@ def gate_review_intake(gate: int, evidence: list[str]) -> str:
         f"Then call `gate_review_report` with `gate`, the confirmed `evidence` list, "
         f"and the confirmed `gaps` list to generate the Guardian-ready review summary."
     )
+    return format_response(
+        markdown,
+        build_decision("gate_review_intake", DecisionStatus.OK,
+                       "Present gaps to user, confirm, then call gate_review_report.",
+                       {"gate": gate, "evidence_count": len(evidence),
+                        "gap_count": len(gaps), "evidence_summary": ev_summary},
+                       next_tool="gate_review_report"),
+        output_format,
+    )
 
 
 @mcp.tool()
-def gate_review_report(gate: int, evidence: list[str], gaps: list[str]) -> str:
+def gate_review_report(gate: int, evidence: list[str], gaps: list[str], output_format: str = "markdown") -> str:
     """Step 2 of the Gate Review workflow: generate a Guardian-ready review summary.
 
     Call this ONLY after running gate_review_intake (Step 1) and confirming
@@ -770,9 +1089,16 @@ def gate_review_report(gate: int, evidence: list[str], gaps: list[str]) -> str:
         gate: Gate number (1–4)
         evidence: Confirmed list of available evidence items
         gaps: Confirmed list of gaps or missing items (empty list = no gaps)
+        output_format: Response format — "markdown" (default) or "json"
     """
     if gate not in range(1, 5):
-        return f"Error: gate must be 1–4, got {gate}"
+        return format_response(
+            f"Error: gate must be 1–4, got {gate}",
+            build_decision("gate_review_report", DecisionStatus.ERROR,
+                           "Correct the gate parameter (1–4).",
+                           {"gate": gate}),
+            output_format,
+        )
 
     gate_names = {1: "Go/No-Go Discovery", 2: "Pilot Investment", 3: "Production-Ready", 4: "Go-Live"}
     gate_label = gate_names.get(gate, f"Gate {gate}")
@@ -788,7 +1114,11 @@ def gate_review_report(gate: int, evidence: list[str], gaps: list[str]) -> str:
         readiness = "**READY** — all evidence present. Proceed to Guardian review."
         decision = "- [ ] **Go** _(proceed to next phase)_\n- [ ] **No-Go** _(Guardian decision)_"
 
-    return (
+    ready = not gaps
+    ev_items = parse_evidence(evidence, gate=gate)
+    ev_summary = evidence_summary(ev_items)
+
+    markdown = (
         f"# Gate {gate} Review Summary — {gate_label}\n\n"
         f"## Readiness assessment\n\n{readiness}\n\n"
         f"## Evidence\n\n{evidence_str}\n\n"
@@ -802,13 +1132,22 @@ def gate_review_report(gate: int, evidence: list[str], gaps: list[str]) -> str:
         f"> Present this summary to the Guardian for sign-off. "
         f"If gaps exist, agree on a resolution plan before proceeding."
     )
+    return format_response(
+        markdown,
+        build_decision("gate_review_report", DecisionStatus.OK,
+                       "Present to Guardian for sign-off." if ready else "Resolve gaps before Guardian review.",
+                       {"gate": gate, "evidence_count": len(evidence),
+                        "gap_count": len(gaps), "ready": ready,
+                        "evidence_summary": ev_summary}),
+        output_format,
+    )
 
 
 # ─── Template Advisor ──────────────────────────────────────────────────────────
 
 
 @mcp.tool()
-def template_advisor(role: str, phase: int, context: str = "") -> str:
+def template_advisor(role: str, phase: int, context: str = "", output_format: str = "markdown") -> str:
     """Get recommended templates for a role and lifecycle phase, with context pre-filled.
 
     Use this when a user asks which templates they need, wants to start filling
@@ -822,9 +1161,16 @@ def template_advisor(role: str, phase: int, context: str = "") -> str:
         phase: Lifecycle phase number (1–5)
         context: Optional project context to pre-fill into template instructions
                  (e.g. "Type A, green risk, fraud detection project")
+        output_format: Response format — "markdown" (default) or "json"
     """
     if phase not in range(1, 6):
-        return f"Error: phase must be 1–5, got {phase}"
+        return format_response(
+            f"Error: phase must be 1–5, got {phase}",
+            build_decision("template_advisor", DecisionStatus.ERROR,
+                           "Correct the phase parameter (1–5).",
+                           {"role": role, "phase": phase}),
+            output_format,
+        )
 
     index = get_index()
     phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
@@ -840,7 +1186,13 @@ def template_advisor(role: str, phase: int, context: str = "") -> str:
         templates = [d for d in index.docs if d.type == "template" and phase in d.phases]
 
     if not templates:
-        return f"No templates found for {role} in phase {phase} ({phase_label})."
+        return format_response(
+            f"No templates found for {role} in phase {phase} ({phase_label}).",
+            build_decision("template_advisor", DecisionStatus.NOT_FOUND,
+                           "Try a different role or phase.",
+                           {"role": role, "phase": phase, "template_count": 0}),
+            output_format,
+        )
 
     context_note = f"\n\n**Project context:** {context}" if context else ""
 
@@ -853,7 +1205,14 @@ def template_advisor(role: str, phase: int, context: str = "") -> str:
     for doc in templates:
         sections.append(_format_doc_full(doc))
 
-    return "\n\n---\n\n".join(sections)
+    markdown = "\n\n---\n\n".join(sections)
+    return format_response(
+        markdown,
+        build_decision("template_advisor", DecisionStatus.OK,
+                       "Fill in the [placeholder] fields and present to the user for approval.",
+                       {"role": role, "phase": phase, "template_count": len(templates)}),
+        output_format,
+    )
 
 
 # ─── Compliance Agent ──────────────────────────────────────────────────────────
@@ -888,7 +1247,7 @@ def _classify_eu_risk(description: str) -> str:
 
 
 @mcp.tool()
-def compliance_intake(description: str) -> str:
+def compliance_intake(description: str, output_format: str = "markdown") -> str:
     """START HERE for EU AI Act compliance assessment. Step 1 of the Compliance workflow.
 
     This is Step 1 of the guided Compliance workflow (2 steps total):
@@ -904,6 +1263,7 @@ def compliance_intake(description: str) -> str:
 
     Args:
         description: Free-text description of the AI system
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
@@ -942,7 +1302,7 @@ def compliance_intake(description: str) -> str:
 
     guidance = category_guidance.get(heuristic_category, category_guidance["minimal"])
 
-    return (
+    markdown = (
         f"# Compliance Assessment — Step 1: Intake\n\n"
         f"**System description:** {description}\n\n"
         f"## Preliminary classification\n\n"
@@ -955,10 +1315,19 @@ def compliance_intake(description: str) -> str:
         f"Ask if the category is correct. Then call `compliance_checklist` with `description` "
         f"and `risk_category` (unacceptable / high / limited / minimal)."
     )
+    return format_response(
+        markdown,
+        build_decision("compliance_intake", DecisionStatus.OK,
+                       "Confirm category with user, then call compliance_checklist.",
+                       {"heuristic_category": heuristic_category,
+                        "description_excerpt": description[:100]},
+                       next_tool="compliance_checklist"),
+        output_format,
+    )
 
 
 @mcp.tool()
-def compliance_checklist(description: str, risk_category: str) -> str:
+def compliance_checklist(description: str, risk_category: str, output_format: str = "markdown") -> str:
     """Step 2 of the Compliance workflow: generate a specific EU AI Act compliance checklist.
 
     Call this ONLY after compliance_intake (Step 1) and user confirmation of the risk category.
@@ -969,13 +1338,14 @@ def compliance_checklist(description: str, risk_category: str) -> str:
     Args:
         description: Free-text description of the AI system
         risk_category: Confirmed risk category: "unacceptable", "high", "limited", or "minimal"
+        output_format: Response format — "markdown" (default) or "json"
     """
     index = get_index()
 
     category = risk_category.lower().strip()
 
     if category == "unacceptable":
-        return (
+        blocked_text = (
             f"# Compliance Checklist — BLOCKED\n\n"
             f"**System:** {description}\n\n"
             f"🔴 **This system is prohibited under EU AI Act Art. 5.**\n\n"
@@ -985,6 +1355,13 @@ def compliance_checklist(description: str, risk_category: str) -> str:
             f"- [ ] Document the decision and rationale\n"
             f"- [ ] Consider redesigning the use case to remove the prohibited element\n\n"
             f"Refer to Art. 5 of the EU AI Act for the full list of prohibited practices."
+        )
+        return format_response(
+            blocked_text,
+            build_decision("compliance_checklist", DecisionStatus.ERROR,
+                           "STOP — this system is prohibited. Halt all development immediately.",
+                           {"risk_category": "unacceptable", "blocked": True}),
+            output_format,
         )
 
     # Fetch detailed compliance content
@@ -1043,7 +1420,7 @@ def compliance_checklist(description: str, risk_category: str) -> str:
 
     extra_content = f"\n\n---\n\n## Detailed Blueprint Compliance Reference\n\n{checklist_content}" if checklist_content else ""
 
-    return (
+    markdown = (
         f"# Compliance Checklist — {risk_category.capitalize()} Risk\n\n"
         f"**System:** {description}\n\n"
         f"---\n\n"
@@ -1052,6 +1429,600 @@ def compliance_checklist(description: str, risk_category: str) -> str:
         f"---\n\n"
         f"> Review each item with your Guardian and legal counsel. "
         f"High-risk systems require conformity assessment before deployment."
+    )
+    return format_response(
+        markdown,
+        build_decision("compliance_checklist", DecisionStatus.OK,
+                       "Work through the checklist with Guardian and legal counsel.",
+                       {"risk_category": category, "blocked": False}),
+        output_format,
+    )
+
+
+# ─── Conditional Guidance & Template Selection ────────────────────────────────
+
+_VALID_PROJECT_TYPES = {"A", "B"}
+_VALID_RISK_LEVELS = {"green", "amber", "red"}
+
+
+@mcp.tool()
+def get_guidance_for_profile(
+    project_type: str,
+    risk_level: str,
+    phase: int,
+    role: str = "",
+    output_format: str = "markdown",
+) -> str:
+    """Get tailored guidance for a specific project profile (type × risk × phase × role).
+
+    Use when: An agent knows the project type, risk level, and current phase and
+    needs to surface the most relevant Blueprint guidance without a free-text search.
+    Do NOT use when: You only need a template — use select_template instead.
+
+    Args:
+        project_type: "A" (deterministic) or "B" (generative).
+        risk_level: "green", "amber", or "red".
+        phase: Lifecycle phase 1–5.
+        role: Optional role filter (e.g. "Guardian", "Tech Lead").
+        output_format: "markdown" (default) or "json".
+    """
+    if project_type not in _VALID_PROJECT_TYPES:
+        return format_response(
+            f"Error: project_type must be 'A' or 'B', got '{project_type}'",
+            build_decision("get_guidance_for_profile", DecisionStatus.ERROR,
+                           "Use 'A' for deterministic AI or 'B' for generative AI.",
+                           {"project_type": project_type}),
+            output_format,
+        )
+    if risk_level not in _VALID_RISK_LEVELS:
+        return format_response(
+            f"Error: risk_level must be 'green', 'amber', or 'red', got '{risk_level}'",
+            build_decision("get_guidance_for_profile", DecisionStatus.ERROR,
+                           "Use one of: green, amber, red.",
+                           {"risk_level": risk_level}),
+            output_format,
+        )
+    if phase not in range(1, 6):
+        return format_response(
+            f"Error: phase must be 1–5, got {phase}",
+            build_decision("get_guidance_for_profile", DecisionStatus.ERROR,
+                           "Correct the phase parameter (1–5).",
+                           {"phase": phase}),
+            output_format,
+        )
+
+    index = get_index()
+    phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
+
+    # Collect docs matching the profile: phase + optionally role
+    candidates = [
+        d for d in index.docs
+        if phase in d.phases
+        and d.type not in ("template",)
+        and (not role or not d.roles or role in d.roles)
+    ]
+
+    # Score by relevance: risk_level tag match, type match
+    risk_tag_map = {"red": ["risk", "compliance", "security"], "amber": ["risk", "validation"], "green": []}
+    preferred_tags = set(risk_tag_map.get(risk_level, []))
+
+    def _score(doc) -> int:
+        s = 0
+        if preferred_tags & set(doc.tags):
+            s += 2
+        if doc.type in ("objectives", "activities", "deliverables"):
+            s += 1
+        return s
+
+    candidates.sort(key=_score, reverse=True)
+    top = candidates[:5]
+
+    if not top:
+        return format_response(
+            f"No guidance found for project_type={project_type}, risk={risk_level}, phase={phase}.",
+            build_decision("get_guidance_for_profile", DecisionStatus.NOT_FOUND,
+                           "Try broadening the search with search_content.",
+                           {"project_type": project_type, "risk_level": risk_level,
+                            "phase": phase, "doc_count": 0}),
+            output_format,
+        )
+
+    sections = [
+        f"# Guidance for Type {project_type} / {risk_level.capitalize()} Risk / "
+        f"Phase {phase} ({phase_names.get(phase, '')})"
+        + (f" / {role}" if role else "") + "\n"
+    ]
+    for doc in top:
+        sections.append(f"## {doc.title}\n\n_`{doc.path}`_\n\n{doc.body[:800]}...")
+
+    markdown = "\n\n---\n\n".join(sections)
+    return format_response(
+        markdown,
+        build_decision("get_guidance_for_profile", DecisionStatus.OK,
+                       "Review the guidance above and adapt to your specific context.",
+                       {"project_type": project_type, "risk_level": risk_level,
+                        "phase": phase, "role": role, "doc_count": len(top)}),
+        output_format,
+    )
+
+
+@mcp.tool()
+def select_template(
+    goal: str,
+    phase: int | None = None,
+    role: str = "",
+    output_format: str = "markdown",
+) -> str:
+    """Select the most relevant Blueprint template for a stated goal.
+
+    Use when: A user or agent knows what they want to produce (e.g. "project charter",
+    "risk pre-scan") and needs the matching template.
+    Do NOT use when: You need phase guidance, not a template — use get_guidance_for_profile.
+
+    Args:
+        goal: Free-text description of what the user wants to create or fill in.
+        phase: Optional lifecycle phase filter (1–5).
+        role: Optional role filter (e.g. "Guardian").
+        output_format: "markdown" (default) or "json".
+    """
+    index = get_index()
+    goal_lower = goal.lower()
+
+    templates = index.get_templates()
+
+    # Apply phase and role filters
+    if phase is not None:
+        templates = [t for t in templates if phase in t.phases]
+    if role:
+        role_match = [t for t in templates if role in t.roles]
+        if role_match:
+            templates = role_match
+
+    if not templates:
+        return format_response(
+            f"No templates found matching goal='{goal}'" + (f", phase={phase}" if phase else ""),
+            build_decision("select_template", DecisionStatus.NOT_FOUND,
+                           "Try removing the phase or role filter.",
+                           {"goal": goal, "match_count": 0}),
+            output_format,
+        )
+
+    # Score templates by keyword overlap with goal
+    def _score(doc) -> int:
+        text = (doc.title + " " + doc.path + " " + (doc.summary or "")).lower()
+        return sum(1 for word in goal_lower.split() if len(word) > 3 and word in text)
+
+    templates.sort(key=_score, reverse=True)
+    best = [t for t in templates if _score(t) > 0]
+
+    if not best:
+        names = "\n".join(f"- `{d.path}`: {d.title}" for d in templates[:10])
+        return format_response(
+            f"No strong match for '{goal}'. Available templates:\n\n{names}",
+            build_decision("select_template", DecisionStatus.NOT_FOUND,
+                           "Try a different keyword or use get_template with a path from the list.",
+                           {"goal": goal, "match_count": 0}),
+            output_format,
+        )
+
+    top = best[:3]
+    sections = [f"# Template Selection for: \"{goal}\"\n"]
+    for doc in top:
+        sections.append(f"## {doc.title}\n\n_`{doc.path}`_\n\n{doc.body[:600]}...")
+
+    markdown = "\n\n---\n\n".join(sections)
+    return format_response(
+        markdown,
+        build_decision("select_template", DecisionStatus.OK,
+                       f"Best match: '{top[0].title}'. Fill in [placeholder] fields.",
+                       {"goal": goal, "match_count": len(top),
+                        "top_match_path": top[0].path}),
+        output_format,
+    )
+
+
+# ─── Workflow Meta-tools ──────────────────────────────────────────────────────
+
+PHASE_PREREQUISITES: dict[int, list[int]] = {
+    1: [],
+    2: [1],
+    3: [1, 2],
+    4: [2, 3],
+    5: [3, 4],
+}
+
+_WORKFLOWS: dict[str, dict] = {
+    "project_setup": {
+        "description": "Set up a new AI project from scratch",
+        "steps": [
+            {"step": 1, "tool": "project_setup_intake", "required_params": ["description"]},
+            {"step": 2, "tool": "project_setup_risk", "required_params": ["description", "project_type", "risk_scores_b1", "risk_scores_b2", "risk_scores_b3"]},
+            {"step": 3, "tool": "project_setup_charter", "required_params": ["description", "project_type", "risk_level", "collaboration_mode"]},
+        ],
+    },
+    "gate_review": {
+        "description": "Prepare and execute a Gate Review",
+        "steps": [
+            {"step": 1, "tool": "gate_review_intake", "required_params": ["gate", "evidence"]},
+            {"step": 2, "tool": "gate_review_report", "required_params": ["gate", "evidence", "gaps"]},
+        ],
+    },
+    "compliance_assessment": {
+        "description": "EU AI Act compliance assessment for an AI system",
+        "steps": [
+            {"step": 1, "tool": "compliance_intake", "required_params": ["description"]},
+            {"step": 2, "tool": "compliance_checklist", "required_params": ["description", "risk_category"]},
+        ],
+    },
+}
+
+_CONTEXT_SCHEMA: dict = {
+    "required": ["description"],
+    "optional": ["project_type", "risk_level", "collaboration_mode", "phase", "gate"],
+    "valid_project_types": ["A", "B"],
+    "valid_risk_levels": ["green", "amber", "red"],
+    "valid_collaboration_modes": ["1", "2", "3", "4", "5"],
+    "valid_phases": [1, 2, 3, 4, 5],
+    "valid_gates": [1, 2, 3, 4],
+}
+
+
+@mcp.tool()
+def can_enter_phase(phase: int, completed_gates: list[int], output_format: str = "markdown") -> str:
+    """Check whether a project team can enter a lifecycle phase given completed gates."""
+    if phase not in range(1, 6):
+        return format_response(
+            f"Error: phase must be 1–5, got {phase}",
+            build_decision("can_enter_phase", DecisionStatus.ERROR,
+                           "Correct the phase parameter (1–5).", {"phase": phase}),
+            output_format,
+        )
+    required = PHASE_PREREQUISITES[phase]
+    missing = [g for g in required if g not in completed_gates]
+    can_enter = len(missing) == 0
+    action = (f"All prerequisites met — proceed to Phase {phase}."
+              if can_enter else f"Complete gate(s) {missing} before entering Phase {phase}.")
+    phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
+    markdown = (
+        f"## Phase {phase} ({phase_names.get(phase, '')}) Entry Check\n\n"
+        f"**Can enter:** {'✅ Yes' if can_enter else '❌ No'}\n\n"
+        f"**Required gates:** {required or 'None'}\n"
+        f"**Completed gates:** {sorted(completed_gates) or 'None'}\n"
+        f"**Missing gates:** {missing or 'None'}\n\n"
+        f"**Next action:** {action}"
+    )
+    return format_response(
+        markdown,
+        build_decision("can_enter_phase", DecisionStatus.OK, action,
+                       {"can_enter": can_enter, "phase": phase,
+                        "missing_gates": missing, "completed_gates": sorted(completed_gates)}),
+        output_format,
+    )
+
+
+@mcp.tool()
+def get_workflow_status(output_format: str = "markdown") -> str:
+    """Return a machine-readable summary of all available multi-step workflows."""
+    total_tools = sum(len(w["steps"]) for w in _WORKFLOWS.values())
+    lines = ["# Blueprint Workflows\n"]
+    for name, wf in _WORKFLOWS.items():
+        lines.append(f"## {name}\n\n_{wf['description']}_\n")
+        lines.append("| Step | Tool | Required parameters |")
+        lines.append("|------|------|---------------------|")
+        for step in wf["steps"]:
+            params = ", ".join(f"`{p}`" for p in step["required_params"])
+            lines.append(f"| {step['step']} | `{step['tool']}` | {params} |")
+        lines.append("")
+    markdown = "\n".join(lines)
+    return format_response(
+        markdown,
+        build_decision("get_workflow_status", DecisionStatus.OK,
+                       "Select a workflow and call its first step tool.",
+                       {"workflows": list(_WORKFLOWS.keys()),
+                        "total_workflows": len(_WORKFLOWS),
+                        "total_tools": total_tools}),
+        output_format,
+    )
+
+
+@mcp.tool()
+def validate_project_context(data: dict, output_format: str = "markdown") -> str:
+    """Validate that a project context dict has enough information to start a workflow."""
+    missing_required: list[str] = []
+    invalid_values: dict[str, str] = {}
+    suggestions: list[str] = []
+    for field in _CONTEXT_SCHEMA["required"]:
+        if field not in data or not data[field]:
+            missing_required.append(field)
+    if "project_type" in data and data["project_type"] not in _CONTEXT_SCHEMA["valid_project_types"]:
+        invalid_values["project_type"] = f"Must be one of {_CONTEXT_SCHEMA['valid_project_types']}, got '{data['project_type']}'"
+    if "risk_level" in data and data["risk_level"] not in _CONTEXT_SCHEMA["valid_risk_levels"]:
+        invalid_values["risk_level"] = f"Must be one of {_CONTEXT_SCHEMA['valid_risk_levels']}, got '{data['risk_level']}'"
+    if "collaboration_mode" in data and str(data["collaboration_mode"]) not in _CONTEXT_SCHEMA["valid_collaboration_modes"]:
+        invalid_values["collaboration_mode"] = f"Must be one of {_CONTEXT_SCHEMA['valid_collaboration_modes']}, got '{data['collaboration_mode']}'"
+    if "phase" in data and data["phase"] not in _CONTEXT_SCHEMA["valid_phases"]:
+        invalid_values["phase"] = f"Must be one of {_CONTEXT_SCHEMA['valid_phases']}, got '{data['phase']}'"
+    if "gate" in data and data["gate"] not in _CONTEXT_SCHEMA["valid_gates"]:
+        invalid_values["gate"] = f"Must be one of {_CONTEXT_SCHEMA['valid_gates']}, got '{data['gate']}'"
+    is_valid = not missing_required and not invalid_values
+    has_description = "description" in data and data.get("description")
+    has_gate = "gate" in data and data.get("gate") and "gate" not in invalid_values
+    has_project_type = "project_type" in data and "project_type" not in invalid_values
+    has_risk_level = "risk_level" in data and "risk_level" not in invalid_values
+    has_collab_mode = "collaboration_mode" in data and "collaboration_mode" not in invalid_values
+    if has_gate and has_description:
+        next_tool = "gate_review_intake"
+    elif has_description and has_project_type and has_risk_level and has_collab_mode:
+        next_tool = "project_setup_charter"
+    elif has_description and has_project_type:
+        next_tool = "project_setup_risk"
+    elif has_description:
+        next_tool = "project_setup_intake"
+    else:
+        next_tool = None
+    if missing_required:
+        suggestions.append(f"Provide the required field(s): {', '.join(missing_required)}")
+    if invalid_values:
+        suggestions.append(f"Fix invalid values for: {', '.join(invalid_values.keys())}")
+    if is_valid and next_tool:
+        suggestions.append(f"Context is valid — call `{next_tool}` next.")
+    status_str = DecisionStatus.OK if is_valid else DecisionStatus.ERROR
+    action = suggestions[0] if suggestions else "Context validated."
+    lines = ["## Project Context Validation\n"]
+    lines.append(f"**Valid:** {'✅ Yes' if is_valid else '❌ No'}\n")
+    if missing_required:
+        lines.append(f"**Missing required:** {', '.join(missing_required)}")
+    if invalid_values:
+        for field, msg in invalid_values.items():
+            lines.append(f"**Invalid `{field}`:** {msg}")
+    if suggestions:
+        lines.append("\n**Suggestions:**")
+        for s in suggestions:
+            lines.append(f"- {s}")
+    return format_response(
+        "\n".join(lines),
+        build_decision("validate_project_context", status_str, action,
+                       {"is_valid": is_valid, "missing_required": missing_required,
+                        "invalid_values": invalid_values, "suggestions": suggestions,
+                        "next_recommended_tool": next_tool},
+                       next_tool=next_tool),
+        output_format,
+    )
+
+
+# ─── Template Customisation Tools ────────────────────────────────────────────
+
+
+@mcp.tool()
+def list_template_placeholders(template_path: str, output_format: str = "markdown") -> str:
+    """List all ``{{placeholder}}`` tokens in a Blueprint template.
+
+    Args:
+        template_path: Relative path of the template doc (matches ContentIndex keys).
+        output_format: "markdown" (default) or "json".
+    """
+    index = get_index()
+    doc = index.by_path.get(template_path)
+    if doc is None:
+        matches = [d for d in index.docs if template_path in d.path]
+        doc = matches[0] if matches else None
+    if doc is None:
+        return format_response(
+            f"Template '{template_path}' not found.",
+            build_decision("list_template_placeholders", DecisionStatus.NOT_FOUND,
+                           "Check the template path with search_content.",
+                           {"template_path": template_path, "placeholders": []}),
+            output_format,
+        )
+    placeholders = parse_placeholders(doc.body)
+    markdown = (
+        f"## Placeholders in `{doc.title}`\n\n"
+        + (("\n".join(f"- `{{{{{p}}}}}`" for p in placeholders)) if placeholders
+           else "_No placeholders found in this template._")
+    )
+    return format_response(
+        markdown,
+        build_decision("list_template_placeholders", DecisionStatus.OK,
+                       "Use fill_template to populate these placeholders.",
+                       {"template_path": template_path, "placeholders": placeholders}),
+        output_format,
+    )
+
+
+@mcp.tool()
+def fill_template(template_path: str, values: dict, output_format: str = "markdown") -> str:
+    """Fill ``{{placeholder}}`` tokens in a Blueprint template with provided values.
+
+    Args:
+        template_path: Relative path of the template doc.
+        values: Dict mapping placeholder names to replacement strings.
+        output_format: "markdown" (default) or "json".
+    """
+    index = get_index()
+    doc = index.by_path.get(template_path)
+    if doc is None:
+        matches = [d for d in index.docs if template_path in d.path]
+        doc = matches[0] if matches else None
+    if doc is None:
+        return format_response(
+            f"Template '{template_path}' not found.",
+            build_decision("fill_template", DecisionStatus.NOT_FOUND,
+                           "Check the template path with search_content.",
+                           {"template_path": template_path, "filled_content": None,
+                            "missing_placeholders": []}),
+            output_format,
+        )
+    filled, missing = fill_placeholders(doc.body, values)
+    status = DecisionStatus.OK
+    if missing:
+        action = f"Provide values for missing placeholders: {', '.join(missing)}"
+    else:
+        action = "Template fully populated — review the filled content below."
+    markdown = f"## Filled Template: {doc.title}\n\n{filled}"
+    if missing:
+        markdown += f"\n\n> **Missing placeholders:** {', '.join(f'`{{{{{p}}}}}`' for p in missing)}"
+    return format_response(
+        markdown,
+        build_decision("fill_template", status, action,
+                       {"template_path": template_path, "filled_content": filled,
+                        "missing_placeholders": missing}),
+        output_format,
+    )
+
+
+# ─── Session Tools ────────────────────────────────────────────────────────────
+
+
+@mcp.tool()
+def session_start(project_id: str, project_type: str, language: str = "nl", output_format: str = "markdown") -> str:
+    """Start a new workflow session and return its session ID.
+
+    Args:
+        project_id: Caller-supplied project identifier.
+        project_type: E.g. "NLP", "CV", "Recommender".
+        language: "nl" (default) or "en".
+        output_format: "markdown" (default) or "json".
+    """
+    store = get_session_store()
+    if store is None:
+        return format_response(
+            "Session store is not configured.",
+            build_decision("session_start", DecisionStatus.ERROR,
+                           "Session store not available.",
+                           {"session_id": None}),
+            output_format,
+        )
+    sid = store.create_session(project_id=project_id, project_type=project_type, language=language)
+    markdown = f"## Session Started\n\nSession ID: `{sid}`\n\nProject: {project_id} ({project_type})"
+    return format_response(
+        markdown,
+        build_decision("session_start", DecisionStatus.OK,
+                       "Session created. Use session_id in subsequent calls.",
+                       {"session_id": sid, "project_id": project_id, "project_type": project_type}),
+        output_format,
+    )
+
+
+@mcp.tool()
+def session_get_state(session_id: str, output_format: str = "markdown") -> str:
+    """Retrieve the current state of a workflow session.
+
+    Args:
+        session_id: Session ID returned by session_start.
+        output_format: "markdown" (default) or "json".
+    """
+    store = get_session_store()
+    if store is None:
+        return format_response(
+            "Session store is not configured.",
+            build_decision("session_get_state", DecisionStatus.ERROR,
+                           "Session store not available.",
+                           {}),
+            output_format,
+        )
+    state = store.get_state(session_id)
+    if state is None:
+        return format_response(
+            f"Session `{session_id}` not found.",
+            build_decision("session_get_state", DecisionStatus.NOT_FOUND,
+                           "Session not found. Start a new session with session_start.",
+                           {"session_id": session_id}),
+            output_format,
+        )
+    markdown = (
+        f"## Session State\n\n"
+        f"**Project:** {state.project_id} ({state.project_type})\n"
+        f"**Language:** {state.language}\n"
+        f"**Completed gates:** {state.completed_gates or 'None'}\n"
+        f"**Artifacts:** {len(state.artifacts)}"
+    )
+    data = {
+        "session_id": state.session_id,
+        "project_id": state.project_id,
+        "project_type": state.project_type,
+        "language": state.language,
+        "completed_gates": state.completed_gates,
+        "artifacts": state.artifacts,
+        "extra": state.extra,
+    }
+    return format_response(
+        markdown,
+        build_decision("session_get_state", DecisionStatus.OK,
+                       "Session state retrieved.",
+                       data),
+        output_format,
+    )
+
+
+@mcp.tool()
+def session_record_artifact(session_id: str, artifact_type: str, artifact_path: str, output_format: str = "markdown") -> str:
+    """Record an artifact in a workflow session.
+
+    Args:
+        session_id: Session ID returned by session_start.
+        artifact_type: Type of artifact (e.g. "document", "test_result").
+        artifact_path: Path or URL of the artifact.
+        output_format: "markdown" (default) or "json".
+    """
+    store = get_session_store()
+    if store is None:
+        return format_response(
+            "Session store is not configured.",
+            build_decision("session_record_artifact", DecisionStatus.ERROR,
+                           "Session store not available.",
+                           {}),
+            output_format,
+        )
+    state = store.get_state(session_id)
+    if state is None:
+        return format_response(
+            f"Session `{session_id}` not found.",
+            build_decision("session_record_artifact", DecisionStatus.NOT_FOUND,
+                           "Session not found.",
+                           {"session_id": session_id}),
+            output_format,
+        )
+    store.record_artifact(session_id, artifact_type=artifact_type, artifact_path=artifact_path)
+    markdown = f"## Artifact Recorded\n\n**Type:** {artifact_type}\n**Path:** {artifact_path}"
+    return format_response(
+        markdown,
+        build_decision("session_record_artifact", DecisionStatus.OK,
+                       "Artifact recorded in session.",
+                       {"session_id": session_id, "artifact_type": artifact_type, "artifact_path": artifact_path}),
+        output_format,
+    )
+
+
+@mcp.tool()
+def list_projects(output_format: str = "markdown") -> str:
+    """List all projects (sessions) known to the session store.
+
+    Args:
+        output_format: "markdown" (default) or "json".
+    """
+    store = get_session_store()
+    if store is None:
+        return format_response(
+            "## Projects\n\nNo session store configured.",
+            build_decision("list_projects", DecisionStatus.OK,
+                           "No session store available.",
+                           {"projects": []}),
+            output_format,
+        )
+    sessions = store.list_sessions()
+    if not sessions:
+        markdown = "## Projects\n\nNo projects found."
+    else:
+        lines = ["## Projects\n"]
+        for s in sessions:
+            lines.append(f"- `{s['session_id']}` — **{s['project_id']}** ({s['project_type']}, {s['language']})")
+        markdown = "\n".join(lines)
+    return format_response(
+        markdown,
+        build_decision("list_projects", DecisionStatus.OK,
+                       "Use session_get_state to inspect a specific session.",
+                       {"projects": sessions}),
+        output_format,
     )
 
 
