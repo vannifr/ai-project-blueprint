@@ -14,18 +14,18 @@ repos:
       - id: check-merge-conflict
       - id: detect-private-key
       - id: debug-statements
-        files: ^mcp_server/
+        files: ^(mcp_server|scripts)/
       - id: check-ast
-        files: ^mcp_server/.*\.py$
+        files: ^(mcp_server|scripts)/.*\.py$
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.8.0
     hooks:
       - id: ruff
         args: [--fix]
-        files: ^mcp_server/
+        files: ^(mcp_server|scripts)/
       - id: ruff-format
-        files: ^mcp_server/
+        files: ^(mcp_server|scripts)/
 
   - repo: https://github.com/executablebooks/mdformat
     rev: 0.7.17
@@ -45,18 +45,18 @@ repos:
         entry: python3 scripts/validate_docs.py
         language: system
         pass_filenames: false
-        always_run: true
+        files: ^docs/
 
       - id: validate-frontmatter
         name: Validate frontmatter consistency
         entry: python3 scripts/validate_frontmatter.py
         language: system
         pass_filenames: false
-        always_run: true
+        files: ^docs/
 
       - id: mcp-tests
         name: MCP server tests
-        entry: bash -c 'cd mcp_server && source .venv/bin/activate && python -m pytest tests/ -q --tb=short'
+        entry: bash -c 'cd mcp_server && [ -d .venv ] && source .venv/bin/activate && python -m pytest tests/ -q --tb=short'
         language: system
         pass_filenames: false
         files: ^mcp_server/

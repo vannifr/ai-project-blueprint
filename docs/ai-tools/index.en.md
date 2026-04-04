@@ -2,6 +2,10 @@
 versie: '1.0'
 type: index
 layer: 3
+answers:
+  - What is assistant mcp?
+  - How does assistant mcp work?
+  - When should I use assistant mcp?
 ---
 
 # AI Assistant & MCP

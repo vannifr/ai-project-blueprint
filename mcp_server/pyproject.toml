@@ -5,6 +5,9 @@ description = "MCP server exposing AI Project Blueprint guidance, templates, and
 requires-python = ">=3.11"
 dependencies = ["mcp[cli]>=1.2.0"]
 
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+
 [project.scripts]
 blueprint-mcp = "blueprint_mcp.server:main"
 
