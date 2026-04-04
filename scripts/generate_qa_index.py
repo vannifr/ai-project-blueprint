@@ -13,7 +13,6 @@ Usage:
 
 import argparse
 import re
-import sys
 from datetime import date
 from pathlib import Path
 
@@ -83,7 +82,7 @@ def parse_frontmatter(text: str) -> dict:
 def extract_title(text: str) -> str:
     """Extract first H1 heading."""
     m = RE_FRONTMATTER.match(text)
-    body = text[m.end():] if m else text
+    body = text[m.end() :] if m else text
     h1 = RE_H1.search(body)
     return h1.group(1).strip() if h1 else ""
 
@@ -92,8 +91,34 @@ def yaml_escape(s: str) -> str:
     """Escape a string for YAML output."""
     if not s:
         return '""'
-    if any(c in s for c in (':', '#', '"', "'", '\n', '{', '}', '[', ']', ',', '&', '*', '?', '|', '-', '<', '>', '=', '!', '%', '@', '`')):
-        return '"' + s.replace('\\', '\\\\').replace('"', '\\"') + '"'
+    if any(
+        c in s
+        for c in (
+            ":",
+            "#",
+            '"',
+            "'",
+            "\n",
+            "{",
+            "}",
+            "[",
+            "]",
+            ",",
+            "&",
+            "*",
+            "?",
+            "|",
+            "-",
+            "<",
+            ">",
+            "=",
+            "!",
+            "%",
+            "@",
+            "`",
+        )
+    ):
+        return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
     return s
 
 
@@ -114,8 +139,14 @@ def generate(lang: str, output_dir: Path):
                 continue
 
         # Skip generated files
-        if rel in ("llms.txt", "llms-full.txt", "llms-full-nl.txt",
-                    "llms-questions.txt", "qa-index.yaml", "robots.txt"):
+        if rel in (
+            "llms.txt",
+            "llms-full.txt",
+            "llms-full-nl.txt",
+            "llms-questions.txt",
+            "qa-index.yaml",
+            "robots.txt",
+        ):
             continue
 
         text = md_path.read_text(encoding="utf-8")
@@ -139,21 +170,23 @@ def generate(lang: str, output_dir: Path):
 
         total_questions += len(answers)
 
-        pages.append({
-            "path": rel,
-            "title": title,
-            "summary": summary,
-            "type": doc_type,
-            "audience": audience,
-            "phase": phase,
-            "tags": tags,
-            "answers": answers,
-        })
+        pages.append(
+            {
+                "path": rel,
+                "title": title,
+                "summary": summary,
+                "type": doc_type,
+                "audience": audience,
+                "phase": phase,
+                "tags": tags,
+                "answers": answers,
+            }
+        )
 
     # ── Generate qa-index.yaml ────────────────────────────────────────────
     yaml_lines = [
         f"# AI Project Blueprint — Question-Answer Index ({lang.upper()})",
-        f"# Auto-generated from frontmatter. Do not edit manually.",
+        "# Auto-generated from frontmatter. Do not edit manually.",
         f"# Generated: {date.today().isoformat()}",
         f"# Pages: {len(pages)}, Questions: {total_questions}",
         "",

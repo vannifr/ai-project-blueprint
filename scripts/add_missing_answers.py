@@ -33,7 +33,10 @@ from pathlib import Path
 _ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(_ROOT / "mcp_server" / "src"))
 
-from blueprint_mcp.missing_answers import find_missing_answers, generate_candidate_answers
+from blueprint_mcp.missing_answers import (  # noqa: E402
+    find_missing_answers,
+    generate_candidate_answers,
+)
 
 
 def _write_answers_to_file(md_file: Path, candidates: list[str]) -> bool:
@@ -75,7 +78,8 @@ def main() -> int:
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
-        "--dry-run", "-n",
+        "--dry-run",
+        "-n",
         action="store_true",
         help="Print what would be written without modifying files.",
     )
@@ -119,7 +123,7 @@ def main() -> int:
 
     missing = find_missing_answers(scan_root, only_missing=True)
     if args.limit:
-        missing = missing[:args.limit]
+        missing = missing[: args.limit]
 
     if not missing:
         print("No docs without 'answers:' found.")
@@ -139,13 +143,13 @@ def main() -> int:
         if args.write:
             changed = _write_answers_to_file(path, candidates)
             if changed:
-                print(f"    → written")
+                print("    → written")
                 modified += 1
 
     if args.write:
         print(f"\nModified {modified} file(s).")
     else:
-        print(f"\n(dry run — use --write to apply changes)")
+        print("\n(dry run — use --write to apply changes)")
 
     return 0
 

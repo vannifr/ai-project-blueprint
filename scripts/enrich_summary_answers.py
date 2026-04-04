@@ -14,19 +14,14 @@ Usage:
 
 import argparse
 import re
-import sys
 from pathlib import Path
 
 DOCS_ROOT = Path(__file__).resolve().parent.parent / "docs"
 
 RE_FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---\s*\n?", re.DOTALL)
 RE_H1 = re.compile(r"^#\s+(?:\d+\.\s+)?(.+)$", re.MULTILINE)
-RE_DOEL_BLOCK = re.compile(
-    r'!!! abstract "Doel"\s*\n((?:\s{4}.+\n?)+)', re.MULTILINE
-)
-RE_PURPOSE_BLOCK = re.compile(
-    r'!!! abstract "Purpose"\s*\n((?:\s{4}.+\n?)+)', re.MULTILINE
-)
+RE_DOEL_BLOCK = re.compile(r'!!! abstract "Doel"\s*\n((?:\s{4}.+\n?)+)', re.MULTILINE)
+RE_PURPOSE_BLOCK = re.compile(r'!!! abstract "Purpose"\s*\n((?:\s{4}.+\n?)+)', re.MULTILINE)
 
 
 def parse_frontmatter(content: str) -> tuple[str, str, str]:
@@ -34,7 +29,7 @@ def parse_frontmatter(content: str) -> tuple[str, str, str]:
     m = RE_FRONTMATTER.match(content)
     if not m:
         return "", content, ""
-    return m.group(1), content[m.end():], m.group(0)
+    return m.group(1), content[m.end() :], m.group(0)
 
 
 def extract_abstract(body: str, lang: str = "nl") -> str:
@@ -69,15 +64,14 @@ def truncate_summary(text: str, max_len: int = 200) -> str:
 def generate_answers_nl(title: str, summary: str, file_type: str) -> list[str]:
     """Generate 1-3 question-form answers from title and summary."""
     answers = []
-    title_lower = title.lower()
 
     # Type-specific question patterns
     if file_type == "objectives":
-        answers.append(f"Wat is het doel van deze fase?")
+        answers.append("Wat is het doel van deze fase?")
     elif file_type == "activities":
-        answers.append(f"Welke activiteiten voer ik uit in deze fase?")
+        answers.append("Welke activiteiten voer ik uit in deze fase?")
     elif file_type == "deliverables":
-        answers.append(f"Wat lever ik op aan het einde van deze fase?")
+        answers.append("Wat lever ik op aan het einde van deze fase?")
     elif file_type == "template":
         answers.append(f"Hoe gebruik ik het {title} sjabloon?")
     elif file_type == "cheatsheet":

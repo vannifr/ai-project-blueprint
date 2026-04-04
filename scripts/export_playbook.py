@@ -7,10 +7,11 @@ Outputs:
   FULL_PLAYBOOK_EXPORT.md — Legacy export (Dutch, repo root)
 """
 
+import datetime as dt
 import os
 import re
-import datetime as dt
 import unicodedata
+
 import yaml
 
 REPO_ROOT = os.getcwd()
@@ -33,66 +34,81 @@ RE_BLANK_LINES = re.compile(r"\n{3,}")
 
 # Typographic → ASCII substitution table (for AI-safe plain text)
 TYPOGRAPHIC_REPLACEMENTS = [
-    ("\u2014", " -- "),   # em dash         —
-    ("\u2013", " - "),    # en dash         –
-    ("\u2012", " - "),    # figure dash     ‒
-    ("\u2011", "-"),      # non-breaking hyphen
-    ("\u2010", "-"),      # hyphen          ‐
-    ("\u2018", "'"),      # left single quote  '
-    ("\u2019", "'"),      # right single quote '
-    ("\u201a", "'"),      # single low-9 quote ‚
-    ("\u201c", '"'),      # left double quote  "
-    ("\u201d", '"'),      # right double quote "
-    ("\u201e", '"'),      # double low-9 quote „
-    ("\u2026", "..."),    # ellipsis        …
-    ("\u00b7", "*"),      # middle dot      ·
-    ("\u2022", "*"),      # bullet          •
-    ("\u2023", "*"),      # triangular bullet▸
-    ("\u2043", "-"),      # hyphen bullet   ⁃
-    ("\u2192", "->"),     # right arrow     →
-    ("\u2190", "<-"),     # left arrow      ←
-    ("\u2191", "^"),      # up arrow        ↑
-    ("\u2193", "v"),      # down arrow      ↓
-    ("\u2194", "<->"),    # left-right arrow↔
-    ("\u00d7", "x"),      # multiplication  ×
-    ("\u2248", "~="),     # approximately   ≈
-    ("\u2265", ">="),     # greater-or-equal≥
-    ("\u2264", "<="),     # less-or-equal   ≤
-    ("\u2260", "!="),     # not equal       ≠
-    ("\u00a0", " "),      # non-breaking space
-    ("\u2009", " "),      # thin space
-    ("\u200b", ""),       # zero-width space
-    ("\u00ac", "not "),   # logical not     ¬
-    ("\u2713", "v"),      # check mark      ✓
-    ("\u2717", "x"),      # ballot x        ✗
-    ("\u2610", "[ ]"),    # ballot box      ☐
-    ("\u2611", "[x]"),    # ballot box checked☑
-    ("\u2612", "[x]"),    # ballot box with x☒
-    ("\u2714", "v"),      # heavy check     ✔
-    ("\u2718", "x"),      # heavy ballot x  ✘
-    ("\u2620", "(!)"),    # skull           ☠
-    ("\u26a0", "(!)"),    # warning sign    ⚠
-    ("\u2139", "(i)"),    # information     ℹ
-    ("\u00ae", "(R)"),    # registered      ®
-    ("\u00a9", "(C)"),    # copyright       ©
-    ("\u2122", "(TM)"),   # trade mark      ™
-    ("\u20ac", "EUR"),    # euro sign       €
-    ("\u00bc", "1/4"),    # fraction 1/4    ¼
-    ("\u00bd", "1/2"),    # fraction 1/2    ½
-    ("\u00be", "3/4"),    # fraction 3/4    ¾
+    ("\u2014", " -- "),  # em dash         —
+    ("\u2013", " - "),  # en dash         –
+    ("\u2012", " - "),  # figure dash     ‒
+    ("\u2011", "-"),  # non-breaking hyphen
+    ("\u2010", "-"),  # hyphen          ‐
+    ("\u2018", "'"),  # left single quote  '
+    ("\u2019", "'"),  # right single quote '
+    ("\u201a", "'"),  # single low-9 quote ‚
+    ("\u201c", '"'),  # left double quote  "
+    ("\u201d", '"'),  # right double quote "
+    ("\u201e", '"'),  # double low-9 quote „
+    ("\u2026", "..."),  # ellipsis        …
+    ("\u00b7", "*"),  # middle dot      ·
+    ("\u2022", "*"),  # bullet          •
+    ("\u2023", "*"),  # triangular bullet▸
+    ("\u2043", "-"),  # hyphen bullet   ⁃
+    ("\u2192", "->"),  # right arrow     →
+    ("\u2190", "<-"),  # left arrow      ←
+    ("\u2191", "^"),  # up arrow        ↑
+    ("\u2193", "v"),  # down arrow      ↓
+    ("\u2194", "<->"),  # left-right arrow↔
+    ("\u00d7", "x"),  # multiplication  ×
+    ("\u2248", "~="),  # approximately   ≈
+    ("\u2265", ">="),  # greater-or-equal≥
+    ("\u2264", "<="),  # less-or-equal   ≤
+    ("\u2260", "!="),  # not equal       ≠
+    ("\u00a0", " "),  # non-breaking space
+    ("\u2009", " "),  # thin space
+    ("\u200b", ""),  # zero-width space
+    ("\u00ac", "not "),  # logical not     ¬
+    ("\u2713", "v"),  # check mark      ✓
+    ("\u2717", "x"),  # ballot x        ✗
+    ("\u2610", "[ ]"),  # ballot box      ☐
+    ("\u2611", "[x]"),  # ballot box checked☑
+    ("\u2612", "[x]"),  # ballot box with x☒
+    ("\u2714", "v"),  # heavy check     ✔
+    ("\u2718", "x"),  # heavy ballot x  ✘
+    ("\u2620", "(!)"),  # skull           ☠
+    ("\u26a0", "(!)"),  # warning sign    ⚠
+    ("\u2139", "(i)"),  # information     ℹ
+    ("\u00ae", "(R)"),  # registered      ®
+    ("\u00a9", "(C)"),  # copyright       ©
+    ("\u2122", "(TM)"),  # trade mark      ™
+    ("\u20ac", "EUR"),  # euro sign       €
+    ("\u00bc", "1/4"),  # fraction 1/4    ¼
+    ("\u00bd", "1/2"),  # fraction 1/2    ½
+    ("\u00be", "3/4"),  # fraction 3/4    ¾
     # Box-drawing characters → ASCII
-    ("\u2500", "-"),  ("\u2501", "-"),  ("\u2502", "|"),  ("\u2503", "|"),
-    ("\u250c", "+"),  ("\u2510", "+"),  ("\u2514", "+"),  ("\u2518", "+"),
-    ("\u251c", "+"),  ("\u2524", "+"),  ("\u252c", "+"),  ("\u2534", "+"),
-    ("\u253c", "+"),  ("\u2550", "="),  ("\u2551", "|"),  ("\u2554", "+"),
-    ("\u2557", "+"),  ("\u255a", "+"),  ("\u255d", "+"),  ("\u256c", "+"),
+    ("\u2500", "-"),
+    ("\u2501", "-"),
+    ("\u2502", "|"),
+    ("\u2503", "|"),
+    ("\u250c", "+"),
+    ("\u2510", "+"),
+    ("\u2514", "+"),
+    ("\u2518", "+"),
+    ("\u251c", "+"),
+    ("\u2524", "+"),
+    ("\u252c", "+"),
+    ("\u2534", "+"),
+    ("\u253c", "+"),
+    ("\u2550", "="),
+    ("\u2551", "|"),
+    ("\u2554", "+"),
+    ("\u2557", "+"),
+    ("\u255a", "+"),
+    ("\u255d", "+"),
+    ("\u256c", "+"),
 ]
 # Emoji and other non-BMP symbols (codepoints > U+FFFF are almost exclusively emoji/symbols)
 RE_EMOJI = re.compile(
-    "[\U0001F000-\U0001FFFF"   # Misc symbols, emoji, transport, etc.
-    "\U00002702-\U000027B0"    # Dingbats
-    "\U0000FE00-\U0000FE0F"    # Variation selectors (emoji modifiers)
-    "\U0001F1E0-\U0001F1FF"    # Regional indicator symbols (flags)
+    "[\U0001f000-\U0001ffff"  # Misc symbols, emoji, transport, etc.
+    "\U00002702-\U000027b0"  # Dingbats
+    "\U0000fe00-\U0000fe0f"  # Variation selectors (emoji modifiers)
+    "\U0001f1e0-\U0001f1ff"  # Regional indicator symbols (flags)
     "]+",
     flags=re.UNICODE,
 )
@@ -118,7 +134,7 @@ def get_nav_files(nav):
         if isinstance(item, str):
             files.append(item)
         elif isinstance(item, dict):
-            for key, value in item.items():
+            for _, value in item.items():
                 if isinstance(value, str):
                     files.append(value)
                 elif isinstance(value, list):
@@ -169,7 +185,7 @@ def export(lang, nav_files, output_path):
     parts = [
         f"# {site_name} — Full Export",
         f"Source: {url}",
-        f"Generated: {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}",
+        f"Generated: {dt.datetime.now(dt.UTC).strftime('%Y-%m-%dT%H:%M:%SZ')}",
         f"Language: {lang}",
         "License: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/",
         "",
@@ -184,7 +200,7 @@ def export(lang, nav_files, output_path):
             print(f"  SKIP (not found): {nav_path}")
             continue
 
-        with open(abs_path, "r", encoding="utf-8") as f:
+        with open(abs_path, encoding="utf-8") as f:
             raw = f.read()
 
         content = clean_content(raw)
@@ -222,7 +238,7 @@ def export_legacy(nav_files):
             abs_path = os.path.join(DOCS_DIR, nav_path)
             if not os.path.exists(abs_path):
                 continue
-            with open(abs_path, "r", encoding="utf-8") as f:
+            with open(abs_path, encoding="utf-8") as f:
                 raw = f.read()
             content = RE_FRONTMATTER.sub("", raw)
             stem = os.path.splitext(os.path.basename(abs_path))[0].replace("-", " ").title()
@@ -233,7 +249,7 @@ def export_legacy(nav_files):
 
 
 def main():
-    with open(MKDOCS_YAML, "r", encoding="utf-8") as f:
+    with open(MKDOCS_YAML, encoding="utf-8") as f:
         config = yaml.load(f, Loader=CustomLoader)
 
     nav_files = get_nav_files(config.get("nav", []))

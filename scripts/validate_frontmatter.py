@@ -17,7 +17,6 @@ Usage:
 """
 
 import argparse
-import re
 import sys
 from pathlib import Path
 
@@ -25,9 +24,23 @@ DOCS_ROOT = Path(__file__).resolve().parent.parent / "docs"
 
 # ─── Valid values ─────────────────────────────────────────────────────────────
 VALID_TYPES = {
-    "objectives", "activities", "deliverables", "template", "cheatsheet",
-    "index", "strategic", "compliance", "technical", "foundation",
-    "guide", "playbook", "assessment", "reference", "meta", "faq", "pattern",
+    "objectives",
+    "activities",
+    "deliverables",
+    "template",
+    "cheatsheet",
+    "index",
+    "strategic",
+    "compliance",
+    "technical",
+    "foundation",
+    "guide",
+    "playbook",
+    "assessment",
+    "reference",
+    "meta",
+    "faq",
+    "pattern",
 }
 
 VALID_LAYERS = {1, 2, 3}
@@ -35,34 +48,68 @@ VALID_LAYERS = {1, 2, 3}
 VALID_PHASES = {1, 2, 3, 4, 5}
 
 VALID_ROLES = {
-    "AI Product Manager", "Data Scientist", "Guardian",
-    "Tech Lead", "Business Sponsor",
+    "AI Product Manager",
+    "Data Scientist",
+    "Guardian",
+    "Tech Lead",
+    "Business Sponsor",
 }
 
 VALID_TAGS = {
-    "risk", "gate-review", "eu-ai-act", "governance", "ethics",
-    "monitoring", "mlops", "rag", "prompt-engineering", "security",
-    "data", "validation", "agile", "cost", "vendor", "onboarding",
-    "stakeholder", "traceability", "template", "quick-reference", "playbook",
+    "risk",
+    "gate-review",
+    "eu-ai-act",
+    "governance",
+    "ethics",
+    "monitoring",
+    "mlops",
+    "rag",
+    "prompt-engineering",
+    "security",
+    "data",
+    "validation",
+    "agile",
+    "cost",
+    "vendor",
+    "onboarding",
+    "stakeholder",
+    "traceability",
+    "template",
+    "quick-reference",
+    "playbook",
 }
 
 # ─── Layer mapping (must match enrich_frontmatter.py) ─────────────────────────
 DIR_LAYER = {
-    "00-navigator": 1, "00-explorer-kit": 2, "00-strategisch-kader": 1,
-    "01-ai-native-fundamenten": 1, "02-fase-ontdekking": 2,
-    "03-fase-validatie": 2, "04-fase-ontwikkeling": 2,
-    "05-fase-levering": 2, "06-fase-monitoring": 2,
-    "07-compliance-hub": 3, "08-technische-standaarden": 3,
-    "08-rollen-en-verantwoordelijkheden": 1, "09-sjablonen": 3,
-    "10-doorlopende-verbetering": 2, "11-project-afsluiting": 2,
-    "12-90-dagen-roadmap": 2, "13-organisatieprofielen": 1,
-    "14-drie-tracks": 1, "15-accelerators": 2,
-    "16-bronnen": 3, "17-bijlagen": 3, "termenlijst": 3,
+    "00-navigator": 1,
+    "00-explorer-kit": 2,
+    "00-strategisch-kader": 1,
+    "01-ai-native-fundamenten": 1,
+    "02-fase-ontdekking": 2,
+    "03-fase-validatie": 2,
+    "04-fase-ontwikkeling": 2,
+    "05-fase-levering": 2,
+    "06-fase-monitoring": 2,
+    "07-compliance-hub": 3,
+    "08-technische-standaarden": 3,
+    "08-rollen-en-verantwoordelijkheden": 1,
+    "09-sjablonen": 3,
+    "10-doorlopende-verbetering": 2,
+    "11-project-afsluiting": 2,
+    "12-90-dagen-roadmap": 2,
+    "13-organisatieprofielen": 1,
+    "14-drie-tracks": 1,
+    "15-accelerators": 2,
+    "16-bronnen": 3,
+    "17-bijlagen": 3,
+    "termenlijst": 3,
 }
 
 DIR_PHASE = {
-    "02-fase-ontdekking": 1, "03-fase-validatie": 2,
-    "04-fase-ontwikkeling": 3, "05-fase-levering": 4,
+    "02-fase-ontdekking": 1,
+    "03-fase-validatie": 2,
+    "04-fase-ontwikkeling": 3,
+    "05-fase-levering": 4,
     "06-fase-monitoring": 5,
 }
 
@@ -164,7 +211,10 @@ def validate_file(filepath: Path, result: ValidationResult, verbose: bool = Fals
     if "layer" in fm and top_dir in DIR_LAYER:
         expected_layer = DIR_LAYER[top_dir]
         if fm["layer"] != expected_layer:
-            result.error(rel_path, f"layer {fm['layer']} doesn't match directory expectation {expected_layer}")
+            result.error(
+                rel_path,
+                f"layer {fm['layer']} doesn't match directory expectation {expected_layer}",
+            )
 
     # 5. Phase validation
     if "phase" in fm:
@@ -180,7 +230,9 @@ def validate_file(filepath: Path, result: ValidationResult, verbose: bool = Fals
         if top_dir in DIR_PHASE and isinstance(phases, list):
             expected_phase = DIR_PHASE[top_dir]
             if expected_phase not in phases:
-                result.error(rel_path, f"file in {top_dir} but phase {expected_phase} not in {phases}")
+                result.error(
+                    rel_path, f"file in {top_dir} but phase {expected_phase} not in {phases}"
+                )
 
     # 6. Roles validation
     if "roles" in fm:
@@ -236,9 +288,11 @@ def validate_file(filepath: Path, result: ValidationResult, verbose: bool = Fals
     ):
         # Check raw content for 'sources:' — the simple parser won't handle nested blocks
         if "sources:" not in content:
-            result.warn(rel_path,
-                        f"type '{doc_type}' with regulatory tags should have a 'sources:' block "
-                        f"(run: python scripts/check_sources.py)")
+            result.warn(
+                rel_path,
+                f"type '{doc_type}' with regulatory tags should have a 'sources:' block "
+                f"(run: python scripts/check_sources.py)",
+            )
 
 
 def main():
@@ -255,7 +309,7 @@ def main():
     # Report
     total = len(all_files)
     print(f"\n{'=' * 60}")
-    print(f"  Frontmatter Validation Report")
+    print("  Frontmatter Validation Report")
     print(f"{'=' * 60}")
     print(f"  Files scanned:   {total}")
     print(f"  Errors:          {len(result.errors)}")

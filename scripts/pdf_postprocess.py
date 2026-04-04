@@ -11,17 +11,16 @@ Standaard site_dir = "site". Het script:
   4. Voegt PDF-bookmarks (outlines) toe voor alle H1/H2 koppen
 """
 
+import io
 import os
 import re
-import io
 import sys
 
 from pypdf import PdfReader, PdfWriter
+from reportlab.lib.colors import Color
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.pdfgen import canvas
-from reportlab.lib.colors import Color
-
 
 # ---------------------------------------------------------------------------
 # Configuratie
@@ -42,7 +41,7 @@ _pdf_output_env = os.environ.get("MKDOCS_PDF_OUTPUT", "")
 PDF_RELPATH = _pdf_output_env if _pdf_output_env else f"pdf/ai-project-blauwdruk.{LANG}.pdf"
 
 # Kleuren
-CLR_TITLE = Color(0x1F / 255, 0x2A / 255, 0x44 / 255)   # #1F2A44
+CLR_TITLE = Color(0x1F / 255, 0x2A / 255, 0x44 / 255)  # #1F2A44
 CLR_H1 = Color(0x1F / 255, 0x2A / 255, 0x44 / 255)
 CLR_H2 = Color(0x33 / 255, 0x33 / 255, 0x33 / 255)
 CLR_DOTS = Color(0xBD / 255, 0xC3 / 255, 0xC7 / 255)
@@ -59,14 +58,15 @@ FONT_NORMAL = "Helvetica"
 
 # TOC layout (eenheden in punten; 1pt = 1 in reportlab)
 H2_INDENT = 15
-LINE_H1 = 12 * 1.3    # 15.6pt
-LINE_H2 = 11 * 1.3    # 14.3pt
-EXTRA_H1 = 4           # extra ruimte boven H1
+LINE_H1 = 12 * 1.3  # 15.6pt
+LINE_H2 = 11 * 1.3  # 14.3pt
+EXTRA_H1 = 4  # extra ruimte boven H1
 
 
 # ---------------------------------------------------------------------------
 # Stap 1: Koppen extraheren uit de PDF
 # ---------------------------------------------------------------------------
+
 
 def extract_headings(pdf_path):
     """Extraheer H1/H2 koppen met paginanummers uit de PDF.
@@ -88,7 +88,7 @@ def extract_headings(pdf_path):
 
     for page_idx, page in enumerate(reader.pages):
         text = page.extract_text() or ""
-        lines = [l.strip() for l in text.split("\n") if l.strip()]
+        lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
         if not lines:
             continue
 
@@ -105,9 +105,7 @@ def extract_headings(pdf_path):
 
         # Patroon 2: running header — "AI Project Blauwdruk N. Titel" (¶ optioneel,
         # wordt verborgen door CSS in nieuwere builds)
-        m2 = re.match(
-            r"^AI Project Blauwdruk\s+(\d{1,3})\.\s+(.+?)(?:\s*¶)?\s*$", first_line
-        )
+        m2 = re.match(r"^AI Project Blauwdruk\s+(\d{1,3})\.\s+(.+?)(?:\s*¶)?\s*$", first_line)
         if m2:
             prefix = m2.group(1)
             title = m2.group(2).strip()
@@ -124,10 +122,20 @@ def extract_headings(pdf_path):
         # Voor het geval de H1 niet de eerste regel is (bijv. chapter 1
         # waar een running header boven de H1 staat)
         for line in lines[1:6]:  # kijk in eerste 6 regels
-            if any(skip in line for skip in
-                   ["AI Project Blauwdruk", "CC BY-NC-SA", "Vertrouwelijk",
-                    "Confidential", "Confidentiel", "Vertraulich",
-                    "Versie 2026", "Version 2026", "\u00b6"]):
+            if any(
+                skip in line
+                for skip in [
+                    "AI Project Blauwdruk",
+                    "CC BY-NC-SA",
+                    "Vertrouwelijk",
+                    "Confidential",
+                    "Confidentiel",
+                    "Vertraulich",
+                    "Versie 2026",
+                    "Version 2026",
+                    "\u00b6",
+                ]
+            ):
                 continue
             m3 = re.match(r"^(\d{1,3})\.\s+([A-Z].{2,})$", line)
             if m3:
@@ -147,9 +155,17 @@ def extract_headings(pdf_path):
             break
 
     # --- H2: extraheer uit content ---
-    content_skip = ["AI Project Blauwdruk", "CC BY-NC-SA", "Vertrouwelijk",
-                    "Confidential", "Confidentiel", "Vertraulich",
-                    "Versie 2026", "Version 2026", "\u00b6"]
+    content_skip = [
+        "AI Project Blauwdruk",
+        "CC BY-NC-SA",
+        "Vertrouwelijk",
+        "Confidential",
+        "Confidentiel",
+        "Vertraulich",
+        "Versie 2026",
+        "Version 2026",
+        "\u00b6",
+    ]
 
     h2_list = []
     h2_seen = set()
@@ -195,6 +211,7 @@ def _num_sort_key(prefix):
 # ---------------------------------------------------------------------------
 # Stap 2: TOC-pagina's genereren
 # ---------------------------------------------------------------------------
+
 
 def count_toc_pages(headings):
     """Bereken hoeveel pagina's de TOC nodig heeft."""
@@ -313,6 +330,7 @@ def generate_toc_pdf(headings, toc_page_count):
 # Stap 3: PDF samenvoegen + bookmarks
 # ---------------------------------------------------------------------------
 
+
 def postprocess(pdf_path):
     """Voeg TOC en bookmarks toe aan de geaggregeerde PDF."""
     print(f"[pdf-postprocess] Openen: {pdf_path}")
@@ -358,8 +376,10 @@ def postprocess(pdf_path):
         writer.add_page(original.pages[i])
 
     total_pages = len(writer.pages)
-    print(f"[pdf-postprocess] Nieuwe PDF: {total_pages} pagina's "
-          f"(was {len(original.pages)}, +{actual_toc_pages} TOC)")
+    print(
+        f"[pdf-postprocess] Nieuwe PDF: {total_pages} pagina's "
+        f"(was {len(original.pages)}, +{actual_toc_pages} TOC)"
+    )
 
     # 4. Bookmarks toevoegen
     # Bookmark voor de inhoudsopgave

@@ -12,8 +12,8 @@ Run before `mkdocs build` when MKDOCS_BUILD_I18N=true:
   python3 scripts/patch_i18n.py
 """
 
-import site
 import os
+import site
 import sys
 
 PATCH_MARKER = "_multi_build_done"

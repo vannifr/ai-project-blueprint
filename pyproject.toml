@@ -1,2 +1,28 @@
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+  "E",   # pycodestyle errors
+  "F",   # pyflakes
+  "I",   # isort
+  "B",   # flake8-bugbear
+  "UP",  # pyupgrade
+  "C4",  # flake8-comprehensions
+  "SIM", # flake8-simplify
+]
+ignore = [
+  "E501",   # line too long
+  "B008",   # function calls in default args
+  "SIM108", # ternary instead of if-else
+  "B023",   # function definition does not bind loop variable (utility scripts)
+  "SIM102", # nested if — utility scripts
+  "SIM114", # combine if branches — utility scripts
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["blueprint_mcp"]

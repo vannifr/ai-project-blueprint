@@ -15,8 +15,6 @@ Usage:
 
 import argparse
 import csv
-import io
-import re
 import sys
 from pathlib import Path
 
@@ -76,6 +74,7 @@ TEMPLATE_PHASES = {
     "17-experiment-ticket": [1, 2],
     "18-modelgezondheid": [5],
 }
+
 
 # ─── Type detection rules ─────────────────────────────────────────────────────
 def detect_type(rel_path: str, filename: str) -> str:
@@ -183,8 +182,12 @@ def detect_type(rel_path: str, filename: str) -> str:
         return "guide"
 
     # Transformation modules
-    if parts[0] in ("12-90-dagen-roadmap", "13-organisatieprofielen",
-                     "14-drie-tracks", "15-accelerators"):
+    if parts[0] in (
+        "12-90-dagen-roadmap",
+        "13-organisatieprofielen",
+        "14-drie-tracks",
+        "15-accelerators",
+    ):
         if "beoordeling" in filename:
             return "assessment"
         return "strategic"
@@ -247,14 +250,44 @@ def generate_tags(rel_path: str, filename: str, file_type: str) -> list[str]:
 
 # ─── Role detection ───────────────────────────────────────────────────────────
 ROLE_KEYWORDS = {
-    "AI Product Manager": ["project-charter", "business-case", "doelstellingen",
-                           "activiteiten", "gate", "onboarding", "pm"],
-    "Data Scientist": ["data", "model", "drift", "golden-set", "validatie",
-                       "prompt-engineering", "rag"],
-    "Guardian": ["ethis", "guardian", "compliance", "eu-ai-act", "risico",
-                 "red-team", "safety", "rode-lijnen", "privacy"],
-    "Tech Lead": ["mlops", "architectuur", "pipeline", "test-framework",
-                  "cloud", "sdd", "technische"],
+    "AI Product Manager": [
+        "project-charter",
+        "business-case",
+        "doelstellingen",
+        "activiteiten",
+        "gate",
+        "onboarding",
+        "pm",
+    ],
+    "Data Scientist": [
+        "data",
+        "model",
+        "drift",
+        "golden-set",
+        "validatie",
+        "prompt-engineering",
+        "rag",
+    ],
+    "Guardian": [
+        "ethis",
+        "guardian",
+        "compliance",
+        "eu-ai-act",
+        "risico",
+        "red-team",
+        "safety",
+        "rode-lijnen",
+        "privacy",
+    ],
+    "Tech Lead": [
+        "mlops",
+        "architectuur",
+        "pipeline",
+        "test-framework",
+        "cloud",
+        "sdd",
+        "technische",
+    ],
     "Business Sponsor": ["executive", "business-case", "baten", "90-dagen"],
 }
 
@@ -321,7 +354,7 @@ def parse_frontmatter(content: str) -> tuple[dict, str]:
         return {}, content
 
     fm_text = content[3:end].strip()
-    body = content[end + 3:]
+    body = content[end + 3 :]
 
     # Simple YAML parsing (no external deps)
     fm = {}
@@ -512,12 +545,12 @@ def main():
     # Layer distribution
     layer_counts = {}
     for r in results:
-        l = r["layer"]
-        layer_counts[l] = layer_counts.get(l, 0) + 1
+        layer = r["layer"]
+        layer_counts[layer] = layer_counts.get(layer, 0) + 1
     print("  Layer distribution:")
-    for l in sorted(layer_counts):
-        label = {1: "Strategic", 2: "Operational", 3: "Toolkit"}[l]
-        print(f"    Layer {l} ({label:<12}) {layer_counts[l]:>3}")
+    for layer in sorted(layer_counts):
+        label = {1: "Strategic", 2: "Operational", 3: "Toolkit"}[layer]
+        print(f"    Layer {layer} ({label:<12}) {layer_counts[layer]:>3}")
     print()
 
     if dry_run:
@@ -527,8 +560,7 @@ def main():
         en_count = sum(
             1
             for r in results
-            if r["changed"]
-            and (DOCS_ROOT / r["file"]).with_suffix(".en.md").exists()
+            if r["changed"] and (DOCS_ROOT / r["file"]).with_suffix(".en.md").exists()
         )
         print(f"  EN files also updated:   {en_count}")
 
