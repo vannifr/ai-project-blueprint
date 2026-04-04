@@ -6,3 +6,4 @@ chatbot/.env
 chatbot/**/__pycache__/
 deploy/.env
 deploy/site/
+scripts/__pycache__/
