@@ -2,13 +2,18 @@
 get_guidance_for_profile (IMP4), select_template (IMP5)."""
 
 import json
-import pytest
 from pathlib import Path
 
-from blueprint_mcp.content_index import ContentIndex
-from blueprint_mcp.server import set_index
-from blueprint_mcp.response_utils import build_decision, wrap_response, format_response, DecisionStatus
+import pytest
 
+from blueprint_mcp.content_index import ContentIndex
+from blueprint_mcp.response_utils import (
+    DecisionStatus,
+    build_decision,
+    format_response,
+    wrap_response,
+)
+from blueprint_mcp.server import set_index
 
 DOCS_ROOT = Path(__file__).resolve().parent.parent.parent / "docs"
 
@@ -33,11 +38,16 @@ class TestFormatResponse:
     """format_response(markdown, decision, output_format) replaces wrap_response."""
 
     def _decision(self, **kwargs):
-        defaults = dict(tool="my_tool", status=DecisionStatus.OK,
-                        primary_action="Do it", data={})
+        defaults = {
+            "tool": "my_tool",
+            "status": DecisionStatus.OK,
+            "primary_action": "Do it",
+            "data": {},
+        }
         defaults.update(kwargs)
-        return build_decision(defaults["tool"], defaults["status"],
-                              defaults["primary_action"], defaults["data"])
+        return build_decision(
+            defaults["tool"], defaults["status"], defaults["primary_action"], defaults["data"]
+        )
 
     def test_markdown_mode_same_as_wrap_response(self):
         d = self._decision()
@@ -72,8 +82,9 @@ class TestFormatResponse:
             format_response("text", d, "xml")
 
     def test_json_mode_includes_all_decision_keys(self):
-        d = build_decision("check_gate_readiness", DecisionStatus.OK,
-                           "action", {"gate": 1}, "gate_review_report")
+        d = build_decision(
+            "check_gate_readiness", DecisionStatus.OK, "action", {"gate": 1}, "gate_review_report"
+        )
         result = format_response("text", d, "json")
         parsed = json.loads(result)
         assert set(parsed.keys()) == {"tool", "status", "primary_action", "data", "next_tool"}
@@ -84,36 +95,42 @@ class TestToolsAcceptOutputFormat:
 
     def test_get_phase_guidance_json_mode(self):
         from blueprint_mcp.server import get_phase_guidance
+
         result = get_phase_guidance(1, "objectives", output_format="json")
         parsed = json.loads(result)
         assert parsed["tool"] == "get_phase_guidance"
-        assert "```json" not in result   # no markdown wrapper
+        assert "```json" not in result  # no markdown wrapper
 
     def test_search_content_json_mode(self):
         from blueprint_mcp.server import search_content
+
         result = search_content("risk", output_format="json")
         parsed = json.loads(result)
         assert "result_count" in parsed["data"]
 
     def test_check_gate_readiness_json_mode(self):
         from blueprint_mcp.server import check_gate_readiness
+
         result = check_gate_readiness(1, ["charter"], output_format="json")
         parsed = json.loads(result)
         assert parsed["data"]["gate"] == 1
 
     def test_can_enter_phase_json_mode(self):
         from blueprint_mcp.server import can_enter_phase
+
         result = can_enter_phase(2, [1], output_format="json")
         parsed = json.loads(result)
         assert parsed["data"]["can_enter"] is True
 
     def test_markdown_mode_still_works(self):
         from blueprint_mcp.server import get_phase_guidance
+
         result = get_phase_guidance(1, "objectives", output_format="markdown")
         assert "```json" in result
 
     def test_default_is_markdown(self):
         from blueprint_mcp.server import get_phase_guidance
+
         result_default = get_phase_guidance(1, "objectives")
         result_md = get_phase_guidance(1, "objectives", output_format="markdown")
         assert result_default == result_md
@@ -125,6 +142,7 @@ class TestToolsAcceptOutputFormat:
 class TestEvidenceType:
     def test_evidence_type_constants_exist(self):
         from blueprint_mcp.evidence import EvidenceType
+
         assert EvidenceType.DOCUMENT == "document"
         assert EvidenceType.TEST_RESULT == "test_result"
         assert EvidenceType.REVIEW_SIGN_OFF == "review_sign_off"
@@ -132,6 +150,7 @@ class TestEvidenceType:
 
     def test_evidence_item_dataclass(self):
         from blueprint_mcp.evidence import EvidenceItem
+
         e = EvidenceItem(title="Project Charter", type="document", gate=1)
         assert e.title == "Project Charter"
         assert e.gate == 1
@@ -139,17 +158,20 @@ class TestEvidenceType:
 
     def test_evidence_item_with_quality_score(self):
         from blueprint_mcp.evidence import EvidenceItem
+
         e = EvidenceItem(title="Golden set", type="test_result", gate=2, quality_score=0.9)
         assert e.quality_score == 0.9
 
     def test_parse_evidence_list_strings(self):
         from blueprint_mcp.evidence import parse_evidence
+
         items = parse_evidence(["project charter", "risk scan"], gate=1)
         assert len(items) == 2
         assert all(i.gate == 1 for i in items)
 
     def test_parse_evidence_infers_type_from_keyword(self):
         from blueprint_mcp.evidence import parse_evidence
+
         items = parse_evidence(["test results", "sign-off"], gate=2)
         types = {i.type for i in items}
         assert "test_result" in types
@@ -157,11 +179,13 @@ class TestEvidenceType:
 
     def test_parse_evidence_defaults_to_document(self):
         from blueprint_mcp.evidence import parse_evidence
+
         items = parse_evidence(["project charter"], gate=1)
         assert items[0].type == "document"
 
     def test_evidence_summary_dict(self):
         from blueprint_mcp.evidence import EvidenceItem, evidence_summary
+
         items = [
             EvidenceItem("Charter", "document", 1),
             EvidenceItem("Test results", "test_result", 1),
@@ -172,6 +196,7 @@ class TestEvidenceType:
 
     def test_gate_review_intake_uses_evidence_schema(self):
         from blueprint_mcp.server import gate_review_intake
+
         result = gate_review_intake(1, ["project charter", "risk scan"])
         parsed = _extract_json(result)
         assert "evidence_summary" in parsed["data"]
@@ -179,6 +204,7 @@ class TestEvidenceType:
 
     def test_gate_review_report_uses_evidence_schema(self):
         from blueprint_mcp.server import gate_review_report
+
         result = gate_review_report(1, ["project charter"], [])
         parsed = _extract_json(result)
         assert "evidence_summary" in parsed["data"]
@@ -191,17 +217,20 @@ class TestEvidenceType:
 class TestGetGuidanceForProfile:
     def test_returns_non_empty_result(self):
         from blueprint_mcp.server import get_guidance_for_profile
+
         result = get_guidance_for_profile("A", "green", 1)
         assert len(result) > 100
 
     def test_decision_block_present(self):
         from blueprint_mcp.server import get_guidance_for_profile
+
         result = get_guidance_for_profile("A", "green", 1)
         parsed = _extract_json(result)
         assert parsed["tool"] == "get_guidance_for_profile"
 
     def test_decision_data_has_expected_keys(self):
         from blueprint_mcp.server import get_guidance_for_profile
+
         result = get_guidance_for_profile("B", "amber", 2)
         parsed = _extract_json(result)
         data = parsed["data"]
@@ -212,6 +241,7 @@ class TestGetGuidanceForProfile:
 
     def test_filters_by_project_type(self):
         from blueprint_mcp.server import get_guidance_for_profile
+
         result_a = get_guidance_for_profile("A", "green", 1)
         result_b = get_guidance_for_profile("B", "green", 1)
         # Both should return results but may differ
@@ -220,29 +250,34 @@ class TestGetGuidanceForProfile:
 
     def test_invalid_project_type_returns_error(self):
         from blueprint_mcp.server import get_guidance_for_profile
+
         result = get_guidance_for_profile("C", "green", 1)
         parsed = _extract_json(result)
         assert parsed["status"] == "error"
 
     def test_invalid_risk_level_returns_error(self):
         from blueprint_mcp.server import get_guidance_for_profile
+
         result = get_guidance_for_profile("A", "purple", 1)
         parsed = _extract_json(result)
         assert parsed["status"] == "error"
 
     def test_invalid_phase_returns_error(self):
         from blueprint_mcp.server import get_guidance_for_profile
+
         result = get_guidance_for_profile("A", "green", 9)
         parsed = _extract_json(result)
         assert parsed["status"] == "error"
 
     def test_optional_role_filter(self):
         from blueprint_mcp.server import get_guidance_for_profile
+
         result = get_guidance_for_profile("A", "green", 1, role="Guardian")
         assert len(result) > 50
 
     def test_json_mode(self):
         from blueprint_mcp.server import get_guidance_for_profile
+
         result = get_guidance_for_profile("A", "green", 1, output_format="json")
         parsed = json.loads(result)
         assert parsed["tool"] == "get_guidance_for_profile"
@@ -254,17 +289,20 @@ class TestGetGuidanceForProfile:
 class TestSelectTemplate:
     def test_returns_non_empty_result(self):
         from blueprint_mcp.server import select_template
+
         result = select_template("gate review")
         assert len(result) > 50
 
     def test_decision_block_present(self):
         from blueprint_mcp.server import select_template
+
         result = select_template("gate review")
         parsed = _extract_json(result)
         assert parsed["tool"] == "select_template"
 
     def test_decision_data_has_expected_keys(self):
         from blueprint_mcp.server import select_template
+
         result = select_template("project charter")
         parsed = _extract_json(result)
         data = parsed["data"]
@@ -273,28 +311,33 @@ class TestSelectTemplate:
 
     def test_finds_relevant_template(self):
         from blueprint_mcp.server import select_template
+
         result = select_template("project charter")
         assert "charter" in result.lower() or "project" in result.lower()
 
     def test_no_match_returns_not_found(self):
         from blueprint_mcp.server import select_template
+
         result = select_template("xyznonexistentgoal12345")
         parsed = _extract_json(result)
         assert parsed["status"] == "not_found"
 
     def test_phase_filter(self):
         from blueprint_mcp.server import select_template
+
         result = select_template("template", phase=1)
         parsed = _extract_json(result)
         assert parsed["status"] in ("ok", "not_found")
 
     def test_role_filter(self):
         from blueprint_mcp.server import select_template
+
         result = select_template("template", role="Guardian")
         assert len(result) > 50
 
     def test_json_mode(self):
         from blueprint_mcp.server import select_template
+
         result = select_template("gate review", output_format="json")
         parsed = json.loads(result)
         assert parsed["tool"] == "select_template"

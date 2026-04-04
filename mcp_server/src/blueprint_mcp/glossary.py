@@ -33,7 +33,7 @@ class GlossaryIndex:
     # ------------------------------------------------------------------
 
     @classmethod
-    def load(cls, docs_root: Path) -> "GlossaryIndex":
+    def load(cls, docs_root: Path) -> GlossaryIndex:
         """Load glossary terms from markdown files under *docs_root*.
 
         Searches for files named ``glossary*.md`` or files that contain
@@ -102,9 +102,7 @@ class GlossaryIndex:
         if not found:
             return text
 
-        definitions = "\n".join(
-            f"- **{term}**: {self._terms[term]}" for term in sorted(found)
-        )
+        definitions = "\n".join(f"- **{term}**: {self._terms[term]}" for term in sorted(found))
         return f"{text}\n\n**Definitions**\n\n{definitions}"
 
     # ------------------------------------------------------------------

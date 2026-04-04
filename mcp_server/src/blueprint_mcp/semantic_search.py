@@ -21,6 +21,7 @@ from dataclasses import dataclass
 
 try:
     import chromadb  # type: ignore
+
     _CHROMADB_AVAILABLE = True
 except ImportError:
     chromadb = None  # type: ignore
@@ -63,7 +64,7 @@ class SemanticIndex:
     def __init__(self, chroma_path: str, language: str = "en") -> None:
         self._chroma_path = chroma_path
         self._language = language
-        self._collection = None   # lazily initialised
+        self._collection = None  # lazily initialised
 
     # ------------------------------------------------------------------
     # Public API
@@ -116,7 +117,7 @@ class SemanticIndex:
         documents = response.get("documents", [[]])[0]
 
         results: list[SemanticResult] = []
-        for dist, meta, doc_text in zip(distances, metadatas, documents):
+        for dist, meta, doc_text in zip(distances, metadatas, documents, strict=False):
             results.append(
                 SemanticResult(
                     doc_path=meta.get("path", ""),

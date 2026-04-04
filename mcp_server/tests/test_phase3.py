@@ -9,13 +9,9 @@ Covers:
 from __future__ import annotations
 
 import json
-import os
-import tempfile
 from pathlib import Path
-from unittest.mock import patch, MagicMock
 
 import pytest
-
 
 # ── IMP8: SessionStore ────────────────────────────────────────────────────────
 
@@ -32,6 +28,7 @@ class TestSessionStoreCreation:
     @pytest.fixture
     def store(self, tmp_path):
         from blueprint_mcp.session_store import SessionStore
+
         return SessionStore(db_path=str(tmp_path / "sessions.db"))
 
     def test_create_session_returns_string_id(self, store):
@@ -60,6 +57,7 @@ class TestSessionStoreState:
     @pytest.fixture
     def store_and_sid(self, tmp_path):
         from blueprint_mcp.session_store import SessionStore
+
         store = SessionStore(db_path=str(tmp_path / "sessions.db"))
         sid = store.create_session(project_id="p1", project_type="NLP", language="nl")
         return store, sid
@@ -124,6 +122,7 @@ class TestSessionStorePersistence:
     def test_state_survives_store_restart(self, tmp_path):
         """A new SessionStore instance reads data written by a previous one."""
         from blueprint_mcp.session_store import SessionStore
+
         db = str(tmp_path / "sessions.db")
 
         store1 = SessionStore(db_path=db)
@@ -143,6 +142,7 @@ class TestListSessions:
     @pytest.fixture
     def store_with_sessions(self, tmp_path):
         from blueprint_mcp.session_store import SessionStore
+
         store = SessionStore(db_path=str(tmp_path / "sessions.db"))
         store.create_session(project_id="proj-a", project_type="NLP", language="nl")
         store.create_session(project_id="proj-b", project_type="CV", language="en")
@@ -164,6 +164,7 @@ class TestListSessions:
 
     def test_list_sessions_empty_when_no_sessions(self, tmp_path):
         from blueprint_mcp.session_store import SessionStore
+
         store = SessionStore(db_path=str(tmp_path / "empty.db"))
         assert store.list_sessions() == []
 
@@ -177,9 +178,12 @@ class TestListProjectsMCPTool:
         from blueprint_mcp.server import list_projects  # noqa: F401
 
     def test_list_projects_returns_string(self):
+        import os
+        import tempfile
+
         from blueprint_mcp.server import list_projects, set_session_store
         from blueprint_mcp.session_store import SessionStore
-        import tempfile, os
+
         with tempfile.TemporaryDirectory() as tmp:
             store = SessionStore(db_path=os.path.join(tmp, "s.db"))
             set_session_store(store)
@@ -187,9 +191,12 @@ class TestListProjectsMCPTool:
             assert isinstance(result, str)
 
     def test_list_projects_returns_decision_block(self):
+        import os
+        import tempfile
+
         from blueprint_mcp.server import list_projects, set_session_store
         from blueprint_mcp.session_store import SessionStore
-        import tempfile, os
+
         with tempfile.TemporaryDirectory() as tmp:
             store = SessionStore(db_path=os.path.join(tmp, "s.db"))
             set_session_store(store)
@@ -198,9 +205,12 @@ class TestListProjectsMCPTool:
             assert parsed["tool"] == "list_projects"
 
     def test_list_projects_json_mode(self):
+        import os
+        import tempfile
+
         from blueprint_mcp.server import list_projects, set_session_store
         from blueprint_mcp.session_store import SessionStore
-        import tempfile, os
+
         with tempfile.TemporaryDirectory() as tmp:
             store = SessionStore(db_path=os.path.join(tmp, "s.db"))
             set_session_store(store)
@@ -210,6 +220,7 @@ class TestListProjectsMCPTool:
 
     def test_list_projects_no_store_returns_empty(self):
         from blueprint_mcp.server import list_projects, set_session_store
+
         set_session_store(None)
         result = list_projects()
         parsed = self._extract_json(result)
@@ -227,6 +238,7 @@ class TestSessionMCPTools:
     def _inject_store(self, tmp_path):
         from blueprint_mcp.server import set_session_store
         from blueprint_mcp.session_store import SessionStore
+
         store = SessionStore(db_path=str(tmp_path / "sessions.db"))
         set_session_store(store)
         yield
@@ -237,6 +249,7 @@ class TestSessionMCPTools:
 
     def test_session_start_returns_session_id(self):
         from blueprint_mcp.server import session_start
+
         result = session_start(project_id="p1", project_type="NLP", language="nl")
         parsed = self._extract_json(result)
         assert "session_id" in parsed["data"]
@@ -244,6 +257,7 @@ class TestSessionMCPTools:
 
     def test_session_start_decision_status_ok(self):
         from blueprint_mcp.server import session_start
+
         result = session_start(project_id="p1", project_type="NLP", language="nl")
         parsed = self._extract_json(result)
         assert parsed["status"] == "ok"
@@ -252,7 +266,8 @@ class TestSessionMCPTools:
         from blueprint_mcp.server import session_get_state  # noqa: F401
 
     def test_session_get_state_returns_state(self):
-        from blueprint_mcp.server import session_start, session_get_state
+        from blueprint_mcp.server import session_get_state, session_start
+
         start_result = session_start(project_id="p1", project_type="NLP", language="nl")
         sid = self._extract_json(start_result)["data"]["session_id"]
         result = session_get_state(sid)
@@ -261,6 +276,7 @@ class TestSessionMCPTools:
 
     def test_session_get_state_unknown_returns_not_found(self):
         from blueprint_mcp.server import session_get_state
+
         result = session_get_state("nonexistent")
         parsed = self._extract_json(result)
         assert parsed["status"] == "not_found"
@@ -269,15 +285,19 @@ class TestSessionMCPTools:
         from blueprint_mcp.server import session_record_artifact  # noqa: F401
 
     def test_session_record_artifact_ok(self):
-        from blueprint_mcp.server import session_start, session_record_artifact
+        from blueprint_mcp.server import session_record_artifact, session_start
+
         start_result = session_start(project_id="p1", project_type="NLP", language="nl")
         sid = self._extract_json(start_result)["data"]["session_id"]
-        result = session_record_artifact(sid, artifact_type="document", artifact_path="docs/charter.md")
+        result = session_record_artifact(
+            sid, artifact_type="document", artifact_path="docs/charter.md"
+        )
         parsed = self._extract_json(result)
         assert parsed["status"] == "ok"
 
     def test_session_record_artifact_reflected_in_state(self):
-        from blueprint_mcp.server import session_start, session_record_artifact, session_get_state
+        from blueprint_mcp.server import session_get_state, session_record_artifact, session_start
+
         start_result = session_start(project_id="p1", project_type="NLP", language="nl")
         sid = self._extract_json(start_result)["data"]["session_id"]
         session_record_artifact(sid, artifact_type="document", artifact_path="docs/charter.md")
@@ -298,11 +318,13 @@ class TestGlossaryIndexFromDocs:
     @pytest.fixture
     def glossary(self):
         from blueprint_mcp.glossary import GlossaryIndex
+
         docs_root = Path(__file__).resolve().parent.parent.parent / "docs"
         return GlossaryIndex.load(docs_root)
 
     def test_load_returns_glossary_instance(self, glossary):
         from blueprint_mcp.glossary import GlossaryIndex
+
         assert isinstance(glossary, GlossaryIndex)
 
     def test_term_count_is_positive(self, glossary):
@@ -321,7 +343,10 @@ class TestGlossaryIndexManual:
     @pytest.fixture
     def glossary(self):
         from blueprint_mcp.glossary import GlossaryIndex
-        return GlossaryIndex(terms={"gate review": "A formal milestone review.", "risk scan": "Risk assessment."})
+
+        return GlossaryIndex(
+            terms={"gate review": "A formal milestone review.", "risk scan": "Risk assessment."}
+        )
 
     def test_lookup_exact_match(self, glossary):
         result = glossary.lookup("gate review")
@@ -377,12 +402,19 @@ class TestAnswerQuestionGlossaryIntegration:
 
     def test_set_glossary_index_accepts_none(self):
         from blueprint_mcp.server import set_glossary_index
+
         set_glossary_index(None)  # must not raise
 
     def test_answer_question_works_without_glossary(self):
         from pathlib import Path
+
         from blueprint_mcp.content_index import ContentIndex
-        from blueprint_mcp.server import set_index, answer_question, set_glossary_index, set_semantic_index
+        from blueprint_mcp.server import (
+            answer_question,
+            set_glossary_index,
+            set_index,
+            set_semantic_index,
+        )
 
         docs_root = Path(__file__).resolve().parent.parent.parent / "docs"
         idx = ContentIndex.load(docs_root, language="en")
@@ -397,9 +429,15 @@ class TestAnswerQuestionGlossaryIntegration:
 
     def test_answer_question_with_glossary_includes_glossary_flag(self):
         from pathlib import Path
+
         from blueprint_mcp.content_index import ContentIndex
-        from blueprint_mcp.server import set_index, answer_question, set_glossary_index, set_semantic_index
         from blueprint_mcp.glossary import GlossaryIndex
+        from blueprint_mcp.server import (
+            answer_question,
+            set_glossary_index,
+            set_index,
+            set_semantic_index,
+        )
 
         docs_root = Path(__file__).resolve().parent.parent.parent / "docs"
         idx = ContentIndex.load(docs_root, language="en")

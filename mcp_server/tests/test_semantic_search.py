@@ -10,7 +10,6 @@ import pytest
 
 from blueprint_mcp.semantic_search import SemanticIndex, SemanticResult
 
-
 # ── SemanticResult dataclass ──────────────────────────────────────────────────
 
 
@@ -77,7 +76,7 @@ class TestSemanticIndexMocked:
             mock_chroma.PersistentClient.return_value = client
             client.get_collection.return_value = collection
             idx = SemanticIndex("/fake/path", language="en")
-            idx._collection = collection   # inject directly
+            idx._collection = collection  # inject directly
         return idx
 
     def test_search_calls_collection_query(self):
@@ -89,7 +88,7 @@ class TestSemanticIndexMocked:
         idx = SemanticIndex.__new__(SemanticIndex)
         idx._collection = col
         idx._language = "en"
-        results = idx._query("test query", n_results=5)
+        idx._query("test query", n_results=5)
         col.query.assert_called_once()
         call_kwargs = col.query.call_args
         assert "query_texts" in call_kwargs.kwargs or call_kwargs.args
@@ -156,13 +155,14 @@ class TestAnswerQuestionSemanticIntegration:
     def test_answer_question_works_without_semantic_index(self):
         """With no semantic index, answer_question still returns keyword results."""
         from pathlib import Path
+
         from blueprint_mcp.content_index import ContentIndex
-        from blueprint_mcp.server import set_index, answer_question, set_semantic_index
+        from blueprint_mcp.server import answer_question, set_index, set_semantic_index
 
         docs_root = Path(__file__).resolve().parent.parent.parent / "docs"
         idx = ContentIndex.load(docs_root, language="en")
         set_index(idx)
-        set_semantic_index(None)   # no semantic index
+        set_semantic_index(None)  # no semantic index
 
         result = answer_question("How do I classify risk?")
         assert len(result) > 100
@@ -172,9 +172,10 @@ class TestAnswerQuestionSemanticIntegration:
     def test_answer_question_uses_semantic_results_when_available(self):
         """When a semantic index is injected, its results are merged in."""
         from pathlib import Path
+
         from blueprint_mcp.content_index import ContentIndex
-        from blueprint_mcp.server import set_index, answer_question, set_semantic_index
         from blueprint_mcp.semantic_search import SemanticIndex, SemanticResult
+        from blueprint_mcp.server import answer_question, set_index, set_semantic_index
 
         docs_root = Path(__file__).resolve().parent.parent.parent / "docs"
         idx = ContentIndex.load(docs_root, language="en")
@@ -204,4 +205,5 @@ class TestAnswerQuestionSemanticIntegration:
 
     def test_set_semantic_index_accepts_none(self):
         from blueprint_mcp.server import set_semantic_index
+
         set_semantic_index(None)  # must not raise

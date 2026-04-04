@@ -7,7 +7,7 @@ agents can reason about completeness and quality programmatically.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 
 class EvidenceType:

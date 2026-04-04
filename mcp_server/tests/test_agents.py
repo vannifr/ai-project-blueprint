@@ -17,8 +17,9 @@ Assumptions:
 - Risk categories: unacceptable, high, limited, minimal
 """
 
-import pytest
 from pathlib import Path
+
+import pytest
 
 from blueprint_mcp.content_index import ContentIndex
 from blueprint_mcp.server import set_index
@@ -35,13 +36,12 @@ def setup_index():
 
 
 from blueprint_mcp.server import (  # noqa: E402
+    compliance_checklist,
+    compliance_intake,
     gate_review_intake,
     gate_review_report,
     template_advisor,
-    compliance_intake,
-    compliance_checklist,
 )
-
 
 # ─── Gate Review Agent ────────────────────────────────────────────────────────
 
@@ -141,7 +141,11 @@ class TestGateReviewReport:
             evidence=["project charter"],
             gaps=["risk scan incomplete"],
         )
-        assert "guardian" in result.lower() or "review" in result.lower() or "decision" in result.lower()
+        assert (
+            "guardian" in result.lower()
+            or "review" in result.lower()
+            or "decision" in result.lower()
+        )
 
 
 # ─── Template Advisor ─────────────────────────────────────────────────────────
@@ -167,8 +171,7 @@ class TestTemplateAdvisor:
 
     def test_context_reflected_in_output(self):
         result = template_advisor(
-            "AI Product Manager", 1,
-            context="Fraud detection project, Type A, green risk"
+            "AI Product Manager", 1, context="Fraud detection project, Type A, green risk"
         )
         assert "fraud" in result.lower()
 
@@ -260,7 +263,11 @@ class TestComplianceChecklist:
             "Social scoring system",
             "unacceptable",
         )
-        assert "prohibited" in result.lower() or "blocked" in result.lower() or "stop" in result.lower()
+        assert (
+            "prohibited" in result.lower()
+            or "blocked" in result.lower()
+            or "stop" in result.lower()
+        )
 
 
 # ─── End-to-end workflow tests ────────────────────────────────────────────────

@@ -1,13 +1,12 @@
 """Tests for new workflow tools: can_enter_phase, get_workflow_status, validate_project_context."""
 
 import json
-import pytest
 
 from blueprint_mcp.server import (
+    PHASE_PREREQUISITES,
     can_enter_phase,
     get_workflow_status,
     validate_project_context,
-    PHASE_PREREQUISITES,
 )
 
 
@@ -82,7 +81,9 @@ class TestCanEnterPhase:
     def test_decision_block_has_required_keys(self):
         result = can_enter_phase(1, [])
         parsed = _extract_json(result)
-        assert {"can_enter", "phase", "missing_gates", "completed_gates"} <= set(parsed["data"].keys())
+        assert {"can_enter", "phase", "missing_gates", "completed_gates"} <= set(
+            parsed["data"].keys()
+        )
 
     def test_phase_prerequisites_constant_exported(self):
         """PHASE_PREREQUISITES must be importable for parametrization."""
@@ -159,14 +160,16 @@ class TestValidateProjectContext:
         assert "risk_level" in parsed["data"]["invalid_values"]
 
     def test_valid_full_context(self):
-        result = validate_project_context({
-            "description": "fraud detection model",
-            "project_type": "A",
-            "risk_level": "green",
-            "collaboration_mode": "2",
-            "phase": 1,
-            "gate": 1,
-        })
+        result = validate_project_context(
+            {
+                "description": "fraud detection model",
+                "project_type": "A",
+                "risk_level": "green",
+                "collaboration_mode": "2",
+                "phase": 1,
+                "gate": 1,
+            }
+        )
         parsed = _extract_json(result)
         assert parsed["data"]["is_valid"] is True
 

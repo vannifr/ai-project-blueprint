@@ -18,9 +18,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-
 try:
     import yaml  # type: ignore
+
     _YAML_AVAILABLE = True
 except ImportError:
     yaml = None  # type: ignore
@@ -49,8 +49,8 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
     if end == -1:
         return {}, text
 
-    yaml_block = text[len(_FENCE) + 1: end]
-    body = text[end + len(_FENCE) + 1:]
+    yaml_block = text[len(_FENCE) + 1 : end]
+    body = text[end + len(_FENCE) + 1 :]
 
     # Strip single leading newline from body
     if body.startswith("\n"):
@@ -141,6 +141,7 @@ def enrich_file(path: Path, updates: dict, overwrite: bool = True) -> bool:
 def _simple_parse(yaml_block: str) -> dict:
     """Minimal YAML parser for simple key: value and key: [list] lines."""
     import re
+
     result: dict = {}
     for line in yaml_block.splitlines():
         m = re.match(r"^(\w[\w_-]*):\s*(.*)", line)
@@ -150,9 +151,9 @@ def _simple_parse(yaml_block: str) -> dict:
         if raw.startswith("[") and raw.endswith("]"):
             items = [x.strip().strip("'\"") for x in raw[1:-1].split(",") if x.strip()]
             result[key] = items
-        elif raw.startswith("'") and raw.endswith("'"):
-            result[key] = raw[1:-1]
-        elif raw.startswith('"') and raw.endswith('"'):
+        elif (raw.startswith("'") and raw.endswith("'")) or (
+            raw.startswith('"') and raw.endswith('"')
+        ):
             result[key] = raw[1:-1]
         else:
             result[key] = raw

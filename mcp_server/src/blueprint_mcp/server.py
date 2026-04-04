@@ -28,15 +28,17 @@ from blueprint_mcp.confidence import score_result
 from blueprint_mcp.content_index import ContentIndex
 from blueprint_mcp.evidence import evidence_summary, parse_evidence
 from blueprint_mcp.glossary import GlossaryIndex
-from blueprint_mcp.response_utils import DecisionStatus, build_decision, format_response, wrap_response
+from blueprint_mcp.response_utils import DecisionStatus, build_decision, format_response
 from blueprint_mcp.semantic_search import SemanticIndex
 from blueprint_mcp.session_store import SessionStore
 from blueprint_mcp.template_engine import fill_placeholders, parse_placeholders
 
-DOCS_ROOT = Path(os.environ.get(
-    "BLUEPRINT_DOCS_PATH",
-    Path(__file__).resolve().parent.parent.parent.parent / "docs",
-))
+DOCS_ROOT = Path(
+    os.environ.get(
+        "BLUEPRINT_DOCS_PATH",
+        Path(__file__).resolve().parent.parent.parent.parent / "docs",
+    )
+)
 LANGUAGE = os.environ.get("BLUEPRINT_LANGUAGE", "en")
 CHROMA_PATH = os.environ.get(
     "BLUEPRINT_CHROMA_PATH",
@@ -175,9 +177,12 @@ def answer_question(question: str, output_format: str = "markdown") -> str:
     if not results:
         return format_response(
             f"No relevant pages found for: '{question}'",
-            build_decision("answer_question", DecisionStatus.NOT_FOUND,
-                           "Rephrase the question or use search_content with keywords.",
-                           {"result_count": 0, "top_match_path": None}),
+            build_decision(
+                "answer_question",
+                DecisionStatus.NOT_FOUND,
+                "Rephrase the question or use search_content with keywords.",
+                {"result_count": 0, "top_match_path": None},
+            ),
             output_format,
         )
 
@@ -188,7 +193,9 @@ def answer_question(question: str, output_format: str = "markdown") -> str:
     summary_line = f"**Summary:** {top.summary}\n\n" if top.summary else ""
     answers_line = ""
     if top.answers:
-        answers_line = "**Questions this page answers:**\n" + "\n".join(f"- {a}" for a in top.answers) + "\n\n"
+        answers_line = (
+            "**Questions this page answers:**\n" + "\n".join(f"- {a}" for a in top.answers) + "\n\n"
+        )
     sections.append(
         f"## Best match: {top.title}\n\n"
         f"_Source: `{top.path}`_\n\n"
@@ -214,10 +221,16 @@ def answer_question(question: str, output_format: str = "markdown") -> str:
     top_confidence = score_result(query=question, doc=top)
     return format_response(
         markdown,
-        build_decision("answer_question", DecisionStatus.OK,
-                       "Review the best match and additional results above.",
-                       {"result_count": len(results), "top_match_path": top.path,
-                        "top_confidence": top_confidence}),
+        build_decision(
+            "answer_question",
+            DecisionStatus.OK,
+            "Review the best match and additional results above.",
+            {
+                "result_count": len(results),
+                "top_match_path": top.path,
+                "top_confidence": top_confidence,
+            },
+        ),
         output_format,
     )
 
@@ -234,10 +247,9 @@ def get_template_for_context(role: str, phase: int, output_format: str = "markdo
     index = get_index()
 
     templates = [
-        d for d in index.docs
-        if d.type == "template"
-        and phase in d.phases
-        and (not d.roles or role in d.roles)
+        d
+        for d in index.docs
+        if d.type == "template" and phase in d.phases and (not d.roles or role in d.roles)
     ]
 
     if not templates:
@@ -247,13 +259,22 @@ def get_template_for_context(role: str, phase: int, output_format: str = "markdo
     if not templates:
         return format_response(
             f"No templates found for role '{role}' in phase {phase}.",
-            build_decision("get_template_for_context", DecisionStatus.NOT_FOUND,
-                           "Try a different phase or omit the role filter.",
-                           {"role": role, "phase": phase, "template_count": 0}),
+            build_decision(
+                "get_template_for_context",
+                DecisionStatus.NOT_FOUND,
+                "Try a different phase or omit the role filter.",
+                {"role": role, "phase": phase, "template_count": 0},
+            ),
             output_format,
         )
 
-    phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
+    phase_names = {
+        1: "Discovery",
+        2: "Validation",
+        3: "Development",
+        4: "Delivery",
+        5: "Monitoring",
+    }
     lines = [f"## Templates for {role} in Phase {phase} ({phase_names.get(phase, '')})\n"]
 
     for doc in templates:
@@ -262,9 +283,12 @@ def get_template_for_context(role: str, phase: int, output_format: str = "markdo
 
     return format_response(
         "\n".join(lines),
-        build_decision("get_template_for_context", DecisionStatus.OK,
-                       "Select a template and call get_template to retrieve full content.",
-                       {"role": role, "phase": phase, "template_count": len(templates)}),
+        build_decision(
+            "get_template_for_context",
+            DecisionStatus.OK,
+            "Select a template and call get_template to retrieve full content.",
+            {"role": role, "phase": phase, "template_count": len(templates)},
+        ),
         output_format,
     )
 
@@ -281,17 +305,23 @@ def get_phase_guidance(phase: int, aspect: str, output_format: str = "markdown")
     if phase not in range(1, 6):
         return format_response(
             f"Error: phase must be 1-5, got {phase}",
-            build_decision("get_phase_guidance", DecisionStatus.ERROR,
-                           "Correct the phase parameter (1–5).",
-                           {"phase": phase, "aspect": aspect}),
+            build_decision(
+                "get_phase_guidance",
+                DecisionStatus.ERROR,
+                "Correct the phase parameter (1–5).",
+                {"phase": phase, "aspect": aspect},
+            ),
             output_format,
         )
     if aspect not in ("objectives", "activities", "deliverables"):
         return format_response(
             "Error: aspect must be 'objectives', 'activities', or 'deliverables'",
-            build_decision("get_phase_guidance", DecisionStatus.ERROR,
-                           "Use one of: objectives, activities, deliverables.",
-                           {"phase": phase, "aspect": aspect}),
+            build_decision(
+                "get_phase_guidance",
+                DecisionStatus.ERROR,
+                "Use one of: objectives, activities, deliverables.",
+                {"phase": phase, "aspect": aspect},
+            ),
             output_format,
         )
 
@@ -300,18 +330,24 @@ def get_phase_guidance(phase: int, aspect: str, output_format: str = "markdown")
     if not docs:
         return format_response(
             f"No {aspect} found for phase {phase}.",
-            build_decision("get_phase_guidance", DecisionStatus.NOT_FOUND,
-                           "Try a different aspect or check that docs are loaded.",
-                           {"phase": phase, "aspect": aspect, "doc_count": 0}),
+            build_decision(
+                "get_phase_guidance",
+                DecisionStatus.NOT_FOUND,
+                "Try a different aspect or check that docs are loaded.",
+                {"phase": phase, "aspect": aspect, "doc_count": 0},
+            ),
             output_format,
         )
 
     markdown = "\n\n---\n\n".join(_format_doc_full(d) for d in docs)
     return format_response(
         markdown,
-        build_decision("get_phase_guidance", DecisionStatus.OK,
-                       "Review the phase guidance above.",
-                       {"phase": phase, "aspect": aspect, "doc_count": len(docs)}),
+        build_decision(
+            "get_phase_guidance",
+            DecisionStatus.OK,
+            "Review the phase guidance above.",
+            {"phase": phase, "aspect": aspect, "doc_count": len(docs)},
+        ),
         output_format,
     )
 
@@ -335,9 +371,12 @@ def get_template(name: str, output_format: str = "markdown") -> str:
         if name_lower in doc.path.lower():
             return format_response(
                 _format_doc_full(doc),
-                build_decision("get_template", DecisionStatus.OK,
-                               "Fill in the [placeholder] fields in the template above.",
-                               {"template_name": name, "matched_path": doc.path}),
+                build_decision(
+                    "get_template",
+                    DecisionStatus.OK,
+                    "Fill in the [placeholder] fields in the template above.",
+                    {"template_name": name, "matched_path": doc.path},
+                ),
                 output_format,
             )
 
@@ -346,9 +385,12 @@ def get_template(name: str, output_format: str = "markdown") -> str:
         if name_lower in doc.title.lower() or name_lower in doc.body[:500].lower():
             return format_response(
                 _format_doc_full(doc),
-                build_decision("get_template", DecisionStatus.OK,
-                               "Fill in the [placeholder] fields in the template above.",
-                               {"template_name": name, "matched_path": doc.path}),
+                build_decision(
+                    "get_template",
+                    DecisionStatus.OK,
+                    "Fill in the [placeholder] fields in the template above.",
+                    {"template_name": name, "matched_path": doc.path},
+                ),
                 output_format,
             )
 
@@ -356,9 +398,12 @@ def get_template(name: str, output_format: str = "markdown") -> str:
     names = "\n".join(f"- `{d.path}`: {d.title}" for d in templates)
     return format_response(
         f"Template '{name}' not found. Available templates:\n\n{names}",
-        build_decision("get_template", DecisionStatus.NOT_FOUND,
-                       "Choose a template name from the list above and retry.",
-                       {"template_name": name, "available_count": len(templates)}),
+        build_decision(
+            "get_template",
+            DecisionStatus.NOT_FOUND,
+            "Choose a template name from the list above and retry.",
+            {"template_name": name, "available_count": len(templates)},
+        ),
         output_format,
     )
 
@@ -375,9 +420,12 @@ def check_gate_readiness(gate: int, evidence: list[str], output_format: str = "m
     if gate not in range(1, 6):
         return format_response(
             f"Error: gate must be 1-5, got {gate}",
-            build_decision("check_gate_readiness", DecisionStatus.ERROR,
-                           "Correct the gate parameter (1–5).",
-                           {"gate": gate}),
+            build_decision(
+                "check_gate_readiness",
+                DecisionStatus.ERROR,
+                "Correct the gate parameter (1–5).",
+                {"gate": gate},
+            ),
             output_format,
         )
 
@@ -385,15 +433,20 @@ def check_gate_readiness(gate: int, evidence: list[str], output_format: str = "m
 
     # Find gate review checklist
     checklist_docs = [
-        d for d in index.docs
-        if "gate" in d.path.lower() and ("checklist" in d.path.lower() or "gate-review" in d.path.lower())
+        d
+        for d in index.docs
+        if "gate" in d.path.lower()
+        and ("checklist" in d.path.lower() or "gate-review" in d.path.lower())
     ]
     if not checklist_docs:
         return format_response(
             "Gate review checklist not found in the index.",
-            build_decision("check_gate_readiness", DecisionStatus.NOT_FOUND,
-                           "Reload the content index and retry.",
-                           {"gate": gate}),
+            build_decision(
+                "check_gate_readiness",
+                DecisionStatus.NOT_FOUND,
+                "Reload the content index and retry.",
+                {"gate": gate},
+            ),
             output_format,
         )
 
@@ -411,9 +464,12 @@ def check_gate_readiness(gate: int, evidence: list[str], output_format: str = "m
     )
     return format_response(
         markdown,
-        build_decision("check_gate_readiness", DecisionStatus.OK,
-                       "Compare evidence against the checklist and identify gaps.",
-                       {"gate": gate, "evidence_count": len(evidence)}),
+        build_decision(
+            "check_gate_readiness",
+            DecisionStatus.OK,
+            "Compare evidence against the checklist and identify gaps.",
+            {"gate": gate, "evidence_count": len(evidence)},
+        ),
         output_format,
     )
 
@@ -440,8 +496,7 @@ def classify_risk(system_description: str, output_format: str = "markdown") -> s
 
     # EU AI Act overview
     euaiact_docs = [
-        d for d in index.docs
-        if "eu-ai-act" in d.path and d.type in ("compliance", "index")
+        d for d in index.docs if "eu-ai-act" in d.path and d.type in ("compliance", "index")
     ]
     if euaiact_docs:
         sections.append(_format_doc_full(euaiact_docs[0]))
@@ -449,9 +504,12 @@ def classify_risk(system_description: str, output_format: str = "markdown") -> s
     if not sections:
         return format_response(
             "Risk classification documents not found.",
-            build_decision("classify_risk", DecisionStatus.NOT_FOUND,
-                           "Reload the content index and retry.",
-                           {"description_excerpt": system_description[:100]}),
+            build_decision(
+                "classify_risk",
+                DecisionStatus.NOT_FOUND,
+                "Reload the content index and retry.",
+                {"description_excerpt": system_description[:100]},
+            ),
             output_format,
         )
 
@@ -462,16 +520,21 @@ def classify_risk(system_description: str, output_format: str = "markdown") -> s
     )
     return format_response(
         markdown,
-        build_decision("classify_risk", DecisionStatus.OK,
-                       "Apply the framework above to classify the system, then call project_setup_risk.",
-                       {"description_excerpt": system_description[:100]},
-                       next_tool="project_setup_risk"),
+        build_decision(
+            "classify_risk",
+            DecisionStatus.OK,
+            "Apply the framework above to classify the system, then call project_setup_risk.",
+            {"description_excerpt": system_description[:100]},
+            next_tool="project_setup_risk",
+        ),
         output_format,
     )
 
 
 @mcp.tool()
-def select_collaboration_mode(risk_level: str, autonomy_needed: str, output_format: str = "markdown") -> str:
+def select_collaboration_mode(
+    risk_level: str, autonomy_needed: str, output_format: str = "markdown"
+) -> str:
     """Get guidance on selecting the right Human-AI collaboration mode (HAS-H levels).
 
     Args:
@@ -486,9 +549,12 @@ def select_collaboration_mode(risk_level: str, autonomy_needed: str, output_form
     if not docs:
         return format_response(
             "Collaboration modes (HAS-H) document not found.",
-            build_decision("select_collaboration_mode", DecisionStatus.NOT_FOUND,
-                           "Reload the content index and retry.",
-                           {"risk_level": risk_level, "autonomy_needed": autonomy_needed}),
+            build_decision(
+                "select_collaboration_mode",
+                DecisionStatus.NOT_FOUND,
+                "Reload the content index and retry.",
+                {"risk_level": risk_level, "autonomy_needed": autonomy_needed},
+            ),
             output_format,
         )
 
@@ -501,9 +567,12 @@ def select_collaboration_mode(risk_level: str, autonomy_needed: str, output_form
     )
     return format_response(
         markdown,
-        build_decision("select_collaboration_mode", DecisionStatus.OK,
-                       "Select a mode number (1–5) based on the framework above.",
-                       {"risk_level": risk_level, "autonomy_needed": autonomy_needed}),
+        build_decision(
+            "select_collaboration_mode",
+            DecisionStatus.OK,
+            "Select a mode number (1–5) based on the framework above.",
+            {"risk_level": risk_level, "autonomy_needed": autonomy_needed},
+        ),
         output_format,
     )
 
@@ -522,9 +591,12 @@ def lookup_terminology(term: str, output_format: str = "markdown") -> str:
     if not glossary_docs:
         return format_response(
             "Glossary not found.",
-            build_decision("lookup_terminology", DecisionStatus.NOT_FOUND,
-                           "Reload the content index and retry.",
-                           {"term": term, "found": False}),
+            build_decision(
+                "lookup_terminology",
+                DecisionStatus.NOT_FOUND,
+                "Reload the content index and retry.",
+                {"term": term, "found": False},
+            ),
             output_format,
         )
 
@@ -548,21 +620,29 @@ def lookup_terminology(term: str, output_format: str = "markdown") -> str:
         markdown = f"## Glossary results for '{term}':\n\n" + "\n\n---\n\n".join(results)
         return format_response(
             markdown,
-            build_decision("lookup_terminology", DecisionStatus.OK,
-                           "Review the glossary definition above.",
-                           {"term": term, "found": True, "snippet_count": len(results)}),
+            build_decision(
+                "lookup_terminology",
+                DecisionStatus.OK,
+                "Review the glossary definition above.",
+                {"term": term, "found": True, "snippet_count": len(results)},
+            ),
             output_format,
         )
 
     if len(glossary.body) > 5000:
         markdown = f"Term '{term}' not found in glossary headings. Full glossary:\n\n{glossary.body[:5000]}..."
     else:
-        markdown = f"Term '{term}' not found in glossary headings. Full glossary:\n\n{glossary.body}"
+        markdown = (
+            f"Term '{term}' not found in glossary headings. Full glossary:\n\n{glossary.body}"
+        )
     return format_response(
         markdown,
-        build_decision("lookup_terminology", DecisionStatus.NOT_FOUND,
-                       "Try a different term or browse the full glossary.",
-                       {"term": term, "found": False}),
+        build_decision(
+            "lookup_terminology",
+            DecisionStatus.NOT_FOUND,
+            "Try a different term or browse the full glossary.",
+            {"term": term, "found": False},
+        ),
         output_format,
     )
 
@@ -582,9 +662,12 @@ def reload_content(output_format: str = "markdown") -> str:
     doc_count = len(_module_index.docs)
     return format_response(
         f"Reloaded {doc_count} documents.",
-        build_decision("reload_content", DecisionStatus.OK,
-                       "Content index refreshed. All tools now use the updated docs.",
-                       {"doc_count": doc_count}),
+        build_decision(
+            "reload_content",
+            DecisionStatus.OK,
+            "Content index refreshed. All tools now use the updated docs.",
+            {"doc_count": doc_count},
+        ),
         output_format,
     )
 
@@ -604,14 +687,19 @@ def get_project_type(description: str, output_format: str = "markdown") -> str:
 
     docs = index.get_phase_docs(1, "activities")
     if not docs:
-        docs = [d for d in index.docs if "activiteiten" in d.path and "02-fase-ontdekking" in d.path]
+        docs = [
+            d for d in index.docs if "activiteiten" in d.path and "02-fase-ontdekking" in d.path
+        ]
 
     if not docs:
         return format_response(
             "Project type classification document not found.",
-            build_decision("get_project_type", DecisionStatus.NOT_FOUND,
-                           "Reload the content index and retry.",
-                           {"description_excerpt": description[:100]}),
+            build_decision(
+                "get_project_type",
+                DecisionStatus.NOT_FOUND,
+                "Reload the content index and retry.",
+                {"description_excerpt": description[:100]},
+            ),
             output_format,
         )
 
@@ -622,10 +710,13 @@ def get_project_type(description: str, output_format: str = "markdown") -> str:
     )
     return format_response(
         markdown,
-        build_decision("get_project_type", DecisionStatus.OK,
-                       "Classify as Type A or B, then call project_setup_intake.",
-                       {"description_excerpt": description[:100]},
-                       next_tool="project_setup_intake"),
+        build_decision(
+            "get_project_type",
+            DecisionStatus.OK,
+            "Classify as Type A or B, then call project_setup_intake.",
+            {"description_excerpt": description[:100]},
+            next_tool="project_setup_intake",
+        ),
         output_format,
     )
 
@@ -655,9 +746,12 @@ def search_content(
     if not results:
         return format_response(
             f"No results found for '{query}' with the given filters.",
-            build_decision("search_content", DecisionStatus.NOT_FOUND,
-                           "Try broader keywords or remove filters.",
-                           {"query": query, "result_count": 0}),
+            build_decision(
+                "search_content",
+                DecisionStatus.NOT_FOUND,
+                "Try broader keywords or remove filters.",
+                {"query": query, "result_count": 0},
+            ),
             output_format,
         )
 
@@ -671,10 +765,12 @@ def search_content(
     markdown = "\n".join(lines)
     return format_response(
         markdown,
-        build_decision("search_content", DecisionStatus.OK,
-                       "Review the results and use get_template or answer_question for full content.",
-                       {"query": query, "result_count": len(results),
-                        "confidence_scores": confidence_scores}),
+        build_decision(
+            "search_content",
+            DecisionStatus.OK,
+            "Review the results and use get_template or answer_question for full content.",
+            {"query": query, "result_count": len(results), "confidence_scores": confidence_scores},
+        ),
         output_format,
     )
 
@@ -781,7 +877,9 @@ def project_setup_intake(description: str, output_format: str = "markdown") -> s
     # Fetch project type framework
     type_docs = index.get_phase_docs(1, "activities")
     if not type_docs:
-        type_docs = [d for d in index.docs if "activiteiten" in d.path and "02-fase-ontdekking" in d.path]
+        type_docs = [
+            d for d in index.docs if "activiteiten" in d.path and "02-fase-ontdekking" in d.path
+        ]
 
     type_section = ""
     if type_docs:
@@ -813,10 +911,13 @@ def project_setup_intake(description: str, output_format: str = "markdown") -> s
     )
     return format_response(
         markdown,
-        build_decision("project_setup_intake", DecisionStatus.OK,
-                       "Present risk questions to the user, then call project_setup_risk with scores.",
-                       {"description_excerpt": description[:100]},
-                       next_tool="project_setup_risk"),
+        build_decision(
+            "project_setup_intake",
+            DecisionStatus.OK,
+            "Present risk questions to the user, then call project_setup_risk with scores.",
+            {"description_excerpt": description[:100]},
+            next_tool="project_setup_risk",
+        ),
         output_format,
     )
 
@@ -854,7 +955,9 @@ def project_setup_risk(
     has_h_docs = [d for d in index.docs if "has-h" in d.path.lower()]
     has_h_section = ""
     if has_h_docs:
-        has_h_section = f"\n\n---\n\n## Collaboration Modes Reference\n\n{has_h_docs[0].body[:1500]}..."
+        has_h_section = (
+            f"\n\n---\n\n## Collaboration Modes Reference\n\n{has_h_docs[0].body[:1500]}..."
+        )
 
     markdown = (
         f"# Project Setup — Step 2: Risk Assessment\n\n"
@@ -880,13 +983,21 @@ def project_setup_risk(
     )
     return format_response(
         markdown,
-        build_decision("project_setup_risk", DecisionStatus.OK,
-                       f"Risk is {colour.upper()}. Confirm with user and call project_setup_charter.",
-                       {"risk_level": colour, "total_score": total,
-                        "scores": {"b1": max(0, min(10, risk_scores_b1)),
-                                   "b2": max(0, min(10, risk_scores_b2)),
-                                   "b3": max(0, min(10, risk_scores_b3))}},
-                       next_tool="project_setup_charter"),
+        build_decision(
+            "project_setup_risk",
+            DecisionStatus.OK,
+            f"Risk is {colour.upper()}. Confirm with user and call project_setup_charter.",
+            {
+                "risk_level": colour,
+                "total_score": total,
+                "scores": {
+                    "b1": max(0, min(10, risk_scores_b1)),
+                    "b2": max(0, min(10, risk_scores_b2)),
+                    "b3": max(0, min(10, risk_scores_b3)),
+                },
+            },
+            next_tool="project_setup_charter",
+        ),
         output_format,
     )
 
@@ -920,19 +1031,19 @@ def project_setup_charter(
     index = get_index()
 
     # Fetch the project charter template
-    charter_docs = [
-        d for d in index.docs
-        if "project-charter" in d.path and d.type == "template"
-    ]
+    charter_docs = [d for d in index.docs if "project-charter" in d.path and d.type == "template"]
     if not charter_docs:
         charter_docs = [d for d in index.docs if "project-charter" in d.path]
 
     if not charter_docs:
         return format_response(
             "Project Charter template not found in the index.",
-            build_decision("project_setup_charter", DecisionStatus.NOT_FOUND,
-                           "Reload the content index and retry.",
-                           {"project_type": project_type, "risk_level": risk_level}),
+            build_decision(
+                "project_setup_charter",
+                DecisionStatus.NOT_FOUND,
+                "Reload the content index and retry.",
+                {"project_type": project_type, "risk_level": risk_level},
+            ),
             output_format,
         )
 
@@ -977,17 +1088,23 @@ def project_setup_charter(
         f"(green = Fast Lane eligible, amber/red = Standard lifecycle).\n"
         f"> - Set `Collaboration Mode` to: {mode_label}\n"
         f"> - Set `Risk Category (EU AI Act)` to: {eu_risk}\n"
-        f"> - Fill `Concept` using the project description: \"{description}\"\n"
+        f'> - Fill `Concept` using the project description: "{description}"\n'
         f"> - Leave team names, budget, and success criteria as `[placeholder]` "
         f"if not provided — ask the user.\n"
         f"> - Present the filled charter to the user for approval before proceeding to Gate 1."
     )
     return format_response(
         markdown,
-        build_decision("project_setup_charter", DecisionStatus.OK,
-                       "Present the charter to the user for approval, then proceed to Gate 1.",
-                       {"project_type": project_type.upper(), "risk_level": risk_level,
-                        "collaboration_mode": str(collaboration_mode)}),
+        build_decision(
+            "project_setup_charter",
+            DecisionStatus.OK,
+            "Present the charter to the user for approval, then proceed to Gate 1.",
+            {
+                "project_type": project_type.upper(),
+                "risk_level": risk_level,
+                "collaboration_mode": str(collaboration_mode),
+            },
+        ),
         output_format,
     )
 
@@ -1018,9 +1135,12 @@ def gate_review_intake(gate: int, evidence: list[str], output_format: str = "mar
     if gate not in range(1, 5):
         return format_response(
             f"Error: gate must be 1–4, got {gate}",
-            build_decision("gate_review_intake", DecisionStatus.ERROR,
-                           "Correct the gate parameter (1–4).",
-                           {"gate": gate}),
+            build_decision(
+                "gate_review_intake",
+                DecisionStatus.ERROR,
+                "Correct the gate parameter (1–4).",
+                {"gate": gate},
+            ),
             output_format,
         )
 
@@ -1028,8 +1148,10 @@ def gate_review_intake(gate: int, evidence: list[str], output_format: str = "mar
 
     # Fetch gate checklist
     checklist_docs = [
-        d for d in index.docs
-        if "gate-review" in d.path.lower() or ("gate" in d.path.lower() and "checklist" in d.path.lower())
+        d
+        for d in index.docs
+        if "gate-review" in d.path.lower()
+        or ("gate" in d.path.lower() and "checklist" in d.path.lower())
     ]
 
     checklist_content = checklist_docs[0].body if checklist_docs else ""
@@ -1044,11 +1166,15 @@ def gate_review_intake(gate: int, evidence: list[str], output_format: str = "mar
             line = line.strip()
             if not line or not (line.startswith("- [ ]") or line.startswith("- [x]")):
                 continue
-            item = line.lstrip("- [ ]").lstrip("- [x]").strip()
+            item = line.removeprefix("- [ ]").removeprefix("- [x]").strip()
             if not any(word in evidence_lower for word in item.lower().split() if len(word) > 4):
                 gaps.append(item)
 
-    gaps_str = "\n".join(f"- {g}" for g in gaps[:8]) if gaps else "_(no obvious gaps detected — verify manually)_"
+    gaps_str = (
+        "\n".join(f"- {g}" for g in gaps[:8])
+        if gaps
+        else "_(no obvious gaps detected — verify manually)_"
+    )
 
     ev_items = parse_evidence(evidence, gate=gate)
     ev_summary = evidence_summary(ev_items)
@@ -1066,17 +1192,26 @@ def gate_review_intake(gate: int, evidence: list[str], output_format: str = "mar
     )
     return format_response(
         markdown,
-        build_decision("gate_review_intake", DecisionStatus.OK,
-                       "Present gaps to user, confirm, then call gate_review_report.",
-                       {"gate": gate, "evidence_count": len(evidence),
-                        "gap_count": len(gaps), "evidence_summary": ev_summary},
-                       next_tool="gate_review_report"),
+        build_decision(
+            "gate_review_intake",
+            DecisionStatus.OK,
+            "Present gaps to user, confirm, then call gate_review_report.",
+            {
+                "gate": gate,
+                "evidence_count": len(evidence),
+                "gap_count": len(gaps),
+                "evidence_summary": ev_summary,
+            },
+            next_tool="gate_review_report",
+        ),
         output_format,
     )
 
 
 @mcp.tool()
-def gate_review_report(gate: int, evidence: list[str], gaps: list[str], output_format: str = "markdown") -> str:
+def gate_review_report(
+    gate: int, evidence: list[str], gaps: list[str], output_format: str = "markdown"
+) -> str:
     """Step 2 of the Gate Review workflow: generate a Guardian-ready review summary.
 
     Call this ONLY after running gate_review_intake (Step 1) and confirming
@@ -1094,13 +1229,21 @@ def gate_review_report(gate: int, evidence: list[str], gaps: list[str], output_f
     if gate not in range(1, 5):
         return format_response(
             f"Error: gate must be 1–4, got {gate}",
-            build_decision("gate_review_report", DecisionStatus.ERROR,
-                           "Correct the gate parameter (1–4).",
-                           {"gate": gate}),
+            build_decision(
+                "gate_review_report",
+                DecisionStatus.ERROR,
+                "Correct the gate parameter (1–4).",
+                {"gate": gate},
+            ),
             output_format,
         )
 
-    gate_names = {1: "Go/No-Go Discovery", 2: "Pilot Investment", 3: "Production-Ready", 4: "Go-Live"}
+    gate_names = {
+        1: "Go/No-Go Discovery",
+        2: "Pilot Investment",
+        3: "Production-Ready",
+        4: "Go-Live",
+    }
     gate_label = gate_names.get(gate, f"Gate {gate}")
 
     evidence_str = "\n".join(f"- ✅ {e}" for e in evidence) if evidence else "_(none)_"
@@ -1134,11 +1277,20 @@ def gate_review_report(gate: int, evidence: list[str], gaps: list[str], output_f
     )
     return format_response(
         markdown,
-        build_decision("gate_review_report", DecisionStatus.OK,
-                       "Present to Guardian for sign-off." if ready else "Resolve gaps before Guardian review.",
-                       {"gate": gate, "evidence_count": len(evidence),
-                        "gap_count": len(gaps), "ready": ready,
-                        "evidence_summary": ev_summary}),
+        build_decision(
+            "gate_review_report",
+            DecisionStatus.OK,
+            "Present to Guardian for sign-off."
+            if ready
+            else "Resolve gaps before Guardian review.",
+            {
+                "gate": gate,
+                "evidence_count": len(evidence),
+                "gap_count": len(gaps),
+                "ready": ready,
+                "evidence_summary": ev_summary,
+            },
+        ),
         output_format,
     )
 
@@ -1147,7 +1299,9 @@ def gate_review_report(gate: int, evidence: list[str], gaps: list[str], output_f
 
 
 @mcp.tool()
-def template_advisor(role: str, phase: int, context: str = "", output_format: str = "markdown") -> str:
+def template_advisor(
+    role: str, phase: int, context: str = "", output_format: str = "markdown"
+) -> str:
     """Get recommended templates for a role and lifecycle phase, with context pre-filled.
 
     Use this when a user asks which templates they need, wants to start filling
@@ -1166,19 +1320,29 @@ def template_advisor(role: str, phase: int, context: str = "", output_format: st
     if phase not in range(1, 6):
         return format_response(
             f"Error: phase must be 1–5, got {phase}",
-            build_decision("template_advisor", DecisionStatus.ERROR,
-                           "Correct the phase parameter (1–5).",
-                           {"role": role, "phase": phase}),
+            build_decision(
+                "template_advisor",
+                DecisionStatus.ERROR,
+                "Correct the phase parameter (1–5).",
+                {"role": role, "phase": phase},
+            ),
             output_format,
         )
 
     index = get_index()
-    phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
+    phase_names = {
+        1: "Discovery",
+        2: "Validation",
+        3: "Development",
+        4: "Delivery",
+        5: "Monitoring",
+    }
     phase_label = phase_names.get(phase, f"Phase {phase}")
 
     # Role + phase match first
     templates = [
-        d for d in index.docs
+        d
+        for d in index.docs
         if d.type == "template" and phase in d.phases and (not d.roles or role in d.roles)
     ]
     # Broaden if no role match
@@ -1188,9 +1352,12 @@ def template_advisor(role: str, phase: int, context: str = "", output_format: st
     if not templates:
         return format_response(
             f"No templates found for {role} in phase {phase} ({phase_label}).",
-            build_decision("template_advisor", DecisionStatus.NOT_FOUND,
-                           "Try a different role or phase.",
-                           {"role": role, "phase": phase, "template_count": 0}),
+            build_decision(
+                "template_advisor",
+                DecisionStatus.NOT_FOUND,
+                "Try a different role or phase.",
+                {"role": role, "phase": phase, "template_count": 0},
+            ),
             output_format,
         )
 
@@ -1208,9 +1375,12 @@ def template_advisor(role: str, phase: int, context: str = "", output_format: st
     markdown = "\n\n---\n\n".join(sections)
     return format_response(
         markdown,
-        build_decision("template_advisor", DecisionStatus.OK,
-                       "Fill in the [placeholder] fields and present to the user for approval.",
-                       {"role": role, "phase": phase, "template_count": len(templates)}),
+        build_decision(
+            "template_advisor",
+            DecisionStatus.OK,
+            "Fill in the [placeholder] fields and present to the user for approval.",
+            {"role": role, "phase": phase, "template_count": len(templates)},
+        ),
         output_format,
     )
 
@@ -1220,19 +1390,46 @@ def template_advisor(role: str, phase: int, context: str = "", output_format: st
 
 _EU_RISK_KEYWORDS = {
     "unacceptable": [
-        "social scor", "subliminal", "manipulat", "biometric categor",
-        "real-time biometric", "emotion recognit", "exploit vulnerabl",
+        "social scor",
+        "subliminal",
+        "manipulat",
+        "biometric categor",
+        "real-time biometric",
+        "emotion recognit",
+        "exploit vulnerabl",
     ],
     "high": [
-        "hire", "hiring", "recruit", "cv screen", "employment", "credit scor",
-        "loan", "insurance", "law enforcement", "border", "migration", "asylum",
-        "critical infrastructure", "energy grid", "water supply", "transport",
-        "education admission", "exam", "welfare benefit", "social service",
-        "medical device", "safety component",
+        "hire",
+        "hiring",
+        "recruit",
+        "cv screen",
+        "employment",
+        "credit scor",
+        "loan",
+        "insurance",
+        "law enforcement",
+        "border",
+        "migration",
+        "asylum",
+        "critical infrastructure",
+        "energy grid",
+        "water supply",
+        "transport",
+        "education admission",
+        "exam",
+        "welfare benefit",
+        "social service",
+        "medical device",
+        "safety component",
     ],
     "limited": [
-        "chatbot", "virtual assistant", "deepfake", "synthetic content",
-        "emotion detect", "ai-generated", "customer service bot",
+        "chatbot",
+        "virtual assistant",
+        "deepfake",
+        "synthetic content",
+        "emotion detect",
+        "ai-generated",
+        "customer service bot",
     ],
 }
 
@@ -1271,7 +1468,8 @@ def compliance_intake(description: str, output_format: str = "markdown") -> str:
 
     # Fetch EU AI Act overview
     eu_docs = [
-        d for d in index.docs
+        d
+        for d in index.docs
         if "eu-ai-act" in d.path and d.type in ("compliance", "index", "guide", "strategic")
     ]
     eu_content = _format_doc_full(eu_docs[0]) if eu_docs else ""
@@ -1317,17 +1515,21 @@ def compliance_intake(description: str, output_format: str = "markdown") -> str:
     )
     return format_response(
         markdown,
-        build_decision("compliance_intake", DecisionStatus.OK,
-                       "Confirm category with user, then call compliance_checklist.",
-                       {"heuristic_category": heuristic_category,
-                        "description_excerpt": description[:100]},
-                       next_tool="compliance_checklist"),
+        build_decision(
+            "compliance_intake",
+            DecisionStatus.OK,
+            "Confirm category with user, then call compliance_checklist.",
+            {"heuristic_category": heuristic_category, "description_excerpt": description[:100]},
+            next_tool="compliance_checklist",
+        ),
         output_format,
     )
 
 
 @mcp.tool()
-def compliance_checklist(description: str, risk_category: str, output_format: str = "markdown") -> str:
+def compliance_checklist(
+    description: str, risk_category: str, output_format: str = "markdown"
+) -> str:
     """Step 2 of the Compliance workflow: generate a specific EU AI Act compliance checklist.
 
     Call this ONLY after compliance_intake (Step 1) and user confirmation of the risk category.
@@ -1358,14 +1560,19 @@ def compliance_checklist(description: str, risk_category: str, output_format: st
         )
         return format_response(
             blocked_text,
-            build_decision("compliance_checklist", DecisionStatus.ERROR,
-                           "STOP — this system is prohibited. Halt all development immediately.",
-                           {"risk_category": "unacceptable", "blocked": True}),
+            build_decision(
+                "compliance_checklist",
+                DecisionStatus.ERROR,
+                "STOP — this system is prohibited. Halt all development immediately.",
+                {"risk_category": "unacceptable", "blocked": True},
+            ),
             output_format,
         )
 
     # Fetch detailed compliance content
-    compliance_docs = [d for d in index.docs if "07-compliance-hub" in d.path and "eu-ai-act" in d.path]
+    compliance_docs = [
+        d for d in index.docs if "07-compliance-hub" in d.path and "eu-ai-act" in d.path
+    ]
     checklist_content = ""
     for doc in compliance_docs:
         if len(doc.body) > 500:
@@ -1418,7 +1625,11 @@ def compliance_checklist(description: str, risk_category: str, output_format: st
 
     specific_checklist = checklists_by_category.get(category, checklists_by_category["minimal"])
 
-    extra_content = f"\n\n---\n\n## Detailed Blueprint Compliance Reference\n\n{checklist_content}" if checklist_content else ""
+    extra_content = (
+        f"\n\n---\n\n## Detailed Blueprint Compliance Reference\n\n{checklist_content}"
+        if checklist_content
+        else ""
+    )
 
     markdown = (
         f"# Compliance Checklist — {risk_category.capitalize()} Risk\n\n"
@@ -1432,9 +1643,12 @@ def compliance_checklist(description: str, risk_category: str, output_format: st
     )
     return format_response(
         markdown,
-        build_decision("compliance_checklist", DecisionStatus.OK,
-                       "Work through the checklist with Guardian and legal counsel.",
-                       {"risk_category": category, "blocked": False}),
+        build_decision(
+            "compliance_checklist",
+            DecisionStatus.OK,
+            "Work through the checklist with Guardian and legal counsel.",
+            {"risk_category": category, "blocked": False},
+        ),
         output_format,
     )
 
@@ -1469,41 +1683,61 @@ def get_guidance_for_profile(
     if project_type not in _VALID_PROJECT_TYPES:
         return format_response(
             f"Error: project_type must be 'A' or 'B', got '{project_type}'",
-            build_decision("get_guidance_for_profile", DecisionStatus.ERROR,
-                           "Use 'A' for deterministic AI or 'B' for generative AI.",
-                           {"project_type": project_type}),
+            build_decision(
+                "get_guidance_for_profile",
+                DecisionStatus.ERROR,
+                "Use 'A' for deterministic AI or 'B' for generative AI.",
+                {"project_type": project_type},
+            ),
             output_format,
         )
     if risk_level not in _VALID_RISK_LEVELS:
         return format_response(
             f"Error: risk_level must be 'green', 'amber', or 'red', got '{risk_level}'",
-            build_decision("get_guidance_for_profile", DecisionStatus.ERROR,
-                           "Use one of: green, amber, red.",
-                           {"risk_level": risk_level}),
+            build_decision(
+                "get_guidance_for_profile",
+                DecisionStatus.ERROR,
+                "Use one of: green, amber, red.",
+                {"risk_level": risk_level},
+            ),
             output_format,
         )
     if phase not in range(1, 6):
         return format_response(
             f"Error: phase must be 1–5, got {phase}",
-            build_decision("get_guidance_for_profile", DecisionStatus.ERROR,
-                           "Correct the phase parameter (1–5).",
-                           {"phase": phase}),
+            build_decision(
+                "get_guidance_for_profile",
+                DecisionStatus.ERROR,
+                "Correct the phase parameter (1–5).",
+                {"phase": phase},
+            ),
             output_format,
         )
 
     index = get_index()
-    phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
+    phase_names = {
+        1: "Discovery",
+        2: "Validation",
+        3: "Development",
+        4: "Delivery",
+        5: "Monitoring",
+    }
 
     # Collect docs matching the profile: phase + optionally role
     candidates = [
-        d for d in index.docs
+        d
+        for d in index.docs
         if phase in d.phases
         and d.type not in ("template",)
         and (not role or not d.roles or role in d.roles)
     ]
 
     # Score by relevance: risk_level tag match, type match
-    risk_tag_map = {"red": ["risk", "compliance", "security"], "amber": ["risk", "validation"], "green": []}
+    risk_tag_map = {
+        "red": ["risk", "compliance", "security"],
+        "amber": ["risk", "validation"],
+        "green": [],
+    }
     preferred_tags = set(risk_tag_map.get(risk_level, []))
 
     def _score(doc) -> int:
@@ -1520,17 +1754,23 @@ def get_guidance_for_profile(
     if not top:
         return format_response(
             f"No guidance found for project_type={project_type}, risk={risk_level}, phase={phase}.",
-            build_decision("get_guidance_for_profile", DecisionStatus.NOT_FOUND,
-                           "Try broadening the search with search_content.",
-                           {"project_type": project_type, "risk_level": risk_level,
-                            "phase": phase, "doc_count": 0}),
+            build_decision(
+                "get_guidance_for_profile",
+                DecisionStatus.NOT_FOUND,
+                "Try broadening the search with search_content.",
+                {
+                    "project_type": project_type,
+                    "risk_level": risk_level,
+                    "phase": phase,
+                    "doc_count": 0,
+                },
+            ),
             output_format,
         )
 
     sections = [
         f"# Guidance for Type {project_type} / {risk_level.capitalize()} Risk / "
-        f"Phase {phase} ({phase_names.get(phase, '')})"
-        + (f" / {role}" if role else "") + "\n"
+        f"Phase {phase} ({phase_names.get(phase, '')})" + (f" / {role}" if role else "") + "\n"
     ]
     for doc in top:
         sections.append(f"## {doc.title}\n\n_`{doc.path}`_\n\n{doc.body[:800]}...")
@@ -1538,10 +1778,18 @@ def get_guidance_for_profile(
     markdown = "\n\n---\n\n".join(sections)
     return format_response(
         markdown,
-        build_decision("get_guidance_for_profile", DecisionStatus.OK,
-                       "Review the guidance above and adapt to your specific context.",
-                       {"project_type": project_type, "risk_level": risk_level,
-                        "phase": phase, "role": role, "doc_count": len(top)}),
+        build_decision(
+            "get_guidance_for_profile",
+            DecisionStatus.OK,
+            "Review the guidance above and adapt to your specific context.",
+            {
+                "project_type": project_type,
+                "risk_level": risk_level,
+                "phase": phase,
+                "role": role,
+                "doc_count": len(top),
+            },
+        ),
         output_format,
     )
 
@@ -1581,9 +1829,12 @@ def select_template(
     if not templates:
         return format_response(
             f"No templates found matching goal='{goal}'" + (f", phase={phase}" if phase else ""),
-            build_decision("select_template", DecisionStatus.NOT_FOUND,
-                           "Try removing the phase or role filter.",
-                           {"goal": goal, "match_count": 0}),
+            build_decision(
+                "select_template",
+                DecisionStatus.NOT_FOUND,
+                "Try removing the phase or role filter.",
+                {"goal": goal, "match_count": 0},
+            ),
             output_format,
         )
 
@@ -1599,24 +1850,29 @@ def select_template(
         names = "\n".join(f"- `{d.path}`: {d.title}" for d in templates[:10])
         return format_response(
             f"No strong match for '{goal}'. Available templates:\n\n{names}",
-            build_decision("select_template", DecisionStatus.NOT_FOUND,
-                           "Try a different keyword or use get_template with a path from the list.",
-                           {"goal": goal, "match_count": 0}),
+            build_decision(
+                "select_template",
+                DecisionStatus.NOT_FOUND,
+                "Try a different keyword or use get_template with a path from the list.",
+                {"goal": goal, "match_count": 0},
+            ),
             output_format,
         )
 
     top = best[:3]
-    sections = [f"# Template Selection for: \"{goal}\"\n"]
+    sections = [f'# Template Selection for: "{goal}"\n']
     for doc in top:
         sections.append(f"## {doc.title}\n\n_`{doc.path}`_\n\n{doc.body[:600]}...")
 
     markdown = "\n\n---\n\n".join(sections)
     return format_response(
         markdown,
-        build_decision("select_template", DecisionStatus.OK,
-                       f"Best match: '{top[0].title}'. Fill in [placeholder] fields.",
-                       {"goal": goal, "match_count": len(top),
-                        "top_match_path": top[0].path}),
+        build_decision(
+            "select_template",
+            DecisionStatus.OK,
+            f"Best match: '{top[0].title}'. Fill in [placeholder] fields.",
+            {"goal": goal, "match_count": len(top), "top_match_path": top[0].path},
+        ),
         output_format,
     )
 
@@ -1636,22 +1892,49 @@ _WORKFLOWS: dict[str, dict] = {
         "description": "Set up a new AI project from scratch",
         "steps": [
             {"step": 1, "tool": "project_setup_intake", "required_params": ["description"]},
-            {"step": 2, "tool": "project_setup_risk", "required_params": ["description", "project_type", "risk_scores_b1", "risk_scores_b2", "risk_scores_b3"]},
-            {"step": 3, "tool": "project_setup_charter", "required_params": ["description", "project_type", "risk_level", "collaboration_mode"]},
+            {
+                "step": 2,
+                "tool": "project_setup_risk",
+                "required_params": [
+                    "description",
+                    "project_type",
+                    "risk_scores_b1",
+                    "risk_scores_b2",
+                    "risk_scores_b3",
+                ],
+            },
+            {
+                "step": 3,
+                "tool": "project_setup_charter",
+                "required_params": [
+                    "description",
+                    "project_type",
+                    "risk_level",
+                    "collaboration_mode",
+                ],
+            },
         ],
     },
     "gate_review": {
         "description": "Prepare and execute a Gate Review",
         "steps": [
             {"step": 1, "tool": "gate_review_intake", "required_params": ["gate", "evidence"]},
-            {"step": 2, "tool": "gate_review_report", "required_params": ["gate", "evidence", "gaps"]},
+            {
+                "step": 2,
+                "tool": "gate_review_report",
+                "required_params": ["gate", "evidence", "gaps"],
+            },
         ],
     },
     "compliance_assessment": {
         "description": "EU AI Act compliance assessment for an AI system",
         "steps": [
             {"step": 1, "tool": "compliance_intake", "required_params": ["description"]},
-            {"step": 2, "tool": "compliance_checklist", "required_params": ["description", "risk_category"]},
+            {
+                "step": 2,
+                "tool": "compliance_checklist",
+                "required_params": ["description", "risk_category"],
+            },
         ],
     },
 }
@@ -1673,16 +1956,29 @@ def can_enter_phase(phase: int, completed_gates: list[int], output_format: str =
     if phase not in range(1, 6):
         return format_response(
             f"Error: phase must be 1–5, got {phase}",
-            build_decision("can_enter_phase", DecisionStatus.ERROR,
-                           "Correct the phase parameter (1–5).", {"phase": phase}),
+            build_decision(
+                "can_enter_phase",
+                DecisionStatus.ERROR,
+                "Correct the phase parameter (1–5).",
+                {"phase": phase},
+            ),
             output_format,
         )
     required = PHASE_PREREQUISITES[phase]
     missing = [g for g in required if g not in completed_gates]
     can_enter = len(missing) == 0
-    action = (f"All prerequisites met — proceed to Phase {phase}."
-              if can_enter else f"Complete gate(s) {missing} before entering Phase {phase}.")
-    phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
+    action = (
+        f"All prerequisites met — proceed to Phase {phase}."
+        if can_enter
+        else f"Complete gate(s) {missing} before entering Phase {phase}."
+    )
+    phase_names = {
+        1: "Discovery",
+        2: "Validation",
+        3: "Development",
+        4: "Delivery",
+        5: "Monitoring",
+    }
     markdown = (
         f"## Phase {phase} ({phase_names.get(phase, '')}) Entry Check\n\n"
         f"**Can enter:** {'✅ Yes' if can_enter else '❌ No'}\n\n"
@@ -1693,9 +1989,17 @@ def can_enter_phase(phase: int, completed_gates: list[int], output_format: str =
     )
     return format_response(
         markdown,
-        build_decision("can_enter_phase", DecisionStatus.OK, action,
-                       {"can_enter": can_enter, "phase": phase,
-                        "missing_gates": missing, "completed_gates": sorted(completed_gates)}),
+        build_decision(
+            "can_enter_phase",
+            DecisionStatus.OK,
+            action,
+            {
+                "can_enter": can_enter,
+                "phase": phase,
+                "missing_gates": missing,
+                "completed_gates": sorted(completed_gates),
+            },
+        ),
         output_format,
     )
 
@@ -1716,11 +2020,16 @@ def get_workflow_status(output_format: str = "markdown") -> str:
     markdown = "\n".join(lines)
     return format_response(
         markdown,
-        build_decision("get_workflow_status", DecisionStatus.OK,
-                       "Select a workflow and call its first step tool.",
-                       {"workflows": list(_WORKFLOWS.keys()),
-                        "total_workflows": len(_WORKFLOWS),
-                        "total_tools": total_tools}),
+        build_decision(
+            "get_workflow_status",
+            DecisionStatus.OK,
+            "Select a workflow and call its first step tool.",
+            {
+                "workflows": list(_WORKFLOWS.keys()),
+                "total_workflows": len(_WORKFLOWS),
+                "total_tools": total_tools,
+            },
+        ),
         output_format,
     )
 
@@ -1734,16 +2043,32 @@ def validate_project_context(data: dict, output_format: str = "markdown") -> str
     for field in _CONTEXT_SCHEMA["required"]:
         if field not in data or not data[field]:
             missing_required.append(field)
-    if "project_type" in data and data["project_type"] not in _CONTEXT_SCHEMA["valid_project_types"]:
-        invalid_values["project_type"] = f"Must be one of {_CONTEXT_SCHEMA['valid_project_types']}, got '{data['project_type']}'"
+    if (
+        "project_type" in data
+        and data["project_type"] not in _CONTEXT_SCHEMA["valid_project_types"]
+    ):
+        invalid_values["project_type"] = (
+            f"Must be one of {_CONTEXT_SCHEMA['valid_project_types']}, got '{data['project_type']}'"
+        )
     if "risk_level" in data and data["risk_level"] not in _CONTEXT_SCHEMA["valid_risk_levels"]:
-        invalid_values["risk_level"] = f"Must be one of {_CONTEXT_SCHEMA['valid_risk_levels']}, got '{data['risk_level']}'"
-    if "collaboration_mode" in data and str(data["collaboration_mode"]) not in _CONTEXT_SCHEMA["valid_collaboration_modes"]:
-        invalid_values["collaboration_mode"] = f"Must be one of {_CONTEXT_SCHEMA['valid_collaboration_modes']}, got '{data['collaboration_mode']}'"
+        invalid_values["risk_level"] = (
+            f"Must be one of {_CONTEXT_SCHEMA['valid_risk_levels']}, got '{data['risk_level']}'"
+        )
+    if (
+        "collaboration_mode" in data
+        and str(data["collaboration_mode"]) not in _CONTEXT_SCHEMA["valid_collaboration_modes"]
+    ):
+        invalid_values["collaboration_mode"] = (
+            f"Must be one of {_CONTEXT_SCHEMA['valid_collaboration_modes']}, got '{data['collaboration_mode']}'"
+        )
     if "phase" in data and data["phase"] not in _CONTEXT_SCHEMA["valid_phases"]:
-        invalid_values["phase"] = f"Must be one of {_CONTEXT_SCHEMA['valid_phases']}, got '{data['phase']}'"
+        invalid_values["phase"] = (
+            f"Must be one of {_CONTEXT_SCHEMA['valid_phases']}, got '{data['phase']}'"
+        )
     if "gate" in data and data["gate"] not in _CONTEXT_SCHEMA["valid_gates"]:
-        invalid_values["gate"] = f"Must be one of {_CONTEXT_SCHEMA['valid_gates']}, got '{data['gate']}'"
+        invalid_values["gate"] = (
+            f"Must be one of {_CONTEXT_SCHEMA['valid_gates']}, got '{data['gate']}'"
+        )
     is_valid = not missing_required and not invalid_values
     has_description = "description" in data and data.get("description")
     has_gate = "gate" in data and data.get("gate") and "gate" not in invalid_values
@@ -1781,11 +2106,19 @@ def validate_project_context(data: dict, output_format: str = "markdown") -> str
             lines.append(f"- {s}")
     return format_response(
         "\n".join(lines),
-        build_decision("validate_project_context", status_str, action,
-                       {"is_valid": is_valid, "missing_required": missing_required,
-                        "invalid_values": invalid_values, "suggestions": suggestions,
-                        "next_recommended_tool": next_tool},
-                       next_tool=next_tool),
+        build_decision(
+            "validate_project_context",
+            status_str,
+            action,
+            {
+                "is_valid": is_valid,
+                "missing_required": missing_required,
+                "invalid_values": invalid_values,
+                "suggestions": suggestions,
+                "next_recommended_tool": next_tool,
+            },
+            next_tool=next_tool,
+        ),
         output_format,
     )
 
@@ -1809,22 +2142,28 @@ def list_template_placeholders(template_path: str, output_format: str = "markdow
     if doc is None:
         return format_response(
             f"Template '{template_path}' not found.",
-            build_decision("list_template_placeholders", DecisionStatus.NOT_FOUND,
-                           "Check the template path with search_content.",
-                           {"template_path": template_path, "placeholders": []}),
+            build_decision(
+                "list_template_placeholders",
+                DecisionStatus.NOT_FOUND,
+                "Check the template path with search_content.",
+                {"template_path": template_path, "placeholders": []},
+            ),
             output_format,
         )
     placeholders = parse_placeholders(doc.body)
-    markdown = (
-        f"## Placeholders in `{doc.title}`\n\n"
-        + (("\n".join(f"- `{{{{{p}}}}}`" for p in placeholders)) if placeholders
-           else "_No placeholders found in this template._")
+    markdown = f"## Placeholders in `{doc.title}`\n\n" + (
+        ("\n".join(f"- `{{{{{p}}}}}`" for p in placeholders))
+        if placeholders
+        else "_No placeholders found in this template._"
     )
     return format_response(
         markdown,
-        build_decision("list_template_placeholders", DecisionStatus.OK,
-                       "Use fill_template to populate these placeholders.",
-                       {"template_path": template_path, "placeholders": placeholders}),
+        build_decision(
+            "list_template_placeholders",
+            DecisionStatus.OK,
+            "Use fill_template to populate these placeholders.",
+            {"template_path": template_path, "placeholders": placeholders},
+        ),
         output_format,
     )
 
@@ -1846,10 +2185,16 @@ def fill_template(template_path: str, values: dict, output_format: str = "markdo
     if doc is None:
         return format_response(
             f"Template '{template_path}' not found.",
-            build_decision("fill_template", DecisionStatus.NOT_FOUND,
-                           "Check the template path with search_content.",
-                           {"template_path": template_path, "filled_content": None,
-                            "missing_placeholders": []}),
+            build_decision(
+                "fill_template",
+                DecisionStatus.NOT_FOUND,
+                "Check the template path with search_content.",
+                {
+                    "template_path": template_path,
+                    "filled_content": None,
+                    "missing_placeholders": [],
+                },
+            ),
             output_format,
         )
     filled, missing = fill_placeholders(doc.body, values)
@@ -1860,12 +2205,21 @@ def fill_template(template_path: str, values: dict, output_format: str = "markdo
         action = "Template fully populated — review the filled content below."
     markdown = f"## Filled Template: {doc.title}\n\n{filled}"
     if missing:
-        markdown += f"\n\n> **Missing placeholders:** {', '.join(f'`{{{{{p}}}}}`' for p in missing)}"
+        markdown += (
+            f"\n\n> **Missing placeholders:** {', '.join(f'`{{{{{p}}}}}`' for p in missing)}"
+        )
     return format_response(
         markdown,
-        build_decision("fill_template", status, action,
-                       {"template_path": template_path, "filled_content": filled,
-                        "missing_placeholders": missing}),
+        build_decision(
+            "fill_template",
+            status,
+            action,
+            {
+                "template_path": template_path,
+                "filled_content": filled,
+                "missing_placeholders": missing,
+            },
+        ),
         output_format,
     )
 
@@ -1874,7 +2228,9 @@ def fill_template(template_path: str, values: dict, output_format: str = "markdo
 
 
 @mcp.tool()
-def session_start(project_id: str, project_type: str, language: str = "nl", output_format: str = "markdown") -> str:
+def session_start(
+    project_id: str, project_type: str, language: str = "nl", output_format: str = "markdown"
+) -> str:
     """Start a new workflow session and return its session ID.
 
     Args:
@@ -1887,18 +2243,26 @@ def session_start(project_id: str, project_type: str, language: str = "nl", outp
     if store is None:
         return format_response(
             "Session store is not configured.",
-            build_decision("session_start", DecisionStatus.ERROR,
-                           "Session store not available.",
-                           {"session_id": None}),
+            build_decision(
+                "session_start",
+                DecisionStatus.ERROR,
+                "Session store not available.",
+                {"session_id": None},
+            ),
             output_format,
         )
     sid = store.create_session(project_id=project_id, project_type=project_type, language=language)
-    markdown = f"## Session Started\n\nSession ID: `{sid}`\n\nProject: {project_id} ({project_type})"
+    markdown = (
+        f"## Session Started\n\nSession ID: `{sid}`\n\nProject: {project_id} ({project_type})"
+    )
     return format_response(
         markdown,
-        build_decision("session_start", DecisionStatus.OK,
-                       "Session created. Use session_id in subsequent calls.",
-                       {"session_id": sid, "project_id": project_id, "project_type": project_type}),
+        build_decision(
+            "session_start",
+            DecisionStatus.OK,
+            "Session created. Use session_id in subsequent calls.",
+            {"session_id": sid, "project_id": project_id, "project_type": project_type},
+        ),
         output_format,
     )
 
@@ -1915,18 +2279,21 @@ def session_get_state(session_id: str, output_format: str = "markdown") -> str:
     if store is None:
         return format_response(
             "Session store is not configured.",
-            build_decision("session_get_state", DecisionStatus.ERROR,
-                           "Session store not available.",
-                           {}),
+            build_decision(
+                "session_get_state", DecisionStatus.ERROR, "Session store not available.", {}
+            ),
             output_format,
         )
     state = store.get_state(session_id)
     if state is None:
         return format_response(
             f"Session `{session_id}` not found.",
-            build_decision("session_get_state", DecisionStatus.NOT_FOUND,
-                           "Session not found. Start a new session with session_start.",
-                           {"session_id": session_id}),
+            build_decision(
+                "session_get_state",
+                DecisionStatus.NOT_FOUND,
+                "Session not found. Start a new session with session_start.",
+                {"session_id": session_id},
+            ),
             output_format,
         )
     markdown = (
@@ -1947,15 +2314,15 @@ def session_get_state(session_id: str, output_format: str = "markdown") -> str:
     }
     return format_response(
         markdown,
-        build_decision("session_get_state", DecisionStatus.OK,
-                       "Session state retrieved.",
-                       data),
+        build_decision("session_get_state", DecisionStatus.OK, "Session state retrieved.", data),
         output_format,
     )
 
 
 @mcp.tool()
-def session_record_artifact(session_id: str, artifact_type: str, artifact_path: str, output_format: str = "markdown") -> str:
+def session_record_artifact(
+    session_id: str, artifact_type: str, artifact_path: str, output_format: str = "markdown"
+) -> str:
     """Record an artifact in a workflow session.
 
     Args:
@@ -1968,27 +2335,37 @@ def session_record_artifact(session_id: str, artifact_type: str, artifact_path: 
     if store is None:
         return format_response(
             "Session store is not configured.",
-            build_decision("session_record_artifact", DecisionStatus.ERROR,
-                           "Session store not available.",
-                           {}),
+            build_decision(
+                "session_record_artifact", DecisionStatus.ERROR, "Session store not available.", {}
+            ),
             output_format,
         )
     state = store.get_state(session_id)
     if state is None:
         return format_response(
             f"Session `{session_id}` not found.",
-            build_decision("session_record_artifact", DecisionStatus.NOT_FOUND,
-                           "Session not found.",
-                           {"session_id": session_id}),
+            build_decision(
+                "session_record_artifact",
+                DecisionStatus.NOT_FOUND,
+                "Session not found.",
+                {"session_id": session_id},
+            ),
             output_format,
         )
     store.record_artifact(session_id, artifact_type=artifact_type, artifact_path=artifact_path)
     markdown = f"## Artifact Recorded\n\n**Type:** {artifact_type}\n**Path:** {artifact_path}"
     return format_response(
         markdown,
-        build_decision("session_record_artifact", DecisionStatus.OK,
-                       "Artifact recorded in session.",
-                       {"session_id": session_id, "artifact_type": artifact_type, "artifact_path": artifact_path}),
+        build_decision(
+            "session_record_artifact",
+            DecisionStatus.OK,
+            "Artifact recorded in session.",
+            {
+                "session_id": session_id,
+                "artifact_type": artifact_type,
+                "artifact_path": artifact_path,
+            },
+        ),
         output_format,
     )
 
@@ -2004,9 +2381,9 @@ def list_projects(output_format: str = "markdown") -> str:
     if store is None:
         return format_response(
             "## Projects\n\nNo session store configured.",
-            build_decision("list_projects", DecisionStatus.OK,
-                           "No session store available.",
-                           {"projects": []}),
+            build_decision(
+                "list_projects", DecisionStatus.OK, "No session store available.", {"projects": []}
+            ),
             output_format,
         )
     sessions = store.list_sessions()
@@ -2015,13 +2392,18 @@ def list_projects(output_format: str = "markdown") -> str:
     else:
         lines = ["## Projects\n"]
         for s in sessions:
-            lines.append(f"- `{s['session_id']}` — **{s['project_id']}** ({s['project_type']}, {s['language']})")
+            lines.append(
+                f"- `{s['session_id']}` — **{s['project_id']}** ({s['project_type']}, {s['language']})"
+            )
         markdown = "\n".join(lines)
     return format_response(
         markdown,
-        build_decision("list_projects", DecisionStatus.OK,
-                       "Use session_get_state to inspect a specific session.",
-                       {"projects": sessions}),
+        build_decision(
+            "list_projects",
+            DecisionStatus.OK,
+            "Use session_get_state to inspect a specific session.",
+            {"projects": sessions},
+        ),
         output_format,
     )
 
@@ -2061,7 +2443,13 @@ def get_phase_overview(phase_id: str) -> str:
     if not sections:
         return f"No documents found for phase {phase}."
 
-    phase_names = {1: "Discovery", 2: "Validation", 3: "Development", 4: "Delivery", 5: "Monitoring"}
+    phase_names = {
+        1: "Discovery",
+        2: "Validation",
+        3: "Development",
+        4: "Delivery",
+        5: "Monitoring",
+    }
     name = phase_names.get(phase, f"Phase {phase}")
     return f"# Phase {phase}: {name} — Complete Overview\n\n" + "\n\n---\n\n".join(sections)
 

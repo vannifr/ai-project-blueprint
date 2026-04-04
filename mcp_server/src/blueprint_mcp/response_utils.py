@@ -97,6 +97,4 @@ def format_response(markdown: str, decision: dict, output_format: str = "markdow
         return wrap_response(markdown, decision)
     if output_format == "json":
         return json.dumps(decision, ensure_ascii=False, indent=2)
-    raise ValueError(
-        f"output_format must be 'markdown' or 'json', got '{output_format}'"
-    )
+    raise ValueError(f"output_format must be 'markdown' or 'json', got '{output_format}'")

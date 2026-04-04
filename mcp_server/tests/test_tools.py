@@ -1,19 +1,20 @@
 """Tests for MCP tools — verify each tool returns expected content."""
 
-import pytest
 from pathlib import Path
+
+import pytest
 
 from blueprint_mcp.content_index import ContentIndex
 from blueprint_mcp.server import (
-    set_index,
-    get_phase_guidance,
-    get_template,
     check_gate_readiness,
     classify_risk,
-    select_collaboration_mode,
-    lookup_terminology,
+    get_phase_guidance,
     get_project_type,
+    get_template,
+    lookup_terminology,
     search_content,
+    select_collaboration_mode,
+    set_index,
 )
 
 DOCS_ROOT = Path(__file__).resolve().parent.parent.parent / "docs"

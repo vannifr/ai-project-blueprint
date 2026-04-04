@@ -1,6 +1,6 @@
 """Tests for content_index.py — loading, indexing, and searching."""
 
-from blueprint_mcp.content_index import parse_frontmatter, extract_title, ContentIndex
+from blueprint_mcp.content_index import extract_title, parse_frontmatter
 
 
 class TestParseFrontmatter:

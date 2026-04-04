@@ -12,8 +12,9 @@ Assumptions verified by these tests:
 - Output contains structured sections the calling LLM can present to users
 """
 
-import pytest
 from pathlib import Path
+
+import pytest
 
 from blueprint_mcp.content_index import ContentIndex
 from blueprint_mcp.server import set_index
@@ -33,11 +34,10 @@ def setup_index():
 # ─── Import tools (after module exists) ──────────────────────────────────────
 
 from blueprint_mcp.server import (  # noqa: E402
+    project_setup_charter,
     project_setup_intake,
     project_setup_risk,
-    project_setup_charter,
 )
-
 
 # ─── project_setup_intake ────────────────────────────────────────────────────
 
@@ -59,7 +59,11 @@ class TestProjectSetupIntake:
     def test_includes_hard_blockers(self):
         result = project_setup_intake("An AI system for recruitment screening")
         # Part A hard blockers from the risk pre-scan
-        assert "blocker" in result.lower() or "prohibited" in result.lower() or "stop" in result.lower()
+        assert (
+            "blocker" in result.lower()
+            or "prohibited" in result.lower()
+            or "stop" in result.lower()
+        )
 
     def test_includes_project_description_in_output(self):
         desc = "A recommendation engine for product suggestions"

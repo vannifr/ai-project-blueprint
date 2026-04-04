@@ -4,7 +4,6 @@ Scans docs/ for markdown files, parses frontmatter, and builds
 O(1) lookup indexes by path, type, phase, tag, and layer.
 """
 
-import os
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -57,7 +56,7 @@ def extract_body(text: str) -> str:
     """Return markdown content without frontmatter."""
     m = RE_FRONTMATTER.match(text)
     if m:
-        return text[m.end():]
+        return text[m.end() :]
     return text
 
 

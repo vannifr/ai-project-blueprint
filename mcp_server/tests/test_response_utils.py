@@ -1,6 +1,7 @@
 """Tests for response_utils — structured decision dict alongside markdown."""
 
 import json
+
 import pytest
 
 from blueprint_mcp.response_utils import (
@@ -8,7 +9,6 @@ from blueprint_mcp.response_utils import (
     build_decision,
     wrap_response,
 )
-
 
 # ── build_decision ────────────────────────────────────────────────────────────
 
@@ -27,7 +27,9 @@ class TestBuildDecision:
         assert d["next_tool"] is None
 
     def test_error_status(self):
-        d = build_decision("get_phase_guidance", DecisionStatus.ERROR, "Fix the input", {}, next_tool=None)
+        d = build_decision(
+            "get_phase_guidance", DecisionStatus.ERROR, "Fix the input", {}, next_tool=None
+        )
         assert d["status"] == "error"
         assert d["next_tool"] is None
 
@@ -36,7 +38,13 @@ class TestBuildDecision:
         assert d["status"] == "not_found"
 
     def test_next_tool_populated(self):
-        d = build_decision("project_setup_intake", DecisionStatus.OK, "Run risk scan", {}, next_tool="project_setup_risk")
+        d = build_decision(
+            "project_setup_intake",
+            DecisionStatus.OK,
+            "Run risk scan",
+            {},
+            next_tool="project_setup_risk",
+        )
         assert d["next_tool"] == "project_setup_risk"
 
     def test_data_dict_preserved(self):
@@ -56,12 +64,12 @@ class TestBuildDecision:
 
 class TestWrapResponse:
     def _make_decision(self, **kwargs):
-        defaults = dict(
-            tool="my_tool",
-            status=DecisionStatus.OK,
-            primary_action="Do something",
-            data={},
-        )
+        defaults = {
+            "tool": "my_tool",
+            "status": DecisionStatus.OK,
+            "primary_action": "Do something",
+            "data": {},
+        }
         defaults.update(kwargs)
         return build_decision(
             defaults["tool"],
@@ -98,7 +106,11 @@ class TestWrapResponse:
 
     def test_json_values_correct(self):
         decision = build_decision(
-            "classify_risk", DecisionStatus.OK, "Risk classified", {"level": "amber"}, "project_setup_risk"
+            "classify_risk",
+            DecisionStatus.OK,
+            "Risk classified",
+            {"level": "amber"},
+            "project_setup_risk",
         )
         result = wrap_response("risk info", decision)
         json_part = result.split("```json\n")[1].split("\n```")[0]
@@ -125,8 +137,10 @@ class TestWrapResponse:
 def _load_index():
     """Load the real content index once for all integration tests in this module."""
     from pathlib import Path
+
     from blueprint_mcp.content_index import ContentIndex
     from blueprint_mcp.server import set_index
+
     docs_root = Path(__file__).resolve().parent.parent.parent / "docs"
     set_index(ContentIndex.load(docs_root, language="en"))
     yield
@@ -143,6 +157,7 @@ class TestToolsReturnDecisionBlock:
 
     def test_get_phase_guidance_has_decision_block(self):
         from blueprint_mcp.server import get_phase_guidance
+
         result = get_phase_guidance(1, "objectives")
         parsed = self._extract_json(result)
         assert parsed["tool"] == "get_phase_guidance"
@@ -150,12 +165,14 @@ class TestToolsReturnDecisionBlock:
 
     def test_get_template_has_decision_block(self):
         from blueprint_mcp.server import get_template
+
         result = get_template("gate-review")
         parsed = self._extract_json(result)
         assert parsed["tool"] == "get_template"
 
     def test_check_gate_readiness_has_decision_block(self):
         from blueprint_mcp.server import check_gate_readiness
+
         result = check_gate_readiness(1, ["project charter"])
         parsed = self._extract_json(result)
         assert parsed["tool"] == "check_gate_readiness"
@@ -163,12 +180,14 @@ class TestToolsReturnDecisionBlock:
 
     def test_classify_risk_has_decision_block(self):
         from blueprint_mcp.server import classify_risk
+
         result = classify_risk("A fraud detection model")
         parsed = self._extract_json(result)
         assert parsed["tool"] == "classify_risk"
 
     def test_search_content_has_decision_block(self):
         from blueprint_mcp.server import search_content
+
         result = search_content("risk")
         parsed = self._extract_json(result)
         assert parsed["tool"] == "search_content"
@@ -176,12 +195,14 @@ class TestToolsReturnDecisionBlock:
 
     def test_error_response_has_decision_block(self):
         from blueprint_mcp.server import get_phase_guidance
+
         result = get_phase_guidance(99, "objectives")
         parsed = self._extract_json(result)
         assert parsed["status"] == "error"
 
     def test_not_found_response_has_decision_block(self):
         from blueprint_mcp.server import get_template
+
         result = get_template("xyznonexistent12345")
         parsed = self._extract_json(result)
         assert parsed["status"] == "not_found"

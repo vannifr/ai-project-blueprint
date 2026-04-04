@@ -1,7 +1,8 @@
 """Shared test fixtures for Blueprint MCP server tests."""
 
-import pytest
 from pathlib import Path
+
+import pytest
 
 from blueprint_mcp.content_index import ContentIndex
 
