@@ -5,7 +5,7 @@ layer: 2
 phase: [1]
 roles: [AI Product Manager]
 summary: Overzicht van de kernactiviteiten en rolverdelingen tijdens de Verkenningsfase, van probleemverkenning tot dataevaluatie en risicobeoordeling.
-answers: [Welke activiteiten voer ik uit in deze fase?, Hoe classificeer ik het risico van mijn AI-project?]
+answers: [What activities are part of the Discovery phase?, Welke activiteiten voer ik uit in de Discovery-fase?]
 ---
 
 # 1. Kernactiviteiten & Rollen (Verkenning & Strategie)

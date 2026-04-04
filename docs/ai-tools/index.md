@@ -2,10 +2,7 @@
 versie: '1.0'
 type: index
 layer: 3
-answers:
-  - What is ai-assistent mcp?
-  - How does ai-assistent mcp work?
-  - When should I use ai-assistent mcp?
+answers: [Hoe voeg ik de Blueprint MCP-server toe aan Claude Code?, Wat is het verschil tussen de Blueprint Assistent en de MCP-server?]
 ---
 
 # AI-Assistent & MCP

@@ -5,7 +5,7 @@ type: template
 layer: 1
 tags: [governance, template]
 summary: Explicit record of who makes which decision at each gate and who can block a decision.
-answers: [How do I use the Decision Matrix template?, Who decides what in an AI project?]
+answers: [Who decides the Go/No-Go in a gate review?, What is the decision authority of the Guardian?]
 ---
 
 # Decision Matrix

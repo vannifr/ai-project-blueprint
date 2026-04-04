@@ -23,6 +23,8 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 
 from mcp.server.fastmcp import FastMCP
+from starlette.requests import Request
+from starlette.responses import JSONResponse
 
 from blueprint_mcp.confidence import score_result
 from blueprint_mcp.content_index import ContentIndex
@@ -137,11 +139,33 @@ async def lifespan(server: FastMCP):
     yield {"index": index, "semantic_index": sem_index}
 
 
+BLUEPRINT_VERSION = "1.0"
+
 mcp = FastMCP(
     "AI Project Blueprint",
     instructions="Query AI Project Blueprint guidance, templates, and checklists",
     lifespan=lifespan,
 )
+
+
+@mcp.custom_route("/health", methods=["GET"])
+async def health_check(request: Request) -> JSONResponse:
+    """Health check endpoint for load balancers, Docker, and uptime monitors.
+
+    Returns HTTP 200 with a JSON body when the server is healthy.
+    Does NOT re-load the index — reads from the already-loaded state.
+    """
+    index = get_index()
+    doc_count = len(index.docs) if index else 0
+    return JSONResponse(
+        content={
+            "status": "ok",
+            "version": BLUEPRINT_VERSION,
+            "doc_count": doc_count,
+            "transport": os.environ.get("BLUEPRINT_TRANSPORT", "streamable-http"),
+        },
+        headers={"X-Blueprint-Version": BLUEPRINT_VERSION},
+    )
 
 
 def _format_doc_summary(doc) -> str:

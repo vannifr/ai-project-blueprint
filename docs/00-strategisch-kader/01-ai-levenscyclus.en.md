@@ -4,7 +4,7 @@ description: 'The AI lifecycle model: seven sequential phases from Discovery thr
 type: strategic
 layer: 1
 summary: Description of the complete five-phase AI lifecycle that serves as the central roadmap for every AI project.
-answers: [What does AI Project Cycle entail?]
+answers: [How does the AI project lifecycle work?, What is the difference between Type A and Type B project?]
 ---
 
 # 1. AI Project Cycle

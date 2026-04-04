@@ -5,7 +5,7 @@ layer: 3
 phase: [2]
 roles: [AI Product Manager, Business Sponsor]
 tags: [template]
-answers: ['How do I use the Template: Business Case & The Cost Overview template?']
+answers: [How do I build an AI business case?, Which fields are required in an AI Business Case?]
 ---
 
 # 1. Template: Business Case & The Cost Overview

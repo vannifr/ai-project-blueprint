@@ -6,7 +6,7 @@ phase: [5]
 roles: [AI Product Manager]
 tags: [monitoring]
 summary: Overzicht van de kernactiviteiten en rolverdelingen tijdens de Beheer & Optimalisatiefase, van operationele monitoring tot driftdetectie en kostenbeheersing.
-answers: [Welke activiteiten voer ik uit in deze fase?, Welke rollen heb ik nodig?]
+answers: [Hoe bewaak ik modelprestaties na ingebruikname?, Welke activiteiten voer ik uit in de monitoring-fase?]
 ---
 
 # 1. Kernactiviteiten & Rollen (Beheer & Optimalisatie)

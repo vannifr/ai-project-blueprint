@@ -68,6 +68,12 @@ jobs:
           pip install -e "mcp_server/[dev]"
           python -m pytest mcp_server/tests/ -q --tb=short
 
+      - name: Retrieval quality check
+        run: |
+          python scripts/eval_retrieval.py --threshold 0.90 --compare scripts/eval_baseline.json
+        env:
+          PYTHONPATH: mcp_server/src
+
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
 

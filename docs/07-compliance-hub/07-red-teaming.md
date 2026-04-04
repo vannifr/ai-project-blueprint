@@ -5,7 +5,7 @@ layer: 3
 roles: [Guardian]
 tags: [eu-ai-act, playbook, security]
 summary: Opzet, standaard-oefeningen en rapportage voor het systematisch testen van AI-systeemkwetsbaarheden voordat ze in productie gaan.
-answers: [Hoe voer ik Red Teaming Playbook uit?]
+answers: [What is red teaming in the context of AI safety?, How do I conduct a red team exercise for an AI system?]
 sources:
   - id: eu-ai-act
     ref: Verordening (EU) 2024/1689 — EU AI Act (Art. 9, 65)

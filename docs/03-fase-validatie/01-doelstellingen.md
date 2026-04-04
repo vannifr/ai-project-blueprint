@@ -6,7 +6,7 @@ phase: [2]
 roles: [AI Product Manager, Data Scientist]
 tags: [validation]
 summary: 'Doelstellingen en aanpak van Fase 2: bewijzen dat het AI-idee werkt en financieel levensvatbaar is voordat grootschalig wordt geinvesteerd.'
-answers: [Wat is het doel van deze fase?]
+answers: [Wanneer is de validatiefase succesvol afgerond?, Wat is het doel van de Validatie-fase?]
 ---
 
 # 1. Validatie

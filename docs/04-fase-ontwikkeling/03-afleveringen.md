@@ -5,7 +5,7 @@ layer: 2
 phase: [3]
 roles: [AI Product Manager]
 summary: Overzicht van de verplichte opleveringen en Gate 3 criteria die bepalen of het AI-systeem productie-klaar is.
-answers: [Wat lever ik op aan het einde van deze fase?]
+answers: [Welke opleveringen zijn vereist voor Gate 3?, Wat moet ik opleveren aan het einde van de ontwikkelfase?]
 ---
 
 # 1. Opleveringen & Gate 3 (Productie-klaar) (Realisatie)

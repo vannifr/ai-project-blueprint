@@ -808,6 +808,50 @@ def check_nav_completeness(docs_dir: Path) -> list[ValidationError]:
     return errors
 
 
+# ─── answers: quality check ───────────────────────────────────────────────────
+
+_FILLER_PATTERNS: list[re.Pattern] = [
+    re.compile(r"^(Wat is|What is)\s+\S", re.IGNORECASE),
+    re.compile(r"^(Wat bevat|What does .* contain|What does .* section contain)", re.IGNORECASE),
+    re.compile(r"^(Wat houdt .* in|What does .* entail)", re.IGNORECASE),
+    # "Hoe werkt X?" — generic if X is a short noun phrase (≤ 4 extra words)
+    re.compile(r"^Hoe werkt\s+(\w+\s*){1,4}\?$", re.IGNORECASE),
+    # "How does X work?" — generic if X is a short noun phrase
+    re.compile(r"^How does\s+(\w+\s*){1,3}work\s*\?$", re.IGNORECASE),
+]
+
+_MIN_ANSWERS = 2
+
+
+def check_answers_quality(answers: list[str]) -> list[str]:
+    """Return a list of human-readable error strings. Empty list = all checks passed.
+
+    Checks:
+    - Minimum 2 answers required.
+    - No generic filler patterns (Wat is X?, What is X?, etc.).
+    """
+    errors: list[str] = []
+
+    if len(answers) < _MIN_ANSWERS:
+        errors.append(
+            f"answers: bevat {len(answers)} waarde(n) — minimaal {_MIN_ANSWERS} vereist. "
+            "Voeg taakgerichte vragen toe (Welke/Hoe/Wanneer/Who/Which/How do)."
+        )
+
+    for answer in answers:
+        stripped = answer.strip()
+        for pattern in _FILLER_PATTERNS:
+            if pattern.match(stripped):
+                errors.append(
+                    f"answers: generiek patroon verboden — '{stripped}'. "
+                    "Gebruik een taakgerichte vraag die begint met "
+                    "Welke/Hoe/Wanneer/Wie/Wat zijn de/Which/How do/When/Who/What are the."
+                )
+                break  # one error per answer
+
+    return errors
+
+
 def validate_file(filepath: str, docs_dir: Path = None) -> list[ValidationError]:
     """Run all per-file validation checks on a single file."""
     try:

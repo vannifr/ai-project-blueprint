@@ -6,7 +6,7 @@ phase: [2]
 roles: [AI Product Manager, Data Scientist]
 tags: [validation]
 summary: Overzicht van de verplichte opleveringen en Gate 2 criteria voor de investeringsbeslissing na de Validatiefase.
-answers: [Wat lever ik op aan het einde van deze fase?, Hoeveel validatie is voldoende?]
+answers: [Welke documenten moet ik aanleveren voor Gate 2?, Wat zijn de verplichte opleveringen voor de investeringsbeslissing?]
 ---
 
 # 1. Opleveringen & Gate 2 — Investeringsbeslissing

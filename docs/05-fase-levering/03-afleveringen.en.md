@@ -5,7 +5,7 @@ layer: 2
 phase: [4]
 roles: [AI Product Manager]
 summary: Overview of mandatory deliverables and Gate 4 criteria that ensure a safe go-live and operational handover.
-answers: [What do I deliver at the end of this phase?]
+answers: [What are the required deliverables at Gate 4?, What must I deliver for the go-live decision?]
 ---
 
 # 1. Deliverables & Gate 4 (Go-live) (Delivery)

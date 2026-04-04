@@ -16,6 +16,12 @@ services:
       - ../docs:/app/docs:ro
     ports:
       - "127.0.0.1:8901:8901"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8901/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
 
   mcp-server:
     build:
@@ -32,6 +38,12 @@ services:
       - ../docs:/app/docs:ro
     ports:
       - "127.0.0.1:8902:8902"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8902/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
 
 volumes:
   chroma_data:

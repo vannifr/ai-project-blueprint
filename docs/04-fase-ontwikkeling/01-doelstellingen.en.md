@@ -5,7 +5,7 @@ layer: 2
 phase: [3]
 roles: [AI Product Manager]
 summary: 'Objectives of Phase 3: building a robust, production-ready AI solution that meets all quality and safety requirements.'
-answers: [What is the goal of this phase?]
+answers: [What is specification-first development?, When is the development phase successfully completed?]
 ---
 
 # 1. Development

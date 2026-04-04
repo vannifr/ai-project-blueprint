@@ -6,7 +6,7 @@ phase: [2]
 roles: [AI Product Manager, Data Scientist]
 tags: [validation]
 summary: Overview of mandatory deliverables and Gate 2 criteria for the investment decision after the Validation phase.
-answers: [What do I deliver at the end of this phase?, How much validation is sufficient?]
+answers: [What documents do I need to deliver for Gate 2?, Which deliverables are required for the investment decision?]
 ---
 
 # 1. Deliverables & Gate 2 (PoV Investment) (Validation)

@@ -5,7 +5,7 @@ layer: 3
 roles: [Guardian]
 tags: [eu-ai-act, playbook, security]
 summary: Setup, standard exercises and reporting for systematically testing AI system vulnerabilities before they go to production.
-answers: [How do I execute Red Teaming Playbook?]
+answers: [What is red teaming in the context of AI safety?, How do I conduct a red team exercise for an AI system?]
 ---
 
 # Red Teaming Playbook

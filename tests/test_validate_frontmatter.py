@@ -224,3 +224,83 @@ class TestExistingChecksRegression:
             mp.setattr(vf, "DOCS_ROOT", tmp_docs)
             vf.validate_file(path, result)
         assert result.errors == []
+
+# ── answers: quality check ────────────────────────────────────────────────────
+
+class TestAnswersQuality:
+    """Tests for check_answers_quality() — written before implementation (TDD)."""
+
+    BAD_ANSWERS: list[tuple[str, str]] = [
+        ("Wat is Gate Review?", "Wat is X"),
+        ("What is the Validation Phase?", "What is X"),
+        ("Wat bevat het onderdeel Rollen?", "Wat bevat X"),
+        ("What does the Compliance Hub section contain?", "What does X contain"),
+        ("Wat houdt Samenwerkingsmodi in?", "Wat houdt X in"),
+        ("What does The Explorer entail?", "What does X entail"),
+        ("Hoe werkt Compliance Hub?", "Hoe werkt X (terminal ?)"),
+        ("How does Validation work?", "How does X work (terminal ?)"),
+    ]
+
+    GOOD_ANSWERS: list[str] = [
+        "Welke documenten moet ik aanleveren voor Gate 2?",
+        "How do I classify the risk level of my AI system?",
+        "Wanneer is de validatiefase succesvol afgerond?",
+        "Who decides the Go/No-Go in a gate review?",
+        "Hoe bereid ik een Gate 3 review voor?",
+        "Which templates are required for phase 3?",
+        "Wat zijn de verplichte opleveringen voor Gate 1?",
+        "What are the required deliverables at Gate 4?",
+        "Wie is verantwoordelijk voor de risico-assessment?",
+        "When should I escalate to the Guardian?",
+    ]
+
+    @pytest.fixture(autouse=True)
+    def import_check_fn(self):
+        import validate_docs as vd
+        self.check = vd.check_answers_quality
+
+    @pytest.mark.parametrize("answer,label", BAD_ANSWERS)
+    def test_rejects_generic_answer(self, answer: str, label: str) -> None:
+        errors = self.check([answer, "Welke documenten voor Gate 2?"])
+        assert errors, f"[{label}] Should have rejected: {answer!r}"
+
+    @pytest.mark.parametrize("good", GOOD_ANSWERS)
+    def test_accepts_specific_answer(self, good: str) -> None:
+        errors = self.check([good, "Welke rollen zijn verplicht?"])
+        assert not errors, f"Should have accepted: {good!r} — got: {errors}"
+
+    def test_requires_minimum_two_answers(self) -> None:
+        errors = self.check(["Welke documenten voor Gate 2?"])
+        assert any("2" in e or "minimaal" in e.lower() or "minimum" in e.lower() for e in errors), (
+            f"Expected minimum-2 error, got: {errors}"
+        )
+
+    def test_two_good_answers_pass(self) -> None:
+        errors = self.check([
+            "Welke documenten moet ik aanleveren voor Gate 2?",
+            "Wanneer is de validatiefase afgerond?",
+        ])
+        assert not errors
+
+    def test_one_bad_among_two_fails(self) -> None:
+        errors = self.check([
+            "Welke documenten voor Gate 2?",
+            "Wat is Gate Review?",
+        ])
+        assert errors
+
+    def test_error_names_offending_answer(self) -> None:
+        bad = "Wat is Gate Review?"
+        errors = self.check([bad, "Welke documenten voor Gate 2?"])
+        assert any("Wat is Gate Review" in e for e in errors), (
+            f"Expected error mentioning the answer, got: {errors}"
+        )
+
+    def test_empty_list_counts_as_too_few(self) -> None:
+        errors = self.check([])
+        assert errors
+
+    def test_returns_list_of_strings(self) -> None:
+        result = self.check(["Wat is X?", "Welke documenten voor Gate 2?"])
+        assert isinstance(result, list)
+        assert all(isinstance(e, str) for e in result)

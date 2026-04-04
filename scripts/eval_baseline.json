@@ -1,0 +1,708 @@
+{
+  "n": 40,
+  "precision_at_1": 0.975,
+  "precision_at_3": 1.0,
+  "mrr": 0.9875,
+  "by_category": {
+    "gate-deliverables": {
+      "n": 7,
+      "p1": 1.0,
+      "p3": 1.0
+    },
+    "compliance": {
+      "n": 6,
+      "p1": 1.0,
+      "p3": 1.0
+    },
+    "roles": {
+      "n": 5,
+      "p1": 1.0,
+      "p3": 1.0
+    },
+    "templates": {
+      "n": 6,
+      "p1": 1.0,
+      "p3": 1.0
+    },
+    "phase-activities": {
+      "n": 5,
+      "p1": 0.8,
+      "p3": 1.0
+    },
+    "concepts": {
+      "n": 5,
+      "p1": 1.0,
+      "p3": 1.0
+    },
+    "strategy": {
+      "n": 4,
+      "p1": 1.0,
+      "p3": 1.0
+    },
+    "mcp": {
+      "n": 2,
+      "p1": 1.0,
+      "p3": 1.0
+    }
+  },
+  "failures": [
+    {
+      "id": "fa-05",
+      "question": "What is specification-first development?",
+      "lang": "en",
+      "category": "phase-activities",
+      "expected": "04-fase-ontwikkeling/01-doelstellingen.en.md",
+      "rank": 2,
+      "top3_paths": [
+        "04-fase-ontwikkeling/05-sdd-patroon.en.md",
+        "04-fase-ontwikkeling/01-doelstellingen.en.md",
+        "02-fase-ontdekking/05-has-h-beoordeling.en.md"
+      ],
+      "p1": false,
+      "p3": true,
+      "rr": 0.5
+    }
+  ],
+  "results": [
+    {
+      "id": "gd-01",
+      "question": "Welke documenten moet ik aanleveren voor Gate 1?",
+      "lang": "nl",
+      "category": "gate-deliverables",
+      "expected": "02-fase-ontdekking/03-afleveringen.md",
+      "rank": 1,
+      "top3_paths": [
+        "02-fase-ontdekking/03-afleveringen.md",
+        "03-fase-validatie/03-afleveringen.md",
+        "05-fase-levering/03-afleveringen.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "gd-02",
+      "question": "Welke documenten moet ik aanleveren voor Gate 2?",
+      "lang": "nl",
+      "category": "gate-deliverables",
+      "expected": "03-fase-validatie/03-afleveringen.md",
+      "rank": 1,
+      "top3_paths": [
+        "03-fase-validatie/03-afleveringen.md",
+        "02-fase-ontdekking/03-afleveringen.md",
+        "05-fase-levering/03-afleveringen.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "gd-03",
+      "question": "What documents do I need to deliver for Gate 2?",
+      "lang": "en",
+      "category": "gate-deliverables",
+      "expected": "03-fase-validatie/03-afleveringen.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "03-fase-validatie/03-afleveringen.en.md",
+        "04-fase-ontwikkeling/06-engineering-patterns.en.md",
+        "05-fase-levering/03-afleveringen.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "gd-04",
+      "question": "Welke opleveringen zijn vereist voor de go-live beslissing?",
+      "lang": "nl",
+      "category": "gate-deliverables",
+      "expected": "05-fase-levering/03-afleveringen.md",
+      "rank": 1,
+      "top3_paths": [
+        "05-fase-levering/03-afleveringen.md",
+        "03-fase-validatie/03-afleveringen.md",
+        "04-fase-ontwikkeling/03-afleveringen.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "gd-05",
+      "question": "What are the required deliverables at Gate 4?",
+      "lang": "en",
+      "category": "gate-deliverables",
+      "expected": "05-fase-levering/03-afleveringen.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "05-fase-levering/03-afleveringen.en.md",
+        "03-fase-validatie/03-afleveringen.en.md",
+        "04-fase-ontwikkeling/03-afleveringen.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "gd-06",
+      "question": "Wat moet ik opleveren na de Discovery-fase?",
+      "lang": "nl",
+      "category": "gate-deliverables",
+      "expected": "02-fase-ontdekking/03-afleveringen.md",
+      "rank": 1,
+      "top3_paths": [
+        "02-fase-ontdekking/03-afleveringen.md",
+        "04-fase-ontwikkeling/03-afleveringen.md",
+        "05-fase-levering/03-afleveringen.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "gd-07",
+      "question": "Which deliverables are mandatory for Gate 3?",
+      "lang": "en",
+      "category": "gate-deliverables",
+      "expected": "04-fase-ontwikkeling/03-afleveringen.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "04-fase-ontwikkeling/03-afleveringen.en.md",
+        "03-fase-validatie/03-afleveringen.en.md",
+        "05-fase-levering/03-afleveringen.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "co-01",
+      "question": "Welke EU AI Act-verplichtingen gelden voor high-risk systemen?",
+      "lang": "nl",
+      "category": "compliance",
+      "expected": "07-compliance-hub/01-eu-ai-act/index.md",
+      "rank": 1,
+      "top3_paths": [
+        "07-compliance-hub/01-eu-ai-act/index.md",
+        "04-fase-ontwikkeling/06-engineering-patterns.md",
+        "03-fase-validatie/03-afleveringen.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "co-02",
+      "question": "Is mijn AI-systeem high-risk onder de EU AI Act?",
+      "lang": "nl",
+      "category": "compliance",
+      "expected": "07-compliance-hub/01-eu-ai-act/index.md",
+      "rank": 1,
+      "top3_paths": [
+        "07-compliance-hub/01-eu-ai-act/index.md",
+        "01-ai-native-fundamenten/05-risicoclassificatie.md",
+        "03-fase-validatie/01-doelstellingen.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "co-03",
+      "question": "How do I classify the risk level of my AI system?",
+      "lang": "en",
+      "category": "compliance",
+      "expected": "01-ai-native-fundamenten/05-risicoclassificatie.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "01-ai-native-fundamenten/05-risicoclassificatie.en.md",
+        "03-fase-validatie/05-risicoclassificatie.en.md",
+        "07-compliance-hub/02-risicobeheer/index.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "co-04",
+      "question": "Hoe reageer ik op een AI-incident?",
+      "lang": "nl",
+      "category": "compliance",
+      "expected": "07-compliance-hub/05-incidentrespons.md",
+      "rank": 1,
+      "top3_paths": [
+        "07-compliance-hub/05-incidentrespons.md",
+        "08-technische-standaarden/10-data-governance.md",
+        "09-sjablonen/03-risicoanalyse/pre-scan.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "co-05",
+      "question": "What is red teaming in the context of AI safety?",
+      "lang": "en",
+      "category": "compliance",
+      "expected": "07-compliance-hub/07-red-teaming.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "07-compliance-hub/07-red-teaming.en.md",
+        "00-strategisch-kader/01-ai-levenscyclus.en.md",
+        "02-fase-ontdekking/03-afleveringen.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "co-06",
+      "question": "Hoe beheer ik risico's in een AI-project?",
+      "lang": "nl",
+      "category": "compliance",
+      "expected": "07-compliance-hub/02-risicobeheer/index.md",
+      "rank": 1,
+      "top3_paths": [
+        "07-compliance-hub/02-risicobeheer/index.md",
+        "08-technische-standaarden/10-data-governance.md",
+        "12-90-dagen-roadmap/index.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ro-01",
+      "question": "Wat doet de Guardian in een AI-project?",
+      "lang": "nl",
+      "category": "roles",
+      "expected": "08-rollen-en-verantwoordelijkheden/index.md",
+      "rank": 1,
+      "top3_paths": [
+        "08-rollen-en-verantwoordelijkheden/index.md",
+        "00-strategisch-kader/07-organisatorische-heruitvinding.md",
+        "08-technische-standaarden/06-cloud-vs-onpremise.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ro-02",
+      "question": "Wie beslist de Go/No-Go bij een gate review?",
+      "lang": "nl",
+      "category": "roles",
+      "expected": "08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.md",
+      "rank": 1,
+      "top3_paths": [
+        "08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.md",
+        "02-fase-ontdekking/03-afleveringen.md",
+        "08-technische-standaarden/06-cloud-vs-onpremise.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ro-03",
+      "question": "Who decides the Go/No-Go in a gate review?",
+      "lang": "en",
+      "category": "roles",
+      "expected": "08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "08-rollen-en-verantwoordelijkheden/besluitvormingsmatrix.en.md",
+        "02-fase-ontdekking/03-afleveringen.en.md",
+        "09-sjablonen/04-gate-reviews/checklist.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ro-04",
+      "question": "Welke rollen zijn verplicht in een AI-projectteam?",
+      "lang": "nl",
+      "category": "roles",
+      "expected": "08-rollen-en-verantwoordelijkheden/index.md",
+      "rank": 1,
+      "top3_paths": [
+        "08-rollen-en-verantwoordelijkheden/index.md",
+        "12-90-dagen-roadmap/index.md",
+        "09-sjablonen/02-business-case/template.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "ro-05",
+      "question": "How do I onboard a new AI project manager?",
+      "lang": "en",
+      "category": "roles",
+      "expected": "08-rollen-en-verantwoordelijkheden/04-ai-pm-onboarding.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "08-rollen-en-verantwoordelijkheden/04-ai-pm-onboarding.en.md",
+        "04-fase-ontwikkeling/06-engineering-patterns.en.md",
+        "08-technische-standaarden/10-data-governance.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "tp-01",
+      "question": "Hoe vul ik een Project Charter in?",
+      "lang": "nl",
+      "category": "templates",
+      "expected": "09-sjablonen/01-project-charter/template.md",
+      "rank": 1,
+      "top3_paths": [
+        "09-sjablonen/01-project-charter/template.md",
+        "07-compliance-hub/05-incidentrespons.md",
+        "08-technische-standaarden/10-data-governance.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "tp-02",
+      "question": "Wat is de RAG Design Canvas en hoe gebruik ik die?",
+      "lang": "nl",
+      "category": "templates",
+      "expected": "09-sjablonen/16-rag-design-canvas/template.md",
+      "rank": 1,
+      "top3_paths": [
+        "09-sjablonen/16-rag-design-canvas/template.md",
+        "ai-tools/index.md",
+        "03-fase-validatie/01-doelstellingen.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "tp-03",
+      "question": "How do I fill in the Gate Review checklist?",
+      "lang": "en",
+      "category": "templates",
+      "expected": "09-sjablonen/04-gate-reviews/checklist.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "09-sjablonen/04-gate-reviews/checklist.en.md",
+        "02-fase-ontdekking/02-activiteiten.en.md",
+        "08-technische-standaarden/10-data-governance.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "tp-04",
+      "question": "Welke velden zijn verplicht in een Business Case?",
+      "lang": "nl",
+      "category": "templates",
+      "expected": "09-sjablonen/02-business-case/template.md",
+      "rank": 1,
+      "top3_paths": [
+        "09-sjablonen/02-business-case/template.md",
+        "08-rollen-en-verantwoordelijkheden/index.md",
+        "12-90-dagen-roadmap/index.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "tp-05",
+      "question": "Hoe doe ik een risico pre-scan voor mijn AI-project?",
+      "lang": "nl",
+      "category": "templates",
+      "expected": "09-sjablonen/03-risicoanalyse/pre-scan.md",
+      "rank": 1,
+      "top3_paths": [
+        "09-sjablonen/03-risicoanalyse/pre-scan.md",
+        "02-fase-ontdekking/06-fast-lane.md",
+        "08-technische-standaarden/10-data-governance.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "tp-06",
+      "question": "What is the Guardian Review template?",
+      "lang": "en",
+      "category": "templates",
+      "expected": "09-sjablonen/15-guardian-review/template.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "09-sjablonen/15-guardian-review/template.en.md",
+        "00-strategisch-kader/01-ai-levenscyclus.en.md",
+        "04-fase-ontwikkeling/05-sdd-patroon.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "fa-01",
+      "question": "Welke stappen voer ik uit in de validatiefase?",
+      "lang": "nl",
+      "category": "phase-activities",
+      "expected": "03-fase-validatie/02-activiteiten.md",
+      "rank": 1,
+      "top3_paths": [
+        "03-fase-validatie/02-activiteiten.md",
+        "12-90-dagen-roadmap/index.md",
+        "05-fase-levering/02-activiteiten.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "fa-02",
+      "question": "What activities are part of the Discovery phase?",
+      "lang": "en",
+      "category": "phase-activities",
+      "expected": "02-fase-ontdekking/02-activiteiten.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "02-fase-ontdekking/02-activiteiten.en.md",
+        "02-fase-ontdekking/03-afleveringen.en.md",
+        "02-fase-ontdekking/01-doelstellingen.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "fa-03",
+      "question": "Hoe bewaak ik modelprestaties na ingebruikname?",
+      "lang": "nl",
+      "category": "phase-activities",
+      "expected": "06-fase-monitoring/02-activiteiten.md",
+      "rank": 1,
+      "top3_paths": [
+        "06-fase-monitoring/02-activiteiten.md",
+        "04-fase-ontwikkeling/06-engineering-patterns.md",
+        "08-technische-standaarden/10-data-governance.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "fa-04",
+      "question": "Wanneer is de validatiefase succesvol afgerond?",
+      "lang": "nl",
+      "category": "phase-activities",
+      "expected": "03-fase-validatie/01-doelstellingen.md",
+      "rank": 1,
+      "top3_paths": [
+        "03-fase-validatie/01-doelstellingen.md",
+        "04-fase-ontwikkeling/01-doelstellingen.md",
+        "01-ai-native-fundamenten/01-definitie.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "fa-05",
+      "question": "What is specification-first development?",
+      "lang": "en",
+      "category": "phase-activities",
+      "expected": "04-fase-ontwikkeling/01-doelstellingen.en.md",
+      "rank": 2,
+      "top3_paths": [
+        "04-fase-ontwikkeling/05-sdd-patroon.en.md",
+        "04-fase-ontwikkeling/01-doelstellingen.en.md",
+        "02-fase-ontdekking/05-has-h-beoordeling.en.md"
+      ],
+      "p1": false,
+      "p3": true,
+      "rr": 0.5
+    },
+    {
+      "id": "kn-01",
+      "question": "Wat zijn de vijf samenwerkingsmodi?",
+      "lang": "nl",
+      "category": "concepts",
+      "expected": "00-strategisch-kader/06-has-h-niveaus.md",
+      "rank": 1,
+      "top3_paths": [
+        "00-strategisch-kader/06-has-h-niveaus.md",
+        "01-ai-native-fundamenten/01-definitie.md",
+        "08-technische-standaarden/06-cloud-vs-onpremise.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "kn-02",
+      "question": "What are the five Collaboration Modes?",
+      "lang": "en",
+      "category": "concepts",
+      "expected": "00-strategisch-kader/06-has-h-niveaus.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "00-strategisch-kader/06-has-h-niveaus.en.md",
+        "05-fase-levering/03-afleveringen.en.md",
+        "02-fase-ontdekking/05-has-h-beoordeling.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "kn-03",
+      "question": "Wat is een rode lijn in een AI-systeem?",
+      "lang": "nl",
+      "category": "concepts",
+      "expected": "01-ai-native-fundamenten/01-definitie.md",
+      "rank": 1,
+      "top3_paths": [
+        "01-ai-native-fundamenten/01-definitie.md",
+        "08-rollen-en-verantwoordelijkheden/index.md",
+        "00-strategisch-kader/07-organisatorische-heruitvinding.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "kn-04",
+      "question": "How does the AI project lifecycle work?",
+      "lang": "en",
+      "category": "concepts",
+      "expected": "00-strategisch-kader/01-ai-levenscyclus.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "00-strategisch-kader/01-ai-levenscyclus.en.md",
+        "08-rollen-en-verantwoordelijkheden/04-ai-pm-onboarding.en.md",
+        "04-fase-ontwikkeling/06-engineering-patterns.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "kn-05",
+      "question": "Wat is het verschil tussen Type A en Type B project?",
+      "lang": "nl",
+      "category": "concepts",
+      "expected": "00-strategisch-kader/01-ai-levenscyclus.md",
+      "rank": 1,
+      "top3_paths": [
+        "00-strategisch-kader/01-ai-levenscyclus.md",
+        "ai-tools/index.md",
+        "03-fase-validatie/01-doelstellingen.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "st-01",
+      "question": "Hoe start ik een AI-project in 90 dagen?",
+      "lang": "nl",
+      "category": "strategy",
+      "expected": "12-90-dagen-roadmap/index.md",
+      "rank": 1,
+      "top3_paths": [
+        "12-90-dagen-roadmap/index.md",
+        "08-technische-standaarden/10-data-governance.md",
+        "08-rollen-en-verantwoordelijkheden/index.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "st-02",
+      "question": "Welk organisatieprofiel past bij mijn bedrijf?",
+      "lang": "nl",
+      "category": "strategy",
+      "expected": "13-organisatieprofielen/index.md",
+      "rank": 1,
+      "top3_paths": [
+        "13-organisatieprofielen/index.md",
+        "07-compliance-hub/02-risicobeheer/index.md",
+        "index.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "st-03",
+      "question": "How do I build an AI business case?",
+      "lang": "en",
+      "category": "strategy",
+      "expected": "09-sjablonen/02-business-case/template.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "09-sjablonen/02-business-case/template.en.md",
+        "08-technische-standaarden/10-data-governance.en.md",
+        "04-fase-ontwikkeling/06-engineering-patterns.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "st-04",
+      "question": "Hoe selecteer ik een AI-leverancier?",
+      "lang": "nl",
+      "category": "strategy",
+      "expected": "09-sjablonen/14-vendor-management/01-selectie-framework.md",
+      "rank": 1,
+      "top3_paths": [
+        "09-sjablonen/14-vendor-management/01-selectie-framework.md",
+        "07-compliance-hub/05-incidentrespons.md",
+        "08-technische-standaarden/10-data-governance.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "mc-01",
+      "question": "Hoe voeg ik de Blueprint MCP-server toe aan Claude Code?",
+      "lang": "nl",
+      "category": "mcp",
+      "expected": "ai-tools/index.md",
+      "rank": 1,
+      "top3_paths": [
+        "ai-tools/index.md",
+        "03-fase-validatie/02-activiteiten.md",
+        "06-fase-monitoring/02-activiteiten.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    },
+    {
+      "id": "mc-02",
+      "question": "Which MCP tools are available for compliance checks?",
+      "lang": "en",
+      "category": "mcp",
+      "expected": "ai-tools/mcp-tools.en.md",
+      "rank": 1,
+      "top3_paths": [
+        "ai-tools/mcp-tools.en.md",
+        "03-fase-validatie/03-afleveringen.en.md",
+        "07-compliance-hub/04-validatie-eisen.en.md"
+      ],
+      "p1": true,
+      "p3": true,
+      "rr": 1.0
+    }
+  ]
+}

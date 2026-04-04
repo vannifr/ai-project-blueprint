@@ -4,7 +4,7 @@ type: template
 layer: 3
 phase: [2, 3]
 tags: [template, vendor]
-answers: [Hoe gebruik ik het Vendor Selectie Framework sjabloon?]
+answers: [Hoe selecteer ik een AI-leverancier?, Welke criteria gebruik ik bij AI-vendor selectie?]
 ---
 
 # Vendor Selectie Framework

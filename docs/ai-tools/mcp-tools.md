@@ -2,12 +2,7 @@
 versie: '1.0'
 type: reference
 layer: 3
-answers:
-  - Wat zijn alle MCP tools?
-  - Welke tools biedt de Blueprint MCP-server?
-  - Hoe gebruik ik get_tool_cheatsheet?
-  - Wanneer gebruik ik answer_question vs search_content?
-  - Hoe start ik een sessie in de MCP-server?
+answers: [Welke MCP tools zijn beschikbaar voor compliance-controle?, Which MCP tools are available for compliance checks?]
 ---
 
 # MCP Tool Referentie

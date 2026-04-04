@@ -5,7 +5,7 @@ type: template
 layer: 1
 tags: [governance, template]
 summary: Expliciete vastlegging van wie welke beslissing neemt bij elke gate en wie een beslissing kan blokkeren.
-answers: [Hoe gebruik ik het Besluitvormingsmatrix sjabloon?, Wie beslist wat in een AI-project?]
+answers: [Wie beslist de Go/No-Go bij een gate review?, Who decides the Go/No-Go in a gate review?]
 ---
 
 # Besluitvormingsmatrix

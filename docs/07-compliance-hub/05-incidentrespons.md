@@ -5,7 +5,7 @@ layer: 3
 roles: [Guardian]
 tags: [eu-ai-act, security]
 summary: Ernst-matrix, rollen en directe acties voor snel en gecoördineerd reageren op AI-incidenten.
-answers: [Wat zijn de compliance-eisen voor Incident Respons?, Welke rollen heb ik nodig?]
+answers: [Hoe reageer ik op een AI-incident?, Welke stappen volg ik bij een AI-veiligheidsincident?]
 sources:
   - id: eu-ai-act
     ref: Verordening (EU) 2024/1689 — EU AI Act (Art. 73, 74, 75)

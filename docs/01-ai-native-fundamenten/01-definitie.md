@@ -4,7 +4,7 @@ description: 'Kernprincipes van AI-native projectmanagement: gedragssturing, tra
 type: foundation
 layer: 1
 summary: 'Uitleg van de kernprincipes van AI-native projectmanagement: gedragssturing, traceerbaarheid en menselijk toezicht als fundament.'
-answers: [Wat houdt De Kernprincipes in?]
+answers: [Wat is een rode lijn in een AI-systeem?, Wat zijn de vier kernartefacten van AI-native ontwikkeling?]
 ---
 
 # 1. De Kernprincipes

@@ -2,12 +2,7 @@
 versie: '1.0'
 type: reference
 layer: 3
-answers:
-  - What are all the MCP tools?
-  - Which tools does the Blueprint MCP server offer?
-  - How do I use get_tool_cheatsheet?
-  - When should I use answer_question vs search_content?
-  - How do I start a session in the MCP server?
+answers: [Which MCP tools are available for compliance checks?, What MCP tools does the Blueprint server offer?]
 ---
 
 # MCP Tool Reference

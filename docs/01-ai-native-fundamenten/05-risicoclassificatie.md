@@ -5,7 +5,7 @@ layer: 1
 roles: [Guardian]
 tags: [risk]
 summary: Classificatie van wijzigingen op basis van impact, zodat de juiste validatiediepgang wordt toegepast in lijn met de EU AI Act.
-answers: [Wat houdt Risicoclassificatie in?, Hoe classificeer ik het risico van mijn AI-project?]
+answers: [How do I classify the risk level of my AI system?, Hoe gebruik ik de risicopiramide voor mijn AI-project?]
 ---
 
 # 1. Risicoclassificatie
