@@ -159,14 +159,22 @@ def check_links(docs_root: Path) -> list[dict]:
             # Classify
             if raw_target.startswith(("http://", "https://", "mailto:")):
                 results.append(
-                    {"source": str(md_file.relative_to(docs_root)), "target": raw_target, "status": "external"}
+                    {
+                        "source": str(md_file.relative_to(docs_root)),
+                        "target": raw_target,
+                        "status": "external",
+                    }
                 )
                 continue
 
             if not target:
                 # Anchor-only link
                 results.append(
-                    {"source": str(md_file.relative_to(docs_root)), "target": raw_target, "status": "anchor"}
+                    {
+                        "source": str(md_file.relative_to(docs_root)),
+                        "target": raw_target,
+                        "status": "anchor",
+                    }
                 )
                 continue
 
@@ -176,7 +184,9 @@ def check_links(docs_root: Path) -> list[dict]:
                 status = "ok"
             else:
                 # Try with .md extension
-                resolved_md = (md_file.parent / (target if target.endswith(".md") else target + ".md")).resolve()
+                resolved_md = (
+                    md_file.parent / (target if target.endswith(".md") else target + ".md")
+                ).resolve()
                 status = "ok" if resolved_md.exists() else "broken"
 
             results.append(
@@ -264,7 +274,9 @@ def main() -> int:  # noqa: C901
         default=None,
         help="Lint a single phase (1–5). Omit to lint all phases.",
     )
-    parser.add_argument("--verbose", "-v", action="store_true", help="Show all checks, not only failures.")
+    parser.add_argument(
+        "--verbose", "-v", action="store_true", help="Show all checks, not only failures."
+    )
     parser.add_argument("--links-only", action="store_true", help="Only run link-integrity checks.")
     parser.add_argument(
         "--docs",
@@ -284,7 +296,10 @@ def main() -> int:  # noqa: C901
     if not args.links_only:
         if args.phase is not None:
             if args.phase not in _VALID_PHASES:
-                print(f"Error: --phase must be one of {sorted(_VALID_PHASES)}, got {args.phase}", file=sys.stderr)
+                print(
+                    f"Error: --phase must be one of {sorted(_VALID_PHASES)}, got {args.phase}",
+                    file=sys.stderr,
+                )
                 return 2
             phases_to_lint = [args.phase]
         else:

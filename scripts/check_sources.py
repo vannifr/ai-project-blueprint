@@ -77,6 +77,7 @@ REQUIRED_SOURCE_FIELDS = {"id", "ref", "url", "date_verified", "next_review"}
 
 # ── Issue dataclass ───────────────────────────────────────────────────────────
 
+
 class Issue:
     def __init__(self, doc: str, source_id: str, severity: str, message: str):
         self.doc = doc
@@ -89,6 +90,7 @@ class Issue:
 
 
 # ── Frontmatter parser ────────────────────────────────────────────────────────
+
 
 def parse_frontmatter(path: Path) -> dict[str, Any] | None:
     """Return parsed YAML frontmatter or None if absent/invalid."""
@@ -105,6 +107,7 @@ def parse_frontmatter(path: Path) -> dict[str, Any] | None:
 
 
 # ── Local checks ──────────────────────────────────────────────────────────────
+
 
 def check_doc(path: Path) -> list[Issue]:
     """Run all local checks on a single file."""
@@ -126,8 +129,14 @@ def check_doc(path: Path) -> list[Issue]:
 
     sources = fm.get("sources")
     if not sources:
-        issues.append(Issue(rel, "-", "error",
-                            f"type '{doc_type}' with regulatory tags must have a 'sources:' block"))
+        issues.append(
+            Issue(
+                rel,
+                "-",
+                "error",
+                f"type '{doc_type}' with regulatory tags must have a 'sources:' block",
+            )
+        )
         return issues
 
     if not isinstance(sources, list):
@@ -144,8 +153,9 @@ def check_doc(path: Path) -> list[Issue]:
         # Required fields
         missing = REQUIRED_SOURCE_FIELDS - set(src.keys())
         if missing:
-            issues.append(Issue(rel, src_id, "error",
-                                f"missing required fields: {sorted(missing)}"))
+            issues.append(
+                Issue(rel, src_id, "error", f"missing required fields: {sorted(missing)}")
+            )
 
         # next_review date check
         next_review_raw = src.get("next_review")
@@ -153,18 +163,36 @@ def check_doc(path: Path) -> list[Issue]:
             try:
                 next_review = datetime.strptime(str(next_review_raw), "%Y-%m-%d").date()
             except ValueError:
-                issues.append(Issue(rel, src_id, "error",
-                                    f"next_review '{next_review_raw}' is not a valid YYYY-MM-DD date"))
+                issues.append(
+                    Issue(
+                        rel,
+                        src_id,
+                        "error",
+                        f"next_review '{next_review_raw}' is not a valid YYYY-MM-DD date",
+                    )
+                )
                 continue
 
             days_overdue = (TODAY - next_review).days
             if days_overdue > 0:
-                issues.append(Issue(rel, src_id, "warning",
-                                    f"review overdue by {days_overdue} day(s) "
-                                    f"(next_review: {next_review_raw})"))
+                issues.append(
+                    Issue(
+                        rel,
+                        src_id,
+                        "warning",
+                        f"review overdue by {days_overdue} day(s) "
+                        f"(next_review: {next_review_raw})",
+                    )
+                )
             elif days_overdue > -30:
-                issues.append(Issue(rel, src_id, "info",
-                                    f"review due within 30 days (next_review: {next_review_raw})"))
+                issues.append(
+                    Issue(
+                        rel,
+                        src_id,
+                        "info",
+                        f"review due within 30 days (next_review: {next_review_raw})",
+                    )
+                )
 
         # date_verified format
         dv_raw = src.get("date_verified")
@@ -172,14 +200,26 @@ def check_doc(path: Path) -> list[Issue]:
             try:
                 datetime.strptime(str(dv_raw), "%Y-%m-%d")
             except ValueError:
-                issues.append(Issue(rel, src_id, "error",
-                                    f"date_verified '{dv_raw}' is not a valid YYYY-MM-DD date"))
+                issues.append(
+                    Issue(
+                        rel,
+                        src_id,
+                        "error",
+                        f"date_verified '{dv_raw}' is not a valid YYYY-MM-DD date",
+                    )
+                )
 
         # Known source id validation
         if src_id != "?" and src_id not in KNOWN_SOURCES:
-            issues.append(Issue(rel, src_id, "warning",
-                                f"unknown source id '{src_id}' — add to KNOWN_SOURCES registry "
-                                f"in check_sources.py"))
+            issues.append(
+                Issue(
+                    rel,
+                    src_id,
+                    "warning",
+                    f"unknown source id '{src_id}' — add to KNOWN_SOURCES registry "
+                    f"in check_sources.py",
+                )
+            )
 
     return issues
 
@@ -195,6 +235,7 @@ def run_local_checks() -> list[Issue]:
 
 
 # ── Remote checks (EUR-Lex) ───────────────────────────────────────────────────
+
 
 def _fetch_url(url: str, timeout: int = 15) -> str | None:
     """Fetch URL and return HTML text, or None on error."""
@@ -253,7 +294,9 @@ def check_eurlex_celex(celex: str, date_verified_str: str) -> list[str]:
     if act_html is None:
         warnings.append(f"Act CELEX:{celex} is not accessible on EUR-Lex — verify URL")
     elif "Document not found" in act_html or "No results" in act_html:
-        warnings.append(f"EUR-Lex reports CELEX:{celex} as not found — document may have been replaced")
+        warnings.append(
+            f"EUR-Lex reports CELEX:{celex} as not found — document may have been replaced"
+        )
 
     return warnings
 
@@ -299,6 +342,7 @@ def run_remote_checks(issues: list[Issue]) -> list[Issue]:
 
 
 # ── Output formatters ─────────────────────────────────────────────────────────
+
 
 def format_report(all_issues: list[Issue]) -> str:
     errors = [i for i in all_issues if i.severity == "error"]
@@ -414,16 +458,20 @@ def format_json(all_issues: list[Issue]) -> str:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+
 def main():
     parser = argparse.ArgumentParser(
         description="Check source currency for authoritative references in docs."
     )
-    parser.add_argument("--remote", action="store_true",
-                        help="Fetch EUR-Lex to check for new related documents")
-    parser.add_argument("--github-issue", action="store_true",
-                        help="Output markdown formatted for a GitHub issue body")
-    parser.add_argument("--json", action="store_true",
-                        help="Output structured JSON")
+    parser.add_argument(
+        "--remote", action="store_true", help="Fetch EUR-Lex to check for new related documents"
+    )
+    parser.add_argument(
+        "--github-issue",
+        action="store_true",
+        help="Output markdown formatted for a GitHub issue body",
+    )
+    parser.add_argument("--json", action="store_true", help="Output structured JSON")
     args = parser.parse_args()
 
     print("Scanning docs for source metadata …", file=sys.stderr)
