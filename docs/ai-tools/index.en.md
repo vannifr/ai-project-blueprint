@@ -119,6 +119,8 @@ The server also exposes individual tools for direct lookups:
 - Retrieve templates and checklists by name
 - Look up terminology, phase guidance, and risk frameworks
 
+**[Full tool reference →](mcp-tools.en.md)** — all 31 tools with parameters and examples.
+
 **Example prompts for Claude:**
 
 > *"Use the Blueprint MCP server and help me set up my fraud detection project."*

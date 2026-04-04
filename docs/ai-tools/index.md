@@ -119,6 +119,8 @@ De server biedt ook individuele tools voor directe opzoekopdrachten:
 - Templates en checklists ophalen op naam
 - Terminologie, faseguidance en risicoframeworks opzoeken
 
+**[Volledige tool-referentie →](mcp-tools.md)** — alle 31 tools met parameters en voorbeelden.
+
 **Voorbeeldprompts voor Claude:**
 
 > *"Gebruik de Blueprint MCP-server en help me mijn fraudedetectieproject op te zetten."*

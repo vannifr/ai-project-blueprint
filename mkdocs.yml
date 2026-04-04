@@ -214,6 +214,7 @@ plugins:
             "Model Health Review": "Model Health Review"
             "Veelgestelde Vragen (FAQ)": "Frequently Asked Questions (FAQ)"
             "AI-Assistent & MCP": "AI Assistant & MCP"
+            "MCP Tool Referentie": "MCP Tool Reference"
             "RAG Design Canvas": "RAG Design Canvas"
   - search:
       lang: [nl, en]
@@ -255,6 +256,7 @@ nav:
     - Leeswijzer & Navigatie: 00-strategisch-kader/00-leeswijzer.md
     - Veelgestelde Vragen (FAQ): 00-navigator/faq.md
     - AI-Assistent & MCP: ai-tools/index.md
+    - MCP Tool Referentie: ai-tools/mcp-tools.md
     - Verkenner Kit (30 Dagen):
       - Overzicht: 00-explorer-kit/index.md
       - 30-Dagen Plan: 00-explorer-kit/01-30-dagen-plan.md
