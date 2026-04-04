@@ -167,6 +167,8 @@ def answer_question(question: str, output_format: str = "markdown") -> str:
     Args:
         question: Natural language question (e.g. "How do I classify the risk of my AI project?")
         output_format: Response format — "markdown" (default) or "json"
+
+    Next step: use get_template to retrieve related templates, or get_phase_guidance for phase-specific activities.
     """
     index = get_index()
 
@@ -313,6 +315,8 @@ def get_phase_guidance(phase: int, aspect: str, output_format: str = "markdown")
         phase: Phase number (1=Discovery, 2=Validation, 3=Development, 4=Delivery, 5=Monitoring)
         aspect: One of "objectives", "activities", or "deliverables"
         output_format: Response format — "markdown" (default) or "json"
+
+    Next step: call get_template or get_template_for_context to find relevant templates.
     """
     if phase not in range(1, 6):
         return format_response(
@@ -372,6 +376,8 @@ def get_template(name: str, output_format: str = "markdown") -> str:
         name: Template name or keyword (e.g. "project-charter", "risk-pre-scan",
               "gate-review", "privacy", "modelkaart", "validatierapport")
         output_format: Response format — "markdown" (default) or "json"
+
+    Next step: call fill_template to populate placeholders with project-specific values.
     """
     index = get_index()
     templates = index.get_templates()
@@ -428,6 +434,8 @@ def check_gate_readiness(gate: int, evidence: list[str], output_format: str = "m
         gate: Gate number (1-5)
         evidence: List of evidence items you have (e.g. ["project charter", "risk scan", "golden set results"])
         output_format: Response format — "markdown" (default) or "json"
+
+    Next step: call gate_review_intake to formally collect evidence, or get_phase_guidance if all gates are passed.
     """
     if gate not in range(1, 6):
         return format_response(
@@ -496,6 +504,8 @@ def classify_risk(system_description: str, output_format: str = "markdown") -> s
     Args:
         system_description: Free-text description of the AI system to classify
         output_format: Response format — "markdown" (default) or "json"
+
+    Next step: call compliance_checklist for a full compliance check, or get_guidance_for_profile for tailored guidance.
     """
     index = get_index()
 
@@ -553,6 +563,8 @@ def select_collaboration_mode(
         risk_level: Risk level of the use case ("low", "medium", or "high")
         autonomy_needed: Desired level of AI autonomy ("low", "medium", or "high")
         output_format: Response format — "markdown" (default) or "json"
+
+    Next step: call project_setup_charter or project_setup_risk with the selected mode.
     """
     index = get_index()
 
@@ -596,6 +608,8 @@ def lookup_terminology(term: str, output_format: str = "markdown") -> str:
     Args:
         term: The term to look up (e.g. "guardian", "gate review", "golden set")
         output_format: Response format — "markdown" (default) or "json"
+
+    Next step: call answer_question for deeper context about the term.
     """
     index = get_index()
 
@@ -694,6 +708,8 @@ def get_project_type(description: str, output_format: str = "markdown") -> str:
     Args:
         description: Brief description of the AI project
         output_format: Response format — "markdown" (default) or "json"
+
+    Next step: call classify_risk with the project description.
     """
     index = get_index()
 
@@ -1703,6 +1719,8 @@ def get_guidance_for_profile(
         phase: Lifecycle phase 1–5.
         role: Optional role filter (e.g. "Guardian", "Tech Lead").
         output_format: "markdown" (default) or "json".
+
+    Next step: call select_template to find relevant templates for the guidance returned.
     """
     if project_type not in _VALID_PROJECT_TYPES:
         return format_response(
@@ -1976,7 +1994,17 @@ _CONTEXT_SCHEMA: dict = {
 
 @mcp.tool()
 def can_enter_phase(phase: int, completed_gates: list[int], output_format: str = "markdown") -> str:
-    """Check whether a project team can enter a lifecycle phase given completed gates."""
+    """Check whether all required gates are complete before entering a lifecycle phase.
+
+    Use this before calling get_phase_guidance to confirm the team is eligible
+    to proceed. Next step: call get_phase_guidance if can_enter is True, or
+    gate_review_intake to complete missing gates.
+
+    Args:
+        phase: Target phase number (2–5).
+        completed_gates: List of gate numbers the team has already passed.
+        output_format: "markdown" (default) or "json".
+    """
     if phase not in range(1, 6):
         return format_response(
             f"Error: phase must be 1–5, got {phase}",
@@ -2030,7 +2058,16 @@ def can_enter_phase(phase: int, completed_gates: list[int], output_format: str =
 
 @mcp.tool()
 def get_workflow_status(output_format: str = "markdown") -> str:
-    """Return a machine-readable summary of all available multi-step workflows."""
+    """Return an overview of all available MCP workflows and their tool sequences.
+
+    Use this when an agent needs to discover which multi-step workflows exist
+    and what tools each workflow involves. Useful as a starting point before
+    deciding which workflow to follow. Next step: call the first tool of the
+    relevant workflow (e.g. project_setup_intake, gate_review_intake).
+
+    Args:
+        output_format: "markdown" (default) or "json".
+    """
     total_tools = sum(len(w["steps"]) for w in _WORKFLOWS.values())
     lines = ["# Blueprint Workflows\n"]
     for name, wf in _WORKFLOWS.items():
@@ -2060,7 +2097,18 @@ def get_workflow_status(output_format: str = "markdown") -> str:
 
 @mcp.tool()
 def validate_project_context(data: dict, output_format: str = "markdown") -> str:
-    """Validate that a project context dict has enough information to start a workflow."""
+    """Validate that a project context dict has sufficient information to start a workflow.
+
+    Call this before any workflow to surface missing or invalid fields early.
+    The decision data includes a recommended next_tool based on what context
+    is present. Next step: call the tool named in next_tool from the decision data.
+
+    Args:
+        data: Project context dict. Recognised keys: description, project_type
+              (A/B), risk_level (green/amber/red), collaboration_mode (1–5),
+              phase (1–5), gate (1–4).
+        output_format: "markdown" (default) or "json".
+    """
     missing_required: list[str] = []
     invalid_values: dict[str, str] = {}
     suggestions: list[str] = []
@@ -2262,6 +2310,8 @@ def session_start(
         project_type: E.g. "NLP", "CV", "Recommender".
         language: "nl" (default) or "en".
         output_format: "markdown" (default) or "json".
+
+    Next step: pass the returned session_id to session_record_artifact or gate_review_intake.
     """
     store = get_session_store()
     if store is None:
@@ -2298,6 +2348,8 @@ def session_get_state(session_id: str, output_format: str = "markdown") -> str:
     Args:
         session_id: Session ID returned by session_start.
         output_format: "markdown" (default) or "json".
+
+    Next step: use can_enter_phase with the completed_gates list, or gate_review_intake to progress.
     """
     store = get_session_store()
     if store is None:
@@ -2354,6 +2406,8 @@ def session_record_artifact(
         artifact_type: Type of artifact (e.g. "document", "test_result").
         artifact_path: Path or URL of the artifact.
         output_format: "markdown" (default) or "json".
+
+    Next step: call gate_review_intake to include this artifact in a formal gate review.
     """
     store = get_session_store()
     if store is None:
@@ -2400,6 +2454,8 @@ def list_projects(output_format: str = "markdown") -> str:
 
     Args:
         output_format: "markdown" (default) or "json".
+
+    Next step: call session_get_state with a specific session_id to inspect details.
     """
     store = get_session_store()
     if store is None:
