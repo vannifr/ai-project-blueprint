@@ -2432,6 +2432,287 @@ def list_projects(output_format: str = "markdown") -> str:
     )
 
 
+# ─── Tool Cheatsheet ──────────────────────────────────────────────────────────
+
+_TOOL_CHEATSHEET: list[dict] = [
+    # Discovery & search
+    {
+        "name": "answer_question",
+        "category": "search",
+        "when": "User asks a natural language question about the Blueprint",
+        "next": "get_template or get_phase_guidance",
+        "example": "How do I classify the risk of my AI project?",
+    },
+    {
+        "name": "search_content",
+        "category": "search",
+        "when": "Keyword search with optional filters (type, phase, layer, tag)",
+        "next": "answer_question or get_template",
+        "example": "search_content('risk', type='guide', phase=1)",
+    },
+    {
+        "name": "lookup_terminology",
+        "category": "search",
+        "when": "User asks what a term means (gate, guardian, HAS-H, etc.)",
+        "next": "answer_question",
+        "example": "What is a Gate Review?",
+    },
+    # Phase & guidance
+    {
+        "name": "get_phase_guidance",
+        "category": "phase",
+        "when": "User wants objectives / activities / deliverables for a lifecycle phase",
+        "next": "get_template or check_gate_readiness",
+        "example": "What do I need to do in phase 2?",
+    },
+    {
+        "name": "get_guidance_for_profile",
+        "category": "phase",
+        "when": "Tailored guidance based on project type (A/B), risk level, phase, role",
+        "next": "select_template",
+        "example": "get_guidance_for_profile('B', 'amber', 2, role='Guardian')",
+    },
+    {
+        "name": "can_enter_phase",
+        "category": "phase",
+        "when": "Check if a team has completed the required gates to enter a phase",
+        "next": "get_phase_guidance",
+        "example": "can_enter_phase(3, completed_gates=[1, 2])",
+    },
+    {
+        "name": "get_workflow_status",
+        "category": "phase",
+        "when": "Overview of all available MCP workflows and their steps",
+        "next": "any workflow tool",
+        "example": "What workflows are available?",
+    },
+    # Templates
+    {
+        "name": "get_template",
+        "category": "template",
+        "when": "Retrieve a specific template by name",
+        "next": "fill_template",
+        "example": "get_template('gate-review')",
+    },
+    {
+        "name": "get_template_for_context",
+        "category": "template",
+        "when": "Get recommended templates for a role + phase combination",
+        "next": "fill_template",
+        "example": "get_template_for_context('Guardian', 2)",
+    },
+    {
+        "name": "template_advisor",
+        "category": "template",
+        "when": "User describes a need; tool recommends the right template",
+        "next": "get_template or fill_template",
+        "example": "I need to document my risk assessment",
+    },
+    {
+        "name": "select_template",
+        "category": "template",
+        "when": "Keyword-scored template matching by goal, phase, role",
+        "next": "fill_template",
+        "example": "select_template('project charter', phase=1)",
+    },
+    {
+        "name": "list_template_placeholders",
+        "category": "template",
+        "when": "Discover what {{placeholders}} a template contains before filling",
+        "next": "fill_template",
+        "example": "list_template_placeholders('09-sjablonen/...')",
+    },
+    {
+        "name": "fill_template",
+        "category": "template",
+        "when": "Fill {{placeholders}} in a template with project-specific values",
+        "next": "gate_review_intake",
+        "example": "fill_template(path, {'project_name': 'Atlas', 'team': 'Alpha'})",
+    },
+    # Gate review workflow
+    {
+        "name": "gate_review_intake",
+        "category": "gate",
+        "when": "Step 1 of Gate Review — collect and type evidence items",
+        "next": "gate_review_report",
+        "example": "gate_review_intake(1, ['project charter', 'risk scan'])",
+    },
+    {
+        "name": "gate_review_report",
+        "category": "gate",
+        "when": "Step 2 of Gate Review — generate Guardian-ready summary with Go/No-Go",
+        "next": "session_record_artifact",
+        "example": "gate_review_report(1, evidence, gaps)",
+    },
+    {
+        "name": "check_gate_readiness",
+        "category": "gate",
+        "when": "Quick readiness check against gate checklist before formal review",
+        "next": "gate_review_intake",
+        "example": "check_gate_readiness(2, ['risk scan', 'stakeholder sign-off'])",
+    },
+    # Risk & compliance
+    {
+        "name": "classify_risk",
+        "category": "risk",
+        "when": "Classify a project's EU AI Act risk level (prohibited/high/limited/minimal)",
+        "next": "compliance_checklist or get_guidance_for_profile",
+        "example": "classify_risk('A fraud detection model used in credit scoring')",
+    },
+    {
+        "name": "compliance_intake",
+        "category": "risk",
+        "when": "Step 1 of compliance workflow — gather project context for compliance check",
+        "next": "compliance_checklist",
+        "example": "compliance_intake('NLP model for HR screening')",
+    },
+    {
+        "name": "compliance_checklist",
+        "category": "risk",
+        "when": "Step 2 — full compliance checklist based on risk level and phase",
+        "next": "gate_review_intake",
+        "example": "compliance_checklist('high', phase=2)",
+    },
+    # Project setup workflow
+    {
+        "name": "project_setup_intake",
+        "category": "setup",
+        "when": "Step 1 of project setup — capture initial project description",
+        "next": "project_setup_risk",
+        "example": "project_setup_intake('NLP chatbot for customer service')",
+    },
+    {
+        "name": "project_setup_risk",
+        "category": "setup",
+        "when": "Step 2 — classify project risk and collaboration mode",
+        "next": "project_setup_charter",
+        "example": "project_setup_risk(description, answers)",
+    },
+    {
+        "name": "project_setup_charter",
+        "category": "setup",
+        "when": "Step 3 — generate a project charter from intake + risk data",
+        "next": "get_phase_guidance",
+        "example": "project_setup_charter(context)",
+    },
+    # Context & validation
+    {
+        "name": "validate_project_context",
+        "category": "setup",
+        "when": "Validate that a context dict has enough info to start a workflow",
+        "next": "recommended tool from decision data",
+        "example": "validate_project_context({'description': '...', 'project_type': 'A'})",
+    },
+    {
+        "name": "get_project_type",
+        "category": "setup",
+        "when": "Classify project as Type A (predictive) or Type B (generative/agentic)",
+        "next": "classify_risk",
+        "example": "get_project_type('GPT-based document summariser')",
+    },
+    {
+        "name": "select_collaboration_mode",
+        "category": "setup",
+        "when": "Determine HAS-H collaboration level (1=Instrumental … 5=Autonomous)",
+        "next": "project_setup_charter",
+        "example": "select_collaboration_mode('High risk, minimal autonomy')",
+    },
+    # Session & state
+    {
+        "name": "session_start",
+        "category": "session",
+        "when": "Start a persistent workflow session to track gates and artifacts",
+        "next": "any workflow tool with session_id",
+        "example": "session_start('proj-1', 'NLP', 'nl')",
+    },
+    {
+        "name": "session_get_state",
+        "category": "session",
+        "when": "Retrieve current state of an ongoing session",
+        "next": "can_enter_phase or gate_review_intake",
+        "example": "session_get_state(session_id)",
+    },
+    {
+        "name": "session_record_artifact",
+        "category": "session",
+        "when": "Record a completed document or test result in a session",
+        "next": "gate_review_intake",
+        "example": "session_record_artifact(session_id, 'document', 'docs/charter.md')",
+    },
+    {
+        "name": "list_projects",
+        "category": "session",
+        "when": "List all known projects/sessions in the store",
+        "next": "session_get_state",
+        "example": "list_projects()",
+    },
+    # Utility
+    {
+        "name": "get_tool_cheatsheet",
+        "category": "utility",
+        "when": "Agent needs to know which tool to call and when",
+        "next": "any tool listed here",
+        "example": "get_tool_cheatsheet(intent='gate')",
+    },
+    {
+        "name": "reload_content",
+        "category": "utility",
+        "when": "Docs have been updated and the index needs refreshing",
+        "next": "answer_question",
+        "example": "reload_content()",
+    },
+]
+
+
+@mcp.tool()
+def get_tool_cheatsheet(intent: str = "", output_format: str = "markdown") -> str:
+    """Return a structured guide to which tool to call and when.
+
+    Helps agents navigate the 30+ available tools by mapping intents to
+    the right tool, typical next step, and a usage example.
+
+    Args:
+        intent: Optional keyword to filter tools (e.g. "gate", "risk", "template",
+                "search", "session", "phase"). Empty string returns all tools.
+        output_format: "markdown" (default) or "json".
+    """
+    tools = _TOOL_CHEATSHEET
+    if intent:
+        lower = intent.lower()
+        filtered = [
+            t
+            for t in tools
+            if lower in t["category"] or lower in t["name"] or lower in t["when"].lower()
+        ]
+        tools = filtered if filtered else _TOOL_CHEATSHEET  # unknown intent → all
+
+    # Build markdown table
+    lines = ["## Blueprint MCP — Tool Selection Guide\n"]
+    if intent and tools is not _TOOL_CHEATSHEET:
+        lines.append(f"_Filtered by intent: **{intent}**_\n")
+
+    lines.append("| Tool | When to use | Typical next tool |")
+    lines.append("|---|---|---|")
+    for t in tools:
+        lines.append(f"| `{t['name']}` | {t['when']} | `{t['next']}` |")
+
+    lines.append("\n### Usage examples\n")
+    for t in tools[:8]:
+        lines.append(f"- **`{t['name']}`**: `{t['example']}`")
+
+    markdown = "\n".join(lines)
+    return format_response(
+        markdown,
+        build_decision(
+            "get_tool_cheatsheet",
+            DecisionStatus.OK,
+            "Use the table above to select the right tool for your intent.",
+            {"intent": intent or "all", "tools": tools, "tool_count": len(tools)},
+        ),
+        output_format,
+    )
+
+
 # ─── Resources ────────────────────────────────────────────────────────────────
 
 
