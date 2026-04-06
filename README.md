@@ -93,6 +93,45 @@ claude mcp add blueprint --transport http https://ai-delivery.io/mcp
 
 Call `get_tool_cheatsheet()` for a structured overview of all 31 tools and when to use each one.
 
+### Local Demo
+
+Run a live demonstration of 9 MCP tool capabilities without a running server:
+
+```bash
+PYTHONPATH=mcp_server/src python scripts/demo.py
+```
+
+Output covers:
+
+| #   | Capability             | Example                                               |
+| --- | ---------------------- | ----------------------------------------------------- |
+| 1   | Content index boot     | 153 docs in ~0.1s                                     |
+| 2   | Health snapshot        | status, version, doc_count                            |
+| 3   | `answer_question`      | "Welke documenten moet ik aanleveren voor Gate 2?"    |
+| 4   | `check_gate_readiness` | Gate 2 with 3 evidence items                          |
+| 5   | `classify_risk`        | Credit scoring system → EU AI Act risk level          |
+| 6   | `gate_review_intake`   | Gate 3 with 4 evidence items + gap analysis           |
+| 7   | `compliance_checklist` | High-risk EU AI Act checklist with article references |
+| 8   | `get_workflow_status`  | All guided workflows and step sequences               |
+| 9   | `get_tool_cheatsheet`  | Filtered tool guide (e.g. intent: "gate review")      |
+
+### Retrieval Quality
+
+The search index is validated against a 40-question goldset (8 categories, NL + EN):
+
+```bash
+PYTHONPATH=mcp_server/src python scripts/eval_retrieval.py
+```
+
+| Metric       | Score  |
+| ------------ | ------ |
+| Precision@1  | 1.000  |
+| Precision@3  | 1.000  |
+| MRR          | 1.000  |
+| CI threshold | ≥ 0.95 |
+
+The CI pipeline enforces this threshold on every push. A delta report is shown against the saved baseline (`scripts/eval_baseline.json`).
+
 ## Deploy
 
 Initial setup on a Debian VPS with Docker + nginx:
