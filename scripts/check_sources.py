@@ -39,18 +39,45 @@ except ImportError:
 # ── Constants ─────────────────────────────────────────────────────────────────
 
 DOCS_ROOT = Path(__file__).resolve().parent.parent / "docs"
+REGISTRY_PATH = Path(__file__).resolve().parent / "sources_registry.yml"
 TODAY = date.today()
 
 # Source types that must carry a `sources:` block
 REQUIRED_SOURCE_TYPES = {"compliance", "playbook"}
 
-# Authoritative source registry — maps id → EUR-Lex CELEX or canonical URL
+# Inline citation pattern — matches [so-27], [so-1], etc.
+RE_CITATION = re.compile(r"\[so-(\d+)\]")
+
+REQUIRED_SOURCE_FIELDS = {"id", "ref", "url", "date_verified", "next_review"}
+
+
+# ── Registry loader ────────────────────────────────────────────────────────────
+
+
+def load_registry() -> dict[str, dict]:
+    """Load scripts/sources_registry.yml and return a dict keyed by id (e.g. 'so-27')."""
+    if not REGISTRY_PATH.exists():
+        return {}
+    try:
+        data = yaml.safe_load(REGISTRY_PATH.read_text(encoding="utf-8")) or {}
+    except yaml.YAMLError as exc:
+        print(f"ERROR: Could not parse sources_registry.yml: {exc}", file=sys.stderr)
+        return {}
+    registry: dict[str, dict] = {}
+    for entry in data.get("sources", []):
+        if isinstance(entry, dict) and "id" in entry:
+            registry[entry["id"]] = entry
+    return registry
+
+
+# Authoritative source registry — maps frontmatter source id → EUR-Lex CELEX
+# (used for remote EUR-Lex checks; separate from the [so-XX] citation registry)
 KNOWN_SOURCES: dict[str, dict] = {
     "eu-ai-act": {
         "celex": "32024R1689",
         "title": "EU AI Act (Verordening (EU) 2024/1689)",
         "eurlex_url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689",
-        "oj_date": "2024-07-12",  # Official Journal publication date (fixed)
+        "oj_date": "2024-07-12",
     },
     "hleg-ethics": {
         "title": "HLEG Ethics Guidelines for Trustworthy AI",
@@ -71,8 +98,6 @@ KNOWN_SOURCES: dict[str, dict] = {
         "oj_date": None,
     },
 }
-
-REQUIRED_SOURCE_FIELDS = {"id", "ref", "url", "date_verified", "next_review"}
 
 
 # ── Issue dataclass ───────────────────────────────────────────────────────────
@@ -231,6 +256,63 @@ def run_local_checks() -> list[Issue]:
         if path.name.endswith(".en.md"):
             continue  # EN files mirror NL — only check NL side
         issues.extend(check_doc(path))
+    return issues
+
+
+def run_citation_checks(registry: dict[str, dict]) -> list[Issue]:
+    """Scan all NL doc bodies for [so-XX] citations and validate against the registry.
+
+    Every [so-XX] reference in a document body must have a matching entry in
+    scripts/sources_registry.yml. Missing entries are reported as errors.
+    """
+    issues: list[Issue] = []
+    if not registry:
+        issues.append(
+            Issue(
+                "sources_registry.yml",
+                "-",
+                "error",
+                "Registry is empty or missing — run: scripts/sources_registry.yml",
+            )
+        )
+        return issues
+
+    for path in sorted(DOCS_ROOT.rglob("*.md")):
+        if path.name.endswith(".en.md"):
+            continue
+        rel = str(path.relative_to(DOCS_ROOT))
+        text = path.read_text(encoding="utf-8")
+        for match in RE_CITATION.finditer(text):
+            citation_id = f"so-{match.group(1)}"
+            if citation_id not in registry:
+                issues.append(
+                    Issue(
+                        rel,
+                        citation_id,
+                        "error",
+                        f"[{citation_id}] cited in text but not found in scripts/sources_registry.yml",
+                    )
+                )
+            else:
+                entry = registry[citation_id]
+                # Warn if next_review is overdue for cited sources
+                next_review_raw = entry.get("next_review")
+                if next_review_raw:
+                    try:
+                        next_review = datetime.strptime(str(next_review_raw), "%Y-%m-%d").date()
+                        days_overdue = (TODAY - next_review).days
+                        if days_overdue > 0:
+                            issues.append(
+                                Issue(
+                                    rel,
+                                    citation_id,
+                                    "warning",
+                                    f"cited [{citation_id}] has overdue review by {days_overdue} day(s) "
+                                    f"(next_review: {next_review_raw})",
+                                )
+                            )
+                    except ValueError:
+                        pass
     return issues
 
 
@@ -474,8 +556,14 @@ def main():
     parser.add_argument("--json", action="store_true", help="Output structured JSON")
     args = parser.parse_args()
 
+    registry = load_registry()
+    print(f"Loaded registry: {len(registry)} entries from sources_registry.yml", file=sys.stderr)
+
     print("Scanning docs for source metadata …", file=sys.stderr)
     all_issues = run_local_checks()
+
+    print("Validating inline [so-XX] citations …", file=sys.stderr)
+    all_issues.extend(run_citation_checks(registry))
 
     if args.remote:
         print("Running remote EUR-Lex checks …", file=sys.stderr)

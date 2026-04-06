@@ -1,0 +1,189 @@
+# Blueprint Source Registry
+# Single source of truth for all [so-XX] citation identifiers.
+#
+# Rules:
+#   - id must be stable and never reused after removal
+#   - url should point to the canonical/official document
+#   - status: Definitief | Actief | Gepubliceerd | Public Draft | Preprint | Ingetrokken
+#   - type: regulation | standard | framework | research | report | guideline
+#   - next_review: date by which the entry should be re-verified (YYYY-MM-DD)
+#
+# Used by:
+#   - scripts/check_sources.py  (citation validation)
+#   - mcp_server list_sources() (agent-accessible registry)
+#   - docs/16-bronnen/index.md  (human-readable registry page)
+
+sources:
+  - id: so-1
+    title: "NIST IR 8605 — A Framework for Managing Risks of Generative AI"
+    url: "https://airc.nist.gov/Docs/1"
+    status: Public Draft
+    type: framework
+    publisher: NIST
+    date_verified: "2025-03-20"
+    next_review: "2026-06-01"
+    notes: "Public draft; final publication expected in 2025/2026."
+
+  - id: so-10
+    title: "arXiv:2505.10924 — Man-in-the-Middle Attacks on LLM-based Agents"
+    url: "https://arxiv.org/abs/2505.10924"
+    status: Preprint
+    type: research
+    publisher: arXiv
+    date_verified: "2025-05-20"
+    next_review: "2026-05-20"
+    notes: "Preprint; not peer-reviewed. Monitor for journal publication."
+
+  - id: so-27
+    title: "EU AI Act — Verordening (EU) 2024/1689"
+    url: "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689"
+    status: Definitief
+    type: regulation
+    publisher: Europese Unie
+    celex: "32024R1689"
+    date_verified: "2026-04-06"
+    next_review: "2027-01-01"
+    notes: "Gefaseerde inwerkingtreding: aug 2024 (verboden), aug 2025 (GPAI), aug 2026 (hoog-risico systemen). Verordening zelf ongewijzigd."
+
+  - id: so-28
+    title: "DORA GenAI Report v2025.2"
+    url: "https://dora.dev/research/ai/"
+    status: Gepubliceerd
+    type: report
+    publisher: DORA / Google Cloud
+    date_verified: "2026-04-06"
+    next_review: "2027-03-01"
+    notes: "Jaarlijks rapport; controleer op nieuwe editie. Versie 2025.2 nog actueel per april 2026."
+
+  - id: so-36
+    title: "EU AI Act — Gefaseerde Inwerkingtreding & Deadlines"
+    url: "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024R1689#d1e6226-1-1"
+    status: Actief
+    type: regulation
+    publisher: Europese Unie
+    celex: "32024R1689"
+    date_verified: "2025-03-20"
+    next_review: "2026-01-01"
+    notes: "Verwijst naar implementatie-artikelen van dezelfde verordening als so-27."
+
+  - id: so-40
+    title: "Intrekking AI Liability Directive (AILD) — OJ EU, oktober 2025"
+    url: "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=COM:2022:0496:FIN"
+    status: Ingetrokken
+    type: regulation
+    publisher: Europese Commissie
+    date_verified: "2025-10-15"
+    next_review: "2026-06-01"
+    notes: "Officieel ingetrokken door de Commissie in oktober 2025. Aansprakelijkheid valt nu onder herziene PLD (so-41)."
+
+  - id: so-41
+    title: "Richtlijn (EU) 2024/2853 — Herziene Product Liability Directive (PLD)"
+    url: "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024L2853"
+    status: Definitief
+    type: regulation
+    publisher: Europese Unie
+    celex: "32024L2853"
+    date_verified: "2025-03-20"
+    next_review: "2026-06-01"
+    notes: "Inwerkingtreding 8 december 2024; omzettingstermijn 2 jaar. Dekt software en AI-systemen."
+
+  - id: so-42
+    title: "OWASP Top 10 for LLM Applications (2025)"
+    url: "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+    status: Gepubliceerd
+    type: guideline
+    publisher: OWASP
+    date_verified: "2025-03-20"
+    next_review: "2026-03-01"
+    notes: "Jaarlijks herzien door OWASP LLM werkgroep."
+
+  - id: so-43
+    title: "OWASP / Security Research — Deceptive Delight & HashJack (2025)"
+    url: "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+    status: Gepubliceerd
+    type: research
+    publisher: OWASP
+    date_verified: "2025-03-20"
+    next_review: "2026-03-01"
+    notes: "Nieuwe aanvalspatronen: multi-turn manipulatie (Deceptive Delight) en URL-fragment prompt-injectie (HashJack)."
+
+  - id: so-44
+    title: "Context Management — Industry Analysis (2025)"
+    url: null
+    status: Gepubliceerd
+    type: report
+    publisher: Diverse industrie-analyses
+    date_verified: "2025-03-20"
+    next_review: "2026-03-01"
+    notes: "Samengestelde industrieanalyse; geen enkele canonieke URL. Monitor vakpers voor updates."
+
+  - id: so-45
+    title: "ISACA — AAISM Certificering (aug 2025)"
+    url: "https://www.isaca.org/credentialing/certificates/advanced-in-ai-security-management"
+    status: Definitief
+    type: standard
+    publisher: ISACA
+    date_verified: "2025-08-01"
+    next_review: "2027-01-01"
+    notes: "Eerste AI-beveiligingsmanagementkwalificatie van ISACA."
+
+  - id: so-46
+    title: "Workday — AI Productivity Research (2025)"
+    url: "https://www.workday.com/en-us/resources/ai-iq.html"
+    status: Gepubliceerd
+    type: report
+    publisher: Workday
+    date_verified: "2025-03-20"
+    next_review: "2026-03-01"
+    notes: "GAINS™ ROI-raamwerk; controleer op nieuwe editie van het jaarlijkse rapport."
+
+  - id: so-47
+    title: "Cornell University — Carbon-Aware AI (2025)"
+    url: "https://arxiv.org/abs/2501.04961"
+    status: Gepubliceerd
+    type: research
+    publisher: Cornell University
+    date_verified: "2025-03-20"
+    next_review: "2026-06-01"
+    notes: "Smart siting en grid-decarbonisatie verminderen CO₂-voetafdruk AI met 73%, water met 86%."
+
+  - id: so-48
+    title: "IEA — Electricity 2025 Report (Datacenter & AI Energy)"
+    url: "https://www.iea.org/reports/electricity-2025"
+    status: Gepubliceerd
+    type: report
+    publisher: International Energy Agency
+    date_verified: "2025-03-20"
+    next_review: "2026-03-01"
+    notes: "Energieverbruik datacenters en AI-projecties tot 2030."
+
+  - id: so-49
+    title: "Verordening (EU) 2016/679 — AVG/GDPR"
+    url: "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32016R0679"
+    status: Definitief
+    type: regulation
+    publisher: Europese Unie
+    celex: "32016R0679"
+    date_verified: "2025-03-20"
+    next_review: "2027-01-01"
+    notes: "Rechtstreeks van toepassing in alle EU-lidstaten. Monitor EDPB-richtlijnen voor interpretatie."
+
+  - id: so-50
+    title: "NIST AI 100-1 — AI Risk Management Framework (RMF) 1.0"
+    url: "https://doi.org/10.6028/NIST.AI.100-1"
+    status: Definitief
+    type: framework
+    publisher: NIST
+    date_verified: "2025-03-20"
+    next_review: "2027-01-01"
+    notes: "Vier kernfuncties: Govern, Map, Measure, Manage. Monitor NIST voor versie 2.0."
+
+  - id: so-51
+    title: "AI Production Surveys — Gartner, VentureBeat, S&P Global (2019–2024)"
+    url: null
+    status: Gepubliceerd
+    type: report
+    publisher: Meerdere (Gartner / VentureBeat / S&P Global)
+    date_verified: "2025-03-20"
+    next_review: "2026-03-01"
+    notes: "Samengestelde benchmark voor AI-productie-faalpercentages (30–85%). Geen enkele canonieke URL; verwijs naar primaire rapporten per uitgever."

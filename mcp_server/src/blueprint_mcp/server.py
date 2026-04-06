@@ -2949,20 +2949,47 @@ def list_sources(topic: str = "", output_format: str = "markdown") -> str:
     """
     index = get_index()
 
-    # ── 1. Registry page (docs/16-bronnen/index.md) ──────────────────────────
-    registry_doc = index.by_path.get("16-bronnen/index.md") or index.by_path.get(
-        "16-bronnen/index.en.md"
-    )
-    registry_text = registry_doc.body if registry_doc else ""
+    # ── 0. Load YAML citation registry (scripts/sources_registry.yml) ─────────
+    registry_yml = DOCS_ROOT.parent / "scripts" / "sources_registry.yml"
+    yaml_entries: list[dict] = []
+    if registry_yml.exists():
+        try:
+            import yaml as _yaml
 
-    # ── 2. Per-doc structured sources ────────────────────────────────────────
+            raw = _yaml.safe_load(registry_yml.read_text(encoding="utf-8")) or {}
+            yaml_entries = raw.get("sources", [])
+        except Exception:
+            yaml_entries = []
+
+    # Apply topic filter to YAML entries
+    if topic:
+        topic_l = topic.lower().replace("-", " ")  # normalise hyphens → spaces
+
+        def _matches_entry(e: dict) -> bool:
+            haystack = (
+                " ".join(
+                    [
+                        e.get("id", ""),
+                        e.get("title", ""),
+                        e.get("type", ""),
+                        e.get("publisher") or "",
+                        e.get("notes") or "",
+                    ]
+                )
+                .lower()
+                .replace("-", " ")
+            )
+            return topic_l in haystack
+
+        yaml_entries = [e for e in yaml_entries if _matches_entry(e)]
+
+    # ── 1. Per-doc structured sources (frontmatter sources: blocks) ───────────
     doc_sources: list[dict] = []
     for doc in index.docs:
         sources = _parse_doc_sources(doc.path)
         if not sources:
             continue
         if topic:
-            # filter: topic must appear in source ref/id or doc tags
             topic_l = topic.lower()
             tags_match = any(topic_l in t.lower() for t in doc.tags)
             sources_match = any(
@@ -2980,23 +3007,12 @@ def list_sources(topic: str = "", output_format: str = "markdown") -> str:
             }
         )
 
-    # ── 3. Registry filter (topic keyword in registry text) ──────────────────
-    if topic and registry_text:
-        # Keep only lines/paragraphs that mention the topic
-        topic_l = topic.lower()
-        filtered_lines = [
-            line
-            for line in registry_text.splitlines()
-            if topic_l in line.lower() or line.startswith("#")
-        ]
-        registry_text = "\n".join(filtered_lines)
-
     if output_format == "json":
         import json as _json
 
         payload = {
             "topic_filter": topic or None,
-            "registry_available": registry_doc is not None,
+            "citation_registry": yaml_entries,
             "structured_source_docs": doc_sources,
         }
         return format_response(
@@ -3013,9 +3029,16 @@ def list_sources(topic: str = "", output_format: str = "markdown") -> str:
     # Markdown output
     sections = []
 
-    if registry_text:
-        heading = f"## Source Registry{f' — filtered by: {topic}' if topic else ''}\n\n"
-        sections.append(heading + registry_text)
+    if yaml_entries:
+        heading = f"## Citation Registry [{len(yaml_entries)} entries]{f' — filtered: {topic}' if topic else ''}\n\n"
+        rows = ["| ID | Title | Type | Status | URL |", "|---|---|---|---|---|"]
+        for e in yaml_entries:
+            url = e.get("url") or ""
+            url_cell = f"[link]({url})" if url else "—"
+            rows.append(
+                f"| `{e['id']}` | {e.get('title', '?')} | {e.get('type', '?')} | {e.get('status', '?')} | {url_cell} |"
+            )
+        sections.append(heading + "\n".join(rows))
 
     if doc_sources:
         lines = [f"## Documents with structured sources ({len(doc_sources)})\n"]
@@ -3041,9 +3064,7 @@ def list_sources(topic: str = "", output_format: str = "markdown") -> str:
     else:
         body = "\n\n---\n\n".join(sections)
         status = DecisionStatus.OK
-        guidance = (
-            "Use answer_question() to retrieve pages — source metadata is included automatically."
-        )
+        guidance = "Use answer_question() — sources are appended automatically when the top result has source metadata."
 
     return format_response(
         body,
@@ -3051,7 +3072,11 @@ def list_sources(topic: str = "", output_format: str = "markdown") -> str:
             "list_sources",
             status,
             guidance,
-            {"topic_filter": topic or None, "structured_docs": len(doc_sources)},
+            {
+                "topic_filter": topic or None,
+                "registry_entries": len(yaml_entries),
+                "structured_docs": len(doc_sources),
+            },
         ),
         output_format,
     )
