@@ -74,6 +74,9 @@ jobs:
         env:
           PYTHONPATH: mcp_server/src
 
+      - name: Check source currency
+        run: python3 scripts/check_sources.py
+
       - name: Validate Documentation Quality
         run: python3 scripts/validate_docs.py
 

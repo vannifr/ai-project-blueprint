@@ -19,6 +19,7 @@ Resources:
 """
 
 import os
+import re
 from contextlib import asynccontextmanager
 from pathlib import Path
 
@@ -168,6 +169,67 @@ async def health_check(request: Request) -> JSONResponse:
     )
 
 
+_RE_FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---\s*\n?", re.DOTALL)
+
+
+_RE_SOURCES_BLOCK = re.compile(r"\nsources:\n((?:[ \t]+.+\n?)+)", re.MULTILINE)
+
+
+def _parse_doc_sources(path: str) -> list[dict]:
+    """Extract the `sources:` block from a doc's frontmatter. Returns [] if none.
+
+    Parses only the sources block (not the full frontmatter) to avoid YAML
+    parse errors caused by unquoted question marks in the `answers:` field.
+    """
+    try:
+        import yaml  # optional — only needed for source-enriched docs
+    except ImportError:
+        return []
+    full_path = DOCS_ROOT / path
+    if not full_path.exists():
+        return []
+    text = full_path.read_text(encoding="utf-8")
+    m = _RE_FRONTMATTER.match(text)
+    if not m:
+        return []
+    raw_fm = m.group(1)
+    # Extract only the sources: block (list of indented entries)
+    s = _RE_SOURCES_BLOCK.search("\n" + raw_fm)
+    if not s:
+        return []
+    sources_yaml = "sources:\n" + s.group(1)
+    try:
+        parsed = yaml.safe_load(sources_yaml) or {}
+    except yaml.YAMLError:
+        return []
+    sources = parsed.get("sources", [])
+    return sources if isinstance(sources, list) else []
+
+
+def _format_sources_section(sources: list[dict]) -> str:
+    """Render a list of source dicts as a markdown section."""
+    if not sources:
+        return ""
+    lines = ["## Sources\n"]
+    for s in sources:
+        ref = s.get("ref", s.get("id", "?"))
+        url = s.get("url", "")
+        verified = s.get("date_verified", "")
+        next_review = s.get("next_review", "")
+        notes = s.get("notes", "")
+        link = f"[{ref}]({url})" if url else ref
+        meta = []
+        if verified:
+            meta.append(f"verified: {verified}")
+        if next_review:
+            meta.append(f"next review: {next_review}")
+        meta_str = f" _{', '.join(meta)}_" if meta else ""
+        lines.append(f"- {link}{meta_str}")
+        if notes:
+            lines.append(f"  > {notes}")
+    return "\n".join(lines)
+
+
 def _format_doc_summary(doc) -> str:
     """Format a document as a brief summary line."""
     phases = ", ".join(str(p) for p in doc.phases)
@@ -252,6 +314,11 @@ def answer_question(question: str, output_format: str = "markdown") -> str:
         sections.append("\n".join(lines))
 
     markdown = "\n\n---\n\n".join(sections)
+
+    # Sources enrichment — append source metadata when the top doc has sources:
+    top_sources = _parse_doc_sources(top.path)
+    if top_sources:
+        markdown += "\n\n---\n\n" + _format_sources_section(top_sources)
 
     # Glossary enrichment — append definitions for terms found in the answer
     glossary = get_glossary_index()
@@ -2863,6 +2930,131 @@ def get_phase_overview(phase_id: str) -> str:
     }
     name = phase_names.get(phase, f"Phase {phase}")
     return f"# Phase {phase}: {name} — Complete Overview\n\n" + "\n\n---\n\n".join(sections)
+
+
+@mcp.tool()
+def list_sources(topic: str = "", output_format: str = "markdown") -> str:
+    """List all authoritative sources used in the Blueprint.
+
+    Returns the full source registry (docs/16-bronnen/index.md) plus a
+    per-document breakdown of which pages carry structured `sources:` metadata.
+
+    Args:
+        topic: Optional filter keyword — e.g. "eu-ai-act", "privacy", "mlops", "ethics".
+               Filters both the registry page and the per-doc source list.
+        output_format: "markdown" (default) or "json"
+
+    Next step: use answer_question to find pages on a topic — sources will be
+    included automatically when the top result has structured source metadata.
+    """
+    index = get_index()
+
+    # ── 1. Registry page (docs/16-bronnen/index.md) ──────────────────────────
+    registry_doc = index.by_path.get("16-bronnen/index.md") or index.by_path.get(
+        "16-bronnen/index.en.md"
+    )
+    registry_text = registry_doc.body if registry_doc else ""
+
+    # ── 2. Per-doc structured sources ────────────────────────────────────────
+    doc_sources: list[dict] = []
+    for doc in index.docs:
+        sources = _parse_doc_sources(doc.path)
+        if not sources:
+            continue
+        if topic:
+            # filter: topic must appear in source ref/id or doc tags
+            topic_l = topic.lower()
+            tags_match = any(topic_l in t.lower() for t in doc.tags)
+            sources_match = any(
+                topic_l in s.get("ref", "").lower() or topic_l in s.get("id", "").lower()
+                for s in sources
+            )
+            if not tags_match and not sources_match:
+                continue
+        doc_sources.append(
+            {
+                "doc": doc.path,
+                "title": doc.title,
+                "type": doc.type,
+                "sources": sources,
+            }
+        )
+
+    # ── 3. Registry filter (topic keyword in registry text) ──────────────────
+    if topic and registry_text:
+        # Keep only lines/paragraphs that mention the topic
+        topic_l = topic.lower()
+        filtered_lines = [
+            line
+            for line in registry_text.splitlines()
+            if topic_l in line.lower() or line.startswith("#")
+        ]
+        registry_text = "\n".join(filtered_lines)
+
+    if output_format == "json":
+        import json as _json
+
+        payload = {
+            "topic_filter": topic or None,
+            "registry_available": registry_doc is not None,
+            "structured_source_docs": doc_sources,
+        }
+        return format_response(
+            _json.dumps(payload, ensure_ascii=False, indent=2),
+            build_decision(
+                "list_sources",
+                DecisionStatus.OK,
+                "Use the structured_source_docs list to trace claims to regulatory sources.",
+                {"doc_count": len(doc_sources)},
+            ),
+            output_format,
+        )
+
+    # Markdown output
+    sections = []
+
+    if registry_text:
+        heading = f"## Source Registry{f' — filtered by: {topic}' if topic else ''}\n\n"
+        sections.append(heading + registry_text)
+
+    if doc_sources:
+        lines = [f"## Documents with structured sources ({len(doc_sources)})\n"]
+        for entry in doc_sources:
+            lines.append(f"### {entry['title']} (`{entry['doc']}`)\n")
+            for s in entry["sources"]:
+                ref = s.get("ref", s.get("id", "?"))
+                url = s.get("url", "")
+                verified = s.get("date_verified", "?")
+                next_rev = s.get("next_review", "?")
+                link = f"[{ref}]({url})" if url else ref
+                lines.append(f"- {link}")
+                lines.append(f"  - verified: {verified} · next review: {next_rev}")
+                if s.get("notes"):
+                    lines.append(f"  - _{s['notes']}_")
+            lines.append("")
+        sections.append("\n".join(lines))
+
+    if not sections:
+        body = f"No sources found{f' matching topic: {topic!r}' if topic else ''}."
+        status = DecisionStatus.NOT_FOUND
+        guidance = "Try a broader topic keyword, or call list_sources() without a filter."
+    else:
+        body = "\n\n---\n\n".join(sections)
+        status = DecisionStatus.OK
+        guidance = (
+            "Use answer_question() to retrieve pages — source metadata is included automatically."
+        )
+
+    return format_response(
+        body,
+        build_decision(
+            "list_sources",
+            status,
+            guidance,
+            {"topic_filter": topic or None, "structured_docs": len(doc_sources)},
+        ),
+        output_format,
+    )
 
 
 @mcp.resource("blueprint://glossary")
